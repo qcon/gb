@@ -1,0 +1,48 @@
+---
+layout: default
+---
+<script>
+postName = "{{page.id}}";
+if (!localStorage.getItem(postName)) {
+	localStorage.setItem(postName, Date());
+}
+</script>
+<div class="width--wrapper" id="post--list__container">
+	<article class="post--content">
+    	{{ content }}
+	</article>
+	<div class="post--sharing">
+		<h4>Zeige anderen diesen Beitrag:</h4>
+		<a href="https://facebook.com/sharer/sharer.php?u={{ page.url | prepend: site.url}}" target="_blank" class="share--facebook">Facebook</a>
+		<a href="https://twitter.com/home?status={{ page.url | prepend: site.url}}" target="_blank" class="share--twitter">Twitter</a>
+		<a href="https://plus.google.com/share?url={{ page.url | prepend: site.url}}" target="_blank" class="share--gplus">Google+</a>
+
+		{% capture pdfUrl %}{{ '/pdf'}}{{ page.url }}{{ '.pdf' }}{% endcapture %}
+		<a href="{{ pdfUrl }}" class="share--pdf" alt="Diesen Artikel als PDF herunterladen" title="Diesen Artikel als PDF herunterladen">PDF</a>
+
+	</div>
+	<div class="post--prev-next">
+  	{% if page.previous.url %} 
+	  	<span class="prev">
+	    	<a class="post--prev" href="{{page.previous.url}}" alt="Vorheriger Artikel: {{page.previous.title}}">« {{page.previous.title}}<span class="prevnext--img" style="background: url('{% if page.previous.head__img--fullurl %}
+	    	{{page.previous.head__img--fullurl}}
+	    	{% else %}
+	    	{{page.previous.head__img | prepend: site.url }}
+	    	{% endif %}') 50% 50% no-repeat; background-size:cover"></span></a>
+		</span>
+  	{% endif %} 
+  	{% if page.next.url %} 
+  		<span class="next"><a class="post--next" href="{{page.next.url}}" alt="Nächster Artikel: {{page.next.title}}">{{page.next.title}} »<span class="prevnext--img" style="background: url('{% if page.next.head__img--fullurl %}
+  		{{page.next.head__img--fullurl}}
+  		{% else %}
+  		{{page.next.head__img | prepend: site.url }}
+  		{% endif %}') 50% 50% no-repeat; background-size:cover"></a></span></span>
+  	{% endif %} 
+	</div>
+
+	{% if page.comments_block %}
+ 	
+ 	{% else %}
+ 		{% include comment.html %}
+  	{% endif %}
+</div>

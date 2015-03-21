@@ -1,0 +1,103 @@
+.hidden {
+  opacity:0;
+}
+.progressBar--wrapper {
+  width: 90%;
+  margin: 0 auto;
+}
+#progressBar {
+  width:5%;
+  height:5px;
+  margin-top:10px;
+  background:$blau;
+  display: none;
+  transition: 100ms;
+  @include materialShadow(1);
+}
+#loading {
+   margin:2em auto;
+  text-align:center;
+  display:none;
+  @include font(light);
+  font-size:1.5em;
+}
+.spinner {
+ margin:2em auto;
+  text-align:center;
+  width: 45px;
+  height: 45px;
+  
+  border-top: 2px solid $blau;
+  border-bottom: 2px solid $blau;
+  border-right:2px solid #fff;
+  border-left:2px solid #fff;
+  
+  border-radius:50%;
+  
+  animation: loadspin 1.7s infinite;
+}
+@keyframes loadspin {
+  50% {
+    border-top: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    border-right:2px solid $blau;
+    border-left:2px solid $blau;
+    transform:rotate(360deg) scale(.8);
+  }
+}
+.rot45deg {
+  transform:rotate(45deg);
+  background:red !important;
+  top:10px !important;
+}
+.rot-45deg {
+  transform:rotate(-45deg);
+  background:red !important;
+}
+.maxheight {
+  max-height:100%;
+}
+.scaleIn {
+    transition:.15s;
+  transform:scale(1) !important;
+}
+.scaleOut {
+    transition:.15s;
+  transform:scale(0) !important;
+}
+.opacity-0 {
+    opacity:0;
+    transition:.25s;
+}
+.is-viewed {
+    opacity:.7;
+    &:hover {
+    	opacity:1;
+    }
+}
+.mischungsDelay {
+    transition:450ms cubic-bezier(.55,0,.1,1);
+}
+#loadmoreajax {
+    display:none;
+}
+.displayNone {
+    position: absolute; visibility: hidden;
+    opacity: 0;
+    //transform:scale(0) translate(0, 450px);
+    transform:scale(.5) rotate(15deg);
+
+}
+
+
+
+//////////////
+.btnanim {
+  animation: btnanim 250ms linear;
+}
+@keyframes btnanim {
+  100% {
+    opacity: 0;
+    transform: scale(2.5);
+  }
+}

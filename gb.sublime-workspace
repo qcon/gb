@@ -1,0 +1,2015 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"func",
+				"func"
+			],
+			[
+				"proto",
+				"prototype"
+			],
+			[
+				"for",
+				"forEach"
+			],
+			[
+				"showde",
+				"showDelay"
+			],
+			[
+				"add",
+				"addClass"
+			],
+			[
+				"ma",
+				"maxPostReload"
+			],
+			[
+				"rem",
+				"removeClass"
+			],
+			[
+				"postli",
+				"postListLI"
+			],
+			[
+				"max",
+				"maxIndexPosts"
+			],
+			[
+				"re",
+				"registerTask"
+			],
+			[
+				"new",
+				"newUrl"
+			],
+			[
+				"progr",
+				"progressBar"
+			],
+			[
+				"local",
+				"localStorageContainer"
+			],
+			[
+				"loca",
+				"localStorage"
+			],
+			[
+				"continn",
+				"contOverlayInner"
+			],
+			[
+				"display",
+				"displayNone"
+			],
+			[
+				"disp",
+				"displayNone"
+			],
+			[
+				"loadmore",
+				"loadmoreButton"
+			],
+			[
+				"text",
+				"textContent"
+			],
+			[
+				"opac",
+				"opacity-0"
+			],
+			[
+				"poscon",
+				"postContainer"
+			],
+			[
+				"che",
+				"checked"
+			],
+			[
+				"check",
+				"checkbox"
+			],
+			[
+				"class",
+				"className"
+			],
+			[
+				"return",
+				"returnNode"
+			],
+			[
+				"get",
+				"getElements"
+			],
+			[
+				"el",
+				"elSelector"
+			],
+			[
+				"els",
+				"elSplit"
+			],
+			[
+				"co",
+				"contImage"
+			],
+			[
+				"er",
+				"ergebnis"
+			],
+			[
+				"bre",
+				"breadbottom"
+			],
+			[
+				"cla",
+				"className"
+			],
+			[
+				"han",
+				"handleElement"
+			],
+			[
+				"cont",
+				"contOverlay"
+			],
+			[
+				"kontakt",
+				"kontaktFormOffset"
+			],
+			[
+				"kont",
+				"kontaktMessage"
+			],
+			[
+				"konta",
+				"kontaktMessageError"
+			],
+			[
+				"kontaktNa",
+				"kontaktNachricht"
+			],
+			[
+				"kontaktN",
+				"kontaktName"
+			],
+			[
+				"konts",
+				"kontaktSubmit"
+			],
+			[
+				"kontaktm",
+				"kontaktMessage"
+			],
+			[
+				"kon",
+				"kontaktMail"
+			],
+			[
+				"ko",
+				"kontaktSenden"
+			],
+			[
+				"doc",
+				"docHeight"
+			],
+			[
+				"flasc",
+				"flascheVal"
+			],
+			[
+				"erg",
+				"ergebnisML"
+			],
+			[
+				"con",
+				"contOverlay"
+			],
+			[
+				"li",
+				"linklist"
+			],
+			[
+				"getDoc",
+				"getDocWidth"
+			],
+			[
+				"hambu",
+				"hamburgerToggle"
+			],
+			[
+				"bread",
+				"breadtop"
+			],
+			[
+				"toggleM",
+				"toggleMenuBox"
+			],
+			[
+				"po",
+				"postName"
+			],
+			[
+				"contO",
+				"contOverlayInner"
+			],
+			[
+				"da",
+				"getDataDB"
+			],
+			[
+				"pos",
+				"postsToLoad"
+			],
+			[
+				"te",
+				"tempFindIndex"
+			],
+			[
+				"posts",
+				"postsToLoad"
+			],
+			[
+				"post-l",
+				"post--list"
+			],
+			[
+				"a",
+				"appendTo"
+			],
+			[
+				"post",
+				"post-link"
+			],
+			[
+				"scroll",
+				"scrollPosition"
+			],
+			[
+				"aja",
+				"ajaxDataCounter"
+			],
+			[
+				"like",
+				"likeButton"
+			],
+			[
+				"form",
+				"formData"
+			],
+			[
+				"slice",
+				"slicelikeUrl"
+			],
+			[
+				"sli",
+				"slicelikeUrl"
+			],
+			[
+				"in",
+				"indexlikeUrl"
+			],
+			[
+				"conto",
+				"contOverlayToggle"
+			],
+			[
+				"active",
+				"activeStartUp"
+			],
+			[
+				"togg",
+				"toggleMenue"
+			],
+			[
+				"u",
+				"updateMenu"
+			],
+			[
+				"anim",
+				"anim-next"
+			],
+			[
+				"height",
+				"heightprevnext"
+			],
+			[
+				"slide",
+				"slideUp"
+			],
+			[
+				"Resu",
+				"Resultml"
+			],
+			[
+				"misch",
+				"mischungInput2"
+			],
+			[
+				"mischu",
+				"mischungInput1"
+			],
+			[
+				"input",
+				"input2Val"
+			],
+			[
+				"resul2",
+				"result2"
+			],
+			[
+				"resu",
+				"result2"
+			],
+			[
+				"mis",
+				"mischung--input1"
+			],
+			[
+				"grunt",
+				"grunt-contrib-uglify"
+			],
+			[
+				"grunt-c",
+				"grunt-contrib-watch"
+			],
+			[
+				"reload",
+				"reloadPort"
+			],
+			[
+				"rel",
+				"reloadPort"
+			],
+			[
+				"json",
+				"json_encode"
+			],
+			[
+				"md",
+				"fems-dt	font-emphasize-style: dot;"
+			],
+			[
+				"inc",
+				"include"
+			],
+			[
+				"swit",
+				"switch_lang"
+			],
+			[
+				"sw",
+				"switch_lang"
+			],
+			[
+				"background-c",
+				"background-color"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"pr",
+				"priceMashine"
+			],
+			[
+				"dele",
+				"deleteALL"
+			],
+			[
+				"del",
+				"deleteALL"
+			],
+			[
+				"de",
+				"delete"
+			],
+			[
+				"al",
+				"alternate-reverse"
+			],
+			[
+				"heading",
+				"heading-anim"
+			],
+			[
+				"he",
+				"heading-anim"
+			],
+			[
+				"fo",
+				"font-size"
+			],
+			[
+				"default",
+				"defaultExtension"
+			],
+			[
+				"def",
+				"defaultExtension"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "js/_kontakt.js",
+			"settings":
+			{
+				"buffer_size": 2252,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "js/_config.js",
+			"settings":
+			{
+				"buffer_size": 7135,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "rakefile",
+			"settings":
+			{
+				"buffer_size": 1283,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_posts/2015-03-21-detailer-bersicht.md",
+			"settings":
+			{
+				"buffer_size": 140,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_sass/_base.scss",
+			"settings":
+			{
+				"buffer_size": 3146,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "js/_routes.js",
+			"settings":
+			{
+				"buffer_size": 785,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Gruntfile.js",
+			"settings":
+			{
+				"buffer_size": 4274,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_config.yml",
+			"settings":
+			{
+				"buffer_size": 575,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 400.0,
+		"selected_items":
+		[
+			[
+				"Snippet: ",
+				"Snippet: setTimeout function"
+			],
+			[
+				"",
+				"Grunt"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"remove pa",
+				"Package Control: Remove Package"
+			],
+			[
+				"LiveReload: Enable/disable plugins",
+				"LiveReload: Enable/disable plug-ins"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"align",
+				"Preferences: Alignment Key Bindings – User"
+			],
+			[
+				"live",
+				"LiveReload: Help"
+			],
+			[
+				"css",
+				"Tidy CSS (Low Compression)"
+			],
+			[
+				"tag",
+				"Tag: Auto-Format Tags on Selection"
+			],
+			[
+				"ssjs",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"sshtml",
+				"Set Syntax: HTML"
+			],
+			[
+				"ssht",
+				"Set Syntax: HTML"
+			]
+		],
+		"width": 601.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/marvinmieth/Documents/glossboss_Jekyll_live",
+		"/Users/marvinmieth/Documents/glossboss_Jekyll_live/_posts"
+	],
+	"file_history":
+	[
+		"/Users/marvinmieth/Documents/glossboss_Jekyll_live/_posts/2015-03-21-marvintesttestpost.md",
+		"/Users/marvinmieth/Documents/glossboss_Jekyll_live/_posts/2015-03-21-3anendungsbeispielefürdetailerrt.md",
+		"/Users/marvinmieth/Documents/glossboss_Jekyll_live/node_modules/grunt-markdown-pdf/Gruntfile.js",
+		"/Users/marvinmieth/Documents/glossboss_Jekyll_live/node_modules/grunt-contrib-sass/Gruntfile.js",
+		"/Users/marvinmieth/Documents/glossboss_Jekyll_live/node_modules/.bin/grunt-jekyll",
+		"/Users/marvinmieth/Documents/glossboss_Jekyll_live/_posts/2014/2014-07-30-die-grundausstattung-fuer-die-optimale-fahrzeugwaesche.md",
+		"/Users/marvinmieth/Documents/glossboss_Jekyll_live/_posts/2014/2014-07-10-drei-gruende-fuer-ein-carnaubawachs.md",
+		"/Users/marvinmieth/Documents/glossboss_Jekyll_live/_posts/2014/2014-09-12-glasversiegelungen-richtig-anwenden.md",
+		"/Users/marvinmieth/Documents/glossboss_Jekyll_live/dist/_global.js",
+		"/Users/marvinmieth/Documents/glossboss_Jekyll_live/_sass/_base.scss",
+		"/Users/marvinmieth/Documents/glossboss_Jekyll_live/_sass/_jshelper.scss",
+		"/Users/marvinmieth/Documents/glossboss_Jekyll_live/js/_config.js",
+		"/Users/marvinmieth/Documents/glossboss_Jekyll_live/_posts/2015-03-01-felgenversiegelung-anleitung-auftrag-anwendung-teil-2.md",
+		"/Users/marvinmieth/Documents/glossboss_Jekyll_live/index.html",
+		"/Users/marvinmieth/Documents/glossboss_Jekyll_live/# Apache Server Configs v1.1.0 | MIT License",
+		"/Users/marvinmieth/Documents/glossboss_Jekyll_live/scrolldb.txt",
+		"/Users/marvinmieth/Documents/glossboss_Jekyll_live/apache_htaccess.txt",
+		"/Users/marvinmieth/Documents/glossboss_Jekyll_live/_posts/2015-02-25-mercedes-benz-ponton-58.md",
+		"/Users/marvinmieth/Documents/glossboss_Jekyll_live/_posts/2015-02-13-felgenbuersten-felgenreinigung-pinsel-hilfsmittel-uebersicht-test.md",
+		"/Users/marvinmieth/Documents/glossboss_Jekyll_live/_posts/2014/2014-06-30-audi-sq5.md",
+		"/Users/marvinmieth/Documents/glossboss_Jekyll_live/_posts/2014/2014-09-26-bmw-530d-f10.md",
+		"/Users/marvinmieth/Documents/glossboss_Jekyll_live/_posts/2014/2014-08-07-mercedes-a-200-cdi-amg-line.md",
+		"/Users/marvinmieth/Documents/glossboss_Jekyll_live/_posts/2014/2014-07-26-matte-vergilbte-scheinwerfer-aufbereiten.md",
+		"/Users/marvinmieth/Documents/glossboss_Jekyll_live/_posts/2014/2014-07-20-vw-golf-7-gtd.md",
+		"/Users/marvinmieth/Documents/glossboss_Jekyll_live/_posts/2014/2014-07-09-porsche-911-carrera-4s-991.md",
+		"/Users/marvinmieth/Documents/glossboss_Jekyll_live/_posts/2014/2014-07-05-porsche-cayenne-typ-9pa.md",
+		"/Users/marvinmieth/Documents/glossboss_Jekyll_live/_posts/2014/2014-07-05-mclarenmp412c.md",
+		"/Users/marvinmieth/Documents/glossboss_Jekyll_live/_posts/2014/2014-07-05-bmw-m3-csl.md",
+		"/Users/marvinmieth/Documents/glossboss_Jekyll_live/_posts/2014/2014-07-05-bmw-1m-coupe.md",
+		"/Users/marvinmieth/Documents/glossboss_Jekyll_live/_posts/2014/2014-07-03-audi-tt-8j.md",
+		"/Users/marvinmieth/Documents/glossboss_Jekyll_live/_posts/2014/2014-06-30-porsche-911-cabrio-997.md",
+		"/Users/marvinmieth/Documents/glossboss_Jekyll_live/_config.yml",
+		"/Users/marvinmieth/Documents/glossboss_Jekyll_live/_includes/footer.html",
+		"/Users/marvinmieth/Documents/glossboss_Jekyll_live/_site/likes/index.php",
+		"/Users/marvinmieth/Documents/glossboss_Jekyll_live/_sass/_head.scss",
+		"/Users/marvinmieth/Documents/glossboss_Jekyll_live/js/_main.js",
+		"/Users/marvinmieth/Documents/glossboss_Jekyll_live/likes/index.php",
+		"/Users/marvinmieth/Documents/glossboss_Jekyll_live/js/selector.js",
+		"/Users/marvinmieth/Documents/glossboss_Jekyll_live/_posts/2014/2014-07-22-opel-insignia-sports-tourer-2-0-cdti.md",
+		"/Users/marvinmieth/Documents/glossboss_Jekyll_live/_sass/_content.scss",
+		"/Users/marvinmieth/Documents/glossboss_Jekyll_live/_indexbackup.txt",
+		"/Users/marvinmieth/Documents/glossboss_Jekyll_live/scrollDB.html",
+		"/Users/marvinmieth/Documents/glossboss_Jekyll_live/config.codekit",
+		"/Users/marvinmieth/Documents/glossboss_Jekyll_live/_includes/postDB.html",
+		"/Users/marvinmieth/Documents/glossboss_Jekyll_live/posts.json",
+		"/Users/marvinmieth/Documents/glossboss_Jekyll_live/_site/posts.json",
+		"/Users/marvinmieth/Documents/glossboss_Jekyll_live/Gruntfile.js",
+		"/Users/marvinmieth/Documents/glossboss_Jekyll_live/js/_loadmore.js",
+		"/Users/marvinmieth/Documents/glossboss_Jekyll_live/_layouts/post.html",
+		"/Users/marvinmieth/Documents/glossboss_Jekyll_live/_posts/2015-02-13-felgenversiegelung-anleitung-auftrag-anwendung.md",
+		"/Users/marvinmieth/Documents/glossboss_Jekyll_live/_posts/2015-02-26-kurztipps-zum-polieren.md",
+		"/Users/marvinmieth/Documents/glossboss_Jekyll_live/_posts/2014/2014-06-26-shelby-gt-500.md",
+		"/Users/marvinmieth/Documents/glossboss_Jekyll_live/_posts/2015-02-21-foamen-nutzt-es-wirklich-etwas.md",
+		"/Users/marvinmieth/Documents/glossboss_Jekyll_live/sftp-config.json",
+		"/Users/marvinmieth/Documents/glossboss_Jekyll_live/_posts/2014/2014-06-23-bmw-2002.md",
+		"/Users/marvinmieth/Documents/glossboss_Jekyll_live/_posts/2014/2014-06-23-dodge-durango.md",
+		"/Users/marvinmieth/Documents/glossboss_Jekyll_live/_posts/2014/2014-06-23-lotus-elise.md",
+		"/Users/marvinmieth/Documents/glossboss_Jekyll_live/_posts/2014/2014-06-23-porsche-997-grau-crystal-serum-gtechniq.md",
+		"/Users/marvinmieth/Documents/glossboss_Jekyll_live/_posts/2014/2014-06-23-porsche-997-rot.md",
+		"/Users/marvinmieth/Documents/glossboss_Jekyll_live/_posts/2014/2014-06-26-audi-a3.md",
+		"/Users/marvinmieth/Documents/glossboss_Jekyll_live/_posts/2014/2014-06-26-audi-r8.md",
+		"/Users/marvinmieth/Documents/glossboss_Jekyll_live/_posts/2014/2014-06-26-die-7-grundregeln-fuer-die-optimale-fahrzeugwaesche.md",
+		"/Users/marvinmieth/Documents/glossboss_Jekyll_live/_posts/2014/2014-06-26-rupes-swirl-finder-testbericht-erfahrungen.md",
+		"/Users/marvinmieth/Documents/glossboss_Jekyll_live/_posts/2014/2014-06-29-es-gibt-3-arten-von-kratzern-im-lack.md",
+		"/Users/marvinmieth/Documents/glossboss_Jekyll_live/_posts/2015-02-05-swizoel-swissvax-wirklich-so-gut.md",
+		"/Users/marvinmieth/Documents/glossboss_Jekyll_live/_posts/2015-01-30-ford-escort-rs-cosworth-edition.md",
+		"/Users/marvinmieth/Documents/glossboss_Jekyll_live/_posts/2015-01-26-reifen-reinigen-und-pflegen.md",
+		"/Users/marvinmieth/Documents/glossboss_Jekyll_live/_posts/2015-01-24-gtechniq-crystal-serum-test-application.md",
+		"/Users/marvinmieth/Documents/glossboss_Jekyll_live/_posts/2015-01-24-gtechniq-crystal-serum-test-anwendung-auftrag.md",
+		"/Users/marvinmieth/Documents/glossboss_Jekyll_live/_posts/2015-01-23-arbeitsschutz-atemmaske-schutzhandschuhe-etc.md",
+		"/Users/marvinmieth/Documents/glossboss_Jekyll_live/_posts/2015-01-20-ford-focus-rs-mk1.md",
+		"/Users/marvinmieth/Documents/glossboss_Jekyll_live/_posts/2015-01-19-produkte-richtig-mischen.md",
+		"/Users/marvinmieth/Documents/glossboss_Jekyll_live/_posts/2015-01-11-wichtigstes-messgeraet-fuer-die-autopflege.md",
+		"/Users/marvinmieth/Documents/glossboss_Jekyll_live/_posts/2015-01-10-langzeitversiegelung-anwendung-gyeon-mohs.md",
+		"/Users/marvinmieth/Documents/glossboss_Jekyll_live/_posts/2015-01-09-lack-fettfrei-vorbereiten-versiegelung-wachs.md",
+		"/Users/marvinmieth/Documents/glossboss_Jekyll_live/_posts/2014/2014-12-29-5-produkte-die-mich-2014-begeisterten.md",
+		"/Users/marvinmieth/Documents/glossboss_Jekyll_live/_posts/2014/2014-12-25-produkte-richtig-lagern.md",
+		"/Users/marvinmieth/Documents/glossboss_Jekyll_live/_posts/2014/2014-06-23-alfa-romeo-gtv.md",
+		"/Users/marvinmieth/Documents/glossboss_Jekyll_live/_posts/2014/2014-07-01-4-tipps-zur-pflege-von-folierten-autos.md",
+		"/Users/marvinmieth/Documents/glossboss_Jekyll_live/_posts/2014/2014-07-04-aston-martin-v12-vantage-s.md",
+		"/Users/marvinmieth/Documents/glossboss_Jekyll_live/_posts/2014/2014-07-04-audi-s5.md",
+		"/Users/marvinmieth/Documents/glossboss_Jekyll_live/_posts/2014/2014-07-04-porsche-965-turbo.md",
+		"/Users/marvinmieth/Documents/glossboss_Jekyll_live/_posts/2014/2014-07-04-porsche-991-turbo-s.md",
+		"/Users/marvinmieth/Documents/glossboss_Jekyll_live/_posts/2014/2014-07-04-triumph-tr-6.md",
+		"/Users/marvinmieth/Documents/glossboss_Jekyll_live/_posts/2014/2014-07-05-rotations-oder-exzenterpoliermaschine.md",
+		"/Users/marvinmieth/Documents/glossboss_Jekyll_live/_posts/2014/2014-07-06-scheiben-streifenfrei-reinigen.md",
+		"/Users/marvinmieth/Documents/glossboss_Jekyll_live/_posts/2014/2014-07-11-im-test-4-microfiber-madness-tuecher.md",
+		"/Users/marvinmieth/Documents/glossboss_Jekyll_live/_posts/2014/2014-07-14-auspuffendrohre-polieren.md",
+		"/Users/marvinmieth/Documents/glossboss_Jekyll_live/_posts/2014/2014-07-19-in-3-schritten-zur-optimalen-felgenversiegelung.md",
+		"/Users/marvinmieth/Documents/glossboss_Jekyll_live/_posts/2014/2014-07-22-soft99-fusso-coat-im-test.md",
+		"/Users/marvinmieth/Documents/glossboss_Jekyll_live/_posts/2014/2014-07-24-typenschilder-schriftzug-entfernen-anleitung.md",
+		"/Users/marvinmieth/Documents/glossboss_Jekyll_live/_posts/2014/2014-08-04-warum-die-fahrzeugwaesche-mit-der-2-eimer-methode-so-schonend-zum-lack-ist.md",
+		"/Users/marvinmieth/Documents/glossboss_Jekyll_live/_posts/2014/2014-08-10-verdeckversiegelung-mit-303-high-tech-fabric-guard.md",
+		"/Users/marvinmieth/Documents/glossboss_Jekyll_live/_posts/2014/2014-08-20-lackreinigungsknete-richtig-anwenden.md",
+		"/Users/marvinmieth/Documents/glossboss_Jekyll_live/_posts/2014/2014-08-26-vw-eos-in-schwarz.md",
+		"/Users/marvinmieth/Documents/glossboss_Jekyll_live/_posts/2014/2014-09-03-ganz-einfach-in-3-schritten-tiefe-kratzer-entfernen.md",
+		"/Users/marvinmieth/Documents/glossboss_Jekyll_live/_posts/2014/2014-10-10-test-mikrofasertuecher-von-lupus.md",
+		"/Users/marvinmieth/Documents/glossboss_Jekyll_live/_posts/2014/2014-11-02-glossboss-hilft-dir.md",
+		"/Users/marvinmieth/Documents/glossboss_Jekyll_live/_plugins/pdf_generator.rb",
+		"/Users/marvinmieth/Documents/glossboss_Jekyll_live/_posts/2014/2014-12-19-Herrenfahrt-Produktvorstellung-Test.md",
+		"/Users/marvinmieth/Documents/glossboss_Jekyll_live/pdf/0.txt",
+		"/Users/marvinmieth/Documents/glossboss_Jekyll_live/_posts/2014/2014-12-22-waschanlage-vermeiden.md",
+		"/Users/marvinmieth/Documents/glossboss_Jekyll_live/_posts/2014/2014-12-19-mikrofasertuecher-richtig-waschen.md",
+		"/Users/marvinmieth/Documents/glossboss_Jekyll_live/_posts/2014/2014-12-14-dodge-challenger.md",
+		"/Users/marvinmieth/Documents/glossboss_Jekyll_live/_posts/2014/2014-10-24-mercedes-8.md",
+		"/Users/marvinmieth/Documents/glossboss_Jekyll_live/_includes/header.html",
+		"/Users/marvinmieth/Documents/glossboss_Jekyll_live/_site/allgemein/foamen-nutzt-es-wirklich-etwas/index.html",
+		"/Users/marvinmieth/Documents/glossboss_Jekyll_live/js/_routes.js",
+		"/Users/marvinmieth/Documents/glossboss_Jekyll_live/_plugins/jekyll-pandoc-multiple-formats.rb",
+		"/Users/marvinmieth/Documents/glossboss_Jekyll_live/_pdf/2015-01-09-lack-fettfrei-vorbereiten-versiegelung-wachs.pdf",
+		"/Users/marvinmieth/Documents/glossboss_Jekyll_live/node_modules/grunt-contrib-jshint/node_modules/jshint/data/non-ascii-identifier-part-only.js",
+		"/Users/marvinmieth/Documents/glossboss_Jekyll_live/package.json",
+		"/Users/marvinmieth/Documents/glossboss_Jekyll_live/.gitignore",
+		"/Users/marvinmieth/Documents/glossboss_Jekyll_live/README.md",
+		"/Users/marvinmieth/Documents/glossboss_Jekyll_live/_drafts/2015-02-21-kurztipps-zum-polieren.md",
+		"/Users/marvinmieth/Documents/glossboss_Jekyll_live/2015-mm-dd-POST.md",
+		"/Users/marvinmieth/Documents/glossboss_Jekyll_live/404.html",
+		"/Users/marvinmieth/Documents/glossboss_Jekyll_live/impressum/index.md",
+		"/Users/marvinmieth/Documents/glossboss_Jekyll_live/_includes/head.html",
+		"/Users/marvinmieth/Documents/glossboss_Jekyll_live/was-wird-gespeichert/index.html",
+		"/Users/marvinmieth/Documents/glossboss_Jekyll_live/node_modules/grunt-contrib-uglify/node_modules/uglify-js/node_modules/source-map/.tern-port",
+		"/Users/marvinmieth/Documents/glossboss_Jekyll_live/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/htmlparser2/node_modules/entities/test/mocha.opts",
+		"/Users/marvinmieth/Documents/glossboss_Jekyll_live/node_modules/grunt-autoprefixer/node_modules/chalk/node_modules/.bin/supports-color",
+		"/Users/marvinmieth/Documents/glossboss_Jekyll_live/_plugins/json_page_generator.rb",
+		"/Users/marvinmieth/Documents/glossboss_Jekyll_live/_sass/inline_layout.scss",
+		"/Users/marvinmieth/Documents/glossboss_Jekyll_live/_site/dist/global.js",
+		"/Users/marvinmieth/Documents/glossboss_Jekyll_live/js/_mischungsrechner.js",
+		"/Users/marvinmieth/Documents/glossboss_Jekyll_live/node_modules/grunt-contrib-uglify/node_modules/uglify-js/node_modules/optimist/example/line_count_options.js"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 119.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"http://vadrup.com/glossboss/",
+			"scrollDB",
+			"/",
+			"'",
+			"{\n",
+			"\"",
+			"'",
+			"\"",
+			"enter image description here",
+			"images/",
+			"](//",
+			"allgemein",
+			"(//",
+			"fa",
+			"<br />",
+			"<nr />",
+			"false",
+			"enter image description here](https:",
+			"Open Sans",
+			"Open",
+			"Roboto",
+			"//glossboss.de/images/",
+			"http://autopflege-mieth.de/work_/",
+			"http://img.glossboss.de/",
+			"images",
+			"![]",
+			"block",
+			"![]",
+			"video",
+			"<br />",
+			"enter image description here",
+			"page-head",
+			"log",
+			"allgemein",
+			"post",
+			"addClass",
+			"transition",
+			"mainnav",
+			"mainnavOffset",
+			"elemFirstChar",
+			"nodeArray",
+			"<br />",
+			"mischung",
+			"elem",
+			"add",
+			"$",
+			"offset:",
+			"post--img",
+			"![]",
+			"jpg",
+			"criz",
+			"value",
+			"options",
+			".jpg",
+			"http://",
+			"\" ",
+			"a",
+			"href",
+			"=\"",
+			"mailto",
+			"io",
+			"docheight",
+			"menuToggleHamburger",
+			"toggleMenue",
+			"toggleMenu",
+			"virtual",
+			"0",
+			"1",
+			"span",
+			"a",
+			"span",
+			"a",
+			"table",
+			"concat",
+			"uglify",
+			"concat",
+			"uglify",
+			"$(\"textarea[name=msg]\")",
+			"$(\"input[name=xyz]\")",
+			"$(\"input[name=name]\")",
+			"]\").",
+			"$(\"",
+			"input",
+			"name",
+			"toggleMenu",
+			"mainnav",
+			"linklist",
+			"div",
+			"puk",
+			"waschen",
+			"webkit",
+			"checked",
+			"![]",
+			"je nach dem",
+			"jpg",
+			")",
+			"<img  src=\"",
+			".jpg\" alt=\"\"  />",
+			".jpg\" alt=\"\" />",
+			"?w=900\" alt=\"\" data-recalc-dims=\"1\" />",
+			"<img src=\"",
+			"<img class=\"img-responsive\" src=\"",
+			"![Porsche 997 Crystal Serum](",
+			"<img class=\"img-responsive\" src=\"",
+			"<img src=\"",
+			"?w=900\" alt=\"\" data-recalc-dims=\"1\" />",
+			"<img class=\"alignnone\" src=\"",
+			"<img src=\"",
+			"?resize=800%2C600\" alt=\"\" data-recalc-dims=\"1\" />",
+			"?resize=800&2C600\" alt=\"\" data-recalc-dims=\"1\" />",
+			"<img src=\"",
+			"?w=900\" alt=\"\" data-recalc-dims=\"1\" />",
+			"http://glossboss.de/im",
+			"<img src=\"",
+			"?w=900\" alt=\"\" data-recalc-dims=\"1\" />",
+			"Audo",
+			"?w=900\" alt=\"\" data-recalc-dims=\"1\" />",
+			"<img src=\"",
+			"?w=900\" alt=\"\" data-recalc-dims=\"1\" />",
+			"<img src=\"",
+			"?w=900\" alt=\"\" data-recalc-dims=\"1\" />",
+			"<img src=\"",
+			"?w=900\" alt=\"\" data-recalc-dims=\"1\" />",
+			"<img src=\"",
+			"?w=900\" alt=\"\" data-recalc-dims=\"1\" />",
+			"<img src=\"",
+			"?w=900\" alt=\"\" data-recalc-dims=\"1\" />",
+			"<img src=\""
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"//glossboss.de/images/jones/",
+			"\\/",
+			"\\\"",
+			"",
+			"'",
+			"\"",
+			"'",
+			"Felgenversiegelung",
+			"images/marvin/",
+			"](https://",
+			"(https://",
+			" ",
+			"Foamen](",
+			"//glossboss.de/images/marvin/",
+			"//glossboss.de/images/",
+			"https://glossboss.de/images/",
+			"![Herrenfahrt Wachs Test]",
+			"![GTechniq Crystal Serum]",
+			"![Ford Escort RS Cosworth Edition]",
+			"![Übersicht Felgenbürsten]",
+			" ",
+			"Alles zum Thema Felgenversiegelung (Teil 1)",
+			" ",
+			"_",
+			"![Porsche 991 Jubiläums-Edition]",
+			"![Gtechniq Crystal Serum test]",
+			"![Ford Focus RS MK1]",
+			".jpg)",
+			"![Langzeitversiegelungen](http://",
+			"puck",
+			"![Dodge Challenger]",
+			".jpg)",
+			"![Alfa Romeo GTV](",
+			")",
+			"![Alfa Romeo GTV](",
+			"![BMW 2002](",
+			"![Dodge Durango](",
+			"![Lotus Elise](",
+			"![Porsche 997 Crystal Serum](",
+			"![Porsche 997](",
+			"![Audi A3](",
+			"![Audi R8](",
+			")",
+			"![Rupes Swirlfinder / Lightpen](",
+			")",
+			"![Shelby GT500](",
+			")",
+			"![Kratzer im Lack](http://glossboss.de/im",
+			"![Audi SQ5](",
+			")",
+			"Audi",
+			")",
+			"![Porsche 911 Cabrio](",
+			"![Audo TT 8J](",
+			")",
+			"![Aston Martin V12 Vantage](",
+			"![Audi S5 Pflegebericht](",
+			")",
+			"![Porsche 965 Turbo](",
+			"![Porsche 991 Turbo S](",
+			")",
+			"![Triumph](",
+			"![BMW 1er M Coupe](",
+			")",
+			"![BMW M3 CSL](",
+			"![McLaren MP4-12C](",
+			")",
+			"![Porsche Cayenne Pflegebericht](",
+			"![Porsche 911 4S](",
+			")",
+			".jpg)",
+			"![Microfiber Madness Test](http://glossboss.de/im",
+			"![Auspuffendrohre Polieren](http://glossboss.de/im",
+			".jpg)",
+			"![Felgenversiegelung](http://glossboss.de/im",
+			")",
+			"![Golf 7 GTD Pflegebericht](",
+			"![Opel Insignia Pflegebericht](",
+			")",
+			".jpg)",
+			")",
+			"![Soft 99 Fusso Coat Test](http://glossboss.de/images",
+			"![Schriftzug entfernen](",
+			")",
+			"![Matte Schweinwerfer aufbereiten](",
+			"![Mercedes A200 AMG Line](",
+			")",
+			"![Verdeckimprägnierung](",
+			"![Lackknete richtig anwenden](",
+			")",
+			"![in 3 Schritten tiefe Kratzer entfernen](",
+			"![Glasversiegelung richtig anwenden](",
+			")",
+			"![BMW 530d Teamwork](",
+			"![Lupus Mikrofasertücher im Test](",
+			")",
+			"![Mercedes /8](",
+			"[Mercedes /8](",
+			")",
+			"src=\"http://i",
+			"src=\"http://v",
+			"src=\"http://g",
+			"http://",
+			"images/local/3kratzer",
+			"images/local/mmtest",
+			"images/local/auspuffpolieren",
+			"images/local/felgenversiegelung",
+			"images/local/fussocoat/",
+			"src=\"http://",
+			"http://",
+			"\"http://",
+			"\"",
+			"",
+			"\""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "js/_kontakt.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2252,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								445,
+								445
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Seti_monokai.tmTheme",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "js/_config.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7135,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								435,
+								435
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Seti_monokai.tmTheme",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 328.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "rakefile",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1283,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								586,
+								586
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Seti_monokai.tmTheme",
+							"incomplete_sync": null,
+							"open_with_edit": true,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 187.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "_posts/2015-03-21-detailer-bersicht.md",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 140,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								140,
+								140
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Seti_monokai.tmTheme",
+							"incomplete_sync": null,
+							"is_xml": false,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "_sass/_base.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3146,
+						"regions":
+						{
+							"gutter_color_0":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#3fb2ff.png",
+								"regions":
+								[
+									[
+										0,
+										16
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_17":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#44bcff.png",
+								"regions":
+								[
+									[
+										17,
+										31
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_32":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#0099ff.png",
+								"regions":
+								[
+									[
+										32,
+										52
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_457":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/rgba(0,0,0,0.12).png",
+								"regions":
+								[
+									[
+										457,
+										532
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_53":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#585858.png",
+								"regions":
+								[
+									[
+										53,
+										68
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_557":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/rgba(0,0,0,0.16).png",
+								"regions":
+								[
+									[
+										557,
+										632
+									]
+								],
+								"scope": "gutter_color"
+							}
+						},
+						"selection":
+						[
+							[
+								1934,
+								1934
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Seti_monokai.tmTheme",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1753.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "js/_routes.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 785,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Seti_monokai.tmTheme",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "Gruntfile.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4274,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2689,
+								2689
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Seti_monokai.tmTheme",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Seti_UI/Langs/Gruntfile JS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1768.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "_config.yml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 575,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								491,
+								491
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Seti_monokai.tmTheme",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/YAML/YAML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 116.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 431.0
+	},
+	"project": "gb.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"_gruntfile.js",
+				"node_modules/grunt-markdown-pdf/Gruntfile.js"
+			],
+			[
+				"_configy",
+				"_config.yml"
+			],
+			[
+				"_configjs",
+				"js/_config.js"
+			],
+			[
+				"_ba",
+				"_sass/_base.scss"
+			],
+			[
+				"_cont",
+				"_sass/_content.scss"
+			],
+			[
+				"_js",
+				"_sass/_jshelper.scss"
+			],
+			[
+				"_config.js",
+				"js/_config.js"
+			],
+			[
+				"_co",
+				"js/_config.js"
+			],
+			[
+				"_base",
+				"_sass/_base.scss"
+			],
+			[
+				"pont",
+				"_posts/2015-02-25-mercedes-benz-ponton-58.md"
+			],
+			[
+				"_confi",
+				"js/_config.js"
+			],
+			[
+				"_mai",
+				"js/_main.js"
+			],
+			[
+				"_he",
+				"_sass/_head.scss"
+			],
+			[
+				"",
+				"_posts/2015-02-21-kurztipps-zum-polieren.md"
+			],
+			[
+				"_head",
+				"_sass/_head.scss"
+			],
+			[
+				"_con",
+				"js/_config.js"
+			],
+			[
+				"_ma",
+				"js/_main.js"
+			],
+			[
+				"_bas",
+				"_sass/_base.scss"
+			],
+			[
+				"_misch",
+				"js/_mischungsrechner.js"
+			],
+			[
+				"_am",
+				"js/_main.js"
+			],
+			[
+				"waschan",
+				"_posts/2014/2014-12-22-waschanlage-vermeiden.md"
+			],
+			[
+				"config.y",
+				"_config.yml"
+			],
+			[
+				"main",
+				"js/_main.js"
+			],
+			[
+				"5pro",
+				"_posts/2014/2014-12-29-5-produkte-die-mich-2014-begeisterten.md"
+			],
+			[
+				"messge",
+				"_posts/2015-01-11-wichtigstes-messgeraet-fuer-die-autopflege.md"
+			],
+			[
+				"alfagtv",
+				"_posts/2014/2014-06-23-alfa-romeo-gtv.md"
+			],
+			[
+				"_kotn",
+				"js/_kontakt.js"
+			],
+			[
+				"ko",
+				"js/kontakt.js"
+			],
+			[
+				"foot",
+				"_includes/footer.html"
+			],
+			[
+				"kontakt",
+				"kontakt/kontakt.js"
+			],
+			[
+				"tower",
+				"tower/tower.js"
+			],
+			[
+				"sty",
+				"tower/css/style.css"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 162.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

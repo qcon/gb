@@ -1,0 +1,19 @@
+---
+layout: default
+title: Allgemein
+head__img: /images/headerimg/grundausstattungwaschen.jpg
+---
+
+<div class="width--wrapper" id="post--list__container">
+  <ul class="post--list">
+    {% for post in site.categories.allgemein %}
+    <li><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
+      <div class="post--img" style="background:url('{% if post.head__img %} {{ post.head__img }} {% else %} {{ post.head__img--fullurl }} {% endif %}') 50% 50% no-repeat;background-size:cover;"></div>
+      
+      <span class="post--datum">{{ post.date | date: "%-d %b, %Y" }} </span>
+      <span class="post--title__a">{{ post.title }} <small>{{ post.wps_subtitle }}</small> <h6> {{ post.categories }}</h6></span>
+      </a>
+    </li>
+    {% endfor %}
+  </ul>
+</div>

@@ -1,0 +1,59 @@
+require 'rake'
+require 'yaml'
+
+SOURCE = "."
+CONFIG = {
+  'posts' => File.join(SOURCE, "_posts"),
+  'post_ext' => "md",
+}
+
+task :newpost do 
+	puts 'Begin to create a new Post'
+	puts 'But first, let me ask you a few questions'
+
+	puts '-------'
+	puts 'Title?'
+	title = $stdin.gets.chomp
+
+	puts '-------'
+	puts 'Author?'
+	author = $stdin.gets.chomp
+
+	puts '-------'
+	puts 'Category?'
+	cat = $stdin.gets.chomp
+
+	puts '-------'
+	puts 'Header img Url?'
+	headimgfullurl = $stdin.gets.chomp
+
+	puts '-------'
+	puts 'Subtitle?'
+	subtitle = $stdin.gets.chomp
+
+	#title = ENV['title'] || ENV['titel']
+
+	slug = title.downcase.strip.gsub(' ', '-').gsub(/[^\w-]/, '')
+	filename = File.join(
+		CONFIG['posts'],
+		"#{Time.now.strftime('%Y-%m-%d')}-#{slug}.#{CONFIG['post_ext']}"
+	)
+
+	if File.exist?(filename)
+		abort("aborted!") if ask('#{filename} already exist. Do you want to override it?', ['y', 'n']) == 'n'
+	end
+
+	puts "Creating new File: #{filename}"
+	open(filename, 'w') do |post|
+		post.puts '---'
+		post.puts "layout: post"
+		post.puts "title: \"#{title.gsub(/-/,' ')}\""
+		post.puts "author: \"#{author}\""
+		post.puts "wps_subtitle: #{subtitle}"
+		post.puts "categories: #{cat}"
+		post.puts "head__img--fullurl: #{headimgfullurl}"
+		post.puts "markasnew: true"
+		post.puts '---'
+	end
+	
+end

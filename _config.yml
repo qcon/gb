@@ -1,0 +1,13 @@
+title: glossboss.de - Der Autopflege Blog für echt Enthusiasten
+email: mail@glossboss.de
+description: Ein Autopflegeblog von und für absolute Enthusiasten
+baseurl: ""
+url: "https://glossboss.de" 
+max_index_posts: 10
+exclude: [_sass, config.codekit,node_modules,Gruntfile.js,package.json,js,css,apache_htaccess.txt,pdf, 2015-mm-dd-POST.md]
+include: [.htaccess, images, sftp-config.json, was-wird-gespeichert]
+markdown: kramdown
+permalink: /:categories/:title
+cssjsversion: 56
+livebuild: false
+headimggradient: "linear-gradient(HSLA(197, 100%, 49%,.6),HSLA(197, 100%, 49%,.9))"

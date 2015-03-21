@@ -1,0 +1,63 @@
+  <header class="header__main">
+    <div class="width--wrapper">
+      <div class="post--title" id="post--title">
+        {% if page.url == "/index.html" %}
+          <a href="http://glossboss.de" alt="Glossboss.de - Startseite"><h1> Glossboss.de - <small>dein Autopflege Blog</small></h1></a>
+        {% else %}
+          <a href="{{ page.url | replace:'index.html','' | prepend: site.url }}"><h1>{{ page.title }} <small>{{ page.wps_subtitle }}</small></h1></a>
+          {% if page.date %}
+            <h4>
+              {% assign m = page.date | date: "%-m" %}
+{{ page.date | date: "%-d" }}
+{% case m %}
+  {% when '1' %}Januar
+  {% when '2' %}Februar
+  {% when '3' %}M&auml;rz
+  {% when '4' %}April
+  {% when '5' %}Mai
+  {% when '6' %}Juni
+  {% when '7' %}Juli
+  {% when '8' %}August
+  {% when '9' %}September
+  {% when '10' %}Oktober
+  {% when '11' %}November
+  {% when '12' %}Dezember
+{% endcase %}
+{{ page.date | date: "%Y" }}
+
+
+              {% if page.author %} von {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}
+            </h4>
+          {% endif %}
+        {% endif %}
+      </div>
+    </div>
+  </header>
+  <div class="header__extend" id="mainnav">
+    <label for="toggleMenu" class="toggleMenue">
+      <ul class="hamburger">
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+    </label>
+    <input type="checkbox" id="toggleMenu" role="button">
+    <ul class="linklist" id="linklist">
+      {% assign tempblock = true %}
+      {% for katt in site.data.kategorie %}
+      {% assign temp = {{katt.link}} %}
+        <li class="linklistloop">
+          <a data-kat="{{katt.kat}}" href="{{ katt.link | prepend: site.baseurl }}" {% if page.url contains temp and tempblock %} {% assign tempblock = false %}class="cat--active"{% endif %}>{{ katt.text }}</a>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+  <div class="header--logo">
+    <a href="https://glossboss.de" alt="Glossboss.de - Startseite"><img src="{{ "/images/Glossboss-de-Logo.png" | prepend: site.url }}" alt=""></a>
+  </div>
+ <div id="loading">
+   <div class="spinner"></div>
+   Inhalt wird geladen
+   <div class="progressBar--wrapper"><div class="progressBar" id="progressBar"></div></div>
+</div>
+  <div class="overlay"></div>
