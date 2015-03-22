@@ -163,4 +163,5 @@ grunt.loadNpmTasks('grunt-wkhtmltopdf');
 grunt.loadNpmTasks('grunt-contrib-copy');
 
 grunt.registerTask('default', ['sass','autoprefixer','jekyll','watch']);
+grunt.registerTask('deploy', ['sass','autoprefixer','concat','uglify']);
 };
