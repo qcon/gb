@@ -9,5 +9,5 @@ include: [.htaccess, images, sftp-config.json, was-wird-gespeichert]
 markdown: kramdown
 permalink: /:categories/:title
 cssjsversion: 56
-livebuild: false
+livebuild: true
 headimggradient: "linear-gradient(HSLA(197, 100%, 49%,.6),HSLA(197, 100%, 49%,.9))"
