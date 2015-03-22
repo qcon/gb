@@ -224,7 +224,7 @@
 			loader(false);
 
 			if( _("#indexContainer") && !hash ) {
-				this.parser('index', 'Unsere neusten Beiträge', true);
+				this.parser('index', 'Die neusten Beiträge', true);
 
 			}
 		},
