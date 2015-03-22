@@ -1,3 +1,10 @@
 /node_modules
 sftp-config.json
 /pdf
+/images
+_site/**
+/.project
+.sass-cache/
+refs/
+HEAD
+config
