@@ -237,9 +237,7 @@ document.addEventListener('DOMContentLoaded', function() {(function() {
 			postList = _(".post--list");
 			postContainer = _("#post--list__container");
 			pageHeading = _("#page-heading");
-			loadmoreButton = _("#loadmoreajax");
-
-			
+			loadmoreButton = _("#loadmoreajax");			
 
 			postList.innerHTML = '';
 			postContainer.addClass("opacity-0");

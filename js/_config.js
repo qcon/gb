@@ -224,7 +224,7 @@
 			loader(false);
 
 			if( _("#indexContainer") && !hash ) {
-				this.parser('index', 'Die letzten 10 Beiträge', true);
+				this.parser('index', 'Die neusten Beiträge', true);
 
 			}
 		},
@@ -237,9 +237,7 @@
 			postList = _(".post--list");
 			postContainer = _("#post--list__container");
 			pageHeading = _("#page-heading");
-			loadmoreButton = _("#loadmoreajax");
-
-			
+			loadmoreButton = _("#loadmoreajax");			
 
 			postList.innerHTML = '';
 			postContainer.addClass("opacity-0");
