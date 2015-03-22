@@ -224,7 +224,7 @@ document.addEventListener('DOMContentLoaded', function() {(function() {
 			loader(false);
 
 			if( _("#indexContainer") && !hash ) {
-				this.parser('index', 'Die neusten Beiträge', true);
+				this.parser('index', 'Unsere neusten Beiträge', true);
 
 			}
 		},
