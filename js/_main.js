@@ -154,19 +154,11 @@ WebFontConfig = {
 })();
 
 
-//GOOGLE ADS
 (function() {
-  var wf = document.createElement('script');
-  wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
-    '://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js';
-  wf.type = 'text/javascript';
-  wf.async = 'true';
-  //var s = document.getElementsByTagName('script')[0];
-  //s.parentNode.insertBefore(wf, s);
-	_('#ad_container').appendChild(wf);
+	var loader = _('#ad_loader'),
+	ads = _('#ad_container');
+	loader.appendChild(ads);
 })();
-(adsbygoogle = window.adsbygoogle || []).push({});
-
 
 
 // 480390
