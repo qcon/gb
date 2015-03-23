@@ -440,32 +440,6 @@ linklistAnchor.forEach(function(_self) {
 
 updateMenu();
 
-// if(contImage) {
-
-// 	contImage.forEach(function(_self) {
-
-// 		_self.addEventListener('click', function() {
-
-// 			imgsrc = this.getAttribute('src');
-// 			contOverlayInner.innerHTML = '<img src="" id="parse"><div class="containeroverlay-alt"></div>';
-// 			contOverlayInner.querySelector('#parse').setAttribute('src', imgsrc);
-
-// 			if( this.getAttribute('alt').length !== 0 ) {
-
-// 				_(".containeroverlay-alt").innerHTML = this.getAttribute('alt');
-
-// 			}
-
-// 			contOverlay.addClass("scaleIn");
-
-// 		    contOverlay.addEventListener('click', function() {
-
-// 		    	contOverlay.removeClass("scaleIn");
-
-// 		    });
-// 		});
-// 	});
-// }
 
 (function(ci) {
 	if(ci) {
@@ -550,8 +524,9 @@ WebFontConfig = {
     '://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js';
   wf.type = 'text/javascript';
   wf.async = 'true';
-  var s = document.getElementsByTagName('script')[0];
-  s.parentNode.insertBefore(wf, s);
+  //var s = document.getElementsByTagName('script')[0];
+  //s.parentNode.insertBefore(wf, s);
+	_('#ad_container').appendChild(wf);
 })();
 (adsbygoogle = window.adsbygoogle || []).push({});
 
