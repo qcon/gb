@@ -49,7 +49,7 @@ $xs : "(max-width: 24.37em)"; //390px
     @media #{$md-min} {
       font-size:1.3em;
     }
-    li { 
+    li {
         margin-right:1.5em;
         display:inline-block;
         line-height:1.5em;
@@ -57,7 +57,7 @@ $xs : "(max-width: 24.37em)"; //390px
         a {
             text-decoration:none;
             color:mix(black,white,5);
-            
+
             transition:.25s ease;
             @media #{$sm} {
                 &:hover {
@@ -68,7 +68,7 @@ $xs : "(max-width: 24.37em)"; //390px
                 &:hover {
                     color:white;
                     &:after{
-                        //height:5px;
+                        height:5px;
                         transform:translate(0,0);
                     }
                 }
@@ -78,9 +78,9 @@ $xs : "(max-width: 24.37em)"; //390px
                   width:auto;
                   display:block;
                   background:white;
-                  //position:relative;
+                  position:relative;
                   transition:.25s ease;
-                  //top:0;
+                  top:0;
                   transform:translate(0,30px);
                 }
             }
@@ -89,7 +89,7 @@ $xs : "(max-width: 24.37em)"; //390px
             display:block;
             text-align:center;
             line-height:2em;
-        } 
+        }
     }
 }
 .cat--active:after {

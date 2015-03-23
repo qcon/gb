@@ -61,7 +61,7 @@
 					}
 					break;
 			}
-		}  
+		}
 
 		returnNodeFinal = ( returnNode.length > 1 ) ? returnNode : returnNode[0];
 
@@ -162,7 +162,8 @@
 	 * add acive CSS Class to the linklist item
 	 * @return null
 	 */
-	markActiveLinklist = function() {
+	markActiveLinklist = function(hash) {
+
 		_(".linklistloop a").forEach(function(_self) {
 
 			if(_self.getAttribute("data-kat") === hash ) {
@@ -171,7 +172,7 @@
 				setTimeout(function() {
 					jumpTo(_self);
 				}, 50);
-				
+
 
 			} else {
 
@@ -237,7 +238,7 @@
 			postList = _(".post--list");
 			postContainer = _("#post--list__container");
 			pageHeading = _("#page-heading");
-			loadmoreButton = _("#loadmoreajax");			
+			loadmoreButton = _("#loadmoreajax");
 
 			postList.innerHTML = '';
 			postContainer.addClass("opacity-0");
@@ -247,7 +248,7 @@
 
 			xhr = new XMLHttpRequest();
 
-			markActiveLinklist();
+			markActiveLinklist(hash);
 
 			xhr.onreadystatechange = function(e) {
 
@@ -259,13 +260,13 @@
 
 					/**
 					 * loop through all posts and put them in an array
-					 * if the category is identical with the hash, then 
+					 * if the category is identical with the hash, then
 					 * append it to the postlist
 					 */
 					for( var i = 0; i < post.length; i++ ) {
 						if(post[i].category === hash || (isIndex) || hash === 'alle') {
 
-						
+
 							if(numCat <= conf.maxIndexPosts) {
 								_(".post--list").innerHTML += post[i].card;
 								numCat++;
@@ -293,7 +294,7 @@
 
 				}
 			};
-			
+
 			loadmoreButton.onclick = function(e) {
 				e.preventDefault();
 				e.stopPropagation();
@@ -306,7 +307,7 @@
 					setTimeout(function() {
 						_(".post--list li")[p].removeClass("displayNone");
 					}, t);
-					
+
 				};
 
 				for (var i = 0; i < conf.maxPostReload; i++) {
@@ -350,7 +351,7 @@
 							progressBar.style.display = 'none';
 
 						}, 350);
-						
+
 					}
 
 				}

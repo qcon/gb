@@ -61,7 +61,7 @@ document.addEventListener('DOMContentLoaded', function() {(function() {
 					}
 					break;
 			}
-		}  
+		}
 
 		returnNodeFinal = ( returnNode.length > 1 ) ? returnNode : returnNode[0];
 
@@ -162,7 +162,8 @@ document.addEventListener('DOMContentLoaded', function() {(function() {
 	 * add acive CSS Class to the linklist item
 	 * @return null
 	 */
-	markActiveLinklist = function() {
+	markActiveLinklist = function(hash) {
+
 		_(".linklistloop a").forEach(function(_self) {
 
 			if(_self.getAttribute("data-kat") === hash ) {
@@ -171,7 +172,7 @@ document.addEventListener('DOMContentLoaded', function() {(function() {
 				setTimeout(function() {
 					jumpTo(_self);
 				}, 50);
-				
+
 
 			} else {
 
@@ -237,7 +238,7 @@ document.addEventListener('DOMContentLoaded', function() {(function() {
 			postList = _(".post--list");
 			postContainer = _("#post--list__container");
 			pageHeading = _("#page-heading");
-			loadmoreButton = _("#loadmoreajax");			
+			loadmoreButton = _("#loadmoreajax");
 
 			postList.innerHTML = '';
 			postContainer.addClass("opacity-0");
@@ -247,7 +248,7 @@ document.addEventListener('DOMContentLoaded', function() {(function() {
 
 			xhr = new XMLHttpRequest();
 
-			markActiveLinklist();
+			markActiveLinklist(hash);
 
 			xhr.onreadystatechange = function(e) {
 
@@ -259,13 +260,13 @@ document.addEventListener('DOMContentLoaded', function() {(function() {
 
 					/**
 					 * loop through all posts and put them in an array
-					 * if the category is identical with the hash, then 
+					 * if the category is identical with the hash, then
 					 * append it to the postlist
 					 */
 					for( var i = 0; i < post.length; i++ ) {
 						if(post[i].category === hash || (isIndex) || hash === 'alle') {
 
-						
+
 							if(numCat <= conf.maxIndexPosts) {
 								_(".post--list").innerHTML += post[i].card;
 								numCat++;
@@ -293,7 +294,7 @@ document.addEventListener('DOMContentLoaded', function() {(function() {
 
 				}
 			};
-			
+
 			loadmoreButton.onclick = function(e) {
 				e.preventDefault();
 				e.stopPropagation();
@@ -306,7 +307,7 @@ document.addEventListener('DOMContentLoaded', function() {(function() {
 					setTimeout(function() {
 						_(".post--list li")[p].removeClass("displayNone");
 					}, t);
-					
+
 				};
 
 				for (var i = 0; i < conf.maxPostReload; i++) {
@@ -350,7 +351,7 @@ document.addEventListener('DOMContentLoaded', function() {(function() {
 							progressBar.style.display = 'none';
 
 						}, 350);
-						
+
 					}
 
 				}
@@ -361,6 +362,7 @@ document.addEventListener('DOMContentLoaded', function() {(function() {
 
 	};
 })();
+
 var
 	linklist              = _("#linklist"),
 	linklistAnchor        = _("#linklist a"),
@@ -704,7 +706,7 @@ router.add('produkttest', function() {
 router.add('alle', function() {
 
 	router.parser("alle", 'Alle Beiträge');
-	
+
 	setTimeout(function() {
 
 		jumpTo(_("#loadmoreajax"));
@@ -718,7 +720,7 @@ window.addEventListener("hashchange", function() {
 
 	loader(true);
 	router.checker(location.hash);
-	
+
 });
 
 window.addEventListener("load", function() {
@@ -726,4 +728,5 @@ window.addEventListener("load", function() {
 	loader(true);
 	router.checker(location.hash);
 
-});});
+});
+});

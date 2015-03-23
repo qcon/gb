@@ -31,7 +31,7 @@ router.add('produkttest', function() {
 router.add('alle', function() {
 
 	router.parser("alle", 'Alle Beiträge');
-	
+
 	setTimeout(function() {
 
 		jumpTo(_("#loadmoreajax"));
@@ -45,7 +45,7 @@ window.addEventListener("hashchange", function() {
 
 	loader(true);
 	router.checker(location.hash);
-	
+
 });
 
 window.addEventListener("load", function() {
