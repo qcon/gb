@@ -152,13 +152,3 @@ WebFontConfig = {
   var s = document.getElementsByTagName('script')[0];
   s.parentNode.insertBefore(wf, s);
 })();
-
-
-(function() {
-	var loader = _('#ad_loader'),
-	ads = _('#ad_container');
-	loader.appendChild(ads);
-})();
-
-
-// 480390

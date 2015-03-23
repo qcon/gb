@@ -516,16 +516,6 @@ WebFontConfig = {
   s.parentNode.insertBefore(wf, s);
 })();
 
-
-(function() {
-	var loader = _('#ad_loader'),
-	ads = _('#ad_container');
-	loader.appendChild(ads);
-})();
-
-
-// 480390
-
 var kontaktSenden   = _("#SENDEN"),
 kontaktMessageError = _("#form_msg_error"),
 kontaktMessage      = _("#form_msg"),
