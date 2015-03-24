@@ -88,16 +88,3 @@
     transform:scale(.5) rotate(15deg);
 
 }
-
-
-
-//////////////
-.btnanim {
-  animation: btnanim 250ms linear;
-}
-@keyframes btnanim {
-  100% {
-    opacity: 0;
-    transform: scale(2.5);
-  }
-}
