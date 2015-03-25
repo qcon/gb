@@ -356,7 +356,7 @@ document.addEventListener('DOMContentLoaded', function() {(function() {
 
 				}
 			});
-			xhr.open("GET", "/posts.json", true);
+			xhr.open("GET", postJSONCache, true);
 			xhr.send();
 		}
 
