@@ -621,15 +621,21 @@ if( kontaktSenden ) {
 	});
 }
 
-var teil1         = _("#mischungInput1"),
-teil2             = _("#mischungInput2"),
-ergebnis          = _("#mischungResult"),
-ergebnisML        = _("#mischung--highlight"),
-getMischungInputs = _("#mischungsrechner input"),
-header            = _("#mischung--heading");
+var teil1          = _("#mischungInput1"),
+teil2              = _("#mischungInput2"),
+ergebnis           = _("#mischungResult"),
+ergebnisML         = _("#mischung--highlight"),
+getMischungInputs  = _("#mischungsrechner input"),
+header             = _("#mischung--heading"),
+predefinedMischung = _('.mischungenpredefined');
 
-updateMischung = function() {
+updateMischung = function(predefined) {
 	flascheVal = _('input[type="radio"]:checked');
+
+	if(predefined) {
+		teil1.value = predefined.teil1;
+		teil2.value = predefined.teil2;
+	}
 
 	if( teil1.value && teil2.value && flascheVal.value ) {
 
@@ -660,6 +666,14 @@ updateMischung = function() {
 };
 
 if(getMischungInputs) {
+
+	predefinedMischung.forEach(function(_self) {
+		_self.addEventListener('click', function() {
+			content = _self.innerHTML.split(':');
+			preDefinedvalues = { teil1: content[0], teil2: content[1]};
+			updateMischung(preDefinedvalues);
+		});
+	});
 
 	getMischungInputs.forEach(function(el) {
 

@@ -227,6 +227,7 @@ blockquote p {
     }
     .mischung--radio {
         margin:3em 0;
+
     }
     .mischung--heading {
         @include font(light);
@@ -244,6 +245,21 @@ blockquote p {
     #mischungResult {
         margin-top:0.5em;
         display:none;
+    }
+}
+.mischungenpredefined {
+    display:inline-block;
+    margin:0 .5em 2.5em 0;
+    padding: .4em .6em;
+    background-color: #e7e7e7;
+    border-color: #ddd;
+    color:$text;
+    @include materialShadow(1);
+    @include font(special);
+    //font-size:.8em;
+    &:hover {
+        cursor: pointer;
+        @include materialShadow(2);
     }
 }
 

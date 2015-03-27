@@ -28,4 +28,7 @@
     var postJSONCache = '/posts.{{ site.cssjsversion }}.json';
     </script>
 </head>
-
+{% if site.livebuild %}
+{% else %}
+<script>postJSONCache = '/posts.json';</script>
+{% endif %}
