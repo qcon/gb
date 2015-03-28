@@ -7,7 +7,6 @@ wps_subtitle:
   - 'Autopflege trifft Herzenssache'
 categories:
   - Allgemein
-markasnew: true
 ---
 
 Wir möchten euch heute auf eine Spendenaktion aufmerksam machen.
