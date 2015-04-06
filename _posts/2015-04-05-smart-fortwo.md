@@ -90,7 +90,6 @@ Das Fahrzeug hat einen Kilometerstand von knapp über 50.000km, Baujahr 2008 und
 **MASCHINEN**
 
 - Lupus Exzenter
-- Flex PE 14-2-150
 
 
 
