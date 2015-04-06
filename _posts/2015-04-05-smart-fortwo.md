@@ -6,7 +6,7 @@ head__img--fullurl: //glossboss.de/images/marvin/sonstige/smartfortwobenni.jpg
 wps_subtitle:
   - 'Uni-Schwarzer Glanzzwerg'
 categories:
-  - Pflegebericht
+  - Pflegeberichte
 ---
 Es ist wieder soweit, die Saison beginnt und die Temperaturen lassen es endlich wieder zu, Spaß am Hobby zu haben. Zur Aufwärmung dieses Jahr gab es ein kleines Osterei in Form eines Smarts. 
 
