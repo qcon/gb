@@ -6,7 +6,6 @@ head__img--fullurl: //glossboss.de/images/sven/wartung/foamlance/Foamlance01.JPG
 wps_subtitle:
   - 'Damit es wieder schön schaumig wird'   
 categories: Anleitungen
-markasnew: true
 ---
 
 Hallo miteinander,
