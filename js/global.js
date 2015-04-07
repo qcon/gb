@@ -239,6 +239,7 @@ document.addEventListener('DOMContentLoaded', function() {(function() {
 			postContainer = _("#post--list__container");
 			pageHeading = _("#page-heading");
 			loadmoreButton = _("#loadmoreajax");
+			loadmoreButton.style.display = 'none';
 
 			postList.innerHTML = '';
 			postContainer.addClass("opacity-0");
@@ -257,6 +258,7 @@ document.addEventListener('DOMContentLoaded', function() {(function() {
 					post = JSON.parse(xhr.responseText,"text/json");
 					numCat = 0;
 					postArr = [];
+					postLoopFinished = false;
 
 					/**
 					 * loop through all posts and put them in an array
@@ -264,10 +266,11 @@ document.addEventListener('DOMContentLoaded', function() {(function() {
 					 * append it to the postlist
 					 */
 					for( var i = 0; i < post.length; i++ ) {
+
 						if(post[i].category === hash || (isIndex) || hash === 'alle') {
 
 
-							if(numCat <= conf.maxIndexPosts) {
+							if(numCat < conf.maxIndexPosts) {
 								_(".post--list").innerHTML += post[i].card;
 								numCat++;
 							}
@@ -283,15 +286,15 @@ document.addEventListener('DOMContentLoaded', function() {(function() {
 					pageHeading.removeClass("opacity-0");
 					postContainer.removeClass("opacity-0");
 
-					if(_(".post--list li").length <= conf.maxIndexPosts) {
+					
+					if(_(".post--list li").length < conf.maxIndexPosts) {
 
 						loadmoreButton.style.display = 'none';
 
 					} else {
-
+						
 						loadmoreButton.style.display = 'block';
-					}
-
+					}	
 				}
 			};
 
