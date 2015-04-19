@@ -8,6 +8,7 @@ wps_subtitle:
 categories:
   - Pflegeberichte
 ---
+
 Porsche 911 (964) in schwarz Metallic
 
 Mark und ich haben wir uns für diesen Porsche 2 Tage Zeit genommen - geplant war eine Defektkorrektur und eine Leder/Innenraumpflege. Am Ende wurde die Zeit richtig knapp, da die Defektkorrektur viel Aufwendiger war als vorher angenommen.
