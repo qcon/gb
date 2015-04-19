@@ -7,7 +7,6 @@ wps_subtitle:
   - 'Teamwork mit Mark'
 categories:
   - Pflegeberichte
-markasnew: true
 ---
 Porsche 911 (964) in schwarz Metallic
 

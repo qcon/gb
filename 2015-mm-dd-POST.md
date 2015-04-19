@@ -8,4 +8,3 @@ wps_subtitle:
 categories:
   - Allgemein
 ---
-

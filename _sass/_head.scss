@@ -231,7 +231,7 @@ ul.hamburger {
         background: HSL(300,5%,95%);
         @include materialShadow(1);
         border-radius:4px;
-
+        transition: 120ms;
         display:block;
         color:$blau;
         text-decoration:none;
@@ -245,6 +245,7 @@ ul.hamburger {
             width:auto;
             line-height:2.5em;
             margin-right:.8em;
+            transition: 120ms;
         }
         .post--meta {
             color:$text;
@@ -258,6 +259,7 @@ ul.hamburger {
             @media #{$sm} {
                 font-size:.7em;
             }
+            transition: 120ms;
         }
         .post--title__a {
             color:$blau;
@@ -289,6 +291,8 @@ ul.hamburger {
         }
         &:hover {
             background: HSL(300,5%,93%);
+            @include materialShadow(2);
+
         }
         &:hover > .post--datum {
             color: $text;
