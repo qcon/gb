@@ -6,7 +6,7 @@ head__img--fullurl: //glossboss.de/images/
 wps_subtitle:
   - 'Unfallschäden auch ohne Profi Geräte entlarven'
 categories:
-  - Allgemein
+  - tipps-tricks
 markasnew: true
 ---
 
