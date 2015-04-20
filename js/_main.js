@@ -6,6 +6,7 @@ var
 	docWidth              = window.innerWidth,
 	contOverlay           = _("#containeroverlay"),
 	contOverlayInner      = _("#containeroverlay-inner"),
+	contOverlayClose      = _('#closeOverlay'),
 	contImage             = _(".post--content p img"),
 	breadtop              = _(".hamburger li:nth-child(1)"),
 	beef                  = _(".hamburger li:nth-child(2)"),
@@ -14,6 +15,7 @@ var
 	postsToLoad           = _('.post--list li'),
 	dellocalStorage       = _('.dellocalStorage'),
 	localStorageContainer = _('.localStorageContainer'),
+	searchModal           = _('.open_search');
 	activeScrollResize    = false;
 
 linklist.style.maxHeight = linklistMaxHeight;
@@ -107,6 +109,24 @@ updateMenu();
 	}
 
 })(contImage);
+
+
+searchRender = function() {
+
+		_('#post--list__container').innerHTML = '<div class="sucheInput"><input type="text" id="search-input" placeholder="Suchbegriff..."></div><ul id="results-container"></ul>';
+
+		SimpleJekyllSearch.init({
+	        searchInput: document.getElementById('search-input'),
+	        resultsContainer: document.getElementById('results-container'),
+	        dataSource: '/search.json',
+	        searchResultTemplate: '{card}',
+	        noResultsText: '<li>Nichts passendes dabei. Hast du eine Idee für einen Artikel? <a style="text-align:center" href="mailto:mail@glossboss.de">Kontaktiere uns!</a></li>',
+	        limit: 25,
+	        fuzzy: false,
+      	});
+
+      	loader(false);
+}
 
 toggleMenuBox.addEventListener('click', function(e) {
 

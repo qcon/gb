@@ -241,11 +241,15 @@
 			loadmoreButton = _("#loadmoreajax");
 			loadmoreButton.style.display = 'none';
 
-			postList.innerHTML = '';
-			postContainer.addClass("opacity-0");
-
 			pageHeading.addClass("opacity-0");
 			pageHeading.textContent = title;
+
+			if(hash === "suche") {
+				searchRender();
+				return;
+			}
+			postList.innerHTML = '';
+			postContainer.addClass("opacity-0");
 
 			xhr = new XMLHttpRequest();
 

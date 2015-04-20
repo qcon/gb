@@ -146,7 +146,7 @@ grunt.initConfig({
     dist: {
       // src: ['js/jqeasing.js','js/main.js','js/kontakt.js','js/mischungsrechner.js','js/scroll.js'],
       // dest: 'js/global.js'
-      src: ['js/_config.js','js/_main.js','js/_kontakt.js','js/_mischungsrechner.js', 'js/_routes.js'],
+      src: ['js/_config.js','js/_main.js','js/_kontakt.js','js/_mischungsrechner.js', 'js/_routes.js', 'js/_search.js'],
       dest: 'js/global.js'
     }
   }

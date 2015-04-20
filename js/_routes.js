@@ -28,6 +28,10 @@ router.add('produkttest', function() {
 
 });
 
+router.add('suche', function() {
+	router.parser("suche");
+});
+
 router.add('alle', function() {
 
 	router.parser("alle", 'Alle Beiträge');
