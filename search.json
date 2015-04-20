@@ -1,0 +1,11 @@
+---
+layout: none
+---
+[
+  {% for post in site.posts %}
+    {
+      "title"    : "{{ post.title | escape }}",
+      "card" : "<li data-read=\"{{post.id}}\" data-kat=\"{{post.categories}}\">{% if post.markasnew %}<span class=\"post--new\">NEU<\/span>{% endif %}<a class=\"post-link\" href=\"{{ post.url | prepend: site.baseurl }}\"><div class=\"post--img\" style=\"background:url({% if post.head__img %} {{ post.head__img }} {% else %} {{ post.head__img--fullurl }} {% endif %}) 50% 50% no-repeat;background-size:cover;\"><\/div><span class=\"post--datum\">{{ post.date | date: '%-d %b, %Y' }}<\/span><span class=\"post--title__a\">{{ post.title }} <small>{{ post.wps_subtitle }}<\/small><\/span><span class=\"post--meta\"><span class=\"post--read\"><\/span> Author: {{post.author}} | Kategorien:<span class=\"capitalize\"> {{post.categories}}<\/span><\/span><\/a><\/li>"
+    } {% unless forloop.last %},{% endunless %}
+  {% endfor %}
+]
