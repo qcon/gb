@@ -230,6 +230,11 @@ document.addEventListener('DOMContentLoaded', function() {(function() {
 			}
 		},
 		parser: function( hash, title, isIndex ) {
+			_('#searchWrapper').style.display = 'none';
+
+			markActiveLinklist(hash);
+
+			
 			hashNice = hash.charAt(0).toUpperCase() + hash.slice(1,hash.length);
 			title = title || hashNice;
 
@@ -239,21 +244,25 @@ document.addEventListener('DOMContentLoaded', function() {(function() {
 			postContainer = _("#post--list__container");
 			pageHeading = _("#page-heading");
 			loadmoreButton = _("#loadmoreajax");
+
 			loadmoreButton.style.display = 'none';
 
 			pageHeading.addClass("opacity-0");
 			pageHeading.textContent = title;
 
-			if(hash === "suche") {
-				searchRender();
-				return;
-			}
+			
 			postList.innerHTML = '';
 			postContainer.addClass("opacity-0");
 
+			if(hash === "suche") {
+				postContainer.removeClass("opacity-0");
+				searchRender();
+				return;
+			}
+
 			xhr = new XMLHttpRequest();
 
-			markActiveLinklist(hash);
+			
 
 			xhr.onreadystatechange = function(e) {
 
@@ -485,8 +494,8 @@ updateMenu();
 
 searchRender = function() {
 
-		_('#post--list__container').innerHTML = '<div class="sucheInput"><input type="text" id="search-input" placeholder="Suchbegriff..."></div><ul id="results-container"></ul>';
-
+		//_('#post--list__container').innerHTML = '<div class="sucheInput"><input type="text" id="search-input" placeholder="Suchbegriff..."></div><ul id="results-container"></ul>';
+		_('#searchWrapper').style.display = 'block';
 		SimpleJekyllSearch.init({
 	        searchInput: document.getElementById('search-input'),
 	        resultsContainer: document.getElementById('results-container'),

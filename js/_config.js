@@ -230,6 +230,11 @@
 			}
 		},
 		parser: function( hash, title, isIndex ) {
+			_('#searchWrapper').style.display = 'none';
+
+			markActiveLinklist(hash);
+
+			
 			hashNice = hash.charAt(0).toUpperCase() + hash.slice(1,hash.length);
 			title = title || hashNice;
 
@@ -239,21 +244,25 @@
 			postContainer = _("#post--list__container");
 			pageHeading = _("#page-heading");
 			loadmoreButton = _("#loadmoreajax");
+
 			loadmoreButton.style.display = 'none';
 
 			pageHeading.addClass("opacity-0");
 			pageHeading.textContent = title;
 
-			if(hash === "suche") {
-				searchRender();
-				return;
-			}
+			
 			postList.innerHTML = '';
 			postContainer.addClass("opacity-0");
 
+			if(hash === "suche") {
+				postContainer.removeClass("opacity-0");
+				searchRender();
+				return;
+			}
+
 			xhr = new XMLHttpRequest();
 
-			markActiveLinklist(hash);
+			
 
 			xhr.onreadystatechange = function(e) {
 

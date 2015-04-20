@@ -113,8 +113,8 @@ updateMenu();
 
 searchRender = function() {
 
-		_('#post--list__container').innerHTML = '<div class="sucheInput"><input type="text" id="search-input" placeholder="Suchbegriff..."></div><ul id="results-container"></ul>';
-
+		//_('#post--list__container').innerHTML = '<div class="sucheInput"><input type="text" id="search-input" placeholder="Suchbegriff..."></div><ul id="results-container"></ul>';
+		_('#searchWrapper').style.display = 'block';
 		SimpleJekyllSearch.init({
 	        searchInput: document.getElementById('search-input'),
 	        resultsContainer: document.getElementById('results-container'),

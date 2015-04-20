@@ -8,6 +8,6 @@ exclude: [.htaccess, _sass, config.codekit,node_modules,Gruntfile.js,package.jso
 include: [images, was-wird-gespeichert]
 markdown: kramdown
 permalink: /:categories/:title
-cssjsversion: 65
+cssjsversion: 66
 livebuild: true
 headimggradient: "linear-gradient(HSLA(197, 100%, 49%,.6),HSLA(197, 100%, 49%,.9))"
