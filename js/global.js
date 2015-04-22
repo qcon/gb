@@ -1,4 +1,6 @@
-document.addEventListener('DOMContentLoaded', function() {(function() {
+document.addEventListener('DOMContentLoaded', function() {//MM SELECTOR <3
+
+(function() {
 
 	var debug = true,
 	ls        = localStorage,
