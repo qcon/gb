@@ -5,6 +5,7 @@ SOURCE = "."
 CONFIG = {
   'posts' => File.join(SOURCE, "_posts"),
   'post_ext' => "md",
+  
 }
 
 task :newpost do 
