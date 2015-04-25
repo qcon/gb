@@ -3,7 +3,7 @@ title: FORD FOCUS RS MK2
 author: René
 layout: post
 markasnew: true
-head__img--fullurl: http://abload.de/img/dsc_9319r7za1.jpg
+head__img--fullurl: //glossboss.de/images/marvin/sonstige/focusrsfrozenwhiterene.jpg
 wps_subtitle:
   - 'FROZEN WHITE UNI. - // Definitive White!'
 categories:
