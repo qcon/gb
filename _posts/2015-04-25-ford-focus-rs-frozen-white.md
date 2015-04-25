@@ -133,7 +133,7 @@ Sonst war der Innenraum in Ordnung.
 
 Begonnen habe ich noch am selben Tag der Überbringung mit dem Innenraum. Das Ziel war natürlich damit auch komplett abzuschliessen. Also hab ich mir den Staubsauger genommen, das erste Mal gesaugt und mich dann den weiteren Aufgaben gestellt.
 
-Alle Plastikelemente und Gummidichtungen wurden mit All Aurface Green Clean von Chemical Guys, gereinigt und dann mit einem meiner neuen Pflegemitteln, den Matte Dash, C6 von Gtechniq gepflegt/geschützt. 
+Alle Plastikelemente und Gummidichtungen wurden mit All Surface Green Clean von Chemical Guys, gereinigt und dann mit einem meiner neuen Pflegemitteln, den Matte Dash, C6 von Gtechniq gepflegt/geschützt. 
 ![](http://abload.de/img/dsc_8999basxz.jpg)
 ![](http://abload.de/img/dsc_89971xso8.jpg)
 ![](http://abload.de/img/dsc_9142ihube.jpg)
@@ -304,7 +304,7 @@ Für den kompletten Aussenbereich benötigte ich eine knappe ¾ Stunde. Der Verb
 
 Zum Ende hinwurden die Scheiben vorsichtig geputzt, nochmal durchgesaugt und hier und da nochmal mit Q-Tips die Schlussarbeiten erledigt.
 
-**„Fnish“**!
+**„Finish“**!
 ![](http://abload.de/img/dsc_9319r7za1.jpg)
 ![](http://abload.de/img/dsc_9304lsrfd.jpg)
 ![](http://abload.de/img/dsc_9306j5quk.jpg)
