@@ -25,10 +25,6 @@ task :newpost do
 	cat = $stdin.gets.chomp
 
 	puts '-------'
-	puts 'Header img Url?'
-	headimgfullurl = $stdin.gets.chomp
-
-	puts '-------'
 	puts 'Subtitle?'
 	subtitle = $stdin.gets.chomp
 
@@ -52,7 +48,7 @@ task :newpost do
 		post.puts "author: \"#{author}\""
 		post.puts "wps_subtitle: #{subtitle}"
 		post.puts "categories: #{cat}"
-		post.puts "head__img--fullurl: #{headimgfullurl}"
+		post.puts "head__img--fullurl: //glossboss.de/images/"
 		post.puts "markasnew: true"
 		post.puts '---'
 	end
