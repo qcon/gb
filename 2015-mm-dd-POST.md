@@ -7,4 +7,5 @@ wps_subtitle:
   - 'Wichtige Infos zu IPA und co'
 categories:
   - Allgemein
+markasnew: true
 ---
