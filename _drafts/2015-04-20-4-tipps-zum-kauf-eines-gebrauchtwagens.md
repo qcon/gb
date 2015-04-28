@@ -16,5 +16,3 @@ Zum Glück gibt es Glossboss. In diesen Artikel zeigen wir dir, wie du auch ohne
 Fangen wir an mit den ersten Indikator:
 
 ##1. Orangenhaut
-
-WICHTIG!!
