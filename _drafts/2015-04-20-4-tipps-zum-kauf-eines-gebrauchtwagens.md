@@ -17,4 +17,4 @@ Fangen wir an mit den ersten Indikator:
 
 ##1. Orangenhaut
 
-WICHTIG!
+WICHTIG!!
