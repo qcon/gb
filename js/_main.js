@@ -118,7 +118,7 @@ searchRender = function() {
 		SimpleJekyllSearch.init({
 	        searchInput: document.getElementById('search-input'),
 	        resultsContainer: document.getElementById('results-container'),
-	        dataSource: '/search.json',
+	        dataSource: '/posts.json',
 	        searchResultTemplate: '{card}',
 	        noResultsText: '<li>Nichts passendes dabei. Hast du eine Idee für einen Artikel? <a style="text-align:center" href="mailto:mail@glossboss.de">Kontaktiere uns!</a></li>',
 	        limit: 25,
