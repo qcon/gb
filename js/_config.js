@@ -1,5 +1,4 @@
 //MM SELECTOR <3
-//V1.0.8
 
 (function() {
 
