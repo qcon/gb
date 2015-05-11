@@ -1,0 +1,39 @@
+---
+layout: post
+title: "1 Jahr Glossboss"
+author: "Marvin"
+wps_subtitle: Statistiken, Meinungen und ein riesen Dankeschön an alle Besucher
+categories: Allgemein
+head__img--fullurl: //glossboss.de/images/
+markasnew: true
+---
+Der erste Glossboss Beitrag wurde am 23.06.2014 veröffentlicht. Das war ein Pflegebericht eines [Alfa Romeo GTV](//glossboss.de/pflegeberichte/alfa-romeo-gtv). Damit war der Grundstein gelegt für eine Idee. Nämlich eine **unabhängige** Platform für alle Autopflege Begeisterten und die, die es mal werden wollen. Ganz ohne Sponsoren, gestellten Produkten und frei von Werbung. Wir sind der Meinung, dass es nur so eine unverfälschte Meinung über Produkte geben kann. Das sich das bewahrheitet, stellte sich auch relativ zügig heraus, als die ersten Testberichte Online gingen. "Einige" Besucherzuschriften (also damals wahrscheinlich ehr so 2-3) lobten die ehrliche Berichte. Mittlerweile erreichen uns nahezu wöchentlich eMails von zufriedenen und dankbaren Besuchern.
+
+*Michael meint:*
+
+>Toller Blog, blablabla
+
+*Stefan meint:*
+
+>Jop! is gut
+alles super
+
+Das so eine Platform längst überfällig war, war klar. Wir haben uns auch bewusst gegen ein neues Forum entschieden, da dort neben unzähligen unsinnigen Diskussionen - *ich finde Produkt Y besser als X* & *ich habe einen blauen Golf, funktioniert Politur Y?* - auch Beiträge auftauchen von Amateuren die dort als Profi auftreten. Die Ratschläge sind meist fachlich falsch und können sogar Schäden verursachen.  
+
+Hier im Blog schreiben nur auserwählte. Das sind sowohl Profis als auch Amateure, jeder Beitrag wird jedoch gesichtet und vor der Veröffentlichung auch korrektheit geprüft. 
+
+Die erste Version des Blogs wurde mit Wordpress betrieben. Wordpress ist eine Software zur Erstellung von Websites. Unzählige Plugins und Designs stehen zur Auswahl. Das ist gleichzeitig aber auch der größte Nachteil. Die Website war total aufgebläht. Manchmal dauerte es mehr als 4 Sekunden um die Startseite aufzubauen, da soviel Inhalt runtergeladen werden musste. In Zeiten wo Zugriffe von mobilen Endgeräten wie Smartphones und Tablets ca. 50% der Besucher ausmachten, ein absolutes no-go.
+Parallel zum Umzug der Website auf einen eigenen VServer, programmierte ich den gesamten Blog selbst um auch eine gute performance für alle Besucher zu bieten, die über das mobile Netz zugreifen. Zum Vergleich: die Website lädt nun in rund 600-1100ms, also meistens in unter einer Sekunde.
+
+##Steigende Zugriffszahlen
+
+Die Optimierungen machten sich schnell bemerkbar. Google belohnt schnelle Ladezeiten und gut programmierte Websites mit einen höhren Rang in der Googlesuche. Momentan erreichen wir mit unseren Beiträgen rund **3700** unique visitors im Monat. Also 3700 Einzelpersonen. Somit kommen wir auf rund **10.000 - 11.000** page impressions im Monat - die Anzahl der Gesamten Zugriffe. Tendenz jeden Monat steigend. 
+
+Beachtlich für einen Blog: im Durchschnitt verbringt ein Benutzer ~5,35 Minuten auf unserer Website.  
+
+Internationale Zugriffe sind mit einen Anteil von insg. rund **8-9%** auch nicht grade wenig. Der Bericht zum [Gtechniq Crystal Serum](//glossboss.de/produkttest/gtechniq-crystal-serum-test-anwendung-auftrag/) war auch in vielen internationalen Autopflegeportal (u.a. Frankreich, Norwegen, Dänemark, Polen, England usw.) sehr beliebt und bescherte uns für den Monat der Veröffentlichung fast **18.500** Zugriffe auf den Blog.
+
+
+##Aktionen für die Community
+
+Die Aktion [Glossboss Hilft](//glossboss.de/allgemein/glossbos-hilft) war ein voller Erfolg und motiviert uns natürlich auf weitere Aktionen für die Community. 
