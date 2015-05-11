@@ -57,5 +57,5 @@ config:
 	remote = github
 	merge = refs/heads/master
 [remote "github"]
-	url = https://github.com/qcon/gb.git
+	url = git@github.com:qcon/gb.git
 	fetch = +refs/heads/*:refs/remotes/github/*
