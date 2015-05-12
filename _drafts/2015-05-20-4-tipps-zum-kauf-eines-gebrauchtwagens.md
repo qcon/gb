@@ -16,3 +16,7 @@ Zum Glück gibt es Glossboss. In diesen Artikel zeigen wir dir, wie du auch ohne
 Fangen wir an mit den ersten Indikator:
 
 ##1. Orangenhaut
+
+Als Orangenhaut bezeichnet man die Lackoberfläche, welche in einer Spiegelung betrachtet, sehr wellig aussieht. Kann man sehr gut erkennen, wenn z.B. der Wagen unter Leuchtstoffröhren steht. Schaut man nun __in__ den Lack und die Leuchtstoffröhre (oder jedes andere grade Objekt) sieht wellig aus, hat man die Orangenhaut gefunden. 
+
+Diese ist bei allen Serienfahrzeugen vorhanden und entsteht schon im Produktionsprozess. Der Wagen sollte auf jeder Oberfläche eine gleichmäßige Orangenhaut besitzen. Ist ein Bauteil extrem welliger oder sogar nicht so wellig wie die anderen Bauteile, kann man schon mit sehr großer Wahrscheinlichkeit sagen: hier wurde was nachlackiert.
