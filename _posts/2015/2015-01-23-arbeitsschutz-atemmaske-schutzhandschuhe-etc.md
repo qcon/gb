@@ -34,6 +34,7 @@ Eine Schutzbrille solltest du immer dann tragen, wenn Produkte mit einer Bürste
 Eine Atemschutzmaske ist immer dann notwendig, wenn reizende Dämpfe beim Anwenden und Ablüften von Produkten entstehen... dies kann bei Versiegelungen oder auch starken Reinigern der Fall sein.
 
 *Update*
+
 >Eine Partikelmaske schützt aber keinesfalls vor den Gefährlichen Ausdünstungen von Coatings! Hier ist unbedingt eine Maske mit Aktivekohlefilter notwendig!
 
 Den Gehörschutz musst du nur bei Polierarbeiten mit der Maschine tragen, selbst bei einer relativ leisen Rotationsmaschine können die stundenlangen Geräusche negative Auswirkungen auf deine Gesundheit haben.
