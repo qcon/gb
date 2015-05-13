@@ -159,10 +159,30 @@ ul.hamburger {
     transition:.15s cubic-bezier(.55,0,.1,1);
     img:hover {
         transform:scale(1.1);
+        animation-name: easteregg;
+        animation-duration: .5s;
+        animation-timing-function: ease-out;
+        animation-delay: 4s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
     }
     img {
         transition:.15s cubic-bezier(.55,0,.1,1);
         max-width:100%;
+    }
+}
+@keyframes easteregg {
+    1% {
+        transform: scale(.6) rotate(20deg)
+    }
+    33% {
+        transform: scale(.9) rotate(-20deg)
+    }
+    66% {
+        transform: scale(.6) rotate(20deg)
+    }
+    99% {
+        transform: scale(.9) rotate(-20deg)
     }
 }
 .post--title {

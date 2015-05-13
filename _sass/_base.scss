@@ -100,12 +100,16 @@ $xs : "(max-width: 24.37em)"; //390px
 }
 .width--wrapper {
     width: 80%;
+    
     margin: 0 auto;
     @media #{$sm} {
         width:93%;
+        
     }
     @media #{$lg-min} {
         width:1200px;
+        max-width: 1200px;
+        
     }
     &__ad {
       width: 50%;
