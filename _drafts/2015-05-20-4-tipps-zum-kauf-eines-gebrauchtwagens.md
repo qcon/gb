@@ -9,7 +9,7 @@ categories:
   - tipps-tricks
 markasnew: true
 ---
-Wer sich heutzutage einen Gebrauchtwagen zulegen möchte, sollte z.B. unbedingt auf Unfallschäden oder Nachlackierungen achten. Das prädigen zumindest alle Automobilportale, jedoch ohne genaue Anleitung wie man eventuelle Unfallschäden oder Nachlackierungen enttarnen kann.
+Wer sich heutzutage einen Gebrauchtwagen zulegen möchte, sollte z.B. unbedingt auf Unfallschäden oder Nachlackierungen achten. Das prädigen zumindest alle Automobilportale, jedoch ohne genaue Anleitung wie man eventuelle Unfallschäden oder Nachlackierungen enttarnen kann, außer, dass man auf Spaltmaße achten sollte...
 
 Zum Glück gibt es Glossboss. In diesen Artikel zeigen wir dir, wie du auch ohne Profi Geräte solche Schäden ausfindig machst.
 
