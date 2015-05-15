@@ -10,9 +10,9 @@ markasnew: true
 
 Der erste Glossboss Beitrag wurde am 23.06.2014 veröffentlicht. Das war ein Pflegebericht eines [Alfa Romeo GTV](//glossboss.de/pflegeberichte/alfa-romeo-gtv). Damit war der Grundstein gelegt für eine Idee. Nämlich eine **unabhängige** Platform für alle Autopflege Begeisterten und die, die es mal werden wollen. Ganz ohne Sponsoren, gestellten Produkten und frei von Werbung. Wir sind der Meinung, dass es nur so eine unverfälschte Meinung über Produkte geben kann. Das sich das bewahrheitet, stellte sich auch relativ zügig heraus, als die ersten Testberichte Online gingen. "Einige" Besucherzuschriften (also damals wahrscheinlich ehr so 2-3) lobten die ehrliche Berichte. Mittlerweile erreichen uns nahezu wöchentlich eMails von zufriedenen und dankbaren Besuchern.
 
-*Michael meint:*
+*Markus meint:*
 
->Toller Blog, blablabla
+>Diese Seite ist ab sofort gespeichert und gefällt mir sehr gut!
 
 *Stefan meint:*
 
@@ -23,7 +23,7 @@ Das so eine Platform längst überfällig war, war klar. Wir haben uns auch bewu
 
 Hier im Blog schreiben nur auserwählte. Das sind sowohl Profis als auch Amateure, jeder Beitrag wird jedoch gesichtet und vor der Veröffentlichung auch korrektheit geprüft. 
 
-Die erste Version des Blogs wurde mit Wordpress betrieben. Wordpress ist eine Software zur Erstellung von Websites. Unzählige Plugins und Designs stehen zur Auswahl. Das ist gleichzeitig aber auch der größte Nachteil. Die Website war total aufgebläht. Manchmal dauerte es mehr als 4 Sekunden um die Startseite aufzubauen, da soviel Inhalt runtergeladen werden musste. In Zeiten wo Zugriffe von mobilen Endgeräten wie Smartphones und Tablets ca. 50% der Besucher ausmachten, ein absolutes no-go.
+Die erste Version des Blogs wurde mit Wordpress betrieben. Wordpress ist eine Software zur Erstellung von Websites, ein sogenanntes CMS (Content Management System). Unzählige Plugins und Designs stehen zur Auswahl. Das ist gleichzeitig aber auch der größte Nachteil. Die Website war total aufgebläht. Manchmal dauerte es mehr als 4 Sekunden um die Startseite aufzubauen, da soviel Inhalt runtergeladen werden musste. In Zeiten wo Zugriffe von mobilen Endgeräten wie Smartphones und Tablets ca. 50% der Besucher ausmachten, ein absolutes no-go.
 Parallel zum Umzug der Website auf einen eigenen VServer, programmierte ich den gesamten Blog selbst um auch eine gute performance für alle Besucher zu bieten, die über das mobile Netz zugreifen. Zum Vergleich: die Website lädt nun in rund 600-1100ms, also meistens in unter einer Sekunde.
 
 ##Steigende Zugriffszahlen
