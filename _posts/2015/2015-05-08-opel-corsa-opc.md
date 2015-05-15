@@ -5,7 +5,6 @@ author: "René"
 wps_subtitle: Nürburgring Edition - Casablanca Weiss Uni
 categories: Pflegeberichte
 head__img--fullurl: //glossboss.de/images/marvin/sonstige/dsc_9476vhuij.jpg
-markasnew: true
 ---
 ![](http://abload.de/img/headervokl0.jpg)
 
