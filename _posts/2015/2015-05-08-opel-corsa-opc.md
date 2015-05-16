@@ -8,7 +8,8 @@ head__img--fullurl: //glossboss.de/images/marvin/sonstige/dsc_9476vhuij.jpg
 ---
 ![](http://abload.de/img/headervokl0.jpg)
 
-# FORD FOCUS RS MK2 - FROZEN WHITE UNI. - // Definitive White!
+#OPEL CORSA OPC – NÜRBURGRING EDITION - // Quick Detail!
+
 
 **Fahrzeugdaten:**
 
