@@ -35,9 +35,8 @@ task :css_scss do
 	puts "SCSS & Autoprefixer DONE".green
 end
 task :jekyll_dev do
-	puts "Building Jekyll".magenta
+	puts "Building Jekyll and running server".magenta
 	`jekyll serve --config _config-dev.yml`
-	puts "Jekyll DONE. Running Server".green
 end
 
 task :dev => [:css_scss, :js, :jekyll_dev] do
