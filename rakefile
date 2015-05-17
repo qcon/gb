@@ -52,9 +52,9 @@ task :css_scss do
 end
 task :jekyll_dev do
 	puts "Building Jekyll".magenta
-	`jekyll build --config _config-dev.yml`
+	`jekyll serve --config _config-dev.yml`
 	puts "Jekyll DONE. Running Server".green
-	`jekyll serve --skip-initial-build`
+	#{}`jekyll serve --skip-initial-build`
 end
 
 task :dev => [:css_scss, :js, :jekyll_dev] do
