@@ -50,9 +50,6 @@ task :css_scss do
 	`autoprefixer dist/inline_layout.css -o _includes/inline_layout.css`
 	puts "SCSS & Autoprefixer DONE".green
 end
-task :jekyll_live do
-	`jekyll build`
-end
 task :jekyll_dev do
 	puts "Building Jekyll".magenta
 	`jekyll build --config _config-dev.yml`
