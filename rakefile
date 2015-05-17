@@ -11,10 +11,12 @@ CONFIG = {
 task :mmarvin do
 	puts "marvinmm task"
 end
+task :mmmarvin do
+	puts "mmmmmarvin task"
+end
 
-task :marvin do
-	puts "marvin task"
-	mmarvin
+task :marvin => [:mmarvin, :mmmarvin] do
+	puts "fertig!"
 end
 
 task :newpost do 
