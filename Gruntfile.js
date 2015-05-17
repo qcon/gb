@@ -8,79 +8,6 @@ grunt.initConfig({
     },
     main: ['js/_config.js','js/_main.js','js/_kontakt.js','js/_mischungsrechner.js', 'js/_routes.js']
   },
-  copy: {
-    main: {
-      files: [
-        {
-          cwd: '_site/allgemein/',
-          expand: true, 
-          src: ['**/*.html'], 
-          dest: 'pdf/html/allgemein/',
-          rename: function(dest, src) {
-            return dest + src.substring(0, src.indexOf('/')) + '.html';
-          }
-        },
-        {
-          cwd: '_site/anleitungen/',
-          expand: true, 
-          src: ['**/*.html'], 
-          dest: 'pdf/html/anleitungen/',
-          rename: function(dest, src) {
-            return dest + src.substring(0, src.indexOf('/')) + '.html';
-          }
-        },
-        {
-          cwd: '_site/pflegeberichte/',
-          expand: true, 
-          src: ['**/*.html'], 
-          dest: 'pdf/html/pflegeberichte/',
-          rename: function(dest, src) {
-            return dest + src.substring(0, src.indexOf('/')) + '.html';
-          }
-        },
-        {
-          cwd: '_site/tipps-tricks/',
-          expand: true, 
-          src: ['**/*.html'], 
-          dest: 'pdf/html/tipps-tricks/',
-          rename: function(dest, src) {
-            return dest + src.substring(0, src.indexOf('/')) + '.html';
-          }
-        },
-        {
-          cwd: '_site/produkttest/',
-          expand: true, 
-          src: ['**/*.html'], 
-          dest: 'pdf/html/produkttest/',
-          rename: function(dest, src) {
-            return dest + src.substring(0, src.indexOf('/')) + '.html';
-          }
-        },
-      ]
-    }
-  },
-  wkhtmltopdf: {
-    allgemein: {
-      src: 'pdf/html/allgemein/*.html',
-      dest: 'pdf/allgemein/'
-    },
-    anleitungen: {
-      src: 'pdf/html/anleitungen/*.html',
-      dest: 'pdf/anleitungen/'
-    },
-    tippstricks: {
-      src: 'pdf/html/tipps-tricks/*.html',
-      dest: 'pdf/tipps-tricks/'
-    },
-    pflegeberichte: {
-      src: 'pdf/html/pflegeberichte/*.html',
-      dest: 'pdf/pflegeberichte/'
-    },
-    produkttest: {
-      src: 'pdf/html/produkttest/*.html',
-      dest: 'pdf/produkttest/'
-    },
-  },
 
   jekyll: {
     dev: {
@@ -94,7 +21,6 @@ grunt.initConfig({
         sourcemap: 'none'
       },
       files: {
-        'dist/layout.css': '_sass/layout.scss',
         'dist/inline_layout.css': '_sass/inline_layout.scss'
       }
     }
@@ -133,7 +59,6 @@ grunt.initConfig({
   autoprefixer: {
     dist: {
       files: {
-        'dist/layout.css':'dist/layout.css',
         '_includes/inline_layout.css':'dist/inline_layout.css'
       }
     }
