@@ -8,15 +8,42 @@ CONFIG = {
   
 }
 
-task :mmarvin do
-	puts "marvinmm task"
+task :js do
+	puts "Running JS Task"
+	files = FileList["js/_*.js"]
+	concat_file = "js/global.js"
+
+	open(concat_file, "w") do |output|
+		output.puts("document.addEventListener('DOMContentLoaded', function() {")
+		files.each do |input|
+			output.puts(File.read("#{input}"))
+			output.puts("\n")
+		end
+		output.puts("});")
+	end
+	`touch dist/global.js`
+	`uglifyjs js/global.js -o dist/global.js`
 end
-task :mmmarvin do
-	puts "mmmmmarvin task"
+task :css_scss do
+	puts "Running SCSS Task"
+	`sass --style=compressed --sourcemap=none _sass/inline_layout.scss dist/inline_layoutt.css`
+	`autoprefixer dist/inline_layout.css -o _includes/inline_layout.css`
+	puts "SCSS & Autoprefixer DONE"
+end
+task :jekyll_live do
+	`jekyll build`
+end
+task :jekyll_dev do
+	`jekyll build --config _config-dev.yml`
+	puts "Jekyll DONE. Running Server"
+	`jekyll serve --skip-initial-build`
 end
 
-task :marvin => [:mmarvin, :mmmarvin] do
-	puts "fertig!"
+task :dev => [:css_scss, :js, :jekyll_dev] do
+	puts "Done with all Tasks"
+end
+task :live => [:css_scss, :js] do
+	puts "Ready to deploy!"
 end
 
 task :newpost do 
