@@ -48,7 +48,7 @@ function hamburgerToggle() {
 	}
 }
 
-(function updateMenu() {
+function updateMenu() {
 
 	docHeight = window.innerHeight;
 	docWidth  = window.innerWidth;
@@ -62,7 +62,8 @@ function hamburgerToggle() {
 		hamburgerToggle();
 
 	}
-})();
+};
+updateMenu();
 
 // if JS is enable, switch from normal category links
 // to the much nicer AJAX category links

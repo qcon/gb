@@ -37,7 +37,7 @@ end
 desc "Build SCSS and run autoprefixer"
 task :css_scss do
 	puts "Running SCSS Task".magenta
-	execute("sass --style=compressed --sourcemap=none _sass/inline_layout.scss dist/inline_layoutt.css")
+	execute("sass --style=compressed --sourcemap=none _sass/inline_layout.scss dist/inline_layout.css")
 	execute("autoprefixer dist/inline_layout.css -o _includes/inline_layout.css")
 	puts "SCSS & Autoprefixer DONE".green
 end
