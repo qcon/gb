@@ -59,8 +59,17 @@ task :build => [:css_scss, :js] do
 end
 
 desc "Deploy Task - commit all changes and push"
-task :deploy => [:css_scss, :js] do
-	execute('git commit -am "auto_push"')
+task :deploy, :message do |t, args|
+	message = args[:message]
+	if message.nil? or message.empty?
+		puts "Please add a commit message"
+		message = $stdin.gets.chomp
+	end
+	message += "rake_auto_push "
+	Rake::Task[:css_scss].invoke
+	Rake::Task[:js].invoke
+	execute("git add .")
+	execute("git commit -m \"#{message}\"")
 	execute("git push dropgb")
 end
 
