@@ -11,6 +11,11 @@ CONFIG = {
   
 }
 
+def execute(command)
+	system "#{command}"
+end
+
+desc "Concatenate all JS Files and UglifyJS them"
 task :js do
 	puts "Running JS Task".magenta
 	files = FileList["js/_*.js"]
@@ -24,28 +29,36 @@ task :js do
 		end
 		output.puts("});")
 	end
-	`touch dist/global.js`
-	`uglifyjs js/global.js -o dist/global.js`
+	execute("touch dist/global.js")
+	execute("uglifyjs js/global.js -o dist/global.js")
 	puts "UglifyJS DONE".green
 end
+
+desc "Build SCSS and run autoprefixer"
 task :css_scss do
 	puts "Running SCSS Task".magenta
-	`sass --style=compressed --sourcemap=none _sass/inline_layout.scss dist/inline_layoutt.css`
-	`autoprefixer dist/inline_layout.css -o _includes/inline_layout.css`
+	execute("sass --style=compressed --sourcemap=none _sass/inline_layout.scss dist/inline_layoutt.css")
+	execute("autoprefixer dist/inline_layout.css -o _includes/inline_layout.css")
 	puts "SCSS & Autoprefixer DONE".green
 end
+
+desc "Build Jekyll and run the Server"
 task :jekyll_dev do
 	puts "Building Jekyll and running server".magenta
-	`jekyll serve --config _config-dev.yml`
+	execute("jekyll serve --config _config-dev.yml")
 end
 
+desc "Task for developement"
 task :dev => [:css_scss, :js, :jekyll_dev] do
 	puts "Done with all Tasks".green
 end
+
+desc "Deploy Task - only run the SCSS/JS build scripts"
 task :live => [:css_scss, :js] do
 	puts "Ready to deploy!".green
 end
 
+desc "Create a new Post"
 task :newpost do 
 	puts 'Begin to create a new Post'
 	puts 'But first, let me ask you a few questions'
