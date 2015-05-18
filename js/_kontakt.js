@@ -2,8 +2,8 @@ var kontaktSenden   = _("#SENDEN"),
 kontaktMessageError = _("#form_msg_error"),
 kontaktMessage      = _("#form_msg"),
 kontaktForm         = _(".kontakt__form"),
-kontaktPostContent = _(".post--content"),
-kontaktLoading = _("#loading");
+kontaktPostContent  = _(".post--content"),
+kontaktLoading      = _("#loading");
 
 
 if(kontaktLoading) kontaktLoading.style.opacity = '0';
@@ -11,6 +11,7 @@ if(kontaktLoading) kontaktLoading.style.opacity = '0';
 kontaktSubmit = function() {
 
 	jumpTo( kontaktMessage );
+				
 
 	var kontaktName  = _("#name"),
 	kontaktMail      = _("#xyz"),

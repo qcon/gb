@@ -6,9 +6,9 @@ class String
 end
 SOURCE = "."
 CONFIG = {
-  'posts' => File.join(SOURCE, "_posts"),
-  'post_ext' => "md",
-  
+	'posts' => File.join(SOURCE, "_posts"),
+	'post_ext' => "md",
+	
 }
 
 def execute(command)
