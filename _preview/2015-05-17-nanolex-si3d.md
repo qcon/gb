@@ -70,7 +70,7 @@ Bei der Ablüftzeit haben wir verschiedene Zeiten getestet. Egal ob 3 …
 
 ![](https://glossboss.de/images/alex/nanolexsi3d/13.JPG)
 
-oder 5 Minuten, die Versiegelungsrückstände lassen sich mit zwei Unterschiedlichen Microfasertüchern problemlos abnehmen. Zuerst haben wir mit einem kurzfaseriges (z. B. das Lupus All Purpose Microfasertuch) grob die Rückstände vom Lack abgetragen und im Anschluss folgt dann eine weitere Runde mit einem langfaseriegen Microfasertuch. Hier kann man dann z. B. das Lupus Super Plush 530, Lupus Double Soft Touch blue/gray oder das Petzoldts Superflausch verwenden.
+oder 5 Minuten, die Versiegelungsrückstände lassen sich mit zwei Unterschiedlichen Microfasertüchern problemlos abnehmen. Zuerst haben wir mit einem kurzfaseriges grob die Rückstände vom Lack abgetragen und im Anschluss folgt dann eine weitere Runde mit einem langfaseriegen Microfasertuch.
 
 Hier mal ein paar Bilder, die während der Verarbeitung entstanden sind:
 
@@ -90,6 +90,7 @@ Ich habe jetzt zwei Golf V mit einer Flasche und jeweils einer Schicht versiegel
 Nach dem ihr dann das Auto fertig versiegelt habt, solltet ihr es 12 Stunden in der trockenen Garage stehen bleiben. Ich persönlich empfehle da immer lieber etwas mehr Zeit ins Land ziehen zu lassen, Schaden kann das sicherlich nicht.
 
 Abschließend könnt ihr euch dann an einem strahlenden und geschützten Lack erfreuen. Hier mal ein paar Finishfotos. Aufgrund der starken Sonne habe ich teilweise ein par HDR Bilder gemacht, damit man etwas mehr Kontrast hat.
+
 ![](https://glossboss.de/images/alex/nanolexsi3d/18.JPG)
 
 ![](https://glossboss.de/images/alex/nanolexsi3d/19.JPG)
