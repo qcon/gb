@@ -58,11 +58,11 @@ task :build => [:css_scss, :js] do
 	puts "Ready to deploy!".green
 end
 
-desc "Deploy Task - commit all changes and push"
+desc "Deploy Task - build all, commit all changes and push"
 task :deploy, :message do |t, args|
 	message = args[:message]
 	if message.nil? or message.empty?
-		puts "Please add a commit message"
+		puts "Please add a commit message:".magenta
 		message = $stdin.gets.chomp
 	end
 	message += "rake_auto_push "
