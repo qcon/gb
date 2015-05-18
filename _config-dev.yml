@@ -12,3 +12,7 @@ cssjsversion: 75
 livebuild: false
 port: 1337
 headimggradient: "linear-gradient(HSLA(197, 100%, 49%,.6),HSLA(197, 100%, 49%,.9))"
+collections:
+ preview:
+  output: true
+  permalink: /preview/:path/

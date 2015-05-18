@@ -6,6 +6,7 @@ wps_subtitle: Teamwork mit Novma
 categories: Pflegeberichte
 head__img--fullurl: //glossboss.de/images/
 markasnew: true
+preview: true
 ---
 ![](https://glossboss.de/images/marvin/astrah/P1020533.JPG)
 
