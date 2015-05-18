@@ -1,8 +1,8 @@
 require 'rake'
 require 'yaml'
 class String
-	def green;          "\033[32m#{self}\033[0m" end
-	def magenta;        "\033[35m#{self}\033[0m" end
+	def green; "\033[32m#{self}\033[0m" end
+	def magenta; "\033[35m#{self}\033[0m" end
 end
 SOURCE = "."
 CONFIG = {

@@ -23,6 +23,8 @@ Das so eine Platform längst überfällig war, war klar. Wir haben uns auch bewu
 
 Hier im Blog schreiben nur auserwählte. Das sind sowohl Profis als auch Amateure, jeder Beitrag wird jedoch gesichtet und vor der Veröffentlichung auch korrektheit geprüft.
 
+Aktuell ({{ 'now' | date: "%d.%m.%y"}}) zählt der Blog insgesamt **{{ site.posts | size }}** Beiträge.
+
 ##Technik 
 
 Die erste Version des Blogs wurde mit Wordpress betrieben. Wordpress ist eine Software zur Erstellung von Websites, ein sogenanntes CMS (Content Management System). Unzählige Plugins und Designs stehen zur Auswahl. Das ist gleichzeitig aber auch der größte Nachteil. Die Website war total aufgebläht. Manchmal dauerte es mehr als 4 Sekunden um die Startseite aufzubauen, da soviel Inhalt runtergeladen werden musste. In Zeiten wo Zugriffe von mobilen Endgeräten wie Smartphones und Tablets ca. 50% der Besucher ausmachten, ein absolutes no-go.
@@ -39,3 +41,5 @@ Internationale Zugriffe sind mit einen Anteil von insg. rund **8-9%** auch nicht
 #Dankeschön!
 
 Als Dankeschön und zum 1 Jährigen Jubiläum werden wir unter allen Facebook Likes zu diesen Post ein paar Produkte verlosen. Der Gewinner wird bis zum 25.06.2015 bekannt gegeben!
+
+Mein ganz besonderer, persönlicher Dank geht natürlich an alle Autoren hier im Blog - vielen Dank für die tollen Pflegeberichte, Anleitungen und Produkttests. Danke an Christoph, der sich wunderbar um die Facebookseite kümmert!
