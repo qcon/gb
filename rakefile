@@ -53,9 +53,15 @@ task :dev => [:css_scss, :js, :jekyll_dev] do
 	puts "Done with all Tasks".green
 end
 
-desc "Deploy Task - only run the SCSS/JS build scripts"
-task :live => [:css_scss, :js] do
+desc "Run the SCSS/JS build scripts"
+task :build => [:css_scss, :js] do
 	puts "Ready to deploy!".green
+end
+
+desc "Deploy Task - commit all changes and push"
+task :deploy => [:css_scss, :js] do
+	execute('git commit -am "auto_push"')
+	execute("git push dropgb")
 end
 
 desc "Create a new Post"
