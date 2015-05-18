@@ -50,7 +50,7 @@ config:
 	ignorecase = true
 	precomposeunicode = true
 [remote "dropgb"]
-	url = ssh://marvin@92.51.146.142:36853/home/marvin/repos/glossboss.git
+	url = ssh://nivram@92.51.146.142:36853/home/marvin/repos/glossboss.git
 	url = git@github.com:qcon/gb.git
 	fetch = +refs/heads/*:refs/remotes/dropgb/*
 [branch "master"]
