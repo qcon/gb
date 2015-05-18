@@ -65,7 +65,7 @@ task :deploy, :message do |t, args|
 		puts "Please add a commit message:".magenta
 		message = $stdin.gets.chomp
 	end
-	message += "rake_auto_push "
+	message += " rake_auto_push "
 	Rake::Task[:css_scss].invoke
 	Rake::Task[:js].invoke
 	execute("git add .")
