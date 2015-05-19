@@ -1,15 +1,16 @@
 require 'rake'
 require 'yaml'
 class String
-	def green; "\033[32m#{self}\033[0m" end
-	def magenta; "\033[35m#{self}\033[0m" end
+	def green; "\033[32m#{"-- " + self}\033[0m" end
+	def magenta; "\033[35m#{"-- " + self}\033[0m" end
 end
 SOURCE = "."
 CONFIG = {
-	'posts' => File.join(SOURCE, "_posts"),
-	'post_ext' => "md",
-	
+	"posts" => File.join(SOURCE, "_posts"),
+	"post_ext" => "md",
+	"dev_config_file" => "_config-dev.yml"
 }
+jekyll_config = YAML.load_file(CONFIG["dev_config_file"])
 
 def execute(command)
 	system "#{command}"
@@ -17,7 +18,7 @@ end
 
 desc "Concatenate all JS Files and UglifyJS them"
 task :js do
-	puts "Running JS Task".magenta
+	puts "JavaScript concatenate & UglifyJS RUNNING".magenta
 	files = FileList["js/_*.js"]
 	concat_file = "js/global.js"
 
@@ -31,12 +32,12 @@ task :js do
 	end
 	execute("touch dist/global.js")
 	execute("uglifyjs js/global.js -o dist/global.js")
-	puts "UglifyJS DONE".green
+	puts "JavaScript concatenate & UglifyJS DONE".green
 end
 
 desc "Build SCSS and run autoprefixer"
 task :css_scss do
-	puts "Running SCSS Task".magenta
+	puts "SCSS & Autoprefixer RUNNING".magenta
 	execute("sass --style=compressed --sourcemap=none _sass/inline_layout.scss dist/inline_layout.css")
 	execute("autoprefixer dist/inline_layout.css -o _includes/inline_layout.css")
 	puts "SCSS & Autoprefixer DONE".green
@@ -44,8 +45,8 @@ end
 
 desc "Build Jekyll and run the Server"
 task :jekyll_dev do
-	puts "Building Jekyll and running server".magenta
-	execute("jekyll serve --config _config-dev.yml")
+	puts "Building Jekyll and running server on port #{jekyll_config["port"]}".magenta
+	execute("jekyll serve --config #{CONFIG["dev_config_file"]}")
 end
 
 desc "Task for developement"
@@ -99,7 +100,7 @@ task :newpost do
 	slug = title.downcase.strip.gsub(' ', '-').gsub(/[^\w-]/, '')
 	filename = File.join(
 		CONFIG['posts'],
-		"#{Time.now.strftime('%Y-%m-%d')}-#{slug}.#{CONFIG['post_ext']}"
+		"#{Time.now.strftime('%Y-%m-%d')}-#{slug}.#{CONFIG["post_ext"]}"
 	)
 
 	if File.exist?(filename)

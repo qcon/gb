@@ -11,7 +11,7 @@ pdf_version: jap
 ---
 
 
-Bei der schonenden Handwäsche gibt es viele Vorgehensweise. Eine davon ist, den losen Schmutz mit einer Schaumschicht anzulösen. Überlicherweise bleibt der Schaum für ein paar Minuten auf dem Lack. Sobald der größte Teil davon heruntergelaufen ist, soll sich die erste grobe Schmutzschicht mit dem Hochdruckreiniger einfacher und effektiver vom Lack lösen lassen, so zumindest die Theorie.
+Bei der schonenden Handwäsche gibt es viele Vorgehensweise. Eine davon ist, den losen Schmutz mit einer Schaumschicht anzulösen. Üblicherweise bleibt der Schaum für ein paar Minuten auf dem Lack. Sobald der größte Teil davon heruntergelaufen ist, soll sich die erste grobe Schmutzschicht mit dem Hochdruckreiniger einfacher und effektiver vom Lack lösen lassen, so zumindest die Theorie.
 
 Für Euch habe ich das vor kurzem einmal getestet und habe mein Auto extra zwei Monate nicht gewaschen. So sah der Dicke dann auch entsprechend aus.
 ![Foamen](https://glossboss.de/images/chiller/Foamen,%20was%20bringt%20es%20wirklich/01.jpg)

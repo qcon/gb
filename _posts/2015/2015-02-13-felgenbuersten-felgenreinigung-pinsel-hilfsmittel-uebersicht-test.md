@@ -250,7 +250,7 @@ Für mal eben *zwischendurch* auf nicht versiegelten Felgen sehr nett. Hält zwa
  
 
 ##Nach der Arbeit
-Bitte kurz die genutzen Felgenbürsten im klaren Wasser ausspülen.   
+Bitte kurz die benutzten Felgenbürsten im klaren Wasser ausspülen.   
 Manche Reiniger sind so aggressiv, die Qualität eures Waschwerkzeugs könnte leiden und später gar Probleme bereiten!
 
 ![Übersicht Felgenbürsten](//glossboss.de/images/jones/tests/felgenbuersten/felgen_40.jpg)

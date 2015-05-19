@@ -9,7 +9,7 @@ markasnew: true
 preview: true
 ---
 
-Der erste Glossboss Beitrag wurde am 23.06.2014 veröffentlicht. Das war ein Pflegebericht eines [Alfa Romeo GTV](//glossboss.de/pflegeberichte/alfa-romeo-gtv). Damit war der Grundstein gelegt für eine Idee. Nämlich eine **unabhängige** Platform für alle Autopflege Begeisterten und die, die es mal werden wollen. Ganz ohne Sponsoren, gestellten Produkten und frei von Werbung. Wir sind der Meinung, dass es nur so eine unverfälschte Meinung über Produkte geben kann. Das sich das bewahrheitet, stellte sich auch relativ zügig heraus, als die ersten Testberichte Online gingen. "Einige" Besucherzuschriften (also damals wahrscheinlich ehr so 2-3) lobten die ehrliche Berichte. Mittlerweile erreichen uns nahezu wöchentlich eMails von zufriedenen und dankbaren Besuchern.
+Der erste Glossboss Beitrag wurde am 23.06.2014 veröffentlicht. Das war ein Pflegebericht eines [Alfa Romeo GTV](//glossboss.de/pflegeberichte/alfa-romeo-gtv). Damit war der Grundstein gelegt für eine Idee. Nämlich eine **unabhängige** Platform für alle Autopflege Begeisterten und die, die es mal werden wollen. Ganz ohne Sponsoren, gestellten Produkten und frei von Werbung. Alle hier getesteten Produkte sind von uns gekauft und nicht wir selbst. Nur so kann es eine unverfläschte Meinung über die jeweiligen Produkte geben. Das sich das bewahrheitet, stellte sich auch relativ zügig heraus, als die ersten Testberichte Online gingen. "Einige" Besucherzuschriften (also damals wahrscheinlich ehr so 2-3) lobten die ehrliche Berichte. Mittlerweile erreichen uns nahezu wöchentlich eMails von zufriedenen und dankbaren Besuchern.
 
 *Markus meint:*
 
