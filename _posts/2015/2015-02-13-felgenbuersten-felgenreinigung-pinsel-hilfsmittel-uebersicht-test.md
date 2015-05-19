@@ -291,8 +291,8 @@ Winterfelgen: *gleiche Bürsten*
 - Meguiar's Ultra Safe Wheel Spoke Felgenbürste *(gelb Borsten in Metalldraht, grauer Griff)* - **zu drahtbürstig**
 - ValetPRO chemical resistant Brush *(blaue Borsten)* - **zu hart**
 - Handfeger - **zu hart**   
-- Toilettenbürste    - **ernsthaft?**
-- Spülbürste  - **zu hart**
+- Toilettenbürste - **ernsthaft?**
+- Spülbürste - **zu hart**
 
  
  
