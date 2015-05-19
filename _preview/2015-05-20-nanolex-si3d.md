@@ -114,11 +114,9 @@ Abschließend könnt ihr euch dann an einem strahlenden und geschützten Lack er
 
 ![](https://glossboss.de/images/alex/nanolexsi3d/28.JPG)
 
-Abschließend noch ein kleines Video vom Auftragstuch 24 Stunden nach der Versiegelung.
-
+Abschließend noch ein kleines Video vom Auftragstuch 24 Stunden nach der Versiegelung. 
 
 <iframe class="content--video" src="https://www.youtube.com/embed/HttPltpJjio" frameborder="0" allowfullscreen></iframe>
-https://youtu.be/HttPltpJjio
 
 Zwecks Beadingbilder und Erfahrungen zur Standzeit versuche ich euch auf dem Laufenden zu halten. 
 
