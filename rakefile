@@ -4,6 +4,7 @@ class String
 	def green; "\033[32m#{"-- " + self}\033[0m" end
 	def magenta; "\033[35m#{"-- " + self}\033[0m" end
 end
+
 SOURCE = "."
 CONFIG = {
 	"posts" => File.join(SOURCE, "_posts"),
