@@ -39,6 +39,6 @@ if (!localStorage.getItem(postName)) {
 	{% if page.comments_block %}
  	
  	{% else %}
- 		{% if !page.preview %}{% include comment.html %}{% endif %}
+ 		{% include comment.html %}
   	{% endif %}
 </div>
