@@ -28,7 +28,7 @@ include:
 markdown: kramdown
 permalink: "/:categories/:title"
 cssjsversion: 77
-livebuild: true
+livebuild: false
 headimggradient: linear-gradient(HSLA(197, 100%, 49%,.6),HSLA(197, 100%, 49%,.9))
 collections:
   preview:
