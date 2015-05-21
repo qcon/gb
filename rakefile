@@ -69,9 +69,11 @@ task :deploy, :message do |t, args|
 		message = $stdin.gets.chomp
 	end
 	message += " rake_auto_push "
+	puts "Increase Versionnumber? empty = no"
 	inc_version = $stdin.gets.chomp
 	unless inc_version.empty?
 		Rake::Task[:inc].invoke 
+		puts "Increased".green
 	end
 	Rake::Task[:css_scss].invoke
 	Rake::Task[:js].invoke
