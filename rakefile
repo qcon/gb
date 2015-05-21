@@ -9,7 +9,8 @@ SOURCE = "."
 CONFIG = {
 	"posts" => File.join(SOURCE, "_posts"),
 	"post_ext" => "md",
-	"dev_config_file" => "_config-dev.yml"
+	"dev_config_file" => "_config-dev.yml",
+	"config_file" => "_config.yml"
 }
 jekyll_config = YAML.load_file(CONFIG["dev_config_file"])
 
@@ -68,6 +69,10 @@ task :deploy, :message do |t, args|
 		message = $stdin.gets.chomp
 	end
 	message += " rake_auto_push "
+	inc_version = $stdin.gets.chomp
+	unless inc_version.empty?
+		Rake::Task[:inc].invoke 
+	end
 	Rake::Task[:css_scss].invoke
 	Rake::Task[:js].invoke
 	execute("git add .")
@@ -122,3 +127,9 @@ task :newpost do
 	end
 	
 end
+	desc "auto increase Versionnumber"
+	task :inc do
+		get_version = YAML.load_file "#{CONFIG["config_file"]}"
+		get_version["cssjsversion"] += 1
+		File.open("#{CONFIG["config_file"]}", "w") { |f| YAML.dump(get_version, f)}
+	end
