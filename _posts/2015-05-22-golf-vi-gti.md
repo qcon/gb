@@ -2,7 +2,7 @@
 layout: post
 title: "Golf VI GTI"
 author: "Ronny"
-wps_subtitle: Carbon Gray Steel Metalic
+wps_subtitle: Carbon Grey Steel Metalic
 categories: Pflegeberichte
 head__img--fullurl: //glossboss.de/images/chiller/GolfVIGTI/GolfVIGTI68.jpg
 markasnew: true
