@@ -83,16 +83,16 @@ searchRender = function() {
 	
 		_('#searchWrapper').style.display = 'block';
 		SimpleJekyllSearch.init({
-	        searchInput: document.getElementById('search-input'),
-	        resultsContainer: document.getElementById('results-container'),
-	        dataSource: '/posts.json',
-	        searchResultTemplate: '{card}',
-	        noResultsText: '<li>Nichts passendes dabei. Hast du eine Idee für einen Artikel? <a style="text-align:center" href="mailto:mail@glossboss.de">Kontaktiere uns!</a></li>',
-	        limit: 25,
-	        fuzzy: false,
-      	});
+			searchInput: document.getElementById('search-input'),
+			resultsContainer: document.getElementById('results-container'),
+			dataSource: '/posts.json',
+			searchResultTemplate: '{card}',
+			noResultsText: '<li>Nichts passendes dabei. Hast du eine Idee für einen Artikel? <a style="text-align:center" href="mailto:mail@glossboss.de">Kontaktiere uns!</a></li>',
+			limit: 25,
+			fuzzy: false,
+		});
 
-      	loader(false);
+		loader(false);
 }
 
 toggleMenuBox.addEventListener('click', function(e) {
@@ -128,12 +128,12 @@ window.addEventListener('resize', function() {
 })(localStorageContainer);
 
 WebFontConfig = {
-    google: { families: [ 'Roboto::latin' ] }
+	google: { families: [ 'Roboto::latin' ] }
 };
 (function() {
   var wf = document.createElement('script');
   wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
-    '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+	'://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
   wf.type = 'text/javascript';
   wf.async = 'true';
   var s = document.getElementsByTagName('script')[0];
