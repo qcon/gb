@@ -8,13 +8,13 @@ head__img--fullurl: //glossboss.de/images/
 markasnew: true
 preview: true
 ---
-![](https://glossboss.de/images/marvin/astrah/P1020533.JPG)
+![](https://cdn.glossboss.de/images/marvin/astrah/P1020533.JPG)
 
 
-![](https://glossboss.de/images/marvin/astrah/P1020534.JPG)
+![](https://cdn.glossboss.de/images/marvin/astrah/P1020534.JPG)
 
 
-![](https://glossboss.de/images/marvin/astrah/P1020536.JPG)
+![](https://cdn.glossboss.de/images/marvin/astrah/P1020536.JPG)
 
 
 ![](https://glossboss.de/images/marvin/astrah/P1020540.JPG)
