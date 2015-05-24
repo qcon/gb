@@ -4,7 +4,7 @@ title: "Glossboss hilft"
 author: "Ronny"
 wps_subtitle: Der Bericht
 categories: Pflegeberichte
-head__img--fullurl: //glossboss.de/images/bhchiller/Glossboss_hilft_Bericht/Golf3GTI24.jpg
+head__img--fullurl: //glossboss.de/images/chiller/Glossboss_hilft_Bericht/Golf3GTI24.jpg
 markasnew: true
 ---
 ![](https://glossboss.de/images/chiller/Glossboss_hilft_Bericht/glossbosshilft_banner.png)
