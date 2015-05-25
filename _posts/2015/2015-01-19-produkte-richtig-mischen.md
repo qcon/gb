@@ -3,7 +3,7 @@ pdf_version: jap
 title: Produkte richtig mischen
 author: Chris
 layout: post
-head__img--fullurl: https://glossboss.de/images/criz/produkte-mischen/bild.jpg
+head__img--fullurl: //s3.eu-central-1.amazonaws.com/glossbossimages/criz/produkte-mischen/bild.jpg
 wps_subtitle:
   - 'Wichtige Infos zu IPA und co'
 categories:
@@ -21,7 +21,7 @@ Um genau diese Fragen geht es heute!
 
 Eine Hilfe zur Berechnung findest du in der unteren Linkleiste unserer Webseite. 
 
-![](https://glossboss.de/images/criz/produkte-mischen/link.jpg)
+![](//s3.eu-central-1.amazonaws.com/glossbossimages/criz/produkte-mischen/link.jpg)
 
 Dort kannst du dein Mischungsverhältnis eingeben und direkt die gängigsten Größen für Flaschen und Eimer auswählen. 
 So erhältst du immer das richtige Mischungsverhältnis für deine Produkte.
@@ -31,7 +31,7 @@ Zu Beachten ist immer, dass 1 Teil Reiniger und 8 Teile Wasser zusammen 9 Teile 
 Daher musst du in diesem Beispiel 500ml : 9 = 55,56ml (pro Teil) rechnen.
 Soviel nur zum Hintergrund der Rechnung, die ganze Rechnerei erledigt dabei unser Tool für dich.
 
-![](https://glossboss.de/images/criz/produkte-mischen/verhaeltnis.jpg)
+![](//s3.eu-central-1.amazonaws.com/glossbossimages/criz/produkte-mischen/verhaeltnis.jpg)
 
 Hier noch ein Bild, wie du zum Mischungsverhältnis kommst.
 In die beiden Felder gibst du dein gewünschtes Verhältnis ein, hier 1:8.
@@ -41,7 +41,7 @@ Da wir hier immer noch bei der Autopflege sind und kein wissenschaftliches Chemi
 Selbst mit dieser Rundung sind alle Produkte ausreichend genau angemischt.
 Zum Abmessen nimmst du am besten einen kleinen Messbecher bis ca. 100ml für den Reiniger und einen bis ca. 1l für das Wasser. 
 
-![](https://glossboss.de/images/criz/produkte-mischen/bild.jpg)
+![](//s3.eu-central-1.amazonaws.com/glossbossimages/criz/produkte-mischen/bild.jpg)
 
 Diese Messbecher solltest du nach jeder Benutzung gründlich ausspülen, damit keine Produktreste zurückbleiben und so bei der nächsten Benutzung zu Problemen führen können.
 Trotz gründlichem Ausspülen solltest du diese Messbecher für die Autopflege kennzeichnen und diese **nicht** mehr für Lebensmittel verwenden!

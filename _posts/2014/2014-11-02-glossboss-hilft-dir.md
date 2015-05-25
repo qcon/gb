@@ -41,5 +41,5 @@ Viel Glück
 
 chiller
 
- [1]: https://glossboss.de/images/chiller/Glossboss hilft/Glossboss Hilft.png
+ [1]: //s3.eu-central-1.amazonaws.com/glossbossimages/chiller/Glossboss hilft/Glossboss Hilft.png
  [2]: mailto:hilfe@glossboss.de "Schreibe uns eine eMail!"

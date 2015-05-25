@@ -17,7 +17,7 @@ Für all diese Probleme gibt es eine Lösung: Knete!
 
 Ja richtig gelesen, Knete! Allerdings nicht die Knete mit die jeder von uns aus Kindertagen kennt, sondern spezielle Lackreinigungsknete.
 
-![Lackknete richtig anwenden](https://glossboss.de/images/criz/kneten/knete1.jpg)
+![Lackknete richtig anwenden](//s3.eu-central-1.amazonaws.com/glossbossimages/criz/kneten/knete1.jpg)
 
 Lackreinigungsknete brauchst du immer dann, wenn trotz gründlicher [2 Eimer Wäsche][1] Rückstände auf dem Lack bleiben, dies können Teerspritzer, Flugrost, Baumharz, Lacknebel, Insektenleichen und noch vieles weitere sein.
 
@@ -33,28 +33,28 @@ Eine sehr bekannte Lackreinigungsknete ist die [Magic Clean][2] aus dem Hause Pe
 
 Beliebte Alternativen sind unter anderem die [Dodo Juice Supernatural Detailing Clay][7] oder auch die [Auto Finesse Clay Bar][8]. Auch hier bieten die meisten Hersteller Kneten in verschiedenen Härtegraden an.
 
-![Lackknete richtig anwenden](https://glossboss.de/images/criz/kneten/knete2.jpg)
+![Lackknete richtig anwenden](//s3.eu-central-1.amazonaws.com/glossbossimages/criz/kneten/knete2.jpg)
 
 Neben der Knete brauchst du noch ein Gleitmittel. Auch hier bietet wieder jeder Hersteller sein eigenes Produkt an. Ich nutze gerne das [ValetPro Citrus Bling][9] (auch [hier][10] und [hier][11] erhältlich) in einer 1:16 Mischung oder das [Optimum NoRinse][12] (auch [hier][13] erhältlich) in einer 1:30 Mischung. Zum Mischen nimmst du, wie bei allen anderen Produkten auch, destilliertes Wasser. Fertig angemischt gibt es z.B. das [Dodo Juice Born Slippy][14], so kannst du mit dem Kneten direkt starten. Von Spülimischungen zum Knete rate ich dringend ab, da diese die Knete zersetzt und den Dichtungen deines Autos schadet.
 
-![Lackknete richtig anwenden](https://glossboss.de/images/criz/kneten/knete3.jpg)
+![Lackknete richtig anwenden](//s3.eu-central-1.amazonaws.com/glossbossimages/criz/kneten/knete3.jpg)
 
 Wichtig ist, dass du die Knete vor der Benutzung gründlich durchknetest, so wird diese weicher und die Gefahr, dass Kratzer entstehen sinkt.
 
 Vor der ersten Benutzung solltest du die Knete je nach Größe in handliche Stücke aufteilen, die Magic Clean Knete teile ich immer in zwei gleichgroße, ca. 50g schwere Stücke auf. Damit die Knete noch weicher und somit schonender für den Lack wird, lege ich die Stücke für ein paar Minuten in warmes Wasser. Während dem Knetvorgang wechsel ich die Knetstücke dann nach jedem Bauteil, somit habe ich immer ein weiches Stück Knete zur Benutzung, während das andere im warmen Wasser liegt.
 
-![Lackknete richtig anwenden](https://glossboss.de/images/criz/kneten/knete4.jpg)
+![Lackknete richtig anwenden](//s3.eu-central-1.amazonaws.com/glossbossimages/criz/kneten/knete4.jpg)
 
 Nachdem die Knete im Wasser weich geworden ist knetest du das Stück nochmal gründlich durch und formst dir eine kleine Scheibe die gut in deine Handfläche passt.
 
 Bevor du mit der Knete an den Lack gehst kommt das Gleitmittel zum Einsatz. Sprüh die Lackfläche und auch dein Knetstück reichlicht mit dem Gleitmittel ein. Hier kannst du gar nicht genug nehmen, treu dem Motto, viel hilft viel immer drauf mit dem Zeug. Wenn du genug Gleitmittel verwendest gleitet die Knete ganz von alleine über den Lack, sobald die Knete stoppt und sich nur mit Druck über den Lack schieben lässt steigt die Gefahr den Lack zu verkratzen.  
-![Lackknete richtig anwenden](https://glossboss.de/images/criz/kneten/knete6.jpg)
+![Lackknete richtig anwenden](//s3.eu-central-1.amazonaws.com/glossbossimages/criz/kneten/knete6.jpg)
 
-![Lackknete richtig anwenden](https://glossboss.de/images/criz/kneten/knete7.jpg)
+![Lackknete richtig anwenden](//s3.eu-central-1.amazonaws.com/glossbossimages/criz/kneten/knete7.jpg)
 
 Wie beim Polieren gehst du auch hierbei sektionsweise vor, wähle dir kleine Flächen auf dem Lack, die du bearbeiten willst. Nun nimmst du die Knete in die Handfläche und fährst diesen Bereich in gleichmäßigen Tempo ab. Wichtig ist, dass du keinen Druck ausübst, da sich alle Rückstände die sich auf dem Lack befinden in der Knete sammeln und sonst über den Lack gekratzt werden.
 
-![Lackknete richtig anwenden](https://glossboss.de/images/criz/kneten/knete8.jpg)
+![Lackknete richtig anwenden](//s3.eu-central-1.amazonaws.com/glossbossimages/criz/kneten/knete8.jpg)
 
 An senkrechten Flächen nur mit soviel Druck arbeiten, dass die Knete nicht runterfällt.
 
@@ -66,7 +66,7 @@ Beim Kneten wirst du merken, dass die Knete noch besser gleitet, wenn die Rücks
 
 Betrachte die Knete nach jedem Abschnitt. Sollten sich zu viele Rückstände in der Knete angesammelt haben musst du diese gründlich durchkneten, damit die Rückstände ins Innere gelangen und den Lack so nicht verkratzen können.
 
-![Lackknete richtig anwenden](https://glossboss.de/images/criz/kneten/knete5.jpg)
+![Lackknete richtig anwenden](//s3.eu-central-1.amazonaws.com/glossbossimages/criz/kneten/knete5.jpg)
 
 Spätestens wenn die Knete wie auf dem Bild aussieht wird es Zeit diese durchzukneten, umso früher du das Stück durchknetest umso besser.
 

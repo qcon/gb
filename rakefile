@@ -117,7 +117,7 @@ task :newpost do
 		post.puts "author: \"#{author}\""
 		post.puts "wps_subtitle: #{subtitle}"
 		post.puts "categories: #{cat}"
-		post.puts "head__img--fullurl: //glossboss.de/images/"
+		post.puts "head__img--fullurl: //s3.eu-central-1.amazonaws.com/glossbossimages/"
 		post.puts "markasnew: true"
 		post.puts '---'
 	end

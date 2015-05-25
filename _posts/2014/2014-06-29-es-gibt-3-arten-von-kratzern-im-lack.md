@@ -40,7 +40,7 @@ Hologramme sind sehr feiner Kratzer in der Lackoberfläche und mit den mildesten
 
 ##### rechts im Bild Hologramme & Schleifspuren der Poliermaschine
 
-![Kratzer im Lack](https://glossboss.de/images/local/3kratzer/P1010549-e1404119889944.jpg)
+![Kratzer im Lack](//s3.eu-central-1.amazonaws.com/glossbossimages/local/3kratzer/P1010549-e1404119889944.jpg)
 
 &nbsp;
 
@@ -62,7 +62,7 @@ In Wirklichkeit sind diese gar nicht so Kreisförmig. Das Spektrum der Lichtquel
 
 ##### Links im Bild siehst du Swils. Rechts den polieren Lack.
 
-![Kratzer im Lack](https://glossboss.de/images/local/3kratzer/P1010453-e1404152748481.jpg)
+![Kratzer im Lack](//s3.eu-central-1.amazonaws.com/glossbossimages/local/3kratzer/P1010453-e1404152748481.jpg)
 
 &nbsp;
 
@@ -88,7 +88,7 @@ Falsche Handwäsche verursacht durch schmutziges Werkzeug, wie den Schwamm/Wasch
 
 #####  Vermutlicher Täter war ein Schlüssel.
 
-![Kratzer im Lack](https://glossboss.de/images/local/3kratzer/P1010496-e1404152711138.jpg)
+![Kratzer im Lack](//s3.eu-central-1.amazonaws.com/glossbossimages/local/3kratzer/P1010496-e1404152711138.jpg)
 
 Solche tiefen Kratzer durchdringen meist alle Lackschichten bis hin zum Blech.
 

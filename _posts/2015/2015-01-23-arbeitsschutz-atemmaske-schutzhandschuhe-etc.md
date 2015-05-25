@@ -3,7 +3,7 @@ pdf_version: jap
 title: Arbeitsschutz bei der Autopflege
 author: Chris
 layout: post
-head__img--fullurl: https://glossboss.de/images/criz/arbeitsschutz/atemschutz.jpg
+head__img--fullurl: //s3.eu-central-1.amazonaws.com/glossbossimages/criz/arbeitsschutz/atemschutz.jpg
 wps_subtitle:
   - 'Atemschutzmaske, Handschuhe, Schutzbrille etc'
 categories:
@@ -41,7 +41,7 @@ Den Gehörschutz musst du nur bei Polierarbeiten mit der Maschine tragen, selbst
 
 Da dieses Thema sehr wichtig ist gibt es hier ein paar Produktlinks als Beispiele. 
 
-![Einweg Handschuhe](https://glossboss.de/images/criz/arbeitsschutz/handschuhe.jpg)
+![Einweg Handschuhe](//s3.eu-central-1.amazonaws.com/glossbossimages/criz/arbeitsschutz/handschuhe.jpg)
 
 Handschuhe:
 
@@ -50,7 +50,7 @@ Handschuhe:
 -  [Autopflege24.net Handschuhe ](http://www.autopflege24.net/ap24shop/abena-nitril-schutzhandschuhe-blau-100-stueck.html) 
 -  [Carparts Handschuhe ](http://www.carparts-koeln.de/shop/hautschutz.4178/898867) 
 
-![Schutzbrille](https://glossboss.de/images/criz/arbeitsschutz/brille.jpg)
+![Schutzbrille](//s3.eu-central-1.amazonaws.com/glossbossimages/criz/arbeitsschutz/brille.jpg)
 
 Schutzbrille:
 
@@ -59,7 +59,7 @@ Schutzbrille:
 - [Lupus Schutzbrille ](http://www.lupus-autopflege.de/3M-Schutzbrille-Gelb-2742)
 - [Autopflege24.net Schutzbrille ](http://www.autopflege24.net/ap24shop/3m-schutzbrille-2720.html)
 
-![Atemschutzmaske](https://glossboss.de/images/criz/arbeitsschutz/atemschutz.jpg)
+![Atemschutzmaske](//s3.eu-central-1.amazonaws.com/glossbossimages/criz/arbeitsschutz/atemschutz.jpg)
 
 Atemschutz:
 
@@ -68,7 +68,7 @@ Atemschutz:
 - [Petzoldts Atemschutzmaske ](http://www.petzoldts.de/shop/Einweg-Atemmaske-p-201.html)
 - [Lupus Atemschutzmaske ](http://www.lupus-autopflege.de/3M-Komfort-Partikelmaske-P2-6923)
 
-![Gehörschutz](https://glossboss.de/images/criz/arbeitsschutz/gehoerschutz.jpg)
+![Gehörschutz](//s3.eu-central-1.amazonaws.com/glossbossimages/criz/arbeitsschutz/gehoerschutz.jpg)
 
 Gehörschutz:
 

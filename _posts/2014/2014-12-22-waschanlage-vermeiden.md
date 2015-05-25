@@ -35,7 +35,7 @@ Jedes mal wenn ich einen Kunde bei mir habe, frage ich nach den Waschgewohnheite
 Der Lack sieht auf den ersten blick absolut katastrophal aus. Swirls wo das Auge hinschaut:
 
 
-![Swirls von der Waschanlage](//glossboss.de/images/marvin/dodgedurango/P1010436.JPG)
+![Swirls von der Waschanlage](//s3.eu-central-1.amazonaws.com/glossbossimages/marvin/dodgedurango/P1010436.JPG)
 
 
 Das _gute_ an der Sache ist, die Swirls sind alle relativ gleich stark und nicht besonders tief im Lack. Nur durch die Menge an feinen Kratzern kriegen wir das grauen. Diese zu entfernen ist allerdings fast immer ein Kinderspiel, da man den Lack großflächig mit milden Mitteln bearbeiten kann und nicht besonders viel Klarlack abtragen muss (davon haben wir nämlich nicht unendlich viel)
@@ -45,7 +45,7 @@ Habe ich allerdings ein Fahrzeug zum Polieren da, welches seit Monaten/Jahren fa
 Jeden Kratzer einzeln zu isolieren und zu polieren macht natürlich keinen sinn. Also muss eine große Fläche mit sehr starken Poliermitteln bearbeitet werden. Natürlich geht dann auch hier Schichtdicke flöten, wo es garnicht sein müsste. Hier wird also immer _zuviel_ Klarlack abgetragen.
 
 
-![Tiefe Kratzer durch falsche Handwäsche](//glossboss.de/images/marvin/lotus_elise_orange/IMG_4674.jpg)
+![Tiefe Kratzer durch falsche Handwäsche](//s3.eu-central-1.amazonaws.com/glossbossimages/marvin/lotus_elise_orange/IMG_4674.jpg)
 
 
 Also ganz klar, wir Hobbypfleger betreiben weiterhin unsere [Handwäsche](//glossboss.de/tipps-tricks/die-7-grundregeln-fuer-die-optimale-fahrzeugwaesche/) mit [2 Eimer](//glossboss.de/allgemein/die-grundausstattung-fuer-die-optimale-fahrzeugwaesche/), ein ordentliches Shampoo und ein weiches Mikrofasertrockentuch.

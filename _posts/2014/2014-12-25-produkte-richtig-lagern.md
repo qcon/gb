@@ -3,7 +3,7 @@ title: Produkte richtig lagern
 author: Chris
 layout: post
 pdf_version: jap
-head__img--fullurl: https://glossboss.de/images/criz/produkte-lagern/DSC_0014.jpg
+head__img--fullurl: //s3.eu-central-1.amazonaws.com/glossbossimages/criz/produkte-lagern/DSC_0014.jpg
 wps_subtitle:
   - 'Nicht nur im Winter wichtig'
 categories:
@@ -15,7 +15,7 @@ categories:
 Heute soll es um die Lagerung deiner Pflegeprodukte gehen. Jeder Hobbypfleger steht irgendwann an dem Punkt, dass sich einige Autopflegeprodukte ansammeln, die einen durchaus beachtenswerten Gegenwert darstellen. 
 Spätestens bei hochwertigen Wachsen und Versiegelungen sollte man sich etwas mehr Gedanken um die Lagerung machen, als bei einem Shampoo.
 
-![Sprühflaschen](https://glossboss.de/images/criz/produkte-lagern/DSC_0003.jpg)
+![Sprühflaschen](//s3.eu-central-1.amazonaws.com/glossbossimages/criz/produkte-lagern/DSC_0003.jpg)
 
 Falsche Lagerung kann dazu führen, dass sich die Eigenschaften ändern und die Produkte unbenutzbar werden.
 
@@ -29,7 +29,7 @@ Für hochwertige Wachse und Versiegelungen besteht die Möglichkeit, diese im K�
 
 ###Was ist bei längerer Lagerung zu beachten?
 
-![Flüssige Pflegeprodukte](https://glossboss.de/images/criz/produkte-lagern/DSC_0014.jpg)
+![Flüssige Pflegeprodukte](//s3.eu-central-1.amazonaws.com/glossbossimages/criz/produkte-lagern/DSC_0014.jpg)
 
 Als Hobbypfleger kann es durchaus vorkommen, dass du einige Produkte für längere Zeit nicht benutzt.
 In diesen Fällen empfiehlt es sich, dass du diese Produkte in regelmäßigen Abständen kräftig durchschüttelst um zu vermeiden, dass sich die Produkte trennen und sich Teile des Produkts absetzen.
@@ -51,6 +51,6 @@ Bei den Poliermaschinen ist besonders zu beachten, dass diese trocken gelagert w
 
 Für unsere Carnaubawachse ist der Kühlschrank der ideale Aufbewahrungsort. Hier ist es nämlich in der Regel immer trocken, kühl & dunkel. Diese beständigkeit ist besonders wichtig für das Wachs, damit es so in seiner Form bestehen bleibt. Wer die möglichkeit hat einen Kühlschrank in die Garage zu stellen sollte dies unbedingt tun um den Hausfrieden zu bewahren. Es kommt nicht immer gut an wenn die Freundin erst das Zymöl Concours beiseite schieben muss um an die Marmelade zu kommen. Netter Nebeneffeckt: man hat für den Feierabend direkt eine Quelle für kühles Bier ;)
 
-![Carnaubawachs im Kühlschrank](https://glossboss.de/images/marvin/sonstige/IMG_3661.jpg)
+![Carnaubawachs im Kühlschrank](//s3.eu-central-1.amazonaws.com/glossbossimages/marvin/sonstige/IMG_3661.jpg)
 
 Wenn du diese Punkte beachtest, werden deine Pflegeprodukte selbst eine längere Lagerung problemlos überstehen.

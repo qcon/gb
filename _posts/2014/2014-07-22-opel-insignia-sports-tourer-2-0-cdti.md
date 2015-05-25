@@ -71,49 +71,49 @@ Auf dem Wagen befand sich noch eine recht intakte Wachsschicht (Zymöl Glasur) a
 
 Fangen wir mal mit ein paar Bildern zum recht guten Ausgangszustand an.
 
-![Opel Insignia Pflegebericht](https://glossboss.de/images/dirk/InsigniaGyeonQ2Mohs/Insignia-GyeonQ2Mohs002.jpg)
+![Opel Insignia Pflegebericht](//s3.eu-central-1.amazonaws.com/glossbossimages/dirk/InsigniaGyeonQ2Mohs/Insignia-GyeonQ2Mohs002.jpg)
 
-![Opel Insignia Pflegebericht](https://glossboss.de/images/dirk/InsigniaGyeonQ2Mohs/Insignia-GyeonQ2Mohs001.jpg)
+![Opel Insignia Pflegebericht](//s3.eu-central-1.amazonaws.com/glossbossimages/dirk/InsigniaGyeonQ2Mohs/Insignia-GyeonQ2Mohs001.jpg)
 
-![Opel Insignia Pflegebericht](https://glossboss.de/images/dirk/InsigniaGyeonQ2Mohs/Insignia-GyeonQ2Mohs003.jpg)
+![Opel Insignia Pflegebericht](//s3.eu-central-1.amazonaws.com/glossbossimages/dirk/InsigniaGyeonQ2Mohs/Insignia-GyeonQ2Mohs003.jpg)
 
 **Ein paar Steinschläge gab es auch. Hierfür jetzt schon mal Danke an den lieben Mark (aka Novma) der sie wunderbar hat verschwinden lassen.**  
-![Opel Insignia Pflegebericht](https://glossboss.de/images/dirk/InsigniaGyeonQ2Mohs/Insignia-GyeonQ2Mohs004.jpg)
+![Opel Insignia Pflegebericht](//s3.eu-central-1.amazonaws.com/glossbossimages/dirk/InsigniaGyeonQ2Mohs/Insignia-GyeonQ2Mohs004.jpg)
 
-![Opel Insignia Pflegebericht](https://glossboss.de/images/dirk/InsigniaGyeonQ2Mohs/Insignia-GyeonQ2Mohs005.jpg)
+![Opel Insignia Pflegebericht](//s3.eu-central-1.amazonaws.com/glossbossimages/dirk/InsigniaGyeonQ2Mohs/Insignia-GyeonQ2Mohs005.jpg)
 
 **Schmutzige Felgen waren auch vorhanden.**
 
 **Allerdings war die Gtechniq C5 Wheel Armour Versiegelung darauf noch so gut in Schuss, das hier kein Handlungsbedarf bestand.**  
-![Opel Insignia Pflegebericht](https://glossboss.de/images/dirk/InsigniaGyeonQ2Mohs/Insignia-GyeonQ2Mohs006.jpg)
+![Opel Insignia Pflegebericht](//s3.eu-central-1.amazonaws.com/glossbossimages/dirk/InsigniaGyeonQ2Mohs/Insignia-GyeonQ2Mohs006.jpg)
 
-![Opel Insignia Pflegebericht](https://glossboss.de/images/dirk/InsigniaGyeonQ2Mohs/Insignia-GyeonQ2Mohs007.jpg)
+![Opel Insignia Pflegebericht](//s3.eu-central-1.amazonaws.com/glossbossimages/dirk/InsigniaGyeonQ2Mohs/Insignia-GyeonQ2Mohs007.jpg)
 
-![Opel Insignia Pflegebericht](https://glossboss.de/images/dirk/InsigniaGyeonQ2Mohs/Insignia-GyeonQ2Mohs008.jpg)
+![Opel Insignia Pflegebericht](//s3.eu-central-1.amazonaws.com/glossbossimages/dirk/InsigniaGyeonQ2Mohs/Insignia-GyeonQ2Mohs008.jpg)
 
-![Opel Insignia Pflegebericht](https://glossboss.de/images/dirk/InsigniaGyeonQ2Mohs/Insignia-GyeonQ2Mohs009.jpg)
+![Opel Insignia Pflegebericht](//s3.eu-central-1.amazonaws.com/glossbossimages/dirk/InsigniaGyeonQ2Mohs/Insignia-GyeonQ2Mohs009.jpg)
 
 **Schiefes Nummernschild&#8230;. ein NoGo.. Schraube war dull gedreht und wurde später einfach durch eine größere ersetzt.**  
-![Opel Insignia Pflegebericht](https://glossboss.de/images/dirk/InsigniaGyeonQ2Mohs/Insignia-GyeonQ2Mohs010.jpg)
+![Opel Insignia Pflegebericht](//s3.eu-central-1.amazonaws.com/glossbossimages/dirk/InsigniaGyeonQ2Mohs/Insignia-GyeonQ2Mohs010.jpg)
 
 **Die wohl größte Dreckecke bei diesem Modell**  
-![Opel Insignia Pflegebericht](https://glossboss.de/images/dirk/InsigniaGyeonQ2Mohs/Insignia-GyeonQ2Mohs011.jpg)
+![Opel Insignia Pflegebericht](//s3.eu-central-1.amazonaws.com/glossbossimages/dirk/InsigniaGyeonQ2Mohs/Insignia-GyeonQ2Mohs011.jpg)
 
-![Opel Insignia Pflegebericht](https://glossboss.de/images/dirk/InsigniaGyeonQ2Mohs/Insignia-GyeonQ2Mohs017.jpg)
+![Opel Insignia Pflegebericht](//s3.eu-central-1.amazonaws.com/glossbossimages/dirk/InsigniaGyeonQ2Mohs/Insignia-GyeonQ2Mohs017.jpg)
 
-![Opel Insignia Pflegebericht](https://glossboss.de/images/dirk/InsigniaGyeonQ2Mohs/Insignia-GyeonQ2Mohs018.jpg)
+![Opel Insignia Pflegebericht](//s3.eu-central-1.amazonaws.com/glossbossimages/dirk/InsigniaGyeonQ2Mohs/Insignia-GyeonQ2Mohs018.jpg)
 
-![Opel Insignia Pflegebericht](https://glossboss.de/images/dirk/InsigniaGyeonQ2Mohs/Insignia-GyeonQ2Mohs012.jpg)
+![Opel Insignia Pflegebericht](//s3.eu-central-1.amazonaws.com/glossbossimages/dirk/InsigniaGyeonQ2Mohs/Insignia-GyeonQ2Mohs012.jpg)
 
-![Opel Insignia Pflegebericht](https://glossboss.de/images/dirk/InsigniaGyeonQ2Mohs/Insignia-GyeonQ2Mohs013.jpg)
+![Opel Insignia Pflegebericht](//s3.eu-central-1.amazonaws.com/glossbossimages/dirk/InsigniaGyeonQ2Mohs/Insignia-GyeonQ2Mohs013.jpg)
 
 **Ihhhh&#8230; was ist das&#8230;. Da muss ich wohl doch nochmal einen neue Einweisung geben: Wie schließe ich einen Autotür&#8230;.richtig&#8230;**  
-![Opel Insignia Pflegebericht](https://glossboss.de/images/dirk/InsigniaGyeonQ2Mohs/Insignia-GyeonQ2Mohs014.jpg)
+![Opel Insignia Pflegebericht](//s3.eu-central-1.amazonaws.com/glossbossimages/dirk/InsigniaGyeonQ2Mohs/Insignia-GyeonQ2Mohs014.jpg)
 
-![Opel Insignia Pflegebericht](https://glossboss.de/images/dirk/InsigniaGyeonQ2Mohs/Insignia-GyeonQ2Mohs015.jpg)
+![Opel Insignia Pflegebericht](//s3.eu-central-1.amazonaws.com/glossbossimages/dirk/InsigniaGyeonQ2Mohs/Insignia-GyeonQ2Mohs015.jpg)
 
 **Rundgang beendet&#8230;. Außer Dreck, ein paar Steinschlägen und die üblichen Proteinrückständen, nix wildes.**  
-![Opel Insignia Pflegebericht](https://glossboss.de/images/dirk/InsigniaGyeonQ2Mohs/Insignia-GyeonQ2Mohs016.jpg)
+![Opel Insignia Pflegebericht](//s3.eu-central-1.amazonaws.com/glossbossimages/dirk/InsigniaGyeonQ2Mohs/Insignia-GyeonQ2Mohs016.jpg)
 
 &nbsp;
 
@@ -123,27 +123,27 @@ Bevor ich mich an den Lack begebe fange ich immer zuerst mit den Rädern an.
 
 Hie mal die Waffen die dazu aufgefahren wurden.
 
-![Opel Insignia Pflegebericht](https://glossboss.de/images/dirk/InsigniaGyeonQ2Mohs/Insignia-GyeonQ2Mohs022.jpg)
+![Opel Insignia Pflegebericht](//s3.eu-central-1.amazonaws.com/glossbossimages/dirk/InsigniaGyeonQ2Mohs/Insignia-GyeonQ2Mohs022.jpg)
 
-![Opel Insignia Pflegebericht](https://glossboss.de/images/dirk/InsigniaGyeonQ2Mohs/Insignia-GyeonQ2Mohs019.jpg)
+![Opel Insignia Pflegebericht](//s3.eu-central-1.amazonaws.com/glossbossimages/dirk/InsigniaGyeonQ2Mohs/Insignia-GyeonQ2Mohs019.jpg)
 
 **Aber bevor es richtig los gehen konnte  wurde ich erst mal von einem Regenschauer überrascht.**
 
-![Opel Insignia Pflegebericht](https://glossboss.de/images/dirk/InsigniaGyeonQ2Mohs/Insignia-GyeonQ2Mohs020.jpg)
+![Opel Insignia Pflegebericht](//s3.eu-central-1.amazonaws.com/glossbossimages/dirk/InsigniaGyeonQ2Mohs/Insignia-GyeonQ2Mohs020.jpg)
 
 Beading check auf schmutzigem Lack&#8230;. noch o.k
 
-![Opel Insignia Pflegebericht](https://glossboss.de/images/dirk/InsigniaGyeonQ2Mohs/Insignia-GyeonQ2Mohs021.jpg)
+![Opel Insignia Pflegebericht](//s3.eu-central-1.amazonaws.com/glossbossimages/dirk/InsigniaGyeonQ2Mohs/Insignia-GyeonQ2Mohs021.jpg)
 
 **Dann ging es los. Zuerst die Reifenflanken kräftig schrubben um eine gute und saubere Grundlage für die spätere Reifenpflege zu schaffen.**
 
-![Opel Insignia Pflegebericht](https://glossboss.de/images/dirk/InsigniaGyeonQ2Mohs/Insignia-GyeonQ2Mohs023.jpg)
+![Opel Insignia Pflegebericht](//s3.eu-central-1.amazonaws.com/glossbossimages/dirk/InsigniaGyeonQ2Mohs/Insignia-GyeonQ2Mohs023.jpg)
 
 **Hier mal der Einsatz des großen Wheel Woolies in Verbindung mit dem Bilberry Safe Wheel Cleaner 1 zu 10 verdünnt.**
 
-![Opel Insignia Pflegebericht](https://glossboss.de/images/dirk/InsigniaGyeonQ2Mohs/Insignia-GyeonQ2Mohs024.jpg)
+![Opel Insignia Pflegebericht](//s3.eu-central-1.amazonaws.com/glossbossimages/dirk/InsigniaGyeonQ2Mohs/Insignia-GyeonQ2Mohs024.jpg)
 
-![Opel Insignia Pflegebericht](https://glossboss.de/images/dirk/InsigniaGyeonQ2Mohs/Insignia-GyeonQ2Mohs025.jpg)
+![Opel Insignia Pflegebericht](//s3.eu-central-1.amazonaws.com/glossbossimages/dirk/InsigniaGyeonQ2Mohs/Insignia-GyeonQ2Mohs025.jpg)
 
 Dann kam hoher Besuch auf den Hof gerollt. Der Glossboss persönlich. Aka qcon oder schlicht und einfach Marvin ![Opel Insignia Pflegebericht](http://smiles.kolobok.us/standart/derisive.gif)
 
@@ -151,34 +151,34 @@ Dem hab ich dann erst mal die Foam Gun in die Hand gedrückt damit er es auch ei
 
 Ein paar Impressionen davon.
 
-![Opel Insignia Pflegebericht](https://glossboss.de/images/dirk/InsigniaGyeonQ2Mohs/Insignia-GyeonQ2Mohs026.jpg)
+![Opel Insignia Pflegebericht](//s3.eu-central-1.amazonaws.com/glossbossimages/dirk/InsigniaGyeonQ2Mohs/Insignia-GyeonQ2Mohs026.jpg)
 
-![Opel Insignia Pflegebericht](https://glossboss.de/images/dirk/InsigniaGyeonQ2Mohs/Insignia-GyeonQ2Mohs027.jpg)
+![Opel Insignia Pflegebericht](//s3.eu-central-1.amazonaws.com/glossbossimages/dirk/InsigniaGyeonQ2Mohs/Insignia-GyeonQ2Mohs027.jpg)
 
-![Opel Insignia Pflegebericht](https://glossboss.de/images/dirk/InsigniaGyeonQ2Mohs/Insignia-GyeonQ2Mohs028.jpg)
+![Opel Insignia Pflegebericht](//s3.eu-central-1.amazonaws.com/glossbossimages/dirk/InsigniaGyeonQ2Mohs/Insignia-GyeonQ2Mohs028.jpg)
 
-![Opel Insignia Pflegebericht](https://glossboss.de/images/dirk/InsigniaGyeonQ2Mohs/Insignia-GyeonQ2Mohs029.jpg)
+![Opel Insignia Pflegebericht](//s3.eu-central-1.amazonaws.com/glossbossimages/dirk/InsigniaGyeonQ2Mohs/Insignia-GyeonQ2Mohs029.jpg)
 
-![Opel Insignia Pflegebericht](https://glossboss.de/images/dirk/InsigniaGyeonQ2Mohs/Insignia-GyeonQ2Mohs030.jpg)
+![Opel Insignia Pflegebericht](//s3.eu-central-1.amazonaws.com/glossbossimages/dirk/InsigniaGyeonQ2Mohs/Insignia-GyeonQ2Mohs030.jpg)
 
-![Opel Insignia Pflegebericht](https://glossboss.de/images/dirk/InsigniaGyeonQ2Mohs/Insignia-GyeonQ2Mohs031.jpg)
-![Opel Insignia Pflegebericht](https://glossboss.de/images/dirk/InsigniaGyeonQ2Mohs/Insignia-GyeonQ2Mohs032.jpg)
+![Opel Insignia Pflegebericht](//s3.eu-central-1.amazonaws.com/glossbossimages/dirk/InsigniaGyeonQ2Mohs/Insignia-GyeonQ2Mohs031.jpg)
+![Opel Insignia Pflegebericht](//s3.eu-central-1.amazonaws.com/glossbossimages/dirk/InsigniaGyeonQ2Mohs/Insignia-GyeonQ2Mohs032.jpg)
 
 Im Anschluss daran wurde abgekärchert und anschließend mit der 2 Eimer Methode und überdosiertem Maxi Suid gewaschen.
 
 Danach stand er so da.
 
-![Opel Insignia Pflegebericht](https://glossboss.de/images/dirk/InsigniaGyeonQ2Mohs/Insignia-GyeonQ2Mohs033.jpg)
+![Opel Insignia Pflegebericht](//s3.eu-central-1.amazonaws.com/glossbossimages/dirk/InsigniaGyeonQ2Mohs/Insignia-GyeonQ2Mohs033.jpg)
 
-![Opel Insignia Pflegebericht](https://glossboss.de/images/dirk/InsigniaGyeonQ2Mohs/Insignia-GyeonQ2Mohs034.jpg)
+![Opel Insignia Pflegebericht](//s3.eu-central-1.amazonaws.com/glossbossimages/dirk/InsigniaGyeonQ2Mohs/Insignia-GyeonQ2Mohs034.jpg)
 
 **Im nächsten Schritt wurde der komplette Wagen geknetet. Wie erwartet war nicht viel zu holen. Hier mal die Knete nach der kompletten Haube. Regelmäßige Pflege und ein guter Schutz zahlen sich offensichtlich aus.**
 
-![Opel Insignia Pflegebericht](https://glossboss.de/images/dirk/InsigniaGyeonQ2Mohs/Insignia-GyeonQ2Mohs038.jpg)
+![Opel Insignia Pflegebericht](//s3.eu-central-1.amazonaws.com/glossbossimages/dirk/InsigniaGyeonQ2Mohs/Insignia-GyeonQ2Mohs038.jpg)
 
 **Nach dem kneten und trocken bot sich dann folgendes Bild**
 
-![Opel Insignia Pflegebericht](https://glossboss.de/images/dirk/InsigniaGyeonQ2Mohs/Insignia-GyeonQ2Mohs039.jpg)
+![Opel Insignia Pflegebericht](//s3.eu-central-1.amazonaws.com/glossbossimages/dirk/InsigniaGyeonQ2Mohs/Insignia-GyeonQ2Mohs039.jpg)
 
 Inklusive einiger Rückstände vom Kneten.
 
@@ -186,7 +186,7 @@ Die DODO Supernatural ist halt eine sehr weiche Knete, da passiert das mal ab un
 
 Dafür ist sie halt besonders weich, sehr schonend und ganz einfach durch zu kneten. Und man sieht wirklich jeden Rückstand in der Knete.
 
-![Opel Insignia Pflegebericht](https://glossboss.de/images/dirk/InsigniaGyeonQ2Mohs/Insignia-GyeonQ2Mohs040.jpg)
+![Opel Insignia Pflegebericht](//s3.eu-central-1.amazonaws.com/glossbossimages/dirk/InsigniaGyeonQ2Mohs/Insignia-GyeonQ2Mohs040.jpg)
 
 &nbsp;
 
@@ -202,35 +202,35 @@ Ganz nebenbei wurde dann auch noch Ralf&#8217;s Innenraum mit einem Sprühex ger
 
 Hier ein paar Bilder die während meiner Polierarbeit entstanden sind.
 
-![Opel Insignia Pflegebericht](https://glossboss.de/images/dirk/InsigniaGyeonQ2Mohs/Insignia-GyeonQ2Mohs044.jpg)
+![Opel Insignia Pflegebericht](//s3.eu-central-1.amazonaws.com/glossbossimages/dirk/InsigniaGyeonQ2Mohs/Insignia-GyeonQ2Mohs044.jpg)
 
-![Opel Insignia Pflegebericht](https://glossboss.de/images/dirk/InsigniaGyeonQ2Mohs/Insignia-GyeonQ2Mohs046.jpg)
+![Opel Insignia Pflegebericht](//s3.eu-central-1.amazonaws.com/glossbossimages/dirk/InsigniaGyeonQ2Mohs/Insignia-GyeonQ2Mohs046.jpg)
 
-![Opel Insignia Pflegebericht](https://glossboss.de/images/dirk/InsigniaGyeonQ2Mohs/Insignia-GyeonQ2Mohs047.jpg)
+![Opel Insignia Pflegebericht](//s3.eu-central-1.amazonaws.com/glossbossimages/dirk/InsigniaGyeonQ2Mohs/Insignia-GyeonQ2Mohs047.jpg)
 
-![Opel Insignia Pflegebericht](https://glossboss.de/images/dirk/InsigniaGyeonQ2Mohs/Insignia-GyeonQ2Mohs048.jpg)
+![Opel Insignia Pflegebericht](//s3.eu-central-1.amazonaws.com/glossbossimages/dirk/InsigniaGyeonQ2Mohs/Insignia-GyeonQ2Mohs048.jpg)
 
-![Opel Insignia Pflegebericht](https://glossboss.de/images/dirk/InsigniaGyeonQ2Mohs/Insignia-GyeonQ2Mohs049.jpg)
+![Opel Insignia Pflegebericht](//s3.eu-central-1.amazonaws.com/glossbossimages/dirk/InsigniaGyeonQ2Mohs/Insignia-GyeonQ2Mohs049.jpg)
 
-![Opel Insignia Pflegebericht](https://glossboss.de/images/dirk/InsigniaGyeonQ2Mohs/Insignia-GyeonQ2Mohs050.jpg)
+![Opel Insignia Pflegebericht](//s3.eu-central-1.amazonaws.com/glossbossimages/dirk/InsigniaGyeonQ2Mohs/Insignia-GyeonQ2Mohs050.jpg)
 
 **Hier erahnt man (rechts von der Mitte) den Grauschleier der auf dem Wagen lag**
 
-![Opel Insignia Pflegebericht](https://glossboss.de/images/dirk/InsigniaGyeonQ2Mohs/Insignia-GyeonQ2Mohs054.jpg)
+![Opel Insignia Pflegebericht](//s3.eu-central-1.amazonaws.com/glossbossimages/dirk/InsigniaGyeonQ2Mohs/Insignia-GyeonQ2Mohs054.jpg)
 
-**Auch die etwas größeren Defekte waren kein Problem.  An dieser Stelle wurde mit der T3000 und Spotpad und dem Rotweiß Polierschwamm mittelgrob orange und &#8220;nur&#8221; der V38 gearbeitet.**![Opel Insignia Pflegebericht](https://glossboss.de/images/dirk/InsigniaGyeonQ2Mohs/Insignia-GyeonQ2Mohs055.jpg)
+**Auch die etwas größeren Defekte waren kein Problem.  An dieser Stelle wurde mit der T3000 und Spotpad und dem Rotweiß Polierschwamm mittelgrob orange und &#8220;nur&#8221; der V38 gearbeitet.**![Opel Insignia Pflegebericht](//s3.eu-central-1.amazonaws.com/glossbossimages/dirk/InsigniaGyeonQ2Mohs/Insignia-GyeonQ2Mohs055.jpg)
 
-**Ausgeleuchtet durch Das Licht der Wahrheit, sah das ganze anschließend so aus.** ![Opel Insignia Pflegebericht](https://glossboss.de/images/dirk/InsigniaGyeonQ2Mohs/Insignia-GyeonQ2Mohs056.jpg)
+**Ausgeleuchtet durch Das Licht der Wahrheit, sah das ganze anschließend so aus.** ![Opel Insignia Pflegebericht](//s3.eu-central-1.amazonaws.com/glossbossimages/dirk/InsigniaGyeonQ2Mohs/Insignia-GyeonQ2Mohs056.jpg)
 
 **Der Motorraum bekam natürlich auch sein Fett weg&#8230;.. ähhhh sein Meguiars Hyper Dressing (1 zu 3) ab, welches schon vor der Wagenwäsche und nach einer Reinigung des Motorraums mit der Tornado den Weg in den Motorraum fand.**
 
-![Opel Insignia Pflegebericht](https://glossboss.de/images/dirk/InsigniaGyeonQ2Mohs/Insignia-GyeonQ2Mohs057.jpg)
+![Opel Insignia Pflegebericht](//s3.eu-central-1.amazonaws.com/glossbossimages/dirk/InsigniaGyeonQ2Mohs/Insignia-GyeonQ2Mohs057.jpg)
 
-![Opel Insignia Pflegebericht](https://glossboss.de/images/dirk/InsigniaGyeonQ2Mohs/Insignia-GyeonQ2Mohs059.jpg)
+![Opel Insignia Pflegebericht](//s3.eu-central-1.amazonaws.com/glossbossimages/dirk/InsigniaGyeonQ2Mohs/Insignia-GyeonQ2Mohs059.jpg)
 
-![Opel Insignia Pflegebericht](https://glossboss.de/images/dirk/InsigniaGyeonQ2Mohs/Insignia-GyeonQ2Mohs060.jpg)
+![Opel Insignia Pflegebericht](//s3.eu-central-1.amazonaws.com/glossbossimages/dirk/InsigniaGyeonQ2Mohs/Insignia-GyeonQ2Mohs060.jpg)
 
-![Opel Insignia Pflegebericht](https://glossboss.de/images/dirk/InsigniaGyeonQ2Mohs/Insignia-GyeonQ2Mohs063.jpg)
+![Opel Insignia Pflegebericht](//s3.eu-central-1.amazonaws.com/glossbossimages/dirk/InsigniaGyeonQ2Mohs/Insignia-GyeonQ2Mohs063.jpg)
 
 Nach dem alles fertig poliert war gab es zur Vorbereitung des Gyeon Q2 Mohs noch eine Runde Gyeon Q2M Prep um auch wirklich noch den letzten kleinen Rest vom Lack zu holen.
 
@@ -246,61 +246,61 @@ Vor den Finishpics gab es noch die Reifenpflege und alle Kunststoffteile im Auß
 
 Und nun will ich Euch auch nicht länger auf die Folter spannen. Ihr wollt Finishpics&#8230;.. Bitteschön 
 
-![Opel Insignia Pflegebericht](https://glossboss.de/images/dirk/InsigniaGyeonQ2Mohs/Insignia-GyeonQ2Mohs066.jpg)
+![Opel Insignia Pflegebericht](//s3.eu-central-1.amazonaws.com/glossbossimages/dirk/InsigniaGyeonQ2Mohs/Insignia-GyeonQ2Mohs066.jpg)
 
-![Opel Insignia Pflegebericht](https://glossboss.de/images/dirk/InsigniaGyeonQ2Mohs/Insignia-GyeonQ2Mohs067.jpg)
+![Opel Insignia Pflegebericht](//s3.eu-central-1.amazonaws.com/glossbossimages/dirk/InsigniaGyeonQ2Mohs/Insignia-GyeonQ2Mohs067.jpg)
 
-![Opel Insignia Pflegebericht](https://glossboss.de/images/dirk/InsigniaGyeonQ2Mohs/Insignia-GyeonQ2Mohs068.jpg)
+![Opel Insignia Pflegebericht](//s3.eu-central-1.amazonaws.com/glossbossimages/dirk/InsigniaGyeonQ2Mohs/Insignia-GyeonQ2Mohs068.jpg)
 
-![Opel Insignia Pflegebericht](https://glossboss.de/images/dirk/InsigniaGyeonQ2Mohs/Insignia-GyeonQ2Mohs069.jpg)
+![Opel Insignia Pflegebericht](//s3.eu-central-1.amazonaws.com/glossbossimages/dirk/InsigniaGyeonQ2Mohs/Insignia-GyeonQ2Mohs069.jpg)
 
-![Opel Insignia Pflegebericht](https://glossboss.de/images/dirk/InsigniaGyeonQ2Mohs/Insignia-GyeonQ2Mohs070.jpg)
+![Opel Insignia Pflegebericht](//s3.eu-central-1.amazonaws.com/glossbossimages/dirk/InsigniaGyeonQ2Mohs/Insignia-GyeonQ2Mohs070.jpg)
 
-![Opel Insignia Pflegebericht](https://glossboss.de/images/dirk/InsigniaGyeonQ2Mohs/Insignia-GyeonQ2Mohs071.jpg)
+![Opel Insignia Pflegebericht](//s3.eu-central-1.amazonaws.com/glossbossimages/dirk/InsigniaGyeonQ2Mohs/Insignia-GyeonQ2Mohs071.jpg)
 
-![Opel Insignia Pflegebericht](https://glossboss.de/images/dirk/InsigniaGyeonQ2Mohs/Insignia-GyeonQ2Mohs072.jpg)
+![Opel Insignia Pflegebericht](//s3.eu-central-1.amazonaws.com/glossbossimages/dirk/InsigniaGyeonQ2Mohs/Insignia-GyeonQ2Mohs072.jpg)
 
-![Opel Insignia Pflegebericht](https://glossboss.de/images/dirk/InsigniaGyeonQ2Mohs/Insignia-GyeonQ2Mohs073.jpg)
+![Opel Insignia Pflegebericht](//s3.eu-central-1.amazonaws.com/glossbossimages/dirk/InsigniaGyeonQ2Mohs/Insignia-GyeonQ2Mohs073.jpg)
 
-![Opel Insignia Pflegebericht](https://glossboss.de/images/dirk/InsigniaGyeonQ2Mohs/Insignia-GyeonQ2Mohs074.jpg)
+![Opel Insignia Pflegebericht](//s3.eu-central-1.amazonaws.com/glossbossimages/dirk/InsigniaGyeonQ2Mohs/Insignia-GyeonQ2Mohs074.jpg)
 
-![Opel Insignia Pflegebericht](https://glossboss.de/images/dirk/InsigniaGyeonQ2Mohs/Insignia-GyeonQ2Mohs075.jpg)
+![Opel Insignia Pflegebericht](//s3.eu-central-1.amazonaws.com/glossbossimages/dirk/InsigniaGyeonQ2Mohs/Insignia-GyeonQ2Mohs075.jpg)
 
-![Opel Insignia Pflegebericht](https://glossboss.de/images/dirk/InsigniaGyeonQ2Mohs/Insignia-GyeonQ2Mohs076.jpg)
+![Opel Insignia Pflegebericht](//s3.eu-central-1.amazonaws.com/glossbossimages/dirk/InsigniaGyeonQ2Mohs/Insignia-GyeonQ2Mohs076.jpg)
 
-![Opel Insignia Pflegebericht](https://glossboss.de/images/dirk/InsigniaGyeonQ2Mohs/Insignia-GyeonQ2Mohs077.jpg)
+![Opel Insignia Pflegebericht](//s3.eu-central-1.amazonaws.com/glossbossimages/dirk/InsigniaGyeonQ2Mohs/Insignia-GyeonQ2Mohs077.jpg)
 
-![Opel Insignia Pflegebericht](https://glossboss.de/images/dirk/InsigniaGyeonQ2Mohs/Insignia-GyeonQ2Mohs078.jpg)
+![Opel Insignia Pflegebericht](//s3.eu-central-1.amazonaws.com/glossbossimages/dirk/InsigniaGyeonQ2Mohs/Insignia-GyeonQ2Mohs078.jpg)
 
-![Opel Insignia Pflegebericht](https://glossboss.de/images/dirk/InsigniaGyeonQ2Mohs/Insignia-GyeonQ2Mohs079.jpg)
+![Opel Insignia Pflegebericht](//s3.eu-central-1.amazonaws.com/glossbossimages/dirk/InsigniaGyeonQ2Mohs/Insignia-GyeonQ2Mohs079.jpg)
 
-![Opel Insignia Pflegebericht](https://glossboss.de/images/dirk/InsigniaGyeonQ2Mohs/Insignia-GyeonQ2Mohs080.jpg)
+![Opel Insignia Pflegebericht](//s3.eu-central-1.amazonaws.com/glossbossimages/dirk/InsigniaGyeonQ2Mohs/Insignia-GyeonQ2Mohs080.jpg)
 
-![Opel Insignia Pflegebericht](https://glossboss.de/images/dirk/InsigniaGyeonQ2Mohs/Insignia-GyeonQ2Mohs081.jpg)
+![Opel Insignia Pflegebericht](//s3.eu-central-1.amazonaws.com/glossbossimages/dirk/InsigniaGyeonQ2Mohs/Insignia-GyeonQ2Mohs081.jpg)
 
-![Opel Insignia Pflegebericht](https://glossboss.de/images/dirk/InsigniaGyeonQ2Mohs/Insignia-GyeonQ2Mohs083.jpg)
+![Opel Insignia Pflegebericht](//s3.eu-central-1.amazonaws.com/glossbossimages/dirk/InsigniaGyeonQ2Mohs/Insignia-GyeonQ2Mohs083.jpg)
 
-![Opel Insignia Pflegebericht](https://glossboss.de/images/dirk/InsigniaGyeonQ2Mohs/Insignia-GyeonQ2Mohs084.jpg)
+![Opel Insignia Pflegebericht](//s3.eu-central-1.amazonaws.com/glossbossimages/dirk/InsigniaGyeonQ2Mohs/Insignia-GyeonQ2Mohs084.jpg)
 
-![Opel Insignia Pflegebericht](https://glossboss.de/images/dirk/InsigniaGyeonQ2Mohs/Insignia-GyeonQ2Mohs085.jpg)
+![Opel Insignia Pflegebericht](//s3.eu-central-1.amazonaws.com/glossbossimages/dirk/InsigniaGyeonQ2Mohs/Insignia-GyeonQ2Mohs085.jpg)
 
-![Opel Insignia Pflegebericht](https://glossboss.de/images/dirk/InsigniaGyeonQ2Mohs/Insignia-GyeonQ2Mohs086.jpg)
+![Opel Insignia Pflegebericht](//s3.eu-central-1.amazonaws.com/glossbossimages/dirk/InsigniaGyeonQ2Mohs/Insignia-GyeonQ2Mohs086.jpg)
 
-![Opel Insignia Pflegebericht](https://glossboss.de/images/dirk/InsigniaGyeonQ2Mohs/Insignia-GyeonQ2Mohs088.jpg)
+![Opel Insignia Pflegebericht](//s3.eu-central-1.amazonaws.com/glossbossimages/dirk/InsigniaGyeonQ2Mohs/Insignia-GyeonQ2Mohs088.jpg)
 
-![Opel Insignia Pflegebericht](https://glossboss.de/images/dirk/InsigniaGyeonQ2Mohs/Insignia-GyeonQ2Mohs089.jpg)
+![Opel Insignia Pflegebericht](//s3.eu-central-1.amazonaws.com/glossbossimages/dirk/InsigniaGyeonQ2Mohs/Insignia-GyeonQ2Mohs089.jpg)
 
-![Opel Insignia Pflegebericht](https://glossboss.de/images/dirk/InsigniaGyeonQ2Mohs/Insignia-GyeonQ2Mohs090.jpg)
+![Opel Insignia Pflegebericht](//s3.eu-central-1.amazonaws.com/glossbossimages/dirk/InsigniaGyeonQ2Mohs/Insignia-GyeonQ2Mohs090.jpg)
 
-![Opel Insignia Pflegebericht](https://glossboss.de/images/dirk/InsigniaGyeonQ2Mohs/Insignia-GyeonQ2Mohs091.jpg)
+![Opel Insignia Pflegebericht](//s3.eu-central-1.amazonaws.com/glossbossimages/dirk/InsigniaGyeonQ2Mohs/Insignia-GyeonQ2Mohs091.jpg)
 
-![Opel Insignia Pflegebericht](https://glossboss.de/images/dirk/InsigniaGyeonQ2Mohs/Insignia-GyeonQ2Mohs092.jpg)
+![Opel Insignia Pflegebericht](//s3.eu-central-1.amazonaws.com/glossbossimages/dirk/InsigniaGyeonQ2Mohs/Insignia-GyeonQ2Mohs092.jpg)
 
-![Opel Insignia Pflegebericht](https://glossboss.de/images/dirk/InsigniaGyeonQ2Mohs/Insignia-GyeonQ2Mohs093.jpg)
+![Opel Insignia Pflegebericht](//s3.eu-central-1.amazonaws.com/glossbossimages/dirk/InsigniaGyeonQ2Mohs/Insignia-GyeonQ2Mohs093.jpg)
 
-![Opel Insignia Pflegebericht](https://glossboss.de/images/dirk/InsigniaGyeonQ2Mohs/Insignia-GyeonQ2Mohs094.jpg)
+![Opel Insignia Pflegebericht](//s3.eu-central-1.amazonaws.com/glossbossimages/dirk/InsigniaGyeonQ2Mohs/Insignia-GyeonQ2Mohs094.jpg)
 
-![Opel Insignia Pflegebericht](https://glossboss.de/images/dirk/InsigniaGyeonQ2Mohs/Insignia-GyeonQ2Mohs095.jpg)
+![Opel Insignia Pflegebericht](//s3.eu-central-1.amazonaws.com/glossbossimages/dirk/InsigniaGyeonQ2Mohs/Insignia-GyeonQ2Mohs095.jpg)
 &nbsp;
 
 Hoffentlich nicht allzu erschlagen von der Bilderflut hoffe ich das es Euch gefallen hat.
@@ -308,4 +308,4 @@ Hoffentlich nicht allzu erschlagen von der Bilderflut hoffe ich das es Euch gefa
 Und wer jetzt darüber nachdenkt&#8230;.Gyeon Q2 Mohs &#8211; **Das kannst du auch?  Klar kannst du das auch!** Also los.
 
 In diesen Sinne frohes Schaffen und schöne Grüße an die Glossboss Gemeinde, euer  
-![Opel Insignia Pflegebericht](https://glossboss.de/images/dirk/glossbossSignatur_agent.png)
+![Opel Insignia Pflegebericht](//s3.eu-central-1.amazonaws.com/glossbossimages/dirk/glossbossSignatur_agent.png)
