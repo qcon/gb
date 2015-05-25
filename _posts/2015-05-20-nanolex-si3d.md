@@ -21,13 +21,13 @@ Die Firma Nanolex hat seit neuestem auch eine entsprechend Versiegelung auf dem 
 
 Bestellt habe ich sie direkt beim Hersteller und innerhalb von wenigen Tagen stand die 30 ml Flasche dann bei mir auf dem Schreibtisch.
 
-![](https://glossboss.de/images/alex/nanolexsi3d/1.jpg)
+![](//s3.eu-central-1.amazonaws.com/glossbossimages/alex/nanolexsi3d/1.jpg)
 
-![](https://glossboss.de/images/alex/nanolexsi3d/2.jpg)
+![](//s3.eu-central-1.amazonaws.com/glossbossimages/alex/nanolexsi3d/2.jpg)
 
 Schlicht und einfach gehalten reiht sich die SI3D Versiegelung in das typische Design der Nanolex-Produktreihe ein. Die Anleitung zur Versiegelung ist auch einfach und leicht verständlich gehalten.
 
-![](https://glossboss.de/images/alex/nanolexsi3d/2a.jpg)
+![](//s3.eu-central-1.amazonaws.com/glossbossimages/alex/nanolexsi3d/2a.jpg)
 
 Nun genug zur Versiegelung, kommen wir zum Anwendungsobjekt. Als Opferauto hielt diesmal ein gepflegter Golf V in der Farbe Laserblue her. Zur Vorarbeit zählt wie immer eine ausgiebige 2-Eimer-Wäsche. Zuvor wird das Auto idealerweise mit dem Hochdruckreiniger abgedampft, um den groben Dreck zu entfernen. 
 
@@ -35,51 +35,51 @@ Anschließend folgten dann das obligatorische Kneten und danach natürlich die P
 
 Nach dem polieren wird der Lack anschließend nochmal gereinigt, um etwaige Polieröle runter zu holen. Die Nanolex SI3D Versiegelung braucht einen möglichst reinen Lack damit sie mit diesem eine Verbindung eingehen können. Für diese Arbeiten eignet sich z. B. das Gyeon Prep oder auch der Petzoldts Kontrollreiniger.
 
-![](https://glossboss.de/images/alex/nanolexsi3d/3.JPG)
+![](//s3.eu-central-1.amazonaws.com/glossbossimages/alex/nanolexsi3d/3.JPG)
 
-![](https://glossboss.de/images/alex/nanolexsi3d/4.jpg)
+![](//s3.eu-central-1.amazonaws.com/glossbossimages/alex/nanolexsi3d/4.jpg)
 
 Den Lack ruhig satt einsprühen! Das Gyeon Prep lüftet super ab und lässt sich Kinderleicht verarbeiten.
 
-![](https://glossboss.de/images/alex/nanolexsi3d/5.JPG)
+![](//s3.eu-central-1.amazonaws.com/glossbossimages/alex/nanolexsi3d/5.JPG)
  
 Kommen wir endlich zum Titelthema, der Lackversiegelung mit Nanolex SI3D. Die Herstellinfos dazu findet ihr ja schon oben. Mit einer Temperatur von etwa 20 °C und eine Luftfeuchtigkeit von ca. 55 % waren die Bedingungen ideal um in Ruhe den Golf zu versiegeln.
 
-![](https://glossboss.de/images/alex/nanolexsi3d/6.JPG)
+![](//s3.eu-central-1.amazonaws.com/glossbossimages/alex/nanolexsi3d/6.JPG)
 
-![](https://glossboss.de/images/alex/nanolexsi3d/7.JPG)
+![](//s3.eu-central-1.amazonaws.com/glossbossimages/alex/nanolexsi3d/7.JPG)
  
 Vor dem Auftrag bitte Nitril Handschuhe anziehen, eure Hände werden es euch danken. Zusätzlich haben wir noch für etwas Belüftung in der Garage gesorgt, indem wir die hintere Tür sowie das Tor vorne einen Spalt geöffnet haben.
  
 Für den Auftrag eignen sich die sogenannte Suede Tücher sehr gut. Bei vielen Versiegelungen, wie z. B. dem Cquartz UK oder dem Gyeon Mohs liegen diese schon dabei. Man wickelt dieses Tuch um den Applicator und lässt darauf dann die Versiegelung tropfen. Zusätzlich fixiere ich das Tuch immer noch mit etwas Klebeband, damit es ordentlich auf dem Applikator hält. 
 
-![](https://glossboss.de/images/alex/nanolexsi3d/8.jpg)
+![](//s3.eu-central-1.amazonaws.com/glossbossimages/alex/nanolexsi3d/8.jpg)
 
-![](https://glossboss.de/images/alex/nanolexsi3d/9.JPG)
+![](//s3.eu-central-1.amazonaws.com/glossbossimages/alex/nanolexsi3d/9.JPG)
 
-![](https://glossboss.de/images/alex/nanolexsi3d/10.JPG)
+![](//s3.eu-central-1.amazonaws.com/glossbossimages/alex/nanolexsi3d/10.JPG)
 
 Am Anfang dürfen es ruhig 8-10 Tropfen sein. Die Versiegelung trägt man dann in überlappenden Bahnen auf. Dabei sollte man nicht zu geizig sein, sprich gut sehen, wo man schon war. Bei anständiger Beleuchtung kann man Problemlos erkennen, wo man schon war.
 
-![](https://glossboss.de/images/alex/nanolexsi3d/11.JPG)
+![](//s3.eu-central-1.amazonaws.com/glossbossimages/alex/nanolexsi3d/11.JPG)
 
-![](https://glossboss.de/images/alex/nanolexsi3d/12.JPG)
+![](//s3.eu-central-1.amazonaws.com/glossbossimages/alex/nanolexsi3d/12.JPG)
 
 Bei der Ablüftzeit haben wir verschiedene Zeiten getestet. Egal ob 3 …
 
-![](https://glossboss.de/images/alex/nanolexsi3d/13.JPG)
+![](//s3.eu-central-1.amazonaws.com/glossbossimages/alex/nanolexsi3d/13.JPG)
 
 oder 5 Minuten, die Versiegelungsrückstände lassen sich mit zwei Unterschiedlichen Microfasertüchern problemlos abnehmen. Zuerst haben wir mit einem kurzfaseriges grob die Rückstände vom Lack abgetragen und im Anschluss folgt dann eine weitere Runde mit einem langfaseriegen Microfasertuch.
 
 Hier mal ein paar Bilder, die während der Verarbeitung entstanden sind:
 
-![](https://glossboss.de/images/alex/nanolexsi3d/14.JPG)
+![](//s3.eu-central-1.amazonaws.com/glossbossimages/alex/nanolexsi3d/14.JPG)
 
-![](https://glossboss.de/images/alex/nanolexsi3d/15.JPG)
+![](//s3.eu-central-1.amazonaws.com/glossbossimages/alex/nanolexsi3d/15.JPG)
 
-![](https://glossboss.de/images/alex/nanolexsi3d/16.JPG)
+![](//s3.eu-central-1.amazonaws.com/glossbossimages/alex/nanolexsi3d/16.JPG)
 
-![](https://glossboss.de/images/alex/nanolexsi3d/17.JPG)
+![](//s3.eu-central-1.amazonaws.com/glossbossimages/alex/nanolexsi3d/17.JPG)
 
 Wenn ihr die Möglichkeit habt, dann arbeitet zu zweit, denn dann kann der eine vorgehen und die Versiegelung auftragen und die zweite Person kann diese nach kurzer Zeit dann abnehmen.
 
@@ -90,29 +90,29 @@ Nach dem ihr dann das Auto fertig versiegelt habt, solltet ihr es 12 Stunden in 
 
 Abschließend könnt ihr euch dann an einem strahlenden und geschützten Lack erfreuen. Hier mal ein paar Finishfotos. Aufgrund der starken Sonne habe ich teilweise ein par HDR Bilder gemacht, damit man etwas mehr Kontrast hat.
 
-![](https://glossboss.de/images/alex/nanolexsi3d/18.JPG)
+![](//s3.eu-central-1.amazonaws.com/glossbossimages/alex/nanolexsi3d/18.JPG)
 
-![](https://glossboss.de/images/alex/nanolexsi3d/19.JPG)
+![](//s3.eu-central-1.amazonaws.com/glossbossimages/alex/nanolexsi3d/19.JPG)
 
-![](https://glossboss.de/images/alex/nanolexsi3d/20.JPG)
+![](//s3.eu-central-1.amazonaws.com/glossbossimages/alex/nanolexsi3d/20.JPG)
 
-![](https://glossboss.de/images/alex/nanolexsi3d/21.jpg)
+![](//s3.eu-central-1.amazonaws.com/glossbossimages/alex/nanolexsi3d/21.jpg)
 
-![](https://glossboss.de/images/alex/nanolexsi3d/22.jpg)
+![](//s3.eu-central-1.amazonaws.com/glossbossimages/alex/nanolexsi3d/22.jpg)
 
-![](https://glossboss.de/images/alex/nanolexsi3d/23.jpg)
+![](//s3.eu-central-1.amazonaws.com/glossbossimages/alex/nanolexsi3d/23.jpg)
 
-![](https://glossboss.de/images/alex/nanolexsi3d/24.JPG)
+![](//s3.eu-central-1.amazonaws.com/glossbossimages/alex/nanolexsi3d/24.JPG)
 
-![](https://glossboss.de/images/alex/nanolexsi3d/24a.JPG)
+![](//s3.eu-central-1.amazonaws.com/glossbossimages/alex/nanolexsi3d/24a.JPG)
 
-![](https://glossboss.de/images/alex/nanolexsi3d/25.JPG)
+![](//s3.eu-central-1.amazonaws.com/glossbossimages/alex/nanolexsi3d/25.JPG)
 
-![](https://glossboss.de/images/alex/nanolexsi3d/26.JPG)
+![](//s3.eu-central-1.amazonaws.com/glossbossimages/alex/nanolexsi3d/26.JPG)
 
-![](https://glossboss.de/images/alex/nanolexsi3d/27.JPG)
+![](//s3.eu-central-1.amazonaws.com/glossbossimages/alex/nanolexsi3d/27.JPG)
 
-![](https://glossboss.de/images/alex/nanolexsi3d/28.JPG)
+![](//s3.eu-central-1.amazonaws.com/glossbossimages/alex/nanolexsi3d/28.JPG)
 
 Abschließend noch ein kleines Video vom Auftragstuch 24 Stunden nach der Versiegelung. 
 
