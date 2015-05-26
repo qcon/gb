@@ -236,8 +236,6 @@
 			_('#searchWrapper').style.display = 'none';
 
 			markActiveLinklist(hash);
-
-			
 			hashNice = hash.charAt(0).toUpperCase() + hash.slice(1,hash.length);
 			title = title || hashNice;
 
