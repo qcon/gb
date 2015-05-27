@@ -111,7 +111,7 @@ window.addEventListener('resize', function() {
 (function(sc) {
 	if(sc) {
 		xhr = new XMLHttpRequest();
-		getSharesUrl = "http://graph.facebook.com/" + window.location.href;
+		getSharesUrl = "https://graph.facebook.com/" + window.location.href;
 		sharesOutput = "";
 		xhr.onreadystatechange = function(e) {
 			if(xhr.readyState == 4 && xhr.status == 200) {
