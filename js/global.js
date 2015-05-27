@@ -624,13 +624,10 @@ window.addEventListener('resize', function() {
 					sharesOutput += "Kein Glossboss hat bisher";
 				}
 			sharesOutput += " diesen Beitrag geteilt";
-			}
 			clearInterval(ajaxCheckInterval);
 			shareCounter.innerText = sharesOutput;
+			}
 		}
-		
-		
-
 		xhr.open("GET", getSharesUrl);
 		xhr.send();
 		xhrSliced.open("GET", getSharesUrlSliced);
