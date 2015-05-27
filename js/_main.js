@@ -119,17 +119,11 @@ window.addEventListener('resize', function() {
 		xhr.onreadystatechange = function(e) {
 			if(xhr.readyState == 4 && xhr.status == 200) {
 				getShares = JSON.parse(xhr.responseText);
-				if(getShares.shares > 1) {
-					getSharesCount += getShares.shares;
-				}
 			}
 		}
 		xhrSliced.onreadystatechange = function(e) {
 			if(xhrSliced.readyState == 4 && xhrSliced.status == 200) {
 				getSharesSliced = JSON.parse(xhrSliced.responseText);
-				if(getSharesSliced.shares > 1) {
-					getSharesCount += getSharesSliced.shares;
-				}
 			}
 		}
 		var ajaxCheckInterval = setInterval(checkIntShare, 100);
@@ -138,9 +132,7 @@ window.addEventListener('resize', function() {
 				if (getSharesSliced.shares === getShares.shares) getSharesCount /= 2;
 				//sharesOutput += getSharesCount;
 				sharesOutput = "Sei der erste Glossboss der diesen Beitrag teilt!";
-				log(getShares.shares);
-				log(getSharesSliced.shares)
-				log(getSharesCount)
+				getSharesCount = (getSharesSliced.shares || 0) + (getShares.shares || 0);
 				if (getSharesCount > 1) {
 					sharesOutput = getSharesCount + " Glossbosse haben diesen Beitrag bereits geteilt";
 					log("1");
