@@ -136,6 +136,7 @@ window.addEventListener('resize', function() {
 		function checkIntShare() {
 			if((xhrSliced.readyState == 4 && xhrSliced.status == 200) && (xhr.readyState == 4 && xhr.status == 200)) {
 				if (getSharesSliced === getShares) getSharesCount /= 2;
+				log(getSharesSliced)
 				//sharesOutput += getSharesCount;
 				sharesOutput = "Kein Glossboss hat bisher diesen Beitrag geteilt :(";
 
