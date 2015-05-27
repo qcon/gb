@@ -612,18 +612,21 @@ window.addEventListener('resize', function() {
 				}
 			}
 		}
-
-		if(getSharesSliced && getShares) {
-			sharesOutput += getSharesCount;
-			if (getSharesCount > 1) {
-				sharesOutput += " Glossbosse haben";
-			} else {
-				sharesOutput += " Glossboss hat";
-			}
+		var ajaxCheckInterval = setInterval(checkIntShare, 10);
+		function checkIntShare() {
+			if((getSharesSliced && getShares) && (xhrSliced.readyState == 4 && xhrSliced.status == 200) && (xhr.readyState == 4 && xhr.status == 200)) {
+				sharesOutput += getSharesCount;
+				if (getSharesCount > 1) {
+					sharesOutput += " Glossbosse haben";
+				} else {
+					sharesOutput += " Glossboss hat";
+				}
 			sharesOutput += " diesen Beitrag bereits geteilt";
 			} else {
 				sharesOutput = "Sei der erste der diesen Beitrag teilt!";
 			}
+		}
+		
 		shareCounter.innerText = sharesOutput;
 
 		xhr.open("GET", getSharesUrl);
