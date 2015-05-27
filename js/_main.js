@@ -141,12 +141,12 @@ window.addEventListener('resize', function() {
 				sharesOutput += getSharesCount;
 				if (getSharesCount > 1) {
 					sharesOutput += " Glossbosse haben";
-				} else {
+				} else if(getSharesCount === 1) {
 					sharesOutput += " Glossboss hat";
+				} else {
+					sharesOutput += "Kein Glossboss hat bisher";
 				}
-			sharesOutput += " diesen Beitrag bereits geteilt";
-			} else {
-				sharesOutput = "Sei der erste der diesen Beitrag teilt!";
+			sharesOutput += " diesen Beitrag geteilt";
 			}
 			clearInterval(ajaxCheckInterval);
 			shareCounter.innerText = sharesOutput;
