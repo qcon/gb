@@ -625,9 +625,10 @@ window.addEventListener('resize', function() {
 			} else {
 				sharesOutput = "Sei der erste der diesen Beitrag teilt!";
 			}
+			shareCounter.innerText = sharesOutput;
 		}
 		
-		shareCounter.innerText = sharesOutput;
+		
 
 		xhr.open("GET", getSharesUrl);
 		xhr.send();
