@@ -614,7 +614,7 @@ window.addEventListener('resize', function() {
 		}
 		var ajaxCheckInterval = setInterval(checkIntShare, 10);
 		function checkIntShare() {
-			if((getSharesSliced && getShares) && (xhrSliced.readyState == 4 && xhrSliced.status == 200) && (xhr.readyState == 4 && xhr.status == 200)) {
+			if((xhrSliced.readyState == 4 && xhrSliced.status == 200) && (xhr.readyState == 4 && xhr.status == 200)) {
 				sharesOutput += getSharesCount;
 				if (getSharesCount > 1) {
 					sharesOutput += " Glossbosse haben";
