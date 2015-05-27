@@ -617,7 +617,8 @@ window.addEventListener('resize', function() {
 
 				if (getSharesCount > 1) {
 					sharesOutput = getSharesCount + " Glossbosse haben diesen Beitrag bereits geteilt";
-				} else if(getSharesCount == 1) {
+				} 
+				if (getSharesCount == 1) {
 					sharesOutput = "Erst 1 Glossboss hat diesen Beitrag geteilt";
 				}
 			clearInterval(ajaxCheckInterval);
