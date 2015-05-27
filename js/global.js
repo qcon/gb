@@ -589,9 +589,9 @@ window.addEventListener('resize', function() {
 	if(sc) {
 		xhr = new XMLHttpRequest();
 		getSharesUrl = "https://graph.facebook.com/" + window.location.href;
-		if (getSharesUrl[getSharesUrl.length-1] === "/") {
-			getSharesUrl = getSharesUrl.slice(0, getSharesUrl.length-1);
-		}
+		// if (getSharesUrl[getSharesUrl.length-1] === "/") {
+		// 	getSharesUrl = getSharesUrl.slice(0, getSharesUrl.length-1);
+		// }
 		sharesOutput = "";
 		xhr.onreadystatechange = function(e) {
 			if(xhr.readyState == 4 && xhr.status == 200) {
