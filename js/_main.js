@@ -135,15 +135,14 @@ window.addEventListener('resize', function() {
 		var ajaxCheckInterval = setInterval(checkIntShare, 10);
 		function checkIntShare() {
 			if((xhrSliced.readyState == 4 && xhrSliced.status == 200) && (xhr.readyState == 4 && xhr.status == 200)) {
-				sharesOutput += getSharesCount;
+				//sharesOutput += getSharesCount;
 				if (getSharesCount > 1) {
-					sharesOutput += " Glossbosse haben";
+					sharesOutput = getSharesCount + " Glossbosse haben diesen Beitrag bereits geteilt";
 				} else if(getSharesCount === 1) {
-					sharesOutput += " Glossboss hat";
+					sharesOutput = "Erst " getSharesCount + " Glossboss hat diesen Beitrag geteilt";
 				} else {
-					sharesOutput += "Kein Glossboss hat bisher";
+					sharesOutput = "Kein Glossboss hat bisher diesen Beitrag geteilt :(";
 				}
-			sharesOutput += " diesen Beitrag geteilt";
 			clearInterval(ajaxCheckInterval);
 			shareCounter.innerText = sharesOutput;
 			}
