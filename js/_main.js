@@ -111,30 +111,45 @@ window.addEventListener('resize', function() {
 (function(sc) {
 	if(sc) {
 		xhr = new XMLHttpRequest();
+		xhrSliced = new XMLHttpRequest();
 		getSharesUrl = "https://graph.facebook.com/" + window.location.href;
-		// if (getSharesUrl[getSharesUrl.length-1] === "/") {
-		// 	getSharesUrl = getSharesUrl.slice(0, getSharesUrl.length-1);
-		// }
+		getSharesUrlSliced = getSharesUrl.slice(0, getSharesUrl.length-1);
 		sharesOutput = "";
+		getSharesCount = 0;
 		xhr.onreadystatechange = function(e) {
 			if(xhr.readyState == 4 && xhr.status == 200) {
 				getShares = JSON.parse(xhr.responseText);
-				if(getShares.shares) {
-					sharesOutput += getShares.shares;
-					if (getShares.shares > 1) {
-						sharesOutput += " Glossbosse haben";
-					} else {
-						sharesOutput += " Glossboss hat";
-					}
-					sharesOutput += " diesen Beitrag bereits geteilt";
-				} else {
-					sharesOutput = "Sei der erste der diesen Beitrag teilt!";
+				if(getShares.shares > 1) {
+					getSharesCount += getShares.shares;
 				}
-				shareCounter.innerText = sharesOutput;
 			}
 		}
+		xhrSliced.onreadystatechange = function(e) {
+			if(xhrSliced.readyState == 4 && xhrSliced.status == 200) {
+				getSharesSliced = JSON.parse(xhrSliced.responseText);
+				if(getSharesSliced.shares > 1) {
+					getSharesCount += getSharesSliced.shares;
+				}
+			}
+		}
+
+		if(getSharesCount > 0) {
+			sharesOutput += getSharesCount;
+			if (getSharesCount > 1) {
+				sharesOutput += " Glossbosse haben";
+			} else {
+				sharesOutput += " Glossboss hat";
+			}
+			sharesOutput += " diesen Beitrag bereits geteilt";
+		} else {
+			sharesOutput = "Sei der erste der diesen Beitrag teilt!";
+		}
+		shareCounter.innerText = sharesOutput;
+
 		xhr.open("GET", getSharesUrl);
 		xhr.send();
+		xhrSliced.open("GET", getSharesUrlSliced);
+		xhrSliced.send();
 	}
 })(shareCounter);
 
