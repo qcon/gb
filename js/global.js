@@ -592,7 +592,7 @@ window.addEventListener('resize', function() {
 		getSharesUrl = "https://graph.facebook.com/" + window.location.href;
 		getSharesUrlSliced = getSharesUrl.slice(0, getSharesUrl.length-1);
 		sharesOutput = "";
-		getSharesCount = 0;
+		var getSharesCount;
 		xhr.onreadystatechange = function(e) {
 			if(xhr.readyState == 4 && xhr.status == 200) {
 				getShares = JSON.parse(xhr.responseText);
