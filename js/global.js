@@ -595,13 +595,13 @@ window.addEventListener('resize', function() {
 				getShares = JSON.parse(xhr.responseText);
 				sharesOutput += getShares.shares;
 				if (getShares.shares > 1) {
-					sharesOutput += " Glossbosse";
+					sharesOutput += " Glossbosse haben";
 				} else if (getShares.shares === 0 || !getShares.shares) {
 					sharesOutput += " Sei der erste der diesen Beitrag teilt!";
 				} else {
-					sharesOutput += " Glossboss";
+					sharesOutput += " Glossboss hat";
 				}
-				sharesOutput += " haben diesen Beitrag geteilt";
+				sharesOutput += " diesen Beitrag bereits geteilt";
 				shareCounter.innerText = sharesOutput;
 			}
 		}
