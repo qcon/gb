@@ -17,95 +17,63 @@
 		elemSliced   = elem.slice(1, elem.length);
 		elemSelector = elem.charAt(0);
 		returnNode   = [];
-
 		if ( /[^\w#.-]/.test(elem) ) {
 			//do the querySelectorAll, if:
 			//* there is a whitespace
 			//* there is a special char except # . -
 			//example: "input[type="radio"]:checked" OR
 			//".post-content p img"
-
 			getElements = document.querySelectorAll(elem);
 			getLength = getElements.length;
-
 			for( i = 0; i < getElements.length; i++ ) {
-
 				returnNode.push(getElements[i]);
-
 			}
-
 		} else {
-
 			switch ( elemSelector ) {
 				//get the IDs
 				case '#':
-
 					returnNode.push(document.getElementById( elemSliced ));
 					break;
 				//get the classes
 				case '.':
-
 					getClassNames = document.getElementsByClassName( elemSliced );
-
 					for( i = 0; i < getClassNames.length; i++ ) {
-
 						returnNode.push( getClassNames[i] );
-
 					}
 					break;
 				//get the tag names
 				default:
-
 					getTagNames = document.getElementsByTagName(elem);
 					for( i = 0; i < getTagNames.length; i++ ) {
-
 						returnNode.push( getTagNames[i] );
-
 					}
 					break;
 			}
 		}
-
 		returnNodeFinal = ( returnNode.length > 1 ) ? returnNode : returnNode[0];
-
 		if( returnNodeFinal ) {
-
 			return returnNodeFinal;
-
 		} else {
-
 			return;
-
 		}
 	};
 
 	Element.prototype.addClass = function( className ) {
-
 		_addClass = function( elem ) {
-
 			if( elem.classList ) {
-
 				elem.classList.add(className);
-
 			} else {
-
 				elem.className += ' ' + className;
 			}
 		};
 		return _addClass( this );
 	};
 
-
 	Element.prototype.removeClass = function( className ) {
-
 		_removeClass = function( elem ) {
-
 			if ( elem.classList ) {
-
 				elem.classList.remove(className);
-
 			} else {
-
 				elem.className = elem.className.replace(new RegExp('(^|\\b)' + className.split(' ').join('|') + '(\\b|$)', 'gi'), ' ');
 			}
 		};
@@ -113,9 +81,7 @@
 	};
 
 	Element.prototype.hide = function () {
-
 		_hide = function( elem ) {
-
 			elem.style.display = 'none';
 		};
 
@@ -126,19 +92,13 @@
 	 * @param  {[BOOL]} show [1 = show, 0 = hide]
 	 */
 	loader = function ( show ) {
-
 		_self = _("#loading");
-
 		if ( show ) {
-
 			_self.style.opacity = '1';
 			_self.style.display = 'block';
-
 		} else {
-
 			_self.style.opacity = '0';
 			_self.style.display = 'none';
-
 		}
 	};
 	/**
@@ -146,19 +106,14 @@
 	 * @param  {[type]} elem [use _('element')]
 	 */
 	jumpTo = function ( elem ) {
-
 			theOffset = elem.getBoundingClientRect();
 			window.scrollTo(0,theOffset.top + document.body.scrollTop - 10);
 	};
 
 	log = function ( arg ) {
-
 		if ( debug ) {
-
 			console.log(arg);
-
 		}
-
 	};
 
 	/**
@@ -166,21 +121,14 @@
 	 * @return null
 	 */
 	markActiveLinklist = function(hash) {
-
 		_(".linklistloop a").forEach(function(_self) {
-
 			if(_self.getAttribute("data-kat") === hash ) {
-
 				_self.addClass("cat--active");
 				setTimeout(function() {
 					jumpTo(_self);
 				}, 50);
-
-
 			} else {
-
 				_self.removeClass("cat--active");
-
 			}
 		});
 	};
@@ -191,16 +139,12 @@
 	 * @param  {[String]} li   [add read-mark to the Listitem]
 	 */
 	checkRead = function( post, li ) {
-
 		if(ls.getItem(post)) {
-
 			li.addClass("is-viewed");
 			parseDate = new Date(ls.getItem(post));
-
 			tag = parseDate.getDate();
 			monat = parseDate.getMonth()+1;
 			jahr = parseDate.getFullYear();
-
 			li.querySelectorAll(".post--read")[0].textContent = 'Gelesen am: ' + tag + '.' + monat + '.' + jahr + ' | ';
 		}
 	};
@@ -208,18 +152,13 @@
 
 		routes: [],
 		add: function(hash, func) {
-
 			this.routes.push({re: hash, func: func});
 			return this;
 		},
 		checker: function(hash) {
-
 			for(var i in this.routes) {
-
 				var match = hash.match(this.routes[i].re);
-
 				if( match ) {
-
 					match.shift();
 					this.routes[i].func.apply({}, match);
 					return this;
@@ -229,7 +168,6 @@
 
 			if( _("#indexContainer") && !hash ) {
 				this.parser('index', 'Die neusten Beiträge', true);
-
 			}
 		},
 		parser: function( hash, title, isIndex ) {

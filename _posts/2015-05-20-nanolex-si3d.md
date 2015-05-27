@@ -5,7 +5,6 @@ author: "Alexander"
 wps_subtitle: Laserblue erstrahlt in neuem Glanz
 categories: Produkttest
 head__img--fullurl: //s3.eu-central-1.amazonaws.com/glossbossimages/alex/nanolexsi3d/7.JPG
-markasnew: true
 ---
 # Nanolex Si3D Versiegelung - Laserblue erstrahlt in neuem Glanz
 
