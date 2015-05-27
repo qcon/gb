@@ -592,27 +592,22 @@ window.addEventListener('resize', function() {
 		sharesOutput = "";
 		xhr.onreadystatechange = function(e) {
 			if(xhr.readyState == 4 && xhr.status == 200) {
-
 				getShares = JSON.parse(xhr.responseText);
-				log(getShares);
 				sharesOutput += getShares.shares;
-
 				if (getShares.shares > 1) {
-					sharesOutput += " Personen";
-				} else if(getShares.shares === 0) {
+					sharesOutput += " Glossbosse";
+				} else if (getShares.shares === 0 || !getShares.shares) {
 					sharesOutput += " Sei der erste der diesen Beitrag teilt!";
 				} else {
-					sharesOutput += " Person";
+					sharesOutput += " Glossboss";
 				}
 				sharesOutput += " haben diesen Beitrag geteilt";
 				shareCounter.innerText = sharesOutput;
 			}
 		}
-
 		xhr.open("GET", getSharesUrl);
 		xhr.send();
 	}
-
 })(shareCounter);
 
 (function(lsc) {
