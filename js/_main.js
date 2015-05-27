@@ -116,6 +116,10 @@ window.addEventListener('resize', function() {
 		getSharesUrlSliced = getSharesUrl.slice(0, getSharesUrl.length-1);
 		sharesOutput = "";
 		var getSharesCount = 0;
+		// unfortunately i had to get 2 numbers from the API because some links
+		// were shared with a forwardslash and some not
+		// if they were both the same number, they share the same counter
+		// and i half them
 		xhr.onreadystatechange = function(e) {
 			if(xhr.readyState == 4 && xhr.status == 200) {
 				getShares = JSON.parse(xhr.responseText);
@@ -130,15 +134,12 @@ window.addEventListener('resize', function() {
 		function checkIntShare() {
 			if((xhrSliced.readyState == 4 && xhrSliced.status == 200) && (xhr.readyState == 4 && xhr.status == 200)) {
 				if (getSharesSliced.shares === getShares.shares) getSharesCount /= 2;
-				//sharesOutput += getSharesCount;
 				sharesOutput = "Sei der erste Glossboss der diesen Beitrag teilt!";
 				getSharesCount = (getSharesSliced.shares || 0) + (getShares.shares || 0);
 				if (getSharesCount > 1) {
 					sharesOutput = getSharesCount + " Glossbosse haben diesen Beitrag bereits geteilt";
-					log("1");
 				} 
 				if (getSharesCount == 1) {
-					log("2");
 					sharesOutput = "Erst 1 Glossboss hat diesen Beitrag geteilt";
 				}
 			clearInterval(ajaxCheckInterval);
