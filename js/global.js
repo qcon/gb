@@ -617,6 +617,7 @@ window.addEventListener('resize', function() {
 				sharesOutput = "Kein Glossboss hat bisher diesen Beitrag geteilt :(";
 				log(getShares.shares);
 				log(getSharesSliced.shares)
+				log(getSharesCount)
 				if (getSharesCount > 1) {
 					sharesOutput = getSharesCount + " Glossbosse haben diesen Beitrag bereits geteilt";
 					log("1");
