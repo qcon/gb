@@ -609,7 +609,7 @@ window.addEventListener('resize', function() {
 				}
 			}
 		}
-		var ajaxCheckInterval = setInterval(checkIntShare, 10);
+		var ajaxCheckInterval = setInterval(checkIntShare, 100);
 		function checkIntShare() {
 			if((xhrSliced.readyState == 4 && xhrSliced.status == 200) && (xhr.readyState == 4 && xhr.status == 200)) {
 				if (getSharesSliced.shares === getShares.shares) getSharesCount /= 2;
