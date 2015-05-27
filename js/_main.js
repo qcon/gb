@@ -116,16 +116,18 @@ window.addEventListener('resize', function() {
 		xhr.onreadystatechange = function(e) {
 			if(xhr.readyState == 4 && xhr.status == 200) {
 				getShares = JSON.parse(xhr.responseText);
-				sharesOutput += getShares.shares;
-				if (getShares.shares > 1) {
-					sharesOutput += " Glossbosse haben";
-				} else if (getShares.shares === 0 || !getShares.shares) {
-					sharesOutput += " Sei der erste der diesen Beitrag teilt!";
+				if(getShares.shares) {
+					sharesOutput += getShares.shares;
+					if (getShares.shares > 1) {
+						sharesOutput += " Glossbosse haben";
+					} else {
+						sharesOutput += " Glossboss hat";
+					}
+					sharesOutput += " diesen Beitrag bereits geteilt";
+					shareCounter.innerText = sharesOutput;
 				} else {
-					sharesOutput += " Glossboss hat";
+					sharesOutput = "Sei der erste der diesen Beitrag teilt!";
 				}
-				sharesOutput += " diesen Beitrag bereits geteilt";
-				shareCounter.innerText = sharesOutput;
 			}
 		}
 		xhr.open("GET", getSharesUrl);
