@@ -613,7 +613,7 @@ window.addEventListener('resize', function() {
 			}
 		}
 
-		if(getSharesCount > 0) {
+		if(getSharesSliced && getShares) {
 			sharesOutput += getSharesCount;
 			if (getSharesCount > 1) {
 				sharesOutput += " Glossbosse haben";
