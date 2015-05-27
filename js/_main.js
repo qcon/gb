@@ -139,7 +139,7 @@ window.addEventListener('resize', function() {
 				if (getSharesCount > 1) {
 					sharesOutput = getSharesCount + " Glossbosse haben diesen Beitrag bereits geteilt";
 				} else if(getSharesCount === 1) {
-					sharesOutput = "Erst " getSharesCount + " Glossboss hat diesen Beitrag geteilt";
+					sharesOutput = "Erst " + getSharesCount + " Glossboss hat diesen Beitrag geteilt";
 				} else {
 					sharesOutput = "Kein Glossboss hat bisher diesen Beitrag geteilt :(";
 				}
