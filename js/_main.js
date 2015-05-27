@@ -121,6 +121,7 @@ window.addEventListener('resize', function() {
 				getShares = JSON.parse(xhr.responseText);
 				if(getShares.shares > 1) {
 					getSharesCount += getShares.shares;
+					log(getSharesCount);
 				}
 			}
 		}
@@ -129,6 +130,8 @@ window.addEventListener('resize', function() {
 				getSharesSliced = JSON.parse(xhrSliced.responseText);
 				if(getSharesSliced.shares > 1) {
 					getSharesCount += getSharesSliced.shares;
+					log(getSharesCount);
+
 				}
 			}
 		}
@@ -141,9 +144,9 @@ window.addEventListener('resize', function() {
 				sharesOutput += " Glossboss hat";
 			}
 			sharesOutput += " diesen Beitrag bereits geteilt";
-		} else {
-			sharesOutput = "Sei der erste der diesen Beitrag teilt!";
-		}
+			} else {
+				sharesOutput = "Sei der erste der diesen Beitrag teilt!";
+			}
 		shareCounter.innerText = sharesOutput;
 
 		xhr.open("GET", getSharesUrl);
