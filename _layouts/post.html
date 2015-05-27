@@ -12,7 +12,7 @@ if (!localStorage.getItem(postName)) {
 		{{ content }}
 	</article>
 	<div class="post--sharing">
-		<h4>Diesen Beitrag teilen</h4>
+		<h4 id="sharecounter"></h4>
 		<a href="https://facebook.com/sharer/sharer.php?u={{ page.url | prepend: site.url}}" target="_blank" class="share--facebook">Facebook</a>
 		<a href="https://twitter.com/home?status={{ page.url | prepend: site.url}}" target="_blank" class="share--twitter">Twitter</a>
 		<a href="https://plus.google.com/share?url={{ page.url | prepend: site.url}}" target="_blank" class="share--gplus">Google+</a>

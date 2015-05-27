@@ -36,7 +36,7 @@ Die Optimierungen machten sich schnell bemerkbar. Google belohnt schnelle Ladeze
 
 Beachtlich für einen Blog: im Durchschnitt verbringt ein Benutzer ~5,35 Minuten auf unserer Website.  
 
-Internationale Zugriffe sind mit einen Anteil von insg. rund **8-9%** auch nicht grade wenig. Der Bericht zum [Gtechniq Crystal Serum](//glossboss.de/produkttest/gtechniq-crystal-serum-test-anwendung-auftrag/) war auch in vielen internationalen Autopflegeportal (u.a. Frankreich, Norwegen, Dänemark, Polen, England usw.) sehr beliebt und bescherte uns für den Monat der Veröffentlichung fast **18.500** Zugriffe auf den Blog.
+Internationale Zugriffe sind mit einen Anteil von insg. rund **8-9%** auch nicht grade wenig. Der Bericht zum [Gtechniq Crystal Serum](//glossboss.de/produkttest/gtechniq-crystal-serum-test-anwendung-auftrag/) war auch in vielen internationalen Autopflegeportal (u.a. Frankreich, Norwegen, Dänemark, Polen, England, USA usw.) sehr beliebt und bescherte uns für den Monat der Veröffentlichung fast **18.500** Zugriffe auf den Blog. Dank Michael ist kurze Zeit später auch eine Englische Version verfügbar gewesen, die seitdem recht häufig angeklickt wird.
 
 Die Statistik auf Facebook sieht ähnlich aus. Mit aktuell rund 400 likes, haben wir mit den Beiträgen zu unseren Artikeln eine monatliche Reichtweite von **12.000** Personen, denen die Beiträge angezeigt werden. 
 
@@ -44,4 +44,4 @@ Die Statistik auf Facebook sieht ähnlich aus. Mit aktuell rund 400 likes, haben
 
 Als Dankeschön und zum 1 Jährigen Jubiläum werden wir unter allen Facebook Likes zu diesen Post ein paar Produkte verlosen. Der Gewinner wird bis zum 25.06.2015 bekannt gegeben!
 
-Mein ganz besonderer, persönlicher Dank geht natürlich an alle Autoren hier im Blog - vielen Dank für die tollen Pflegeberichte, Anleitungen und Produkttests. Danke an Christoph, der sich wunderbar um die Facebookseite kümmert!
+Mein ganz besonderer, persönlicher Dank geht natürlich an alle Autoren hier im Blog - vielen Dank für die tollen Pflegeberichte, Anleitungen und Produkttests. Ganz besonderen dank gilt Christoph, der sich wunderbar um die Facebookseite kümmert!

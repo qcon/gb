@@ -492,6 +492,7 @@ var
 	postsToLoad           = _('.post--list li'),
 	dellocalStorage       = _('.dellocalStorage'),
 	localStorageContainer = _('.localStorageContainer'),
+	shareCounter          = _('#sharecounter'),
 	searchModal           = _('.open_search');
 	activeScrollResize    = false;
 
@@ -584,6 +585,35 @@ window.addEventListener('resize', function() {
 
 });
 
+(function(sc) {
+	if(sc) {
+		xhr = new XMLHttpRequest();
+		getSharesUrl = "http://graph.facebook.com/" + window.location.href;
+		sharesOutput = "";
+		xhr.onreadystatechange = function(e) {
+			if(xhr.readyState == 4 && xhr.status == 200) {
+
+				getShares = JSON.parse(xhr.responseText);
+				log(getShares);
+				sharesOutput += getShares.shares;
+
+				if (getShares.shares > 1) {
+					sharesOutput += " Personen";
+				} else if(getShares.shares === 0) {
+					sharesOutput += " Sei der erste der diesen Beitrag teilt!";
+				} else {
+					sharesOutput += " Person";
+				}
+				sharesOutput += " haben diesen Beitrag geteilt";
+				shareCounter.innerText = sharesOutput;
+			}
+		}
+
+		xhr.open("GET", getSharesUrl);
+		xhr.send();
+	}
+
+})(shareCounter);
 
 (function(lsc) {
 	if(lsc) {
