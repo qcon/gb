@@ -598,7 +598,6 @@ window.addEventListener('resize', function() {
 				getShares = JSON.parse(xhr.responseText);
 				if(getShares.shares > 1) {
 					getSharesCount += getShares.shares;
-					log(getSharesCount);
 				}
 			}
 		}
@@ -607,8 +606,6 @@ window.addEventListener('resize', function() {
 				getSharesSliced = JSON.parse(xhrSliced.responseText);
 				if(getSharesSliced.shares > 1) {
 					getSharesCount += getSharesSliced.shares;
-					log(getSharesCount);
-
 				}
 			}
 		}
