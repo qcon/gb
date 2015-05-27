@@ -601,10 +601,10 @@ window.addEventListener('resize', function() {
 						sharesOutput += " Glossboss hat";
 					}
 					sharesOutput += " diesen Beitrag bereits geteilt";
-					shareCounter.innerText = sharesOutput;
 				} else {
 					sharesOutput = "Sei der erste der diesen Beitrag teilt!";
 				}
+				shareCounter.innerText = sharesOutput;
 			}
 		}
 		xhr.open("GET", getSharesUrl);
