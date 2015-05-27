@@ -113,7 +113,7 @@ window.addEventListener('resize', function() {
 		xhr = new XMLHttpRequest();
 		getSharesUrl = "https://graph.facebook.com/" + window.location.href;
 		if (getSharesUrl[getSharesUrl.length] === "/") {
-			getSharesUrl.slice(0, getSharesUrl.length-1);
+			getSharesUrl = getSharesUrl.slice(0, getSharesUrl.length-1);
 		}
 		sharesOutput = "";
 		xhr.onreadystatechange = function(e) {
