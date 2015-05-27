@@ -115,12 +115,11 @@ window.addEventListener('resize', function() {
 		getSharesUrl = "https://graph.facebook.com/" + window.location.href;
 		getSharesUrlSliced = getSharesUrl.slice(0, getSharesUrl.length-1);
 		sharesOutput = "";
-		var getSharesCount;
+		var getSharesCount = 0;
 		xhr.onreadystatechange = function(e) {
 			if(xhr.readyState == 4 && xhr.status == 200) {
 				getShares = JSON.parse(xhr.responseText);
 				if(getShares.shares > 1) {
-					log("inc xhr")
 					getSharesCount += getShares.shares;
 				}
 			}
@@ -129,7 +128,6 @@ window.addEventListener('resize', function() {
 			if(xhrSliced.readyState == 4 && xhrSliced.status == 200) {
 				getSharesSliced = JSON.parse(xhrSliced.responseText);
 				if(getSharesSliced.shares > 1) {
-					log("inc xhrsliced")
 					getSharesCount += getSharesSliced.shares;
 				}
 			}
@@ -139,7 +137,7 @@ window.addEventListener('resize', function() {
 			if((xhrSliced.readyState == 4 && xhrSliced.status == 200) && (xhr.readyState == 4 && xhr.status == 200)) {
 				if (getSharesSliced.shares === getShares.shares) getSharesCount /= 2;
 				//sharesOutput += getSharesCount;
-				sharesOutput = "Kein Glossboss hat bisher diesen Beitrag geteilt :(";
+				sharesOutput = "Sei der erste Glossboss der diesen Beitrag teilt!";
 				log(getShares.shares);
 				log(getSharesSliced.shares)
 				log(getSharesCount)
