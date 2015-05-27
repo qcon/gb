@@ -148,6 +148,7 @@ window.addEventListener('resize', function() {
 			} else {
 				sharesOutput = "Sei der erste der diesen Beitrag teilt!";
 			}
+			clearInterval(ajaxCheckInterval);
 			shareCounter.innerText = sharesOutput;
 		}
 		
