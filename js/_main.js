@@ -120,6 +120,7 @@ window.addEventListener('resize', function() {
 			if(xhr.readyState == 4 && xhr.status == 200) {
 				getShares = JSON.parse(xhr.responseText);
 				if(getShares.shares > 1) {
+					log("inc xhr")
 					getSharesCount += getShares.shares;
 				}
 			}
@@ -128,6 +129,7 @@ window.addEventListener('resize', function() {
 			if(xhrSliced.readyState == 4 && xhrSliced.status == 200) {
 				getSharesSliced = JSON.parse(xhrSliced.responseText);
 				if(getSharesSliced.shares > 1) {
+					log("inc xhrsliced")
 					getSharesCount += getSharesSliced.shares;
 				}
 			}
