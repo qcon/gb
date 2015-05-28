@@ -431,8 +431,24 @@ var
 	dellocalStorage       = _('.dellocalStorage'),
 	localStorageContainer = _('.localStorageContainer'),
 	shareCounter          = _('#sharecounter'),
+	showComments          = _('.showCommentsContainer');
 	searchModal           = _('.open_search');
 	activeScrollResize    = false;
+
+
+(function(sc) {
+	if(sc) {
+		showComments.addEventListener('click', function() {
+			var disqus_shortname = 'glossboss';
+			(function() {
+				var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+				dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+				(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+			})();
+			showComments.style.display = "none";
+		});
+	}
+})(showComments);
 
 linklist.style.maxHeight = linklistMaxHeight;
 

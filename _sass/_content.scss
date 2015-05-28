@@ -1,3 +1,16 @@
+#showComments {
+	width: 60px;
+	cursor: pointer;
+	fill: $text;
+}
+.showCommentsContainer {
+	text-align: center;
+	h3 {
+		@include font(special);
+		cursor: pointer;
+	}
+}
+
 .overlay {
     width: 100%;
     opacity: 0.4;
