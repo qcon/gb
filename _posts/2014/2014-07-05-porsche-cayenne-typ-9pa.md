@@ -3,7 +3,7 @@ title: Porsche Cayenne (Typ 9PA)
 author: Jones
 layout: post
 pdf_version: jap
-head__img: /images/headerimg/cayenne1.jpg
+head__img--fullurl: //glossbossimages.s3.eu-central-1.amazonaws.com/headerimg/cayenne1.jpg
 wps_subtitle:
   - 'Metrograu - Versiegelt'
 dsq_thread_id:

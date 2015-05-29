@@ -2,7 +2,7 @@
 title: Es gibt 3 Arten von Kratzern
 author: Marvin
 layout: post
-head__img: /images/headerimg/3kratzer.jpg
+head__img--fullurl: //glossbossimages.s3.eu-central-1.amazonaws.com/headerimg/3kratzer.jpg
 wps_subtitle:
   - Kennst du sie alle?
 dsq_thread_id:

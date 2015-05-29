@@ -3,7 +3,7 @@ title: Verdeckversiegelung mit 303 High Tech Fabric Guard
 author: Alexander
 layout: post
 pdf_version: jap
-head__img: /images/headerimg/verdeckversiegelung.jpg
+head__img--fullurl: //glossbossimages.s3.eu-central-1.amazonaws.com/headerimg/verdeckversiegelung.jpg
 ftf_open_type:
   - 
 wps_subtitle:

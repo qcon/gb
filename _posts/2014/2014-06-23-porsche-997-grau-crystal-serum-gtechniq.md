@@ -2,7 +2,7 @@
 title: Porsche 997 (Grau)
 author: Marvin
 layout: post
-head__img: /images/headerimg/997grau.jpg
+head__img--fullurl: //glossbossimages.s3.eu-central-1.amazonaws.com/headerimg/997grau.jpg
 wps_subtitle:
   - High End (Prototyp)Versiegelung von GTechniq
 dsq_thread_id:

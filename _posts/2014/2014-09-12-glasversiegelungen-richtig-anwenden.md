@@ -3,7 +3,7 @@ title: Glasversiegelungen richtig anwenden
 author: Chris
 layout: post
 pdf_version: jap
-head__img: /images/headerimg/glasversiegelung.jpg
+head__img--fullurl: //glossbossimages.s3.eu-central-1.amazonaws.com/headerimg/glasversiegelung.jpg
 wps_subtitle:
   - 'Monatelanger abperleffekt auf deinen Scheiben'
 categories:

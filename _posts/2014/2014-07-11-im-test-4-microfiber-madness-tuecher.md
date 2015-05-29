@@ -3,7 +3,7 @@ title: 'Im Test: 4 Microfiber Madness Tücher'
 author: Marvin
 pdf_version: jap
 layout: post
-head__img: /images/headerimg/mmtest.jpg
+head__img--fullurl: //glossbossimages.s3.eu-central-1.amazonaws.com/headerimg/mmtest.jpg
 ftf_open_type:
   - 
 wps_subtitle:

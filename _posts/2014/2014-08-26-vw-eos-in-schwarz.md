@@ -2,7 +2,7 @@
 title: VW EOS in schwarz
 author: chiller
 pdf_version: jap
-head__img: /images/headerimg/eosschwarz.jpg
+head__img--fullurl: //glossbossimages.s3.eu-central-1.amazonaws.com/headerimg/eosschwarz.jpg
 layout: post
 wps_subtitle:
   - Versiegelt mit Dodo Juice Supernatural Infinity

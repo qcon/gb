@@ -3,7 +3,7 @@ title: Mercedes A 200 CDI (AMG LINE)
 author: Benni
 layout: post
 pdf_version: jap
-head__img: /images/headerimg/merca200.jpg
+head__img--fullurl: //glossbossimages.s3.eu-central-1.amazonaws.com/headerimg/merca200.jpg
 ftf_open_type:
   - 
 wps_subtitle:

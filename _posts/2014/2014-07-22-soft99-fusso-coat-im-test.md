@@ -3,7 +3,7 @@ title: Soft99 Fusso Coat im Test
 author: Marvin
 layout: post
 pdf_version: jap
-head__img: /images/headerimg/fussocoat.jpg
+head__img--fullurl: //glossbossimages.s3.eu-central-1.amazonaws.com/headerimg/fussocoat.jpg
 wps_subtitle:
   - Was kann das Low Budget Wachs mit PTFE?
 categories:

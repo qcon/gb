@@ -3,7 +3,7 @@ title: In 3 Schritten zur optimalen Felgenversiegelung
 author: Marvin
 pdf_version: jap
 layout: post
-head__img: /images/headerimg/3schrittefelgenversiegelung.jpg
+head__img--fullurl: //glossbossimages.s3.eu-central-1.amazonaws.com/headerimg/3schrittefelgenversiegelung.jpg
 wps_subtitle:
   - Und ein Fehler, den du unbedingt vermeiden solltest
 categories:

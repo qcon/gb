@@ -3,7 +3,7 @@ title: Die Grundausstattung für die optimale Fahrzeugwäsche
 author: Marvin
 layout: post
 pdf_version: jap
-head__img: /images/headerimg/grundausstattungwaschen.jpg
+head__img--fullurl: //glossbossimages.s3.eu-central-1.amazonaws.com/headerimg/grundausstattungwaschen.jpg
 ftf_open_type:
   - 
 wps_subtitle:

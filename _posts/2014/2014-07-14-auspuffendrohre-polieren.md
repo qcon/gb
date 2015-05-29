@@ -2,7 +2,7 @@
 title: Auspuffendrohre Polieren
 author: Marvin
 pdf_version: jap
-head__img: /images/headerimg/auspuffpolieren.jpg
+head__img--fullurl: //glossbossimages.s3.eu-central-1.amazonaws.com/headerimg/auspuffpolieren.jpg
 layout: post
 wps_subtitle:
   - Oben hui unten pfui?

@@ -1,7 +1,7 @@
 ---
 title: Die 7 Grundregeln für die optimale Fahrzeugwäsche
 author: Marvin
-head__img: /images/headerimg/7regelnwaschen.jpg
+head__img--fullurl: //glossbossimages.s3.eu-central-1.amazonaws.com/headerimg/7regelnwaschen.jpg
 layout: post
 wps_subtitle:
   - Wie du dein Auto Kratzfrei wäscht

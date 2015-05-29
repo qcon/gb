@@ -1,7 +1,7 @@
 ---
 title: Porsche 965 Turbo
 author: Novma
-head__img: /images/headerimg/965turbo.jpg
+head__img--fullurl: //glossbossimages.s3.eu-central-1.amazonaws.com/headerimg/965turbo.jpg
 layout: post
 wps_subtitle:
   - 'Schwarz Metallic - Zymöl Glasur'

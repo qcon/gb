@@ -3,7 +3,7 @@ title: Welche Poliermaschine für das beste Ergebnis?
 author: Marvin
 layout: post
 pdf_version: jap
-head__img: /images/headerimg/bestemaschine.jpg
+head__img--fullurl: //glossbossimages.s3.eu-central-1.amazonaws.com/headerimg/bestemaschine.jpg
 wps_subtitle:
   - Möchtest du Profi oder Anfänger sein?
 categories:

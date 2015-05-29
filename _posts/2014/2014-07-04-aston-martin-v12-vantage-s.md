@@ -2,7 +2,7 @@
 title: Aston Martin V12 Vantage S
 author: Novma
 layout: post
-head__img: /images/headerimg/astonv12.jpg
+head__img--fullurl: //glossbossimages.s3.eu-central-1.amazonaws.com/headerimg/astonv12.jpg
 wps_subtitle:
   - 'Meteorite Silver - OptiCoat 2.0'
 dsq_thread_id:

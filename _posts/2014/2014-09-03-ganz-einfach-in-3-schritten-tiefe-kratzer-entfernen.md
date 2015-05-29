@@ -3,7 +3,7 @@ title: In 3 Schritten tiefe Kratzer entfernen
 author: Marvin
 layout: post
 pdf_version: jap
-head__img: /images/headerimg/3schrittetiefekratzer.jpg
+head__img--fullurl: //glossbossimages.s3.eu-central-1.amazonaws.com/headerimg/3schrittetiefekratzer.jpg
 ftf_open_type:
   - 
 wps_subtitle:

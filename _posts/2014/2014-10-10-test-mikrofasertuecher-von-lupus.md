@@ -2,7 +2,7 @@
 title: 'Test: Mikrofasertücher von Lupus'
 author: Chris
 pdf_version: jap
-head__img: /images/headerimg/lupustest.jpg
+head__img--fullurl: //glossbossimages.s3.eu-central-1.amazonaws.com/headerimg/lupustest.jpg
 layout: post
 ftf_open_type:
   - 

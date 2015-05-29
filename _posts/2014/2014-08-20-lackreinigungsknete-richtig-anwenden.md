@@ -1,7 +1,7 @@
 ---
 title: Lackreinigungsknete richtig anwenden
 author: Chris
-head__img: /images/headerimg/knete.jpg
+head__img--fullurl: //glossbossimages.s3.eu-central-1.amazonaws.com/headerimg/knete.jpg
 layout: post
 pdf_version: jap
 ftf_open_type:
