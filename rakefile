@@ -9,11 +9,9 @@ SOURCE = "."
 CONFIG = {
 	"posts" => File.join(SOURCE, "_posts"),
 	"post_ext" => "md",
-	"dev_config_file" => "_config-dev.yml",
-	"config_file" => "_config.yml"
+	:config_file => "_config.yml"
 }
-jekyll_config = YAML.load_file(CONFIG["dev_config_file"])
-
+yml_cfg = YAML.load_file "#{CONFIG[:config_file]}"
 def execute(command)
 	system "#{command}"
 end
@@ -32,8 +30,7 @@ task :js do
 		end
 		output.puts("});")
 	end
-	execute("touch dist/global.js")
-	execute("uglifyjs js/global.js -o dist/global.js")
+	execute("uglifyjs js/global.js -o dist/global.#{yml_cfg["cssjsversion"]}.js")
 	puts "JavaScript concatenate & UglifyJS DONE".green
 end
 
@@ -48,7 +45,7 @@ end
 desc "Build Jekyll and run the Server"
 task :jekyll_dev do
 	puts "Building Jekyll and running server on port #{jekyll_config["port"]}".magenta
-	execute("jekyll serve --config #{CONFIG["dev_config_file"]}")
+	execute("jekyll serve --config #{CONFIG[:config_file]}")
 end
 
 desc "Task for developement"
@@ -84,9 +81,11 @@ end
 
 desc "auto increase Versionnumber"
 task :inc do
-	get_version = YAML.load_file "#{CONFIG["config_file"]}"
-	get_version["cssjsversion"] += 1
-	File.open("#{CONFIG["config_file"]}", "w") { |f| YAML.dump(get_version, f)}
+	get_version = yml_cfg["cssjsversion"]
+	execute("mv posts.#{get_version}.json posts.#{get_version+1}.json")
+	execute("mv dist/global.#{get_version}.js dist/global.#{get_version+1}.js")
+	yml_cfg["cssjsversion"] += 1
+	File.open("#{CONFIG[:config_file]}", "w") { |f| YAML.dump(yml_cfg, f)}
 end
 
 desc "Create a new Post"
