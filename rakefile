@@ -18,6 +18,17 @@ def execute(command)
 	system "#{command}"
 end
 
+desc "Build all Files for the S3 Push"
+task :build_s3 => [:js, :css_scss, :gzip, :jekyll_build, :pushs3] do
+	puts "DONE".magenta
+end
+
+desc "Builing Jekyll"
+task :jekyll_build do
+	execute("jekyll build")
+end
+
+desc "Push all files in _site/ to the S3 Bucket"
 task :pushs3 do
 	execute("s3cmd sync --acl-public --exclude '*.*' --include '*.jpg' --include '*.ico' --add-header='Cache-Control:max-age=3156000' _site/ s3://#{CONFIG[:s3_bucket]}")
 	execute("s3cmd sync --acl-public --exclude '*.*' --include '*.js' --include '.*json' --add-header='Cache-Control:max-age=3156000' --add-header='Content-Encoding:gzip' _site/ s3://#{CONFIG[:s3_bucket]} ")
@@ -30,7 +41,6 @@ task :js do
 	puts "JavaScript concatenate & UglifyJS RUNNING".magenta
 	files = FileList["js/_*.js"]
 	concat_file = "js/global.js"
-
 	open(concat_file, "w") do |output|
 		output.puts("document.addEventListener('DOMContentLoaded', function() {")
 		files.each do |input|
@@ -45,12 +55,12 @@ end
 
 desc "gzip all the things!"
 task :gzip do
+	puts "GZIP HTML Files".magenta
 	execute("find _site -iname '*.html' -exec gzip -9 {} \\; -exec mv {}.gz {} \\;")
+	puts "GZIP JSON Files".magenta
 	execute("find _site -iname '*.json' -exec gzip -9 {} \\; -exec mv {}.gz {} \\;")
+	puts "GZIP JavaScript Files".magenta
 	execute("find _site -iname '*.js' -exec gzip -9 {} \\; -exec mv {}.gz {} \\;")
-
-
-	
 end
 
 desc "Build SCSS and run autoprefixer"
