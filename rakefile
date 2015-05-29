@@ -45,12 +45,12 @@ end
 
 desc "gzip all the things!"
 task :gzip do
-	puts "GZIP HTML Files".magenta
-	execute("find _site/ -iname '*.html' -exec gzip -9 -n {} \; -exec mv {}.gz {} \;")
-	puts "GZIP JavaScript Files".magenta
-	execute("find _site/ -iname '*.js' -exec gzip -9 -n {} \; -exec mv {}.gz {} \;")
-	puts "GZIP JSON Files".magenta
-	execute("find _site/ -iname '*.json' -exec gzip -9 -n {} \; -exec mv {}.gz {} \;")
+	execute("find _site -iname '*.html' -exec gzip -9 {} \\; -exec mv {}.gz {} \\;")
+	execute("find _site -iname '*.json' -exec gzip -9 {} \\; -exec mv {}.gz {} \\;")
+	execute("find _site -iname '*.js' -exec gzip -9 {} \\; -exec mv {}.gz {} \\;")
+
+
+	
 end
 
 desc "Build SCSS and run autoprefixer"
