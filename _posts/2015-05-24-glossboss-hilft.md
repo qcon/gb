@@ -8,11 +8,10 @@ head__img--fullurl: //s3.eu-central-1.amazonaws.com/glossbossimages/chiller/Glos
 markasnew: true
 ---
 ![](//s3.eu-central-1.amazonaws.com/glossbossimages/chiller/Glossboss_hilft_Bericht/glossbosshilft_banner.png)
-
-
 Hier ist er nun, der Bericht zu einer ganz besonderen Aktion, die es so wohl noch nicht gab. Viele haben sich beworben, einige Wenige haben es dann in den Lostopf geschafft und Florian hat mit seinem Golf 3 GTI das große Los für mehr Glanz gezogen. 
 
-Die Hilfsbereitschaft unter uns Glossbossen war ebenfalls einmalig. Viele wollten mithelfen und selbst ausserhalb unserer Gruppe wurde uns Hilfe angeboten. Da erfahrungsgemäß zu viele Helfer am Lack auch störend sein können, haben wir die Helfer auf die ersten 6 begrenzt. An dieser Stelle daher schon mal ein Dankeschön an alle, die sich angeboten haben hier mitzuhelfen.
+Die Hilfsbereitschaft unter uns Glossbossen war ebenfalls einmalig.
+Viele wollten mithelfen und selbst ausserhalb unserer Gruppe wurde uns Hilfe angeboten. Da erfahrungsgemäß zu viele Helfer am Lack auch störend sein können, haben wir die Helfer auf die ersten 6 begrenzt. An dieser Stelle daher schon mal ein Dankeschön an alle, die sich angeboten haben hier mitzuhelfen.
 
 Als Florian dann mit seinem GTI auf dem Hof stand haben wir etwas Small Talk gehalten und kurz darauf habe ich ihm dann gleich die Foam lance in die Hand gedrückt. Was gibt es schöneres als den Morgen so zu beginnen? :-)
 

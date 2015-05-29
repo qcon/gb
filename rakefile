@@ -19,7 +19,7 @@ def execute(command)
 end
 
 desc "Build all Files for the S3 Push"
-task :build_s3 => [:js, :css_scss, :gzip, :jekyll_build, :pushs3] do
+task :build_s3 => [:js, :css_scss, :jekyll_build, :gzip, :pushs3] do
 	puts "DONE".magenta
 end
 
@@ -55,12 +55,13 @@ end
 
 desc "gzip all the things!"
 task :gzip do
+	# ATTENTION! Only run GZIP in the generated _site/ folder!
 	puts "GZIP HTML Files".magenta
-	execute("find _site -iname '*.html' -exec gzip -9 {} \\; -exec mv {}.gz {} \\;")
+	execute("find _site/ -iname '*.html' -exec gzip -9 -n {} \\; -exec mv {}.gz {} \\;")
 	puts "GZIP JSON Files".magenta
-	execute("find _site -iname '*.json' -exec gzip -9 {} \\; -exec mv {}.gz {} \\;")
+	execute("find _site/ -iname '*.json' -exec gzip -9 -n {} \\; -exec mv {}.gz {} \\;")
 	puts "GZIP JavaScript Files".magenta
-	execute("find _site -iname '*.js' -exec gzip -9 {} \\; -exec mv {}.gz {} \\;")
+	execute("find _site/ -iname '*.js' -exec gzip -9 -n {} \\; -exec mv {}.gz {} \\;")
 end
 
 desc "Build SCSS and run autoprefixer"
