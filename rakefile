@@ -9,11 +9,21 @@ SOURCE = "."
 CONFIG = {
 	"posts" => File.join(SOURCE, "_posts"),
 	"post_ext" => "md",
-	:config_file => "_config.yml"
+	:config_file => "_config.yml",
+	:s3_bucket => "bilder-berichte-glossboss"
 }
 yml_cfg = YAML.load_file "#{CONFIG[:config_file]}"
+get_version = yml_cfg["cssjsversion"]
 def execute(command)
 	system "#{command}"
+end
+
+task :pushs3 do
+	execute("gzip -9 posts.#{get_version}.json && mv posts.#{get_version}.json.gz posts.#{get_version}.json")
+	execute("s3cmd sync --acl-public --exclude '*.*' --include '*.jpg' --include '*.ico' --add-header='Cache-Control:max-age=3156000' _site/ s3://#{CONFIG[:s3_bucket]}")
+	execute("s3cmd sync --acl-public --exclude '*.*' --include '*.js' --include '.*json' --add-header='Cache-Control:max-age=3156000' --add-header='Content-Encoding:gzip' _site/ s3://#{CONFIG[:s3_bucket]} ")
+	execute("s3cmd sync --acl-public --exclude '*.*' --include '*.html' --include '*.json' --add-header='Cache-Control:max-age=7200,must-revalidate' _site/ s3://#{CONFIG[:s3_bucket]}")
+	execute("s3cmd sync --acl-public --delete-removed _site/ s3://#{CONFIG[:s3_bucket]}")
 end
 
 desc "Concatenate all JS Files and UglifyJS them"
@@ -34,6 +44,12 @@ task :js do
 	puts "JavaScript concatenate & UglifyJS DONE".green
 end
 
+desc "gzip all the things!"
+task :gzip do
+	execute("gzip -9 dist/global.#{get_version}.js && mv dist/global.#{get_version}.js.gz dist/global.#{get_version}.js")
+	
+end
+
 desc "Build SCSS and run autoprefixer"
 task :css_scss do
 	puts "SCSS & Autoprefixer RUNNING".magenta
@@ -44,7 +60,7 @@ end
 
 desc "Build Jekyll and run the Server"
 task :jekyll_dev do
-	puts "Building Jekyll and running server on port #{jekyll_config["port"]}".magenta
+	puts "Building Jekyll and running server".magenta
 	execute("jekyll serve --config #{CONFIG[:config_file]}")
 end
 
@@ -81,7 +97,7 @@ end
 
 desc "auto increase Versionnumber"
 task :inc do
-	get_version = yml_cfg["cssjsversion"]
+	
 	execute("mv posts.#{get_version}.json posts.#{get_version+1}.json")
 	execute("mv dist/global.#{get_version}.js dist/global.#{get_version+1}.js")
 	yml_cfg["cssjsversion"] += 1
