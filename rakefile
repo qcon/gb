@@ -19,10 +19,9 @@ def execute(command)
 end
 
 task :pushs3 do
-	execute("gzip -9 posts.#{get_version}.json && mv posts.#{get_version}.json.gz posts.#{get_version}.json")
 	execute("s3cmd sync --acl-public --exclude '*.*' --include '*.jpg' --include '*.ico' --add-header='Cache-Control:max-age=3156000' _site/ s3://#{CONFIG[:s3_bucket]}")
 	execute("s3cmd sync --acl-public --exclude '*.*' --include '*.js' --include '.*json' --add-header='Cache-Control:max-age=3156000' --add-header='Content-Encoding:gzip' _site/ s3://#{CONFIG[:s3_bucket]} ")
-	execute("s3cmd sync --acl-public --exclude '*.*' --include '*.html' --include '*.json' --add-header='Cache-Control:max-age=7200,must-revalidate' _site/ s3://#{CONFIG[:s3_bucket]}")
+	execute("s3cmd sync --acl-public --exclude '*.*' --include '*.html' --add-header='Cache-Control:max-age=7200,must-revalidate' --add-header='Content-Encoding:gzip' _site/ s3://#{CONFIG[:s3_bucket]}")
 	execute("s3cmd sync --acl-public --delete-removed _site/ s3://#{CONFIG[:s3_bucket]}")
 end
 
@@ -46,8 +45,12 @@ end
 
 desc "gzip all the things!"
 task :gzip do
-	execute("gzip -9 dist/global.#{get_version}.js && mv dist/global.#{get_version}.js.gz dist/global.#{get_version}.js")
-	
+	puts "GZIP HTML Files".magenta
+	execute("find _site/ -iname '*.html' -exec gzip -9 -n {} \; -exec mv {}.gz {} \;")
+	puts "GZIP JavaScript Files".magenta
+	execute("find _site/ -iname '*.js' -exec gzip -9 -n {} \; -exec mv {}.gz {} \;")
+	puts "GZIP JSON Files".magenta
+	execute("find _site/ -iname '*.json' -exec gzip -9 -n {} \; -exec mv {}.gz {} \;")
 end
 
 desc "Build SCSS and run autoprefixer"
