@@ -21,14 +21,14 @@ Der erste Glossboss Beitrag wurde am 23.06.2014 veröffentlicht. Das war ein Pfl
 
 Das so eine Platform längst überfällig war, war klar. Wir haben uns auch bewusst gegen ein neues Forum entschieden, da dort neben unzähligen unsinnigen Diskussionen - *ich finde Produkt Y besser als X* & *ich habe einen blauen Golf, funktioniert Politur Y?* - auch Beiträge auftauchen von Amateuren die dort als Profi auftreten. Die Ratschläge sind meist fachlich falsch und können sogar Schäden verursachen.  
 
-Hier im Blog schreiben nur auserwählte. Das sind sowohl Profis als auch Amateure, jeder Beitrag wird jedoch gesichtet und vor der Veröffentlichung auch korrektheit geprüft.
+Hier im Blog schreiben nur auserwählte. Das sind sowohl Profis als auch Amateure, jeder Beitrag wird jedoch gesichtet und vor der Veröffentlichung auf korrektheit geprüft.
 
 Aktuell ({{ 'now' | date: "%d.%m.%y"}}) zählt der Blog insgesamt **{{ site.posts | size }}** Beiträge.
 
 ##Technik 
 
-Die erste Version des Blogs wurde mit Wordpress betrieben. Wordpress ist eine Software zur Erstellung von Websites, ein sogenanntes CMS (Content Management System). Unzählige Plugins und Designs stehen zur Auswahl. Das ist gleichzeitig aber auch der größte Nachteil. Die Website war total aufgebläht. Manchmal dauerte es mehr als 4 Sekunden um die Startseite aufzubauen, da soviel Inhalt runtergeladen werden musste. In Zeiten wo Zugriffe von mobilen Endgeräten wie Smartphones und Tablets ca. 50% der Besucher ausmachten, ein absolutes no-go.
-Parallel zum Umzug der Website auf einen eigenen VServer, programmierte ich den gesamten Blog selbst um auch eine gute performance für alle Besucher zu bieten, die über das mobile Netz zugreifen. Zum Vergleich: die Website lädt nun in rund 600-1100ms, also meistens in unter einer Sekunde.
+Die erste Version des Blogs wurde mit Wordpress betrieben. Wordpress ist eine Software zur Erstellung von Websites, ein sogenanntes CMS (Content Management System). Unzählige Plugins und Designs stehen zur Auswahl. Das ist gleichzeitig aber auch der größte Nachteil. Die Website war total aufgebläht. Manchmal dauerte es mehr als 4 Sekunden um die Startseite aufzubauen, da soviel Inhalt runtergeladen werden musste. In Zeiten wo Zugriffe von mobilen Endgeräten wie Smartphones und Tablets ca. 50% der Besucher ausmachen, ein absolutes no-go.
+Parallel zum Umzug der Website auf einen eigenen VServer, programmierte ich den gesamten Blog selbst, um auch eine gute performance für alle Besucher zu bieten, die über das mobile Netz zugreifen. Zum Vergleich: die Website lädt bei einem Neubesuch nun in rund 600-1100ms, also meistens in unter einer Sekunde. Wiederkehrende Besucher profitieren vom Cache und einer Ladezeit von 150-250ms.
 
 ##Steigende Zugriffszahlen
 
@@ -45,3 +45,5 @@ Die Statistik auf Facebook sieht ähnlich aus. Mit aktuell rund 400 likes, haben
 Als Dankeschön und zum 1 Jährigen Jubiläum werden wir unter allen Facebook Likes zu diesen Post ein paar Produkte verlosen. Der Gewinner wird bis zum 25.06.2015 bekannt gegeben!
 
 Mein ganz besonderer, persönlicher Dank geht natürlich an alle Autoren hier im Blog - vielen Dank für die tollen Pflegeberichte, Anleitungen und Produkttests. Ganz besonderen dank gilt Christoph, der sich wunderbar um die Facebookseite kümmert!
+
+Bis zum nächsten Jahr :)
