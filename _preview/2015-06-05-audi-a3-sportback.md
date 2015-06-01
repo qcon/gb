@@ -69,18 +69,22 @@ markasnew: true
 **Einleitung:**
 
 Ziemlich genau zwei Jahre ist es her, als ich mich das letzte Mal mit diesem Audi A3 Sportback  auseinander setzte. Der Wagen kam zur Grundreinigung, inklusive einer Lackdefektkorrektur und anschliessender Lackkonservierung. Der Wagen wird als Alltagswagen bewegt und gehört einer Dame.
+
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/RBdetailing/AudiA3SportbackIllusion/Unbenannt-1.jpg)
 
 Bei dieser Arbeit konnten weitere Neuerungen getestet, auf Herz und Nieren geprüft und ausprobiert werden. Neu im Sortiment sind zum Beispiel der Polishflex PE 14-2 150 Rotationspolierer von Flex inklusive Stützteller von 3M und Dodo Juice. Doch bevor wir über die Defektkorrektur sprechen, beginnen wir doch einfach ganz von vorne.
 
 Zu Beginn der Aufbereitung regnete es aus Eimern, von daher musste in der Sammelgarage gewaschen werden. **„Kein Problem, Waschplatz ist ja da“.** :)
+
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/RBdetailing/AudiA3SportbackIllusion/DSC_9497.jpg)
 
 Citrus Power löst die Verschmutzungen an und kann nach wenigen Minuten bereits mit einem Hochdruckreiniger ( teilweise reicht auch schon ein normaler Gartenschlauch ) abgesprüht werden.
 Einen effektiveren und vor allem Preis/Leistungs stärkeren Vorreiniger habe ich bis dato noch nicht in meinen Händen halten dürfen.
+
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/RBdetailing/AudiA3SportbackIllusion/DSC_9500.jpg)
 
 Anschliessendes Kneten verlief relativ unspektakulär. Getrocknet wurde später mit Buffing 380 Mikrofasertücher von Lupus.
+
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/RBdetailing/AudiA3SportbackIllusion/DSC_9509.jpg)
 
 Nach dem Trocknen wurde vorschriftsgemäss alles für die Defektkorrektur abgeklebt und die erste Lackinspektion absolviert. 
