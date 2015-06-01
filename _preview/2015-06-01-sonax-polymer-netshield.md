@@ -12,7 +12,7 @@ markasnew: true
 Heute möchte ich euch eine unserer Lieblingsversiegelungen vorstellen. 
 Es handelt sich um Sonax Polymer Netshield! Ja, diese Aussage wird jetzt sicher den ein oder anderen Leser verwundern. Das kann ich auch sehr gut verstehen, denn sonst verwenden wir Produkte wie das GTechniq Crystal Serum oder C1+ExoV2, Gyeon Mosh, Nanolex Si3D, ... warum also jetzt eine Sonax Versiegelung aus der Sprühdose für unter 20€?
 
-#####Darum:
+Darum:
 ![](//glossbossimages.s3.eu-central-1.amazonaws.com/criz/sonax-netshield/IMG_3893.jpg)
 
 Die [Sonax Polymer Netshield](http://www.lupus-autopflege.de/Sonax-Profiline-Polymer-Netshield-340ml) Versiegelung kommt in einer 340ml Sprühdose.
