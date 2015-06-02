@@ -10,7 +10,7 @@ CONFIG = {
 	"posts" => File.join(SOURCE, "_posts"),
 	"post_ext" => "md",
 	:config_file => "_config.yml",
-	:s3_bucket => "glossboss.de"
+	:s3_bucket => "doooc.de"
 }
 yml_cfg = YAML.load_file "#{CONFIG[:config_file]}"
 get_version = yml_cfg["cssjsversion"]

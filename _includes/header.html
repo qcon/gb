@@ -50,6 +50,7 @@
           <a data-kat="{{katt.kat}}" href="{{ katt.link | prepend: site.baseurl }}" {% if page.url contains temp and tempblock %} {% assign tempblock = false %}class="cat--active"{% endif %}>{{ katt.text }}</a>
         </li>
       {% endfor %}
+	    <li id="eastereggNavbar">&nbsp;</li>
     </ul>
   </div>
   <div class="header--logo">

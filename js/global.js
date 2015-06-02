@@ -431,11 +431,20 @@ var
 	dellocalStorage       = _('.dellocalStorage'),
 	localStorageContainer = _('.localStorageContainer'),
 	shareCounter          = _('#sharecounter'),
-	showComments          = _('.showCommentsContainer');
+	showComments          = _('.showCommentsContainer'),
+	eastereggNavbar       = _('#eastereggNavbar')
 	searchModal           = _('.open_search');
 	activeScrollResize    = false;
 
-
+(function(ee) {
+	if(ee) {
+		eastereggNavbar.addEventListener('click', function() {
+			_('.post--list li').forEach(function(e) {
+				e.addClass('eastereggNavbar');
+			});
+		});
+	}
+})(eastereggNavbar);
 (function(sc) {
 	if(sc) {
 		showComments.addEventListener('click', function() {
