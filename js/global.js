@@ -432,7 +432,7 @@ var
 	localStorageContainer = _('.localStorageContainer'),
 	shareCounter          = _('#sharecounter'),
 	showComments          = _('.showCommentsContainer'),
-	eastereggNavbar       = _('#eastereggNavbar')
+	eastereggNavbar       = _('#eastereggNavbar'),
 	searchModal           = _('.open_search');
 	activeScrollResize    = false;
 

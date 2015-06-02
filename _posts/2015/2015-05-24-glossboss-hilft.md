@@ -5,7 +5,6 @@ author: "Ronny"
 wps_subtitle: Der Bericht zur Hilfsaktion
 categories: Pflegeberichte
 head__img--fullurl: //s3.eu-central-1.amazonaws.com/glossbossimages/chiller/Glossboss_hilft_Bericht/Golf3GTI24.jpg
-markasnew: true
 ---
 ![](//s3.eu-central-1.amazonaws.com/glossbossimages/chiller/Glossboss_hilft_Bericht/glossbosshilft_banner.png)
 Hier ist er nun, der Bericht zu einer ganz besonderen Aktion, die es so wohl noch nicht gab. Viele haben sich beworben, einige Wenige haben es dann in den Lostopf geschafft und Florian hat mit seinem Golf 3 GTI das große Los für mehr Glanz gezogen. 
