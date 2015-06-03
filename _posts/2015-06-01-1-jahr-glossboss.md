@@ -4,7 +4,7 @@ title: "1 Jahr Glossboss"
 author: "Marvin"
 wps_subtitle: Statistiken, Meinungen und ein riesen Dankeschön an alle Besucher
 categories: Allgemein
-head__img--fullurl: //s3.eu-central-1.amazonaws.com/glossbossimages/marvin/sonstige/glossboss1jahrxcjzz.jpg
+head__img--fullurl: //glossbossimages.s3.eu-central-1.amazonaws.com/marvin/sonstige/glossboss1jahrxcjzz.jpg
 markasnew: true
 preview: true
 ---

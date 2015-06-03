@@ -3,7 +3,7 @@ pdf_version: jap
 title: Reifen reinigen und pflegen
 author: Chris
 layout: post
-head__img--fullurl: //s3.eu-central-1.amazonaws.com/glossbossimages/criz/reifen/DSC_0130.jpg
+head__img--fullurl: //glossbossimages.s3.eu-central-1.amazonaws.com/criz/reifen/DSC_0130.jpg
 wps_subtitle:
   - 'Seidenmatter look für die Gummis'
 categories:
@@ -22,7 +22,7 @@ Zum Reinigen benötigst du folgende Hilfsmittel:
 - APC 1:10
 - Bürste
 
-![](//s3.eu-central-1.amazonaws.com/glossbossimages/criz/reifen/DSC_0019.jpg)
+![](//glossbossimages.s3.eu-central-1.amazonaws.com/criz/reifen/DSC_0019.jpg)
 
 Zuerst solltest du die Reifen großzügig mit All Purpose Cleaner oder kurz APC einsprühen. Dafür reicht bei den gängigsten Reinigern eine 1:10 Mischung. Zum richtigen Anmischen kannst du unseren [Mischungsrechner](https://glossboss.de/mischungsrechner/) benutzen.
 
@@ -33,7 +33,7 @@ Anschließend musst du die Reifen abspülen und trocknen lassen.
 
 ####Reifen pflegen
 
-![](//s3.eu-central-1.amazonaws.com/glossbossimages/criz/reifen/DSC_0130.jpg)
+![](//glossbossimages.s3.eu-central-1.amazonaws.com/criz/reifen/DSC_0130.jpg)
 
 Damit die Reifen wieder satt schwarz werden solltest du diese regelmäßig pflegen.
 

@@ -32,7 +32,7 @@ Bevor man anfängt den Auspuff zu polieren folgt die Bestandsaufnahme. Es macht 
 
 ###Dieser Auspuff ist lediglich von Innen stark verrußt. Außen ist nur leichter Flugrost zu finden.
 
-![Auspuffendrohre Polieren](//s3.eu-central-1.amazonaws.com/glossbossimages/local/auspuffpolieren/P1010294.jpg)
+![Auspuffendrohre Polieren](//glossbossimages.s3.eu-central-1.amazonaws.com/local/auspuffpolieren/P1010294.jpg)
 
 &nbsp;
 
@@ -40,14 +40,14 @@ Bevor man anfängt den Auspuff zu polieren folgt die Bestandsaufnahme. Es macht 
 
 ###Schneide dir ein kleines Stück Stahlwolle zurecht und trage dort die Metallpolitur drauf.
 
-![Auspuffendrohre Polieren](//s3.eu-central-1.amazonaws.com/glossbossimages/local/auspuffpolieren/P1010296.jpg)
+![Auspuffendrohre Polieren](//glossbossimages.s3.eu-central-1.amazonaws.com/local/auspuffpolieren/P1010296.jpg)
 
 &nbsp;
 
 
 ###Für Zusätzliche Reinigungsleistung kannst du die Stahlwolle noch mit 1-2 Sprühstößen Allzweckreiniger benetzen. Nun wird mit mittleren Druck der Auspuff poliert. Man sieht relativ schnell Erfolge
 
-![Auspuffendrohre Polieren](//s3.eu-central-1.amazonaws.com/glossbossimages/local/auspuffpolieren/P1010297.jpg)
+![Auspuffendrohre Polieren](//glossbossimages.s3.eu-central-1.amazonaws.com/local/auspuffpolieren/P1010297.jpg)
 
 &nbsp;
 
@@ -55,7 +55,7 @@ Bevor man anfängt den Auspuff zu polieren folgt die Bestandsaufnahme. Es macht 
 
 ###Innen nicht vergessen!
 
-![Auspuffendrohre Polieren](//s3.eu-central-1.amazonaws.com/glossbossimages/local/auspuffpolieren/P1010299.jpg)
+![Auspuffendrohre Polieren](//glossbossimages.s3.eu-central-1.amazonaws.com/local/auspuffpolieren/P1010299.jpg)
 
 &nbsp;
 
@@ -63,7 +63,7 @@ Bevor man anfängt den Auspuff zu polieren folgt die Bestandsaufnahme. Es macht 
 
 ###Die Überreste von Politur und Allzweckreiniger werden nun mit einem (alten) Mikrofasertuch oder einem blauen Papiertuch abgenommen.
 
-![Auspuffendrohre Polieren](//s3.eu-central-1.amazonaws.com/glossbossimages/local/auspuffpolieren/P1010300.jpg)
+![Auspuffendrohre Polieren](//glossbossimages.s3.eu-central-1.amazonaws.com/local/auspuffpolieren/P1010300.jpg)
 
 &nbsp;
 

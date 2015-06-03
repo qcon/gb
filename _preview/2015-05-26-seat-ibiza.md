@@ -2,9 +2,9 @@
 layout: post
 title: "Seat Ibiza"
 author: "Jones"
-wps_subtitle: 'Blauer Spanier vs. Team \"Altes Ehepaar\"'
+wps_subtitle: 'Blauer Spanier vs. Team "Altes Ehepaar"'
 categories: Pflegeberichte
-head__img--fullurl: //glossboss.de/images/
+head__img--fullurl: //glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/seat_ibiza/53.jpg
 markasnew: true
 ---
 

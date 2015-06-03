@@ -3,7 +3,7 @@ title: Das wichtigste Messgerät der Autopflege
 author: Marvin
 layout: post
 pdf_version: jap
-head__img--fullurl: //s3.eu-central-1.amazonaws.com/glossbossimages/marvin/bmw2002gelb/P1010270.JPG
+head__img--fullurl: //glossbossimages.s3.eu-central-1.amazonaws.com/marvin/bmw2002gelb/P1010270.JPG
 wps_subtitle:
   - 'Immer auf der sicheren seite'
 categories:
@@ -17,7 +17,7 @@ Ich persönlich poliere grundsätzlich nicht mehr wenn ich nicht vorher den Lack
 
 Die meisten Messgeräte dieser Preisklasse messen den kompletten Lackaufbau. Vom Klarlack bis zum Blech (roter Pfeil).
 
-![Schichtstärke von Klarlack bis zum Blech](//s3.eu-central-1.amazonaws.com/glossbossimages/marvin/lackmessen/lackschicht_messen.png)
+![Schichtstärke von Klarlack bis zum Blech](//glossbossimages.s3.eu-central-1.amazonaws.com/marvin/lackmessen/lackschicht_messen.png)
 
 Weitaus teurere Geräte sind in der Lage nur den Klarlack zu messen. Das hat natürlich den Vorteil, dass man seine genaue Schichtdicke kennt, und diese nicht erraten muss.
 

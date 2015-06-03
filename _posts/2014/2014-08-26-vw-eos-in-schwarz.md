@@ -264,35 +264,35 @@ chiller
 
  [1]: http://glossboss.de/allgemein/die-grundausstattung-fuer-die-optimale-fahrzeugwaesche/
  [2]: http://glossboss.de/allgemein/warum-die-fahrzeugwaesche-mit-der-2-eimer-methode-so-schonend-zum-lack-ist/
- [3]: //s3.eu-central-1.amazonaws.com/glossbossimages/chiller/VW Eos/Eos01.jpg
- [4]: //s3.eu-central-1.amazonaws.com/glossbossimages/chiller/VW Eos/Eos02.jpg
- [5]: //s3.eu-central-1.amazonaws.com/glossbossimages/chiller/VW Eos/Eos08.jpg
- [6]: //s3.eu-central-1.amazonaws.com/glossbossimages/chiller/VW Eos/Eos07.jpg
- [7]: //s3.eu-central-1.amazonaws.com/glossbossimages/chiller/VW Eos/Eos06.jpg
- [8]: //s3.eu-central-1.amazonaws.com/glossbossimages/chiller/VW Eos/Eos18.jpg
+ [3]: //glossbossimages.s3.eu-central-1.amazonaws.com/chiller/VW Eos/Eos01.jpg
+ [4]: //glossbossimages.s3.eu-central-1.amazonaws.com/chiller/VW Eos/Eos02.jpg
+ [5]: //glossbossimages.s3.eu-central-1.amazonaws.com/chiller/VW Eos/Eos08.jpg
+ [6]: //glossbossimages.s3.eu-central-1.amazonaws.com/chiller/VW Eos/Eos07.jpg
+ [7]: //glossbossimages.s3.eu-central-1.amazonaws.com/chiller/VW Eos/Eos06.jpg
+ [8]: //glossbossimages.s3.eu-central-1.amazonaws.com/chiller/VW Eos/Eos18.jpg
  [9]: http://i2.wp.com/vadrup.com/glossboss/berichte/vwgolf7gtd_gyeon/15.jpg?w=900
- [10]: //s3.eu-central-1.amazonaws.com/glossbossimages/chiller/VW Eos/Eos09.jpg
- [11]: //s3.eu-central-1.amazonaws.com/glossbossimages/chiller/VW Eos/Eos03.jpg
- [12]: //s3.eu-central-1.amazonaws.com/glossbossimages/chiller/VW Eos/Eos04.jpg
- [13]: //s3.eu-central-1.amazonaws.com/glossbossimages/chiller/VW Eos/Eos23.jpg
- [14]: //s3.eu-central-1.amazonaws.com/glossbossimages/chiller/VW Eos/Eos11.jpg
- [15]: //s3.eu-central-1.amazonaws.com/glossbossimages/chiller/VW Eos/Eos12.jpg
- [16]: //s3.eu-central-1.amazonaws.com/glossbossimages/chiller/VW Eos/Eos13.jpg
- [17]: //s3.eu-central-1.amazonaws.com/glossbossimages/chiller/VW Eos/Eos14.jpg
- [18]: //s3.eu-central-1.amazonaws.com/glossbossimages/chiller/VW Eos/Eos16.jpg
+ [10]: //glossbossimages.s3.eu-central-1.amazonaws.com/chiller/VW Eos/Eos09.jpg
+ [11]: //glossbossimages.s3.eu-central-1.amazonaws.com/chiller/VW Eos/Eos03.jpg
+ [12]: //glossbossimages.s3.eu-central-1.amazonaws.com/chiller/VW Eos/Eos04.jpg
+ [13]: //glossbossimages.s3.eu-central-1.amazonaws.com/chiller/VW Eos/Eos23.jpg
+ [14]: //glossbossimages.s3.eu-central-1.amazonaws.com/chiller/VW Eos/Eos11.jpg
+ [15]: //glossbossimages.s3.eu-central-1.amazonaws.com/chiller/VW Eos/Eos12.jpg
+ [16]: //glossbossimages.s3.eu-central-1.amazonaws.com/chiller/VW Eos/Eos13.jpg
+ [17]: //glossbossimages.s3.eu-central-1.amazonaws.com/chiller/VW Eos/Eos14.jpg
+ [18]: //glossbossimages.s3.eu-central-1.amazonaws.com/chiller/VW Eos/Eos16.jpg
  [19]: http://www.petzoldts.de/shop/Kontroll-Reiniger-zur-Politurkontrolle,-Petzoldts-p-1960.html
- [20]: //s3.eu-central-1.amazonaws.com/glossbossimages/chiller/VW Eos/Eos17.jpg
- [21]: //s3.eu-central-1.amazonaws.com/glossbossimages/chiller/VW Eos/Eos19.jpg
- [22]: //s3.eu-central-1.amazonaws.com/glossbossimages/chiller/VW Eos/Eos21.jpg
- [23]: //s3.eu-central-1.amazonaws.com/glossbossimages/chiller/VW Eos/Eos22.jpg
- [24]: //s3.eu-central-1.amazonaws.com/glossbossimages/chiller/VW Eos/Eos24.jpg
- [25]: //s3.eu-central-1.amazonaws.com/glossbossimages/chiller/VW Eos/Eos25.jpg
- [26]: //s3.eu-central-1.amazonaws.com/glossbossimages/chiller/VW Eos/Eos26.jpg
- [27]: //s3.eu-central-1.amazonaws.com/glossbossimages/chiller/VW Eos/Eos31.jpg
- [28]: //s3.eu-central-1.amazonaws.com/glossbossimages/chiller/VW Eos/Eos28.jpg
- [29]: //s3.eu-central-1.amazonaws.com/glossbossimages/chiller/VW Eos/Eos27.jpg
- [30]: //s3.eu-central-1.amazonaws.com/glossbossimages/chiller/VW Eos/Eos29.jpg
- [31]: //s3.eu-central-1.amazonaws.com/glossbossimages/chiller/VW Eos/Eos33.jpg
- [32]: //s3.eu-central-1.amazonaws.com/glossbossimages/chiller/VW Eos/Eos34.jpg
- [33]: //s3.eu-central-1.amazonaws.com/glossbossimages/chiller/VW Eos/Eos35.jpg
- [34]: //s3.eu-central-1.amazonaws.com/glossbossimages/chiller/VW Eos/Eos32.jpg
+ [20]: //glossbossimages.s3.eu-central-1.amazonaws.com/chiller/VW Eos/Eos17.jpg
+ [21]: //glossbossimages.s3.eu-central-1.amazonaws.com/chiller/VW Eos/Eos19.jpg
+ [22]: //glossbossimages.s3.eu-central-1.amazonaws.com/chiller/VW Eos/Eos21.jpg
+ [23]: //glossbossimages.s3.eu-central-1.amazonaws.com/chiller/VW Eos/Eos22.jpg
+ [24]: //glossbossimages.s3.eu-central-1.amazonaws.com/chiller/VW Eos/Eos24.jpg
+ [25]: //glossbossimages.s3.eu-central-1.amazonaws.com/chiller/VW Eos/Eos25.jpg
+ [26]: //glossbossimages.s3.eu-central-1.amazonaws.com/chiller/VW Eos/Eos26.jpg
+ [27]: //glossbossimages.s3.eu-central-1.amazonaws.com/chiller/VW Eos/Eos31.jpg
+ [28]: //glossbossimages.s3.eu-central-1.amazonaws.com/chiller/VW Eos/Eos28.jpg
+ [29]: //glossbossimages.s3.eu-central-1.amazonaws.com/chiller/VW Eos/Eos27.jpg
+ [30]: //glossbossimages.s3.eu-central-1.amazonaws.com/chiller/VW Eos/Eos29.jpg
+ [31]: //glossbossimages.s3.eu-central-1.amazonaws.com/chiller/VW Eos/Eos33.jpg
+ [32]: //glossbossimages.s3.eu-central-1.amazonaws.com/chiller/VW Eos/Eos34.jpg
+ [33]: //glossbossimages.s3.eu-central-1.amazonaws.com/chiller/VW Eos/Eos35.jpg
+ [34]: //glossbossimages.s3.eu-central-1.amazonaws.com/chiller/VW Eos/Eos32.jpg

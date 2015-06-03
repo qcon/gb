@@ -43,13 +43,13 @@ Wer mag, kann jetzt den Schriftzug leicht mit dem Föhn erwärmen.
 
 So vorbereitet kann man nun ein Q-Tip mit dem Tar & Glue Remover tränken, und vorsichtig das Mittel oberhalb hinter die einzelnen Buchstaben laufen lassen.
 
-![Schriftzug entfernen](//s3.eu-central-1.amazonaws.com/glossbossimages/dirk/SchriftzugEntfernen/Schriftzug002.jpg)
+![Schriftzug entfernen](//glossbossimages.s3.eu-central-1.amazonaws.com/dirk/SchriftzugEntfernen/Schriftzug002.jpg)
 
 Jetzt ist erst mal ein wenig Geduld gefragt, denn der Tar & Glue Remover muss jetzt in Ruhe die Möglichkeit bekommen den Kleber anzulösen. Um festzustellen ob die Wirkung schon eingesetzt hat kann man versuchen die einzelnen Buchstaben mit zwei Fingern leicht nach links und rechts zu bewegen. Sitzt alles noch bombenfest übt man sich weiter in Geduld und gibt ggf. noch etwas Tar & Glue Remover nach. Läuft es unterhalb der Buchstaben raus braucht man nicht noch mehr nachzulegen. Ist eine leichte Bewegung feststellbar, kann man jetzt dazu übergehen das Ganze mit Hilfe des Zwirn Faden etwas zu beschleunigen
 
 &nbsp;
 
-![Schriftzug entfernen](//s3.eu-central-1.amazonaws.com/glossbossimages/dirk/SchriftzugEntfernen/Schriftzug003.jpg)
+![Schriftzug entfernen](//glossbossimages.s3.eu-central-1.amazonaws.com/dirk/SchriftzugEntfernen/Schriftzug003.jpg)
 
 &nbsp;
 
@@ -57,7 +57,7 @@ Dabei aber nicht wie ein Wilder mit dem Faden hinter den Buchstaben hin und her 
 
 So kann man Stück für Stück, jeden einzelnen Buchstaben problemlos und sanft entfernen.
 
-![Schriftzug entfernen](//s3.eu-central-1.amazonaws.com/glossbossimages/dirk/SchriftzugEntfernen/Schriftzug.gif)
+![Schriftzug entfernen](//glossbossimages.s3.eu-central-1.amazonaws.com/dirk/SchriftzugEntfernen/Schriftzug.gif)
 
 &nbsp;
 
@@ -69,10 +69,10 @@ War man doch zu grob, geht man eben nochmal schnell mit einer Hochglanzpolitur u
 
 **Am Ende sollte das Ganze dann so aussehen. Ziel erreicht**
 
-![Schriftzug entfernen](//s3.eu-central-1.amazonaws.com/glossbossimages/dirk/SchriftzugEntfernen/Schriftzug001.jpg)
+![Schriftzug entfernen](//glossbossimages.s3.eu-central-1.amazonaws.com/dirk/SchriftzugEntfernen/Schriftzug001.jpg)
 
 &nbsp;
 
 In diesen Sinne frohes Schaffen und schöne Grüße an die Glossboss Gemeinde, euer
 
-![Schriftzug entfernen](//s3.eu-central-1.amazonaws.com/glossbossimages/dirk/glossbossSignatur_agent.png)
+![Schriftzug entfernen](//glossbossimages.s3.eu-central-1.amazonaws.com/dirk/glossbossSignatur_agent.png)

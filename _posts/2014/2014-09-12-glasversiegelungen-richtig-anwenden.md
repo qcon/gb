@@ -46,16 +46,16 @@ Die anderen Versiegelungen trägst du am besten mit einem Kosmetikpad auf.
 
 Dafür einfach 2-3 Tropfen auf das Kosmetikpad geben und in gleichmäßigen Bahnen im Kreuzstich auf der Scheibe verteilen.
 
-![Glasversiegelung richtig anwenden](//s3.eu-central-1.amazonaws.com/glossbossimages/criz/glasversiegelung/DSC_0003.jpg)
+![Glasversiegelung richtig anwenden](//glossbossimages.s3.eu-central-1.amazonaws.com/criz/glasversiegelung/DSC_0003.jpg)
 
-![Glasversiegelung richtig anwenden](//s3.eu-central-1.amazonaws.com/glossbossimages/criz/glasversiegelung/DSC_0004.jpg)
+![Glasversiegelung richtig anwenden](//glossbossimages.s3.eu-central-1.amazonaws.com/criz/glasversiegelung/DSC_0004.jpg)
 
 Je nach Versiegelung muss diese für ein paar Minuten auf der Scheibe bleiben, dazu solltest du dich sehr genau an die Empfehlung des Herstellers halten, damit später keine Schlieren auf der Scheibe zurückbleiben.  
-![Glasversiegelung richtig anwenden](//s3.eu-central-1.amazonaws.com/glossbossimages/criz/glasversiegelung/DSC_0007.jpg)
+![Glasversiegelung richtig anwenden](//glossbossimages.s3.eu-central-1.amazonaws.com/criz/glasversiegelung/DSC_0007.jpg)
 
 Nach dem Ablüften der Versiegelung, benutze ich gerne erst ein Stück Küchenrolle zum abnehmen um die Versiegelungsrückstände grob aufzunehmen und gehe dann sofort mit einem geeigneten Mikrofaser-Glastuch hinterher.
 
-![Glasversiegelung richtig anwenden](//s3.eu-central-1.amazonaws.com/glossbossimages/criz/glasversiegelung/DSC_0006.jpg)
+![Glasversiegelung richtig anwenden](//glossbossimages.s3.eu-central-1.amazonaws.com/criz/glasversiegelung/DSC_0006.jpg)
 
 Beim Abnehmen der Rückstände solltest du sehr sorgfältig arbeiten, damit später keine Schlieren zurückbleiben, diese sind oft mit einem Glasreiniger nicht mehr zu entfernen sondern müssen poliert werden und somit musst du die Versiegelung neu auftragen.
 
@@ -69,7 +69,7 @@ Je nach Produkt sollte die Versiegelung erst eine bestimmte Zeit eintrocknen bis
 
 Wenn du die angegebene Wartezeit überstanden hast, kannst du dich über solche Beadingbilder und die erste Fahrt ohne nerviges Rattern der Scheibenwischer freuen! Bei den meisten Versiegelungen läuft das Wasser ab ca. 50-60km/h flächendeckend ab und macht den Scheibenwischer überflüssig. Alldings gilt diese Angabe nur für die Frontscheibe, da der Fahrtwind an den anderen Scheiben nicht hoch genug ist.
 
-![Glasversiegelung richtig anwenden](//s3.eu-central-1.amazonaws.com/glossbossimages/criz/glasversiegelung/DSC_0036.jpg)
+![Glasversiegelung richtig anwenden](//glossbossimages.s3.eu-central-1.amazonaws.com/criz/glasversiegelung/DSC_0036.jpg)
 
 **WICHTIG!** Die Glasversiegelung lässt das Wasser bei einer sauberen Scheibe und höheren Geschwindigkeiten flächendeckend abfließen, trotzdem ist der Scheibenweischereinsatz manchmal nötig &#8211;  achte zur Verkehrssicherheit immer auf eine gute Sicht!
 

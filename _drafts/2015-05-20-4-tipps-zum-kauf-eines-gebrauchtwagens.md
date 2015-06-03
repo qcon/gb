@@ -2,7 +2,7 @@
 title: 4 Tipps zum kauf eines Gebrauchtwagens
 author: Marvin
 layout: post
-head__img--fullurl: //s3.eu-central-1.amazonaws.com/glossbossimages/
+head__img--fullurl: //glossbossimages.s3.eu-central-1.amazonaws.com/
 wps_subtitle:
   - 'Unfallschäden auch ohne Profi Geräte entlarven'
 categories:

@@ -55,11 +55,11 @@ Der Lack **muss** gründlich vorgereinigt werden, da sonst Schmutzpartikel zwisc
 
 Die Vorreinigung besteht aus dem Waschen und Kneten der Lackoberfläche. Das Kneten ist besonders wichtig, da wir so sicherstellen auch Verunreinigung wie Teer und Flugrost entfernt zu haben.
 
-![in 3 Schritten tiefe Kratzer entfernen](//s3.eu-central-1.amazonaws.com/glossbossimages/mark/kovax/18.JPG)
+![in 3 Schritten tiefe Kratzer entfernen](//glossbossimages.s3.eu-central-1.amazonaws.com/mark/kovax/18.JPG)
 
 &nbsp;
 
-![in 3 Schritten tiefe Kratzer entfernen](//s3.eu-central-1.amazonaws.com/glossbossimages/mark/kovax/19.JPG)
+![in 3 Schritten tiefe Kratzer entfernen](//glossbossimages.s3.eu-central-1.amazonaws.com/mark/kovax/19.JPG)
 
 &nbsp;
 
@@ -77,9 +77,9 @@ Die Schleifblüte regelmäßig an der Jeanshose **abklopfen bzw. säubern** um a
 
 &nbsp;
 
-![in 3 Schritten tiefe Kratzer entfernen](//s3.eu-central-1.amazonaws.com/glossbossimages/mark/kovax/20.JPG)
+![in 3 Schritten tiefe Kratzer entfernen](//glossbossimages.s3.eu-central-1.amazonaws.com/mark/kovax/20.JPG)
 
-![in 3 Schritten tiefe Kratzer entfernen](//s3.eu-central-1.amazonaws.com/glossbossimages/mark/kovax/21.JPG)
+![in 3 Schritten tiefe Kratzer entfernen](//glossbossimages.s3.eu-central-1.amazonaws.com/mark/kovax/21.JPG)
 
 # Schritt 3
 
@@ -87,7 +87,7 @@ Das aufpolieren des matten Lackes geht meistens Problemlos &#8211; vorausgesetzt
 
 Meist genügt ein kleines Pad (<100mm Durchmesser) und eine Feinschleifpolitur. Diesen Vorgang muss man solange wiederholen, bis alle Schleifspuren entfernt sind. Aber auch hier gilt: Schichtdicke vom Lack messen!
 
-![in 3 Schritten tiefe Kratzer entfernen](//s3.eu-central-1.amazonaws.com/glossbossimages/mark/kovax/22.JPG)
+![in 3 Schritten tiefe Kratzer entfernen](//glossbossimages.s3.eu-central-1.amazonaws.com/mark/kovax/22.JPG)
 
 &nbsp;
 

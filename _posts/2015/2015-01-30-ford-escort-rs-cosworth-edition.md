@@ -3,7 +3,7 @@ pdf_version: jap
 title: Ford Escort RS Cosworth Edition
 author: René
 layout: post
-head__img--fullurl: //s3.eu-central-1.amazonaws.com/glossbossimages/marvin/sonstige/dsc_89442xrl5.jpg
+head__img--fullurl: //glossbossimages.s3.eu-central-1.amazonaws.com/marvin/sonstige/dsc_89442xrl5.jpg
 wps_subtitle:
   - 'Bodylicious!'
 categories:

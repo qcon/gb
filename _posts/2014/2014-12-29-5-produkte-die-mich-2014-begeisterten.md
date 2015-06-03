@@ -3,7 +3,7 @@ title: 5 Produkte die mich 2014 begeisterten
 author: Marvin
 pdf_version: jap
 layout: post
-head__img--fullurl: //s3.eu-central-1.amazonaws.com/glossbossimages/marvin/997carrerasgrau/P1010883.JPG
+head__img--fullurl: //glossbossimages.s3.eu-central-1.amazonaws.com/marvin/997carrerasgrau/P1010883.JPG
 wps_subtitle:
   - 'Mein persönlicher Jahresrückblick'
 categories:
