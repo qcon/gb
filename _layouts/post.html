@@ -18,24 +18,20 @@ if (!localStorage.getItem(postName)) {
 		<a href="https://plus.google.com/share?url={{ page.url | prepend: site.url}}" target="_blank" class="share--gplus">Google+</a>
 	</div>
 	<div class="post--prev-next">
-	{% if page.previous.url %} 
-		<span class="prev">
-			<a class="post--prev" href="{{page.previous.url}}" alt="Vorheriger Artikel: {{page.previous.title}}">« {{page.previous.title}}<span class="prevnext--img" style="background: url('{% if page.previous.head__img--fullurl %}
-			{{page.previous.head__img--fullurl}}
-			{% else %}
-			{{page.previous.head__img | prepend: site.url }}
-			{% endif %}') 50% 50% no-repeat; background-size:cover"></span></a>
-		</span>
-	{% endif %} 
-	{% if page.next.url %} 
-		<span class="next"><a class="post--next" href="{{page.next.url}}" alt="Nächster Artikel: {{page.next.title}}">{{page.next.title}} »<span class="prevnext--img" style="background: url('{% if page.next.head__img--fullurl %}
-		{{page.next.head__img--fullurl}}
-		{% else %}
-		{{page.next.head__img | prepend: site.url }}
-		{% endif %}') 50% 50% no-repeat; background-size:cover"></a></span></span>
-	{% endif %} 
+		<h4>Könnte dich auch interessieren:</h4>
+		<ul>
+			{% if page.previous.url %}
+			<li>
+				<a href="{{page.previous.url}}" alt="Vorheriger Artikel: {{page.previous.title}}">{{page.previous.title}}</a> - {{page.previous.wps_subtitle}}
+			</li>
+			{% endif %}
+			{% if page.next.url %}
+			<li>
+				<a href="{{page.next.url}}" alt="Nächster Artikel: {{page.next.title}}">{{page.next.title}}</a> - {{page.next.wps_subtitle}}
+			</li>
+			{% endif %}
+		</ul>
 	</div>
-
 	{% if page.comments_block %}
 	
 	{% else %}
