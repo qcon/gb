@@ -26,7 +26,7 @@ Beide Produkte sind im Ergebnis (fast) gleich. Das Sonax Polymer Netshield zähl
 
 Mit einer Dose ca. 8-10 Fahrzeuge versiegelung und das zu einem Preis von knapp 20€. Was will man mehr. 
 
-Grundvoraussetzung ist ein [sauberer und fettfreier Lack](https://glossboss.de/allgemein/lack-fettfrei-vorbereiten-versiegelung-wachs/), im besten Fall natürlich frisch poliert und mit einerm Kontrollreiniger entfettet. Wer für eine Politur keine Zeit hat oder wenn der Lack sowieso Defektfrei ist, sollte sein Auto gründlich waschen und anschließend mit IPA oder einer Kontrollreiniger auf die Versiegelung vorbereiten.
+Grundvoraussetzung ist ein [sauberer und fettfreier Lack](https://glossboss.de/allgemein/lack-fettfrei-vorbereiten-versiegelung-wachs/), im besten Fall natürlich frisch poliert und mit einem Kontrollreiniger entfettet. Wer für eine Politur keine Zeit hat oder wenn der Lack sowieso Defektfrei ist, sollte sein Auto gründlich waschen und anschließend mit IPA oder einer Kontrollreiniger auf die Versiegelung vorbereiten.
 
 Zur Verarbeitung des Netshield benötigst du ein Auftragspad und ein paar Mikrofasertücher. Am besten kurz- und langflorige Tücher. 
 ![](//glossbossimages.s3.eu-central-1.amazonaws.com/criz/sonax-netshield/2.jpg)
@@ -94,9 +94,13 @@ Selbst auf ungewaschenem Lack ist das Beading noch erstklassig:
 
 Und wenn es dann doch mal nachlässt, reicht eine gründliche Wäsche und die Reinigung mit einem Kontrollreiniger aus um eine neue Schicht aufzutragen. 
 
-
-#####PS: Auch für die Seiten- und der Heckscheibe ist das Netshield super geeignet.
+PS: Auch für die Seiten- und der Heckscheibe ist das Netshield super geeignet.
 
 Bedanken möchte ich mich noch bei Jones und Alex, ohne die dieser Beitrag in dieser Form so nicht möglich gewesen wäre! 
+
+Das Ablaufverhalten vom Wasser im Youtube Video:
+
+<iframe class="content--video" src="//www.youtube.com/embed/MnhmhTc1Q1k" frameborder="0" allowfullscreen></iframe>
+
 
 
