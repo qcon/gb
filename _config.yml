@@ -33,4 +33,4 @@ collections:
   preview:
     output: true
     permalink: "/preview/:path/"
-port: 1339
+port: 1338
