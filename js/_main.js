@@ -69,6 +69,19 @@ var
 	}
 })(eastereggNavbar);
 
+(function() {
+	if(location.href.indexOf("/preview/") !== -1) {
+		postContent = _(".post--content");
+		postContent.hide();
+		pw = prompt("Passwortgeschützter Bereich");
+		if(pw !== "marvin") {
+			//location.href = "http://glossboss.de/"
+			alert("Falsches Passwort.")
+		} else {
+			postContent.style.display = "block";
+		}
+	}
+})();
 
 (function(sc) {
 	if(sc) {
