@@ -4,7 +4,7 @@ author: Marvin
 layout: post
 head__img--fullurl: //glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/seat_ibiza/53.jpg
 wps_subtitle:
-  - '3 Schritte'
+  - '3 Schritte damit wieder glänzt, was glänzen muss'
 categories:
   - Anleitungen
 markasnew: true
@@ -24,4 +24,22 @@ Diese Sachen brauchst du auf jeden Fall:
 
 #Schritt 1
 
-Das Chrom und am besten auch dein ganzes Auto muss sauber sein.
+Das Chrom und am besten auch dein ganzes Auto muss sauber sein. Wir wollen nämlich nicht, dass wir uns Schmutz vom Lack mit ins Tuch ziehen, welches wir zur Chrombehandlung nutzen. 
+
+Zur Applikation bzw. zur Politur gibt es nun 2 wege. Entweder nutzt du eine Ecke vom Mikrofasertuch auf dem du die Metallpolitur gibst, oder du nutzt einen Applikator. 
+
+Für Chromteile mit sehr wenig Fläche (z.B. Mini Chromzierleisten) eignet sich die Methode mit dem Mikrofasertuch bestens. 
+
+![](https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/chrompolieren/P1020892.JPG)
+
+![](https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/chrompolieren/P1020893.JPG)
+
+Großflächige Chromteile werden mit einen Applikator bearbeitet.
+
+![](https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/chrompolieren/P1020894.JPG)
+
+   
+![](//glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/porsche_macan/A033.jpg)
+
+![](//glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/porsche_macan/A034.jpg)
+
