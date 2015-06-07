@@ -2,12 +2,18 @@
 	width: 60px;
 	cursor: pointer;
 	fill: $text;
+	&:hover {
+		fill: mix(white, $text, 15);
+	}
 }
 .showCommentsContainer {
 	text-align: center;
 	h3 {
 		@include font(special);
 		cursor: pointer;
+		&:hover {
+			color: mix(white, $text, 15);
+		}
 	}
 }
 
