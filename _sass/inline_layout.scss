@@ -1,5 +1,13 @@
-@import "base",
-		"head",
+// @import "base",
+// 		"head",
+// 		"content",
+// 		"foot",
+// 		"jshelper";
+@import "config",
+		"header",
+		"navbar",
 		"content",
-		"foot",
-		"jshelper";
+		"buttons",
+		"forms",
+		"footer",
+		"helper";

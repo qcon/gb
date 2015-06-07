@@ -206,7 +206,7 @@ Das Pinkus Müller "Spezial" diente zur Kühlung und Energiequelle des Anwenders
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/porsche_macan/A027.jpg)
    
 Nachdem die Heckklappe fertig poliert war kam Versuch Nummer 2.   
-### PlastiDip   
+###PlastiDip
 Chrom auf weißem Grund schaut hier nicht sonderlich gelungen aus, dem kann man recht einfach mit einer stimmigeren, **matt schwarzen Erscheinung** entgegenwirken.   
 Den Bereich **großflächig abkleben**, lieber zuviel als zu wenig! Lacknebel verfliegt sehr gern, den PlastiDip-Nebel bekommt mal zwar mit einem feuchten Microfasertuch gut abgewischt - aber diese Arbeit kann man sich ersparen.   
 Ihr solltet zudem etwas **mehr Platz** um die Buchstaben lassen als ich es tat. "*Geiz ist Geil*" war hier kontraproduktiv und verursachte ein wenig mehr Arbeit da sich das überflüssige Gummi schlechter abziehen ließ.   

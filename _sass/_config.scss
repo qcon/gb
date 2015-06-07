@@ -1,0 +1,70 @@
+$blau:#44bcff;
+$dunkelblau:#0099ff;
+$text: #585858;
+
+@mixin font($f) {
+  @if $f == normal {
+    font-family: 'Roboto', sans-serif;
+  }
+  @if $f == light {
+    font-family: 'Roboto', sans-serif;
+    font-weight:300;
+  }
+  @if $f == normalOS {
+    font-family: 'Roboto', sans-serif;
+    font-weight:400;
+  }
+  @if $f == special {
+    font-family: 'Roboto', sans-serif;
+    font-weight:500;
+  }
+}
+@mixin materialShadow($c) {
+    @if $c == 1 {
+        box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    }
+    @if $c == 2 {
+        box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    }
+    @if $c == 0 {
+        box-shadow: 0;
+    }
+}
+
+$lg : "(max-width: 100em)"; //1600px
+$lg-min : "(min-width: 100.01em)"; //1600px
+$md : "(max-width: 68.75em)"; //1100px
+$md-min : "(min-width: 68.76em)"; //11x0px
+$min-sm : "(min-width: 46.88em)";
+$sm : "(max-width: 46.87em)"; //750px
+$xs : "(max-width: 24.37em)"; //390px
+
+html {
+  box-sizing: border-box;
+  color:$text;
+  -webkit-font-smoothing:antialiased;
+}
+body {
+  overflow-x: hidden;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+  margin:0;
+  padding:0;
+}
+@media print {
+  .header__extend, .overlay, .post--sharing, {
+    display: none;
+  }
+  .post--prev-next, #disqus_thread, footer {
+    display: none;
+  }
+  .post--title {
+    a, h1 {
+      color: black;
+      color: $text;
+      text-shadow: 0px;
+      text-shadow: none;
+    }
+  }
+}

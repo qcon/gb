@@ -1,0 +1,61 @@
+header {
+    color:white;
+    height:auto;
+    @include font(light);
+    font-size:1.9em;
+    padding:3em 0;
+    @media #{$sm} {
+        padding: 0.8em 0;
+        font-size:1.2em;
+    }
+    @media #{$xs} {
+        font-size:.8em;
+        font-size:4.7vmin;
+    }
+}
+.header--logo {
+    text-align:center;
+    margin: 3em auto !important;
+    transition:.15s cubic-bezier(.55,0,.1,1);
+    img:hover {
+        transform:scale(1.1);
+        animation-name: easteregg;
+        animation-duration: .8s;
+        animation-timing-function: ease-out;
+        animation-delay: 4s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+    }
+    img {
+        transition:.15s cubic-bezier(.55,0,.1,1);
+        max-width:100%;
+    }
+}
+@keyframes easteregg {
+    0%, 10% {
+        transform: scale(1) rotate(0deg)
+    }
+    90%, 100% {
+        transform: scale(0) rotate(660deg)
+    }
+}
+.post--title {
+    max-width:100%;
+    h4 {
+        font-size:.6em;
+        font-weight:100;
+        margin-bottom:1em;
+    }
+    small {
+        font-size:.7em;
+        @include font(light);
+    }
+    a {
+        color:white;
+        text-decoration:none;
+        text-shadow:1px 1px 7px rgba(black,.3);
+        &:hover {
+            color:mix(white,black,95);
+        }
+    }
+}
