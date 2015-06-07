@@ -18,6 +18,7 @@ var
 	shareCounter          = _('#sharecounter'),
 	showComments          = _('.showCommentsContainer'),
 	eastereggNavbar       = _('#eastereggNavbar'),
+	searchReset           = _('#search_reset');
 	searchModal           = _('.open_search');
 	activeScrollResize    = false;
 
@@ -159,19 +160,27 @@ linklistAnchor.forEach(function(_self) {
 });
 
 searchRender = function() {
+	(function(sr) {
+		if(sr) {
+			searchReset.addEventListener('click', function() {
+				_('#search-input').value = '';
+				_('#results-container').innerHTML = '';
+			})
+		}
+	})(searchReset);
 	
-		_('#searchWrapper').style.display = 'block';
-		SimpleJekyllSearch.init({
-			searchInput: document.getElementById('search-input'),
-			resultsContainer: document.getElementById('results-container'),
-			dataSource: postJSONCache,
-			searchResultTemplate: '{card}',
-			noResultsText: '<li>Nichts passendes dabei. Hast du eine Idee für einen Artikel? <a style="text-align:center" href="mailto:mail@glossboss.de">Kontaktiere uns!</a></li>',
-			limit: 25,
-			fuzzy: false,
-		});
+	_('#searchWrapper').style.display = 'block';
+	SimpleJekyllSearch.init({
+		searchInput: document.getElementById('search-input'),
+		resultsContainer: document.getElementById('results-container'),
+		dataSource: postJSONCache,
+		searchResultTemplate: '{card}',
+		noResultsText: '<li>Nichts passendes dabei. Hast du eine Idee für einen Artikel? <a style="text-align:center" href="mailto:mail@glossboss.de">Kontaktiere uns!</a></li>',
+		limit: 25,
+		fuzzy: false,
+	});
 
-		loader(false);
+	loader(false);
 }
 
 toggleMenuBox.addEventListener('click', function(e) {

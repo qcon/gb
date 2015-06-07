@@ -44,6 +44,17 @@
 #searchWrapper {
     display: none;
 }
+.sucheInput {
+	text-align: center;
+	svg {
+		width: 18px;
+		fill: mix($text, white, 45);
+		transform: translate(-26px,4px);
+		&:hover {
+			fill: mix($text, white, 25);
+		}
+	}
+}
 #search-input {
     padding:.3em;
     border-width:0px;
@@ -52,9 +63,9 @@
     border-bottom:3px solid darken($blau,10%);
     font-size:1.1em;
     color:$blau;
-    display:block;
+    display:inline-block;
     width:350px;
-    max-width:100%;
+    max-width:90%;
     margin:0 auto;
     
 
