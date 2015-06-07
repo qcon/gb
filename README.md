@@ -10,7 +10,7 @@
 - uglifyJS
 - s3cmd (only for aws s3 deployment)
 
-To compile everything you habe 2 options
+To compile everything you have 2 options
 
 ##1st option using a normal Server
 
@@ -29,7 +29,7 @@ to just build all the files without starting the jekyll server
 
 run
 ```
-$ rake s3_build
+$ rake build_s3
 ```
 to build all files (same behaviour as :build task) gzip then and sync the s3 bucket
 
