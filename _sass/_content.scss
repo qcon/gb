@@ -1,3 +1,14 @@
+table {
+	margin: 0 auto;
+	width: 75%;
+	thead {
+		color: #fff;
+		background: $blau;
+	}
+	tbody {
+		background: #f5f5f5;
+	}
+}
 .width--wrapper {
 	width: 80%;
 	margin: 0 auto;
