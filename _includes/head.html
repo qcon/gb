@@ -11,17 +11,20 @@
     <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.url }}">
     <meta property="og:image" content="{% if page.head__img %}{{ site.url }}{{ page.head__img }}{% else %}{{ page.head__img--fullurl }}{% endif %}">
     <style>
-		header {
+        {% include inline_layout.css %}
+    </style>
+    <style id="header-style">
+    header {
 			background: {{site.headimggradient}}, url('{% if page.head__img %}{{ site.url }}{{ page.head__img }}{% else %}{{ page.head__img--fullurl }}{% endif %}') center 50%;
 			background-size:cover;
 		}
-        {% include inline_layout.css %}
-    </style>
+	</style>
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]--> 
-    <script>
+    <script> var randomHeader = {%  if page.randomHeader %}true{% else %}false{% endif %},headerGradient = '{{site.headimggradient}}';
+
         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
     m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)

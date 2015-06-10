@@ -1,5 +1,6 @@
 ---
 layout: post
+randomHeader: true
 ---
 
 # Hier gibt es nichts zu sehen
