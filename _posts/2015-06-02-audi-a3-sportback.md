@@ -5,7 +5,6 @@ author: "René"
 wps_subtitle: TIEFENSEEBLAU PERLMUTT-EFFEKT. - // Illusion!
 categories: Pflegeberichte
 head__img--fullurl: //glossbossimages.s3.eu-central-1.amazonaws.com/RBdetailing/AudiA3SportbackIllusion/DSC_9692.jpg
-markasnew: true
 ---
 ![](//glossbossimages.s3.eu-central-1.amazonaws.com/RBdetailing/AudiA3SportbackIllusion/Header.jpg)
 
