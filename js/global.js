@@ -493,7 +493,6 @@ var
 		random = Math.floor(Math.random()*(headerImages.length - 1));
 		headerImagesUrl = "//glossbossimages.s3.eu-central-1.amazonaws.com/headerimg/" + headerImages[random];
 		headerStyle.innerHTML = 'header {background: '+ headerGradient +', url('+ headerImagesUrl +') center 50%; background-size:cover}';
-		log(random)
 	}
 })(randomHeader);
 
