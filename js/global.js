@@ -3,18 +3,14 @@ document.addEventListener('DOMContentLoaded', function() {
 ////OZWzfR39aHECq9jy
 
 (function() {
-
 	var debug = true,
 	ls        = localStorage,
-	i, conf, postArr, hash;
-
+	i, conf, postArr, hash, out;
 	conf = {
 		maxPostReload: 5,
 		maxIndexPosts: 10
 	};
-
 	_ = function( elem ) {
-
 		elemSliced   = elem.slice(1, elem.length);
 		elemSelector = elem.charAt(0);
 		returnNode   = [];
@@ -134,6 +130,29 @@ document.addEventListener('DOMContentLoaded', function() {
 		});
 	};
 
+	ajax = function(url, method, data, cb, useJSON) {
+		xmlxhr = new XMLHttpRequest();
+		try {
+			
+			xmlxhr.onreadystatechange = function() {
+				if(xmlxhr.readyState == 4 && xmlxhr.status == 200) {
+					out = (useJSON) ? JSON.parse(xmlxhr.responseText) : xmlxhr.responseText;
+					cb(out);
+				}
+			};
+			if(method === "POST") {
+				xmlxhr.open(method, url);
+				xmlxhr.setRequestHeader("Content-Type", "application/json;charset=UTF-8");
+				xmlxhr.send(JSON.stringify(data));
+			} else {
+				xmlxhr.open(method, url);
+				xmlxhr.send();
+			}
+			
+		} catch(err) {
+			console.log("AJAX ERROR:" + err);
+		}
+	};
 	/**
 	 * check if this article is already read
 	 * @param  {[String]} post [the Post]
@@ -324,85 +343,156 @@ kontaktMessageError = _("#form_msg_error"),
 kontaktMessage      = _("#form_msg"),
 kontaktForm         = _(".kontakt__form"),
 kontaktPostContent  = _(".post--content"),
-kontaktLoading      = _("#loading");
+kontaktLoading      = _("#loading"),
+kontaktName         = _("#name"),
+kontaktMail         = _("#xyz"),
+kontaktNachricht    = _("#msg"),
+api                 = "R61bXP70NEnJXC2c__cvgg";
 
 
 if(kontaktLoading) kontaktLoading.style.opacity = '0';
 
 kontaktSubmit = function() {
-
-	jumpTo( kontaktMessage );
-				
-
-	var kontaktName  = _("#name"),
-	kontaktMail      = _("#xyz"),
-	kontaktNachricht = _("#msg");
-
+	//RESET
 	kontaktName.removeClass("form__error");
 	kontaktMail.removeClass("form__error");
 	kontaktNachricht.removeClass("form__error");
-
 	kontaktLoading.style.opacity = '1';
-
 	kontaktSenden.style.display = 'none';
-
 	kontaktMessage.innerHTML = '';
 
-	var data = new FormData();
-	data.append('name', kontaktName.value);
-	data.append('xyz', kontaktMail.value);
-	data.append('msg', kontaktNachricht.value);
-
-	var xhr = new XMLHttpRequest();
-	xhr.open('POST', 'mailajax.php', true);
-	
-	xhr.onload = function() {
-
-		_self = JSON.parse(this.responseText);
-
-		if(!_self.success) {
-
-			kontaktLoading.style.opacity = '0';
-
-			if(_self.errors.name) {
-
-				kontaktMessageError.innerHTML = '<span class="kontakt__error">' + _self.errors.name + '</span>';
-				kontaktMessageError.style.display = '';
-
-				kontaktSenden.style.display = '';
-
-				if( _self.errors.badmail ) {
-
-					kontaktMail.addClass("form__error");
-
+	//VALIDATE
+	if(kontaktName.value === "") {
+		kontaktName.addClass("form__error");
+		kontaktSenden.style.display = '';
+		log("name leer");
+	}
+	else if(kontaktNachricht.value === "") {
+		kontaktNachricht.addClass("form__error");
+		kontaktSenden.style.display = '';
+		log("msg leer");
+	}
+	else if(kontaktMail.value === "") {
+		kontaktMail.addClass("form__error");
+		kontaktSenden.style.display = '';
+		log("mail leer");
+	}
+	if(kontaktNachricht.value && kontaktName.value && kontaktMail.value) {
+		re = /\S+@\S+\.\S+/
+		if(!re.test(kontaktMail.value)) {
+			kontaktMessageError.innerHTML = '<span class="kontakt__error">eMail Adresse ungültig!</span>';
+			kontaktMessageError.style.display = '';
+			kontaktSenden.style.display = '';
+			log("Mail ungültig!")
+			return;
+		}
+		mail = {
+			"key": api,
+			"message": {
+				"text": kontaktNachricht.value,
+				"subject": "GLOSSBOSS Kontaktanfrage",
+				"from_email": kontaktMail.value,
+				"from_name": kontaktName.value,
+				"to": [
+				{
+				"email": "marvinmieth@icloud.com",
+				"name": "Marvin Mieth",
+				"type": "to"
 				}
-				if( _self.errors.badname ) {
-
-					kontaktName.addClass("form__error");
-
+				],
+				"headers": {
+				"Reply-To": kontaktMail.value
 				}
-				if( _self.errors.badmsg ) {
-					kontaktNachricht.addClass("form__error");
-				}
-			}
-		} else {
-			kontaktLoading.style.opacity = '0';
-			kontaktMessageError.style.display = 'none';
-			kontaktForm.style.display = 'none';
-			if( !_self.phpmail_bad ) {
+			},
+			"async": false,
+			"ip_pool": "Main Pool"
+		};
+		ajax("https://mandrillapp.com/api/1.0/messages/send.json", "POST", mail, function(data) {
+			if(data[0].status === "sent") {
+				kontaktLoading.style.opacity = '0';
+				kontaktMessageError.style.display = 'none';
+				kontaktForm.style.display = 'none';
 				kontaktPostContent.style.display = 'none';
 				kontaktMessage.innerHTML = '<span class="kontakt__success">Danke für deine eMail!</span>';
 			} else {
 				kontaktMessageError.style.display = '';
 				kontaktMessageError.innerHTML = '<span class="kontakt__error">Es gab ein Problem mit unseren eMail-Server. Bitte versuch es später nochmal oder schreibe direkt an mail@glossboss.de</span>';
 			}
-		}
+		}, true);
+	}
+}
 
-	};
+// kontaktSubmit = function() {
+// 	jumpTo( kontaktMessage );
+// 	var kontaktName  = _("#name"),
+// 	kontaktMail      = _("#xyz"),
+// 	kontaktNachricht = _("#msg");
 
-	xhr.send(data);
+// 	kontaktName.removeClass("form__error");
+// 	kontaktMail.removeClass("form__error");
+// 	kontaktNachricht.removeClass("form__error");
 
-};
+// 	kontaktLoading.style.opacity = '1';
+
+// 	kontaktSenden.style.display = 'none';
+
+// 	kontaktMessage.innerHTML = '';
+
+// 	var data = new FormData();
+// 	data.append('name', kontaktName.value);
+// 	data.append('xyz', kontaktMail.value);
+// 	data.append('msg', kontaktNachricht.value);
+
+// 	var xhr = new XMLHttpRequest();
+// 	xhr.open('POST', 'mailajax.php', true);
+	
+// 	xhr.onload = function() {
+
+// 		_self = JSON.parse(this.responseText);
+
+// 		if(!_self.success) {
+
+// 			kontaktLoading.style.opacity = '0';
+
+// 			if(_self.errors.name) {
+
+// 				kontaktMessageError.innerHTML = '<span class="kontakt__error">' + _self.errors.name + '</span>';
+// 				kontaktMessageError.style.display = '';
+
+// 				kontaktSenden.style.display = '';
+
+// 				if( _self.errors.badmail ) {
+
+// 					kontaktMail.addClass("form__error");
+
+// 				}
+// 				if( _self.errors.badname ) {
+
+// 					kontaktName.addClass("form__error");
+
+// 				}
+// 				if( _self.errors.badmsg ) {
+// 					kontaktNachricht.addClass("form__error");
+// 				}
+// 			}
+// 		} else {
+// 			kontaktLoading.style.opacity = '0';
+// 			kontaktMessageError.style.display = 'none';
+// 			kontaktForm.style.display = 'none';
+// 			if( !_self.phpmail_bad ) {
+// 				kontaktPostContent.style.display = 'none';
+// 				kontaktMessage.innerHTML = '<span class="kontakt__success">Danke für deine eMail!</span>';
+// 			} else {
+// 				kontaktMessageError.style.display = '';
+// 				kontaktMessageError.innerHTML = '<span class="kontakt__error">Es gab ein Problem mit unseren eMail-Server. Bitte versuch es später nochmal oder schreibe direkt an mail@glossboss.de</span>';
+// 			}
+// 		}
+
+// 	};
+
+// 	xhr.send(data);
+
+// };
 if( kontaktSenden ) {
 
 	kontaktSenden.addEventListener('click', function(e) {

@@ -2,18 +2,14 @@
 ////OZWzfR39aHECq9jy
 
 (function() {
-
 	var debug = true,
 	ls        = localStorage,
-	i, conf, postArr, hash;
-
+	i, conf, postArr, hash, out;
 	conf = {
 		maxPostReload: 5,
 		maxIndexPosts: 10
 	};
-
 	_ = function( elem ) {
-
 		elemSliced   = elem.slice(1, elem.length);
 		elemSelector = elem.charAt(0);
 		returnNode   = [];
@@ -133,6 +129,29 @@
 		});
 	};
 
+	ajax = function(url, method, data, cb, useJSON) {
+		xmlxhr = new XMLHttpRequest();
+		try {
+			
+			xmlxhr.onreadystatechange = function() {
+				if(xmlxhr.readyState == 4 && xmlxhr.status == 200) {
+					out = (useJSON) ? JSON.parse(xmlxhr.responseText) : xmlxhr.responseText;
+					cb(out);
+				}
+			};
+			if(method === "POST") {
+				xmlxhr.open(method, url);
+				xmlxhr.setRequestHeader("Content-Type", "application/json;charset=UTF-8");
+				xmlxhr.send(JSON.stringify(data));
+			} else {
+				xmlxhr.open(method, url);
+				xmlxhr.send();
+			}
+			
+		} catch(err) {
+			console.log("AJAX ERROR:" + err);
+		}
+	};
 	/**
 	 * check if this article is already read
 	 * @param  {[String]} post [the Post]
