@@ -4,7 +4,7 @@ title: "Ford Focus ST MK2 FL"
 author: "René"
 wps_subtitle: Le MansEdition - Pantherblack Metallic
 categories: Pflegeberichte
-head__img--fullurl: //glossbossimages.s3.eu-central-1.amazonaws.com/
+head__img--fullurl: //glossbossimages.s3.eu-central-1.amazonaws.com/RBdetailing/FordFocusSTMK2FL-LeMansEdition/DSC_0106.jpg
 markasnew: true
 ---
 ![](//glossbossimages.s3.eu-central-1.amazonaws.com/RBdetailing/FordFocusSTMK2FL-LeMansEdition/header.jpg)
