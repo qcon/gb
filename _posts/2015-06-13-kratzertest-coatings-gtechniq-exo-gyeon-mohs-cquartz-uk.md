@@ -98,7 +98,7 @@ Tag 1 des Tests währe damit auch abgeschlossen. Den Versiegelungen gewährte ic
 
 ###Tag 2
 
-Am nächsten Tag und der vollständigen Trocknung der SiO2 Versieglungen wurden dann die Abklebebänder im Innenbereich entfernt. Dies hat beim eigentlichen Kratzertest den Vorteil, dass auf einem kleinen Bereich drei Lackzustände vorhanden sind. Von links nach rechts --> 1x geschützt / unter dem Streifen ungeschützt / 3x geschützt.
+Am nächsten Tag und der vollständigen Trocknung der SiO2 Versiegelungen wurden dann die Abklebebänder im Innenbereich entfernt. Dies hat beim eigentlichen Kratzertest den Vorteil, dass auf einem kleinen Bereich drei Lackzustände vorhanden sind. Von links nach rechts --> 1x geschützt / unter dem Streifen ungeschützt / 3x geschützt.
 ![](//glossbossimages.s3.eu-central-1.amazonaws.com/chiller/kratzertest/Kratzertest28.jpg)
 
 ![](//glossbossimages.s3.eu-central-1.amazonaws.com/chiller/kratzertest/Kratzertest29.jpg)
