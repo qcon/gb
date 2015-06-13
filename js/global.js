@@ -349,34 +349,23 @@ kontaktMail         = _("#xyz"),
 kontaktNachricht    = _("#msg"),
 api                 = "R61bXP70NEnJXC2c__cvgg";
 
-
-if(kontaktLoading) kontaktLoading.style.opacity = '0';
-
 kontaktSubmit = function() {
 	//RESET
 	kontaktName.removeClass("form__error");
 	kontaktMail.removeClass("form__error");
 	kontaktNachricht.removeClass("form__error");
-	kontaktLoading.style.opacity = '1';
 	kontaktSenden.style.display = 'none';
 	kontaktMessage.innerHTML = '';
+	loader(1);
 
 	//VALIDATE
-	if(kontaktName.value === "") {
-		kontaktName.addClass("form__error");
-		kontaktSenden.style.display = '';
-		log("name leer");
-	}
-	else if(kontaktNachricht.value === "") {
-		kontaktNachricht.addClass("form__error");
-		kontaktSenden.style.display = '';
-		log("msg leer");
-	}
-	else if(kontaktMail.value === "") {
-		kontaktMail.addClass("form__error");
-		kontaktSenden.style.display = '';
-		log("mail leer");
-	}
+	[kontaktName, kontaktNachricht, kontaktMail].forEach(function(_self) {
+		if(_self.value === "") {
+			kontaktSenden.style.display = '';
+			_self.addClass("form__error");
+		}
+	});
+	//SEND
 	if(kontaktNachricht.value && kontaktName.value && kontaktMail.value) {
 		re = /\S+@\S+\.\S+/
 		if(!re.test(kontaktMail.value)) {
@@ -409,15 +398,16 @@ kontaktSubmit = function() {
 		};
 		ajax("https://mandrillapp.com/api/1.0/messages/send.json", "POST", mail, function(data) {
 			if(data[0].status === "sent") {
-				kontaktLoading.style.opacity = '0';
 				kontaktMessageError.style.display = 'none';
 				kontaktForm.style.display = 'none';
 				kontaktPostContent.style.display = 'none';
 				kontaktMessage.innerHTML = '<span class="kontakt__success">Danke für deine eMail!</span>';
+
 			} else {
 				kontaktMessageError.style.display = '';
 				kontaktMessageError.innerHTML = '<span class="kontakt__error">Es gab ein Problem mit unseren eMail-Server. Bitte versuch es später nochmal oder schreibe direkt an mail@glossboss.de</span>';
 			}
+			loader(0);
 		}, true);
 	}
 }
@@ -494,12 +484,9 @@ kontaktSubmit = function() {
 
 // };
 if( kontaktSenden ) {
-
 	kontaktSenden.addEventListener('click', function(e) {
-
 		e.preventDefault();
 		kontaktSubmit();
-
 	});
 }
 
