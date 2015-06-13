@@ -24,6 +24,7 @@ kontaktSubmit = function() {
 			kontaktSenden.style.display = '';
 			_self.addClass("form__error");
 		}
+		loader(0);
 	});
 	//SEND
 	if(kontaktNachricht.value && kontaktName.value && kontaktMail.value) {
@@ -32,7 +33,8 @@ kontaktSubmit = function() {
 			kontaktMessageError.innerHTML = '<span class="kontakt__error">eMail Adresse ungültig!</span>';
 			kontaktMessageError.style.display = '';
 			kontaktSenden.style.display = '';
-			log("Mail ungültig!")
+			log("Mail ungültig!");
+			loader(0);
 			return;
 		}
 		mail = {
