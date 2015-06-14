@@ -42,6 +42,7 @@ head__img--fullurl: //glossbossimages.s3.eu-central-1.amazonaws.com/headerimg/DS
   <p>
     46284 Dorsten
   </p>
+  <br />Für Artikel und Beiträge die nicht vom Website-Betreiber stammen ist der jeweiliger Author verantwortlich
 
   <p>
     <strong>Haftungsausschluss: </strong>
