@@ -43,7 +43,10 @@
 	</label>
 	<input type="checkbox" id="toggleMenu" role="button">
 		{% include menu_render.html %}
-  </div>
+		<div class="submenu">
+			{% include menu_render_sub.html %}
+		</div>
+	</div>
   <div class="header--logo">
 	<a href="https://glossboss.de" alt="Glossboss.de - Startseite"><img src="{{ "//glossbossimages.s3.eu-central-1.amazonaws.com/Glossboss-de-Logo.png" }}" alt=""></a>
   </div>

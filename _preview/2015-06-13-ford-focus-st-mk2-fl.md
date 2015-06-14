@@ -9,7 +9,7 @@ markasnew: true
 ---
 ![](//glossbossimages.s3.eu-central-1.amazonaws.com/RBdetailing/FordFocusSTMK2FL-LeMansEdition/header.jpg)
 
-# FORD FOCUS ST MK2 FL - LE MansEdiTION - PANTHERBLACK MÉT. - // Black is back!
+# FORD FOCUS ST MK2 FL - LE Mans Edition - PANTHERBLACK MÉT. - // Black is back!
 
 **Fahrzeugdaten:**
 
