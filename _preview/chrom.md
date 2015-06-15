@@ -16,6 +16,8 @@ Mit diesen einfachen Mitteln bekommst du Chrom auf absoluten Hochglanz.
 
 Du musst dir im klaren sein um was für ein Chromteil es sich handelt. Richtige Chromstoßstangen aus Metall sind meist nur an hochwertigen Oldtimern zu finden. In der Regel sind sämtliche Chromapplikationen aus Kunststoff und werden dann mit dieser Optik Lackiert oder bedampft. Diese Schicht ist extrem Dünn und kann schnell durchpoliert werden.
 
+Eine Anleitung zum Auspuffpolieren findest du [hier](/anleitungen/auspuffendrohre-polieren/).
+
 Diese Sachen brauchst du auf jeden Fall:
 
 * Chrompolitur (z.B. **Auto Finesse All Metal Polish**, **Meguiars NXT Metal Polish**, **Autosol**, **Menzerna Polishing Cream**)
@@ -43,14 +45,16 @@ Großflächige Chromteile werden mit einen Applikator bearbeitet. Hier wäre der
 
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/chrompolieren/P1020894.JPG)
 
-Kalkflecken auf Chrom sind kein Problem mit den oben genannten Methoden:
+Kalkflecken auf satiniertem Aluminium (oder im normalen Sprachgebrauch *Chromzierleisten*) sind kein Problem mit den oben genannten Methoden:
 ![](//glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/porsche_macan/A033.jpg)
 
 ![](//glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/porsche_macan/A034.jpg)
 
+Generell solltest du bei leicht verschmutzten Chrom kein besonders großen Druck aufbringen. 
+
 #Schritt 2.1
 
-Wie du sicherlich schon bemerkt hast, wird dein Tuch bzw. dein Applikator sehr schnell schwarz. Das ist der Abrieb der entsteht, wenn Metall poliert wird. Du solltest unbedingt zwischendurch das Polierwerkzeug wechseln, also eine andere Ecke vom Tuch benutzen (du hast 8 davon) oder den Applikator drehen. 
+Wie du sicherlich schon bemerkt hast, wird dein Tuch bzw. dein Applikator sehr schnell schwarz. Das ist der Abrieb der entsteht, wenn Metall poliert wird. Du solltest unbedingt zwischendurch das Polierwerkzeug wechseln, also eine andere Ecke vom Tuch benutzen (du hast 8 davon) oder den Applikator drehen.
 
 #Schritt 3
 
