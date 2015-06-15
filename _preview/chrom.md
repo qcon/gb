@@ -8,7 +8,7 @@ wps_subtitle:
 categories:
   - Anleitungen
 markasnew: true
---- 
+---
 Egal ob hochglanzpoliert, galvanisch verchromt oder Kunststoffteile mit einer Chromoptik (Lackiert oder bedampft) - es muss glänzen!
 Mit diesen einfachen Mitteln bekommst du Chrom auf absoluten Hochglanz. 
 
