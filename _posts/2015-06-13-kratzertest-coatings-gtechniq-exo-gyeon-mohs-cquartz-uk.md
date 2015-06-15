@@ -2,7 +2,7 @@
 layout: post
 title: "Glossboss testet: Kratzfestigkeit von Quarz basierten Versiegelungen"
 author: "Ronny"
-wps_subtitle: was steckt hinter den versprechen der Hersteller?
+wps_subtitle: was steckt hinter den versprechen der Hersteller? (UPDATE nach 9 Tagen!)
 categories: Allgemein
 head__img--fullurl: //glossbossimages.s3.eu-central-1.amazonaws.com/chiller/kratzertest/Kratzertest47.jpg
 markasnew: true
