@@ -9,6 +9,8 @@
 		maxPostReload: 5,
 		maxIndexPosts: 10
 	};
+	$ = document.querySelector.bind(document);
+	$$ = document.querySelectorAll.bind(document);
 	_ = function( elem ) {
 		elemSliced   = elem.slice(1, elem.length);
 		elemSelector = elem.charAt(0);

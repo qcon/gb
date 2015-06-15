@@ -10,6 +10,8 @@ document.addEventListener('DOMContentLoaded', function() {
 		maxPostReload: 5,
 		maxIndexPosts: 10
 	};
+	$ = document.querySelector.bind(document);
+	$$ = document.querySelectorAll.bind(document);
 	_ = function( elem ) {
 		elemSliced   = elem.slice(1, elem.length);
 		elemSelector = elem.charAt(0);
@@ -386,13 +388,13 @@ kontaktSubmit = function() {
 				"from_name": kontaktName.value,
 				"to": [
 				{
-				"email": "marvinmieth@icloud.com",
-				"name": "Marvin Mieth",
-				"type": "to"
+					"email": "marvinmieth@icloud.com",
+					"name": "Marvin Mieth",
+					"type": "to"
 				}
 				],
 				"headers": {
-				"Reply-To": kontaktMail.value
+					"Reply-To": kontaktMail.value
 				}
 			},
 			"async": false,

@@ -180,3 +180,47 @@ Welche Erfahrung habt Ihr mit vergleichbaren Versiegelungen und Kratzern gemacht
 Bis dahin, Grüße aus Dortmund
 
 Ronny alias chiller
+
+#UPDATE 9 Tage später
+
+Eure Resonanz sowie Reaktionen und Kommentare waren enorm, vielen Dank dafür. Eure Bemerkung, dass die Versiegelung erst nach 7 Tagen richtig ausgehärtet sei, nehmen wir natürlich gerne an und haben es daher nach weiteren 9 Tagen wieder getestet. Der Kratztest wurde wie ursprünglich durchgeführt, diesmal jedoch 90° versetzt zu den alten Kratzern.
+
+![](https://glossbossimages.s3.eu-central-1.amazonaws.com/chiller/kratzertest/t2/KratztestTeil201.jpg)
+
+
+###Gtechniq EXO
+
+Die kleinen Markierungen sind auch hier wieder für eine besseren Zuordnung mit auf dem Bild. 
+![](https://glossbossimages.s3.eu-central-1.amazonaws.com/chiller/kratzertest/t2/KratztestTeil202.jpg)
+
+![](https://glossbossimages.s3.eu-central-1.amazonaws.com/chiller/kratzertest/t2/KratztestTeil203.jpg)
+
+![](https://glossbossimages.s3.eu-central-1.amazonaws.com/chiller/kratzertest/t2/KratztestTeil204.jpg)
+
+![](https://glossbossimages.s3.eu-central-1.amazonaws.com/chiller/kratzertest/t2/KratztestTeil205.jpg)
+
+
+###CarPro CQuartz UK
+
+Die Kante des unversiegelten (links)/versiegelten (rechts) Bereichs läuft direkt unter dem "C" entlang. Auch hier ist heute keine verminderte Kratzunempfindlichkeit zu sehen.
+![](https://glossbossimages.s3.eu-central-1.amazonaws.com/chiller/kratzertest/t2/KratztestTeil206.jpg)
+
+![](https://glossbossimages.s3.eu-central-1.amazonaws.com/chiller/kratzertest/t2/KratztestTeil207.jpg)
+
+![](https://glossbossimages.s3.eu-central-1.amazonaws.com/chiller/kratzertest/t2/KratztestTeil208.jpg)
+
+
+###Gyeon MOHS
+
+Auch hier ist die Kante wieder direkt under dem "M". 
+![](https://glossbossimages.s3.eu-central-1.amazonaws.com/chiller/kratzertest/t2/KratztestTeil209.jpg)
+
+Was man hier schön sieht und bei allen drei getesteten Kandidaten vergleichbar gut war, ist die Lackglätte. Links im unversiegelten Bereich wirkt die Oberfläche unebener. Auf der rechten mit MOHS versiegelten Seite wirkt es wie poliert. Doch leider sind auch hier nach 9 Tagen wieder Kratzer drin.
+![](https://glossbossimages.s3.eu-central-1.amazonaws.com/chiller/kratzertest/t2/KratztestTeil210.jpg)
+
+![](https://glossbossimages.s3.eu-central-1.amazonaws.com/chiller/kratzertest/t2/KratztestTeil211.jpg)
+
+![](https://glossbossimages.s3.eu-central-1.amazonaws.com/chiller/kratzertest/t2/KratztestTeil212.jpg)
+
+Und? Was sagt Ihr nun? 
+Intern haben auch wir viel darüber diskutiert und ich denke am Ende steht ein Ergebnis fest, welches von mir nicht weiter kommentiert werden muss. Der Kratztest wird in vergleichbarer Form auf jeden Fall mit anderen Produkten noch einmal wiederholt. Welche es genau sein werden, wissen wir noch nicht genau. Ihr könnt uns auf Facebook dazu gerne weitere Vorschläge machen.

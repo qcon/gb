@@ -46,13 +46,13 @@ kontaktSubmit = function() {
 				"from_name": kontaktName.value,
 				"to": [
 				{
-				"email": "marvinmieth@icloud.com",
-				"name": "Marvin Mieth",
-				"type": "to"
+					"email": "marvinmieth@icloud.com",
+					"name": "Marvin Mieth",
+					"type": "to"
 				}
 				],
 				"headers": {
-				"Reply-To": kontaktMail.value
+					"Reply-To": kontaktMail.value
 				}
 			},
 			"async": false,
