@@ -88,6 +88,29 @@ task :build => [:css_scss, :js] do
 	puts "Ready to deploy!".green
 end
 
+desc "AWS S3 Deploy Task - build all files, commit changes, gzip and push"
+task :deploys3 do
+	#Commit Message
+	puts "Commit Message:".magenta
+	message = $stdin.gets.chomp
+	message += " rake_auto_push"
+	#Increase Version?
+	puts "Increase Version?"
+	inc_ver = $stdin.gets.chomp
+	unless inc_ver.empty?
+		Rake::Task[:inc].invoke 
+	end
+	Rake::Task[:css_scss].invoke
+	Rake::Task[:js].invoke
+	Rake::Task[:jekyll_build].invoke
+	Rake::Task[:gzip].invoke
+	#Rake::Task[:pushs3].invoke
+	execute("git add .")
+	execute("git commit -m \"#{message}\"")
+	#execute("git push github")
+
+end
+
 desc "Deploy Task - build all, commit all changes and push"
 task :deploy, :message do |t, args|
 	message = args[:message]
@@ -100,7 +123,6 @@ task :deploy, :message do |t, args|
 	inc_version = $stdin.gets.chomp
 	unless inc_version.empty?
 		Rake::Task[:inc].invoke 
-		puts "Increased".green
 	end
 	Rake::Task[:css_scss].invoke
 	Rake::Task[:js].invoke
@@ -111,10 +133,10 @@ end
 
 desc "auto increase Versionnumber"
 task :inc do
-	
 	execute("mv posts.#{get_version}.json posts.#{get_version+1}.json")
 	execute("mv dist/global.#{get_version}.js dist/global.#{get_version+1}.js")
 	yml_cfg["cssjsversion"] += 1
+	puts "Increased #{yml_cfg["cssjsversion"]-1} => #{yml_cfg["cssjsversion"]}".magenta
 	File.open("#{CONFIG[:config_file]}", "w") { |f| YAML.dump(yml_cfg, f)}
 end
 
