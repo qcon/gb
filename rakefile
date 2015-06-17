@@ -104,10 +104,10 @@ task :deploys3 do
 	Rake::Task[:js].invoke
 	Rake::Task[:jekyll_build].invoke
 	Rake::Task[:gzip].invoke
-	#Rake::Task[:pushs3].invoke
+	Rake::Task[:pushs3].invoke
 	execute("git add .")
 	execute("git commit -m \"#{message}\"")
-	#execute("git push github")
+	execute("git push github")
 
 end
 
