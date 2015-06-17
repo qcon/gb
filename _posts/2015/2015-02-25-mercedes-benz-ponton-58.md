@@ -2,7 +2,7 @@
 title: Mercedes Benz Ponton '58
 author: Jones
 layout: post
-head__img--fullurl: //glossbossimages.s3.eu-central-1.amazonaws.com/marvin/sonstige/55.jpg
+head__img--fullurl: https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/sonstige/55.jpg
 wps_subtitle:
   - 'Ein glänzender Meilenstein'
 categories:
@@ -16,7 +16,7 @@ pdf_version: jap
 **Laufleistung**: 70.950km   
 **Name**: Wilhelm   
 
-![Mercedes Ponton'58](//glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/mb_ponton/01.jpg)   
+![Mercedes Ponton'58](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/mb_ponton/01.jpg)   
  
 
 ###Verwendete Produkte   
@@ -119,14 +119,14 @@ Anschließend mit einem Microfasertuch (MFT) trocknen.
 Dieses geschah Bauteilweise, beginnend mit den am wenigsten verschmutzen.   
 
 Aufsprühen ...
-![ONR-Mischung aufsprühen](//glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/mb_ponton/02.jpg)   
-![ONR-Mischung aufsprühen](//glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/mb_ponton/03.jpg)   
+![ONR-Mischung aufsprühen](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/mb_ponton/02.jpg)   
+![ONR-Mischung aufsprühen](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/mb_ponton/03.jpg)   
 
 waschen,   
-![waschen](//glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/mb_ponton/04.jpg)   
+![waschen](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/mb_ponton/04.jpg)   
 
 kneten und trocknen.   
-![trocken](//glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/mb_ponton/05.jpg)
+![trocken](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/mb_ponton/05.jpg)
 
  
 
@@ -155,8 +155,8 @@ Hier im unteren Bild sieht man links den Ausgangszustand, Waschkratzer aber auch
 **1. Versuch**: menzerna 2500 auf orangem Lake Country Pad, **nicht** optimal, mehr Biss nötig.   
 Die menzerna 2500 durch die 2200 *(3. Foto)* ersetzt und nochmal an neuer Stelle probiert. Passt, Nacharbeit jedoch weiterhin nötig.   
 
-![menzerna 2500](//glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/mb_ponton/06.jpg)   
-![menzerna 2500](//glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/mb_ponton/07.jpg)   
+![menzerna 2500](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/mb_ponton/06.jpg)   
+![menzerna 2500](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/mb_ponton/07.jpg)   
 
 
 **Hier dann die Variante mit:**   
@@ -166,64 +166,64 @@ Die menzerna 2500 durch die 2200 *(3. Foto)* ersetzt und nochmal an neuer Stelle
 - 3-4 Kreuzstriche, die einzelnen Bahnen 50% überlappend.  
 
 An besonders betroffenen Stellen waren **2 Runden** nach selbigem Schema nötig.  
-![menzerna 2200](//glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/mb_ponton/08.jpg)   
-![menzerna 2200](//glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/mb_ponton/09.jpg)  
+![menzerna 2200](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/mb_ponton/08.jpg)   
+![menzerna 2200](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/mb_ponton/09.jpg)  
 
 An der C-Säule war der Zustand noch "ok", also nichts richtig beunruhigendes...   
-![C-Säule 50/50](//glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/mb_ponton/10.jpg)  
-![C-Säule 50/50](//glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/mb_ponton/11.jpg)  
-![C-Säule nachher](//glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/mb_ponton/12.jpg)  
-![C-Säule nachher](//glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/mb_ponton/13.jpg)  
+![C-Säule 50/50](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/mb_ponton/10.jpg)  
+![C-Säule 50/50](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/mb_ponton/11.jpg)  
+![C-Säule nachher](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/mb_ponton/12.jpg)  
+![C-Säule nachher](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/mb_ponton/13.jpg)  
 
 Die Chromleisten *-welche es am Ponton zu Hauf gibt-* sahen meist arg mitgenommen und wild aus - hier war ich chancenlos.   
-![Chromleisten und Schleifspuren:()](//glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/mb_ponton/14.jpg)   
+![Chromleisten und Schleifspuren:()](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/mb_ponton/14.jpg)   
 
 Beim Lack hingegen ging so einiges, die unliebsamen trüben Hinterlassenschaften unfähiger Lackierer...   
-![Schleifspuren](//glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/mb_ponton/15.jpg)  
+![Schleifspuren](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/mb_ponton/15.jpg)  
 
 Auf dem Kofferraumdeckel fanden sich neben den üblichen Waschkratzerchen und Hologrammen auch vereinzelt tiefere Kratzer *(1+3.Bild)*, diese wurden mittels **3000er Kovax-Trockenschleifblatt** herausgeschliffen und die entstandenen Schleifspuren durch Polieren beseitigt.   
-![Kofferraumdeckel vorher](//glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/mb_ponton/16.jpg)  
-![Kofferraumdeckel](//glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/mb_ponton/17.jpg)  
-![Kofferraumdeckel](//glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/mb_ponton/18.jpg)  
-![Kofferraumdeckel 50/50](//glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/mb_ponton/19.jpg)  
+![Kofferraumdeckel vorher](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/mb_ponton/16.jpg)  
+![Kofferraumdeckel](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/mb_ponton/17.jpg)  
+![Kofferraumdeckel](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/mb_ponton/18.jpg)  
+![Kofferraumdeckel 50/50](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/mb_ponton/19.jpg)  
 
 Je nach **Lichtintensität /-farbe** sieht man andere Lackdefekte besser, warmes schwaches Licht für tiefe Defekte, helle kaltes für feine Hologramme.   
-![Kofferraumdeckel](//glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/mb_ponton/20.jpg)  
-![Kofferraumdeckel](//glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/mb_ponton/21.jpg)  
+![Kofferraumdeckel](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/mb_ponton/20.jpg)  
+![Kofferraumdeckel](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/mb_ponton/21.jpg)  
 
 Vereinzelte Stippchen / Sprenkel blieben drin, die Besserung aber merklich.   
-![Kofferraumdeckel](//glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/mb_ponton/22.jpg)   
+![Kofferraumdeckel](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/mb_ponton/22.jpg)   
 
 Hier mal am die hintere Tür auf der Fahrerseite...   
-![Fondtür Fahrerseite](//glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/mb_ponton/23.jpg)   
+![Fondtür Fahrerseite](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/mb_ponton/23.jpg)   
 
 An der Kante noch nicht perfekt, ist ja nur zum Vergleich. Die "Vergleichskante" wird durch großzügiges **Überlappen** der einzelnen Arbeitsflächen perfekt rauspoliert.   
-![Fondtür Fahrerseite](//glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/mb_ponton/24.jpg)   
+![Fondtür Fahrerseite](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/mb_ponton/24.jpg)   
    
 **"Fifty shades of grey"** - Das grau der Tür war einige Nuancen zu hell im Vergleich zur Karosserie, den Vogel schoss aber der geschwungene Kotflügelfortsatz auf der Tür ab, wolkig / ungleichmäßig lackiert.  
-![Fondtür Fahrerseite](//glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/mb_ponton/25.jpg)   
+![Fondtür Fahrerseite](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/mb_ponton/25.jpg)   
    
 Die vorderen Türen oberhalb der Zierleisten waren der **schlimmste Bereich** des Wagens, hier wurd das "Polier-Schaf" alias Fell so richtig durchgenommen...   
-![Tür Fahrerseite](//glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/mb_ponton/26.jpg)   
-![Tür Fahrerseite](//glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/mb_ponton/27.jpg)   
+![Tür Fahrerseite](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/mb_ponton/26.jpg)   
+![Tür Fahrerseite](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/mb_ponton/27.jpg)   
    
 Ein beachtlicher Grauschleier auf Grau, gehört sich nicht - also weg damit!
-![Tür Fahrerseite](//glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/mb_ponton/28.jpg)   
-![Tür Fahrerseite](//glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/mb_ponton/29.jpg)   
+![Tür Fahrerseite](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/mb_ponton/28.jpg)   
+![Tür Fahrerseite](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/mb_ponton/29.jpg)   
    
     
    
 Nach der eigentlichen **Defektkorrektur** ging es dann einen Schritt weiter Richtung **Glanz**, denn: **Mehr Glanz ist nicht genug!**   
 
 Es folgte eine Runde **3M Antihologrammpolitur**, auf einem **weichen schwarzen LakeCountry Pad**, Drehzahl der Flex lag wieder bei **ca.1300 Umdrehungen / Minute**.
-![...nach 3M Anti-Hologramm](//glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/mb_ponton/30.jpg)   
-![...nach 3M Anti-Hologramm](//glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/mb_ponton/31.jpg)   
-![...nach 3M Anti-Hologramm](//glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/mb_ponton/32.jpg)   
-![...nach 3M Anti-Hologramm](//glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/mb_ponton/33.jpg)   
-![...nach 3M Anti-Hologramm](//glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/mb_ponton/34.jpg)   
+![...nach 3M Anti-Hologramm](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/mb_ponton/30.jpg)   
+![...nach 3M Anti-Hologramm](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/mb_ponton/31.jpg)   
+![...nach 3M Anti-Hologramm](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/mb_ponton/32.jpg)   
+![...nach 3M Anti-Hologramm](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/mb_ponton/33.jpg)   
+![...nach 3M Anti-Hologramm](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/mb_ponton/34.jpg)   
    
 Könnt man fasst so lassen, aber es fehlt einfach noch die **Kirsche auf der Torte**!   
-![Da geht noch mehr ;)](//glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/mb_ponton/35.jpg)   
+![Da geht noch mehr ;)](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/mb_ponton/35.jpg)   
 
       
    
@@ -239,7 +239,7 @@ Das Zeug ist jedoch mehr als "Glasur / Füllpolitur" zu betrachten. Zuvor nicht 
 Lupus T6100 Pro **Exzenter**poliermaschine auf **Stufe 3-4**, **weiches Lake County Finishing Pad**.   
 Anfangs zum Pad "primen" 4 **erbsengroße Klekse** aufs Pad, anschließend genügen derer **zwei**.   
 1 Kreuzstrich, ohne Druck / nur Maschinengewicht. Bauteilweise arbeiten oder direkt den ganzen Wagen damit abfahren und erst dann abwischen - völlig egal. Total easy und entspannend.   
-![Pre-Wax Cleaner)](//glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/mb_ponton/36.jpg)   
+![Pre-Wax Cleaner)](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/mb_ponton/36.jpg)   
    
         
 
@@ -250,7 +250,7 @@ Für mich ists eine kleine Kampfansage an die bekannteren "Wachsriesen".
 Das Pad einmal durch den edelen Glastiegel streichen und dann in kreisenden, sich überlappenden Bahne das Wachs richtig **dünn** auftragen, ein leichter gleichmäßiger "Fettfilm" sollte nur quasi nur zu erahnen sein.   
 Dieses Edelwachs mag **keine** langen Ablüftzeiten, 3-5 Minuten maximal, dann abwischen, über Kreuz.   
 Bauteilweise einwachsen, ablüften lassen und abwischen, wofür ich stets weiche, langfaserie Microfasertücher bevorzeuge.
-![Definitive Wax Show Edition](//glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/mb_ponton/37.jpg)   
+![Definitive Wax Show Edition](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/mb_ponton/37.jpg)   
 
   
 
@@ -265,35 +265,35 @@ Aus letzterem Grund hab ich mich **gegen** eine Lederreinigung entscheiden, auch
 Zweimal wurde das Leder mit der Leder-Tiefenpflege behandelt.   
 Beim ersten Durchgang richtig großzügig; das Leder hatte die Petzoldt Leder-Tiefenpflege förmlich aufgesogen, somit sollte später eine 2. Runde folgen, jedoch dünner. 5 Minuten nach dem 2. Auftrag verteilte ich die Reste noch kurz mit dem Applikator. Nach weiteren 5 Minuten wurden die Reste mit einem weichen Microfasertuch abgewischt.   
 
-![Innenraum](//glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/mb_ponton/38.jpg)   
-![Innenraum](//glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/mb_ponton/40.jpg)   
-![Innenraum](//glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/mb_ponton/39.jpg)   
+![Innenraum](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/mb_ponton/38.jpg)   
+![Innenraum](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/mb_ponton/40.jpg)   
+![Innenraum](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/mb_ponton/39.jpg)   
 
   
 
 ##Finish-Fotos   
 Raus an die Sonne, das Wachs noch etwas "schmelzen" lassen.   
-![Finish](//glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/mb_ponton/41.jpg)   
-![Finish](//glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/mb_ponton/42.jpg)   
-![Finish](//glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/mb_ponton/43.jpg)   
-![Finish](//glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/mb_ponton/44.jpg)   
-![Finish](//glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/mb_ponton/45.jpg)   
-![Finish](//glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/mb_ponton/46.jpg)   
-![Finish](//glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/mb_ponton/47.jpg)   
-![Finish](//glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/mb_ponton/48.jpg)   
-![Finish](//glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/mb_ponton/49.jpg)   
-![Finish](//glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/mb_ponton/50.jpg)   
-![Finish](//glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/mb_ponton/51.jpg)   
-![Finish](//glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/mb_ponton/52.jpg)   
+![Finish](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/mb_ponton/41.jpg)   
+![Finish](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/mb_ponton/42.jpg)   
+![Finish](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/mb_ponton/43.jpg)   
+![Finish](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/mb_ponton/44.jpg)   
+![Finish](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/mb_ponton/45.jpg)   
+![Finish](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/mb_ponton/46.jpg)   
+![Finish](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/mb_ponton/47.jpg)   
+![Finish](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/mb_ponton/48.jpg)   
+![Finish](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/mb_ponton/49.jpg)   
+![Finish](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/mb_ponton/50.jpg)   
+![Finish](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/mb_ponton/51.jpg)   
+![Finish](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/mb_ponton/52.jpg)   
 
 Gegen **19:30** versteckte sich die untergehende Sonne hinter Nachbars Haus, somit hier noch ein paar Fotos **ohne direktes Sonnenlicht**. Kommt bei diesem Uni-Lack einfach herrlich.
 
-![Finish](//glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/mb_ponton/53.jpg)   
-![Finish](//glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/mb_ponton/54.jpg)   
-![Finish](//glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/mb_ponton/55.jpg)   
-![Finish](//glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/mb_ponton/56.jpg)   
-![Finish](//glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/mb_ponton/57.jpg)   
-![Finish](//glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/mb_ponton/58.jpg)   
+![Finish](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/mb_ponton/53.jpg)   
+![Finish](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/mb_ponton/54.jpg)   
+![Finish](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/mb_ponton/55.jpg)   
+![Finish](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/mb_ponton/56.jpg)   
+![Finish](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/mb_ponton/57.jpg)   
+![Finish](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/mb_ponton/58.jpg)   
 
 Der Spass dauerte volle **10 Stunden**. Wiedermal zeigt sich, dass **mehr Glanz nicht genug** ist und es **nicht immer Gold ist was glänzt**!.   
 Die Besitzer schwärmten bereits als sie mich während des Wachs-Auftrags besuchten.   

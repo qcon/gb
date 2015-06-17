@@ -3,7 +3,7 @@ title: 'Im Test: 4 Microfiber Madness Tücher'
 author: Marvin
 pdf_version: jap
 layout: post
-head__img--fullurl: //glossbossimages.s3.eu-central-1.amazonaws.com/headerimg/mmtest.jpg
+head__img--fullurl: https://glossbossimages.s3.eu-central-1.amazonaws.com/headerimg/mmtest.jpg
 ftf_open_type:
   - 
 wps_subtitle:
@@ -40,7 +40,7 @@ Ein Mikrofasertuch speziell für Glasscheiben hat eigentlich nur [2 Aufgaben][1]
 
 &nbsp;
 
-![Microfiber Madness Test](//glossbossimages.s3.eu-central-1.amazonaws.com/local/mmtest/P1020085.jpg)
+![Microfiber Madness Test](https://glossbossimages.s3.eu-central-1.amazonaws.com/local/mmtest/P1020085.jpg)
 
 &nbsp;
 
@@ -56,7 +56,7 @@ Ein schweres, ultra weiches Mikrofasertuch ohne Rand und einem Flächengewicht v
 
 &nbsp;
 
-src="![Microfiber Madness Test](//glossbossimages.s3.eu-central-1.amazonaws.com/local/mmtest/P1020084.jpg)
+src="![Microfiber Madness Test](https://glossbossimages.s3.eu-central-1.amazonaws.com/local/mmtest/P1020084.jpg)
 
 &nbsp;
 
@@ -74,7 +74,7 @@ Selbst das Slogger ist ultraschallgeschnitten &#8211; d.h. auch das Tuch besitzt
 
 &nbsp;
 
-![Microfiber Madness Test](//glossbossimages.s3.eu-central-1.amazonaws.com/local/mmtest/P1020083.jpg)
+![Microfiber Madness Test](https://glossbossimages.s3.eu-central-1.amazonaws.com/local/mmtest/P1020083.jpg)
 
 &nbsp;
 
@@ -90,7 +90,7 @@ Und Politur abnehmen sollte auch die primäre Einsatzgebiet vom Yellow Fellow 2.
 
 &nbsp;
 
-![Microfiber Madness Test](//glossbossimages.s3.eu-central-1.amazonaws.com/local/mmtest/P1020087.jpg)
+![Microfiber Madness Test](https://glossbossimages.s3.eu-central-1.amazonaws.com/local/mmtest/P1020087.jpg)
 
 &nbsp;
 

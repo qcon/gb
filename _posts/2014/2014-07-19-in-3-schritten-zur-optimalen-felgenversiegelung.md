@@ -3,7 +3,7 @@ title: In 3 Schritten zur optimalen Felgenversiegelung
 author: Marvin
 pdf_version: jap
 layout: post
-head__img--fullurl: //glossbossimages.s3.eu-central-1.amazonaws.com/headerimg/3schrittefelgenversiegelung.jpg
+head__img--fullurl: https://glossbossimages.s3.eu-central-1.amazonaws.com/headerimg/3schrittefelgenversiegelung.jpg
 wps_subtitle:
   - Und ein Fehler, den du unbedingt vermeiden solltest
 categories:
@@ -48,7 +48,7 @@ Hier in der Anleitung wird das Auto Finesse Mint Rims genutzt.
 
 Die Felgen wurden vom Bremsstaub und sonstiges Schmutz zuerst mit dem ValetPRO Bilberry Felgenreiniger gesäubert
 
-![Felgenversiegelung](//glossbossimages.s3.eu-central-1.amazonaws.com/local/felgenversiegelung/IMG_8328.jpg)
+![Felgenversiegelung](https://glossbossimages.s3.eu-central-1.amazonaws.com/local/felgenversiegelung/IMG_8328.jpg)
 
 &nbsp;
 
@@ -62,7 +62,7 @@ Der 2. Schriitt ist extrem wichtig. Damit die Versiegelung bzw. das Felgenwachs 
 
 Manche Konservierungen besitzen einen spezifischen Vorreiniger, den du einsetzen solltest. Im Beispiel nutze ich Isopropanolakohol in einer <span style="text-decoration: underline;">50:50</span> Mischung, welcher im Zweifel immer geht wenn nichts anderes zur Hand ist.
 
-![Felgenversiegelung](//glossbossimages.s3.eu-central-1.amazonaws.com/local/felgenversiegelung/IMG_8332.jpg)
+![Felgenversiegelung](https://glossbossimages.s3.eu-central-1.amazonaws.com/local/felgenversiegelung/IMG_8332.jpg)
 
 &nbsp;
 
@@ -74,7 +74,7 @@ Die Felge wird mit 4-5 Sprühstößen eingenebelt und danach mit einen **neuen**
 
 Nun wird das Felgenwachs in 2 dünnen Schichten auf die Felge aufgetragen. Auf Felgen empfehle ich immer 2 Schichten, da man bei den ganzen Ecken und Kanten leicht eine Stelle vergisst mitzuwachsen. Die 2. Schicht sorgt beim Mint Rims fürs mehr Standzeit und stellt sicher, dass die Felgenoberfläche überall geschützt ist.
 
-![Felgenversiegelung](//glossbossimages.s3.eu-central-1.amazonaws.com/local/felgenversiegelung/IMG_8333.jpg)
+![Felgenversiegelung](https://glossbossimages.s3.eu-central-1.amazonaws.com/local/felgenversiegelung/IMG_8333.jpg)
 
 &nbsp;
 

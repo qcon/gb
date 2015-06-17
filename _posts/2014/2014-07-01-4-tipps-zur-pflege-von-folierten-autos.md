@@ -2,7 +2,7 @@
 title: 4 Tipps zur Pflege von Folierten Autos
 author: Marvin
 layout: post
-head__img--fullurl: //glossbossimages.s3.eu-central-1.amazonaws.com/headerimg/folie.jpg
+head__img--fullurl: https://glossbossimages.s3.eu-central-1.amazonaws.com/headerimg/folie.jpg
 wps_subtitle:
   - Wie du dein foliertes Auto richtig pflegst
 dsq_thread_id:

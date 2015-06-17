@@ -1,7 +1,7 @@
 ---
 title: Matte/vergilbte Scheinwerfer aufbereiten
 author: Jones
-head__img--fullurl: //glossbossimages.s3.eu-central-1.amazonaws.com/headerimg/mattescheinwerfer.jpg
+head__img--fullurl: https://glossbossimages.s3.eu-central-1.amazonaws.com/headerimg/mattescheinwerfer.jpg
 layout: post
 pdf_version: jap
 wps_subtitle:
@@ -20,7 +20,7 @@ Letzteres möchte ich euch nun an einem Beispiel zeigen &#8230;
 
 Den heutige Kandidaten kurzerhand aus der Schrotttonne (m)einer alten Werkstatt gezogen. Gut trübe und stumpf die &#8220;Streuscheibe&#8221;. Perfekt.
 
-![Matte Schweinwerfer aufbereiten](//glossbossimages.s3.eu-central-1.amazonaws.com/jones/anleitungen/scheinwerfer/02.jpg)
+![Matte Schweinwerfer aufbereiten](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/anleitungen/scheinwerfer/02.jpg)
 
 &nbsp;
 
@@ -36,27 +36,27 @@ Mit 20-30 Euro solltet ihr gut hinkommen, zudem kan man das Material mehrmals be
 *   [Klebeband][9], zum Schutze des Lackes (<a title="HPX Bänder" href="http://www.petzoldts.de/shop/Spezial-Klebeband,-Fahrzeugaufbereitung,-Lackdesign,-19-mm,-HPX-p-1788.html" target="_blank">Alternative</a>)
 *   IPA + Sprühdose Klarlack, oder eine gute Versiegelung zwecks Schutz
 
-![Matte Schweinwerfer aufbereiten](//glossbossimages.s3.eu-central-1.amazonaws.com/jones/anleitungen/scheinwerfer/01.jpg)
+![Matte Schweinwerfer aufbereiten](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/anleitungen/scheinwerfer/01.jpg)
 
 &nbsp;
 
 Je nach Zustand der Scheinwerfer erfolgt der erste grobe Nassschliff.  
 Ich nutz inzwischen gern zu Beginn ein P800-Schleifpapier, bei ganz runtergerockten Scheinwerfern könnte man mit P400 oder gar P320 die Beschädigungen herrausschleifen.
 
-![Matte Schweinwerfer aufbereiten](//glossbossimages.s3.eu-central-1.amazonaws.com/jones/anleitungen/scheinwerfer/03.jpg)
+![Matte Schweinwerfer aufbereiten](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/anleitungen/scheinwerfer/03.jpg)
 
 &nbsp;
 
 Geschliffen wird meist in mehreren Stufen &#8211; *Vorschlaghammer*, *grob, mittel, fein* &#8211; abhängig vom Zustand der Scheinwerfer, enden sollte das ganze bei mindestens P3000, gern auch P4000.  
 Wer mag kann für die feineren Schritte auch zu Schleifscheiben für die Maschine greifen, die Defekte lassen sich anfangs gezielt und besser via Hand beseitigen.
 
-![Matte Schweinwerfer aufbereiten](//glossbossimages.s3.eu-central-1.amazonaws.com/jones/anleitungen/scheinwerfer/04.jpg)
+![Matte Schweinwerfer aufbereiten](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/anleitungen/scheinwerfer/04.jpg)
 
 &nbsp;
 
 Nach dem ganzen Nassschleifen wird poliert.
 
-![Matte Schweinwerfer aufbereiten](//glossbossimages.s3.eu-central-1.amazonaws.com/jones/anleitungen/scheinwerfer/05.jpg)
+![Matte Schweinwerfer aufbereiten](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/anleitungen/scheinwerfer/05.jpg)
 
 &nbsp;
 
@@ -66,14 +66,14 @@ Nach dem ganzen Nassschleifen wird poliert.
 
 Nassschleifpapier um ein Stück Moosgummi legen. Jenes Moosgummi verteilt den Druck gleichmäßiger. Schleift man ohne Mossgumm, so schleifen beispielsweise die Finger mehr &#8211; probierts mal aus.
 
-![Matte Schweinwerfer aufbereiten](//glossbossimages.s3.eu-central-1.amazonaws.com/jones/anleitungen/scheinwerfer/06.jpg)  
-![Matte Schweinwerfer aufbereiten](//glossbossimages.s3.eu-central-1.amazonaws.com/jones/anleitungen/scheinwerfer/07.jpg)
+![Matte Schweinwerfer aufbereiten](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/anleitungen/scheinwerfer/06.jpg)  
+![Matte Schweinwerfer aufbereiten](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/anleitungen/scheinwerfer/07.jpg)
 
 &nbsp;
 
 Und anfeuchten. Idealerweise sollte man Nassschleifpapier tags zuvor in einem Eimer Wasser einweichen lassen, so bleibt das Papier länger nutzbar.
 
-![Matte Schweinwerfer aufbereiten](//glossbossimages.s3.eu-central-1.amazonaws.com/jones/anleitungen/scheinwerfer/08.jpg)
+![Matte Schweinwerfer aufbereiten](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/anleitungen/scheinwerfer/08.jpg)
 
 &nbsp;
 
@@ -81,43 +81,43 @@ Ebenso den Scheinwerfer mit genügend Wasser benetzen.
 1. Schliff war hier mit einem P800 Papier, von oben nach unten.  
 Anfangs ist die &#8220;Suppe&#8221; nicht wirklich milchig weiss, sondern meist bräunlich / dreckig.
 
-![Matte Schweinwerfer aufbereiten](//glossbossimages.s3.eu-central-1.amazonaws.com/jones/anleitungen/scheinwerfer/09.jpg)
+![Matte Schweinwerfer aufbereiten](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/anleitungen/scheinwerfer/09.jpg)
 
-![Matte Schweinwerfer aufbereiten](//glossbossimages.s3.eu-central-1.amazonaws.com/jones/anleitungen/scheinwerfer/10.jpg)
+![Matte Schweinwerfer aufbereiten](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/anleitungen/scheinwerfer/10.jpg)
 
 &nbsp;
 
 Der Abrieb klart auf, Verunreinigungen sind schon mal runtergeschliffen.  
 Ist der Schleif-Film wie hier gut milchig, abspülen und zum Schleifen öfters Wasser aufnebeln &#8211; Nassschliff eben.
 
-![Matte Schweinwerfer aufbereiten](//glossbossimages.s3.eu-central-1.amazonaws.com/jones/anleitungen/scheinwerfer/11.jpg)
+![Matte Schweinwerfer aufbereiten](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/anleitungen/scheinwerfer/11.jpg)
 
 &nbsp;
 
 Untere Hälfte gespült, die obere Hälfte unterhalb des Klebebandes noch nicht.
 
-![Matte Schweinwerfer aufbereiten](//glossbossimages.s3.eu-central-1.amazonaws.com/jones/anleitungen/scheinwerfer/12.jpg)
+![Matte Schweinwerfer aufbereiten](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/anleitungen/scheinwerfer/12.jpg)
 
 &nbsp;
 
 Trockenen schaut der grobe Anschliff nun so aus.  
 Er sollte gleichmäßig und fehlerfrei sein, man beachte die Stelle rechts unterhalb des Klebebandes, leicht glänzende Flecken.
 
-![Matte Schweinwerfer aufbereiten](//glossbossimages.s3.eu-central-1.amazonaws.com/jones/anleitungen/scheinwerfer/13.jpg)
+![Matte Schweinwerfer aufbereiten](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/anleitungen/scheinwerfer/13.jpg)
 
 &nbsp;
 
 Diese Flecken sind Reste des einstigen Beschichtung, also noch mal speziell dieses Stellen nass schleifen.
 
-![Matte Schweinwerfer aufbereiten](//glossbossimages.s3.eu-central-1.amazonaws.com/jones/anleitungen/scheinwerfer/14.jpg)
+![Matte Schweinwerfer aufbereiten](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/anleitungen/scheinwerfer/14.jpg)
 
 &nbsp;
 
 Schaut dann wie folgt aus:
 
-![Matte Schweinwerfer aufbereiten](//glossbossimages.s3.eu-central-1.amazonaws.com/jones/anleitungen/scheinwerfer/15.jpg)
+![Matte Schweinwerfer aufbereiten](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/anleitungen/scheinwerfer/15.jpg)
 
-![Matte Schweinwerfer aufbereiten](//glossbossimages.s3.eu-central-1.amazonaws.com/jones/anleitungen/scheinwerfer/16.jpg)
+![Matte Schweinwerfer aufbereiten](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/anleitungen/scheinwerfer/16.jpg)
 
 &nbsp;
 
@@ -126,26 +126,26 @@ Diesmal schleift man **quer** zur Schleifbahn des vorherigen Schliffes.
 Vorhin P800: auf / ab  
 Nun P1500: links / rechts
 
-![Matte Schweinwerfer aufbereiten](//glossbossimages.s3.eu-central-1.amazonaws.com/jones/anleitungen/scheinwerfer/17.jpg)
+![Matte Schweinwerfer aufbereiten](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/anleitungen/scheinwerfer/17.jpg)
 
-![Matte Schweinwerfer aufbereiten](//glossbossimages.s3.eu-central-1.amazonaws.com/jones/anleitungen/scheinwerfer/18.jpg)
+![Matte Schweinwerfer aufbereiten](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/anleitungen/scheinwerfer/18.jpg)
 
 &nbsp;
 
 Die Oberfläche wird feiner, solange schleifen, wässern bis der grobe Schliff so gut es geht weg ist.  
 Zum Kontrollieren einfach klar abspülen, trocken wischen und kurz an der Luft abtrocknen lassen.
 
-![Matte Schweinwerfer aufbereiten](//glossbossimages.s3.eu-central-1.amazonaws.com/jones/anleitungen/scheinwerfer/19.jpg)
+![Matte Schweinwerfer aufbereiten](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/anleitungen/scheinwerfer/19.jpg)
 
-![Matte Schweinwerfer aufbereiten](//glossbossimages.s3.eu-central-1.amazonaws.com/jones/anleitungen/scheinwerfer/20.jpg)
+![Matte Schweinwerfer aufbereiten](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/anleitungen/scheinwerfer/20.jpg)
 
-![Matte Schweinwerfer aufbereiten](//glossbossimages.s3.eu-central-1.amazonaws.com/jones/anleitungen/scheinwerfer/21.jpg)
+![Matte Schweinwerfer aufbereiten](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/anleitungen/scheinwerfer/21.jpg)
 
 &nbsp;
 
 Nach einem weiteren Durchgang mit 1500er Korn und einem Durchgang P2500 griff ich zu den Mirka Schleifpads für die Maschine.
 
-![Matte Schweinwerfer aufbereiten](//glossbossimages.s3.eu-central-1.amazonaws.com/jones/anleitungen/scheinwerfer/22.jpg)
+![Matte Schweinwerfer aufbereiten](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/anleitungen/scheinwerfer/22.jpg)
 
 &nbsp;
 
@@ -153,19 +153,19 @@ Gut wässern, ebenso die Scheinwerfer. Solltet ihr maschinell arbeiten, es sprit
 Bitte mit elektrischen Maschinen aufpassen, idealerweise greift man zu Durckluftwerkzeug.  
 Bei Rotationsmaschinen Drehzahl um die 1000 Umdrehungen, Exzenter je nach Hub &#8211; spürt man recht gut.
 
-![Matte Schweinwerfer aufbereiten](//glossbossimages.s3.eu-central-1.amazonaws.com/jones/anleitungen/scheinwerfer/23.jpg)
+![Matte Schweinwerfer aufbereiten](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/anleitungen/scheinwerfer/23.jpg)
 
-![Matte Schweinwerfer aufbereiten](//glossbossimages.s3.eu-central-1.amazonaws.com/jones/anleitungen/scheinwerfer/24.jpg)
+![Matte Schweinwerfer aufbereiten](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/anleitungen/scheinwerfer/24.jpg)
 
 &nbsp;
 
 Mit jedem feineren Schleifschritt wird das Polycarbonat klarer, ist man bei einem 3000er oder besser 4000er Korn angelangt kann man den Scheinwerfer nun aufpolieren.
 
-![Matte Schweinwerfer aufbereiten](//glossbossimages.s3.eu-central-1.amazonaws.com/jones/anleitungen/scheinwerfer/25.jpg)
+![Matte Schweinwerfer aufbereiten](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/anleitungen/scheinwerfer/25.jpg)
 
-![Matte Schweinwerfer aufbereiten](//glossbossimages.s3.eu-central-1.amazonaws.com/jones/anleitungen/scheinwerfer/26.jpg)
+![Matte Schweinwerfer aufbereiten](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/anleitungen/scheinwerfer/26.jpg)
 
-![Matte Schweinwerfer aufbereiten](//glossbossimages.s3.eu-central-1.amazonaws.com/jones/anleitungen/scheinwerfer/27.jpg)
+![Matte Schweinwerfer aufbereiten](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/anleitungen/scheinwerfer/27.jpg)
 
 &nbsp;
 
@@ -175,37 +175,37 @@ Mehr als etwas Anpressdruck braucht man nicht, die Bewegung kümmert sich um die
 
 *Einfacher Test am Rande: Trockenens oder eingenebeltes Pad auf die Maschine spannen, flache Hand auflegen und dann lasst die Maschine mal drehen. So spürt man am eigenen Körper den Effekt von Druck, Drehzahl, usw.*
 
-![Matte Schweinwerfer aufbereiten](//glossbossimages.s3.eu-central-1.amazonaws.com/jones/anleitungen/scheinwerfer/28.jpg)
+![Matte Schweinwerfer aufbereiten](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/anleitungen/scheinwerfer/28.jpg)
 
 &nbsp;
 
 Schaut dann aufpoliert so aus, deutlich besser oder?
 
-![Matte Schweinwerfer aufbereiten](//glossbossimages.s3.eu-central-1.amazonaws.com/jones/anleitungen/scheinwerfer/29.jpg)
+![Matte Schweinwerfer aufbereiten](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/anleitungen/scheinwerfer/29.jpg)
 
 &nbsp;
 
 Am Rand zum Klebeband ists natürlich nicht perfekt, aber wenn man seine Scheinwerfer bearbeitet klebt man dieses auch nicht mittendrin ab ;)
 
-![Matte Schweinwerfer aufbereiten](//glossbossimages.s3.eu-central-1.amazonaws.com/jones/anleitungen/scheinwerfer/30.jpg)
+![Matte Schweinwerfer aufbereiten](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/anleitungen/scheinwerfer/30.jpg)
 
-![Matte Schweinwerfer aufbereiten](//glossbossimages.s3.eu-central-1.amazonaws.com/jones/anleitungen/scheinwerfer/31.jpg)
+![Matte Schweinwerfer aufbereiten](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/anleitungen/scheinwerfer/31.jpg)
 
-![Matte Schweinwerfer aufbereiten](//glossbossimages.s3.eu-central-1.amazonaws.com/jones/anleitungen/scheinwerfer/32.jpg)
+![Matte Schweinwerfer aufbereiten](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/anleitungen/scheinwerfer/32.jpg)
 
-![Matte Schweinwerfer aufbereiten](//glossbossimages.s3.eu-central-1.amazonaws.com/jones/anleitungen/scheinwerfer/33.jpg)
+![Matte Schweinwerfer aufbereiten](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/anleitungen/scheinwerfer/33.jpg)
 
-![Matte Schweinwerfer aufbereiten](//glossbossimages.s3.eu-central-1.amazonaws.com/jones/anleitungen/scheinwerfer/34.jpg)
+![Matte Schweinwerfer aufbereiten](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/anleitungen/scheinwerfer/34.jpg)
 
 &nbsp;
 
 Schauen wir uns die Geschichte mal von innen an &#8230;
 
-![Matte Schweinwerfer aufbereiten](//glossbossimages.s3.eu-central-1.amazonaws.com/jones/anleitungen/scheinwerfer/35.jpg)
+![Matte Schweinwerfer aufbereiten](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/anleitungen/scheinwerfer/35.jpg)
 
 Doch, bring deutlich was &#8211; Sicherheit und Optik stimmen nun wieder.
 
-![Matte Schweinwerfer aufbereiten](//glossbossimages.s3.eu-central-1.amazonaws.com/jones/anleitungen/scheinwerfer/36.jpg)
+![Matte Schweinwerfer aufbereiten](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/anleitungen/scheinwerfer/36.jpg)
 
 &nbsp;
 

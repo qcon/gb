@@ -3,7 +3,7 @@ title: Warum die Fahrzeugwäsche mit der 2 Eimer Methode so schonend zum Lack is
 author: chiller
 layout: post
 pdf_version: jap
-head__img--fullurl: //glossbossimages.s3.eu-central-1.amazonaws.com/headerimg/schonendewaesche.jpg
+head__img--fullurl: https://glossbossimages.s3.eu-central-1.amazonaws.com/headerimg/schonendewaesche.jpg
 wps_subtitle:
   - und wie man sie richtig anwendet.
 categories:
@@ -11,7 +11,7 @@ categories:
 ---
 Handwäsche ist nicht gleich Handwäsche. Viele Autobesitzer fahren bewusst nicht in die „böse Waschanlage“, da diese ja den so empfindlichen Lack beschädigt. Stattdessen fahren sie in die Waschbox und zerkratzen (unbewusst) ihrer Lack weitaus schlimmer mit der bösen Bürste.** **
 
-![Schonende Wäsche mit Jonny](//glossbossimages.s3.eu-central-1.amazonaws.com/local/jonnyschonend/DSC01188.jpg)
+![Schonende Wäsche mit Jonny](https://glossbossimages.s3.eu-central-1.amazonaws.com/local/jonnyschonend/DSC01188.jpg)
 
 &nbsp;
 
@@ -19,13 +19,13 @@ Nicht selten habe ich gesehen, dass diese Bürste auf dem dreckigem Boden liegt 
 
 &nbsp;
 
-![Schonende Wäsche mit Jonny](//glossbossimages.s3.eu-central-1.amazonaws.com/local/jonnyschonend/DSC01195.jpg)
+![Schonende Wäsche mit Jonny](https://glossbossimages.s3.eu-central-1.amazonaws.com/local/jonnyschonend/DSC01195.jpg)
 
 Etwas detaillierter möchte ich hier heute auf die sehr Lack schonende 2 Eimer Methode eingehen, denn diese wird von so vielen angeblichen Handwäschern nicht angewandt, sei es aus Unwissenheit oder Bequemlichkeit. Die 7 Grundregeln für eine optimale Fahrzeugwäsche hat Euch Marvin in seinem Bericht [hier][1] ja schon erklärt und die richtige Grundausstattung wurde [hier][2] beschrieben.
 
 &nbsp;
 
-![Schonende Wäsche mit Jonny](//glossbossimages.s3.eu-central-1.amazonaws.com/local/jonnyschonend/DSC01221.jpg)
+![Schonende Wäsche mit Jonny](https://glossbossimages.s3.eu-central-1.amazonaws.com/local/jonnyschonend/DSC01221.jpg)
 
 &nbsp;
 
@@ -33,7 +33,7 @@ Wie gehts nun los? Das Auto habt ihr gründlich gefoamt und/oder mit dem Hochdru
 
 &nbsp;
 
-![Schonende Wäsche mit Jonny](//glossbossimages.s3.eu-central-1.amazonaws.com/local/jonnyschonend/DSC01214.jpg)
+![Schonende Wäsche mit Jonny](https://glossbossimages.s3.eu-central-1.amazonaws.com/local/jonnyschonend/DSC01214.jpg)
 
 &nbsp;
 
@@ -41,11 +41,11 @@ Meine Vorgehensweise mit dieser Methode ist meist so (nach der Felgenwäsche und
 
 &nbsp;
 
-![Schonende Wäsche mit Jonny](//glossbossimages.s3.eu-central-1.amazonaws.com/local/jonnyschonend/DSC01234.jpg)
+![Schonende Wäsche mit Jonny](https://glossbossimages.s3.eu-central-1.amazonaws.com/local/jonnyschonend/DSC01234.jpg)
 
 &nbsp;
 
-![Schonende Wäsche mit Jonny](//glossbossimages.s3.eu-central-1.amazonaws.com/local/jonnyschonend/DSC01228.jpg)
+![Schonende Wäsche mit Jonny](https://glossbossimages.s3.eu-central-1.amazonaws.com/local/jonnyschonend/DSC01228.jpg)
 
 &nbsp;
 

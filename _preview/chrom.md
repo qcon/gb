@@ -2,7 +2,7 @@
 title: Chrom Polieren
 author: Marvin
 layout: post
-head__img--fullurl: //glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/seat_ibiza/53.jpg
+head__img--fullurl: https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/seat_ibiza/53.jpg
 wps_subtitle:
   - '3 Schritte damit wieder glänzt, was glänzen muss'
 categories:
@@ -33,22 +33,22 @@ Das Chrom und am besten auch dein ganzes Auto muss sauber sein. Wir wollen näml
 Zur Applikation bzw. zur Politur gibt es nun 2 Wege. Entweder nutzt du ein Mikrofasertuch auf dem du die Metallpolitur gibst, oder einen Applikator. 
 Für Chromteile mit sehr wenig Fläche (z.B. Mini Chromzierleisten) eignet sich die Methode mit dem Mikrofasertuch bestens. 
 
-![](https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/chrompolieren/P1020892.JPG)
+![](https:https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/chrompolieren/P1020892.JPG)
 
 Dazu wickelst du eine Ecke vom Mikrofgasertuch um deinen Finger und polierst damit z.B. deine Chromzierleisten.
 
 Falls du deinen Lack schon poliert hast, solltes du diesen nun Abkleben, damit nichts von der Metallpolitur auf den Lack kommt, was eventuell Kratzer hinterlassen könnte.
 
-![](https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/chrompolieren/P1020893.JPG)
+![](https:https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/chrompolieren/P1020893.JPG)
 
 Großflächige Chromteile werden mit einen Applikator bearbeitet. Hier wäre der punktuelle Druck der durch den Finger entsteht zu groß. Mit 3 Fingern vergrößerst du die Fläche und schaffst ein gleichmäßigeres Polierergebnis.
 
-![](https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/chrompolieren/P1020894.JPG)
+![](https:https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/chrompolieren/P1020894.JPG)
 
 Kalkflecken auf satiniertem Aluminium (oder im normalen Sprachgebrauch *Chromzierleisten*) sind kein Problem mit den oben genannten Methoden:
-![](//glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/porsche_macan/A033.jpg)
+![](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/porsche_macan/A033.jpg)
 
-![](//glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/porsche_macan/A034.jpg)
+![](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/porsche_macan/A034.jpg)
 
 Generell solltest du bei leicht verschmutzten Chrom kein besonders großen Druck aufbringen. 
 

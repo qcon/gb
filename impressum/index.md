@@ -3,7 +3,7 @@ title: Impressum
 wps_subtitle: und Datenschutzhinweise
 author: Marvin
 layout: page
-head__img--fullurl: //glossbossimages.s3.eu-central-1.amazonaws.com/headerimg/DSC_0003.jpg
+head__img--fullurl: https://glossbossimages.s3.eu-central-1.amazonaws.com/headerimg/DSC_0003.jpg
 ---
 <div class="impressum">
   <p><a href="/was-wird-gespeichert/">Hier findest du eine Auflistung ALLER bei dir gespeicherten Daten!</a></p>

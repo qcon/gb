@@ -572,7 +572,7 @@ var
 		var headerImages = ["merc-8.jpg", "1mcoupe.jpg", "530dteamwork.jpg", "965turbo.jpg", "9914s1.jpg", "997cabrio.jpg", "991turbos.jpg", "997grau.jpg", "997rot.jpg", "alfagtv.jpg", "audir8.jpg", "audis5.jpg", "bmw2002.jpg", "eosschwarz.jpg", "golf7gtd.jpg", "lotuselise.jpg", "m3csl.jpg", "shelby.jpg", "mclaren.jpg"];
 		//headerGradient = "linear-gradient(HSLA(197, 100%, 49%,.6),HSLA(197, 100%, 49%,.9))";
 		random = Math.floor(Math.random()*(headerImages.length - 1));
-		headerImagesUrl = "//glossbossimages.s3.eu-central-1.amazonaws.com/headerimg/" + headerImages[random];
+		headerImagesUrl = "https://glossbossimages.s3.eu-central-1.amazonaws.com/headerimg/" + headerImages[random];
 		headerStyle.innerHTML = 'header {background: '+ headerGradient +', url('+ headerImagesUrl +') center 50%; background-size:cover}';
 	}
 })(randomHeader);

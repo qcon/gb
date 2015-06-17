@@ -4,7 +4,7 @@ author: Chris
 layout: post
 pdf_version: jap
 permalink: /allgemein/tipps-tricks/mikrofasertuecher-richtig-waschen/
-head__img--fullurl: //glossbossimages.s3.eu-central-1.amazonaws.com/criz/mft-waschen/DSC_0001-2.jpg
+head__img--fullurl: https://glossbossimages.s3.eu-central-1.amazonaws.com/criz/mft-waschen/DSC_0001-2.jpg
 wps_subtitle:
   - So werden sie wieder flauschig
 categories:
@@ -18,7 +18,7 @@ Nachdem wir hier schon Mikrofasertücher von [Lupus](http://glossboss.de/produkt
 Klar, es sind nur Mikrofasertücher... aber diese sind oftmals nicht sehr günstig, außerdem können schmutzige Tücher Kratzer im Lack hinterlassen, Grund genug sich Gedanken über den richtigen Umgang zu machen und die Pflege lohnt sich! Gut gepflegte Tücher können recht lange benutzt werden, sodass sich der teilweise hohe Anschaffungspreis lohnt.
 Wenn du folgende Tipps beachtest, bleiben deine Mikrofasertücher sehr lange weich und flauschig. 
 
-![Bild MFT1](//glossbossimages.s3.eu-central-1.amazonaws.com/criz/mft-waschen/DSC_0001-2.jpg)
+![Bild MFT1](https://glossbossimages.s3.eu-central-1.amazonaws.com/criz/mft-waschen/DSC_0001-2.jpg)
 
 ### Nach dem Kauf
 
@@ -32,7 +32,7 @@ Am besten wählst du für deine Tücher "Pflegeleicht" als Waschprogramm und wä
 Es empfiehlt sich die Tücher bei 30°C-60°C zu waschen, je nach Mikrofasertuch solltest du die Informationen der Hersteller beachten.
 Beim Schleudern solltest du ca. 1000 Umdrehungen nicht überschreiten.
 
-![](//glossbossimages.s3.eu-central-1.amazonaws.com/criz/mft-waschen/DSC_0023.jpg)
+![](https://glossbossimages.s3.eu-central-1.amazonaws.com/criz/mft-waschen/DSC_0023.jpg)
 
 Bei leichter Verschmutzung wasche ich nur bei geringer Temperatur, nach der Verarbeitung von Versiegelungen oder Coatings oder starker Verschmutzung dann bei höherer Temperatur. 
 
@@ -46,12 +46,12 @@ Auf keinen Fall solltest du Weichspüler benutzen, da dieser deinen Mikrofasert�
 
 Nach der Wäsche hast du zwei Möglichkeiten, entweder du steckst die Mikrofasertücher in den Trockner oder hängst sie zum Trocknen auf.
 
-![](//glossbossimages.s3.eu-central-1.amazonaws.com/criz/mft-waschen/DSC_0024.jpg)
+![](https://glossbossimages.s3.eu-central-1.amazonaws.com/criz/mft-waschen/DSC_0024.jpg)
 
 Wenn du die Tücher aufhängst solltest du sie vorher sorgfältig in alle Richtungen ausschlagen, damit sich die Fasern aufrichten und nicht mehr so stark aneinander haften, so werden die Tücher wieder schön weich. Natürlich kannst du vor dem Trockner genauso vorgehen, allerdings richten sich die Fasern im Trockner sehr gut auf und man kann das Ausschlagen vernachlässigen. Auch beim Trockner solltest du auf eine niedrige Temperatur und am besten einen Schongang achten.
 Wenn die Tücher trocken sind, kannst du diese nochmal ausschlagen oder mit einer Handbürste "durchkämmen" so werden die Tücher noch weicher.
 
-![](//glossbossimages.s3.eu-central-1.amazonaws.com/criz/mft-waschen/DSC_0026.jpg)
+![](https://glossbossimages.s3.eu-central-1.amazonaws.com/criz/mft-waschen/DSC_0026.jpg)
 
 ### Weitere Tipps
 

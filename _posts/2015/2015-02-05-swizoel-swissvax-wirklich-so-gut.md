@@ -3,7 +3,7 @@ pdf_version: jap
 title: Ist Swizöl / Swissvax wirklich so gut?
 author: Marvin
 layout: post
-head__img--fullurl: //glossbossimages.s3.eu-central-1.amazonaws.com/marvin/swissvax/DSC_0383.jpg
+head__img--fullurl: https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/swissvax/DSC_0383.jpg
 wps_subtitle:
   - 'Wachspreise jenseits der 1000€'
 categories:
@@ -25,13 +25,13 @@ Die Geschichte zwischen Zymöl und Swizöl kannst du im Netz nachlesen.
 
 Die Liste könnte lang werden. Aber moment mal... Ich bin doch ein Luxuswachs Fan! Zugegeben: ich besitze nur 2 Swizöl Wachse. Das Concorso und das Blau-Weiss. Meine Affinität schwappt ehr zu Zymöl rüber, da ich trotz aller [Emotion](https://glossboss.de/allgemein/drei-gruende-fuer-ein-carnaubawachs/) gewisse rationelle Vorteile bei den Wachsen von Zymöl sehe. Trotzdem mag ich die Swizöl Produkte.
 
-![Swizöl Cleaner-Fluid Prof.](//glossbossimages.s3.eu-central-1.amazonaws.com/marvin/swissvax/DSC_0383.jpg)
+![Swizöl Cleaner-Fluid Prof.](https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/swissvax/DSC_0383.jpg)
 
 Zurück zum eigentlichen Thema. Im Prinzip könnte man die Antwort dazu extrem verkürzen: __jein__, Produkte von Swizöl sind wirklich so gut. 
 
 Es gibt hier nämlich kein *ja* oder *nein*. Nur ein: die einen lassen sich so gern von Marketing, edel aussehenden Flaschen + Wachsdosen und den tollen Gerüchen anfixen. Die anderen sagen: ich kriege für 45€ weniger 12% mehr Carnaubawachs!
 
-![Swizöl Wachs](//glossbossimages.s3.eu-central-1.amazonaws.com/marvin/swissvax/2.jpg)
+![Swizöl Wachs](https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/swissvax/2.jpg)
 
 Im direkten Vergleich mit den Konkurrenten, die manchmal mehr Carnaubawachs enthielten machte ich oft die Beobachtung, dass das Swizöl Wachs den Lack ein hauch glatter macht, die Wasserperlen etwas runder sind und der Glanz ein bisschen mehr *knallt*. Vielleicht hab ich mich von der Emotion blenden lassen - vielleicht haben die Luxuswachshersteller aber auch gutes Wachs hergestellt. Diese Diskussion wird niemals enden.
 
