@@ -95,7 +95,7 @@ task :deploys3 do
 	message = $stdin.gets.chomp
 	message += " rake_auto_push"
 	#Increase Version?
-	puts "Increase Version?"
+	puts "Increase Version? (leave empty for NO)"
 	inc_ver = $stdin.gets.chomp
 	unless inc_ver.empty?
 		Rake::Task[:inc].invoke 
