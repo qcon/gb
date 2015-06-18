@@ -146,10 +146,13 @@ function updateHeader() {
 	content.style.margin = headerHeight + "px 0 0 0";
 	opacityHeader = 1 - (scrolled / headerHeight) + .2;
 	scaleHeader = scrolled / 100 * .1 + 1;
-	header.style.transform = "scale(" + scaleHeader +")"
-	header.style.webkitTransform = "scale(" + scaleHeader +")"
-	header.style.MozTransform = "scale(" + scaleHeader +")"
-	header.style.opacity = opacityHeader;
+	if (scaleHeader > 1) {
+		header.style.transform = "scale(" + scaleHeader +")"
+		header.style.webkitTransform = "scale(" + scaleHeader +")"
+		header.style.MozTransform = "scale(" + scaleHeader +")"
+		header.style.opacity = opacityHeader;
+	}
+	
 }
 updateHeader();
 function updateMenu() {
