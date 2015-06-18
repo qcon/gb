@@ -147,6 +147,8 @@ function updateHeader() {
 	opacityHeader = 1 - (scrolled / headerHeight) + .2;
 	scaleHeader = scrolled / 100 * .1 + 1;
 	header.style.transform = "scale(" + scaleHeader +")"
+	header.style.webkitTransform = "scale(" + scaleHeader +")"
+	header.style.MozTransform = "scale(" + scaleHeader +")"
 	header.style.opacity = opacityHeader;
 }
 updateHeader();
