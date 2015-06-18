@@ -12,6 +12,16 @@ header {
         font-size:.8em;
         font-size:4.7vmin;
     }
+    z-index: -1;
+    position: fixed;
+    top:0;
+    width:100%;
+}
+#CONTENT {
+	margin-top: 0px;
+	position: relative;
+	z-index: 1;
+	background: white;
 }
 .header--logo {
     text-align:center;
