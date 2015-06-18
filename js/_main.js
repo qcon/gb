@@ -151,6 +151,7 @@ function updateHeader() {
 		header.style.webkitTransform = "scale(" + scaleHeader +")"
 		header.style.MozTransform = "scale(" + scaleHeader +")"
 		header.style.opacity = opacityHeader;
+		//if(scrolled > 20) header.style.top = "-" + scrolled*.7 + "px";
 	}
 	
 }
@@ -216,15 +217,15 @@ toggleMenuBox.addEventListener('click', function(e) {
 
 });
 window.addEventListener('scroll', function() {
-	scrolled = true;
+	scrolling = true;
 	setTimeout(function() {
 		if(scrollY > headerHeight) {
 			return;
-			scrolled = false;
+			scrolling = false;
 		}
-		if(scrolled) {
+		if(scrolling) {
 			updateHeader();
-			scrolled = false;
+			scrolling = false;
 		}
 	}, 40);
 });
