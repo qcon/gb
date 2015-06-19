@@ -46,7 +46,7 @@ kontaktSubmit = function() {
 				"from_name": kontaktName.value,
 				"to": [
 				{
-					"email": "marvinmieth@icloud.com",
+					"email": "mail@glossboss.de",
 					"name": "Marvin Mieth",
 					"type": "to"
 				}
