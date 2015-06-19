@@ -27,7 +27,7 @@ include:
 - was-wird-gespeichert
 markdown: kramdown
 permalink: "/:categories/:title/"
-cssjsversion: 137
+cssjsversion: 138
 headimggradient: linear-gradient(HSLA(197, 100%, 49%,.6),HSLA(197, 100%, 49%,1))
 collections:
   preview:
