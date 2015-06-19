@@ -1,8 +1,8 @@
 require 'rake'
 require 'yaml'
 class String
-	def green; "\033[32m#{"-- " + self}\033[0m" end
-	def magenta; "\033[35m#{"-- " + self}\033[0m" end
+	def green; "\033[32m#{"==> " + self}\033[0m" end
+	def magenta; "\033[35m#{"==> " + self}\033[0m" end
 end
 
 SOURCE = "."
@@ -16,6 +16,19 @@ yml_cfg = YAML.load_file "#{CONFIG[:config_file]}"
 get_version = yml_cfg["cssjsversion"]
 def execute(command)
 	system "#{command}"
+end
+
+desc "Add . and push to git"
+task :git do
+	puts "push all changes to github".magenta
+	#Commit Message
+	puts "Commit Message:".magenta
+	message = $stdin.gets.chomp
+	message += " rake_auto_push"
+	execute("git add .")
+	execute("git commit -m \"#{message}\"")
+	execute("git push github")
+	puts "github DONE".green
 end
 
 desc "Build all Files for the S3 Push"
@@ -90,25 +103,18 @@ end
 
 desc "AWS S3 Deploy Task - build all files, commit changes, gzip and push"
 task :deploy do
-	#Commit Message
-	puts "Commit Message:".magenta
-	message = $stdin.gets.chomp
-	message += " rake_auto_push"
 	#Increase Version?
-	puts "Increase Version? (leave empty for NO)"
+	puts "Increase Version? (leave empty for NO)".magenta
 	inc_ver = $stdin.gets.chomp
 	unless inc_ver.empty?
 		Rake::Task[:inc].invoke 
 	end
+	Rake::Task[:git].invoke
 	Rake::Task[:css_scss].invoke
 	Rake::Task[:js].invoke
 	Rake::Task[:jekyll_build].invoke
 	Rake::Task[:gzip].invoke
 	Rake::Task[:pushs3].invoke
-	execute("git add .")
-	execute("git commit -m \"#{message}\"")
-	execute("git push github")
-
 end
 
 desc "auto increase Versionnumber"
