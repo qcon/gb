@@ -640,16 +640,15 @@ function updateHeader() {
 	headerHeight = header.offsetHeight;
 	scrolled = window.scrollY;
 	content.style.margin = headerHeight + "px 0 0 0";
-	opacityHeader = 1 - (scrolled / headerHeight) + .2;
-	scaleHeader = scrolled / 100 * .1 + 1;
-	if (scaleHeader > 1) {
-		header.style.transform = "scale(" + scaleHeader +")"
-		header.style.webkitTransform = "scale(" + scaleHeader +")"
-		header.style.MozTransform = "scale(" + scaleHeader +")"
-		header.style.opacity = opacityHeader;
-		//if(scrolled > 20) header.style.top = "-" + scrolled*.7 + "px";
-	}
-	
+	// opacityHeader = 1 - (scrolled / headerHeight) + .2;
+	// scaleHeader = scrolled / 100 * .1 + 1;
+	// if (scaleHeader > 1) {
+	// 	header.style.transform = "scale(" + scaleHeader +")"
+	// 	header.style.webkitTransform = "scale(" + scaleHeader +")"
+	// 	header.style.MozTransform = "scale(" + scaleHeader +")"
+	// 	header.style.opacity = opacityHeader;
+	// 	//if(scrolled > 20) header.style.top = "-" + scrolled*.7 + "px";
+	// }
 }
 updateHeader();
 function updateMenu() {
@@ -711,19 +710,6 @@ toggleMenuBox.addEventListener('click', function(e) {
 
 	updateMenu();
 
-});
-window.addEventListener('scroll', function() {
-	scrolling = true;
-	setTimeout(function() {
-		if(scrollY > headerHeight) {
-			return;
-			scrolling = false;
-		}
-		if(scrolling) {
-			updateHeader();
-			scrolling = false;
-		}
-	}, 40);
 });
 window.addEventListener('resize', function() {
 
