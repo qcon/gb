@@ -165,7 +165,6 @@ Für die gravierenderen Lackbeschädigungen hatte ich mir mal bei Carparts das *
 
 Stellt euch den Lack als **eigentlich glatte Oberfäche** vor, Kratzer und Steinschläge lassen ihn wie eine raue **Mondlandschaft** ausschauen. Das sehr feine schwarze Pulver setzt sich nun in diese Vertiefungen und zeigt diese deutlich auf.   
 Da ich es schon immer einmal ausprobieren wollte kam mir der Macan meines Schwagers in Spee gerade recht - wenn Weihnachtsgeschenke zum Versuchskaninchen werden :D   
-![](https://glossboss.de/images/jones/berichte/porsche_macan/kontrollschwarz.jpg)   
 
 Wie man auf Kontrollschwarz kommt? Seht selbst ab 1:23:   
 
