@@ -189,7 +189,7 @@ document.addEventListener('DOMContentLoaded', function() {
 			loader(false);
 
 			if( _("#indexContainer") && !hash ) {
-				this.parser('index', 'Die neusten Beiträge', true);
+				this.parser('index', 'Die neuesten Beiträge', true);
 			}
 		},
 		parser: function( hash, title, isIndex ) {
