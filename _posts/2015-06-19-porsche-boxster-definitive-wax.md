@@ -26,12 +26,12 @@ Die Hardware:
 
 * Kärcher Hochdruckreiniger K 7 Premium Home mit Vario Power Jet Düse
 * Lupus Heavy Duty Foam Lance mit passendem Kärcher Adapter
-* Chemical Guys Wheel Woolies Wheel Brushes zur sanftern Reinigung der Felgen 
+* Chemical Guys Wheel Woolies Wheel Brushes zur sanften Reinigung der Felgen 
 * ValetPRO chemical resistant Brush zur Felgenreinigung auch zwischen den Radmuttern
 * Zwei Wascheimer a 20 Litter (Wasch & Rinse)
 * Ein kleiner Eimer für die Felgenreinigung
 * Waschhandschu Fix 40 für oben rum
-* Waschhandschu Lupus Basic Wash Mitt für den unteren Bereich (Schweller ect.)
+* Waschhandschuh Lupus Basic Wash Mitt für den unteren Bereich (Schweller ect.)
 * DODO Juice Supernatural Knete
 
 Die Software:
@@ -43,7 +43,7 @@ Die Software:
 * DODO JUICE Born Slippy
 
 Die Bilder von der Vorarbeit erspare ich euch diesmal.
-Der Vollständigkeit halber hier aber mal der kleine 10 Punkte plan den ich immer bei einer Aufbereitung durchziehe  .
+Der Vollständigkeit halber hier aber mal der kleine 10 Punkte plan den ich immer bei einer Aufbereitung durchziehe
 
 1. Proteinbehandlung mit Citrus Power
 2. Einfoamen, und in der Zeit....
@@ -70,7 +70,7 @@ Hier mal 2 Bilder von dem, was man nicht wirklich ernsthaft einen Kratzer nennen
 
 Es war also jetzt schon klar, schwere Geschütze sind hier absolut unnötig. Eine sorgfältige Runde mit einer Hochglanzpolitur sollte hier wohl ausreichen um die Minidefekte in den Griff zu bekommen und den alten Glanz wieder zum Vorschein zu bringen.
 
-Dank des gutetn Zureden einiger anderer Glossbosse hatte ich mich diemal dazu entschlossen eine für mich 
+Dank des guten Zureden einiger anderer Glossbosse hatte ich mich diesmal dazu entschlossen eine für mich 
 neue Politur auszuprobieren. Eine Entscheidung die ich nicht bereut habe.
 
 Zum Einsatz kam:
@@ -79,9 +79,9 @@ Zum Einsatz kam:
 * Rupes Polierschwamm Ultrafine weiß
 * 3M Perfect-it Anti-Hologramm Politur 50383
 * Petzoldts Kontroll-Reiniger zur Politurkontrolle
-* Devinitive Wax Bespoke Car Care Lackreiniger
+* Definitive Wax Bespoke Car Care Lackreiniger
 * Chemical Guys HEx Logic Polierschwamm schwarz
-* Devinitive WAX Club Edition
+* Definitive WAX Club Edition
 * Lupus double side Applicator Pad
 * SkylinePolish Purple Fluffy 900
 * Zaino Z16 Perfect Tire Gloss Kunststoff- & Reifenglanz
@@ -89,7 +89,7 @@ Zum Einsatz kam:
 
 
 Gefahren wurde die Maschine auf Stufe 4 und dem weißen Rupes Pad mit ungefähr 2cm pro Sekunde, also schön langsam und gemächlich.  
-Es reichte tatsächlich ein Durchgang mit 4 Kreuzstriche um ein für meine Ansprürche ausreichendes Ergebis zu erziehlen.  
+Es reichte tatsächlich ein Durchgang mit 4 Kreuzstriche um ein für meine Ansprüche ausreichendes Ergebis zu erzielen.  
 Dabei hat mich die Anti-Hologramm echt sehr positiv überrascht. Sie läst sich wirlich lange verarbeiten. Auf einem Testspot hatte ich sie versuchshalber mal in bis zu 8 Kreuzstrichen gefahren um zu sehen was passiert. Die Paste ist so schnell
 nicht tod zu kriegen, und stauben tut sie auch überhaupt nicht. Antrocken lassen sollte man sie aber nicht, da sich sonst das
 abnehmen etwas aufwendiger gestaltet. Aber selbst das ist noch in einem durchaus akzeptablen Rahmen.  
@@ -152,12 +152,13 @@ Nach zwei Minuten sieht man oben, dass es "Ready for takeoff" ist.
 Noch eine kleine Impression vom Autrag am Heck.  
 Und jezt sieht man auch schon, was genau
 es für ein Porsche ist.  
-Genau, ätsch, nix besonderes, "nur" ein Boxter. Und trotzem liebe ich mein kleines Spaßmobil.
+Genau, ätsch, nix besonderes, "nur" ein Boxster. Und trotzem liebe ich mein kleines Spaßmobil.
 
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/dirk/boxster/DSC_0019.JPG)
 
-Ihr wollt jetzt so langsam Reflectionen, Tiefenglanz und Wetlook?........Ja dann gehts auf zu den...... 
-#**Finishpic's**  
+Ihr wollt jetzt so langsam Reflektionen, Tiefenglanz und Wetlook?... Ja dann gehts auf zu den...
+
+#Finishpic's
 
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/dirk/boxster/DSC_0020.JPG)
 

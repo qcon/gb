@@ -638,7 +638,7 @@ function hamburgerToggle() {
 function updateHeader() {
 	content = _('#CONTENT');
 	header = _('header');
-	headerHeight = header.offsetHeight;
+	headerHeight = header.offsetHeight - 5;
 	scrolled = window.scrollY;
 	content.style.margin = headerHeight + "px 0 0 0";
 	// opacityHeader = 1 - (scrolled / headerHeight) + .2;
