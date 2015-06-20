@@ -54,7 +54,7 @@ Generell solltest du bei leicht verschmutzten Chrom kein besonders großen Druck
 
 #Schritt 2.1
 
-Wie du sicherlich schon bemerkt hast, wird dein Tuch bzw. dein Applikator sehr schnell schwarz. Das ist der Abrieb der entsteht, wenn Metall poliert wird. Du solltest unbedingt zwischendurch das Polierwerkzeug wechseln, also eine andere Ecke vom Tuch benutzen (du hast 8 davon) oder den Applikator drehen.
+Wie du sicherlich schon bemerkt hast, wird dein Tuch bzw. dein Applikator sehr schnell schwarz. Das ist der Abrieb der entsteht, wenn Metall poliert wird. Du solltest unbedingt zwischendurch das Polierwerkzeug wechseln, also eine andere Ecke vom Tuch benutzen (du hast 8 davon) oder den Applikator drehen. So gewährleisten wir, dass wir stets mit sauberen Werkzeug ans Chrom gehen. 
 
 #Schritt 3
 
