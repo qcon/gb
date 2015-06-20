@@ -44,7 +44,7 @@ end
 desc "Push all files in _site/ to the S3 Bucket"
 task :pushs3 do
 	execute("s3cmd sync -M --acl-public --exclude '*.*' --include '*.jpg' --include '*.ico' --add-header='Cache-Control:max-age=31536000' _site/ s3://#{CONFIG[:s3_bucket]}")
-	execute("s3cmd sync -M --acl-public --exclude '*.*' --include '*.js' --include '.*json' --add-header='Cache-Control:max-age=31536000' --add-header='Content-Encoding:gzip' _site/ s3://#{CONFIG[:s3_bucket]} ")
+	execute("s3cmd sync -M --cf-invalidate --acl-public --exclude '*.*' --include '*.js' --include '.*json' --add-header='Cache-Control:max-age=31536000' --add-header='Content-Encoding:gzip' _site/ s3://#{CONFIG[:s3_bucket]} ")
 	execute("s3cmd sync -M --acl-public --exclude '*.*' --include '*.html' --add-header='Cache-Control:max-age=86400, must-revalidate' --add-header='Content-Encoding:gzip' _site/ s3://#{CONFIG[:s3_bucket]}")
 	execute("s3cmd sync --acl-public --delete-removed _site/ s3://#{CONFIG[:s3_bucket]}")
 end
@@ -62,7 +62,8 @@ task :js do
 		end
 		output.puts("});")
 	end
-	execute("uglifyjs js/global.js -o dist/global.#{yml_cfg["cssjsversion"]}.js")
+	#execute("uglifyjs js/global.js -o dist/global.#{yml_cfg["cssjsversion"]}.js")
+	execute("uglifyjs js/global.js -o dist/global.js")
 	puts "JavaScript concatenate & UglifyJS DONE".green
 end
 

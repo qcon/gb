@@ -59,17 +59,18 @@ kontaktSubmit = function() {
 			"ip_pool": "Main Pool"
 		};
 		ajax("https://mandrillapp.com/api/1.0/messages/send.json", "POST", mail, function(data) {
+			loader(1);
 			if(data[0].status === "sent") {
 				kontaktMessageError.style.display = 'none';
 				kontaktForm.style.display = 'none';
 				kontaktPostContent.style.display = 'none';
 				kontaktMessage.innerHTML = '<span class="kontakt__success">Danke für deine eMail!</span>';
-
+				loader(0);
 			} else {
 				kontaktMessageError.style.display = '';
 				kontaktMessageError.innerHTML = '<span class="kontakt__error">Es gab ein Problem mit unseren eMail-Server. Bitte versuch es später nochmal oder schreibe direkt an mail@glossboss.de</span>';
+				loader(0);
 			}
-			loader(0);
 		}, true);
 	}
 }
