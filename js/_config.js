@@ -188,7 +188,7 @@
 			loader(false);
 
 			if( _("#indexContainer") && !hash ) {
-				this.parser('index', 'Die neuesten Beiträge', true);
+				this.parser('index', 'Die neuesten Beiträge.', true);
 			}
 		},
 		parser: function( hash, title, isIndex ) {
