@@ -4,7 +4,7 @@ author: Jones
 layout: post   
 head__img--fullurl: https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/porsche_macan/A097.jpg
 wps_subtitle:
-  - "Black'n White"
+  - "Black'n White - Gtechniq Exo v2"
 categories:
   - Pflegeberichte
 markasnew: true
