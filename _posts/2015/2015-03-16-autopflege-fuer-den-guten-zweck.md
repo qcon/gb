@@ -2,7 +2,6 @@
 title: Autopflege für den guten Zweck
 author: Chris
 layout: post
-head__img--fullurl: https://fbcdn-sphotos-f-a.akamaihd.net/hphotos-ak-xpa1/v/t1.0-9/s720x720/10941873_1054344717913495_9215214468759843745_n.jpg?oh=933e5c2d298c110ea61c480bfd694b3e&oe=5578FEDE&__gda__=1433568027_8ccc0a241e0ca4e4a26d9a8f044347b7
 wps_subtitle:
   - 'Autopflege trifft Herzenssache'
 categories:

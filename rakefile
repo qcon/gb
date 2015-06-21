@@ -104,18 +104,12 @@ end
 
 desc "AWS S3 Deploy Task - build all files, commit changes, gzip and push"
 task :deploy do
-	#Increase Version?
-	# puts "Increase Version? (leave empty for NO)".magenta
-	# inc_ver = $stdin.gets.chomp
-	# unless inc_ver.empty?
-	# 	Rake::Task[:inc].invoke 
-	# end
-	Rake::Task[:git].invoke
 	Rake::Task[:css_scss].invoke
 	Rake::Task[:js].invoke
 	Rake::Task[:jekyll_build].invoke
 	Rake::Task[:gzip].invoke
 	Rake::Task[:pushs3].invoke
+	Rake::Task[:git].invoke
 end
 
 desc "auto increase Versionnumber"
