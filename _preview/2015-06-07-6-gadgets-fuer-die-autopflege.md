@@ -2,7 +2,7 @@
 layout: post
 title: "6 Gadgets für die Autopflege"
 author: "Marvin"
-wps_subtitle: noch nichts
+wps_subtitle: Das braucht jeder!
 categories: tipps-tricks
 head__img--fullurl: https://glossbossimages.s3.eu-central-1.amazonaws.com/
 markasnew: true
