@@ -8,7 +8,7 @@ head__img--fullurl: https://glossbossimages.s3.eu-central-1.amazonaws.com/
 markasnew: true
 ---
 
-Gadgets die jeder braucht:
+Gadgets die jeder braucht: test
 
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/gadgets/DSC_0005.jpg)
 

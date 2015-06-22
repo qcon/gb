@@ -47,6 +47,7 @@ task :pushs3 do
 	cf_invalidate_ask = $stdin.gets.chomp
 	cf_invalidate = ""
 	unless cf_invalidate_ask.empty?
+		puts "Invalidate!".magenta
 		cf_invalidate = "--cf-invalidate" 
 	end
 	execute(
