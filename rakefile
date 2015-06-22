@@ -46,8 +46,9 @@ task :pushs3 do
 	puts "Invalidate HTML Files to Cloudfront? (leave empty for NO)".magenta
 	cf_invalidate_ask = $stdin.gets.chomp
 	cf_invalidate = ""
-	cf_invalidate = "--cf-invalidate" if !cf_invalidate_ask.empty?
-
+	unless cf_invalidate_ask.empty?
+		cf_invalidate = "--cf-invalidate" 
+	end
 	execute(
 		"s3cmd sync -M --acl-public --exclude '*.*' --include '*.jpg' --include '*.ico' " +  
 		"--add-header='Cache-Control:max-age=31536000' _site/ s3://#{CONFIG[:s3_bucket]}"
