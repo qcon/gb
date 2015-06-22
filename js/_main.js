@@ -154,7 +154,7 @@ function updateHeader() {
 	// 	//if(scrolled > 20) header.style.top = "-" + scrolled*.7 + "px";
 	// }
 }
-updateHeader();
+//updateHeader();
 function updateMenu() {
 
 	docHeight = window.innerHeight;
@@ -218,7 +218,7 @@ toggleMenuBox.addEventListener('click', function(e) {
 window.addEventListener('resize', function() {
 
 	updateMenu();
-	updateHeader();
+	//updateHeader();
 
 });
 
@@ -297,5 +297,5 @@ WebFontConfig = {
   wf.async = 'true';
   var s = document.getElementsByTagName('script')[0];
   s.parentNode.insertBefore(wf, s);
-  updateHeader();
+
 })();
