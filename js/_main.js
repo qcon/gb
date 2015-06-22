@@ -297,4 +297,5 @@ WebFontConfig = {
   wf.async = 'true';
   var s = document.getElementsByTagName('script')[0];
   s.parentNode.insertBefore(wf, s);
+  updateHeader();
 })();

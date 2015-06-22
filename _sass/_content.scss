@@ -1,3 +1,16 @@
+#CONTENT {
+	margin-top: 0px;
+	position: relative;
+	z-index: 1;
+	background: white;
+	&:after {
+		height: 5em;
+		width: 100%;
+		background-color: white;
+		content: '';
+		display: block;
+	}
+}
 table {
 	margin: 0 auto;
 	width: 75%;
