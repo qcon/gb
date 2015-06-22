@@ -222,4 +222,4 @@ Was man hier schön sieht und bei allen drei getesteten Kandidaten vergleichbar 
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/chiller/kratzertest/t2/KratztestTeil212.jpg)
 
 Und? Was sagt Ihr nun? 
-Intern haben auch wir viel darüber diskutiert und ich denke am Ende steht ein Ergebnis fest, welches von mir nicht weiter kommentiert werden muss. Der Kratztest wird in vergleichbarer Form auf jeden Fall mit anderen Produkten noch einmal wiederholt. Welche es genau sein werden, wissen wir noch nicht genau. Ihr könnt uns auf Facebook dazu gerne weitere Vorschläge machen.
+Intern haben auch wir viel darüber diskutiert und ich denke am Ende steht ein Ergebnis fest, welches von mir nicht weiter kommentiert werden muss. Der Kratztest wird in vergleichbarer Form auf jeden Fall mit anderen Produkten noch einmal wiederholt. Welche es genau sein werden, wissen wir noch nicht genau. Ihr könnt uns auf Facebook dazu gerne weitere Vorschläge machen!
