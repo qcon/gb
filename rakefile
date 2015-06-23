@@ -18,7 +18,7 @@ def execute(command)
 	system "#{command}"
 end
 
-desc "Add . and push to git"
+desc "Add everything and push to git"
 task :git do
 	puts "push all changes to github".magenta
 	#Commit Message
