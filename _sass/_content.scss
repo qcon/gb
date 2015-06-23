@@ -46,10 +46,10 @@ table {
 	padding:.6em;
 	display:block;
 }
-.wichtige-info-blau {
-	@extend .wichtige-info;
-	border-left: $blau 2px solid;
-}
+// .wichtige-info-blau {
+// 	@extend .wichtige-info;
+// 	border-left: $blau 2px solid;
+// }
 .loadmore {
 	display:block;
 	border-radius: 5px;
