@@ -16,6 +16,7 @@ kontaktSubmit = function() {
 	kontaktNachricht.removeClass("form__error");
 	kontaktSenden.style.display = 'none';
 	kontaktMessage.innerHTML = '';
+	kontaktPostContent.style.display = 'none';
 	loader(1);
 
 	//VALIDATE
@@ -23,8 +24,8 @@ kontaktSubmit = function() {
 		if(_self.value === "") {
 			kontaktSenden.style.display = '';
 			_self.addClass("form__error");
+			loader(0);
 		}
-		loader(0);
 	});
 	//SEND
 	if(kontaktNachricht.value && kontaktName.value && kontaktMail.value) {
@@ -63,7 +64,6 @@ kontaktSubmit = function() {
 			if(data[0].status === "sent") {
 				kontaktMessageError.style.display = 'none';
 				kontaktForm.style.display = 'none';
-				kontaktPostContent.style.display = 'none';
 				kontaktMessage.innerHTML = '<span class="kontakt__success">Danke für deine eMail!</span>';
 				loader(0);
 			} else {
