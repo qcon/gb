@@ -121,6 +121,7 @@ task :deploy do
 	Rake::Task[:jekyll_build].invoke
 	Rake::Task[:gzip].invoke
 	Rake::Task[:pushs3].invoke
+	puts "Done".green
 end
 
 desc "auto increase Versionnumber"
