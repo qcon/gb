@@ -365,8 +365,8 @@ kontaktSubmit = function() {
 		if(_self.value === "") {
 			kontaktSenden.style.display = '';
 			_self.addClass("form__error");
+			loader(0);
 		}
-		loader(0);
 	});
 	//SEND
 	if(kontaktNachricht.value && kontaktName.value && kontaktMail.value) {
