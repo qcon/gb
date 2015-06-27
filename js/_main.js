@@ -21,7 +21,16 @@ var
 	searchReset           = _('#search_reset'),
 	searchModal           = _('.open_search'),
 	headerStyle           = _('#header-style'),
+	scrollTop             = _('.scroll-top')
 	activeScrollResize    = false;
+
+(function(st) {
+	if(st) {
+		st.addEventListener('click', function() {
+			jumpTo(linklist);
+		});
+	}
+})(scrollTop);
 
 (function(ee) {
 	if(ee) {
