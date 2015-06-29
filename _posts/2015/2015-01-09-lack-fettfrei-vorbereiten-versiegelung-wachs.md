@@ -35,7 +35,7 @@ Fast alle Hersteller bieten einen Vorreiniger zu ihren Versiegelung an. Zum Beis
 
 Eine sehr guter Allrounder ist der [Kontroll-Reiniger](http://www.petzoldts.de/shop/Kontroll-Reiniger-zur-Politurkontrolle,-Petzoldts-p-1960.html) von Petzoldts. Der auf den ersten Blick happige Preis von 9,90€ für 500ml wirkt nach der ersten Behandlung absolut gerechtfertigt. 
 
-![Kontroll-Reiniger von Petzoldts](http://autopflege-mieth.de/work_/997carrerasgrau/P1010750.JPG)
+![Kontroll-Reiniger von Petzoldts](https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/997carrerasgrau/P1010750.JPG)
 
 ##Optimale Anwendung
 

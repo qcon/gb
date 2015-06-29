@@ -13,7 +13,7 @@ Messgeräte erleichtern nicht nur die Arbeit, sondern machen sie meistens auch s
 
 Ich persönlich poliere grundsätzlich nicht mehr wenn ich nicht vorher den Lack gemessen habe. Ab einem Preis von rund 200-250€ bekommt man einigermaßen recht genaue Messgeräte mit aktzeptabler Toleranz. Empfehlenswert ist der [Testboy 72](http://amzn.to/1w8KDSq), welchen ich seit ca. 3 Jahren im Einsatz habe.
 
-![Testboy Lackmessgerät auf Golf-Gelben BMW 2002](http://autopflege-mieth.de/work_/bmw2002gelb/P1010270.JPG)
+![Testboy Lackmessgerät auf Golf-Gelben BMW 2002](https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/bmw2002gelb/P1010270.JPG)
 
 Die meisten Messgeräte dieser Preisklasse messen den kompletten Lackaufbau. Vom Klarlack bis zum Blech (roter Pfeil).
 

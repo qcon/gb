@@ -33,78 +33,78 @@ Der **Rupes Swirlfinder** ist eine handliche LED Lampe um Imperfektionen in der 
   Hinter dem Konvexen Glas befindet sich die LED
 </h5>
 
-![Rupes Swirlfinder / Lightpen](http://autopflege-mieth.de/berichte/rupeslightpen/P1020033.JPG)
+![Rupes Swirlfinder / Lightpen](https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/berichte/rupeslightpen/P1020033.JPG)
 
 &nbsp;
 
 ##### Ein/Ausschalter
 
-![Rupes Swirlfinder / Lightpen](http://autopflege-mieth.de/berichte/rupeslightpen/P1020034.JPG)
+![Rupes Swirlfinder / Lightpen](https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/berichte/rupeslightpen/P1020034.JPG)
 
 &nbsp;
 
 ##### Batterieeinschub abgeschraubt
 
-![Rupes Swirlfinder / Lightpen](http://autopflege-mieth.de/berichte/rupeslightpen/P1020035.jpg)
+![Rupes Swirlfinder / Lightpen](https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/berichte/rupeslightpen/P1020035.jpg)
 
 &nbsp;
 
 ##### Fokus in &#8220;Normalstellung&#8221;. Die Lampe leuchtet nun breit gestreut.
 
-![Rupes Swirlfinder / Lightpen](http://autopflege-mieth.de/berichte/rupeslightpen/P1020036.jpg)
+![Rupes Swirlfinder / Lightpen](https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/berichte/rupeslightpen/P1020036.jpg)
 
 &nbsp;
 
 ##### Zieht man den Kopf nach vorne fokussiert sich der Lichtstrahl
 
-![Rupes Swirlfinder / Lightpen](http://autopflege-mieth.de/berichte/rupeslightpen/P1020037.jpg?w=900)
+![Rupes Swirlfinder / Lightpen](https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/berichte/rupeslightpen/P1020037.jpg?w=900)
 &nbsp;
 
 ##### Kopf eingefahren
 
-![Rupes Swirlfinder / Lightpen](http://autopflege-mieth.de/berichte/rupeslightpen/P1020038.JPG)
+![Rupes Swirlfinder / Lightpen](https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/berichte/rupeslightpen/P1020038.JPG)
 
 &nbsp;
 
 ##### Kopf ausgefahren
 
-![Rupes Swirlfinder / Lightpen](http://autopflege-mieth.de/berichte/rupeslightpen/P1020039.JPG)
+![Rupes Swirlfinder / Lightpen](https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/berichte/rupeslightpen/P1020039.JPG)
 
 &nbsp;
 
 ##### Selbst bei Tageslicht deckt der Swirl Finder ordentlich Kratzer auf!
 
-![Rupes Swirlfinder / Lightpen](http://autopflege-mieth.de/berichte/rupeslightpen/P1020047.JPG)
+![Rupes Swirlfinder / Lightpen](https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/berichte/rupeslightpen/P1020047.JPG)
 
 &nbsp;
 
 &nbsp;
 
-![Rupes Swirlfinder / Lightpen](http://autopflege-mieth.de/berichte/rupeslightpen/P1020050.JPG)
+![Rupes Swirlfinder / Lightpen](https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/berichte/rupeslightpen/P1020050.JPG)
 
 &nbsp;
 
 ##### In der Halle unter Kunstlicht werden besonders Hologramme sichtbar
 
-![Rupes Swirlfinder / Lightpen](http://autopflege-mieth.de/berichte/rupeslightpen/P1020054.JPG)
+![Rupes Swirlfinder / Lightpen](https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/berichte/rupeslightpen/P1020054.JPG)
 
 &nbsp;
 
-![Rupes Swirlfinder / Lightpen](http://autopflege-mieth.de/berichte/rupeslightpen/P1020056.JPG)
+![Rupes Swirlfinder / Lightpen](https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/berichte/rupeslightpen/P1020056.JPG)
 
-![Rupes Swirlfinder / Lightpen](http://autopflege-mieth.de/berichte/rupeslightpen/P1020057.JPG)
-
-&nbsp;
+![Rupes Swirlfinder / Lightpen](https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/berichte/rupeslightpen/P1020057.JPG)
 
 &nbsp;
 
-![Rupes Swirlfinder / Lightpen](http://autopflege-mieth.de/berichte/rupeslightpen/P1020060.JPG)
+&nbsp;
 
-![Rupes Swirlfinder / Lightpen](http://autopflege-mieth.de/berichte/rupeslightpen/P1020061.JPG)
+![Rupes Swirlfinder / Lightpen](https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/berichte/rupeslightpen/P1020060.JPG)
+
+![Rupes Swirlfinder / Lightpen](https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/berichte/rupeslightpen/P1020061.JPG)
 
 &nbsp;
 
-![Rupes Swirlfinder / Lightpen](http://autopflege-mieth.de/berichte/rupeslightpen/P1020063.JPG)
+![Rupes Swirlfinder / Lightpen](https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/berichte/rupeslightpen/P1020063.JPG)
 
 &nbsp;
 
