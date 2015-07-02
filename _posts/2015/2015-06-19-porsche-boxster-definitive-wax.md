@@ -5,7 +5,6 @@ author: "Dirk"
 wps_subtitle: Definitive Club Wax
 categories: Pflegeberichte
 head__img--fullurl: https://glossbossimages.s3.eu-central-1.amazonaws.com/dirk/boxster/DSC_0030.JPG
-markasnew: true
 ---
 # Wer sich da wohl versteckt......??? Weiß man es schon "Definitive"?
 Na, wer kuschelt da noch so schön eingemummelt unter seiner Winterdecke? Verraten wird das erst später ;-)

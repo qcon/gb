@@ -7,7 +7,6 @@ wps_subtitle:
   - "Black'n White - Gtechniq Exo v2"
 categories:
   - Pflegeberichte
-markasnew: true
 --- 
 
 **Fahrzeug**: Porsche Macan S (Typ 95B)   
