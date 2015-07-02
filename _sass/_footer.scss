@@ -1,5 +1,4 @@
 footer {
-	padding-bottom:2em;
 	background-color: $blau;
 	@include font(light);
 	text-align:center;
@@ -32,6 +31,7 @@ footer {
 	}
 }
 .footlist {
+	padding: 2em 0;
 	text-align:center;
 	@extend .linklist;
 	li {
@@ -45,6 +45,7 @@ footer {
 	}
 }
 .footer__social {
+	padding: 2em 0;
 	svg {
 		width:45px;
 		fill:white;
