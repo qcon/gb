@@ -30,8 +30,10 @@ footer {
 		transform: translate(0,-12px);
 	}
 }
-.footlist {
+.footpadding {
 	padding: 2em 0;
+}
+.footlist {
 	text-align:center;
 	@extend .linklist;
 	li {
