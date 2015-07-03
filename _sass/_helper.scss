@@ -1,3 +1,32 @@
+.wrap-modal {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+.modal-show {
+	transition: 150ms;
+	transform: translate(0, 0) !important;
+}
+.modal {
+	@include font(light);
+	font-size: 1.1em;
+	border-radius: 15px;
+	padding: 1em;
+	margin: 1em auto;
+	text-align: center;
+	//background: mix(white, $blau, 7);
+	color: white;
+	width: 60%;
+	transition: 200ms;
+	transform: translate(0, -350px);
+	&-success {
+		background: #00B16A;
+	}
+	&-error {
+		background: #CF000F;
+	}
+}
 #showComments {
 	width: 60px;
 	cursor: pointer;

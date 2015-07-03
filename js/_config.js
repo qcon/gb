@@ -11,6 +11,28 @@
 	};
 	$ = document.querySelector.bind(document);
 	$$ = document.querySelectorAll.bind(document);
+
+	appendModal = function(text, time, type) {
+		type = type || "success";
+		var modalWrap = _('.wrap-modal'),
+		modal = document.createElement("div");
+
+		modal.innerText = text;
+		modal.classList.add("modal");
+		modal.classList.add("modal-" + type);
+		setTimeout(function() {
+			modal.classList.add("modal-show");
+		}, 20);
+
+		modalWrap.appendChild(modal);
+
+		setTimeout(function() {
+			modal.classList.remove("modal-show");
+			setTimeout(function() {
+				modalWrap.removeChild(modal);
+			}, 250);
+		}, time);
+	}
 	_ = function( elem ) {
 		elemSliced   = elem.slice(1, elem.length);
 		elemSelector = elem.charAt(0);

@@ -4,9 +4,6 @@ var
 	toggleMenuBox         = _("#toggleMenu"),
 	docHeight             = window.innerHeight,
 	docWidth              = window.innerWidth,
-	contOverlay           = _("#containeroverlay"),
-	contOverlayInner      = _("#containeroverlay-inner"),
-	contOverlayClose      = _('#closeOverlay'),
 	contImage             = _(".post--content p img"),
 	breadtop              = _(".hamburger li:nth-child(1)"),
 	beef                  = _(".hamburger li:nth-child(2)"),
@@ -21,7 +18,7 @@ var
 	searchReset           = _('#search_reset'),
 	searchModal           = _('.open_search'),
 	headerStyle           = _('#header-style'),
-	scrollTop             = _('.scroll-top')
+	scrollTop             = _('.scroll-top'),
 	activeScrollResize    = false;
 
 (function(st) {
