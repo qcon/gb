@@ -70,6 +70,7 @@ table {
 }
 #post--list__container {
     transition:.15s;
+    margin-bottom: 6em;
 }
 .post--list, #results-container {
 	@include font(special);
