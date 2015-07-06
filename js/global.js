@@ -465,7 +465,7 @@ var
 (function(ps) {
 	if(ps && navigator.userAgent.match(/(iphone)/g)) {
 		var wA = _(".share--whatsapp");
-		wA.style.display = "block";
+		wA.style.display = "inline-block";
 		wA.href = "WhatsApp://send?text=" + document.title + ": " + location.href;
 	}
 })(postSharing);
