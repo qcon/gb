@@ -463,7 +463,7 @@ var
 	activeScrollResize    = false;
 
 (function(ps) {
-	if(ps && navigator.userAgent.match(/(iphone)/g)) {
+	if(ps && navigator.userAgent.match(/(iPhone)/g)) {
 		var wA = _(".share--whatsapp");
 		wA.style.display = "inline-block";
 		wA.href = "WhatsApp://send?text=" + document.title + ": " + location.href;
