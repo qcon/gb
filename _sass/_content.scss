@@ -312,6 +312,15 @@ table {
 			background:lighten(#dd4b39,10);
 		}
 	}
+	.share--whatsapp {
+		@extend %share--button;
+		background: #4dc247;
+		display: none;
+		&:hover {
+			background: lighten(#4dc247, 10);
+			@include materialShadow(1);
+		}
+	}
 	.share--pdf {
 		@extend %share--button;
 		background:#D35400;

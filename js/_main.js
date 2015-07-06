@@ -19,7 +19,16 @@ var
 	searchModal           = _('.open_search'),
 	headerStyle           = _('#header-style'),
 	scrollTop             = _('.scroll-top'),
+	postSharing           = _('.post--sharing'),
 	activeScrollResize    = false;
+
+(function(ps) {
+	if(ps && navigator.userAgent.match(/(iphone)/g)) {
+		var wA = _(".share--whatsapp");
+		wA.style.display = "inline-block";
+		wA.href = "WhatsApp://send?text=" + document.title + ": " + location.href;
+	}
+})(postSharing);
 
 (function(st) {
 	if(st) {
