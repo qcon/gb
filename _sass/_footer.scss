@@ -34,18 +34,56 @@ footer {
 	padding: 2em 0;
 }
 .footlist {
-	text-align:center;
-	@extend .linklist;
-	li {
-		overflow:hidden;
+	list-style:none;
+	opacity: 1;
+	font-size:1em;
+	overflow:hidden;
+	transition:.25s;
+	text-align: center;
+	@include font(normalOS);
+	@media #{$md-min} {
+	  font-size:1.3em;
 	}
-	@media #{$sm} {
+	li {
+		overflow: hidden;
+		margin-right:1.5em;
 		display:inline-block;
-		li {
+		line-height:1.5em;
+		text-transform: uppercase;
+		a {
+			text-decoration:none;
+			color:mix(black,white,5);
+			@media #{$min-sm} {
+				&:hover {
+					color:$text;
+				}
+			}
+		}
+		@media #{$sm} {
 			display:inline-block;
+			li {
+				display: inline-block;
+			}
 		}
 	}
 }
+.footlist-sub {
+	@extend .linklist;
+}
+// .footlist {
+// 	text-align:center;
+// 	@extend .linklist;
+// 	li {
+// 		overflow:hidden;
+// 		}
+// 	}
+// 	@media #{$sm} {
+// 		display:inline-block;
+// 		li {
+// 			display:inline-block;
+// 		}
+// 	}
+// }
 .footer__social {
 	padding: 2em 0;
 	svg {

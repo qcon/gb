@@ -4,6 +4,10 @@
 	font-size:1em;
 	overflow:hidden;
 	transition:.25s;
+	margin: 22px;
+	@media #{$sm} {
+		margin: 0;
+	}
 	@include font(normalOS);
 	@media #{$md-min} {
 	  font-size:1.3em;
@@ -15,28 +19,29 @@
 		text-transform: uppercase;
 		a {
 			text-decoration:none;
-			color:mix(black,white,5);
+			//color:mix(black,white,5);
+			color: $text;
 
 			transition:.25s ease;
 			@media #{$sm} {
 				&:hover {
-					border-bottom:4px solid white;
+					border-bottom:4px solid $blau;
 				}
 			}
 			@media #{$min-sm} {
 				&:hover {
-					color:white;
+					color:$blau;
 					&:after{
-						height:5px;
+						height:2px;
 						transform:translate(0,0);
 					}
 				}
 				&:after {
 				  content:'';
-				  height:5px;
+				  height:2px;
 				  width:auto;
 				  display:block;
-				  background:white;
+				  background:$blau;
 				  position:relative;
 				  transition:.25s ease;
 				  top:0;
@@ -67,13 +72,15 @@
 }
 .header__extend {
     //background-color: mix(black,$blau,5);
-    background:#44bcff;
-    padding:0.6em 0.6em 0 0.6em;
+    //background:#44bcff;
+    background: HSL(300, 5%, 95%);
+    //padding:0.6em 0.6em 0 0.6em;
+    padding: 0.5px;
     box-shadow: 0px 2px 1px 0px rgba(0,0,0,.2);
     @media #{$min-sm} {
         text-align:center;
         &:hover .submenu {
-		height:35px;
+		height:40px;
 		opacity:1;
 	}
     }
@@ -83,17 +90,17 @@
     }
     .submenu {
 		opacity:0;
-		padding-top: 5px;
+		//padding-top: 5px;
 		height:0;
 		transform: translate(0, 0);
-		transition: 120ms;
+		//transition: 120ms;
 		font-size: 0.8em;
 	}
 }
 %burger {
   height:5px;
   width:34px;
-  background:white;
+  background:$blau;
   content:'';
   left:0;
   position:relative;
@@ -122,7 +129,7 @@ ul.hamburger {
 .header__menu--icontoggle {
     width:32px;
     height:32px;
-    fill:white;
+    fill:$blau;
     margin-left:1.8em;
     transition:.25s cubic-bezier(.55,0,.1,1);
 }
