@@ -478,6 +478,18 @@ var
 
 (function(ee) {
 	if(ee) {
+		var timerEE;
+		_("#page-heading").addEventListener('mouseup', function() {
+			clearTimeout(timerEE);
+			return false;
+		});
+		_('#page-heading').addEventListener('mousedown', function() {
+			timerEE = window.setTimeout(function() {
+				_('.post--list li').forEach(function(e) {
+					e.addClass('eastereggNavbar');
+				})
+			}, 2000);
+		})
 		// eastereggNavbar.addEventListener('click', function() {
 		// 	_('.post--list li').forEach(function(e) {
 		// 		e.addClass('eastereggNavbar');
