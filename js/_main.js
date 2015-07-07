@@ -20,6 +20,7 @@ var
 	headerStyle           = _('#header-style'),
 	scrollTop             = _('.scroll-top'),
 	postSharing           = _('.post--sharing'),
+	pageHeading           = _('.page-heading'),
 	activeScrollResize    = false;
 
 (function(ps) {
@@ -38,20 +39,22 @@ var
 	}
 })(scrollTop);
 
-(function(ee) {
-	if(ee) {
+(function(ee, ph) {
+	if(ph) {
 		var timerEE;
-		_("#page-heading").addEventListener('mouseup', function() {
+		ph.addEventListener('mouseup', function() {
 			clearTimeout(timerEE);
 			return false;
 		});
-		_('#page-heading').addEventListener('mousedown', function() {
+		ph.addEventListener('mousedown', function() {
 			timerEE = window.setTimeout(function() {
 				_('.post--list li').forEach(function(e) {
 					e.addClass('eastereggNavbar');
 				})
 			}, 2000);
-		})
+		});
+	}
+	if(ee) {
 		// eastereggNavbar.addEventListener('click', function() {
 		// 	_('.post--list li').forEach(function(e) {
 		// 		e.addClass('eastereggNavbar');
@@ -96,7 +99,7 @@ var
 			
 		});
 	}
-})(eastereggNavbar);
+})(eastereggNavbar, pageHeading);
 
 (function(rndhd) {
 	if(rndhd) {
