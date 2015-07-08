@@ -150,11 +150,9 @@
 			}
 		});
 	};
-
 	ajax = function(url, method, data, cb, useJSON) {
 		xmlxhr = new XMLHttpRequest();
 		try {
-			
 			xmlxhr.onreadystatechange = function() {
 				if(xmlxhr.readyState == 4 && xmlxhr.status == 200) {
 					out = (useJSON) ? JSON.parse(xmlxhr.responseText) : xmlxhr.responseText;
@@ -169,7 +167,6 @@
 				xmlxhr.open(method, url);
 				xmlxhr.send();
 			}
-			
 		} catch(err) {
 			console.log("AJAX ERROR:" + err);
 		}
