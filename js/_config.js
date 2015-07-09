@@ -32,46 +32,52 @@
 		}, time);
 	}
 	_ = function( elem ) {
-		elemSliced   = elem.slice(1, elem.length);
-		elemSelector = elem.charAt(0);
-		returnNode   = [];
-		if ( /[^\w#.-]/.test(elem) ) {
-			//do the querySelectorAll, if:
-			//* there is a whitespace
-			//* there is a special char except # . -
-			//example: "input[type="radio"]:checked" OR
-			//".post-content p img"
-			getElements = document.querySelectorAll(elem);
-			getLength = getElements.length;
-			for( i = 0; i < getElements.length; i++ ) {
-				returnNode.push(getElements[i]);
+			try {
+			elemSliced   = elem.slice(1, elem.length);
+			elemSelector = elem.charAt(0);
+			returnNode   = [];
+			if ( /[^\w#.-]/.test(elem) ) {
+				//do the querySelectorAll, if:
+				//* there is a whitespace
+				//* there is a special char except # . -
+				//example: "input[type="radio"]:checked" OR
+				//".post-content p img"
+				getElements = document.querySelectorAll(elem);
+				getLength = getElements.length;
+				for( i = 0; i < getElements.length; i++ ) {
+					returnNode.push(getElements[i]);
+				}
+			} else {
+				switch ( elemSelector ) {
+					//get the IDs
+					case '#':
+						returnNode.push(document.getElementById( elemSliced ));
+						break;
+					//get the classes
+					case '.':
+						getClassNames = document.getElementsByClassName( elemSliced );
+						for( i = 0; i < getClassNames.length; i++ ) {
+							returnNode.push( getClassNames[i] );
+						}
+						break;
+					//get the tag names
+					default:
+						getTagNames = document.getElementsByTagName(elem);
+						for( i = 0; i < getTagNames.length; i++ ) {
+							returnNode.push( getTagNames[i] );
+						}
+						break;
+				}
 			}
-		} else {
-			switch ( elemSelector ) {
-				//get the IDs
-				case '#':
-					returnNode.push(document.getElementById( elemSliced ));
-					break;
-				//get the classes
-				case '.':
-					getClassNames = document.getElementsByClassName( elemSliced );
-					for( i = 0; i < getClassNames.length; i++ ) {
-						returnNode.push( getClassNames[i] );
-					}
-					break;
-				//get the tag names
-				default:
-					getTagNames = document.getElementsByTagName(elem);
-					for( i = 0; i < getTagNames.length; i++ ) {
-						returnNode.push( getTagNames[i] );
-					}
-					break;
+			returnNodeFinal = ( returnNode.length > 1 ) ? returnNode : returnNode[0];
+			if( returnNodeFinal ) {
+				return returnNodeFinal;
+			} else {
+				return;
 			}
 		}
-		returnNodeFinal = ( returnNode.length > 1 ) ? returnNode : returnNode[0];
-		if( returnNodeFinal ) {
-			return returnNodeFinal;
-		} else {
+		catch(e) {
+			console.log("_ FUNC Error: " + e);
 			return;
 		}
 	};
