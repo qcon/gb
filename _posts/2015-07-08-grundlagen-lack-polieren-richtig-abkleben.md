@@ -45,7 +45,7 @@ Bei der 3. Variante (rechts) schützen wir Ausschließlich die Zierleiste, da da
 
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/richtigabkleben/P1020905.JPG)
 
-Typenschilder sollte man abkleben, da mit vorallem mit einer Rotationsmaschine rucki zucki die Beschichtung vom Logo beschädigen kann. 
+Typenschilder sollte man abkleben, da man vorallem mit einer Rotationsmaschine rucki zucki die Beschichtung vom Logo beschädigen kann. 
 
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/richtigabkleben/P1020906.JPG)
 
