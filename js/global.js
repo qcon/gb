@@ -132,7 +132,8 @@ document.addEventListener('DOMContentLoaded', function() {
 	 */
 	jumpTo = function ( elem ) {
 			theOffset = elem.getBoundingClientRect();
-			window.scrollTo(0,theOffset.top + document.body.scrollTop - 10);
+			scrolltopfix = (document.body.scrollTop || document.documentElement.scrollTop);
+			window.scrollTo(0,theOffset.top + scrolltopfix - 10);
 	};
 
 	log = function ( arg ) {
