@@ -425,6 +425,7 @@ kontaktSubmit = function() {
 			loader(1);
 			if(data[0].status === "sent") {
 				kontaktSenden.style.visibility = "hidden";
+				console.log("Kontakt Success");
 				appendModal("Danke für deine eMail! Wir werden so schnell wie möglich darauf antworten.", 4500);
 				loader(0);
 			} else {
