@@ -378,14 +378,14 @@ kontaktSubmit = function() {
 	kontaktName.removeClass("form__error");
 	kontaktMail.removeClass("form__error");
 	kontaktNachricht.removeClass("form__error");
-	kontaktSenden.style.opacity = '.5';
+	kontaktSenden.style.visibility = 'hidden';
 	kontaktMessage.innerHTML = '';
 	loader(1);
 
 	//VALIDATE
 	[kontaktName, kontaktNachricht, kontaktMail].forEach(function(_self) {
 		if(_self.value === "") {
-			kontaktSenden.style.opacity = '1';
+			kontaktSenden.style.visibility = '';
 			_self.addClass("form__error");
 			appendModal("Unvollständige Angabe: " + _self.placeholder, 3000, "error");
 			loader(0);
@@ -396,7 +396,7 @@ kontaktSubmit = function() {
 		re = /\S+@\S+\.\S+/
 		if(!re.test(kontaktMail.value)) {
 			appendModal("eMail Adresse ungültig!", 2000, "error");
-			kontaktSenden.style.opacity = '1';
+			kontaktSenden.style.visibility = '';
 			loader(0);
 			return;
 		}
@@ -425,7 +425,6 @@ kontaktSubmit = function() {
 			loader(1);
 			if(data[0].status === "sent") {
 				kontaktSenden.style.visibility = "hidden";
-				console.log("Kontakt Success");
 				appendModal("Danke für deine eMail! Wir werden so schnell wie möglich darauf antworten.", 4500);
 				loader(0);
 			} else {

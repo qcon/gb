@@ -23,6 +23,7 @@ exclude:
 - rakefile
 - sftp-config.json
 include:
+- dist
 - images
 - was-wird-gespeichert
 markdown: kramdown
