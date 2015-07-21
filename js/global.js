@@ -870,6 +870,10 @@ router.add('suche', function() {
 	router.parser("suche");
 });
 
+router.add('test', function() {
+	router.parser("test", "TESTSEITE!");
+});
+
 router.add('alle', function() {
 	router.parser("alle", 'Alle Beiträge');
 	setTimeout(function() {

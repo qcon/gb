@@ -74,7 +74,7 @@ task :js do
 		output.puts("});")
 	end
 	#execute("uglifyjs js/global.js -o dist/global.#{yml_cfg["cssjsversion"]}.js")
-	execute("uglifyjs js/global.js -o dist/global.js -nm")
+	execute("uglifyjs js/global.js -o dist/global.js")
 	puts "JavaScript concatenate & UglifyJS DONE".green
 end
 
