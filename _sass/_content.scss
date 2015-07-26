@@ -73,7 +73,7 @@ table {
     margin-bottom: 6em;
 }
 .post--list__content {
-	padding: 15px;
+	padding: 15px 30px;
 }
 .post--list, #results-container {
 	@include font(special);
@@ -191,7 +191,7 @@ table {
 		// }
 		&:hover > .post--img {
 			transition:.15s;
-			opacity:.90;
+			//opacity:.90;
 			transform: scale(1.2);
 			//height:15em;
 		}
