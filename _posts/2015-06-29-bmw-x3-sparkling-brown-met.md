@@ -5,7 +5,6 @@ author: "René"
 wps_subtitle: New Colour!
 categories: Pflegeberichte
 head__img--fullurl: https://glossbossimages.s3.eu-central-1.amazonaws.com/RBdetailing/bmwx3/DSC_0359.jpg
-markasnew: true
 ---
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/RBdetailing/bmwx3/HEADER.jpg)
 
