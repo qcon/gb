@@ -11,7 +11,7 @@ categories:
 ---
 <span class="wichtige-info-blau"><a href="/en/gtechniq-crystal-serum-test-application/">This article is also available in english!</a></span>
 
-Das Crystal Serum von GTechniq ist eine Versiegelung die alles ins extreme reisst. Sie wird nur an trainierte, gewerbliche verkauft. So möchte man sicherstellen, dass man damit keinen großen Schaden anrichtet - wendet man das Serum nämlich falsch an, muss man diese wieder mit 2000er Schleifpapier schleifen. Das sagt zumindest der Hersteller.
+Das Crystal Serum von GTechniq ist eine Versiegelung die alles ins extreme reisst. Sie wird nur an trainierte, gewerbliche verkauft. So möchte man sicherstellen, dass man damit keinen großen Schaden anrichtet - wendet man das Serum nämlich falsch an, muss man die eventuell herbeigeführten Fehlstellen mit 2000er Schleifpapier schleifen um das Malheur zu beseitigen. Das sagt zumindest der Hersteller.
 
 Ob das wirklich so ist erfährst du hier im Test.
 
