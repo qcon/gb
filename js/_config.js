@@ -186,11 +186,11 @@
 	checkRead = function( post, li ) {
 		if(ls.getItem(post)) {
 			li.addClass("is-viewed");
-			parseDate = new Date(ls.getItem(post));
-			tag = parseDate.getDate();
-			monat = parseDate.getMonth()+1;
-			jahr = parseDate.getFullYear();
-			li.querySelectorAll(".post--read")[0].textContent = 'Gelesen am: ' + tag + '.' + monat + '.' + jahr + ' | ';
+			// parseDate = new Date(ls.getItem(post));
+			// tag = parseDate.getDate();
+			// monat = parseDate.getMonth()+1;
+			// jahr = parseDate.getFullYear();
+			//li.querySelectorAll(".post--read")[0].textContent = 'Gelesen am: ' + tag + '.' + monat + '.' + jahr + ' | ';
 		}
 	};
 	router = {
