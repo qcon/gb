@@ -10,6 +10,8 @@ wps_subtitle:
 categories:
   - en
 ---
+<span class="wichtige-info-blau"><a href="/produkttest/gtechniq-crystal-serum-test-anwendung-auftrag/">Dieser Artikel ist auch in Deutsch Verfügbar</a></span>
+
 Crystal Serum from GTechniq is a coating that puts it all to the extreme. It is sold only to trained professionals. That is to make sure that no bigger damage to the paint is made. Using Serum the wrong way, you have to use 2000 grain sand paper.  
 Well, that´s what the manufacturer says. 
 

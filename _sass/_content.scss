@@ -26,17 +26,17 @@ table {
 	height:600px;
 	max-width:100%;
 }
-// .wichtige-info {
-// 	background: HSL(300,5%,95%);
-// 	border-left:red 2px solid;
-// 	margin: 1em 0;
-// 	padding:.6em;
-// 	display:block;
-// }
-// .wichtige-info-blau {
-// 	@extend .wichtige-info;
-// 	border-left: $blau 2px solid;
-// }
+.wichtige-info {
+	background: HSL(300,5%,95%);
+	border-left:red 2px solid;
+	margin: 1em 0;
+	padding:.6em;
+	display:block;
+}
+.wichtige-info-blau {
+	@extend .wichtige-info;
+	border-left: $blau 2px solid;
+}
 .loadmore {
 	display:block;
 	//border-radius: 5px;
