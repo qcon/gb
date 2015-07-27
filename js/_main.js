@@ -1,26 +1,26 @@
 var
-	linklist              = _("#linklist"),
-	linklistAnchor        = _("#linklist a"),
-	toggleMenuBox         = _("#toggleMenu"),
+	linklist              = $("#linklist"),
+	linklistAnchor        = $$("#linklist a"),
+	toggleMenuBox         = $("#toggleMenu"),
 	docHeight             = window.innerHeight,
 	docWidth              = window.innerWidth,
-	contImage             = _(".post--content p img"),
-	breadtop              = _(".hamburger li:nth-child(1)"),
-	beef                  = _(".hamburger li:nth-child(2)"),
-	breadbottom           = _(".hamburger li:nth-child(3)"),
+	contImage             = $$(".post--content p img"),
+	breadtop              = $(".hamburger li:nth-child(1)"),
+	beef                  = $(".hamburger li:nth-child(2)"),
+	breadbottom           = $(".hamburger li:nth-child(3)"),
 	linklistMaxHeight     = '230px',
-	postsToLoad           = _('.post--list li'),
-	dellocalStorage       = _('.dellocalStorage'),
-	localStorageContainer = _('.localStorageContainer'),
-	shareCounter          = _('#sharecounter'),
-	showComments          = _('.showCommentsContainer'),
-	eastereggNavbar       = _('#eastereggNavbar'),
-	searchReset           = _('#search_reset'),
-	searchModal           = _('.open_search'),
-	headerStyle           = _('#header-style'),
-	scrollTop             = _('.scroll-top'),
-	postSharing           = _('.post--sharing'),
-	pageHeading           = _('.page-heading'),
+	postsToLoad           = $$('.post--list li'),
+	dellocalStorage       = $('.dellocalStorage'),
+	localStorageContainer = $('.localStorageContainer'),
+	shareCounter          = $('#sharecounter'),
+	showComments          = $('.showCommentsContainer'),
+	eastereggNavbar       = $('#eastereggNavbar'),
+	searchReset           = $('#search_reset'),
+	searchModal           = $('.open_search'),
+	headerStyle           = $('#header-style'),
+	scrollTop             = $('.scroll-top'),
+	postSharing           = $('.post--sharing'),
+	pageHeading           = $('.page-heading'),
 	activeScrollResize    = false;
 
 (function(ps) {
@@ -48,7 +48,7 @@ var
 		});
 		ph.addEventListener('mousedown', function() {
 			timerEE = window.setTimeout(function() {
-				_('.post--list li').forEach(function(e) {
+				$$('.post--list li').forEach(function(e) {
 					e.addClass('eastereggNavbar');
 				})
 			}, 2000);
@@ -92,7 +92,7 @@ var
 		];
 		eastereggNavbar.addEventListener('click', function() {
 			setInterval(function(){
-				_("*").forEach(function(e) {
+				$$("*").forEach(function(e) {
 					e.style.backgroundColor = augenkrebs[Math.floor(Math.random()*(augenkrebs.length + 1))];
 				});
 			}, 150);
@@ -113,7 +113,7 @@ var
 
 (function() {
 	if(location.href.indexOf("/preview/") !== -1) {
-		postContent = _(".post--content");
+		postContent = $(".post--content");
 		postContent.hide();
 		pw = prompt("Passwortgeschützter Bereich");
 		if(pw !== "marvin") {
@@ -141,14 +141,14 @@ var
 
 linklist.style.maxHeight = linklistMaxHeight;
 
-if ( postsToLoad ) {
+// if ( postsToLoad ) {
 
-	postsToLoad.forEach(function(post) {
+// 	postsToLoad.forEach(function(post) {
 
-			checkRead(post.getAttribute("data-read"), post);
+// 			checkRead(post.getAttribute("data-read"), post);
 
-	});
-}
+// 	});
+// }
 
 function hamburgerToggle() {
 
@@ -169,8 +169,8 @@ function hamburgerToggle() {
 	}
 }
 function updateHeader() {
-	content = _('#CONTENT');
-	header = _('header');
+	content = $('#CONTENT');
+	header = $('header');
 	headerHeight = header.offsetHeight - 5;
 	scrolled = window.scrollY;
 	content.style.margin = headerHeight + "px 0 0 0";
@@ -220,13 +220,13 @@ searchRender = function() {
 	(function(sr) {
 		if(sr) {
 			searchReset.addEventListener('click', function() {
-				_('#search-input').value = '';
-				_('#results-container').innerHTML = '';
+				$('#search-input').value = '';
+				$('#results-container').innerHTML = '';
 			})
 		}
 	})(searchReset);
 	
-	_('#searchWrapper').style.display = 'block';
+	$('#searchWrapper').style.display = 'block';
 	SimpleJekyllSearch.init({
 		searchInput: document.getElementById('search-input'),
 		resultsContainer: document.getElementById('results-container'),
@@ -297,24 +297,24 @@ window.addEventListener('resize', function() {
 	}
 })(shareCounter);
 
-(function(lsc) {
-	if(lsc) {
-		for ( var i = 0; i < localStorage.length; i++) {
-		localStorageContainer.innerHTML += '<li>' + localStorage.key(i) + ' - ' + localStorage.getItem(localStorage.key(i)) + '</li>';
-		}
+// (function(lsc) {
+// 	if(lsc) {
+// 		for ( var i = 0; i < localStorage.length; i++) {
+// 		localStorageContainer.innerHTML += '<li>' + localStorage.key(i) + ' - ' + localStorage.getItem(localStorage.key(i)) + '</li>';
+// 		}
 
-		if(localStorage.length === 0) {
-			localStorageContainer.innerHTML = 'Keine Daten vorhanden.';
-			dellocalStorage.hide();
-		}
+// 		if(localStorage.length === 0) {
+// 			localStorageContainer.innerHTML = 'Keine Daten vorhanden.';
+// 			dellocalStorage.hide();
+// 		}
 
-		dellocalStorage.addEventListener('click', function(e) {
-			e.preventDefault();
-			localStorage.clear();
-			localStorageContainer.innerHTML = 'Alle Daten erfolgreich gelöscht!';
-		});
-	}
-})(localStorageContainer);
+// 		dellocalStorage.addEventListener('click', function(e) {
+// 			e.preventDefault();
+// 			localStorage.clear();
+// 			localStorageContainer.innerHTML = 'Alle Daten erfolgreich gelöscht!';
+// 		});
+// 	}
+// })(localStorageContainer);
 
 WebFontConfig = {
 	google: { families: [ 'Roboto::latin' ] }
