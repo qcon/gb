@@ -9,9 +9,9 @@ document.addEventListener('DOMContentLoaded', function() {
 		maxIndexPosts: 10
 	},
 	slice = Array.prototype.slice;
-
 	$ = function(expr, con) {
-		return typeof expr === "string"? (con || document).querySelector(expr) : expr || null;
+		var el = typeof expr === "string"? (con || document).querySelector(expr) : expr || null;
+		return el || document.createElement("div");
 	}
 
 	$$ = function(expr, con) {
@@ -441,12 +441,12 @@ kontaktSubmit = function() {
 		}, true);
 	}
 }
-if( kontaktSenden ) {
+// if( kontaktSenden ) {
 	kontaktSenden.addEventListener('click', function(e) {
 		e.preventDefault();
 		kontaktSubmit();
 	});
-}
+// }
 
 var
 	linklist              = $("#linklist"),
@@ -473,21 +473,21 @@ var
 	pageHeading           = $('.page-heading'),
 	activeScrollResize    = false;
 
-(function(ps) {
-	if(ps && navigator.userAgent.match(/(iPhone)/g)) {
+// (function(ps) {
+	if(postSharing && navigator.userAgent.match(/(iPhone)/g)) {
 		var wA = _(".share--whatsapp");
 		wA.style.display = "inline-block";
 		wA.href = "WhatsApp://send?text=" + document.title + ": " + location.href;
 	}
-})(postSharing);
+// })(postSharing);
 
-(function(st) {
-	if(st) {
-		st.addEventListener('click', function() {
+// (function(st) {
+// 	if(st) {
+		scrollTop.addEventListener('click', function() {
 			jumpTo(linklist);
 		});
-	}
-})(scrollTop);
+// 	}
+// })(scrollTop);
 
 (function(ee, ph) {
 	if(ph) {
@@ -575,8 +575,8 @@ var
 	}
 })();
 
-(function(sc) {
-	if(sc) {
+// (function(sc) {
+// 	if(sc) {
 		showComments.addEventListener('click', function() {
 			var disqus_shortname = 'glossboss';
 			(function() {
@@ -586,8 +586,8 @@ var
 			})();
 			showComments.style.display = "none";
 		});
-	}
-})(showComments);
+// 	}
+// })(showComments);
 
 linklist.style.maxHeight = linklistMaxHeight;
 
@@ -823,7 +823,7 @@ updateMischung = function(predefined) {
 
 };
 
-if(getMischungInputs) {
+// if(getMischungInputs) {
 	predefinedMischung.forEach(function(_self) {
 		_self.addEventListener('click', function() {
 			content = _self.innerHTML.split(':');
@@ -839,7 +839,7 @@ getMischungInputs.forEach(function(el) {
 
 		});
 	});
-}
+// }
 
 
 router.add('allgemein', function() {
@@ -883,8 +883,8 @@ router.add('test', function() {
 router.add('alle', function() {
 	router.parser("alle", 'Alle Beiträge');
 	setTimeout(function() {
-		jumpTo(_("#loadmoreajax"));
-		_("#loadmoreajax").click();
+		jumpTo($("#loadmoreajax"));
+		$("#loadmoreajax").click();
 	},50);
 });
 

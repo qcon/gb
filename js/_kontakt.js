@@ -68,9 +68,9 @@ kontaktSubmit = function() {
 		}, true);
 	}
 }
-if( kontaktSenden ) {
+// if( kontaktSenden ) {
 	kontaktSenden.addEventListener('click', function(e) {
 		e.preventDefault();
 		kontaktSubmit();
 	});
-}
+// }

@@ -23,21 +23,21 @@ var
 	pageHeading           = $('.page-heading'),
 	activeScrollResize    = false;
 
-(function(ps) {
-	if(ps && navigator.userAgent.match(/(iPhone)/g)) {
+// (function(ps) {
+	if(postSharing && navigator.userAgent.match(/(iPhone)/g)) {
 		var wA = _(".share--whatsapp");
 		wA.style.display = "inline-block";
 		wA.href = "WhatsApp://send?text=" + document.title + ": " + location.href;
 	}
-})(postSharing);
+// })(postSharing);
 
-(function(st) {
-	if(st) {
-		st.addEventListener('click', function() {
+// (function(st) {
+// 	if(st) {
+		scrollTop.addEventListener('click', function() {
 			jumpTo(linklist);
 		});
-	}
-})(scrollTop);
+// 	}
+// })(scrollTop);
 
 (function(ee, ph) {
 	if(ph) {
@@ -125,8 +125,8 @@ var
 	}
 })();
 
-(function(sc) {
-	if(sc) {
+// (function(sc) {
+// 	if(sc) {
 		showComments.addEventListener('click', function() {
 			var disqus_shortname = 'glossboss';
 			(function() {
@@ -136,8 +136,8 @@ var
 			})();
 			showComments.style.display = "none";
 		});
-	}
-})(showComments);
+// 	}
+// })(showComments);
 
 linklist.style.maxHeight = linklistMaxHeight;
 

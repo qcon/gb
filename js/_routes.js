@@ -39,8 +39,8 @@ router.add('test', function() {
 router.add('alle', function() {
 	router.parser("alle", 'Alle Beiträge');
 	setTimeout(function() {
-		jumpTo(_("#loadmoreajax"));
-		_("#loadmoreajax").click();
+		jumpTo($("#loadmoreajax"));
+		$("#loadmoreajax").click();
 	},50);
 });
 

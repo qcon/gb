@@ -41,7 +41,7 @@ updateMischung = function(predefined) {
 
 };
 
-if(getMischungInputs) {
+// if(getMischungInputs) {
 	predefinedMischung.forEach(function(_self) {
 		_self.addEventListener('click', function() {
 			content = _self.innerHTML.split(':');
@@ -57,5 +57,5 @@ getMischungInputs.forEach(function(el) {
 
 		});
 	});
-}
+// }
 
