@@ -6,7 +6,6 @@ layout: page
 head__img--fullurl: https://glossbossimages.s3.eu-central-1.amazonaws.com/headerimg/DSC_0003.jpg
 ---
 <div class="impressum">
-  <p><a href="/was-wird-gespeichert/">Hier findest du eine Auflistung ALLER bei dir gespeicherten Daten!</a></p>
   <p>
     Angaben gemäß § 5 TMG
   </p>

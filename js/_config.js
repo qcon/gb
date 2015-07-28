@@ -6,13 +6,20 @@
 	conf = {
 		maxPostReload: 5,
 		maxIndexPosts: 10
-	};
-	$ = document.querySelector.bind(document);
-	$$ = document.querySelectorAll.bind(document);
+	},
+	slice = Array.prototype.slice;
+	$ = function(expr, con) {
+		var el = typeof expr === "string"? (con || document).querySelector(expr) : expr || null;
+		return el || document.createElement("div");
+	}
+
+	$$ = function(expr, con) {
+		return slice.call((con || document).querySelectorAll(expr));
+	}
 
 	appendModal = function(text, time, type) {
 		type = type || "success";
-		var modalWrap = _('.wrap-modal'),
+		var modalWrap = $('.wrap-modal'),
 		modal = document.createElement("div");
 
 		modal.innerText = text;
@@ -31,56 +38,56 @@
 			}, 250);
 		}, time);
 	}
-	_ = function( elem ) {
-			try {
-			elemSliced   = elem.slice(1, elem.length);
-			elemSelector = elem.charAt(0);
-			returnNode   = [];
-			if ( /[^\w#.-]/.test(elem) ) {
-				//do the querySelectorAll, if:
-				//* there is a whitespace
-				//* there is a special char except # . -
-				//example: "input[type="radio"]:checked" OR
-				//".post-content p img"
-				getElements = document.querySelectorAll(elem);
-				getLength = getElements.length;
-				for( i = 0; i < getElements.length; i++ ) {
-					returnNode.push(getElements[i]);
-				}
-			} else {
-				switch ( elemSelector ) {
-					//get the IDs
-					case '#':
-						returnNode.push(document.getElementById( elemSliced ));
-						break;
-					//get the classes
-					case '.':
-						getClassNames = document.getElementsByClassName( elemSliced );
-						for( i = 0; i < getClassNames.length; i++ ) {
-							returnNode.push( getClassNames[i] );
-						}
-						break;
-					//get the tag names
-					default:
-						getTagNames = document.getElementsByTagName(elem);
-						for( i = 0; i < getTagNames.length; i++ ) {
-							returnNode.push( getTagNames[i] );
-						}
-						break;
-				}
-			}
-			returnNodeFinal = ( returnNode.length > 1 ) ? returnNode : returnNode[0];
-			if( returnNodeFinal ) {
-				return returnNodeFinal;
-			} else {
-				return;
-			}
-		}
-		catch(e) {
-			console.log("_ FUNC Error: " + e);
-			return;
-		}
-	};
+	// _ = function( elem ) {
+	// 		try {
+	// 		elemSliced   = elem.slice(1, elem.length);
+	// 		elemSelector = elem.charAt(0);
+	// 		returnNode   = [];
+	// 		if ( /[^\w#.-]/.test(elem) ) {
+	// 			//do the querySelectorAll, if:
+	// 			//* there is a whitespace
+	// 			//* there is a special char except # . -
+	// 			//example: "input[type="radio"]:checked" OR
+	// 			//".post-content p img"
+	// 			getElements = document.querySelectorAll(elem);
+	// 			getLength = getElements.length;
+	// 			for( i = 0; i < getElements.length; i++ ) {
+	// 				returnNode.push(getElements[i]);
+	// 			}
+	// 		} else {
+	// 			switch ( elemSelector ) {
+	// 				//get the IDs
+	// 				case '#':
+	// 					returnNode.push(document.getElementById( elemSliced ));
+	// 					break;
+	// 				//get the classes
+	// 				case '.':
+	// 					getClassNames = document.getElementsByClassName( elemSliced );
+	// 					for( i = 0; i < getClassNames.length; i++ ) {
+	// 						returnNode.push( getClassNames[i] );
+	// 					}
+	// 					break;
+	// 				//get the tag names
+	// 				default:
+	// 					getTagNames = document.getElementsByTagName(elem);
+	// 					for( i = 0; i < getTagNames.length; i++ ) {
+	// 						returnNode.push( getTagNames[i] );
+	// 					}
+	// 					break;
+	// 			}
+	// 		}
+	// 		returnNodeFinal = ( returnNode.length > 1 ) ? returnNode : returnNode[0];
+	// 		if( returnNodeFinal ) {
+	// 			return returnNodeFinal;
+	// 		} else {
+	// 			return;
+	// 		}
+	// 	}
+	// 	catch(e) {
+	// 		console.log("_ FUNC Error: " + e);
+	// 		return;
+	// 	}
+	// };
 
 	Element.prototype.addClass = function( className ) {
 		_addClass = function( elem ) {
@@ -116,7 +123,7 @@
 	 * @param  {[BOOL]} show [1 = show, 0 = hide]
 	 */
 	loader = function ( show ) {
-		_self = _("#loading");
+		_self = $("#loading");
 		if ( show ) {
 			_self.style.opacity = '1';
 			_self.style.display = 'block';
@@ -146,7 +153,7 @@
 	 * @return null
 	 */
 	markActiveLinklist = function(hash) {
-		_(".linklistloop a").forEach(function(_self) {
+		$$(".linklistloop a").forEach(function(_self) {
 			if(_self.getAttribute("data-kat") === hash ) {
 				_self.addClass("cat--active");
 				setTimeout(function() {
@@ -211,12 +218,12 @@
 			}
 			loader(false);
 
-			if( _("#indexContainer") && !hash ) {
+			if( $("#indexContainer") && !hash ) {
 				this.parser('index', 'Die neuesten Beiträge', true);
 			}
 		},
 		parser: function( hash, title, isIndex ) {
-			_('#searchWrapper').style.display = 'none';
+			$('#searchWrapper').style.display = 'none';
 
 			markActiveLinklist(hash);
 			hashNice = hash.charAt(0).toUpperCase() + hash.slice(1,hash.length);
@@ -224,10 +231,10 @@
 
 			loader(true);
 
-			postList = _(".post--list");
-			postContainer = _("#post--list__container");
-			pageHeading = _("#page-heading");
-			loadmoreButton = _("#loadmoreajax");
+			postList = $(".post--list");
+			postContainer = $("#post--list__container");
+			pageHeading = $("#page-heading");
+			loadmoreButton = $("#loadmoreajax");
 
 			loadmoreButton.style.display = 'none';
 
@@ -268,13 +275,13 @@
 
 
 							if(numCat < conf.maxIndexPosts) {
-								_(".post--list").innerHTML += post[i].card;
+								$(".post--list").innerHTML += post[i].card;
 								numCat++;
 							}
 							postArr.push(post[i].card);
 						}
 					}
-					_(".post--list li").forEach(function(post, i) {
+					$$(".post--list li").forEach(function(post, i) {
 
 						checkRead(post.getAttribute("data-read"), post);
 
@@ -284,7 +291,7 @@
 					postContainer.removeClass("opacity-0");
 
 					
-					if(_(".post--list li").length < conf.maxIndexPosts) {
+					if($$(".post--list li").length < conf.maxIndexPosts) {
 
 						loadmoreButton.style.display = 'none';
 
@@ -298,21 +305,21 @@
 			loadmoreButton.onclick = function(e) {
 				e.preventDefault();
 				e.stopPropagation();
-				postListLI = _(".post--list li");
+				postListLI = $$(".post--list li");
 				if( isIndex && location.hash != 'alle' ) {
 					location.hash = 'alle';
 				}
 				var showDelayTime = 0;
 				showDelay = function(p, t) {
 					setTimeout(function() {
-						_(".post--list li")[p].removeClass("displayNone");
+						$$(".post--list li")[p].removeClass("displayNone");
 					}, t);
 
 				};
 
 				for (var i = 0; i < conf.maxPostReload; i++) {
-					_(".post--list").innerHTML += postArr[numCat];
-					_(".post--list li")[numCat].addClass('displayNone');
+					$(".post--list").innerHTML += postArr[numCat];
+					$$(".post--list li")[numCat].addClass('displayNone');
 					showDelayTime += 100;
 					showDelay(numCat, showDelayTime);
 					numCat++;
@@ -323,11 +330,11 @@
 					}
 				}
 
-				_(".post--list li").forEach(function(post, i) {
+				// $$(".post--list li").forEach(function(post, i) {
 
-						checkRead(post.getAttribute("data-read"), post);
+				// 		checkRead(post.getAttribute("data-read"), post);
 
-				});
+				// });
 
 				return;
 			};
@@ -336,7 +343,7 @@
 			progressBar.style.width = '5%';
 			xhr.addEventListener('progress', function(_self) {
 
-				var progressBar = _('#progressBar');
+				var progressBar = $('#progressBar');
 
 				if( _self.lengthComputable ) {
 

@@ -1,13 +1,13 @@
-var teil1          = _("#mischungInput1"),
-teil2              = _("#mischungInput2"),
-ergebnis           = _("#mischungResult"),
-ergebnisML         = _("#mischung--highlight"),
-getMischungInputs  = _("#mischungsrechner input"),
-header             = _("#mischung--heading"),
-predefinedMischung = _('.mischungenpredefined');
+var teil1          = $("#mischungInput1"),
+teil2              = $("#mischungInput2"),
+ergebnis           = $("#mischungResult"),
+ergebnisML         = $("#mischung--highlight"),
+getMischungInputs  = $$("#mischungsrechner input"),
+header             = $("#mischung--heading"),
+predefinedMischung = $$('.mischungenpredefined');
 
 updateMischung = function(predefined) {
-  flascheVal = _('input[type="radio"]:checked');
+  flascheVal = $('input[type="radio"]:checked');
   if(predefined) {
 	teil1.value = predefined.teil1;
 	teil2.value = predefined.teil2;
@@ -41,7 +41,7 @@ updateMischung = function(predefined) {
 
 };
 
-if(getMischungInputs) {
+// if(getMischungInputs) {
 	predefinedMischung.forEach(function(_self) {
 		_self.addEventListener('click', function() {
 			content = _self.innerHTML.split(':');
@@ -57,5 +57,5 @@ getMischungInputs.forEach(function(el) {
 
 		});
 	});
-}
+// }
 

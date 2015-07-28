@@ -7,13 +7,20 @@ document.addEventListener('DOMContentLoaded', function() {
 	conf = {
 		maxPostReload: 5,
 		maxIndexPosts: 10
-	};
-	$ = document.querySelector.bind(document);
-	$$ = document.querySelectorAll.bind(document);
+	},
+	slice = Array.prototype.slice;
+	$ = function(expr, con) {
+		var el = typeof expr === "string"? (con || document).querySelector(expr) : expr || null;
+		return el || document.createElement("div");
+	}
+
+	$$ = function(expr, con) {
+		return slice.call((con || document).querySelectorAll(expr));
+	}
 
 	appendModal = function(text, time, type) {
 		type = type || "success";
-		var modalWrap = _('.wrap-modal'),
+		var modalWrap = $('.wrap-modal'),
 		modal = document.createElement("div");
 
 		modal.innerText = text;
@@ -32,56 +39,56 @@ document.addEventListener('DOMContentLoaded', function() {
 			}, 250);
 		}, time);
 	}
-	_ = function( elem ) {
-			try {
-			elemSliced   = elem.slice(1, elem.length);
-			elemSelector = elem.charAt(0);
-			returnNode   = [];
-			if ( /[^\w#.-]/.test(elem) ) {
-				//do the querySelectorAll, if:
-				//* there is a whitespace
-				//* there is a special char except # . -
-				//example: "input[type="radio"]:checked" OR
-				//".post-content p img"
-				getElements = document.querySelectorAll(elem);
-				getLength = getElements.length;
-				for( i = 0; i < getElements.length; i++ ) {
-					returnNode.push(getElements[i]);
-				}
-			} else {
-				switch ( elemSelector ) {
-					//get the IDs
-					case '#':
-						returnNode.push(document.getElementById( elemSliced ));
-						break;
-					//get the classes
-					case '.':
-						getClassNames = document.getElementsByClassName( elemSliced );
-						for( i = 0; i < getClassNames.length; i++ ) {
-							returnNode.push( getClassNames[i] );
-						}
-						break;
-					//get the tag names
-					default:
-						getTagNames = document.getElementsByTagName(elem);
-						for( i = 0; i < getTagNames.length; i++ ) {
-							returnNode.push( getTagNames[i] );
-						}
-						break;
-				}
-			}
-			returnNodeFinal = ( returnNode.length > 1 ) ? returnNode : returnNode[0];
-			if( returnNodeFinal ) {
-				return returnNodeFinal;
-			} else {
-				return;
-			}
-		}
-		catch(e) {
-			console.log("_ FUNC Error: " + e);
-			return;
-		}
-	};
+	// _ = function( elem ) {
+	// 		try {
+	// 		elemSliced   = elem.slice(1, elem.length);
+	// 		elemSelector = elem.charAt(0);
+	// 		returnNode   = [];
+	// 		if ( /[^\w#.-]/.test(elem) ) {
+	// 			//do the querySelectorAll, if:
+	// 			//* there is a whitespace
+	// 			//* there is a special char except # . -
+	// 			//example: "input[type="radio"]:checked" OR
+	// 			//".post-content p img"
+	// 			getElements = document.querySelectorAll(elem);
+	// 			getLength = getElements.length;
+	// 			for( i = 0; i < getElements.length; i++ ) {
+	// 				returnNode.push(getElements[i]);
+	// 			}
+	// 		} else {
+	// 			switch ( elemSelector ) {
+	// 				//get the IDs
+	// 				case '#':
+	// 					returnNode.push(document.getElementById( elemSliced ));
+	// 					break;
+	// 				//get the classes
+	// 				case '.':
+	// 					getClassNames = document.getElementsByClassName( elemSliced );
+	// 					for( i = 0; i < getClassNames.length; i++ ) {
+	// 						returnNode.push( getClassNames[i] );
+	// 					}
+	// 					break;
+	// 				//get the tag names
+	// 				default:
+	// 					getTagNames = document.getElementsByTagName(elem);
+	// 					for( i = 0; i < getTagNames.length; i++ ) {
+	// 						returnNode.push( getTagNames[i] );
+	// 					}
+	// 					break;
+	// 			}
+	// 		}
+	// 		returnNodeFinal = ( returnNode.length > 1 ) ? returnNode : returnNode[0];
+	// 		if( returnNodeFinal ) {
+	// 			return returnNodeFinal;
+	// 		} else {
+	// 			return;
+	// 		}
+	// 	}
+	// 	catch(e) {
+	// 		console.log("_ FUNC Error: " + e);
+	// 		return;
+	// 	}
+	// };
 
 	Element.prototype.addClass = function( className ) {
 		_addClass = function( elem ) {
@@ -117,7 +124,7 @@ document.addEventListener('DOMContentLoaded', function() {
 	 * @param  {[BOOL]} show [1 = show, 0 = hide]
 	 */
 	loader = function ( show ) {
-		_self = _("#loading");
+		_self = $("#loading");
 		if ( show ) {
 			_self.style.opacity = '1';
 			_self.style.display = 'block';
@@ -147,7 +154,7 @@ document.addEventListener('DOMContentLoaded', function() {
 	 * @return null
 	 */
 	markActiveLinklist = function(hash) {
-		_(".linklistloop a").forEach(function(_self) {
+		$$(".linklistloop a").forEach(function(_self) {
 			if(_self.getAttribute("data-kat") === hash ) {
 				_self.addClass("cat--active");
 				setTimeout(function() {
@@ -212,12 +219,12 @@ document.addEventListener('DOMContentLoaded', function() {
 			}
 			loader(false);
 
-			if( _("#indexContainer") && !hash ) {
+			if( $("#indexContainer") && !hash ) {
 				this.parser('index', 'Die neuesten Beiträge', true);
 			}
 		},
 		parser: function( hash, title, isIndex ) {
-			_('#searchWrapper').style.display = 'none';
+			$('#searchWrapper').style.display = 'none';
 
 			markActiveLinklist(hash);
 			hashNice = hash.charAt(0).toUpperCase() + hash.slice(1,hash.length);
@@ -225,10 +232,10 @@ document.addEventListener('DOMContentLoaded', function() {
 
 			loader(true);
 
-			postList = _(".post--list");
-			postContainer = _("#post--list__container");
-			pageHeading = _("#page-heading");
-			loadmoreButton = _("#loadmoreajax");
+			postList = $(".post--list");
+			postContainer = $("#post--list__container");
+			pageHeading = $("#page-heading");
+			loadmoreButton = $("#loadmoreajax");
 
 			loadmoreButton.style.display = 'none';
 
@@ -269,13 +276,13 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 							if(numCat < conf.maxIndexPosts) {
-								_(".post--list").innerHTML += post[i].card;
+								$(".post--list").innerHTML += post[i].card;
 								numCat++;
 							}
 							postArr.push(post[i].card);
 						}
 					}
-					_(".post--list li").forEach(function(post, i) {
+					$$(".post--list li").forEach(function(post, i) {
 
 						checkRead(post.getAttribute("data-read"), post);
 
@@ -285,7 +292,7 @@ document.addEventListener('DOMContentLoaded', function() {
 					postContainer.removeClass("opacity-0");
 
 					
-					if(_(".post--list li").length < conf.maxIndexPosts) {
+					if($$(".post--list li").length < conf.maxIndexPosts) {
 
 						loadmoreButton.style.display = 'none';
 
@@ -299,21 +306,21 @@ document.addEventListener('DOMContentLoaded', function() {
 			loadmoreButton.onclick = function(e) {
 				e.preventDefault();
 				e.stopPropagation();
-				postListLI = _(".post--list li");
+				postListLI = $$(".post--list li");
 				if( isIndex && location.hash != 'alle' ) {
 					location.hash = 'alle';
 				}
 				var showDelayTime = 0;
 				showDelay = function(p, t) {
 					setTimeout(function() {
-						_(".post--list li")[p].removeClass("displayNone");
+						$$(".post--list li")[p].removeClass("displayNone");
 					}, t);
 
 				};
 
 				for (var i = 0; i < conf.maxPostReload; i++) {
-					_(".post--list").innerHTML += postArr[numCat];
-					_(".post--list li")[numCat].addClass('displayNone');
+					$(".post--list").innerHTML += postArr[numCat];
+					$$(".post--list li")[numCat].addClass('displayNone');
 					showDelayTime += 100;
 					showDelay(numCat, showDelayTime);
 					numCat++;
@@ -324,11 +331,11 @@ document.addEventListener('DOMContentLoaded', function() {
 					}
 				}
 
-				_(".post--list li").forEach(function(post, i) {
+				// $$(".post--list li").forEach(function(post, i) {
 
-						checkRead(post.getAttribute("data-read"), post);
+				// 		checkRead(post.getAttribute("data-read"), post);
 
-				});
+				// });
 
 				return;
 			};
@@ -337,7 +344,7 @@ document.addEventListener('DOMContentLoaded', function() {
 			progressBar.style.width = '5%';
 			xhr.addEventListener('progress', function(_self) {
 
-				var progressBar = _('#progressBar');
+				var progressBar = $('#progressBar');
 
 				if( _self.lengthComputable ) {
 
@@ -364,13 +371,13 @@ document.addEventListener('DOMContentLoaded', function() {
 	};
 })();
 
-var kontaktSenden   = _("#SENDEN"),
-kontaktMessage      = _("#form_msg"),
-kontaktForm         = _(".kontakt__form"),
-kontaktLoading      = _("#loading"),
-kontaktName         = _("#name"),
-kontaktMail         = _("#xyz"),
-kontaktNachricht    = _("#msg"),
+var kontaktSenden   = $("#SENDEN"),
+kontaktMessage      = $("#form_msg"),
+kontaktForm         = $(".kontakt__form"),
+kontaktLoading      = $("#loading"),
+kontaktName         = $("#name"),
+kontaktMail         = $("#xyz"),
+kontaktNachricht    = $("#msg"),
 api                 = "R61bXP70NEnJXC2c__cvgg";
 
 kontaktSubmit = function() {
@@ -434,53 +441,53 @@ kontaktSubmit = function() {
 		}, true);
 	}
 }
-if( kontaktSenden ) {
+// if( kontaktSenden ) {
 	kontaktSenden.addEventListener('click', function(e) {
 		e.preventDefault();
 		kontaktSubmit();
 	});
-}
+// }
 
 var
-	linklist              = _("#linklist"),
-	linklistAnchor        = _("#linklist a"),
-	toggleMenuBox         = _("#toggleMenu"),
+	linklist              = $("#linklist"),
+	linklistAnchor        = $$("#linklist a"),
+	toggleMenuBox         = $("#toggleMenu"),
 	docHeight             = window.innerHeight,
 	docWidth              = window.innerWidth,
-	contImage             = _(".post--content p img"),
-	breadtop              = _(".hamburger li:nth-child(1)"),
-	beef                  = _(".hamburger li:nth-child(2)"),
-	breadbottom           = _(".hamburger li:nth-child(3)"),
+	contImage             = $$(".post--content p img"),
+	breadtop              = $(".hamburger li:nth-child(1)"),
+	beef                  = $(".hamburger li:nth-child(2)"),
+	breadbottom           = $(".hamburger li:nth-child(3)"),
 	linklistMaxHeight     = '230px',
-	postsToLoad           = _('.post--list li'),
-	dellocalStorage       = _('.dellocalStorage'),
-	localStorageContainer = _('.localStorageContainer'),
-	shareCounter          = _('#sharecounter'),
-	showComments          = _('.showCommentsContainer'),
-	eastereggNavbar       = _('#eastereggNavbar'),
-	searchReset           = _('#search_reset'),
-	searchModal           = _('.open_search'),
-	headerStyle           = _('#header-style'),
-	scrollTop             = _('.scroll-top'),
-	postSharing           = _('.post--sharing'),
-	pageHeading           = _('.page-heading'),
+	postsToLoad           = $$('.post--list li'),
+	dellocalStorage       = $('.dellocalStorage'),
+	localStorageContainer = $('.localStorageContainer'),
+	shareCounter          = $('#sharecounter'),
+	showComments          = $('.showCommentsContainer'),
+	eastereggNavbar       = $('#eastereggNavbar'),
+	searchReset           = $('#search_reset'),
+	searchModal           = $('.open_search'),
+	headerStyle           = $('#header-style'),
+	scrollTop             = $('.scroll-top'),
+	postSharing           = $('.post--sharing'),
+	pageHeading           = $('.page-heading'),
 	activeScrollResize    = false;
 
-(function(ps) {
-	if(ps && navigator.userAgent.match(/(iPhone)/g)) {
+// (function(ps) {
+	if(postSharing && navigator.userAgent.match(/(iPhone)/g)) {
 		var wA = _(".share--whatsapp");
 		wA.style.display = "inline-block";
 		wA.href = "WhatsApp://send?text=" + document.title + ": " + location.href;
 	}
-})(postSharing);
+// })(postSharing);
 
-(function(st) {
-	if(st) {
-		st.addEventListener('click', function() {
+// (function(st) {
+// 	if(st) {
+		scrollTop.addEventListener('click', function() {
 			jumpTo(linklist);
 		});
-	}
-})(scrollTop);
+// 	}
+// })(scrollTop);
 
 (function(ee, ph) {
 	if(ph) {
@@ -491,7 +498,7 @@ var
 		});
 		ph.addEventListener('mousedown', function() {
 			timerEE = window.setTimeout(function() {
-				_('.post--list li').forEach(function(e) {
+				$$('.post--list li').forEach(function(e) {
 					e.addClass('eastereggNavbar');
 				})
 			}, 2000);
@@ -535,7 +542,7 @@ var
 		];
 		eastereggNavbar.addEventListener('click', function() {
 			setInterval(function(){
-				_("*").forEach(function(e) {
+				$$("*").forEach(function(e) {
 					e.style.backgroundColor = augenkrebs[Math.floor(Math.random()*(augenkrebs.length + 1))];
 				});
 			}, 150);
@@ -556,7 +563,7 @@ var
 
 (function() {
 	if(location.href.indexOf("/preview/") !== -1) {
-		postContent = _(".post--content");
+		postContent = $(".post--content");
 		postContent.hide();
 		pw = prompt("Passwortgeschützter Bereich");
 		if(pw !== "marvin") {
@@ -568,8 +575,8 @@ var
 	}
 })();
 
-(function(sc) {
-	if(sc) {
+// (function(sc) {
+// 	if(sc) {
 		showComments.addEventListener('click', function() {
 			var disqus_shortname = 'glossboss';
 			(function() {
@@ -579,19 +586,19 @@ var
 			})();
 			showComments.style.display = "none";
 		});
-	}
-})(showComments);
+// 	}
+// })(showComments);
 
 linklist.style.maxHeight = linklistMaxHeight;
 
-if ( postsToLoad ) {
+// if ( postsToLoad ) {
 
-	postsToLoad.forEach(function(post) {
+// 	postsToLoad.forEach(function(post) {
 
-			checkRead(post.getAttribute("data-read"), post);
+// 			checkRead(post.getAttribute("data-read"), post);
 
-	});
-}
+// 	});
+// }
 
 function hamburgerToggle() {
 
@@ -612,8 +619,8 @@ function hamburgerToggle() {
 	}
 }
 function updateHeader() {
-	content = _('#CONTENT');
-	header = _('header');
+	content = $('#CONTENT');
+	header = $('header');
 	headerHeight = header.offsetHeight - 5;
 	scrolled = window.scrollY;
 	content.style.margin = headerHeight + "px 0 0 0";
@@ -663,13 +670,13 @@ searchRender = function() {
 	(function(sr) {
 		if(sr) {
 			searchReset.addEventListener('click', function() {
-				_('#search-input').value = '';
-				_('#results-container').innerHTML = '';
+				$('#search-input').value = '';
+				$('#results-container').innerHTML = '';
 			})
 		}
 	})(searchReset);
 	
-	_('#searchWrapper').style.display = 'block';
+	$('#searchWrapper').style.display = 'block';
 	SimpleJekyllSearch.init({
 		searchInput: document.getElementById('search-input'),
 		resultsContainer: document.getElementById('results-container'),
@@ -697,67 +704,77 @@ window.addEventListener('resize', function() {
 
 (function(sc) {
 	if(sc) {
-		xhr = new XMLHttpRequest();
-		xhrSliced = new XMLHttpRequest();
-		getSharesUrl = "https://graph.facebook.com/" + window.location.href;
-		getSharesUrlSliced = getSharesUrl.slice(0, getSharesUrl.length-1);
-		sharesOutput = "";
-		var getSharesCount = 0;
-		// unfortunately i had to get 2 numbers from the API because some links
-		// were shared with a forwardslash and some not
-		// if they were both the same number, they share the same counter
-		// and i half them
-		xhr.onreadystatechange = function(e) {
-			if(xhr.readyState == 4 && xhr.status == 200) {
-				getShares = JSON.parse(xhr.responseText);
-			}
-		}
-		xhrSliced.onreadystatechange = function(e) {
-			if(xhrSliced.readyState == 4 && xhrSliced.status == 200) {
-				getSharesSliced = JSON.parse(xhrSliced.responseText);
-			}
-		}
-		var ajaxCheckInterval = setInterval(checkIntShare, 100);
-		function checkIntShare() {
-			if((xhrSliced.readyState == 4 && xhrSliced.status == 200) && (xhr.readyState == 4 && xhr.status == 200)) {
-				sharesOutput = "Sei der erste Glossboss der diesen Beitrag teilt!";
-				getSharesCount = (getSharesSliced.shares || 0) + (getShares.shares || 0);
-				if (getSharesSliced.shares === getShares.shares) getSharesCount /= 2;
-				if (getSharesCount > 1) {
-					sharesOutput = getSharesCount + " Glossbosse haben diesen Beitrag bereits geteilt";
-				} 
-				if (getSharesCount == 1) {
-					sharesOutput = "Erst 1 Glossboss hat diesen Beitrag geteilt";
+		try {
+			xhr = new XMLHttpRequest();
+			xhrSliced = new XMLHttpRequest();
+			getSharesUrl = "https://graph.facebook.com/" + window.location.href;
+			getSharesUrlSliced = getSharesUrl.slice(0, getSharesUrl.length-1);
+			sharesOutput = "";
+			var getSharesCount = 0;
+			// unfortunately i had to get 2 numbers from the API because some links
+			// were shared with a forwardslash and some not
+			// if they were both the same number, they share the same counter
+			// and i half them
+			xhr.onreadystatechange = function(e) {
+				if(xhr.readyState == 4 && xhr.status == 200) {
+					getShares = JSON.parse(xhr.responseText);
 				}
-			clearInterval(ajaxCheckInterval);
-			shareCounter.innerText = sharesOutput;
 			}
+			xhrSliced.onreadystatechange = function(e) {
+				if(xhrSliced.readyState == 4 && xhrSliced.status == 200) {
+					getSharesSliced = JSON.parse(xhrSliced.responseText);
+				}
+			}
+			var ajaxCheckInterval = setInterval(checkIntShare, 100);
+			function checkIntShare() {
+				try {
+					if((xhrSliced.readyState == 4 && xhrSliced.status == 200) && (xhr.readyState == 4 && xhr.status == 200) && (getShares && getSharesSliced)) {
+						sharesOutput = "Sei der erste Glossboss der diesen Beitrag teilt!";
+						getSharesCount = (getSharesSliced.shares || 0) + (getShares.shares || 0);
+						if (getSharesSliced.shares === getShares.shares) getSharesCount /= 2;
+						if (getSharesCount > 1) {
+							sharesOutput = getSharesCount + " Glossbosse haben diesen Beitrag bereits geteilt";
+						} 
+						if (getSharesCount == 1) {
+							sharesOutput = "Erst 1 Glossboss hat diesen Beitrag geteilt";
+						}
+					clearInterval(ajaxCheckInterval);
+					shareCounter.innerText = sharesOutput;
+					}
+				}
+				catch(e) {
+					console.log("Share Error: " + e);
+				}
+			}
+			xhr.open("GET", getSharesUrl);
+			xhr.send();
+			xhrSliced.open("GET", getSharesUrlSliced);
+			xhrSliced.send(); 
 		}
-		xhr.open("GET", getSharesUrl);
-		xhr.send();
-		xhrSliced.open("GET", getSharesUrlSliced);
-		xhrSliced.send();
+		catch(e) {
+			console.error("Shares Error: " + e);
+		}
 	}
 })(shareCounter);
 
-(function(lsc) {
-	if(lsc) {
-		for ( var i = 0; i < localStorage.length; i++) {
-		localStorageContainer.innerHTML += '<li>' + localStorage.key(i) + ' - ' + localStorage.getItem(localStorage.key(i)) + '</li>';
-		}
+// (function(lsc) {
+// 	if(lsc) {
+// 		for ( var i = 0; i < localStorage.length; i++) {
+// 		localStorageContainer.innerHTML += '<li>' + localStorage.key(i) + ' - ' + localStorage.getItem(localStorage.key(i)) + '</li>';
+// 		}
 
-		if(localStorage.length === 0) {
-			localStorageContainer.innerHTML = 'Keine Daten vorhanden.';
-			dellocalStorage.hide();
-		}
+// 		if(localStorage.length === 0) {
+// 			localStorageContainer.innerHTML = 'Keine Daten vorhanden.';
+// 			dellocalStorage.hide();
+// 		}
 
-		dellocalStorage.addEventListener('click', function(e) {
-			e.preventDefault();
-			localStorage.clear();
-			localStorageContainer.innerHTML = 'Alle Daten erfolgreich gelöscht!';
-		});
-	}
-})(localStorageContainer);
+// 		dellocalStorage.addEventListener('click', function(e) {
+// 			e.preventDefault();
+// 			localStorage.clear();
+// 			localStorageContainer.innerHTML = 'Alle Daten erfolgreich gelöscht!';
+// 		});
+// 	}
+// })(localStorageContainer);
 
 WebFontConfig = {
 	google: { families: [ 'Roboto::latin' ] }
@@ -773,16 +790,16 @@ WebFontConfig = {
 
 })();
 
-var teil1          = _("#mischungInput1"),
-teil2              = _("#mischungInput2"),
-ergebnis           = _("#mischungResult"),
-ergebnisML         = _("#mischung--highlight"),
-getMischungInputs  = _("#mischungsrechner input"),
-header             = _("#mischung--heading"),
-predefinedMischung = _('.mischungenpredefined');
+var teil1          = $("#mischungInput1"),
+teil2              = $("#mischungInput2"),
+ergebnis           = $("#mischungResult"),
+ergebnisML         = $("#mischung--highlight"),
+getMischungInputs  = $$("#mischungsrechner input"),
+header             = $("#mischung--heading"),
+predefinedMischung = $$('.mischungenpredefined');
 
 updateMischung = function(predefined) {
-  flascheVal = _('input[type="radio"]:checked');
+  flascheVal = $('input[type="radio"]:checked');
   if(predefined) {
 	teil1.value = predefined.teil1;
 	teil2.value = predefined.teil2;
@@ -816,7 +833,7 @@ updateMischung = function(predefined) {
 
 };
 
-if(getMischungInputs) {
+// if(getMischungInputs) {
 	predefinedMischung.forEach(function(_self) {
 		_self.addEventListener('click', function() {
 			content = _self.innerHTML.split(':');
@@ -832,7 +849,7 @@ getMischungInputs.forEach(function(el) {
 
 		});
 	});
-}
+// }
 
 
 router.add('allgemein', function() {
@@ -876,8 +893,8 @@ router.add('test', function() {
 router.add('alle', function() {
 	router.parser("alle", 'Alle Beiträge');
 	setTimeout(function() {
-		jumpTo(_("#loadmoreajax"));
-		_("#loadmoreajax").click();
+		jumpTo($("#loadmoreajax"));
+		$("#loadmoreajax").click();
 	},50);
 });
 

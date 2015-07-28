@@ -1,43 +1,43 @@
 var
-	linklist              = _("#linklist"),
-	linklistAnchor        = _("#linklist a"),
-	toggleMenuBox         = _("#toggleMenu"),
+	linklist              = $("#linklist"),
+	linklistAnchor        = $$("#linklist a"),
+	toggleMenuBox         = $("#toggleMenu"),
 	docHeight             = window.innerHeight,
 	docWidth              = window.innerWidth,
-	contImage             = _(".post--content p img"),
-	breadtop              = _(".hamburger li:nth-child(1)"),
-	beef                  = _(".hamburger li:nth-child(2)"),
-	breadbottom           = _(".hamburger li:nth-child(3)"),
+	contImage             = $$(".post--content p img"),
+	breadtop              = $(".hamburger li:nth-child(1)"),
+	beef                  = $(".hamburger li:nth-child(2)"),
+	breadbottom           = $(".hamburger li:nth-child(3)"),
 	linklistMaxHeight     = '230px',
-	postsToLoad           = _('.post--list li'),
-	dellocalStorage       = _('.dellocalStorage'),
-	localStorageContainer = _('.localStorageContainer'),
-	shareCounter          = _('#sharecounter'),
-	showComments          = _('.showCommentsContainer'),
-	eastereggNavbar       = _('#eastereggNavbar'),
-	searchReset           = _('#search_reset'),
-	searchModal           = _('.open_search'),
-	headerStyle           = _('#header-style'),
-	scrollTop             = _('.scroll-top'),
-	postSharing           = _('.post--sharing'),
-	pageHeading           = _('.page-heading'),
+	postsToLoad           = $$('.post--list li'),
+	dellocalStorage       = $('.dellocalStorage'),
+	localStorageContainer = $('.localStorageContainer'),
+	shareCounter          = $('#sharecounter'),
+	showComments          = $('.showCommentsContainer'),
+	eastereggNavbar       = $('#eastereggNavbar'),
+	searchReset           = $('#search_reset'),
+	searchModal           = $('.open_search'),
+	headerStyle           = $('#header-style'),
+	scrollTop             = $('.scroll-top'),
+	postSharing           = $('.post--sharing'),
+	pageHeading           = $('.page-heading'),
 	activeScrollResize    = false;
 
-(function(ps) {
-	if(ps && navigator.userAgent.match(/(iPhone)/g)) {
+// (function(ps) {
+	if(postSharing && navigator.userAgent.match(/(iPhone)/g)) {
 		var wA = _(".share--whatsapp");
 		wA.style.display = "inline-block";
 		wA.href = "WhatsApp://send?text=" + document.title + ": " + location.href;
 	}
-})(postSharing);
+// })(postSharing);
 
-(function(st) {
-	if(st) {
-		st.addEventListener('click', function() {
+// (function(st) {
+// 	if(st) {
+		scrollTop.addEventListener('click', function() {
 			jumpTo(linklist);
 		});
-	}
-})(scrollTop);
+// 	}
+// })(scrollTop);
 
 (function(ee, ph) {
 	if(ph) {
@@ -48,7 +48,7 @@ var
 		});
 		ph.addEventListener('mousedown', function() {
 			timerEE = window.setTimeout(function() {
-				_('.post--list li').forEach(function(e) {
+				$$('.post--list li').forEach(function(e) {
 					e.addClass('eastereggNavbar');
 				})
 			}, 2000);
@@ -92,7 +92,7 @@ var
 		];
 		eastereggNavbar.addEventListener('click', function() {
 			setInterval(function(){
-				_("*").forEach(function(e) {
+				$$("*").forEach(function(e) {
 					e.style.backgroundColor = augenkrebs[Math.floor(Math.random()*(augenkrebs.length + 1))];
 				});
 			}, 150);
@@ -113,7 +113,7 @@ var
 
 (function() {
 	if(location.href.indexOf("/preview/") !== -1) {
-		postContent = _(".post--content");
+		postContent = $(".post--content");
 		postContent.hide();
 		pw = prompt("Passwortgeschützter Bereich");
 		if(pw !== "marvin") {
@@ -125,8 +125,8 @@ var
 	}
 })();
 
-(function(sc) {
-	if(sc) {
+// (function(sc) {
+// 	if(sc) {
 		showComments.addEventListener('click', function() {
 			var disqus_shortname = 'glossboss';
 			(function() {
@@ -136,19 +136,19 @@ var
 			})();
 			showComments.style.display = "none";
 		});
-	}
-})(showComments);
+// 	}
+// })(showComments);
 
 linklist.style.maxHeight = linklistMaxHeight;
 
-if ( postsToLoad ) {
+// if ( postsToLoad ) {
 
-	postsToLoad.forEach(function(post) {
+// 	postsToLoad.forEach(function(post) {
 
-			checkRead(post.getAttribute("data-read"), post);
+// 			checkRead(post.getAttribute("data-read"), post);
 
-	});
-}
+// 	});
+// }
 
 function hamburgerToggle() {
 
@@ -169,8 +169,8 @@ function hamburgerToggle() {
 	}
 }
 function updateHeader() {
-	content = _('#CONTENT');
-	header = _('header');
+	content = $('#CONTENT');
+	header = $('header');
 	headerHeight = header.offsetHeight - 5;
 	scrolled = window.scrollY;
 	content.style.margin = headerHeight + "px 0 0 0";
@@ -220,13 +220,13 @@ searchRender = function() {
 	(function(sr) {
 		if(sr) {
 			searchReset.addEventListener('click', function() {
-				_('#search-input').value = '';
-				_('#results-container').innerHTML = '';
+				$('#search-input').value = '';
+				$('#results-container').innerHTML = '';
 			})
 		}
 	})(searchReset);
 	
-	_('#searchWrapper').style.display = 'block';
+	$('#searchWrapper').style.display = 'block';
 	SimpleJekyllSearch.init({
 		searchInput: document.getElementById('search-input'),
 		resultsContainer: document.getElementById('results-container'),
@@ -254,67 +254,77 @@ window.addEventListener('resize', function() {
 
 (function(sc) {
 	if(sc) {
-		xhr = new XMLHttpRequest();
-		xhrSliced = new XMLHttpRequest();
-		getSharesUrl = "https://graph.facebook.com/" + window.location.href;
-		getSharesUrlSliced = getSharesUrl.slice(0, getSharesUrl.length-1);
-		sharesOutput = "";
-		var getSharesCount = 0;
-		// unfortunately i had to get 2 numbers from the API because some links
-		// were shared with a forwardslash and some not
-		// if they were both the same number, they share the same counter
-		// and i half them
-		xhr.onreadystatechange = function(e) {
-			if(xhr.readyState == 4 && xhr.status == 200) {
-				getShares = JSON.parse(xhr.responseText);
-			}
-		}
-		xhrSliced.onreadystatechange = function(e) {
-			if(xhrSliced.readyState == 4 && xhrSliced.status == 200) {
-				getSharesSliced = JSON.parse(xhrSliced.responseText);
-			}
-		}
-		var ajaxCheckInterval = setInterval(checkIntShare, 100);
-		function checkIntShare() {
-			if((xhrSliced.readyState == 4 && xhrSliced.status == 200) && (xhr.readyState == 4 && xhr.status == 200)) {
-				sharesOutput = "Sei der erste Glossboss der diesen Beitrag teilt!";
-				getSharesCount = (getSharesSliced.shares || 0) + (getShares.shares || 0);
-				if (getSharesSliced.shares === getShares.shares) getSharesCount /= 2;
-				if (getSharesCount > 1) {
-					sharesOutput = getSharesCount + " Glossbosse haben diesen Beitrag bereits geteilt";
-				} 
-				if (getSharesCount == 1) {
-					sharesOutput = "Erst 1 Glossboss hat diesen Beitrag geteilt";
+		try {
+			xhr = new XMLHttpRequest();
+			xhrSliced = new XMLHttpRequest();
+			getSharesUrl = "https://graph.facebook.com/" + window.location.href;
+			getSharesUrlSliced = getSharesUrl.slice(0, getSharesUrl.length-1);
+			sharesOutput = "";
+			var getSharesCount = 0;
+			// unfortunately i had to get 2 numbers from the API because some links
+			// were shared with a forwardslash and some not
+			// if they were both the same number, they share the same counter
+			// and i half them
+			xhr.onreadystatechange = function(e) {
+				if(xhr.readyState == 4 && xhr.status == 200) {
+					getShares = JSON.parse(xhr.responseText);
 				}
-			clearInterval(ajaxCheckInterval);
-			shareCounter.innerText = sharesOutput;
 			}
+			xhrSliced.onreadystatechange = function(e) {
+				if(xhrSliced.readyState == 4 && xhrSliced.status == 200) {
+					getSharesSliced = JSON.parse(xhrSliced.responseText);
+				}
+			}
+			var ajaxCheckInterval = setInterval(checkIntShare, 100);
+			function checkIntShare() {
+				try {
+					if((xhrSliced.readyState == 4 && xhrSliced.status == 200) && (xhr.readyState == 4 && xhr.status == 200) && (getShares && getSharesSliced)) {
+						sharesOutput = "Sei der erste Glossboss der diesen Beitrag teilt!";
+						getSharesCount = (getSharesSliced.shares || 0) + (getShares.shares || 0);
+						if (getSharesSliced.shares === getShares.shares) getSharesCount /= 2;
+						if (getSharesCount > 1) {
+							sharesOutput = getSharesCount + " Glossbosse haben diesen Beitrag bereits geteilt";
+						} 
+						if (getSharesCount == 1) {
+							sharesOutput = "Erst 1 Glossboss hat diesen Beitrag geteilt";
+						}
+					clearInterval(ajaxCheckInterval);
+					shareCounter.innerText = sharesOutput;
+					}
+				}
+				catch(e) {
+					console.log("Share Error: " + e);
+				}
+			}
+			xhr.open("GET", getSharesUrl);
+			xhr.send();
+			xhrSliced.open("GET", getSharesUrlSliced);
+			xhrSliced.send(); 
 		}
-		xhr.open("GET", getSharesUrl);
-		xhr.send();
-		xhrSliced.open("GET", getSharesUrlSliced);
-		xhrSliced.send();
+		catch(e) {
+			console.error("Shares Error: " + e);
+		}
 	}
 })(shareCounter);
 
-(function(lsc) {
-	if(lsc) {
-		for ( var i = 0; i < localStorage.length; i++) {
-		localStorageContainer.innerHTML += '<li>' + localStorage.key(i) + ' - ' + localStorage.getItem(localStorage.key(i)) + '</li>';
-		}
+// (function(lsc) {
+// 	if(lsc) {
+// 		for ( var i = 0; i < localStorage.length; i++) {
+// 		localStorageContainer.innerHTML += '<li>' + localStorage.key(i) + ' - ' + localStorage.getItem(localStorage.key(i)) + '</li>';
+// 		}
 
-		if(localStorage.length === 0) {
-			localStorageContainer.innerHTML = 'Keine Daten vorhanden.';
-			dellocalStorage.hide();
-		}
+// 		if(localStorage.length === 0) {
+// 			localStorageContainer.innerHTML = 'Keine Daten vorhanden.';
+// 			dellocalStorage.hide();
+// 		}
 
-		dellocalStorage.addEventListener('click', function(e) {
-			e.preventDefault();
-			localStorage.clear();
-			localStorageContainer.innerHTML = 'Alle Daten erfolgreich gelöscht!';
-		});
-	}
-})(localStorageContainer);
+// 		dellocalStorage.addEventListener('click', function(e) {
+// 			e.preventDefault();
+// 			localStorage.clear();
+// 			localStorageContainer.innerHTML = 'Alle Daten erfolgreich gelöscht!';
+// 		});
+// 	}
+// })(localStorageContainer);
 
 WebFontConfig = {
 	google: { families: [ 'Roboto::latin' ] }

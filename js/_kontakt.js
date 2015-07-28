@@ -1,10 +1,10 @@
-var kontaktSenden   = _("#SENDEN"),
-kontaktMessage      = _("#form_msg"),
-kontaktForm         = _(".kontakt__form"),
-kontaktLoading      = _("#loading"),
-kontaktName         = _("#name"),
-kontaktMail         = _("#xyz"),
-kontaktNachricht    = _("#msg"),
+var kontaktSenden   = $("#SENDEN"),
+kontaktMessage      = $("#form_msg"),
+kontaktForm         = $(".kontakt__form"),
+kontaktLoading      = $("#loading"),
+kontaktName         = $("#name"),
+kontaktMail         = $("#xyz"),
+kontaktNachricht    = $("#msg"),
 api                 = "R61bXP70NEnJXC2c__cvgg";
 
 kontaktSubmit = function() {
@@ -68,9 +68,9 @@ kontaktSubmit = function() {
 		}, true);
 	}
 }
-if( kontaktSenden ) {
+// if( kontaktSenden ) {
 	kontaktSenden.addEventListener('click', function(e) {
 		e.preventDefault();
 		kontaktSubmit();
 	});
-}
+// }
