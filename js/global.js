@@ -728,7 +728,7 @@ window.addEventListener('resize', function() {
 			var ajaxCheckInterval = setInterval(checkIntShare, 100);
 			function checkIntShare() {
 				try {
-					if((xhrSliced.readyState == 4 && xhrSliced.status == 200) && (xhr.readyState == 4 && xhr.status == 200)) {
+					if((xhrSliced.readyState == 4 && xhrSliced.status == 200) && (xhr.readyState == 4 && xhr.status == 200) && (getShares && getSharesSliced)) {
 						sharesOutput = "Sei der erste Glossboss der diesen Beitrag teilt!";
 						getSharesCount = (getSharesSliced.shares || 0) + (getShares.shares || 0);
 						if (getSharesSliced.shares === getShares.shares) getSharesCount /= 2;
