@@ -58,6 +58,9 @@ table {
 		width:46px;
 		height:46px;
 	}
+	@media #{$sm} {
+		margin:0;
+	}
 }
 
 .post--img {
