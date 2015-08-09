@@ -1,3 +1,43 @@
+.radio--labels--btn {
+	input[type="radio"] {
+		display:none;
+		margin:.6em;
+	}
+	input[type=radio] + label {
+		@extend .secondary_btn;
+		margin:0 .5em .5em 0;
+	}
+	input[type=radio]:checked + label { 
+		background-image: none;
+		background-color:$blau;
+		color:white;
+		@include materialShadow(1);
+		&:hover {
+			background-color:$blau;
+		}
+	}
+}
+.secondary_btn {
+	display:inline-block;
+	margin:0 .5em 2.5em 0;
+	padding: .8em 1.3em;
+	background-color: HSL(300,5%,95%);
+	border-color: #ddd;
+	color:$text;
+	@include font(special);
+	&:hover {
+		cursor: pointer;
+		background: HSL(300,5%,93%);
+	}
+}
+.selectGlossboss {
+	margin-top: -2em;
+}
+.heading {
+	@include font(light);
+	font-size:1.3em;
+	margin-bottom:1.5em;
+}
 .kontakt__form {
 	input {
 		padding:.3em;
@@ -24,6 +64,7 @@
 		max-width:100%;
 		font-size:1.1em;
 	}
+	@extend .radio--labels--btn;
 }
 .kontakt__success {
 	color:$dunkelblau;
@@ -49,31 +90,22 @@
 		font-size:1.3em;
 		text-align:center;
 	}
-	input[type="radio"] {
-		display:none;
-		margin:.6em;
+	@extend .radio--labels--btn;
+	// input[type="radio"] {
+	// 	display:none;
+	// 	margin:.6em;
+	// }
+	// input[type=radio] + label {
+	// 	@extend .secondary_btn;
+	// 	margin:0 .5em .5em 0;
+	// }
+	// input[type=radio]:checked + label { 
+	// 	background-image: none;
+	// 	background-color:$blau;
+	// 	color:white;
+	// 	@include materialShadow(1);
+	// }
 
-	}
-	input[type=radio] + label {
-		display:inline-block;
-		margin:0 .5em .5em 0;
-		padding: .4em .6em;
-		background-color: #e7e7e7;
-		border-color: #ddd;
-		color:$text;
-		@include materialShadow(1);
-		@include font(special);
-		&:hover {
-			cursor: pointer;
-			@include materialShadow(2);
-		}
-	}
-	input[type=radio]:checked + label { 
-		background-image: none;
-		background-color:$blau;
-		color:white;
-		@include materialShadow(1);
-	}
 	h1 {
 		@include font(special);
 	}
@@ -82,9 +114,7 @@
 
 	}
 	.mischung--heading {
-		@include font(light);
-		font-size:1.3em;
-		margin-bottom:1.5em;
+		@extend .heading;
 	}
 	.mischung--heading__subtitle {
 		@include font(light);
@@ -100,19 +130,7 @@
 	}
 }
 .mischungenpredefined {
-	display:inline-block;
-	margin:0 .5em 2.5em 0;
-	padding: .4em .6em;
-	background-color: #e7e7e7;
-	border-color: #ddd;
-	color:$text;
-	@include materialShadow(1);
-	@include font(special);
-	//font-size:.8em;
-	&:hover {
-		cursor: pointer;
-		@include materialShadow(2);
-	}
+	@extend .secondary_btn;
 }
 #mc-embedded-subscribe {
 	@extend .button;

@@ -9,10 +9,21 @@ head__img--fullurl: https://glossbossimages.s3.eu-central-1.amazonaws.com/header
 	<span id="form_msg_error"></span>
 	<span id="form_msg"></span>
 	<form action="" method="post" class="kontakt__form">
-		<input type="text" id="name" name="name" placeholder="Name">
-		<input type="text" id="xyz" name="xyz" placeholder="Email">
-		<input type="text" id="email" name="email" placeholder="email" class="formtrick">
-		<textarea type="text" id="msg" name="msg" placeholder="Deine Nachricht"></textarea>
-		<a href="#" id="SENDEN" class="button">Senden</a>
+		<div class="selectGlossboss">
+		 <h3 class="heading">Wähle zunächst einen Glossboss aus, den du Kontaktieren möchtest:</h3>
+			<input type="radio" value="mail@glossboss.de" data-boss="Marvin" id="glossboss1" name="glossboss">
+				<label for="glossboss1">Marvin</label>
+			<input type="radio" value="jones@jonny-clean.de" data-boss="Jones" id="glossboss2" name="glossboss">
+				<label for="glossboss2">Jones</label>
+			<input type="radio" value="albarth4@gmx.de" data-boss="Alexander" id="glossboss3" name="glossboss">
+				<label for="glossboss3">Alexander</label>
+		</div>
+		<div id="kontakt_inputs">
+			<input type="text" id="name" name="name" placeholder="Name">
+			<input type="text" id="xyz" name="xyz" placeholder="Email">
+			<input type="text" id="email" name="email" placeholder="email" class="formtrick">
+			<textarea type="text" id="msg" name="msg" placeholder="Deine Nachricht"></textarea>
+			<button id="SENDEN" class="button">Senden</button>
+		</div>
 	</form>
 </div>

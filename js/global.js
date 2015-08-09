@@ -371,14 +371,17 @@ document.addEventListener('DOMContentLoaded', function() {
 	};
 })();
 
-var kontaktSenden   = $("#SENDEN"),
-kontaktMessage      = $("#form_msg"),
-kontaktForm         = $(".kontakt__form"),
-kontaktLoading      = $("#loading"),
-kontaktName         = $("#name"),
-kontaktMail         = $("#xyz"),
-kontaktNachricht    = $("#msg"),
-api                 = "R61bXP70NEnJXC2c__cvgg";
+var kontaktSenden    = $("#SENDEN"),
+kontaktMessage       = $("#form_msg"),
+kontaktForm          = $(".kontakt__form"),
+kontaktLoading       = $("#loading"),
+kontaktName          = $("#name"),
+kontaktMail          = $("#xyz"),
+kontaktNachricht     = $("#msg"),
+selectGlossboss      = $$(".selectGlossboss input[name=glossboss]"),
+selectedGlossboss    = {},
+kontaktInputs        = $("#kontakt_inputs"),
+api                  = "R61bXP70NEnJXC2c__cvgg";
 
 kontaktSubmit = function() {
 	//RESET
@@ -416,8 +419,9 @@ kontaktSubmit = function() {
 				"from_name": kontaktName.value,
 				"to": [
 				{
-					"email": "mail@glossboss.de",
-					"name": "Marvin Mieth",
+					//"email": "mail@glossboss.de",
+					"email": selectedGlossboss.Mail,
+					"name": selectedGlossboss.Name,
 					"type": "to"
 				}
 				],
@@ -441,12 +445,21 @@ kontaktSubmit = function() {
 		}, true);
 	}
 }
-// if( kontaktSenden ) {
-	kontaktSenden.addEventListener('click', function(e) {
-		e.preventDefault();
-		kontaktSubmit();
+kontaktInputs.style.opacity = ".3";
+kontaktSenden.disabled = true;
+selectGlossboss.forEach(function(self) {
+	self.addEventListener("change", function(self) {
+		kontaktInputs.style.opacity = "1";
+		kontaktSenden.disabled = false;
+		selectedGlossboss.Mail = $(".selectGlossboss input[name=glossboss]:checked").value;
+		selectedGlossboss.Name = $(".selectGlossboss input[name=glossboss]:checked").getAttribute("data-boss");
 	});
-// }
+});
+kontaktSenden.addEventListener('click', function(e) {
+	e.preventDefault();
+	kontaktSubmit();
+});
+
 
 var
 	linklist              = $("#linklist"),
