@@ -7,8 +7,6 @@ wps_subtitle: noch nichts
 categories: Pflegeberichte
 markasnew: true
 --- 
-#MARVIN - UMLAUTTEST  ÄäÖöÜüß //ok? ok!
-
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/amg_gt_grau/amg_001.jpg)   
 **Fahrzeug**: Mercedes-AMG GT S Coupé   
 **Farbe**: selenitgrau metallic   
