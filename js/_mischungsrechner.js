@@ -58,4 +58,3 @@ getMischungInputs.forEach(function(el) {
 		});
 	});
 // }
-

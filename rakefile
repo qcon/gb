@@ -63,6 +63,7 @@ end
 desc "Concatenate all JS Files and UglifyJS them"
 task :js do
 	puts "JavaScript concatenate & UglifyJS RUNNING".magenta
+	#files = FileList["js/_*.js"]
 	files = FileList["js/_*.js"]
 	concat_file = "js/global.js"
 	open(concat_file, "w") do |output|
@@ -76,6 +77,19 @@ task :js do
 	#execute("uglifyjs js/global.js -o dist/global.#{yml_cfg["cssjsversion"]}.js")
 	execute("uglifyjs js/global.js -o dist/global.js -nm")
 	puts "JavaScript concatenate & UglifyJS DONE".green
+end
+task :js_dev do
+	puts "JavaScript DEV"
+	files = FileList["js/_*.js"]
+	concat_file = "dist/global.js"
+	open(concat_file, "w") do |output|
+		output.puts("document.addEventListener('DOMContentLoaded', function() {")
+		files.each do |input|
+			output.puts(File.read("#{input}"))
+			output.puts("\n")
+		end
+		output.puts("});")
+	end
 end
 
 desc "gzip all the things!"
@@ -107,7 +121,7 @@ task :jekyll_dev do
 end
 
 desc "Task for developement"
-task :dev => [:css_scss, :js, :jekyll_dev] do
+task :dev => [:css_scss, :js_dev, :jekyll_dev] do
 	puts "Done with all Tasks".green
 end
 
