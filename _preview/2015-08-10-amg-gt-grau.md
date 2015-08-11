@@ -1,20 +1,21 @@
 ---
-title: Mercedes-AMG GT S Coupé
+title: Mercedes AMG GTs Coupé
 author: Jones
 layout: post
-head__img--fullurl: //glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/amg_gt_grau/amg_057.jpg
-wps_subtitle: noch nichts
+head__img--fullurl: https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/amg_gt_grau/amg_068.jpg
+wps_subtitle: 'Selenitgrau Metallic'
 categories: Pflegeberichte
 markasnew: true
 --- 
-![](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/amg_gt_grau/amg_001.jpg)
-
-**Fahrzeug**: Mercedes-AMG GT S Coupé   
+![](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/amg_gt_grau/amg_001.jpg)   
+**Fahrzeug**: Mercedes AMG GTs Coupé   
 **Farbe**: selenitgrau metallic   
 **Baujahr**: 2015   
 **Laufleistung**: ca. 2.500km   
 
-Vor ein paar Wochen fragte Rolf an ob ich mit ihm gemeinsam einen grauen AMG GTs detailen möchte. Rolf, die Frage kannst du dir nun wirklich selbst beantworten! Wann & wo ?! Und so kam er dann, der Tag X. Viel Spass!
+Vor ein paar Wochen fragte Rolf an ob ich mit ihm gemeinsam einen grauen AMG GTs detailen möchte...   
+Rolf, DIE Frage kannst du dir nun wirklich selbst beantworten! **Wann & wo?!?**   
+So kam er dann, der Tag X. Euch viel Spass beim Lesen, wir hatten ihn bereits! :)
 
 ## Vorgehensweise in Kurzform
 - Abdampfen, Snow Foam, waschen, abdampfen, kneten, trocknen.
@@ -38,7 +39,7 @@ Vor ein paar Wochen fragte Rolf an ob ich mit ihm gemeinsam einen grauen AMG GTs
 - ValetPro Pinsel   
 
 **Räder:**   
-- Vikan Felgebürste   
+- Vikan Felgenbürste   
 - EZ Detailbrush groß   
 
 **Kneten:**   
@@ -74,7 +75,7 @@ Vor ein paar Wochen fragte Rolf an ob ich mit ihm gemeinsam einen grauen AMG GTs
 
 **Versiegelung:**   
 - Gyeon Prime samt Suede-Tuch und Applikatorschwamm   
-- Lupus Buffing 380 EDGELESS Microfasertuch  
+- Lupus Buffing 380 gelb (randlos) Microfasertuch  
 
 **Verglasung:**   
 - ValetPRO Glass Cleaner    
@@ -97,18 +98,20 @@ Vor ein paar Wochen fragte Rolf an ob ich mit ihm gemeinsam einen grauen AMG GTs
 Waschzeug auspacken, für Wasser und Strom sorgen, Eimer und Foam Lance vorbereiten. Startklar.   
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/amg_gt_grau/amg_002.jpg)
 
-Aber erstmal einen Blick auf das zwangsbeatmete 4 Liter **Herzstück** dieses selenitgrauen 510PS Dampfhammers aus Affalterbach, "**Ein Mann, ein Motor**" ist dort die Devise. Dieser V8 darf dank *Paul Michel* die Kurbelwelle mit bis zu 6250 Umdrehungen/min satte 650Nm Drehmoment auf den Asfalt bringen. Oder mit anderen Worten: "**Aus Dinosauriern wird Kraft & Sound**"   
+Aber erstmal einen Blick auf das zwangsbeatmete 4 Liter **Herzstück** dieses selenitgrauen 510PS Dampfhammers aus Sindelfingen. Die Motoren kommen aus Affalterbach, "**Ein Mann, ein Motor**" ist dort auch heute noch die Devise. Die Kurbelwelle dieses V8 dreht mit bis zu 6250 Umdrehungen/min und bringt dabei stattliche 650 Newtonmeter Drehmoment auf den Straßenbelag,  danke *Paul Michel*.   
+Mit anderen Worten: "**Aus Dinosauriern wird reichlich Kraft & tierischer Sound**"   
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/amg_gt_grau/amg_003.jpg)
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/amg_gt_grau/amg_004.jpg)
 
-Was ist das? Unter der vermeintlichen Motorverkleidung finden sich diverse Ausgleichsbehälter, der Motor versteckt sich unter der Edelstahlabdeckung weiter hinten, zur besseren Gewichtsverteilung.   
+Was ist das? Unter der vermeintlichen Motorverkleidung finden sich diverse Ausgleichsbehälter, der Motor versteckt sich unter der Edelstahlabdeckung weiter hinten  - zur besseren Gewichtsverteilung.   
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/amg_gt_grau/amg_005.jpg)
 
 
-Bestandsaufnahme außen, der Lack ist kaum verschmutzt.   
+Bestandsaufnahme außen, der Lack ist kaum verschmutzt - super Pflegezustand!   
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/amg_gt_grau/amg_006.jpg)
 
-Ebenso die Felgen, nur leicht staubig - dank "Carbon Ceramic"-Bremse in ~~beachtlicher~~ monströser Größe. Große Bremse = Viel Dreck trift hier auf der Materialien nicht zu.   
+Ebenso die Felgen, nur leicht staubig - dank **"Carbon Ceramic"-Bremse** in monströser Dimension.   
+Große Bremse = Viel Dreck? Trifft hier dank der Materialien nicht zu.   
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/amg_gt_grau/amg_007.jpg)
 
 Beginnen wir damit den groben Dreck und aufliegenden Staub mit dem Hochdruckreiniger zu beseitigen.   
@@ -116,13 +119,13 @@ Beginnen wir damit den groben Dreck und aufliegenden Staub mit dem Hochdruckrein
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/amg_gt_grau/amg_009.jpg)
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/amg_gt_grau/amg_010.jpg)
 
-Totes Protein und ausgewirbelten Straßendreck lackschonend mit etwas SnowFoam einweichen. Hier nutzten wir Dodo Juice Apple iFoam, wer den "Sour Power"-Apfelduft liebt, wird auch diesen Snow Foam mögen!   
+Totes Protein und aufgewirbelten Straßendreck mit SnowFoam einweichen, hier nutzten wir Dodo Juice Apple iFoam. Wer den Dodo "Sour Power"-Apfelduft liebt, wird auch diesen Snow Foam mögen!   
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/amg_gt_grau/amg_011.jpg)
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/amg_gt_grau/amg_012.jpg)
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/amg_gt_grau/amg_013.jpg)
 
 Rolf kümmerte sich zu erst um die Felgen, hier mit der EZ Detailbrush.   
-Bei den "Carbon-Ceramic"-Bremsscheiben ist höchste Vorsicht geboten, nicht nur aufgrund des horenden Stückpreises.   
+Bei den "Carbon-Ceramic"-Bremsscheiben ist höchste Vorsicht geboten, nicht nur aufgrund des horrenden Stückpreises.   
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/amg_gt_grau/amg_019.jpg)
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/amg_gt_grau/amg_020.jpg)
 
@@ -135,10 +138,10 @@ Nach 2-3 Minuten ...
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/amg_gt_grau/amg_017.jpg)
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/amg_gt_grau/amg_018.jpg)
 
-Die obligatorische Wäsche war nicht nur Arbeit, sie ist dank der herrlichen Formgebung vielmehr als Genuss zu bezeichnen.   
+Die obligatorische Wäsche war nicht nur Arbeit, sie war dank der herrlichen Formgebung vielmehr ein Genuss.   
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/amg_gt_grau/amg_021.jpg)
 
-Gründlich abspülen, besonders die Wassernester in denen sich Shampoowasser und SnowFoam gesammelt hat, Front und die unteren Bereiche wurden geknetet, obenrum war alles in bestem Pflegezustand.   
+Gründlich abspülen, besonders die Wassernester in denen sich Shampoowasser und SnowFoam gesammelt hat. Front und die unteren Bereiche wurden geknetet, obenrum war alles in bestem Pflegezustand.   
 Getrocknet wurde mit einem Lupus "blue/grey" MFT, nach 2-3 Runden in der Waschmaschine saugen sie Wasser wie manch Säugling der aus C ein A-Körbchen macht.   
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/amg_gt_grau/amg_022.jpg)
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/amg_gt_grau/amg_023.jpg)
@@ -150,27 +153,28 @@ Auch dieser "Arbeitsplatz" gefiel uns beiden äußerst gut :)
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/amg_gt_grau/amg_025.jpg)
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/amg_gt_grau/amg_026.jpg)
 
-Die Türen schön nach innen gewölbt, man fühlte sich wie in einem ~~qcon~~ Cocoon.   
+Die Türen schön nach innen gewölbt, man fühlte sich geborgen wie in einem Cocoon.   
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/amg_gt_grau/amg_027.jpg)
 
-Mattes Carbon, ein Traum. Umrandet von Pianolack, meinem persönlichen Albtraum nach Wurzelholz.   
+Mattes Carbon, ein Traum. Umrandet von Pianolack, meinem persönlichen kleinen Albtraum nach Wurzelholz.   
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/amg_gt_grau/amg_028.jpg)
 
-Abzukleben war glücklicherweise kaum was.   
+Abkleben mussten wir glücklicherweise kaum etwas.   
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/amg_gt_grau/amg_029.jpg)
 
-Rolf hatte merklich mehr Respekt *(oder doch ehr Schiss? :D)* und klebte ab wo es nicht wirklich nötig gewesen wäre.   
-Aber besser so als was durchs Polieren beschädigen.   
+Rolf hatte merklich mehr Respekt *(oder doch ehr Schiss? :D)* und klebte ab wo es nicht wirklich nötig gewesen wäre, aber das ist meine persönliche Meinung.   
+Lieber zuviel als zu wenig abkleben, um mögliche Schäden zu vermeiden.      
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/amg_gt_grau/amg_030.jpg)
 
-Schritt 1 der Lackdiagnose, Schichtstärke ermitteln.   
-131µm sind 0,131mm - an gesamtem Lackaufbau, Klarlack, Farblack, Füller, Grundierung & Co. Die oberste Schicht - der Klarlack - dürfte etwa 20-30µm haben, also 0,02-0,03mm. Nicht sonderlich viel, oder? Übertreibt man es, oder geht mit falschem Material an den Lack sind diese paar µm weg und der Schaden groß. Daher lieber kleinschrittig und vorsichtig arbeiten. **Der Klarlack ist unser bester Freund, solang er da ist! **  
+**Schritt 1** der Lackdiagnose, Schichtstärke ermitteln.   
+131µm sind 0,131mm - an gesamtem Lackaufbau, Klarlack, Farblack, Füller, Grundierung & Co. Die oberste Schicht - der Klarlack - dürfte etwa 20-30µm haben, also 0,02-0,03mm. Nicht sonderlich viel, oder? Übertreibt man es oder geht mit falschem Material an den Lack sind diese paar Micrometer ganz weg und der Schaden groß. Daher ehr kleinschrittig und vor allem konzentriert, mit Bedancht arbeiten.   
+**Der Klarlack ist unser bester Freund, solang er da ist! **   
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/amg_gt_grau/amg_031.jpg)
 
-Im Licht der "fiesen LED-Taschenlampe" zeigte sich ein nahezu perfekter Lack.   
+**Schritt 2**, die "fiese LED-Taschenlampe", es zeigte sich ein nahezu perfekter Lack.   
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/amg_gt_grau/amg_032.jpg)
 
-Im Schwellerbereich fanden sich ein paar hauchzarte Spuren, da reicht eine gute Hochglanzpolitur.   
+Im Schwellerbereich fanden sich ein paar hauchzarte Spuren, es genügt eine gute Hochglanzpolitur.   
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/amg_gt_grau/amg_033.jpg)
 
 Womit wir bei den "Waffen" der Wahl sind:   
@@ -180,7 +184,7 @@ Rupes Duetto, weiches (weisses) Rupes Pad und die Chemical Guys V38.
 Teilbereich auf Stufe 5-6 poliert, abgewischt und mit der Crelant LED geprüft - top!   
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/amg_gt_grau/amg_035.jpg)
 
-Rein ins Vergnügen!   
+Rein ins Vergnügen! :D   
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/amg_gt_grau/amg_036.jpg)
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/amg_gt_grau/amg_037.jpg)
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/amg_gt_grau/amg_038.jpg)
@@ -197,21 +201,21 @@ Kommen wir zu ein paar **netten Details**, wie hier an den Türen.
 Gewöhnlich findet sich rechts vor der Seitenscheibe eine Leiste, hier nicht. Schicker und sauberer Abschluss.   
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/amg_gt_grau/amg_043.jpg)
 
-Die Türgriffe hatten auch Charakter, dynamischer Schwung und sauber eingefasst.   
+Die Türgriffe hatten auch aus, dynamischer Schwung und sauber eingefasst.   
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/amg_gt_grau/amg_044.jpg)
 
-Die Unterarm langen Rückleuchten waren ebenso wohl gezeichnet.
+Die mehr als Unterarm langen Rückleuchten waren nicht nur lang, auch detailreich.
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/amg_gt_grau/amg_045.jpg)
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/amg_gt_grau/amg_046.jpg)
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/amg_gt_grau/amg_047.jpg)
 
-Weniger schön fanden wir Lackfetischisten die **Orangenhaut**. Unterhalb des Türgriffes gut zu sehen.   
+Weniger schön fanden wir *Lackfetischisten* die **Orangenhaut**. Unterhalb des Türgriffes gut zu sehen.   
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/amg_gt_grau/amg_048.jpg)
 
-Oder noch schlimmer, die schlecht eingepasste Front fahrerseits. Dieser Fauxpax lässt sich aber beheben, die Orangenhaut müsste durch zeitaufwändiges Schleifen und aufpolieren beseitigt werden, mit einem nicht zu verachtendem Risiko.   
+Noch schlimmer jedoch die schlecht eingepasste Front fahrerseits. Dieser Fauxpas lässt sich sicherlich recht zügig beheben, die Orangenhaut müsste durch zeitaufwändiges Schleifen und aufpolieren beseitigt werden - mit einem nicht zu verachtendem Risiko.   
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/amg_gt_grau/amg_049.jpg)
 
-Weiter im Geschehen, bei mir typisch: Heck und Schweller zum Schluss.   
+Weiter im Geschehen: Heck und Schweller, bei mir immer zum Schluss.   
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/amg_gt_grau/amg_050.jpg)
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/amg_gt_grau/amg_051.jpg)
 
@@ -238,7 +242,7 @@ Auftrag in Teilbereichen, die riesige Motorhaube haben wir in derer 6 Bereiche a
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/amg_gt_grau/amg_061.jpg)
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/amg_gt_grau/amg_062.jpg)
 
->**Tipp:** *Solltet ihr **Gyeon Prime** verarbeitet haben und entdeckt nach wenigen Stunden noch **Reste** / "**Highspots**", einfach etwas frisches Prime in ein frisches Tuch geben und die Stelle "neu versiegeln", evtl. 2-3 mal über die Stelle wischen bis alles überschüssige weg ist. Kurz ablüften lassen und sauber abwischen. Wegpolieren oder gar schleifen sind nicht immer nötig. ;)*   
+>**Tipp:** *Solltet ihr **Gyeon Prime** verarbeitet haben und entdeckt nach wenigen Stunden noch **Reste** / "**Highspots**", einfach etwas frisches Prime in ein frisches Tuch geben und die Stelle "neu versiegeln", evtl. 3-4 mal über die Stelle wischen bis alles überschüssige weg ist. Kurz ablüften lassen und sauber abwischen. Wegpolieren oder gar schleifen sind nicht immer nötig. ;)*   
 
 Nach dem Akt der Versiegelung kam noch der Maschinenraum dran, Staub wischen und Flecken beseitigen.   
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/amg_gt_grau/amg_063.jpg)
@@ -248,12 +252,12 @@ Nach dem Akt der Versiegelung kam noch der Maschinenraum dran, Staub wischen und
 Der Luftkanal unter der Haube ...   
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/amg_gt_grau/amg_066.jpg)
 
-... führt dem "heißen V" mit den beiden innenliegenden Turboladern kühlende Frischluft zu. Abluft entwicht unter anderem aus den seitlichen "Kiemen".   
+... führt dem "heißen V" mit den beiden innenliegenden Turboladern kühlende Frischluft zu. Abluft entweicht unter anderem aus den seitlichen "Kiemen".   
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/amg_gt_grau/amg_067.jpg)
 
 
 
-Genug geschafelt, **Finishfotos!**
+Genug gesabbelt...  **Finishfotos!**
 
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/amg_gt_grau/amg_068.jpg)
 
@@ -265,7 +269,7 @@ Genug geschafelt, **Finishfotos!**
 
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/amg_gt_grau/amg_072.jpg)
 
-Hinein in den wohlgeformten Schalensitz und ab nach draußen!   
+Hinein in die herrliche Sport-Gestühl und ab nach draußen, man mochte jedoch gar nicht aussteigen, super bequem die Sportschalensitze!   
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/amg_gt_grau/amg_073.jpg)
 
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/amg_gt_grau/amg_074.jpg)
@@ -276,6 +280,7 @@ Hinein in den wohlgeformten Schalensitz und ab nach draußen!
 
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/amg_gt_grau/amg_077.jpg)
 
+Zur Abwechslung durfte ich die nächsten 50m fahren, kann man sich durchaus dran gewöhnen.   
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/amg_gt_grau/amg_078.jpg)
 
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/amg_gt_grau/amg_079.jpg)
@@ -296,9 +301,9 @@ Hinein in den wohlgeformten Schalensitz und ab nach draußen!
 
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/amg_gt_grau/amg_087.jpg)
 
-Zurück in die schützende Halle, Tor zu, das war es - **Wochenende!**.   
+Zurück in die schützende Halle. Tor zu, das war es - **Wochenende!**.   
 
-Das Prime kann nun über Nacht weiter aushärten und den glücklichen Besitzer hoffentlich sehr lange Freude und eine künftig einfachere Pflege bereiten.   
+Das Prime durfte über Nacht weiter aushärten und wird den glücklichen Besitzer hoffentlich sehr lange Freude bereiten und eine künftig Pflege vereinfachen.   
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/amg_gt_grau/amg_088.jpg)
 
 
@@ -306,7 +311,7 @@ Das Prime kann nun über Nacht weiter aushärten und den glücklichen Besitzer h
 Tolles Teamwork, Traumwagen und ein richtig feines Ergebnis! Freu mich schon auf weitere Projekte!!! :)**   
 
 
-Ich hoffe der Bericht und die Fotos gefallen euch, Kommentar unten oder via Facebook würd uns freuen! Sollten Fragen aufgekommen sein einfach die Kommentarfunktion unten nutzen oder mir über das [Kontaktforumlar](https://glossboss.de/kontakt/) schreiben.
+Ich hoffe der Bericht und die Fotos gefallen euch, Kommentar unten oder via Facebook würde uns freuen! Sollten Fragen aufgekommen sein einfach die Kommentarfunktion unten nutzen oder mir über das [Kontaktformular](https://glossboss.de/kontakt/) schreiben.
 
-Danke und glänzende Grüße aus dem schönen Münsterland
-Johannes, alias Jones
+Danke und glänzende Grüße aus dem schönen Münsterland!
+Jones, alias Johannes

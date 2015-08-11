@@ -1,4 +1,5 @@
 (function(w, d) {
+	"use strict";
 	var $ = function(ele) {
 		return new selectElement(ele);
 	}
@@ -15,7 +16,7 @@
 	}
 
 	$.fn = selectElement.prototype = {
-		// Helper
+		// Helper (from andrew8088 / dome)
 		each: function(cb) {
 			this.map(cb);
 			return this;
@@ -84,6 +85,13 @@
 		style: function(target, value) {
 			return this.each(function(el) {
 				el.style[target] = value;
+			});
+		},
+
+		// random Tasks
+		scrollTo: function(target) {
+			return this.eachOnce(function(el) {
+
 			});
 		}
 	} 
