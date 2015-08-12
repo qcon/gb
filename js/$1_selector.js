@@ -89,9 +89,11 @@
 		},
 
 		// random Tasks
-		scrollTo: function(target) {
+		scrollTo: function() {
 			return this.eachOnce(function(el) {
-
+				var getOffset = el.getBoundingClientRect();
+				var scrolltopfix = (document.body.scrollTop || document.documentElement.scrollTop);
+				window.scrollTo(0,getOffset.top + scrolltopfix - 10);
 			});
 		}
 	} 
