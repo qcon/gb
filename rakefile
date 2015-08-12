@@ -64,7 +64,7 @@ desc "Concatenate all JS Files and UglifyJS them"
 task :js do
 	puts "JavaScript concatenate & UglifyJS RUNNING".magenta
 	#files = FileList["js/_*.js"]
-	files = FileList["js/_*.js"]
+	files = FileList["js/$*.js"]
 	concat_file = "js/global.js"
 	open(concat_file, "w") do |output|
 		output.puts("document.addEventListener('DOMContentLoaded', function() {")
