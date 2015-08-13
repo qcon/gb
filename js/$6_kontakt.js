@@ -91,7 +91,6 @@
 					loader(1);
 					if(d[0].status === "sent") {
 						send.style("visibility", "hidden");
-						console.log("sent");
 						loader(0);
 						appendModal("Danke für deine eMail! Wir werden so schnell wie möglich darauf antworten.", 4500);
 					}

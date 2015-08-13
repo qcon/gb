@@ -31,7 +31,7 @@
 	})();
 
 	var getShareCounter = (function() {
-		var shareUrl = "https://graph.facebook.com/https://glossboss.de/pflegeberichte/tt-rs-roadster-misanorot/" //+ w.location.href; // URL with slash
+		var shareUrl = "https://graph.facebook.com/" //+ w.location.href; // URL with slash
 		var shareUrlSliced = shareUrl.slice(0, shareUrl.length - 1); // URL without slash
 		var counterWithSlash = 0, counterWithoutSlash = 0,
 		checkForUpdates = setInterval(checkForUpdatesFN, 100),

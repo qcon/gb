@@ -9,10 +9,15 @@ document.addEventListener('DOMContentLoaded', function() {
 		var i = 0;
 		var els = d.querySelectorAll(selector);
 		
-		if(this === "undefined") {
-			console.log("UNDEFINED!!!11");
+		// return ghost Element if Node is not in the DOM
+		// prevent parsing error, when a function is called on this[0]
+		if(els.length === 0) {
 			els = d.createElement("div");
+			this[0] = els;
+			return this;
 		}
+
+		
 		this.length = els.length;
 		for(i; i<this.length;i++) {
 			this[i] = els[i];
@@ -36,6 +41,11 @@ document.addEventListener('DOMContentLoaded', function() {
 		eachOnce: function(cb) {
 			var once = this.map(cb);
 			return once.length > 1 ? once : once[0];
+		},
+		_forEach: function(cb) {
+			return this.each(function(el) {
+				cb(el);
+			});
 		},
 
 		// Text and HTML manipulation
@@ -99,6 +109,16 @@ document.addEventListener('DOMContentLoaded', function() {
 				return el.value;
 			});
 		},
+		disable: function() {
+			return this.each(function(el) {
+				return el.disabled = true;
+			});
+		},
+		enable: function() {
+			return this.each(function(el) {
+				return el.disabled = false;
+			});
+		},
 		scrollTo: function() {
 			return this.eachOnce(function(el) {
 				var getOffset = el.getBoundingClientRect();
@@ -114,17 +134,44 @@ document.addEventListener('DOMContentLoaded', function() {
 })(window, document);
 
 (function globalFunctions(w,d) {
+	"use strict";
+	var DIV = d.createElement("div");
+	var appendModal = function(text, time, type) {
+		type = type || "success";
+		var modalWrap = $('.wrap-modal')[0];
+		var modal = document.createElement("div");
+
+		modal.innerText = text;
+		modal.classList.add("modal");
+		modal.classList.add("modal-" + type);
+		setTimeout(function() {
+			modal.classList.add("modal-show");
+		}, 20);
+
+		modalWrap.appendChild(modal);
+
+		setTimeout(function() {
+			modal.classList.remove("modal-show");
+			setTimeout(function() {
+				modalWrap.removeChild(modal);
+			}, 250);
+		}, time);
+	};
+	var loader = function (toggle) {
+		var me = $("#loading");
+		(toggle) ? me.style("opacity", "1").style("display", "block") : me.style("opacity", "0").style("display", "none");
+	};
 	var markActiveLinkNavbar = function(hash) {
-		// $(".linklistloop a").each(function(_self_) {
-		// 	if(_self.getAttribute("data-kat") === hash ) {
-		// 		_self.addClass("cat--active");
-		// 		setTimeout(function() {
-		// 			_self.scrollTo();
-		// 		}, 50);
-		// 	} else {
-		// 		_self.removeClass("cat--active");
-		// 	}
-		// });
+		$(".linklistloop a")._forEach(function(_self) {
+			if(_self.getAttribute("data-kat") === hash ) {
+				_self.classList.add("cat--active");
+				setTimeout(function() {
+					$(".linklist").scrollTo();
+				}, 50);
+			} else {
+				_self.classList.remove("cat--active");
+			}
+		});
 	};
 	var searchRender = function() {
 		$("#search_reset").on('click', function() {
@@ -160,7 +207,6 @@ document.addEventListener('DOMContentLoaded', function() {
 		opt = opt || defaultOptions;
 		var x = new XMLHttpRequest();
 		try {
-			console.log(opt.data);
 			x.onreadystatechange = function() {
 				if(x.readyState == 4 && x.status == 200) {
 					var out = (opt.useJSON) ? JSON.parse(x.responseText, "text/json") : x.responseText;
@@ -169,7 +215,7 @@ document.addEventListener('DOMContentLoaded', function() {
 			}
 			x.open(opt.method, opt.url);
 			if(opt.method === "POST") {
-				x.setRequestHeader("Content-Type", "application/json:charset=UTF-8");
+				x.setRequestHeader("Content-Type", "application/json;charset=UTF-8");
 				x.send(JSON.stringify(opt.data));
 			} else if(opt.method === "GET") {
 				x.send();
@@ -178,7 +224,7 @@ document.addEventListener('DOMContentLoaded', function() {
 			console.error("AJAX Error: " + err);
 		}
 	};
-	WebFontConfig = {
+	w.WebFontConfig = {
 		google: { families: [ 'Roboto::latin' ] }
 	};
 	(function() {
@@ -196,6 +242,9 @@ document.addEventListener('DOMContentLoaded', function() {
 	w.ajax = ajax;
 	w.searchRender = searchRender;
 	w.markActiveLinkNavbar = markActiveLinkNavbar;
+	w.loader = loader;
+	w.appendModal = appendModal;
+	w.DIV = DIV;
 })(window, document);
 
 (function mischungsrechner(w, d) {
@@ -306,9 +355,9 @@ document.addEventListener('DOMContentLoaded', function() {
 	})();
 
 	var getShareCounter = (function() {
-		var shareUrl = "https://graph.facebook.com/https://glossboss.de/anleitungen/grundlagen-lack-polieren-richtig-abkleben/" //+ w.location.href; // URL with slash
+		var shareUrl = "https://graph.facebook.com/" //+ w.location.href; // URL with slash
 		var shareUrlSliced = shareUrl.slice(0, shareUrl.length - 1); // URL without slash
-		var counterWithSlash, counterWithoutSlash,
+		var counterWithSlash = 0, counterWithoutSlash = 0,
 		checkForUpdates = setInterval(checkForUpdatesFN, 100),
 		completeWithSlash = false,
 		completeWithoutSlash = false;
@@ -317,6 +366,7 @@ document.addEventListener('DOMContentLoaded', function() {
 		ajax({
 			method: "GET",
 			url: shareUrl,
+			useJSON: true,
 			cb: function(data) {
 				counterWithSlash = data.shares;
 				completeWithSlash = true;
@@ -327,6 +377,7 @@ document.addEventListener('DOMContentLoaded', function() {
 		ajax({
 			method: "GET",
 			url: shareUrlSliced,
+			useJSON: true,
 			cb: function(data) {
 				counterWithoutSlash = data.shares;
 				completeWithoutSlash = true;
@@ -335,7 +386,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 		function checkForUpdatesFN() {
 			if(completeWithSlash && completeWithoutSlash) {
-				var totalShares = (counterWithSlash || 0) + (counterWithoutSlash || 0);
+				var totalShares = counterWithSlash + counterWithoutSlash;
 				var outputText = "Sei der erste Glossboss der diesen Beitrag teilt!";
 
 				if(counterWithSlash === counterWithoutSlash) totalShares /= 2;
@@ -429,9 +480,14 @@ document.addEventListener('DOMContentLoaded', function() {
 					return this;
 				}
 			}
-			if($("#indexContainer") && !hash) {
+			try {
+				if($("#indexContainer") && !hash && ItseMeIndex) {
 				this.parser("index", "Die neuesten Beiträge", true);
 			}
+			} catch(up) {
+				console.log("i dont care: " + up);
+			}
+			
 		},
 		getPosts: function(data, hash, isIndex) {
 			var post = data;
@@ -449,15 +505,14 @@ document.addEventListener('DOMContentLoaded', function() {
 			}
 			postContainer.removeClass("opacity-0");
 			pageHeading.removeClass("opacity-0");
+			loader(0);
 			($(".post--list li").length < maxIndex)
 				?
 				loadmoreButton.style("display", "none")
 				:
 				loadmoreButton.style("display", "block");
+
 			loadmoreButton[0].onclick = function(e) {
-				console.log("LOADMORE CLICK");
-				e.preventDefault();
-				e.stopPropagation();
 				postListLI = $(".post--list li");
 				if(isIndex && location.hash != "alle") {
 					location.hash = "alle";
@@ -476,7 +531,6 @@ document.addEventListener('DOMContentLoaded', function() {
 					showDelayTime += 100;
 					showDelay(numCat, showDelayTime);
 					numCat++;
-					console.log(i);
 
 					if(!postDB[numCat]) {
 						loadmoreButton.style("display", "none");
@@ -484,7 +538,7 @@ document.addEventListener('DOMContentLoaded', function() {
 					}
 				}
 				return;
-			};
+			}
 
 		},
 		parser: function(hash, title, isIndex) {
@@ -494,6 +548,8 @@ document.addEventListener('DOMContentLoaded', function() {
 			var _hash = hash.charAt(0).toUpperCase() + hash.slice(1, hash.length);
 			title = title || _hash;
 			// RESET
+
+			loader(1);
 
 			loadmoreButton.style("display", "none");
 			pageHeading.addClass("opacity-0");
@@ -591,14 +647,17 @@ document.addEventListener('DOMContentLoaded', function() {
 		if(el.value() === "") {
 			send.style("visibility", "");
 			el.addClass("form__error");
-			//appendModal("Unvollständige Angabe: " + el[0].placeholder, 3000, "error");
+			loader(0);
+			appendModal("Unvollständige Angabe: " + el[0].placeholder, 3000, "error");
 			return false;
 		} else {
 			if(mail) {
 				var mailtest = /\S+@\S+\.\S+/
 				if(!mailtest.test(el.value())) {
-					//appendModal("eMail Adresse ungültig!", 2000, "error");
+					kMail.addClass("form__error");
+					appendModal("eMail Adresse ungültig!", 2000, "error");
 					send.style("visibility", "");
+					loader(0);
 					return false;
 				}
 			}
@@ -606,20 +665,25 @@ document.addEventListener('DOMContentLoaded', function() {
 		}
 	}
 	function kReset() {
-		kName.removeClass("form_error");
+		kName.removeClass("form__error");
 		kMail.removeClass("form__error");
 		kMessage.removeClass("form__error");
 		send.style("visibility", "hidden");
+		loader(1);
 	}
 	function kSelectBoss() {
+		// allow input
 		kInputs.style("opacity", "1");
-		send[0].disabled = false;
-		selectedBoss.Mail = $(".selectGlossboss input[name=glossboss]:checked")[0].value;
+		send.enable();
+		send.removeClass("cursor-not-allowed");
+
+		selectedBoss.Mail = $(".selectGlossboss input[name=glossboss]:checked").value();
 		selectedBoss.Name = $(".selectGlossboss input[name=glossboss]:checked")[0].getAttribute("data-boss");
 	}
 	function kInit() {
 		kInputs.style("opacity", ".3");
-		send[0].disabled = true;
+		send.disable();
+		send.addClass("cursor-not-allowed");
 		addEvents();
 	}
 	function kSubmit() {
@@ -652,16 +716,19 @@ document.addEventListener('DOMContentLoaded', function() {
 			};
 			ajax({
 				method: "POST",
+				url: "https://mandrillapp.com/api/1.0/messages/send.json",
 				data: mailData,
-				useJSON: false,
-				cb: function(data) {
-					if(data[0].status === "sent") {
-						kontaktSenden.style("visibility", "hidden");
+				useJSON: true,
+				cb: function(d) {
+					loader(1);
+					if(d[0].status === "sent") {
+						send.style("visibility", "hidden");
 						console.log("sent");
-						//appendModal("Danke für deine eMail! Wir werden so schnell wie möglich darauf antworten.", 4500);
+						loader(0);
+						appendModal("Danke für deine eMail! Wir werden so schnell wie möglich darauf antworten.", 4500);
 					}
 				}
-			}).bind(mailData);
+			});
 		}
 	}
 	function addEvents() {
