@@ -31,9 +31,9 @@
 	})();
 
 	var getShareCounter = (function() {
-		var shareUrl = "https://graph.facebook.com/https://glossboss.de/anleitungen/grundlagen-lack-polieren-richtig-abkleben/" //+ w.location.href; // URL with slash
+		var shareUrl = "https://graph.facebook.com/https://glossboss.de/pflegeberichte/tt-rs-roadster-misanorot/" //+ w.location.href; // URL with slash
 		var shareUrlSliced = shareUrl.slice(0, shareUrl.length - 1); // URL without slash
-		var counterWithSlash, counterWithoutSlash,
+		var counterWithSlash = 0, counterWithoutSlash = 0,
 		checkForUpdates = setInterval(checkForUpdatesFN, 100),
 		completeWithSlash = false,
 		completeWithoutSlash = false;
@@ -42,6 +42,7 @@
 		ajax({
 			method: "GET",
 			url: shareUrl,
+			useJSON: true,
 			cb: function(data) {
 				counterWithSlash = data.shares;
 				completeWithSlash = true;
@@ -52,6 +53,7 @@
 		ajax({
 			method: "GET",
 			url: shareUrlSliced,
+			useJSON: true,
 			cb: function(data) {
 				counterWithoutSlash = data.shares;
 				completeWithoutSlash = true;
@@ -60,7 +62,7 @@
 
 		function checkForUpdatesFN() {
 			if(completeWithSlash && completeWithoutSlash) {
-				var totalShares = (counterWithSlash || 0) + (counterWithoutSlash || 0);
+				var totalShares = counterWithSlash + counterWithoutSlash;
 				var outputText = "Sei der erste Glossboss der diesen Beitrag teilt!";
 
 				if(counterWithSlash === counterWithoutSlash) totalShares /= 2;

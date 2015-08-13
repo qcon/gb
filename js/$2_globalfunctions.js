@@ -1,15 +1,42 @@
 (function globalFunctions(w,d) {
+	"use strict";
+	var DIV = d.createElement("div");
+	var appendModal = function(text, time, type) {
+		type = type || "success";
+		var modalWrap = $('.wrap-modal')[0];
+		var modal = document.createElement("div");
+
+		modal.innerText = text;
+		modal.classList.add("modal");
+		modal.classList.add("modal-" + type);
+		setTimeout(function() {
+			modal.classList.add("modal-show");
+		}, 20);
+
+		modalWrap.appendChild(modal);
+
+		setTimeout(function() {
+			modal.classList.remove("modal-show");
+			setTimeout(function() {
+				modalWrap.removeChild(modal);
+			}, 250);
+		}, time);
+	};
+	var loader = function (toggle) {
+		var me = $("#loading");
+		(toggle) ? me.style("opacity", "1").style("display", "block") : me.style("opacity", "0").style("display", "none");
+	};
 	var markActiveLinkNavbar = function(hash) {
-		// $(".linklistloop a").each(function(_self_) {
-		// 	if(_self.getAttribute("data-kat") === hash ) {
-		// 		_self.addClass("cat--active");
-		// 		setTimeout(function() {
-		// 			_self.scrollTo();
-		// 		}, 50);
-		// 	} else {
-		// 		_self.removeClass("cat--active");
-		// 	}
-		// });
+		$(".linklistloop a")._forEach(function(_self) {
+			if(_self.getAttribute("data-kat") === hash ) {
+				_self.classList.add("cat--active");
+				setTimeout(function() {
+					$(".linklist").scrollTo();
+				}, 50);
+			} else {
+				_self.classList.remove("cat--active");
+			}
+		});
 	};
 	var searchRender = function() {
 		$("#search_reset").on('click', function() {
@@ -37,6 +64,9 @@
 			cb: function() {
 				return;
 			},
+			error: function() {
+
+			},
 			useJSON: false
 		};
 		opt = opt || defaultOptions;
@@ -50,7 +80,7 @@
 			}
 			x.open(opt.method, opt.url);
 			if(opt.method === "POST") {
-				x.setRequestHeader("Content-Type", "application/json:charset=UTF-8");
+				x.setRequestHeader("Content-Type", "application/json;charset=UTF-8");
 				x.send(JSON.stringify(opt.data));
 			} else if(opt.method === "GET") {
 				x.send();
@@ -59,7 +89,7 @@
 			console.error("AJAX Error: " + err);
 		}
 	};
-	WebFontConfig = {
+	w.WebFontConfig = {
 		google: { families: [ 'Roboto::latin' ] }
 	};
 	(function() {
@@ -77,4 +107,7 @@
 	w.ajax = ajax;
 	w.searchRender = searchRender;
 	w.markActiveLinkNavbar = markActiveLinkNavbar;
+	w.loader = loader;
+	w.appendModal = appendModal;
+	w.DIV = DIV;
 })(window, document);

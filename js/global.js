@@ -8,8 +8,12 @@ document.addEventListener('DOMContentLoaded', function() {
 	var selectElement = function(selector) {
 		var i = 0;
 		var els = d.querySelectorAll(selector);
+		
+		if(this === "undefined") {
+			console.log("UNDEFINED!!!11");
+			els = d.createElement("div");
+		}
 		this.length = els.length;
-
 		for(i; i<this.length;i++) {
 			this[i] = els[i];
 		}
@@ -89,7 +93,12 @@ document.addEventListener('DOMContentLoaded', function() {
 			});
 		},
 
-		// random Tasks
+		// random Tasks + DOM Events
+		value: function() {
+			return this.eachOnce(function(el) {
+				return el.value;
+			});
+		},
 		scrollTo: function() {
 			return this.eachOnce(function(el) {
 				var getOffset = el.getBoundingClientRect();
@@ -143,11 +152,15 @@ document.addEventListener('DOMContentLoaded', function() {
 			cb: function() {
 				return;
 			},
+			error: function() {
+
+			},
 			useJSON: false
 		};
 		opt = opt || defaultOptions;
 		var x = new XMLHttpRequest();
 		try {
+			console.log(opt.data);
 			x.onreadystatechange = function() {
 				if(x.readyState == 4 && x.status == 200) {
 					var out = (opt.useJSON) ? JSON.parse(x.responseText, "text/json") : x.responseText;
@@ -561,6 +574,105 @@ document.addEventListener('DOMContentLoaded', function() {
 
 })(window, document);
 
+(function kontaktForm(w, d) {
+	var send = $("#SENDEN")
+	, kontaktMessage = $("#form_msg")
+	, kName = $("#name")
+	, kMail = $("#xyz")
+	, kMessage = $("#msg")
+	, selectBoss = $(".selectGlossboss input[name=glossboss]")
+	, selectedBoss = {}
+	, kInputs = $("#kontakt_inputs")
+	, api = "R61bXP70NEnJXC2c__cvgg";
 
+
+	// Private Function
+	function kValidate (el, mail) {
+		if(el.value() === "") {
+			send.style("visibility", "");
+			el.addClass("form__error");
+			//appendModal("Unvollständige Angabe: " + el[0].placeholder, 3000, "error");
+			return false;
+		} else {
+			if(mail) {
+				var mailtest = /\S+@\S+\.\S+/
+				if(!mailtest.test(el.value())) {
+					//appendModal("eMail Adresse ungültig!", 2000, "error");
+					send.style("visibility", "");
+					return false;
+				}
+			}
+			return true;
+		}
+	}
+	function kReset() {
+		kName.removeClass("form_error");
+		kMail.removeClass("form__error");
+		kMessage.removeClass("form__error");
+		send.style("visibility", "hidden");
+	}
+	function kSelectBoss() {
+		kInputs.style("opacity", "1");
+		send[0].disabled = false;
+		selectedBoss.Mail = $(".selectGlossboss input[name=glossboss]:checked")[0].value;
+		selectedBoss.Name = $(".selectGlossboss input[name=glossboss]:checked")[0].getAttribute("data-boss");
+	}
+	function kInit() {
+		kInputs.style("opacity", ".3");
+		send[0].disabled = true;
+		addEvents();
+	}
+	function kSubmit() {
+		kReset();
+		var valName = kValidate(kName)
+		, valMail = kValidate(kMail, true)
+		, valMessage = kValidate(kMessage);
+		if(valName && valMail && valMessage) {
+			var mailData = {
+				"key": api,
+				"message": {
+					"text": kMessage.value(),
+					"subject": "GLOSSBOSS Kontaktanfrage",
+					"from_email": kMail.value(),
+					"from_name": kName.value(),
+					"to": [
+					{
+						//"email": "mail@glossboss.de",
+						"email": selectedBoss.Mail,
+						"name": selectedBoss.Name,
+						"type": "to"
+					}
+					],
+					"headers": {
+						"Reply-To": kMail.value()
+					}
+				},
+				"async": false,
+				"ip_pool": "Main Pool"
+			};
+			ajax({
+				method: "POST",
+				data: mailData,
+				useJSON: false,
+				cb: function(data) {
+					if(data[0].status === "sent") {
+						kontaktSenden.style("visibility", "hidden");
+						console.log("sent");
+						//appendModal("Danke für deine eMail! Wir werden so schnell wie möglich darauf antworten.", 4500);
+					}
+				}
+			}).bind(mailData);
+		}
+	}
+	function addEvents() {
+		send.on("click", function(e){
+			e.preventDefault();
+			kSubmit();
+		}, false);
+		selectBoss.on("change", kSelectBoss);
+	}
+
+	kInit();
+})(window, document);
 
 });

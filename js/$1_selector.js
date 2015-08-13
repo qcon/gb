@@ -7,8 +7,17 @@
 	var selectElement = function(selector) {
 		var i = 0;
 		var els = d.querySelectorAll(selector);
-		this.length = els.length;
+		
+		// return ghost Element if Node is not in the DOM
+		// prevent parsing error, when a function is called on this[0]
+		if(els.length === 0) {
+			els = d.createElement("div");
+			this[0] = els;
+			return this;
+		}
 
+		
+		this.length = els.length;
 		for(i; i<this.length;i++) {
 			this[i] = els[i];
 		}
@@ -31,6 +40,11 @@
 		eachOnce: function(cb) {
 			var once = this.map(cb);
 			return once.length > 1 ? once : once[0];
+		},
+		_forEach: function(cb) {
+			return this.each(function(el) {
+				cb(el);
+			});
 		},
 
 		// Text and HTML manipulation
@@ -88,7 +102,22 @@
 			});
 		},
 
-		// random Tasks
+		// random Tasks + DOM Events
+		value: function() {
+			return this.eachOnce(function(el) {
+				return el.value;
+			});
+		},
+		disable: function() {
+			return this.each(function(el) {
+				return el.disabled = true;
+			});
+		},
+		enable: function() {
+			return this.each(function(el) {
+				return el.disabled = false;
+			});
+		},
 		scrollTo: function() {
 			return this.eachOnce(function(el) {
 				var getOffset = el.getBoundingClientRect();
