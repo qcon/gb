@@ -104,6 +104,7 @@
 			if(hash === "suche") {
 				postContainer.removeClass("opacity-0");
 				searchRender();
+				loader(0);
 				return;
 			}
 
