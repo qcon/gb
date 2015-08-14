@@ -45,7 +45,7 @@
 			method: "GET",
 			url: shareUrl,
 			useJSON: true,
-			cb: function(data) {
+			success: function(data) {
 				counterWithSlash = data.shares;
 				completeWithSlash = true;
 			}
@@ -56,7 +56,7 @@
 			method: "GET",
 			url: shareUrlSliced,
 			useJSON: true,
-			cb: function(data) {
+			success: function(data) {
 				counterWithoutSlash = data.shares;
 				completeWithoutSlash = true;
 			}

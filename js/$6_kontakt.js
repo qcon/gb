@@ -87,7 +87,7 @@
 				url: "https://mandrillapp.com/api/1.0/messages/send.json",
 				data: mailData,
 				useJSON: true,
-				cb: function(d) {
+				success: function(d) {
 					loader(1);
 					if(d[0].status === "sent") {
 						send.style("visibility", "hidden");
