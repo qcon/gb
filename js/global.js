@@ -196,7 +196,7 @@ document.addEventListener('DOMContentLoaded', function() {
 			url: "",
 			method: "GET",
 			data: "",
-			cb: function() {
+			success: function() {
 				return;
 			},
 			error: function() {
@@ -210,7 +210,7 @@ document.addEventListener('DOMContentLoaded', function() {
 			x.onreadystatechange = function() {
 				if(x.readyState == 4 && x.status == 200) {
 					var out = (opt.useJSON) ? JSON.parse(x.responseText, "text/json") : x.responseText;
-					opt.cb(out);
+					opt.success(out);
 				}
 			}
 			x.open(opt.method, opt.url);
@@ -369,7 +369,7 @@ document.addEventListener('DOMContentLoaded', function() {
 			method: "GET",
 			url: shareUrl,
 			useJSON: true,
-			cb: function(data) {
+			success: function(data) {
 				counterWithSlash = data.shares;
 				completeWithSlash = true;
 			}
@@ -380,7 +380,7 @@ document.addEventListener('DOMContentLoaded', function() {
 			method: "GET",
 			url: shareUrlSliced,
 			useJSON: true,
-			cb: function(data) {
+			success: function(data) {
 				counterWithoutSlash = data.shares;
 				completeWithoutSlash = true;
 			}
@@ -570,7 +570,7 @@ document.addEventListener('DOMContentLoaded', function() {
 				method: "GET",
 				useJSON: true,
 				url: postJSONCache,
-				cb: function(data) {
+				success: function(data) {
 					this.getPosts(data, hash, isIndex);
 				}.bind(this)
 			});
@@ -722,7 +722,7 @@ document.addEventListener('DOMContentLoaded', function() {
 				url: "https://mandrillapp.com/api/1.0/messages/send.json",
 				data: mailData,
 				useJSON: true,
-				cb: function(d) {
+				success: function(d) {
 					loader(1);
 					if(d[0].status === "sent") {
 						send.style("visibility", "hidden");

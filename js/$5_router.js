@@ -112,7 +112,7 @@
 				method: "GET",
 				useJSON: true,
 				url: postJSONCache,
-				cb: function(data) {
+				success: function(data) {
 					this.getPosts(data, hash, isIndex);
 				}.bind(this)
 			});
