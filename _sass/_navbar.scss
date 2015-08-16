@@ -1,5 +1,6 @@
 .kategorie--select {
 	@include font(special);
+	cursor: pointer;
 	background-color: HSL(300,5%,95%);
 	border-radius: 0;
 	border: 1px solid rgba(black, .1);
@@ -62,7 +63,7 @@
 			margin: 10px 0;
 		}
 		@media #{$sm-smaller} {
-			margin-right: 1em«;
+			margin-right: 1em;
 		}
 		a {
 			text-decoration:none;

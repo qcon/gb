@@ -117,7 +117,7 @@ end
 desc "Build Jekyll and run the Server"
 task :jekyll_dev do
 	puts "Building Jekyll and running server".magenta
-	execute("jekyll serve --config #{CONFIG[:config_file]}")
+	execute("jekyll serve --config #{CONFIG[:config_file]} --host=0.0.0.0")
 end
 
 desc "Task for developement"
