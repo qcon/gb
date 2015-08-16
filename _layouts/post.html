@@ -1,12 +1,6 @@
 ---
 layout: default
 ---
-<script>
-postName = "{{page.id}}";
-if (!localStorage.getItem(postName)) {
-	localStorage.setItem(postName, Date());
-}
-</script>
 <div class="width--wrapper" id="post--list__container">
 	<article class="post--content">
 		{{ content }}

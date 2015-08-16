@@ -164,7 +164,7 @@
 		},50);
 	});
 
-	window.addEventListener("hashchange", function() {
+	window.addEventListener("hashchange", function() { 
 		router.checkRoute(location.hash);
 	});
 
