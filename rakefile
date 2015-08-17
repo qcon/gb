@@ -57,7 +57,7 @@ task :pushs3 do
 	puts "S3 SYNC: HTML Files".magenta
 	execute("s3cmd sync -M #{cf_invalidate} --acl-public --exclude '*.*' --include '*.html' --add-header='Cache-Control:max-age=345600, must-revalidate' --add-header='Content-Encoding:gzip' _site/ s3://#{CONFIG[:s3_bucket]}")
 	puts "S3 SYNC: Push the rest".magenta
-	execute("s3cmd sync --acl-public --delete-removed _site/ s3://#{CONFIG[:s3_bucket]}")
+	execute("s3cmd sync --acl-public --delete-removed --cf-invalidate-default-index _site/ s3://#{CONFIG[:s3_bucket]}")
 end
 
 desc "Concatenate all JS Files and UglifyJS them"

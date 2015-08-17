@@ -22,14 +22,6 @@
 		}
 	})();
 
-	var selectCatChange = (function() {
-		var select = $("select[name=kategorie]");
-		var select0 = select[0];
-		select.on("change", function() {
-			location.href = "/" + select0.options[select0.selectedIndex].value;
-		});
-	})();
-
 	var rndHeader = (function() {
 		if(randomHeader) {
 			var headerImages = ["merc-8.jpg", "1mcoupe.jpg", "530dteamwork.jpg", "965turbo.jpg", "9914s1.jpg", "997cabrio.jpg", "991turbos.jpg", "997grau.jpg", "997rot.jpg", "alfagtv.jpg", "audir8.jpg", "audis5.jpg", "bmw2002.jpg", "eosschwarz.jpg", "golf7gtd.jpg", "lotuselise.jpg", "m3csl.jpg", "shelby.jpg", "mclaren.jpg"];
@@ -102,7 +94,15 @@
 				(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
 			})();
 			showComments.style("display", "none");
-		});  
+		});
+
+		var selectCatChange = (function() {
+			var select = $("select[name=kategorie]");
+			var select0 = select[0];
+			select.on("change", function() {
+				location.href = "/" + select0.options[select0.selectedIndex].value;
+			});
+		})();
 
 		// Events for the Navbar
 		//toggleMenu.on("change", updateMenu);
