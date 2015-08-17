@@ -25,12 +25,9 @@
     	background-position: right 15px top 11px;
     }
 }
-#katarrow {
-	fill: $blau;
-}
 .linklist {
 	list-style:none;
-	opacity: 1;
+	//opacity: 1;
 	font-size:1em;
 	overflow:hidden;
 	transition:.25s;
@@ -79,22 +76,22 @@
 			@media #{$min-sm} {
 				&:hover {
 					color:$blau;
-					&:after{
-						height:2px;
-						transform:translate(0,0);
-					}
+					// &:after{
+					// 	height:2px;
+					// 	transform:translate(0,0);
+					// }
 				}
-				&:after {
-				  content:'';
-				  height:2px;
-				  width:auto;
-				  display:block;
-				  background:$blau;
-				  position:relative;
-				  transition:.25s ease;
-				  top:0;
-				  transform:translate(0,30px);
-				}
+				// &:after {
+				//   content:'';
+				//   height:2px;
+				//   width:auto;
+				//   display:block;
+				//   background:$blau;
+				//   position:relative;
+				//   transition:.25s ease;
+				//   top:0;
+				//   transform:translate(0,30px);
+				// }
 			}
 		}
 		// @media #{$sm} {
@@ -107,9 +104,9 @@
 // .linklist {
 //     @extend %linklist;
 // }
-.cat--active:after {
-	transform:translate(0,0) !important;
-}
+// .cat--active:after {
+// 	transform:translate(0,0) !important;
+// }
 .toggleMenue {
     display: none;
     // @media #{$sm} {
@@ -127,7 +124,7 @@
     box-shadow: 0px 1px 1px 0px rgba(0,0,0,.1);
     z-index:2;
     text-align: center;
-    @media #{$min-sm} {
+    //@media #{$min-sm} {
        // text-align:center;
   //       &:hover .submenu {
 		// // height:40px;
@@ -135,75 +132,75 @@
 		// transform: translate(0,0);
 		// z-index:1;
 		// }
-    }
-    @media #{$sm} {
-        //text-align:center;
-        //padding:0.3em;
-    }
-    .submenu {
-		opacity:0;
-		// //padding-top: 5px;
-		// height:0;
-		text-align: center;
-		position: absolute;
-		transform: translate(0, -50px);
-		transition: 120ms 800ms;
-		font-size: 0.8em;
-		z-index:-1;
-		width: 100%;
-	}
+    //}
+ //    @media #{$sm} {
+ //        //text-align:center;
+ //        //padding:0.3em;
+ //    }
+ //    .submenu {
+	// 	opacity:0;
+	// 	// //padding-top: 5px;
+	// 	// height:0;
+	// 	text-align: center;
+	// 	position: absolute;
+	// 	transform: translate(0, -50px);
+	// 	transition: 120ms 800ms;
+	// 	font-size: 0.8em;
+	// 	z-index:-1;
+	// 	width: 100%;
+	// }
 }
-%burger {
-  height:5px;
-  width:34px;
-  background:$blau;
-  content:'';
-  left:0;
-  position:relative;
-  transition:.25s cubic-bezier(.55,0,.1,1);
-}
+// %burger {
+//   height:5px;
+//   width:34px;
+//   background:$blau;
+//   content:'';
+//   left:0;
+//   position:relative;
+//   transition:.25s cubic-bezier(.55,0,.1,1);
+// }
 
 
-ul.hamburger {
-  list-style:none;
-  //display:block;
-  li {
-    @extend %burger;
-    &:nth-child(1) {
-      top:0;
-    }
-    &:nth-child(2) {
-      top:5px;
-    }
-    &:nth-child(3) {
-      top:10px;
-    }
-  }
-}
+// ul.hamburger {
+//   list-style:none;
+//   //display:block;
+//   li {
+//     @extend %burger;
+//     &:nth-child(1) {
+//       top:0;
+//     }
+//     &:nth-child(2) {
+//       top:5px;
+//     }
+//     &:nth-child(3) {
+//       top:10px;
+//     }
+//   }
+// }
 
 
-.header__menu--icontoggle {
-    width:32px;
-    height:32px;
-    fill:$blau;
-    margin-left:1.8em;
-    transition:.25s cubic-bezier(.55,0,.1,1);
-}
-#toggleMenu {
-    display:none;
-}
-.rotate-toggle {
-    transform: rotate(270deg);
-}
-.menuetext {
-    font-size:1em;
-    color:white;
-    @include font(light);
-    height:32px;
-    position:absolute;
-    transform:translate(10px,5px);
-    display:none;
-}
+// .header__menu--icontoggle {
+//     width:32px;
+//     height:32px;
+//     fill:$blau;
+//     margin-left:1.8em;
+//     transition:.25s cubic-bezier(.55,0,.1,1);
+// }
+// #toggleMenu {
+//     display:none;
+// }
+// .rotate-toggle {
+//     transform: rotate(270deg);
+// }
+// .menuetext {
+//     font-size:1em;
+//     color:white;
+//     @include font(light);
+//     height:32px;
+//     position:absolute;
+//     transform:translate(10px,5px);
+//     display:none;
+// }
 // .nav-fixed {
 //     z-index:9998;
 //     top:0;

@@ -34,18 +34,7 @@
 	</div>
   </header>
   <div class="header__extend" id="mainnav">
-	<label for="toggleMenu" class="toggleMenue">
-	<ul class="hamburger">
-		<li></li>
-		<li></li>
-		<li></li>
-	</ul>
-	</label>
-	<input type="checkbox" id="toggleMenu" role="button">
 		{% include menu_render.html %}
-		<div class="submenu">
-			{% include menu_render_sub.html %}
-		</div>
 	</div>
   <div class="header--logo">
 	<a href="https://glossboss.de" alt="Glossboss.de - Startseite"><img src="{{ "https://glossbossimages.s3.eu-central-1.amazonaws.com/Glossboss-de-Logo.png" }}" alt=""></a>
