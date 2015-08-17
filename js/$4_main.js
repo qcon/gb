@@ -94,15 +94,23 @@
 				(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
 			})();
 			showComments.style("display", "none");
-		});  
+		});
+
+		var selectCatChange = (function() {
+			var select = $("select[name=kategorie]");
+			var select0 = select[0];
+			select.on("change", function() {
+				location.href = "/" + select0.options[select0.selectedIndex].value;
+			});
+		})();
 
 		// Events for the Navbar
-		toggleMenu.on("change", updateMenu);
-		linklist.on("click", function() {
-			$("#toggleMenu")[0].checked = false;
-			updateMenu();
-		});
-		w.addEventListener("resize", updateMenu);
+		//toggleMenu.on("change", updateMenu);
+		// linklist.on("click", function() {
+		// 	$("#toggleMenu")[0].checked = false;
+		// 	updateMenu();
+		// });
+		//w.addEventListener("resize", updateMenu);
 	};
 
 	// Private Functions
@@ -113,7 +121,7 @@
 
 		(docWidth >= 750) ? linklist.style("maxHeight", linklistMaxHeight) : hamburgerToggle();
 	};
-	updateMenu();
+	//updateMenu();
 	function hamburgerToggle(tgl) {
 		var expand = function() {
 			linklist.style("maxHeight", linklistMaxHeight);

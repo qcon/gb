@@ -1,9 +1,16 @@
 <ul class="linklist" id="linklist">
-	{% for cat in site.data.categories %}
-		{% assign tmp = {{cat[0]}} %}
-		<li class="linklistloop">
-			<a data-kat="{{cat[0]}}" href="{{ cat[0] | prepend: "/#" }}" {% if page.url contains tmp %}class="cat--active"{% endif %}>{{ cat[1] }}</a>
-		</li>
-	{% endfor %}
-	<li id="eastereggNavbar">&nbsp;</li>
+<li class="canHideSmaller"><a href="/kontakt" id="kontaktToggle">Kontakt</a></li>
+	<li class="canHide"><a href="/blog-abonnieren">Blog Abonnieren</a></li>
+<li>
+<select name='kategorie' class="kategorie--select">
+	<option value="">Kategorien ...</option>
+  <option value='#allgemein'>Allgemein</option>
+  <option value='#anleitungen'>Anleitungen</option>
+  <option value='#pflegeberichte'>Pflegeberichte</option>
+	<option value='#tipps-tricks'>Tipps-Tricks</option>
+	<option value='#produkttest'>Produkttest</option>
+</select>	
+</li>
+<li class="canHide"><a href="/mischungsrechner">Mischungsrechner</a></li>
+	<li class="canHideSmaller"><a href="/#suche">Suche</a></li>
 </ul>

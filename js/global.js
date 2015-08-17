@@ -162,16 +162,16 @@ document.addEventListener('DOMContentLoaded', function() {
 		(toggle) ? me.style("opacity", "1").style("display", "block") : me.style("opacity", "0").style("display", "none");
 	};
 	var markActiveLinkNavbar = function(hash) {
-		$(".linklistloop a")._forEach(function(_self) {
-			if(_self.getAttribute("data-kat") === hash ) {
-				_self.classList.add("cat--active");
-				setTimeout(function() {
-					$(".linklist").scrollTo();
-				}, 50);
-			} else {
-				_self.classList.remove("cat--active");
-			}
-		});
+		// $(".linklistloop a")._forEach(function(_self) {
+		// 	if(_self.getAttribute("data-kat") === hash ) {
+		// 		_self.classList.add("cat--active");
+		// 		setTimeout(function() {
+		// 			$(".linklist").scrollTo();
+		// 		}, 50);
+		// 	} else {
+		// 		_self.classList.remove("cat--active");
+		// 	}
+		// });
 	};
 	var searchRender = function() {
 		$("#search_reset").on('click', function() {
@@ -418,15 +418,23 @@ document.addEventListener('DOMContentLoaded', function() {
 				(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
 			})();
 			showComments.style("display", "none");
-		});  
+		});
+
+		var selectCatChange = (function() {
+			var select = $("select[name=kategorie]");
+			var select0 = select[0];
+			select.on("change", function() {
+				location.href = "/" + select0.options[select0.selectedIndex].value;
+			});
+		})();
 
 		// Events for the Navbar
-		toggleMenu.on("change", updateMenu);
-		linklist.on("click", function() {
-			$("#toggleMenu")[0].checked = false;
-			updateMenu();
-		});
-		w.addEventListener("resize", updateMenu);
+		//toggleMenu.on("change", updateMenu);
+		// linklist.on("click", function() {
+		// 	$("#toggleMenu")[0].checked = false;
+		// 	updateMenu();
+		// });
+		//w.addEventListener("resize", updateMenu);
 	};
 
 	// Private Functions
@@ -437,7 +445,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 		(docWidth >= 750) ? linklist.style("maxHeight", linklistMaxHeight) : hamburgerToggle();
 	};
-	updateMenu();
+	//updateMenu();
 	function hamburgerToggle(tgl) {
 		var expand = function() {
 			linklist.style("maxHeight", linklistMaxHeight);
@@ -622,7 +630,7 @@ document.addEventListener('DOMContentLoaded', function() {
 		},50);
 	});
 
-	window.addEventListener("hashchange", function() {
+	window.addEventListener("hashchange", function() { 
 		router.checkRoute(location.hash);
 	});
 
