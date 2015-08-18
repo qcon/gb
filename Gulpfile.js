@@ -46,4 +46,4 @@ gulp.task('jekyll', ["js", "sass"], function (done) {
 gulp.task("watch", ["js", "sass"], function() {
 	gulp.watch(['index.html', '_layouts/*.html', '_posts/*', "js/*.js", "_sass/*.scss"], ['watch-jekyll']);
 });
-gulp.task("build", ['browser-sync', "watch"]);
+gulp.task("default", ['browser-sync', "watch"]);
