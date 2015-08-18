@@ -21,7 +21,7 @@ Das so eine Platform längst überfällig war, war klar. Wir haben uns auch bewu
 
 Hier im Blog schreiben nur auserwählte. Das sind sowohl Profis als auch Amateure, jeder Beitrag wird jedoch gesichtet und vor der Veröffentlichung auf korrektheit geprüft.
 
-Aktuell ({{ 'now' | date: "%d.%m.%y"}}) zählt der Blog insgesamt **{{ site.posts | size }}** Beiträge.
+Aktuell zählt der Blog insgesamt **{{ site.posts | size }}** Beiträge.
 
 ##Technik 
 
