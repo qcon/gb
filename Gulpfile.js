@@ -43,7 +43,7 @@ gulp.task('jekyll', ["js", "sass"], function (done) {
 	return cp.spawn("jekyll", ['build'], {stdio: 'inherit'})
 	.on("close", done);
 });
-gulp.task("watch", ["js", "sass"], function() {
+gulp.task("watch", ["jekyll"], function() {
 	gulp.watch(['index.html', '_layouts/*.html', '_posts/*', "js/*.js", "_sass/*.scss", "_preview/*.md"], ['watch-jekyll']);
 });
 gulp.task("default", ['browser-sync', "watch"]);
