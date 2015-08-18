@@ -1,3 +1,3 @@
 # GB
 
-How ti Build: ```$ npm install && gulp```;)
+How to Build: ```$ npm install && gulp```;)
