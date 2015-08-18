@@ -5,7 +5,6 @@ author: "Ronny"
 wps_subtitle: Tiefer, schneller, glänzender!
 categories: Pflegeberichte
 head__img--fullurl: https://glossbossimages.s3.eu-central-1.amazonaws.com/chiller/ttrs_rot/TTRS66.jpg
-markasnew: true
 ---
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/chiller/ttrs_rot/TTRS_Banner.png)
 

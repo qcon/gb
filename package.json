@@ -1,0 +1,31 @@
+{
+  "name": "glossboss.de",
+  "version": "1.0.0",
+  "description": "- jekyll\r - Sass\r - Autoprefixer\r - uglifyJS\r - s3cmd (only for aws s3 deployment)",
+  "main": "Gulpfile.js",
+  "dependencies": {
+    "browser-sync": "^2.8.2",
+    "gulp-autoprefixer": "^2.3.1",
+    "gulp": "^3.9.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-jekyll": "^0.0.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-notify": "^2.2.0",
+    "gulp-sass": "^2.0.4",
+    "gulp-uglify": "^1.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qcon/gb.git"
+  },
+  "author": "Marvin Mieth",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/qcon/gb/issues"
+  },
+  "homepage": "https://github.com/qcon/gb#readme"
+}

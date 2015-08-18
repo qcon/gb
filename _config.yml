@@ -20,6 +20,7 @@ exclude:
 - config
 - description
 - HEAD
+- Gulpfile.js
 - rakefile
 - sftp-config.json
 include:
