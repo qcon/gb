@@ -14,6 +14,7 @@
 	, headerStyle = $("#header-style")
 	, linklistMaxHeight = "230px";
 
+
 	var addWhatsAppShareButton = (function() {
 		if(postSharing && navigator.userAgent.match(/(iPhone)/g)) {
 			var whatsAppButton = $(".share--whatsapp");

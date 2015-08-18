@@ -6,7 +6,7 @@
 
 	var postDB
 	, numCat = 0
-	, maxIndex = 10
+	, maxIndex = 15
 	, maxReload = 5;
 
 	var router = {
