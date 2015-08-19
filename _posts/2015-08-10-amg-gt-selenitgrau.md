@@ -13,6 +13,9 @@ markasnew: true
 **Baujahr**: 2015   
 **Laufleistung**: ca. 2.500km   
 
+# Video Update!
+<iframe class="content--video" src="//www.youtube.com/embed/EOc4bMHj7tc" frameborder="0" allowfullscreen></iframe>
+
 Vor ein paar Wochen fragte Rolf an ob ich mit ihm gemeinsam einen grauen AMG GTs detailen möchte...   
 Rolf, DIE Frage kannst du dir nun wirklich selbst beantworten! **Wann & wo?!?**   
 So kam er dann, der Tag X. Euch viel Spass beim Lesen, wir hatten ihn bereits! :)
