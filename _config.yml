@@ -4,7 +4,7 @@ email: mail@glossboss.de
 description: Ein Autopflegeblog von und für absolute Enthusiasten
 baseurl: ''
 url: https://glossboss.de
-max_index_posts: 10
+max_index_posts: 15
 exclude:
 - ".htaccess"
 - _sass
