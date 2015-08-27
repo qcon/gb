@@ -5,7 +5,6 @@ layout: post
 head__img--fullurl: https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/amg_gt_grau/amg_068.jpg
 wps_subtitle: 'Selenitgrau Metallic'
 categories: Pflegeberichte
-markasnew: true
 --- 
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/amg_gt_grau/amg_001.jpg)   
 **Fahrzeug**: Mercedes AMG GTs Coupé   

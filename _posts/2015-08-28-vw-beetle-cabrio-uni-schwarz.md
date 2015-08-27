@@ -2,7 +2,7 @@
 layout: post
 title: "VW Beetle"
 author: "André"
-wps_subtitle: noch nichts
+wps_subtitle: Kugelblitzblank reanimiert
 categories: Pflegeberichte
 head__img--fullurl: https://glossbossimages.s3.eu-central-1.amazonaws.com/andre/vw_beetle/06_FinishDSC08187.JPG
 markasnew: true
