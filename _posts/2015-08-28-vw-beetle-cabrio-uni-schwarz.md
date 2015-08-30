@@ -175,7 +175,7 @@ So langsam wurde mir bewusst, was da auf mich zu kommt. Also nicht lange fackeln
 ## Die Wäsche
 Als erstes bin ich zu meiner angestammten SB-Box gefahren. Dort kennt man mich und meinen Putzfimmel bereits und niemand meckert, wenn ich eine Box länger belege und meine Utensilien ausbreite - tolle Sache!
 
-Die Wäsche habe ich mit dem Auspinseln der vielen Drecknester begonnen. Davon gab es etliche - so zeimlich jedes Scharnier, alle Holme, Gummisicken und Tanköffnung sahen desolat aus. ValetPro APC in der 1:10-Mischung und ein ValetPro Pinsel haben gute Dienste geleistet. 
+Die Wäsche habe ich mit dem Auspinseln der vielen Drecknester begonnen. Davon gab es etliche - so ziemlich jedes Scharnier, alle Holme, Gummisicken und Tanköffnung sahen desolat aus. ValetPro APC in der 1:10-Mischung und ein ValetPro Pinsel haben gute Dienste geleistet. 
 
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/andre/vw_beetle/02_WaschenDSC04785.JPG)
 
@@ -494,7 +494,7 @@ Nun waren nur noch einige Detailarbeiten fällig und der Wagen stand am Abend de
 
 Wer beharrlich bis hierher mitgelesen hat, darf sich nun auf die Abschlussbilder freuen.
 
-## Finsh
+## Finish
 
 Hier sollten die Bilder für sich sprechen.
 

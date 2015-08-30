@@ -343,7 +343,7 @@ document.addEventListener('DOMContentLoaded', function() {
 		if(postSharing && navigator.userAgent.match(/(iPhone)/g)) {
 			var whatsAppButton = $(".share--whatsapp");
 			whatsAppButton.style("display", "inline-block");
-			whatsAppButton.href = "WhatsApp://send?text=" + document.title + ": " + location.href;
+			whatsAppButton[0].href = "WhatsApp://send?text=" + document.title + ": " + location.href;
 		}
 	})();
 
