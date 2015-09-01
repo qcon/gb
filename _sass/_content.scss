@@ -328,14 +328,6 @@ table {
 			@include materialShadow(1);
 		}
 	}
-	.share--pdf {
-		@extend %share--button;
-		background:#D35400;
-		&:hover {
-			@include materialShadow(1);
-			background:lighten(#D35400,10);
-		}
-	}
 }
 .page-heading {
 	@include font(light);

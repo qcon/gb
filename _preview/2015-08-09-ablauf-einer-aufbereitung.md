@@ -22,5 +22,6 @@ Inhaltsverzeichnis:
     - #### 1.0.2 Fahrzeug Waschen
     - #### 1.0.3 Fahrzeug abspülen
         - #### 1.0.3a Lack Kneten
+          Du kannst nun das übrig gebliebe Wasser auf den Lack nutzen um zu Kneten
     - #### 1.0.4 Lack trocknen
 - ### 1.1 mit einer Trockenwäsche (z.B. Optimum No Rinse)
