@@ -83,12 +83,12 @@ task :js_dev do
 	files = FileList["js/$*.js"]
 	concat_file = "dist/global.js"
 	open(concat_file, "w") do |output|
-		output.puts("document.addEventListener('DOMContentLoaded', function() {")
+		#output.puts("document.addEventListener('DOMContentLoaded', function() {")
 		files.each do |input|
 			output.puts(File.read("#{input}"))
 			output.puts("\n")
 		end
-		output.puts("});")
+		#output.puts("});")
 	end
 end
 
@@ -138,7 +138,7 @@ task :deploy do
 	#Rake::Task[:jekyll_build].invoke
 	execute("gulp jekyll")
 	Rake::Task[:gzip].invoke
-	#Rake::Task[:pushs3].invoke
+	Rake::Task[:pushs3].invoke
 	puts "Done".green
 end
 
