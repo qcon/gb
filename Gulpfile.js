@@ -23,7 +23,7 @@ gulp.task('browser-sync', function() {
 });
 gulp.task('sass', function () {
 	return gulp.src('./_sass/inline_layout.scss')
-		.pipe(sass().on('error', sass.logError))
+		.pipe(sass({outputStyle: 'compressed'}).on('error', sass.logError))
 		.pipe(gulp.dest('./dist/'))
 		.pipe(autoprefixer())
 		.pipe(rename("layout.css"))
