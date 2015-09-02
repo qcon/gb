@@ -133,11 +133,12 @@ end
 desc "AWS S3 Deploy Task - build all files, commit changes, gzip and push"
 task :deploy do
 	Rake::Task[:git].invoke
-	Rake::Task[:css_scss].invoke
-	Rake::Task[:js].invoke
-	Rake::Task[:jekyll_build].invoke
+	#Rake::Task[:css_scss].invoke
+	#Rake::Task[:js].invoke
+	#Rake::Task[:jekyll_build].invoke
+	execute("gulp jekyll")
 	Rake::Task[:gzip].invoke
-	Rake::Task[:pushs3].invoke
+	#Rake::Task[:pushs3].invoke
 	puts "Done".green
 end
 
