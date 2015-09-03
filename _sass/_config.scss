@@ -1,6 +1,8 @@
 $blau:#44bcff;
 $dunkelblau:#0099ff;
 $text: #585858;
+$gray: HSL(300,5%,95%);
+$gray_hover: HSL(300,5%,93%);
 
 @mixin font($f) {
   @if $f == normal {
