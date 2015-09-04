@@ -17,6 +17,14 @@ header {
 	// top:0;
 	// width:100%;
 }
+#glossbosslogo {
+	.svgBluefill {
+		fill: $blau;
+	}
+	.svgDarkfill {
+		fill: $text;
+	}
+}
 .header--logo {
 	text-align:center;
 	margin: 3em auto !important;
