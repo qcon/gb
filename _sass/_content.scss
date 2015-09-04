@@ -13,12 +13,15 @@ table {
 	width: 80%;
 	margin: 0 auto;
 	@media #{$sm} {
-		width:93%;
+		width: 93%;
 	}
 	@media #{$lg-min} {
 		width:1200px;
 		max-width: 1200px;
 	}
+}
+.ads {
+	margin: 3em 1em;
 }
 .content--video {
 	margin:5em 0;
