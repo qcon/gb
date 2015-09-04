@@ -44,6 +44,6 @@ gulp.task('jekyll', ["js", "sass"], function (done) {
 	.on("close", done);
 });
 gulp.task("watch", ["jekyll"], function() {
-	gulp.watch(['index.html', '_layouts/*.html', '_posts/*', "js/*.js", "_sass/*.scss", "_preview/*.md"], ['watch-jekyll']);
+	gulp.watch(['index.html', '_layouts/*.html', '_includes/*.html', '_posts/*', "js/*.js", "_sass/*.scss", "_preview/*.md"], ['watch-jekyll']);
 });
 gulp.task("default", ['browser-sync', "watch"]);
