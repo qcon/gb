@@ -9,7 +9,29 @@ table {
 		background: #f5f5f5;
 	}
 }
+%simpleLink {
+		color:$blau;
+		text-decoration:underline;
+		&:hover {
+			text-decoration:none
+		}
+	}
+.cookies-hinweis {
+	@include font(special);
+	width: 80%;
+	text-align: center;
+	font-size: smaller;
+	margin: 20px auto;
+	display: none;
+	a {
+		@extend %simpleLink;
+	}
+}
+#cookies_acc {
+	margin: 10px;
+}
 .width--wrapper {
+	
 	width: 80%;
 	margin: 0 auto;
 	@media #{$sm} {
@@ -262,11 +284,7 @@ table {
 		display:block;
 	}
 	a {
-		color:$blau;
-		text-decoration:underline;
-		&:hover {
-			text-decoration:none
-		}
+		@extend %simpleLink;
 	}
 	h1,h2,h3,h4,h5,h6 {
 		padding:1em 0 .5em 0;

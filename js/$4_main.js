@@ -12,9 +12,19 @@
 	, showComments = $(".showCommentsContainer")
 	, pageHeading = $(".page-heading")
 	, headerStyle = $("#header-style")
-	, linklistMaxHeight = "230px";
+	, linklistMaxHeight = "230px"
+	, cookiesAlert = $(".cookies-hinweis")
+	, cookiesAcc = $("#cookies_acc");
 
-
+	var accCookies = (function() {
+		if(!localStorage.getItem("GLOSSBOSS_COOKIES_ACCEPTED")) {
+			cookiesAlert.style("display", "block");
+		}
+		cookiesAcc.on("click", function() {
+			cookiesAlert.style("display", "none");
+			localStorage.setItem("GLOSSBOSS_COOKIES_ACCEPTED", "1");
+		});
+	})();
 	var addWhatsAppShareButton = (function() {
 		if(postSharing && navigator.userAgent.match(/(iPhone)/g)) {
 			var whatsAppButton = $(".share--whatsapp");
