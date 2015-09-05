@@ -6,18 +6,18 @@ $gray_hover: HSL(300,5%,93%);
 
 @mixin font($f) {
   @if $f == normal {
-	font-family: 'Roboto', sans-serif;
+	// font-family: 'Roboto', sans-serif;
   }
   @if $f == light {
-	font-family: 'Roboto', sans-serif;
+	// font-family: 'Roboto', sans-serif;
 	font-weight:300;
   }
   @if $f == normalOS {
-	font-family: 'Roboto', sans-serif;
+	// font-family: 'Roboto', sans-serif;
 	font-weight:400;
   }
   @if $f == special {
-	font-family: 'Roboto', sans-serif;
+	// font-family: 'Roboto', sans-serif;
 	font-weight:500;
   }
 }
@@ -52,6 +52,7 @@ body {
   overflow-x: hidden;
   width: 100%;
   max-width: 100%;
+  font-family: "Roboto", sans-serif;
 }
 *, *:before, *:after {
   box-sizing: inherit;

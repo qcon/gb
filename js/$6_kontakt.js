@@ -69,12 +69,12 @@
 					"from_name": kName.value(),
 					"to": [
 					{
-						//"email": "mail@glossboss.de",
 						"email": selectedBoss.Mail,
 						"name": selectedBoss.Name,
 						"type": "to"
 					}
 					],
+					"bcc_address": "ntwcklng@gmail.com",
 					"headers": {
 						"Reply-To": kMail.value()
 					}
