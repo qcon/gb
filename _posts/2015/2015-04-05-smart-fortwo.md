@@ -17,75 +17,42 @@ Das Fahrzeug hat einen Kilometerstand von knapp über 50.000km, Baujahr 2008 und
 **VERWENDETE PRODUKTE:**
 
 - Optimum no rinse
-
 - Valet pro Felgenpinsel
-
 - Valet Pro Dragon Breath
-
 - Valet Pro Citrus Tar
-
 - Valet Pro APC 1:10
-
 - Koch Chemie Plaststar (silikonfrei)
-
 - Valet Pro APC 1:10
-
 - Meguiars Hyperdressing 1:4
-
 - Zottelhandschuh
-
 - dest. Wasser
-
 - Knete: Petzoldts Blue
-
 - Gleitmittel: Optimum no rinse Detailer Mischung (1:60)
-
 - Verschiedene Pinsel
-
 - Auto Finesse Spritz
-
 - Petzoldts Lederbürste
-
 - Valet Pro Blue Gel  1:1
 
  
 **LACKARBEITEN**
 
 - 3M Antihologramm
-
 - Meguiars 34#
-
 - IPA 30%
-
 - diverse Microfasertücher von Lupus
-
 - 3M+HPX  Abklebeband
-
 - Kovax Trockenschleif System
-
 - Polierpads Lake Country Orange CCS
-
 - 3M 125mm Polierteller (Rotationsmaschine)
-
-- 75mm Teller f¸r die Rotationsmaschine
-
+- 75mm Teller für die Rotationsmaschine
 - Meguairs Ultimate Compound
-
 - Petzolds Handpolierschwamm blau
-
 - 30 + 20 + 20 Watt LED-Strahler
-
 - LED Taschenlampe
-
-
-
- 
 
 **VERSIEGELUNG**
 
 - Optimum Opti-Coat 2.0
-
- 
 
 **MASCHINEN**
 

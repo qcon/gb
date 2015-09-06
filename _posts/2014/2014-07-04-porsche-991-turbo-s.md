@@ -1,6 +1,6 @@
 ---
 title: Porsche 991 Turbo S
-author: Novma
+author: Mark
 layout: post
 head__img--fullurl: https://glossbossimages.s3.eu-central-1.amazonaws.com/headerimg/991turbos.jpg
 wps_subtitle:

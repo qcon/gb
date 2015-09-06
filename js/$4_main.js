@@ -16,6 +16,19 @@
 	, cookiesAlert = $(".cookies-hinweis")
 	, cookiesAcc = $("#cookies_acc");
 
+	var renderAuthoren = (function() {
+		function resetAuthoren() {
+			$("li[data-author]").style("display", "none");
+		}
+		resetAuthoren();
+		
+		$("span[data-authorToggle]").on("click", function() {
+			resetAuthoren();
+			var tempAuthor = this.getAttribute("data-authorToggle");
+			$("li[data-author=" + tempAuthor +"]").style("display", "block");
+		});
+	})();
+
 	var accCookies = (function() {
 		if(!localStorage.getItem("GLOSSBOSS_COOKIES_ACCEPTED")) {
 			cookiesAlert.style("display", "block");

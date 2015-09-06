@@ -1,6 +1,6 @@
 ---
 title: Glossboss hilft dir.
-author: chiller
+author: Ronny
 layout: post
 pdf_version: jap
 ftf_open_type:

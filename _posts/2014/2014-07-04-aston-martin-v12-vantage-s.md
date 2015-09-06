@@ -1,6 +1,6 @@
 ---
 title: Aston Martin V12 Vantage S
-author: Novma
+author: Mark
 layout: post
 head__img--fullurl: https://glossbossimages.s3.eu-central-1.amazonaws.com/headerimg/astonv12.jpg
 wps_subtitle:

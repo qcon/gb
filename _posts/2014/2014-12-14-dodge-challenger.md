@@ -1,6 +1,6 @@
 ---
 title: Dodge Challenger.
-author: chiller
+author: Ronny
 pdf_version: jap
 layout: post
 wps_subtitle:

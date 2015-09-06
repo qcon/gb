@@ -199,8 +199,8 @@
 .displayNone {
     position: absolute; visibility: hidden;
     opacity: 0;
-    //transform:scale(0) translate(0, 450px);
-    transform:scale(.5) rotate(15deg);
+    transform:scale(.9) translate(0, 250px) rotate(7deg);
+    //transform:scale(.5) rotate(10deg);
 
 }
 .no-margin {

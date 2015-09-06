@@ -1,6 +1,6 @@
 ---
 title: Warum die Fahrzeugwäsche mit der 2 Eimer Methode so schonend zum Lack ist
-author: chiller
+author: Ronny
 layout: post
 pdf_version: jap
 head__img--fullurl: https://glossbossimages.s3.eu-central-1.amazonaws.com/headerimg/schonendewaesche.jpg
