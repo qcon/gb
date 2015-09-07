@@ -43,19 +43,19 @@ end
 
 desc "Push all files in _site/ to the S3 Bucket"
 task :pushs3 do
-	puts "Invalidate HTML Files to Cloudfront? (leave empty for NO)".magenta
-	cf_invalidate_ask = $stdin.gets.chomp
-	cf_invalidate = ""
-	unless cf_invalidate_ask.empty?
-		puts "Invalidate!".magenta
-		cf_invalidate = "--cf-invalidate" 
-	end
+	# puts "Invalidate HTML Files to Cloudfront? (leave empty for NO)".magenta
+	# cf_invalidate_ask = $stdin.gets.chomp
+	# cf_invalidate = ""
+	# unless cf_invalidate_ask.empty?
+	# 	puts "Invalidate!".magenta
+	# 	cf_invalidate = "--cf-invalidate" 
+	# end
 	puts "S3 SYNC: JavaScript".magenta
-	execute("s3cmd sync -M --cf-invalidate --acl-public --exclude '*.*' --include '*.js' --include '*.css' --add-header='Cache-Control:max-age=604800' --add-header='Content-Encoding:gzip' _site/ s3://#{CONFIG[:s3_bucket]}")
+	execute("s3cmd sync -M --acl-public --exclude '*.*' --include '*.js' --include '*.css' --add-header='Cache-Control:max-age=604800' --add-header='Content-Encoding:gzip' _site/ s3://#{CONFIG[:s3_bucket]}")
 	puts "S3 SYNC: JSON".magenta
-	execute("s3cmd sync -M --cf-invalidate --acl-public --exclude '*.*' --include '*.json' --add-header='Cache-Control:max-age=518400' --add-header='Content-Encoding:gzip' _site/ s3://#{CONFIG[:s3_bucket]}")
+	execute("s3cmd sync -M --acl-public --exclude '*.*' --include '*.json' --add-header='Cache-Control:max-age=518400' --add-header='Content-Encoding:gzip' _site/ s3://#{CONFIG[:s3_bucket]}")
 	puts "S3 SYNC: HTML Files".magenta
-	execute("s3cmd sync -M #{cf_invalidate} --acl-public --exclude '*.*' --include '*.html' --add-header='Cache-Control:max-age=7200, must-revalidate' --add-header='Content-Encoding:gzip' _site/ s3://#{CONFIG[:s3_bucket]}")
+	execute("s3cmd sync -M --acl-public --exclude '*.*' --include '*.html' --add-header='Cache-Control:max-age=7200, must-revalidate' --add-header='Content-Encoding:gzip' _site/ s3://#{CONFIG[:s3_bucket]}")
 	puts "S3 SYNC: Push the rest".magenta
 	execute("s3cmd sync --acl-public --delete-removed --cf-invalidate-default-index _site/ s3://#{CONFIG[:s3_bucket]}")
 end

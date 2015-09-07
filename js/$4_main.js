@@ -23,6 +23,7 @@
 		resetAuthoren();
 		
 		$("span[data-authorToggle]").on("click", function() {
+			console.log("clicked on an author :)");
 			resetAuthoren();
 			var tempAuthor = this.getAttribute("data-authorToggle");
 			$("li[data-author=" + tempAuthor +"]").style("display", "block");
