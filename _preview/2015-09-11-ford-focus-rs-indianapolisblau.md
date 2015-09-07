@@ -86,7 +86,7 @@ markasnew: true
 
 **Einleitung:**
 
-Wieder mal war ein Ford Focus RS MK2 zu Gast. Bei diesem Exemplar handelt es sich um einen der wohl bekanntesten, schnellsten und nach dieser Fahrzeugaufbereitung auch schönsten, RS MK2’s der Schweiz. Wer schon länger Glossboss verfolgt, sich immer und immer wieder die Pflegeberichte reinschiebt, der kennt eventuell den Bericht über den legendären Ford Escort RS – Cosworth Edition. Hier zu finden: https://glossboss.de/pflegeberichte/ford-escort-rs-cosworth-edition/
+Wieder mal war ein Ford Focus RS MK2 zu Gast. Bei diesem Exemplar handelt es sich um einen der wohl bekanntesten, schnellsten und nach dieser Fahrzeugaufbereitung auch schönsten, RS MK2’s der Schweiz. Wer schon länger Glossboss verfolgt, sich immer und immer wieder die Pflegeberichte reinschiebt, der kennt eventuell den Bericht über den legendären [Ford Escort RS – Cosworth Edition.](https://glossboss.de/pflegeberichte/ford-escort-rs-cosworth-edition/)
 
 Es handelt sich um denselben Besitzer. :) Bald habe ich den kompletten Fuhrpark dieser Person durch. Ein besonderes Schmuckstück fehlt noch. Doch was nicht ist, kann ja noch werden. :)
 

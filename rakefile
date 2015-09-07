@@ -55,7 +55,7 @@ task :pushs3 do
 	puts "S3 SYNC: JSON".magenta
 	execute("s3cmd sync -M --cf-invalidate --acl-public --exclude '*.*' --include '*.json' --add-header='Cache-Control:max-age=518400' --add-header='Content-Encoding:gzip' _site/ s3://#{CONFIG[:s3_bucket]}")
 	puts "S3 SYNC: HTML Files".magenta
-	execute("s3cmd sync -M #{cf_invalidate} --acl-public --exclude '*.*' --include '*.html' --add-header='Cache-Control:max-age=86400, must-revalidate' --add-header='Content-Encoding:gzip' _site/ s3://#{CONFIG[:s3_bucket]}")
+	execute("s3cmd sync -M #{cf_invalidate} --acl-public --exclude '*.*' --include '*.html' --add-header='Cache-Control:max-age=7200, must-revalidate' --add-header='Content-Encoding:gzip' _site/ s3://#{CONFIG[:s3_bucket]}")
 	puts "S3 SYNC: Push the rest".magenta
 	execute("s3cmd sync --acl-public --delete-removed --cf-invalidate-default-index _site/ s3://#{CONFIG[:s3_bucket]}")
 end
@@ -144,10 +144,10 @@ end
 
 desc "auto increase Versionnumber"
 task :inc do
-	execute("mv posts.#{get_version}.json posts.#{get_version+1}.json")
-	execute("mv dist/global.#{get_version}.js dist/global.#{get_version+1}.js")
-	yml_cfg["cssjsversion"] += 1
-	puts "Increased #{yml_cfg["cssjsversion"]-1} => #{yml_cfg["cssjsversion"]}".magenta
+	#execute("mv posts.#{get_version}.json posts.#{get_version+1}.json")
+	#execute("mv dist/global.#{get_version}.js dist/global.#{get_version+1}.js")
+	yml_cfg["version"] += 1
+	puts "Increased #{yml_cfg["version"]-1} => #{yml_cfg["version"]}".magenta
 	File.open("#{CONFIG[:config_file]}", "w") { |f| YAML.dump(yml_cfg, f)}
 end
 
