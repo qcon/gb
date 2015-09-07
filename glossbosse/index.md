@@ -1,10 +1,10 @@
 ---
 layout: page
 randomHeader: true
-title: Authorenübersicht
+title: Übersicht aller Glossbosse
+wps_subtitle: und deren Beiträge
 ---
-<script>var authorenPage = true;</script>
-{% for a in site.data.authoren %}<span data-authorToggle="{{a.name}}" class="secondary_btn">{{a.name}}</span>
+{% for a in site.data.glossbosse %}<span data-authorToggle="{{a.name}}" class="secondary_btn">{{a.name}}</span>
 {% endfor %}
 <ul>
 {% for post in site.posts %}

@@ -25,9 +25,14 @@
 	border-color: #ddd;
 	color:$text;
 	@include font(special);
+	font-size:.9em;
 	&:hover {
 		cursor: pointer;
 		background: HSL(300,5%,93%);
+	}
+	@media #{$sm} {
+		padding: .4em .9em;
+		margin: 0 .2em 1em 0;
 	}
 }
 .selectGlossboss {
