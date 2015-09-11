@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Ford Focus RS Blau"
+title: "Ford Focus RS MK2"
 author: "René"
-wps_subtitle: Zuckerguss!
+wps_subtitle: "Indianapolisblau Mét. - Zuckerguss!"
 categories: Pflegeberichte
 head__img--fullurl: https://glossbossimages.s3.eu-central-1.amazonaws.com/RBdetailing/focusblau/DSC_1019.jpg
 markasnew: true
