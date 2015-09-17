@@ -78,7 +78,7 @@
 					opt.success(out);
 				}
 			}
-			x.open(opt.method, opt.url);
+			x.open(opt.method, opt.url, true);
 			if(opt.method === "POST") {
 				x.setRequestHeader("Content-Type", "application/json;charset=UTF-8");
 				x.send(JSON.stringify(opt.data));
