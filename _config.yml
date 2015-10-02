@@ -30,6 +30,7 @@ include:
 markdown: kramdown
 permalink: "/:categories/:title/"
 version: 142
+postversion: 10
 headimggradient: linear-gradient(HSLA(197, 100%, 49%,.6),HSLA(197, 100%, 49%,1))
 collections:
   preview:

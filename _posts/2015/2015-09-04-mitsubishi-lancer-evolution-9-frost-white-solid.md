@@ -5,7 +5,6 @@ author: "René"
 wps_subtitle: Frost White Solid - JDM Style!
 categories: Pflegeberichte
 head__img--fullurl: https://glossbossimages.s3.eu-central-1.amazonaws.com/RBdetailing/evo/DSC_0696.jpg
-markasnew: true
 ---
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/RBdetailing/evo/Unbenannt-1.jpg)
 
