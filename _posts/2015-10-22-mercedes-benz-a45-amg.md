@@ -5,7 +5,6 @@ author: "René"
 wps_subtitle: "Kosmosschwarz Met. - A wie Anabolika!"
 categories: Pflegeberichte
 head__img--fullurl: https://glossbossimages.s3.eu-central-1.amazonaws.com/RBdetailing/mba45amg/DSC_1200.jpg
-markasnew: true
 ---
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/RBdetailing/mba45amg/header.jpg)
 # MERCEDES BENZ A45 AMG - KOSMOSSCHWARZ MÉT. - // A wie Anabolika!
