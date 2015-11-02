@@ -45,13 +45,13 @@ Nehmt dazu eine Gummipflege eurer Wahl. Auch Produkte mit Hirschtalk oder Vaseli
 
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/sven/winterfit/DSC_0003.jpg)
 
-Bereits dieser kleine Arbeitsaufwand kann das Leben in der kalten Jahreszeit erleichtern und kann.
+Bereits dieser kleine Arbeitsaufwand kann das Leben in der kalten Jahreszeit erleichtern.
 Schaut direkt besser aus und ist auch schnell nach der Wäsche erledigt.
 
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/sven/winterfit/DSC_0004.jpg)
 
 Kommen wir zum letzten Punk auf unserer Liste.
-Auch wenn viele  von uns bereits Funkfernbedienungen, oder sogar Keyless-Entry-Systeme, ihr eigen nennen können, sollte man die Pflege des Schlosses nicht außer acht lassen.
+Auch wenn viele von uns bereits Funkfernbedienungen, oder sogar Keyless-Entry-Systeme, ihr eigen nennen können, sollte man die Pflege des Schlosses nicht außer acht lassen.
 Auch hier kann es vorkommen, dass einmal die Batterie im Schlüssel den Geist aufgibt.
 Hierzu greift Ihr einfach zum Schlossenteiser, alternativ WD-40 oder Ihr steckt den Schlüssel in Vaseline und putzt ihn mit einem Tuch an.
 Der Schlossenteiser macht nicht nur das gefrorene Schloss wieder gängig, sondern schützt das Schloss auch vor Feuchtigkeit und Rost. Diese Eigenschaft wollen wir uns zu nutze machen.
