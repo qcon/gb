@@ -1,7 +1,7 @@
   <header class="header__main">
 	<div class="width--wrapper">
 	  <div class="post--title" id="post--title">
-		{% if page.url == "/index.html" %}
+		{% if page.title == nil %}
 		  <a href="http://glossboss.de" alt="Glossboss.de - Startseite"><h1> Glossboss.de - <small>dein Autopflege Blog</small></h1></a>
 		{% else %}
 		  <a href="{{ page.url | replace:'index.html','' | prepend: site.url }}"><h1>{{ page.title }} <small>{{ page.wps_subtitle }}</small></h1></a>

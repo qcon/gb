@@ -31,14 +31,15 @@
 			} catch(up) {
 				console.log("i dont care: " + up);
 			}
-			
+
 		},
 		getPosts: function(data, hash, isIndex) {
 			var post = data;
 			postDB = [];
 			numCat = 0;
 			for(var i = 0; i<post.length; i++) {
-				if(post[i].category === hash || isIndex || hash === "alle") {
+				console.log(post[i].category);
+				if(post[i].category.toLowerCase() === hash || isIndex || hash === "alle") {
 					if(numCat < maxIndex) {
 						var cacheHTML = $(".post--list").html();
 						$(".post--list").html(cacheHTML + post[i].card);
@@ -129,15 +130,15 @@
 
 
 	router.add('allgemein', function() {
-		router.parser("allgemein");
+		router.parser("allgemein", 'Allgemein');
 	});
 
 	router.add('anleitung', function() {
-		router.parser("anleitungen");
+		router.parser("anleitungen", "Anleitungen");
 	});
 
 	router.add('pflegeberichte', function() {
-		router.parser("pflegeberichte");
+		router.parser("pflegeberichte", "Pflegeberichte");
 	});
 
 	router.add('tipps-tricks', function() {
@@ -145,7 +146,7 @@
 	});
 
 	router.add('produkttest', function() {
-		router.parser("produkttest");
+		router.parser("produkttest", "Produkttests");
 	});
 
 	router.add('suche', function() {
@@ -164,7 +165,7 @@
 		},50);
 	});
 
-	window.addEventListener("hashchange", function() { 
+	window.addEventListener("hashchange", function() {
 		router.checkRoute(location.hash);
 	});
 
