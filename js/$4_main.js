@@ -14,14 +14,16 @@
 	, headerStyle = $("#header-style")
 	, linklistMaxHeight = "230px"
 	, cookiesAlert = $(".cookies-hinweis")
-	, cookiesAcc = $("#cookies_acc");
+	, cookiesAcc = $("#cookies_acc")
+	, donationAlert = $(".donation-hinweis")
+	, donationAcc = $("#donation_acc");
 
 	var renderAuthoren = (function() {
 		function resetAuthoren() {
 			$("li[data-author]").style("display", "none");
 		}
 		resetAuthoren();
-		
+
 		$("span[data-authorToggle]").on("click", function() {
 			console.log("clicked on an author :)");
 			resetAuthoren();
@@ -37,6 +39,15 @@
 		cookiesAcc.on("click", function() {
 			cookiesAlert.style("display", "none");
 			localStorage.setItem("GLOSSBOSS_COOKIES_ACCEPTED", "1");
+		});
+	})();
+	var accDonation = (function() {
+		if(!localStorage.getItem("GLOSSBOSS_DONATION_ACC")) {
+			donationAlert.style("display", "block");
+		}
+		donationAcc.on("click", function() {
+			donationAlert.style("display", "none");
+			localStorage.setItem("GLOSSBOSS_DONATION_ACC", "1");
 		});
 	})();
 	var addWhatsAppShareButton = (function() {
@@ -95,7 +106,7 @@
 				if(counterWithSlash === counterWithoutSlash) totalShares /= 2;
 
 				if(totalShares > 1) {
-					outputText = totalShares + " Glossbosse haben diesen Beitrag bereits geteilt!" 
+					outputText = totalShares + " Glossbosse haben diesen Beitrag bereits geteilt!"
 				}
 				clearInterval(checkForUpdates);
 				shareCounter.text(outputText);

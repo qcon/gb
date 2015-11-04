@@ -16,22 +16,22 @@ table {
 			text-decoration:none
 		}
 	}
-.cookies-hinweis {
+.cookies-hinweis, .donation-hinweis {
 	@include font(special);
 	width: 80%;
 	text-align: center;
-	font-size: smaller;
+	font-size: 15px;
 	margin: 20px auto;
 	display: none;
 	a {
 		@extend %simpleLink;
 	}
 }
-#cookies_acc {
+#cookies_acc, #donation_acc {
 	margin: 10px;
 }
 .width--wrapper {
-	
+
 	width: 80%;
 	margin: 0 auto;
 	@media #{$sm} {

@@ -22,3 +22,9 @@
 	width:200px;
 	text-align:center;
 }
+a.donationButton {
+	@extend .button;
+	color: white;
+	width: 320px;
+	max-width: 100%;
+}
