@@ -1,0 +1,15 @@
+{% capture postTitle %}{{page.title}} - {{page.wps_subtitle}}{% endcapture %}
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "BlogPosting",
+  "headline": "{{postTitle}}",
+  "name": "{{postTitle}}",
+  "creator": "{{  page.author }}",
+  "image": [
+    "{{ page.head__img--fullurl }}"
+  ],
+  "datePublished": "{{ page.date }}",
+  "keywords": "{{  page.categories }}"
+}
+</script>
