@@ -1,4 +1,5 @@
 {% capture postTitle %}{{page.title}} - {{page.wps_subtitle}}{% endcapture %}
+{% capture breadcrumb %}{{ page.categories[0] | downcase }}{% endcapture %}
 <script type="application/ld+json">
 {
   "@context": "http://schema.org",
@@ -10,6 +11,20 @@
     "{{ page.head__img--fullurl }}"
   ],
   "datePublished": "{{ page.date }}",
-  "keywords": "{{  page.categories }}"
+  "keywords": "{{ page.categories }}"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": {
+    "@type": "ListItem",
+    "position": 1,
+    "item": {
+      "@id": "https://glossboss.de/{{ breadcrumb | prepend: '#' }}",
+      "name": "{{ page.categories }}"
+    }
+  }
 }
 </script>
