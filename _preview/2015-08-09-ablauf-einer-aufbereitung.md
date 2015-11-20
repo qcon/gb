@@ -6,6 +6,7 @@ wps_subtitle: Schritt für Schritt zum glänzenden Auto
 categories: Anleitungen
 head__img--fullurl: https://glossbossimages.s3.eu-central-1.amazonaws.com/
 markasnew: true
+preview: true
 ---
 
 Vorallem für Anfänger ist das größte Hindernis zu beginn ihrer Autopflege-Karriere der optimale Ablauf. Viele sind verunsichert - *soll ich erst Kneten und dann Waschen* oder *kommt der Precleaner vor oder nach dem Wachs auf den Lack* sind allgegenwärtige Fragen.

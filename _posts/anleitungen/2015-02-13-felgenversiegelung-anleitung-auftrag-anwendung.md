@@ -7,7 +7,6 @@ wps_subtitle:
   - 'Dodo Juice Supernatural Wheel Sealant'
 categories:
   - Anleitungen
-pdf_version: jap
 ---
 >Den 2. Teil könnt ihr hier ansehen:
 [Anleitung Felgenversiegelung (Teil 2)](https://glossboss.de/anleitungen/felgenversiegelung-anleitung-auftrag-anwendung-teil-2)

@@ -44,6 +44,6 @@ gulp.task('jekyll', ["js", "sass"], function (done) {
 	.on("close", done);
 });
 gulp.task("watch", ["jekyll"], function() {
-	gulp.watch(['index.html', '_layouts/*.html', '_includes/*.html', '_posts/*', "js/*.js", "_sass/*.scss", "_preview/*.md", "authoren/*.md", "_data/*"], ['watch-jekyll']);
+	gulp.watch(['allgemein/index.html','index.html', '_layouts/*.html', '_includes/*.html', '_posts/*', "js/*.js", "_sass/*.scss", "_preview/*.md", "authoren/*.md", "_data/*"], ['watch-jekyll']);
 });
 gulp.task("default", ['browser-sync', "watch"]);

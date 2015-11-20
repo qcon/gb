@@ -38,7 +38,7 @@
 			postDB = [];
 			numCat = 0;
 			for(var i = 0; i<post.length; i++) {
-				console.log(post[i].category);
+				// console.log(post[i].category);
 				if(post[i].category.toLowerCase() === hash || isIndex || hash === "alle") {
 					if(numCat < maxIndex) {
 						var cacheHTML = $(".post--list").html();
@@ -141,9 +141,9 @@
 		router.parser("pflegeberichte", "Pflegeberichte");
 	});
 
-	router.add('tipps-tricks', function() {
-		router.parser("tipps-tricks", 'Tipps & Tricks');
-	});
+	// router.add('tipps-tricks', function() {
+	// 	router.parser("tipps-tricks", 'Tipps & Tricks');
+	// });
 
 	router.add('produkttest', function() {
 		router.parser("produkttest", "Produkttests");

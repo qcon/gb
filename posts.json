@@ -6,7 +6,7 @@
 		{
 			"title": "{{ post.title | escape }}",
 			"url": "{{ post.url }}",
-			"category": "{{post.categories}}",
+			"category": "{{post.categories[0]}}",
 			"card": "{% include postDB.html %}"
 		} {% unless forloop.last %},{% endunless %}
 	{% endfor %}

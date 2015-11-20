@@ -29,10 +29,13 @@ include:
 - was-wird-gespeichert
 markdown: kramdown
 permalink: "/:categories/:title/"
-version: 144
-postversion: 16
+version: 145
+postversion: 17
 headimggradient: linear-gradient(HSLA(197, 100%, 49%,.6),HSLA(197, 100%, 49%,1))
 collections:
+  posts:
+    output: true
+    permalink: "/:categories/:title"
   preview:
     output: true
     permalink: "/preview/:path/"
