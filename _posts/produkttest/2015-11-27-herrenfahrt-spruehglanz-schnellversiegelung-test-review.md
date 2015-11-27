@@ -86,15 +86,15 @@ Näher ran:
 
 Auch wenn ich noch nicht die Standzeit von beiden Produkten kenne, möchte ich trotzdem schon ein Fazit abgeben. Der Vollständigkeit halber, werde ich aber ein Update bezüglich der Standzeit nachreichen. 
 
-Beide Produkte kosten jeweils 39€ für 300ml. Der Preis sagt eindeutig aus: ich bin kein Billigmist! Nach der ersten Anwendung verfliegt diese Aussage aber ganz schnell. Solche Detailer/Schnellversiegelungen, oder wie auch immer man sie nennen mag, haben für mich nur ein Zweck: **richtig** schöne, kreisrunde Perlen auf den Lack zaubern. Wenn ich mein Lack schützen möchte, dann mit einer richtigen Versiegelung bzw. einem Wachs. Denn ich erwarte nicht, dass eins von den beiden Produkten länger als 4 Wochen hält. Das brauchen sie auch nicht, da man ja nur die Wasserperlen wieder ein bisschen runder machen möchte.
+Beide Produkte kosten jeweils 39€ für 300ml. Der Preis sagt eindeutig aus: ich bin kein Billigmist! Nach der ersten Anwendung der Schnellversiegelung verfliegt diese Aussage aber ganz schnell. Solche Detailer/Schnellversiegelungen/Glanzbooster, oder wie auch immer man sie nennen mag, haben für mich nur ein Zweck: **richtig** schöne, kreisrunde Perlen auf den Lack zaubern. Wenn ich mein Lack schützen möchte, dann mit einer richtigen Versiegelung bzw. einem Wachs. Denn ich erwarte *nicht*, dass eins von den beiden Produkten länger als 4 Wochen hält. Das brauchen sie auch nicht, da man ja nur die Wasserperlen wieder ein bisschen runder machen möchte.
 
 Noch ein Argument für diese art von Detailer wäre der Glanz. Und das schafft die Schnellversiegelung besser als der Sprühglanz. Man muss sich nun entscheiden: schöne Perlen oder schöner Glanz.
 
 Ablaufverhalten vom Wasser (sheeting) unterscheidet sich auch nicht signifikant vom Koch Chemie Quick and Shine. Weder beim Sprühglanz noch bei der Schnellversiegelung. Bei letzter ist es sogar noch ein bisschen schlechter.
 
-Für mich würde also nur der Sprühglanz in Frage kommen, wegen den schöneren Perlen. Vom Gefühl her ist es ein bisschen Ergiebiger als das Quick and Shine, aber der Literpreis von **130 Euro** ist in meinen Augen nicht gerechtfertigt. Das Quick and Shine kostet pro Liter **8,90 Euro**. Ich könnte bei jeder Anwendung die halbe Flasche über das Auto kippen und es wäre immernoch günstiger. Ja, ich weiß, dass Quick and Shine hat Silikone (wobei ich das nicht als Nachteil werte, einige unter euch aber schon), die Sprühflasche nebelt nicht so fein und sieht auch nicht exklusiv aus. Dennoch könnte ich mich nicht an diesen Preis gewöhnen.
+Für mich würde also nur der Sprühglanz in Frage kommen, wegen den schöneren Perlen. Vom Gefühl her ist es ein bisschen Ergiebiger als das Quick and Shine, was aber den Literpreis von **130 Euro** dennoch nicht rechtfertigt. Das Quick and Shine kostet pro Liter **8,90 Euro**. Ich könnte bei jeder Anwendung die halbe Flasche über das Auto kippen und es wäre immernoch günstiger. Ja, ich weiß, dass Quick and Shine hat Silikone (wobei ich das nicht als Nachteil werte, einige unter euch aber schon), die Sprühflasche nebelt nicht so fein und sieht auch nicht exklusiv aus. Dennoch könnte ich mich nicht an diesen Preis gewöhnen.
 
-Versteht mich nicht falsch, ich habe kein Problem damit solch einen hohen Preis zu zahlen. Als Beispiel nehmen wir das Zymöl Field Glaze welches ca. 25 Euro für 237ml kostet. Das macht einen Literpreis von ungefähr 105 Euro. Dieser Detailer ist aber der absolute Hammer! Perlen & Glanz, ganz nach Zymöl Manier.
+Versteht mich aber nicht falsch, ich habe kein Problem damit solch einen hohen Preis zu zahlen. Als Beispiel nehmen wir das Zymöl Field Glaze welches ca. 25 Euro für 237ml kostet. Das macht einen Literpreis von ungefähr 105 Euro. Dieser Detailer ist aber der absolute Hammer! Perlen & Glanz, ganz nach Zymöl Manier.
 
 ### Alle Vor- und Nachteile in der Übersicht
 
@@ -113,3 +113,5 @@ Versteht mich nicht falsch, ich habe kein Problem damit solch einen hohen Preis 
 * **Preis**
 * unrunde Perlen bei der Schnellversiegelung
 * subjektiv kein Glanzboost beim Sprühglanz
+
+Und... wie findest du die 2 Herrenfahrt Produkte?
