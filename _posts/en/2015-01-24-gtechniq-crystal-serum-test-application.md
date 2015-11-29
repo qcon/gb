@@ -1,12 +1,10 @@
 ---
-pdf_version: jap
 title: How to destroy your paint in a few minutes
 author: Marvin
 layout: post
 en: true
 head__img--fullurl: https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/serumschleifen/P1020282.JPG
-wps_subtitle:
-  - 'with Crystal Serum'
+wps_subtitle: 'with Crystal Serum'
 categories:
   - en
 ---

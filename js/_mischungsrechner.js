@@ -28,7 +28,6 @@ updateMischung = function(predefined) {
 
 	ergebnis.style.display = 'block';
 	ergebnis.style.background = '#49fb35';
-	
 	setTimeout(function() {
 
 	  ergebnis.addClass("mischungsDelay");

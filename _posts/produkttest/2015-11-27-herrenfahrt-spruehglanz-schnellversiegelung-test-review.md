@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Herrenfahrt Sprühglanz & Schnellversiegelung"
+title: "Herrenfahrt Sprühglanz & Schnellversiegelung Test"
 author: "Marvin"
 wps_subtitle: Teuer = gut?
 categories: Produkttest
