@@ -102,6 +102,11 @@
 	  s.parentNode.insertBefore(wf, s);
 
 	})();
+	var d = new Date();
+	var curr_date = ("0" + d.getDate()).slice(-2);
+	var curr_month = d.getMonth() + 1;
+	var curr_year = d.getFullYear();
+	var getCurDate = curr_year + "" + curr_month + "" + curr_date;
 
 	// assign Functions to window
 	w.ajax = ajax;
@@ -110,4 +115,5 @@
 	w.loader = loader;
 	w.appendModal = appendModal;
 	w.DIV = DIV;
+	w.getCurDate = getCurDate;
 })(window, document);

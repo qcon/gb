@@ -41,15 +41,15 @@
 			localStorage.setItem("GLOSSBOSS_COOKIES_ACCEPTED", "1");
 		});
 	})();
-	var accDonation = (function() {
-		if(!localStorage.getItem("GLOSSBOSS_DONATION_ACC")) {
-			donationAlert.style("display", "block");
-		}
-		donationAcc.on("click", function() {
-			donationAlert.style("display", "none");
-			localStorage.setItem("GLOSSBOSS_DONATION_ACC", "1");
-		});
-	})();
+	// var accDonation = (function() {
+	// 	if(!localStorage.getItem("GLOSSBOSS_DONATION_ACC")) {
+	// 		donationAlert.style("display", "block");
+	// 	}
+	// 	donationAcc.on("click", function() {
+	// 		donationAlert.style("display", "none");
+	// 		localStorage.setItem("GLOSSBOSS_DONATION_ACC", "1");
+	// 	});
+	// })();
 	var addWhatsAppShareButton = (function() {
 		if(postSharing && navigator.userAgent.match(/(iPhone)/g)) {
 			var whatsAppButton = $(".share--whatsapp");

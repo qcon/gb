@@ -5,7 +5,7 @@
   "main": "Gulpfile.js",
   "dependencies": {
     "browser-sync": "^2.8.2",
-    "gulp-autoprefixer": "^2.3.1",
+    "gulp-autoprefixer": "^3.1.0",
     "gulp": "^3.9.0",
     "gulp-concat": "^2.6.0",
     "gulp-jekyll": "^0.0.0",
