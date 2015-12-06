@@ -11,7 +11,7 @@
     "{{ page.head__img--fullurl }}"
   ],
   "datePublished": "{{ page.date }}",
-  "keywords": "{{ page.categories }}"
+  "keywords": "{{ breadcrumb | capitalize }}"
 }
 </script>
 <script type="application/ld+json">
@@ -23,7 +23,7 @@
     "position": 1,
     "item": {
       "@id": "https://glossboss.de/{{ breadcrumb | prepend: '#' }}",
-      "name": "{{ page.categories }}"
+      "name": "{{ breadcrumb | capitalize }}"
     }
   }
 }
