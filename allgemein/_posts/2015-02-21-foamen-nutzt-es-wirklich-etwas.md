@@ -3,11 +3,7 @@ title: Vorreinigung mit der Schaumkanone
 author: Ronny
 layout: post
 head__img--fullurl: https://glossbossimages.s3.eu-central-1.amazonaws.com/chiller/Foamen,%20was%20bringt%20es%20wirklich/07.jpg
-wps_subtitle:
-  - 'Foamen - Nutzt es wirklich etwas?'
-categories:
-  - Allgemein
-pdf_version: jap
+wps_subtitle: 'Foamen - Nutzt es wirklich etwas?'
 ---
 
 

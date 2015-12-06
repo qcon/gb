@@ -3,7 +3,6 @@ layout: post
 title: "Kurzvorstellung: Lake Country HD Orbital Pads"
 author: "Marvin"
 wps_subtitle: Alternative zu Rupes Pads?
-categories: Produkttest
 head__img--fullurl: https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/lakecountryorbitalpad/P1020990.JPG
 ---
 

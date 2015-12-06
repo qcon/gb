@@ -159,13 +159,21 @@ task :newpost do
 	title = $stdin.gets.chomp
 	puts 'Author?'
 	author = $stdin.gets.chomp
-	puts 'Category?'
+	puts 'Category? [anleitungen, allgemein, pflegeberichte, produkttest]'
 	cat = $stdin.gets.chomp
 	puts 'Subtitle?'
 	subtitle = $stdin.gets.chomp
+	puts 'Preview?'
+	draft_false = $stdin.gets.chomp
+
 	slug = title.downcase.strip.gsub(' ', '-').gsub(/[^\w-]/, '')
+	if draft_false.empty?
+		filepath_posts = File.join(SOURCE, cat + "/_posts")
+	else
+		filepath_posts = File.join(SOURCE, "/_preview")
+	end
 	filename = File.join(
-		CONFIG['posts'],
+		filepath_posts,
 		"#{Time.now.strftime('%Y-%m-%d')}-#{slug}.#{CONFIG["post_ext"]}"
 	)
 	if File.exist?(filename)
@@ -178,9 +186,7 @@ task :newpost do
 		post.puts "title: \"#{title.gsub(/-/,' ')}\""
 		post.puts "author: \"#{author}\""
 		post.puts "wps_subtitle: #{subtitle}"
-		post.puts "categories: #{cat}"
 		post.puts "head__img--fullurl: https://glossbossimages.s3.eu-central-1.amazonaws.com/"
-		post.puts "markasnew: true"
 		post.puts '---'
 	end
 	execute("sublime #{filename}")

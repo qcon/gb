@@ -6,8 +6,7 @@ layout: post
 head__img--fullurl: https://glossbossimages.s3.eu-central-1.amazonaws.com/criz/produkte-mischen/bild.jpg
 wps_subtitle:
   - 'Wichtige Infos zu IPA und co'
-categories:
-  - tipps-tricks
+categories: Anleitungen
 ---
 
 #Produkte richtig mischen
