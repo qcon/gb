@@ -35,5 +35,5 @@ headimggradient: linear-gradient(HSLA(197, 100%, 49%,.6),HSLA(197, 100%, 49%,1))
 collections:
   preview:
     output: true
-    permalink: "/preview/:path/"
+    permalink: "/preview/:title/"
 port: 1338
