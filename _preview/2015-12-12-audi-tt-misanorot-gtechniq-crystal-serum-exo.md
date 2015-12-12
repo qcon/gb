@@ -163,3 +163,5 @@ Ab hier lasse ich die Bilder für sich sprechen, lehnt euch zurück und genießt
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/ralf/audi_tt_misanorot/DSC_0462.JPG)
 
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/ralf/audi_tt_misanorot/DSC_0463.JPG)
+
+Schöne Grüße aus Neuss! Bis dann, euer Ralf.
