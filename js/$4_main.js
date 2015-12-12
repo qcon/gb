@@ -17,7 +17,10 @@
 	, cookiesAcc = $("#cookies_acc")
 	, donationAlert = $(".donation-hinweis")
 	, donationAcc = $("#donation_acc");
-
+	var postContentLinksBlank = (function() {
+		//open all links in article in a new window by default
+		$('.post--content a')._forEach(function(link) {link.setAttribute('target', '_blank')});
+	})();
 	var renderAuthoren = (function() {
 		function resetAuthoren() {
 			$("li[data-author]").style("display", "none");

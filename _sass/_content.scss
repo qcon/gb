@@ -127,7 +127,7 @@ table {
 		float:right;
 		text-align:center;
 		color:white;
-
+		z-index: 1;
 		border-radius: 50%;
 		@include materialShadow(1);
 	}
@@ -161,7 +161,7 @@ table {
 		color:$blau;
 		text-decoration:none;
 		.post--datum {
-			color:#c7c7c7;
+			color:$text-disabled;
 			display:block;
 			@include font(light);
 			@media #{$sm} {
@@ -206,15 +206,19 @@ table {
 				font-size:.5em;
 				text-transform:uppercase;
 			}
-			small {
-				font-weight:100;
-				font-size:.6em;
-				color: $text;
-				display: block;
-				margin-top:1em;
-			}
+		}
+		.post--subtitle {
+			font-weight:100;
+			font-size:.6em;
+			color: $text-disabled;
+			display: block;
+			margin-top:1em;
+			transition: 120ms;
 		}
 		&:hover > .post--datum {
+			color: $text;
+		}
+		&:hover > .post--title__a .post--subtitle {
 			color: $text;
 		}
 		// &:hover > .post--title__a {
