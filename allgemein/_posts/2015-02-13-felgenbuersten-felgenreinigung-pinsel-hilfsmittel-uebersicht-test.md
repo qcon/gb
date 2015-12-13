@@ -126,7 +126,7 @@ Deutlich besser, selbes Spiel dann auch an der Radnabe / Bremsscheibe, die Felge
 
 *Hier das entsprechende youtube-Video:*
 
-<iframe class="content--video" src="https://www.youtube.com/embed/kx62muPaQGw" frameborder="0" allowfullscreen></iframe>
+{% include video.html videoURL="//www.youtube.com/embed/kx62muPaQGw" %}
 
 
 ##Anwendungsbeispiele:

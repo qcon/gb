@@ -321,7 +321,8 @@ Natürlich würde ich mich sehr über Kommentare und Likes freuen. Bei Fragen le
 
 Hier hätte ich noch das Video, von dem ich sprach. Darstellen sollte es zu Beginn den Prozess einer Fahrzeugwäsche. Doch beim Zusammenschneiden fällt einem erst so auf, was alles noch an Material fehlt. Seht dieses Video einfach als einen kleinen Teaser. Es ist mein erstes Video. Auch mein Kumpel ist noch nicht vertraut mit der Materie. Seht es als einen ersten Versuch. Weitere Videos werden folgen.
 
-<iframe class="content--video" src="//www.youtube.com/embed/E4aaixFCPjc" frameborder="0" allowfullscreen></iframe>
+{% include video.html videoURL="//www.youtube.com/embed/E4aaixFCPjc" %}
+
 
 次回まで
 

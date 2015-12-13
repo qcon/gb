@@ -13,7 +13,7 @@ categories: Pflegeberichte
 **Laufleistung**: ca. 2.500km   
 
 # Video Update!
-<iframe class="content--video" src="//www.youtube.com/embed/EOc4bMHj7tc" frameborder="0" allowfullscreen></iframe>
+{% include video.html videoURL="//www.youtube.com/embed/EOc4bMHj7tc" %}
 
 Vor ein paar Wochen fragte Rolf an ob ich mit ihm gemeinsam einen grauen AMG GTs detailen möchte...   
 Rolf, DIE Frage kannst du dir nun wirklich selbst beantworten! **Wann & wo?!?**   

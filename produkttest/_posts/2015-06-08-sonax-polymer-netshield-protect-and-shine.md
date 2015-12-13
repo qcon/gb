@@ -98,7 +98,8 @@ Bedanken möchte ich mich noch bei Jones und Alex, ohne die dieser Beitrag in di
 
 Das Ablaufverhalten vom Wasser im Youtube Video:
 
-<iframe class="content--video" src="//www.youtube.com/embed/MnhmhTc1Q1k" frameborder="0" allowfullscreen></iframe>
+{% include video.html videoURL="//www.youtube.com/embed/MnhmhTc1Q1k" %}
+
 
 
 

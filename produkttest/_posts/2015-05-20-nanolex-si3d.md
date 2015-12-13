@@ -115,7 +115,8 @@ Abschließend könnt ihr euch dann an einem strahlenden und geschützten Lack er
 
 Abschließend noch ein kleines Video vom Auftragstuch 24 Stunden nach der Versiegelung. 
 
-<iframe class="content--video" src="https://www.youtube.com/embed/HttPltpJjio" frameborder="0" allowfullscreen></iframe>
+{% include video.html videoURL="//www.youtube.com/embed/HttPltpJjio" %}
+
 
 Zwecks Beadingbilder und Erfahrungen zur Standzeit versuche ich euch auf dem Laufenden zu halten. 
 

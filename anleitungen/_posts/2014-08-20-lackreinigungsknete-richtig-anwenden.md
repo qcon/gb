@@ -72,7 +72,7 @@ Die meisten Rückstände werden an der Front und den Schwellern deines Autos vor
 
 **Hinweis:** Du kannst nicht nur den Lack sondern auch viele andere Flächen mit glatter Oberfläche am Auto kneten z.B. Scheiben und Felgen, nur Dichtungen und unlackierte Kunststoffe können nicht geknetet werden. Für die Felgen kannst du ruhig ein etwas älteres Knetstück  verwenden da dort sehr viele Rückstände sein werden.
 
-<iframe class="content--video" src="//www.youtube.com/embed/fiqRO_b01Bw" frameborder="0" allowfullscreen></iframe>
+{% include video.html videoURL="//www.youtube.com/embed/fiqRO_b01Bw" %}
 
  [1]: http://glossboss.de/allgemein/warum-die-fahrzeugwaesche-mit-der-2-eimer-methode-so-schonend-zum-lack-ist/ "2 Eimer Wäsche"
  [2]: http://www.petzoldts.de/shop/Petzoldts-MAGIC-Clean-Reinigungsknete,-100g,-Lackreinigung-p-1105.html

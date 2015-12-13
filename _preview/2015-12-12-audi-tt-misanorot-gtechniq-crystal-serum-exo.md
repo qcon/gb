@@ -19,7 +19,7 @@ head__img--fullurl: https://glossbossimages.s3.eu-central-1.amazonaws.com/ralf/a
 - 3M Anti-Hologramm
 - Autosol für den Auspuff
 - Surf City Garage Tire Pro
-- Koch Chemie Quick and Shine für Felgen
+- Koch Chemie Quick and Shine für die Felgen
 - Meguiars Natural Shine + Finish Kare #121 für den Innenraum
 - Meguiars APC 1:10 + Pinsel für die Einstiege und Motorraum
 - Meguiars Hyper Dressing für den Motorraum
@@ -163,5 +163,8 @@ Ab hier lasse ich die Bilder für sich sprechen, lehnt euch zurück und genießt
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/ralf/audi_tt_misanorot/DSC_0462.JPG)
 
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/ralf/audi_tt_misanorot/DSC_0463.JPG)
+
+{% include video.html videoURL="//www.youtube.com/embed/-dZ2aQ7fN4U" %}
+
 
 Schöne Grüße aus Neuss! Bis dann, euer Ralf.

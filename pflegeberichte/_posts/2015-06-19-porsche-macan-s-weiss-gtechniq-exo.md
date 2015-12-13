@@ -167,7 +167,8 @@ Da ich es schon immer einmal ausprobieren wollte kam mir der Macan meines Schwag
 
 Wie man auf Kontrollschwarz kommt? Seht selbst ab 1:23:   
 
-<iframe class="content--video" src="//www.youtube.com/embed/g5jgyY-MIZQ" frameborder="0" allowfullscreen></iframe>
+{% include video.html videoURL="//www.youtube.com/embed/g5jgyY-MIZQ" %}
+
 
 Es wird gebrauchsfertig mit einem Handapplikator geliefert. Kurz umdrehen oder schütteln, im Dosendeckel sind ein paar Schlitze durch die das schwarze Pulver in den gelben Schaumstoff des Applikators gelangt.   
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/porsche_macan/A017.jpg)
