@@ -28,6 +28,7 @@ head__img--fullurl: https://glossbossimages.s3.eu-central-1.amazonaws.com/ralf/a
 - extra Mikrofasertücher für die Serum/Exo abnahme, die danach entsorgt werden müssen
 - Gtechniq Crystal Serum + Exo
 - Petzoldts Lederreiniger Mild + Lederpflege Seidenmatt + Ikea Baumwolltücher
+- Zymöl Seal für die Dichtungen
 
 
 Rückstände vom Lack holen - Kneten
@@ -93,7 +94,7 @@ Ergonomisch wertvoll: Schweller auf Bauchhöhe polieren
 
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/ralf/audi_tt_misanorot/DSC_0294.JPG)
 
-Der heilige Gral. Gtechniq Serum + Exo
+Der heilige Gral. Gtechniq Serum + Exo. Dafür habe ich mir einen der lizensierten Aufbereiter ran geholt; den lieben Marvin von Autopflege Mieth.
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/ralf/audi_tt_misanorot/DSC_0305.JPG)
 
 Konzentration ist angesagt - nach dem entfetten mit dem Petzoldts Kontrollspray folgt der Serum auftrag. Sollte die Konzentration nachlassen, [kann das passieren](https://glossboss.de/produkttest/gtechniq-crystal-serum-test-anwendung-auftrag/).
@@ -145,14 +146,6 @@ Ab hier lasse ich die Bilder für sich sprechen, lehnt euch zurück und genießt
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/ralf/audi_tt_misanorot/DSC_0387.JPG)
 
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/ralf/audi_tt_misanorot/DSC_0418.JPG)
-
-![](https://glossbossimages.s3.eu-central-1.amazonaws.com/ralf/audi_tt_misanorot/DSC_0420.JPG)
-
-![](https://glossbossimages.s3.eu-central-1.amazonaws.com/ralf/audi_tt_misanorot/DSC_0421.JPG)
-
-![](https://glossbossimages.s3.eu-central-1.amazonaws.com/ralf/audi_tt_misanorot/DSC_0422.JPG)
-
-![](https://glossbossimages.s3.eu-central-1.amazonaws.com/ralf/audi_tt_misanorot/DSC_0423.JPG)
 
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/ralf/audi_tt_misanorot/DSC_0452.JPG)
 
