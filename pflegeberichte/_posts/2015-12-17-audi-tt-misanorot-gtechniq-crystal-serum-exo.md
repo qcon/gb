@@ -10,7 +10,7 @@ head__img--fullurl: https://glossbossimages.s3.eu-central-1.amazonaws.com/ralf/a
 
 Das eigene Auto aufzubereiten ist für uns Glossbosse ja schon etwas besonderes, versteht mich nicht falsch, auch fremde Autos werden verwöhnt, aber das eigene ist halt irgendwie anders.
 Deshalb erledigen wir solche Aufgaben auch gerne als Team, denn so macht es noch mehr Spass und man kann seine Erfahrungen mit den letzten Lacken unter den Maschinen etc. austauschen um Up-to-date zu bleiben. Außerdem kennen wir uns seit Jahren und wissen um die Qualitäten des Anderen.
-Mit Alex und Marvin haben wir uns daher für einen Tag meine Neuanschaffung vorgenommen und den
+Mit Alex, Mark und Marvin haben wir uns daher für einen Tag meine Neuanschaffung vorgenommen und den
 Lack nicht nur zum Glänzen gebracht sondern auch den ultimativen Lackschutz aufgebracht.
 
 Viel Spass beim Lesen.
