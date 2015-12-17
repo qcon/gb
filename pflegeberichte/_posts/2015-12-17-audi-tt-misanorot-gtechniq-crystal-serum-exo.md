@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Misanoroter Ironman"
+title: "Misanoroter Quattro"
 author: "Ralf"
 wps_subtitle: Audi TT mit Gtechniq Serum + Exo versiegelt
 head__img--fullurl: https://glossbossimages.s3.eu-central-1.amazonaws.com/ralf/audi_tt_misanorot/DSC_0361.JPG
@@ -15,11 +15,11 @@ Lack nicht nur zum Glänzen gebracht sondern auch den ultimativen Lackschutz auf
 
 Viel Spass beim Lesen.
 
-Das Auto um das es geht:
+### Das Auto um das es geht:
 
--Audi TT 8N Quattro Misanorot
--1.8 T
--Baujahr 2003
+- Audi TT 8N Quattro Misanorot
+- 1.8 T
+- Baujahr 2003
 
 ### Verwendete Produkte
 
@@ -109,7 +109,7 @@ Ergonomisch wertvoll: Schweller auf Brust/ Bauchhöhe polieren
 
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/ralf/audi_tt_misanorot/DSC_0294.JPG)
 
-Der heilige Gral. Gtechniq Serum + Exo. Der einigarte Marvin von der Autopflege Mieth hat nicht nur die Halle mit einer Hebebühne und Beheizung organisiert, er hat auch als einer der wenigen lizensierten Aufbereiter das Gtechniq Serum mitgebracht.
+Der heilige Gral. Gtechniq Serum + Exo. Der einzigartige Marvin von der Autopflege Mieth hat nicht nur die Halle mit einer Hebebühne und Beheizung organisiert, er hat auch als einer der wenigen lizensierten Aufbereiter das Gtechniq Serum mitgebracht.
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/ralf/audi_tt_misanorot/DSC_0305.JPG)
 
 Konzentration ist angesagt - nach dem Entfetten mit dem Petzoldts Kontrollspray folgt der Serum Auftrag. Sollte die Konzentration nachlassen, [kann das passieren](https://glossboss.de/produkttest/gtechniq-crystal-serum-test-anwendung-auftrag/).
@@ -160,6 +160,7 @@ Ab hier lasse ich die Bilder für sich sprechen, lehnt euch zurück und genießt
 
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/ralf/audi_tt_misanorot/DSC_0387.JPG)
 
+Den Innenraum habe ich bereits ein paar Tage vorher aufbereitet. Beim nächsten Mal mache ich Bilder für euch.
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/ralf/audi_tt_misanorot/DSC_0418.JPG)
 
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/ralf/audi_tt_misanorot/DSC_0452.JPG)
@@ -176,6 +177,6 @@ Ab hier lasse ich die Bilder für sich sprechen, lehnt euch zurück und genießt
 
 Das Fazit zu dieser Aktion ist einfach: Es war spitze. Wir haben einen entspannten und lustigen Tag zusammen verbracht, haben gut gegessen und freuen uns auf die nächste gemeinsame Aktion.
 
-Schöne Grüße aus Neuss! 
+Schöne Grüße aus Neuss!
 
 Bis dann, euer Ralf.
