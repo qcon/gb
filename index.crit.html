@@ -1,0 +1,371 @@
+<!DOCTYPE html> <html> <head> <meta charset="utf-8"> <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"> <meta http-equiv="X-UA-Compatible" content="IE=edge"> <title>glossboss.de - Der Autopflege Blog für echte Enthusiasten</title> <meta name="description" content="Ein Autopflegeblog von und für absolute Enthusiasten"> <meta name="author" content=""> <link rel="canonical" href="https://glossboss.de/"> <link rel="alternate" type="application/rss+xml" title="glossboss.de - Der Autopflege Blog für echte Enthusiasten" href="https://glossboss.de/feed.xml"> <style type="text/css">
+html {
+  box-sizing: border-box;
+  color: #585858;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  overflow-x: hidden;
+  width: 100%;
+  max-width: 100%;
+  font-family: "Roboto", sans-serif;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  color: white;
+  height: auto;
+  font-weight: 300;
+  font-size: 1.9em;
+  padding: 3em 0;
+}
+
+@media (max-width: 780px) {
+  header {
+    padding: 0.8em 0;
+    font-size: 1.2em;
+  }
+}
+
+@media (max-width: 24.37em) {
+  header {
+    font-size: .8em;
+    font-size: 4.7vmin;
+  }
+}
+
+#glossbosslogo .svgBluefill {
+  fill: #44bcff;
+}
+
+#glossbosslogo .svgDarkfill {
+  fill: #585858;
+}
+
+.header--logo {
+  text-align: center;
+  margin: 3em auto !important;
+  -webkit-transition: 0.15s cubic-bezier(0.55, 0, 0.1, 1);
+  transition: 0.15s cubic-bezier(0.55, 0, 0.1, 1);
+}
+
+.header--logo svg {
+  -webkit-transition: 0.15s cubic-bezier(0.55, 0, 0.1, 1);
+  transition: 0.15s cubic-bezier(0.55, 0, 0.1, 1);
+  width: 360px;
+  max-width: 95%;
+}
+
+.post--title {
+  max-width: 100%;
+}
+
+.post--title small {
+  font-size: .7em;
+  font-weight: 300;
+}
+
+.post--title a {
+  color: white;
+  text-decoration: none;
+  text-shadow: 1px 1px 7px rgba(0,0,0,0.3);
+}
+
+.kategorie--select {
+  font-weight: 500;
+  cursor: pointer;
+  background-color: HSL(300, 5%, 95%);
+  border-radius: 0;
+  border: 1px solid rgba(0,0,0,0.1);
+  font-size: 20px;
+  -webkit-appearance: none;
+  outline: none;
+  color: #585858;
+  padding: 10px 20px;
+  padding-right: 45px;
+  background: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='45px' height='45px' viewBox='0 0 451.847 451.847'><g><path fill='#44bcff' d='M225.923,354.706c-8.098,0-16.195-3.092-22.369-9.263L9.27,151.157c-12.359-12.359-12.359-32.397,0-44.751 c12.354-12.354,32.388-12.354,44.748,0l171.905,171.915l171.906-171.909c12.359-12.354,32.391-12.354,44.744,0 c12.365,12.354,12.365,32.392,0,44.751L248.292,345.449C242.115,351.621,234.018,354.706,225.923,354.706z'/></g></svg>") right no-repeat;
+  background-transparency: 0.5;
+  background-position: right 15px top 14px;
+  background-size: 18px 18px;
+}
+
+@media (max-width: 780px) {
+  .kategorie--select {
+    font-size: 14px;
+    padding: 10px 15px;
+    padding-right: 40px;
+    background-position: right 15px top 11px;
+  }
+}
+
+.linklist {
+  list-style: none;
+  font-size: 1em;
+  overflow: hidden;
+  -webkit-transition: .25s;
+  transition: .25s;
+  margin: 10px;
+  font-weight: 400;
+}
+
+@media (max-width: 780px) {
+  .linklist {
+    margin: 0;
+  }
+}
+
+@media (min-width: 68.76em) {
+  .linklist {
+    font-size: 1.2em;
+  }
+}
+
+@media (max-width: 780px) {
+  .linklist .canHide {
+    display: none;
+  }
+}
+
+.linklist .canHideSmaller {
+  display: none;
+}
+
+@media (min-width: 420px) {
+  .linklist .canHideSmaller {
+    display: inline-block;
+  }
+}
+
+.linklist li {
+  text-align: center;
+  margin-right: 1.5em;
+  display: inline-block;
+  line-height: 1.5em;
+  text-transform: uppercase;
+}
+
+@media (max-width: 780px) {
+  .linklist li {
+    margin: 10px 0;
+  }
+}
+
+@media (min-width: 420px) {
+  .linklist li {
+    margin-right: 1em;
+  }
+}
+
+.linklist li a {
+  text-decoration: none;
+  color: #585858;
+  -webkit-transition: .25s ease;
+  transition: .25s ease;
+}
+
+.header__extend {
+  background: HSL(300, 5%, 95%);
+  padding: 0.5px;
+  box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.1);
+  z-index: 2;
+  text-align: center;
+}
+
+.cookies-hinweis a {
+  color: #44bcff;
+  text-decoration: underline;
+}
+
+.cookies-hinweis {
+  font-weight: 500;
+  width: 100%;
+  text-align: center;
+  font-size: 15px;
+  display: none;
+  z-index: 2;
+  background-color: HSL(300, 5%, 95%);
+  position: fixed;
+  bottom: 0;
+  padding-top: 10px;
+}
+
+#cookies_acc {
+  margin: 10px;
+}
+
+.width--wrapper {
+  width: 80%;
+  margin: 0 auto;
+}
+
+@media (max-width: 780px) {
+  .width--wrapper {
+    width: 93%;
+  }
+}
+
+.loadmore {
+  display: block;
+  -webkit-transition: 0.15s cubic-bezier(0.55, 0, 0.1, 1);
+  transition: 0.15s cubic-bezier(0.55, 0, 0.1, 1);
+  cursor: pointer;
+  background: HSL(300, 5%, 95%);
+  text-align: center;
+  padding: 1em;
+  margin: 3em 1em;
+  color: #585858;
+  font-weight: 300;
+}
+
+.loadmore svg {
+  margin: 0 auto;
+  display: block;
+  fill: #585858;
+  width: 46px;
+  height: 46px;
+}
+
+@media (max-width: 780px) {
+  .loadmore {
+    margin: 0;
+  }
+}
+
+#results-container {
+  font-weight: 500;
+  margin-bottom: 2em;
+  list-style: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+
+.secondary_btn {
+  display: inline-block;
+  margin: 0 0.5em 2.5em 0;
+  padding: 0.8em 1.3em;
+  background-color: HSL(300, 5%, 95%);
+  border-color: #ddd;
+  color: #585858;
+  font-weight: 500;
+  font-size: .9em;
+}
+
+@media (max-width: 780px) {
+  .secondary_btn {
+    padding: 0.4em 0.9em;
+    margin: 0 0.2em 1em 0;
+  }
+}
+
+.sucheInput {
+  text-align: center;
+}
+
+.sucheInput svg {
+  width: 18px;
+  fill: #b4b4b4;
+  -webkit-transform: translate(-26px, 4px);
+  -ms-transform: translate(-26px, 4px);
+  transform: translate(-26px, 4px);
+}
+
+#search-input {
+  padding: .3em;
+  border-width: 0px;
+  border: none;
+  background: white;
+  border-bottom: 3px solid #1af;
+  font-size: 1.1em;
+  color: #44bcff;
+  display: inline-block;
+  width: 350px;
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+#searchWrapper {
+  display: none;
+}
+
+.wrap-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.progressBar--wrapper {
+  width: 90%;
+  margin: 0 auto;
+}
+
+#progressBar {
+  width: 5%;
+  height: 5px;
+  margin-top: 10px;
+  background: #44bcff;
+  display: none;
+  -webkit-transition: 100ms;
+  transition: 100ms;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12),0 1px 2px rgba(0,0,0,0.24);
+}
+
+#loading {
+  display: none;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 1.5em;
+  position: fixed;
+  top: 0;
+  padding: 50vh 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  background-color: rgba(255,255,255,0.85);
+}
+
+.spinner {
+  margin: 2em auto;
+  text-align: center;
+  width: 45px;
+  height: 45px;
+  border-top: 2px solid #44bcff;
+  border-bottom: 2px solid #44bcff;
+  border-right: 2px solid rgba(255,255,255,0);
+  border-left: 2px solid rgba(255,255,255,0);
+  border-radius: 50%;
+  -webkit-animation: loadspin 1.7s infinite;
+  animation: loadspin 1.7s infinite;
+}
+
+#loadmoreajax {
+  display: none;
+}
+</style>
+<script id="loadcss">
+(function(u,s){!function(e){"use strict";var n=function(n,t,o){var l,r=e.document,i=r.createElement("link");if(t)l=t;else{var a=(r.body||r.getElementsByTagName("head")[0]).childNodes;l=a[a.length-1]}var d=r.styleSheets;i.rel="stylesheet",i.href=n,i.media="only x",l.parentNode.insertBefore(i,t?l:l.nextSibling);var f=function(e){for(var n=i.href,t=d.length;t--;)if(d[t].href===n)return e();setTimeout(function(){f(e)})};return i.onloadcssdefined=f,f(function(){i.media=o||"all"}),i};"undefined"!=typeof module?module.exports=n:e.loadCSS=n}("undefined"!=typeof global?global:this);for(var i in u){loadCSS(u[i],s);}}(['/dist/layout.css?v=150'],document.getElementById("loadcss")));
+</script>
+<noscript>
+<link rel="stylesheet" href="/dist/layout.css?v=150">
+</noscript> <meta property="og:title" content="glossboss.de - Der Autopflege Blog für echte Enthusiasten"> <meta property="og:url" content="https://glossboss.de/"> <meta property="og:image" content=""> <style> </style> <style id="header-style"> header { background: linear-gradient(HSLA(197, 100%, 49%,.6),HSLA(197, 100%, 49%,1)), url('') center 50%; background-size:cover; } </style> <!--[if lt IE 9]> <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script> <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script> <![endif]--> <script> var randomHeader = true,headerGradient = 'linear-gradient(HSLA(197, 100%, 49%,.6),HSLA(197, 100%, 49%,1))'; (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o), m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m) })(window,document,'script','//www.google-analytics.com/analytics.js','ga');ga('create', 'UA-52307693-1', 'auto');ga('send', 'pageview'); var postJSONCache = '/posts.json?v=24'; </script> </head> <body> <header class="header__main"> <div class="width--wrapper"> <div class="post--title" id="post--title"> <a href="http://glossboss.de" alt="Glossboss.de - Startseite"><h1> Glossboss.de - <small>dein Autopflege Blog</small></h1></a> </div> </div> </header> <div class="header__extend" id="mainnav"> <ul class="linklist" id="linklist"> <li class="canHideSmaller"><a href="/spenden">Spenden</a></li> <li class="canHide"><a href="/blog-abonnieren">Blog Abonnieren</a></li> <li> <select name="kategorie" class="kategorie--select"> <option value="">Kategorien ...</option> <option value="#allgemein">Allgemein</option> <option value="#anleitungen">Anleitungen</option> <option value="#pflegeberichte">Pflegeberichte</option> <option value="#produkttest">Produkttest</option> </select> </li> <li class="canHide"><a href="/mischungsrechner">Mischungsrechner</a></li> <li class="canHideSmaller"><a href="/#suche">Suche</a></li> </ul> </div> <div style="display: none" class="cookies-hinweis">Glossboss.de verwendet Cookies. Mit der weiteren Nutzung dieser Website stimmst du der Verwendung von Cookies zu. <p>Erfahre mehr in den <a href="/impressum">Datenschutzhinweisen</a> <span class="secondary_btn" id="cookies_acc">&#10006;</span></p></div> <!-- <div style="display: none" class="donation-hinweis">Der Blog soll weiterhin Werbefrei und die Berichte unabhängig bleiben? Dann besuche unsere <a class="primary_btn" href="/spenden">Spendenseite!</a> <span class="secondary_btn" id="donation_acc">&#10006;</span></div> --> <div class="header--logo"> <!-- <a href="https://glossboss.de" alt="Glossboss.de - Startseite"><img src="https://glossbossimages.s3.eu-central-1.amazonaws.com/Glossboss-de-Logo.png" alt=""></a> --> <a href="https://glossboss.de/"> <svg width="320" id="glossbosslogo" viewbox="0 0 778 354" xmlns="http://www.w3.org/2000/svg"><title>Slice 1</title><g fill="none" fill-rule="evenodd"><path d="M0 171.45c.398-.743.424-1.565.478-2.376.132-2.01.196-4.028.386-6.033.31-3.293.67-6.583 1.063-9.868.428-3.57 1.076-7.108 1.772-10.638 1.8-9.143 4.345-18.077 7.598-26.805 5.782-15.513 13.602-29.924 23.45-43.232.275-.373.49-.814 1.018-1.07.304.357.348.8.46 1.187 1.37 4.792 2.717 9.59 4.075 14.385l19.2 67.78c4.74 16.74 9.466 33.482 14.222 50.216 3.808 13.396 9.875 25.66 18.576 36.565 14.5 18.176 32.904 30.543 55.266 36.964 4.142 1.19 8.356 2.083 12.622 2.733 3.51.535 7.022 1.002 10.572 1.128 2.206.078 4.41.208 6.616.207 2.88 0 5.75-.22 8.618-.483 11.836-1.086 23.166-4.11 34.046-8.85 11.652-5.08 21.932-12.19 31.013-21.058 9.938-9.702 17.703-20.912 23.31-33.617.208-.473.38-.962.61-1.55-.332-.04-.55-.082-.77-.088-.48-.012-.96-.005-1.44-.005h-96.184c-.576 0-1.16.054-1.726-.025-.56-.078-1.13-.225-1.64-.462-.796-.37-1.263-1.06-1.277-1.94-.01-.61.08-1.242.237-1.834.288-1.082.957-1.976 1.594-2.878 8.273-11.72 16.545-23.44 24.818-35.158.968-1.372 1.92-2.755 2.91-4.112 1.915-2.626 4.418-4.503 7.42-5.723 1.39-.567 2.827-.836 4.342-.834 19.87.016 39.74.01 59.61.01H352.1c.453.43.37.884.382 1.303.053 1.726.076 3.454.137 5.18.02.616.117 1.23.18 1.845v9.792c-.062.616-.16 1.23-.18 1.847-.075 2.06-.033 4.13-.2 6.183-.27 3.297-.636 6.586-1.022 9.87-.646 5.48-1.66 10.894-2.87 16.275-3.58 15.905-9.286 31.01-17.11 45.304-12.274 22.42-28.654 41.31-49.065 56.685-12.82 9.66-26.725 17.395-41.685 23.227-7.456 2.906-15.068 5.31-22.857 7.158-4.19.995-8.4 1.89-12.662 2.53-2.13.32-4.26.65-6.398.923-2.233.286-4.47.547-6.712.747-1.957.174-3.923.247-5.885.368-1.58.098-3.16.19-4.74.308-.473.036-.942.148-1.413.225h-6.912c-.71-.09-1.418-.218-2.13-.267-3.925-.272-7.855-.423-11.77-.837-3.1-.327-6.187-.708-9.27-1.154-4.364-.63-8.69-1.46-12.98-2.45-10.572-2.435-20.84-5.807-30.777-10.164-24.103-10.567-44.84-25.748-62.203-45.52-14.206-16.175-25.065-34.368-32.613-54.528-3.283-8.77-5.83-17.753-7.65-26.943-.738-3.717-1.383-7.45-1.87-11.205-.395-3.043-.68-6.102-.955-9.16-.185-2.053-.26-4.117-.393-6.176-.053-.813-.09-1.632-.477-2.38v-11.52" fill="#585858" class="svgDarkfill"/><path d="M183.744.955c.467.078.93.196 1.4.225 2.3.143 4.603.21 6.896.403 2.244.188 4.48.47 6.715.756 2.09.267 4.18.547 6.256.906 3.255.564 6.515 1.11 9.738 1.822 9.176 2.027 18.136 4.772 26.872 8.247 13.29 5.287 25.752 12.09 37.39 20.406.39.28.777.563 1.162.85.075.055.132.134.198.202.02.044.05.085.06.13.012.046.015.1.003.143-6.706 24.45-13.413 48.897-20.125 73.344-.022.077-.11.136-.208.252-.447-.096-.638-.515-.898-.827-2.46-2.952-5.037-5.797-7.79-8.48-13.723-13.375-29.838-22.51-48.406-27.3-3.806-.982-7.656-1.714-11.54-2.317-6.425-.998-12.885-1.282-19.366-1.042-2.823.105-5.64.39-8.452.74-5.24.654-10.39 1.713-15.477 3.097-9.38 2.55-18.058 6.65-26.132 12.023-9.812 6.53-18.506 14.32-26 23.43-.18.22-.386.422-.584.627-.028.028-.087.025-.22.06-.302-.28-.334-.723-.44-1.107-.986-3.556-1.95-7.118-2.927-10.677C86.245 76.395 80.62 55.922 75 35.45c-.176-.64-.323-1.287-.486-1.943.413-.312.745-.582 1.095-.825 15.935-11.11 33.21-19.416 51.877-24.824C132.962 6.27 138.5 4.94 144.102 3.91c3.342-.614 6.715-1.066 10.082-1.535 2.278-.317 4.565-.59 6.856-.787 2.293-.196 4.597-.26 6.894-.404.57-.035 1.132-.15 1.698-.23h14.112M232.35 160.983c-.5.202-1.03.103-1.542.104-6.143.008-12.285.024-18.427-.006-2.006-.008-3.907.4-5.71 1.232-3.103 1.434-5.71 3.485-7.7 6.305-10.255 14.543-20.525 29.077-30.78 43.62-.47.664-.917 1.357-1.258 2.09-.298.644-.513 1.35-.62 2.052-.237 1.532.565 2.75 2.053 3.177.546.157 1.126.21 1.695.27.38.04.767.01 1.15.01h43.044c.515 0 1.03.025 1.586.038-.797 1.328-4.47 4.25-8.375 6.698-7.382 4.63-15.41 7.48-24.056 8.468-9.742 1.116-19.226-.057-28.353-3.715-26.14-10.478-41.415-38.056-35.415-66.3 5.798-27.29 30.693-47.65 60.584-45.917 9.133.53 17.692 3.15 25.606 7.774 8.054 4.706 14.62 10.982 19.693 18.81 3.14 4.846 6.518 12.416 6.826 15.29" fill="#44bcff" class="svgBluefill"/><path d="M365.798 77.678h-21.995v-7.68c0-4.842-.21-7.872-.627-9.09-.418-1.22-1.41-1.83-2.978-1.83-1.36 0-2.282.522-2.77 1.567-.487 1.045-.73 3.727-.73 8.046v40.596c0 3.797.243 6.296.73 7.498.488 1.2 1.464 1.802 2.927 1.802 1.602 0 2.69-.68 3.265-2.037.575-1.36.862-4.007.862-7.943v-10.03h-4.44V85.722h25.756v45.402h-13.845l-2.037-6.06c-1.498 2.612-3.388 4.57-5.67 5.877-2.28 1.307-4.97 1.96-8.07 1.96-3.693 0-7.15-.897-10.372-2.69-3.222-1.795-5.67-4.015-7.34-6.662-1.672-2.648-2.717-5.425-3.135-8.334-.42-2.908-.628-7.27-.628-13.087V76.997c0-8.08.435-13.95 1.306-17.607.87-3.656 3.37-7.008 7.497-10.056 4.128-3.048 9.465-4.572 16.014-4.572 6.442 0 11.79 1.324 16.038 3.97 4.25 2.648 7.02 5.792 8.307 9.432 1.29 3.64 1.933 8.925 1.933 15.856v3.658zm29.74-31.14v84.587h-21.734V46.54h21.734zm55.445 39.603v16.98c0 6.236-.314 10.808-.94 13.716-.628 2.908-1.97 5.625-4.024 8.15-2.056 2.526-4.694 4.39-7.916 5.59-3.222 1.202-6.923 1.803-11.102 1.803-4.668 0-8.62-.515-11.86-1.542-3.24-1.028-5.756-2.578-7.55-4.65-1.794-2.072-3.074-4.58-3.84-7.523-.766-2.944-1.15-7.358-1.15-13.245V87.657c0-6.444.697-11.477 2.09-15.1 1.394-3.622 3.902-6.53 7.524-8.725 3.622-2.194 8.255-3.29 13.897-3.29 4.737 0 8.804.704 12.2 2.115 3.396 1.41 6.017 3.248 7.863 5.512 1.846 2.263 3.11 4.596 3.788 7 .68 2.403 1.02 6.06 1.02 10.97zm-21.108-5.223c0-3.553-.19-5.79-.575-6.714-.383-.923-1.2-1.384-2.455-1.384-1.254 0-2.09.46-2.508 1.383-.418.923-.627 3.16-.627 6.714v31.295c0 3.274.21 5.408.627 6.4.418.993 1.237 1.49 2.456 1.49 1.254 0 2.08-.453 2.48-1.36.402-.905.602-2.855.602-5.85V80.916zm71.275 3.03h-18.704v-3.762c0-3.204-.183-5.233-.548-6.086-.366-.855-1.28-1.28-2.743-1.28-1.185 0-2.073.39-2.665 1.174-.592.784-.888 1.96-.888 3.527 0 2.125.148 3.684.444 4.677.296.992 1.184 2.08 2.665 3.265 1.48 1.184 4.52 2.91 9.118 5.173 6.13 2.995 10.153 5.816 12.068 8.463 1.916 2.648 2.874 6.496 2.874 11.547 0 5.642-.732 9.9-2.194 12.774-1.463 2.873-3.91 5.084-7.34 6.634-3.432 1.55-7.568 2.325-12.41 2.325-5.363 0-9.952-.837-13.766-2.51-3.814-1.67-6.435-3.935-7.863-6.79-1.428-2.857-2.142-7.176-2.142-12.958v-3.343h18.704v4.387c0 3.727.234 6.148.704 7.262.47 1.114 1.402 1.67 2.795 1.67 1.497 0 2.542-.373 3.134-1.122.592-.75.888-2.325.888-4.728 0-3.31-.383-5.382-1.15-6.218-.8-.835-4.893-3.308-12.277-7.418-6.2-3.484-9.98-6.644-11.338-9.483-1.358-2.838-2.037-6.208-2.037-10.11 0-5.537.73-9.62 2.194-12.25 1.463-2.63 3.945-4.66 7.445-6.087 3.5-1.428 7.566-2.142 12.2-2.142 4.596 0 8.506.584 11.728 1.75 3.222 1.168 5.695 2.71 7.42 4.625 1.723 1.916 2.768 3.692 3.134 5.33.365 1.636.548 4.196.548 7.68v4.022zm50.482 0h-18.705v-3.762c0-3.204-.182-5.233-.548-6.086-.367-.855-1.28-1.28-2.744-1.28-1.184 0-2.072.39-2.665 1.174-.59.784-.887 1.96-.887 3.527 0 2.125.148 3.684.444 4.677.296.992 1.185 2.08 2.665 3.265 1.48 1.184 4.52 2.91 9.117 5.173 6.13 2.995 10.152 5.816 12.068 8.463 1.915 2.648 2.873 6.496 2.873 11.547 0 5.642-.73 9.9-2.193 12.774-1.463 2.873-3.91 5.084-7.34 6.634-3.432 1.55-7.568 2.325-12.41 2.325-5.363 0-9.952-.837-13.766-2.51-3.813-1.67-6.434-3.935-7.862-6.79-1.428-2.857-2.142-7.176-2.142-12.958v-3.343h18.704v4.387c0 3.727.235 6.148.705 7.262.47 1.114 1.402 1.67 2.795 1.67 1.498 0 2.543-.373 3.135-1.122.592-.75.888-2.325.888-4.728 0-3.31-.383-5.382-1.15-6.218-.8-.835-4.893-3.308-12.277-7.418-6.2-3.484-9.98-6.644-11.337-9.483-1.36-2.838-2.04-6.208-2.04-10.11 0-5.537.733-9.62 2.195-12.25 1.463-2.63 3.945-4.66 7.446-6.087 3.5-1.428 7.567-2.142 12.2-2.142 4.598 0 8.507.584 11.73 1.75 3.22 1.168 5.694 2.71 7.418 4.625 1.724 1.916 2.77 3.692 3.135 5.33.366 1.636.55 4.196.55 7.68v4.022z" fill="#585858" class="svgDarkfill"/><path d="M582.594 46.54v20.01c1.74-2.02 3.683-3.528 5.825-4.52 2.14-.993 4.466-1.49 6.974-1.49 2.89 0 5.4.454 7.523 1.36 2.125.905 3.745 2.176 4.86 3.813 1.114 1.637 1.784 3.24 2.01 4.807.227 1.567.34 4.91.34 10.03v31.244c0 5.086-.34 8.873-1.018 11.364-.68 2.49-2.274 4.65-4.782 6.478-2.508 1.83-5.486 2.743-8.934 2.743-2.473 0-4.78-.54-6.923-1.62-2.14-1.08-4.1-2.7-5.876-4.86l-1.36 5.225h-19.748V46.54h21.108zm6.426 34.95c0-3.586-.226-5.928-.68-7.026-.452-1.097-1.34-1.645-2.664-1.645-1.288 0-2.124.478-2.508 1.435-.383.958-.574 3.37-.574 7.236v29.886c0 3.727.217 6.113.653 7.158.435 1.045 1.297 1.567 2.586 1.567 1.324 0 2.186-.54 2.586-1.618.4-1.08.6-3.675.6-7.785V81.49zm75.925 4.65v16.98c0 6.236-.314 10.808-.94 13.716-.627 2.908-1.968 5.625-4.023 8.15-2.056 2.526-4.694 4.39-7.916 5.59-3.222 1.202-6.922 1.803-11.102 1.803-4.667 0-8.62-.515-11.86-1.542-3.24-1.028-5.756-2.578-7.55-4.65-1.793-2.072-3.073-4.58-3.84-7.523-.766-2.944-1.15-7.358-1.15-13.245V87.657c0-6.444.698-11.477 2.09-15.1 1.394-3.622 3.902-6.53 7.524-8.725 3.623-2.194 8.255-3.29 13.898-3.29 4.737 0 8.803.704 12.2 2.115 3.395 1.41 6.016 3.248 7.862 5.512 1.846 2.263 3.11 4.596 3.788 7 .68 2.403 1.02 6.06 1.02 10.97zm-21.108-5.223c0-3.553-.19-5.79-.574-6.714-.383-.923-1.202-1.384-2.456-1.384s-2.09.46-2.508 1.383c-.42.923-.628 3.16-.628 6.714v31.295c0 3.274.21 5.408.627 6.4.417.993 1.236 1.49 2.455 1.49 1.254 0 2.08-.453 2.482-1.36.4-.905.6-2.855.6-5.85V80.916zm71.275 3.03h-18.704v-3.762c0-3.204-.183-5.233-.548-6.086-.366-.855-1.28-1.28-2.743-1.28-1.184 0-2.073.39-2.665 1.174-.592.784-.888 1.96-.888 3.527 0 2.125.148 3.684.444 4.677.296.992 1.184 2.08 2.665 3.265 1.48 1.184 4.52 2.91 9.117 5.173 6.13 2.995 10.153 5.816 12.07 8.463 1.914 2.648 2.872 6.496 2.872 11.547 0 5.642-.73 9.9-2.194 12.774-1.463 2.873-3.91 5.084-7.34 6.634-3.432 1.55-7.568 2.325-12.41 2.325-5.363 0-9.952-.837-13.766-2.51-3.814-1.67-6.435-3.935-7.863-6.79-1.43-2.857-2.143-7.176-2.143-12.958v-3.343h18.704v4.387c0 3.727.236 6.148.706 7.262.47 1.114 1.402 1.67 2.795 1.67 1.5 0 2.544-.373 3.136-1.122.592-.75.888-2.325.888-4.728 0-3.31-.383-5.382-1.15-6.218-.8-.835-4.893-3.308-12.277-7.418-6.2-3.484-9.98-6.644-11.337-9.483-1.36-2.838-2.038-6.208-2.038-10.11 0-5.537.73-9.62 2.194-12.25 1.463-2.63 3.945-4.66 7.445-6.087 3.502-1.428 7.568-2.142 12.2-2.142 4.6 0 8.508.584 11.73 1.75 3.222 1.168 5.695 2.71 7.42 4.625 1.723 1.916 2.768 3.692 3.134 5.33.366 1.636.548 4.196.548 7.68v4.022zm50.48 0H746.89v-3.762c0-3.204-.183-5.233-.55-6.086-.365-.855-1.28-1.28-2.742-1.28-1.184 0-2.073.39-2.665 1.174-.592.784-.888 1.96-.888 3.527 0 2.125.148 3.684.444 4.677.295.992 1.183 2.08 2.664 3.265 1.48 1.184 4.52 2.91 9.117 5.173 6.13 2.995 10.154 5.816 12.07 8.463 1.915 2.648 2.873 6.496 2.873 11.547 0 5.642-.73 9.9-2.194 12.774-1.464 2.873-3.91 5.084-7.342 6.634-3.43 1.55-7.567 2.325-12.408 2.325-5.364 0-9.953-.837-13.767-2.51-3.814-1.67-6.435-3.935-7.863-6.79-1.428-2.857-2.142-7.176-2.142-12.958v-3.343h18.704v4.387c0 3.727.235 6.148.705 7.262.47 1.114 1.402 1.67 2.795 1.67 1.498 0 2.543-.373 3.135-1.122.592-.75.888-2.325.888-4.728 0-3.31-.383-5.382-1.15-6.218-.8-.835-4.893-3.308-12.277-7.418-6.2-3.484-9.98-6.644-11.337-9.483-1.358-2.838-2.037-6.208-2.037-10.11 0-5.537.732-9.62 2.194-12.25 1.463-2.63 3.945-4.66 7.445-6.087 3.5-1.428 7.567-2.142 12.2-2.142 4.598 0 8.507.584 11.73 1.75 3.22 1.168 5.694 2.71 7.418 4.625 1.724 1.916 2.77 3.692 3.135 5.33.366 1.636.548 4.196.548 7.68v4.022z" fill="#44bcff" class="svgBluefill"/></g></svg> </a> </div> <div id="loading"> <div class="spinner"></div> wird geladen ... <div class="progressBar--wrapper"><div class="progressBar" id="progressBar"></div></div> </div> <div class="overlay"></div> <script>var ItseMeIndex = true;</script> <div class="width--wrapper" id="post--list__container"> <div id="searchWrapper"> <div class="sucheInput"> <input type="text" id="search-input" placeholder="Suchbegriff..."> <svg id="search_reset" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 15 15"> <g> <g> <path d="M7.5,0C3.358,0,0,3.358,0,7.5C0,11.643,3.358,15,7.5,15c4.143,0,7.5-3.357,7.5-7.5 C15,3.358,11.643,0,7.5,0z M10.975,4.732L8.188,7.52l2.467,2.748c0.195,0.195,0.195,0.513,0,0.707 c-0.194,0.195-0.512,0.195-0.706,0L7.482,8.227l-2.749,2.748c-0.195,0.195-0.512,0.195-0.707,0c-0.195-0.194-0.195-0.512,0-0.707 l2.787-2.787L4.347,4.732c-0.195-0.195-0.195-0.512,0-0.707s0.512-0.195,0.707,0l2.467,2.749l2.748-2.749 c0.195-0.195,0.512-0.195,0.707,0S11.17,4.537,10.975,4.732z"/> </g> </g> </svg> </div> <ul id="results-container"></ul> </div> <h1 class="page-heading" id="page-heading"></h1> <ul class="post--list" id="indexContainer"></ul> <noscript> Um den vollen Funktionsumfang dieser Webseite zu erfahren, benötigen Sie JavaScript. Eine Anleitung wie Sie JavaScript in Ihrem Browser einschalten, befindet sich <a href="http://www.enable-javascript.com/de/" target="_blank">hier</a>. </noscript> <div class="loadmore" id="loadmoreajax"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"><g id="add-circle"><path d="M12,2C6.5,2,2,6.5,2,12s4.5,10,10,10c5.5,0,10-4.5,10-10S17.5,2,12,2z M17,13h-4v4h-2v-4H7v-2h4V7h2v4h4V13z"/></g></svg> 5 weitere Beiträge laden...</div> </div> <div class="wrap-modal"></div> <footer> <div class="width--wrapper"> <div class="scroll-top"> <svg version="1.1" id="scroll-top--icon" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewbox="0 0 451.847 451.846"> <g> <path d="M248.292,106.406l194.281,194.29c12.365,12.359,12.365,32.391,0,44.744c-12.354,12.354-32.391,12.354-44.744,0 L225.923,173.529L54.018,345.44c-12.36,12.354-32.395,12.354-44.748,0c-12.359-12.354-12.359-32.391,0-44.75L203.554,106.4 c6.18-6.174,14.271-9.259,22.369-9.259C234.018,97.141,242.115,100.232,248.292,106.406z"/> </g> </svg> </div> <ul class="footlist footpadding"> <li><a href="/kontakt" id="kontaktToggle">Kontakt</a></li> <li><a href="/blog-abonnieren">Blog Abonnieren</a></li> <li><a href="/mischungsrechner">Mischungsrechner</a></li> <li><a href="/#suche">Suche</a></li> </ul> <h5><a href="/impressum">Impressum & Datenschutzhinweise</a></h5> <div class="footer__social"> <a href="http://facebook.com/glossbossblog/" target="_blank"> <svg version="1.1" id="facebook" class="facebook" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 100 100"> <path d="M50,1.125C23.007,1.125,1.125,23.007,1.125,50S23.007,98.875,50,98.875S98.875,76.993,98.875,50S76.993,1.125,50,1.125z M68.646,26.015l-6.76,0.003c-5.3,0-6.326,2.519-6.326,6.215v8.15h12.641l-0.005,12.766H55.561v32.757H42.376V53.148H31.354V40.383 h11.022v-9.414c0-10.925,6.675-16.875,16.42-16.875l9.851,0.015V26.015z"/> </svg> </a> <a href="https://www.google.com/+GlossbossDe" target="_blank"> <svg version="1.1" id="googleplus" class="googleplus" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 100 100"> <g> <path d="M51.854,34.795c0-6.775-4.039-17.311-11.826-17.311c-2.448,0-5.071,1.222-6.577,3.105 c-1.598,1.979-2.062,4.511-2.062,6.965c0,6.3,3.658,16.741,11.736,16.741c2.345,0,4.872-1.123,6.382-2.63 C51.666,39.494,51.854,36.49,51.854,34.795z"/> <path d="M46.782,59.539c-0.748-0.094-1.218-0.094-2.156-0.094c-0.847,0-5.918,0.185-9.859,1.511 c-2.064,0.748-8.071,3.008-8.071,9.687c0,6.681,6.478,11.485,16.522,11.485c9.014,0,13.803-4.338,13.803-10.163 C57.021,67.153,53.923,64.621,46.782,59.539z"/> <path d="M50,1.125C23.007,1.125,1.125,23.007,1.125,50S23.007,98.875,50,98.875S98.875,76.993,98.875,50S76.993,1.125,50,1.125z M38.614,86.07c-13.616,0-20.184-6.488-20.184-13.455c0-3.385,1.687-8.18,7.227-11.475c5.818-3.575,13.709-4.043,17.936-4.334 c-1.319-1.692-2.816-3.479-2.816-6.394c0-1.597,0.47-2.539,0.934-3.669c-1.034,0.096-2.062,0.188-3.002,0.188 c-9.948,0-15.581-7.438-15.581-14.775c0-4.322,1.969-9.124,6.005-12.605c5.354-4.422,12.67-5.622,17.744-5.622h18.498l-6.105,3.836 h-5.817c2.158,1.786,6.659,5.549,6.659,12.703c0,6.957-3.938,10.259-7.879,13.36c-1.223,1.221-2.633,2.538-2.633,4.611 c0,2.065,1.41,3.193,2.44,4.047l3.383,2.628c4.132,3.48,7.887,6.679,7.886,13.177C63.308,77.137,54.76,86.07,38.614,86.07z M79.13,48.85v9.465h-4.645V48.85h-9.393v-4.697h9.393v-9.406h4.645v9.406h9.439v4.697H79.13z"/> </g> </svg> </a> <a href="https://www.youtube.com/user/glossbossblog" target="_blank"> <svg version="1.1" id="youtube" class="youtube" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 100 100"> <g> <polygon points="26.801,53.607 30.676,53.607 30.676,74.58 34.342,74.58 34.342,53.607 38.289,53.607 38.289,50.172 26.801,50.172 "/> <path d="M57.799,56.171c-1.212,0-2.343,0.662-3.406,1.972v-7.972h-3.295V74.58h3.295v-1.762c1.102,1.361,2.233,2.013,3.406,2.013 c1.311,0,2.193-0.691,2.633-2.044c0.22-0.771,0.334-1.983,0.334-3.665v-7.242c0-1.722-0.113-2.924-0.334-3.656 C59.993,56.861,59.11,56.171,57.799,56.171z M57.469,69.38c0,1.643-0.482,2.454-1.434,2.454c-0.541,0-1.092-0.259-1.643-0.811 V59.939c0.551-0.544,1.102-0.802,1.643-0.802c0.951,0,1.434,0.841,1.434,2.482V69.38z"/> <path d="M44.949,70.292c-0.731,1.033-1.422,1.542-2.084,1.542c-0.44,0-0.691-0.259-0.771-0.771c-0.03-0.107-0.03-0.509-0.03-1.281 v-13.39h-3.296v14.38c0,1.284,0.111,2.153,0.291,2.705c0.331,0.921,1.063,1.353,2.123,1.353c1.213,0,2.457-0.732,3.767-2.234v1.984 h3.298V56.393h-3.298V70.292z"/> <path d="M47.778,39.591c1.073,0,1.588-0.851,1.588-2.551v-7.731c0-1.701-0.515-2.548-1.588-2.548c-1.074,0-1.59,0.848-1.59,2.548 v7.731C46.188,38.741,46.704,39.591,47.778,39.591z"/> <path d="M50,1.125C23.007,1.125,1.125,23.007,1.125,50S23.007,98.875,50,98.875S98.875,76.993,98.875,50S76.993,1.125,50,1.125z M55.436,23.985h3.321v13.532c0,0.781,0,1.186,0.04,1.295c0.073,0.516,0.335,0.78,0.781,0.78c0.666,0,1.365-0.516,2.103-1.559 V23.985h3.331v18.379h-3.331v-2.004c-1.326,1.52-2.589,2.257-3.804,2.257c-1.073,0-1.813-0.435-2.146-1.365 c-0.184-0.557-0.296-1.436-0.296-2.733V23.985z M42.858,29.978c0-1.965,0.334-3.401,1.042-4.33 c0.921-1.257,2.218-1.885,3.878-1.885c1.668,0,2.964,0.628,3.885,1.885c0.699,0.928,1.033,2.365,1.033,4.33v6.436 c0,1.954-0.334,3.403-1.033,4.322c-0.921,1.254-2.217,1.881-3.885,1.881c-1.66,0-2.957-0.627-3.878-1.881 c-0.708-0.919-1.042-2.369-1.042-4.322V29.978z M33.952,17.701l2.622,9.685l2.519-9.685h3.735l-4.443,14.675v9.989h-3.692v-9.989 c-0.335-1.77-1.074-4.363-2.259-7.803c-0.778-2.289-1.589-4.585-2.367-6.872H33.952z M76.311,76.186 c-0.668,2.899-3.04,5.039-5.894,5.358c-6.762,0.755-13.604,0.759-20.42,0.755c-6.813,0.004-13.658,0-20.419-0.755 c-2.855-0.319-5.227-2.458-5.893-5.358c-0.951-4.13-0.951-8.638-0.951-12.89c0-4.252,0.012-8.76,0.962-12.89 c0.667-2.9,3.037-5.04,5.892-5.358c6.762-0.755,13.606-0.759,20.421-0.755c6.813-0.004,13.657,0,20.419,0.755 c2.855,0.319,5.227,2.458,5.895,5.358c0.949,4.13,0.942,8.638,0.942,12.89C77.265,67.548,77.261,72.056,76.311,76.186z"/> <path d="M68.295,56.171c-1.685,0-2.995,0.619-3.947,1.864c-0.7,0.92-1.018,2.342-1.018,4.286v6.37c0,1.933,0.357,3.366,1.058,4.277 c0.952,1.242,2.265,1.863,3.989,1.863c1.721,0,3.072-0.651,3.984-1.972c0.4-0.583,0.66-1.245,0.77-1.974 c0.031-0.33,0.07-1.061,0.07-2.124v-0.48H69.84c0,1.321-0.043,2.053-0.073,2.232c-0.188,0.881-0.661,1.322-1.472,1.322 c-1.132,0-1.685-0.84-1.685-2.523v-3.225h6.591v-3.766c0-1.944-0.329-3.366-1.02-4.286C71.26,56.791,69.949,56.171,68.295,56.171z M69.907,63.343h-3.296V61.66c0-1.682,0.553-2.523,1.654-2.523c1.091,0,1.642,0.841,1.642,2.523V63.343z"/> </g> </svg> </a> <a href="mailto:mail@glossboss.de"> <svg version="1.1" id="mailicon" class="mailicon" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 512 512"> <path d="M256,0C114.615,0,0,114.615,0,256s114.615,256,256,256s256-114.615,256-256S397.385,0,256,0z M128,128h256 c4.569,0,9.002,0.981,13.072,2.831L256,295.415L114.928,130.83C118.998,128.982,123.431,128,128,128z M96,352V160 c0-0.67,0.028-1.336,0.07-2l93.832,109.471L97.103,360.27C96.381,357.602,96,354.827,96,352z M384,384H128 c-2.827,0-5.601-0.381-8.27-1.104l91.059-91.06L256,344.586l45.212-52.747l91.058,91.06C389.6,383.619,386.827,384,384,384z M416,352c0,2.827-0.381,5.6-1.103,8.27l-92.801-92.799L415.93,158c0.042,0.664,0.07,1.33,0.07,2V352z"/> </svg> </a> </div> </div> </footer> <script async src="/dist/global.js?v=150"></script> <noscript> <style> #toggleMenu:checked ~ .linklist { display: block !important; } @media (max-width: 46.87em) { .linklist { display:none; } } </style> </noscript> </body> </html>

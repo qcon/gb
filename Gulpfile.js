@@ -8,12 +8,22 @@ var cp = require("child_process");
 var browserSync = require("browser-sync");
 var notify = require("gulp-notify");
 var rename = require("gulp-rename");
+var critical = require('critical');
 
 
 var msg = {
 	jekyllBuild: '<span style="color: grey">Running:</span> $ jekyll build'
 };
-
+gulp.task('critical', function (cb) {
+  critical.generate({
+    base: '_site/',
+    src: 'index.html',
+    css: ['dist/layout.css'],
+    dest: '_includes/critical.css',
+    minify: true,
+    extract: false
+  });
+});
 gulp.task('browser-sync', function() {
     browserSync.init({
         server: {

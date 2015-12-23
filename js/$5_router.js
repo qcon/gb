@@ -50,7 +50,6 @@
 			}
 			$('#indexContainer li').each(function(post) {
 				var postPublished = getCurDate - post.getAttribute("data-published");
-				console.log('Curr Date: ' + getCurDate + ' PostPublished: ' + postPublished);
 				if(postPublished <= 85) {
 					post.innerHTML = '<span class="post--new">NEU</span>' + post.innerHTML;
 				}
