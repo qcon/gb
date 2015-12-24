@@ -189,6 +189,6 @@ task :newpost do
 		post.puts "head__img--fullurl: https://glossbossimages.s3.eu-central-1.amazonaws.com/"
 		post.puts '---'
 	end
-	execute("sublime #{filename}")
+	#execute("sublime #{filename}")
 
 end
