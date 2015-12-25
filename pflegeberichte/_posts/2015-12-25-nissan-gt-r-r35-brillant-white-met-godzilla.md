@@ -124,7 +124,7 @@ Anschliessend kann gewaschen werden. Begonnen wird bei mir immer mit einer Schau
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/RBdetailing/gtr/DSC_1330.jpg)
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/RBdetailing/gtr/DSC_1331.jpg)
 
-Ausführliche Waschbilder wurden nicht da gemacht, da dies schon oft beschrieben wurde. Wenn es euch dennoch interessiert wie man ein Fahrzeug gründlich wäscht, so schaut doch einfach mal hier vorbei: https://glossboss.de/anleitungen/die-7-grundregeln-fuer-die-optimale-fahrzeugwaesche
+Ausführliche Waschbilder wurden nicht da gemacht, da dies schon oft beschrieben wurde. Wenn es euch dennoch interessiert wie man ein Fahrzeug gründlich wäscht, so schaut doch einfach mal hier vorbei: [Die 7 Grundregeln für die optimale Fahrzeugwäsche](https://glossboss.de/anleitungen/die-7-grundregeln-fuer-die-optimale-fahrzeugwaesche)
 
 Auch wenn das Fahrzeug dann gewaschen vor einem steht, perfekt für die Politurarbeit ist es erst, wenn der Lack gründlich geknetet wurde. Täglich setzen sich winzige, schädliche Partikel auf dem Lack fest, die locker und mühelos mit einer Reinigungsknete entfernt werden können. Unkompliziert kann mit der gelben Lackreinigungsknete von Valet PRO gearbeitet werden. Als Gleitmittel diente Citrus Bling in einer 1:6 Mischung.
 
