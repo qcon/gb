@@ -41,7 +41,7 @@ Der **Verbrauch** hängt wie so oft von der Lackfläche des zu bearbeitenden Obj
 Die "Politur" ist nicht unbedingt dünnflüssig - ehr cremiger. Sie lässt sich dank der Dosierspitze der 250ml Flasche ideal portionieren, ist weiss und nahezu geruchsneutral.   
 
 
-**Vorarbeit:**  
+**Vorarbeit:**
 
 - Wagen gründlich waschen   
 - ggf. Flugrost- und Teerentferner nutzen   
@@ -114,7 +114,7 @@ Die Oberfläche hat nach dem RIM nun nicht mehr die Essence-Glätte, scheinbar h
 **Glanz** und **Klarheit** passen, schaut soweit alles gut aus!   
 
 **Fazit Felgen:**   
-Bislang war ich vom Finish Kare 1000P auf den Felgen sehr angetan, mit 2-3 Schichten kamen wir bequem durch die Saison. Vom Essence + RIM erhoffe ich mir eine längere Standzeit und einfachere Reinigung. Weitere Erfahrungen leider erst ab dem Radwechsel im Frühjahr.   
+Bislang war ich vom Finish Kare 1000P auf den Felgen sehr angetan, mit 2-3 Schichten kamen wir bequem durch die Saison. Vom Essence + RIM erhoffe ich mir eine längere Standzeit und einfachere Reinigung im Vergleich zum FinishKare. Weitere Erfahrungen leider erst ab dem Radwechsel im Frühjahr.   
 
 ![](http://glossbossimages.s3.eu-central-1.amazonaws.com/jones/tests/carpro_essence/03.jpg)   
 
@@ -132,7 +132,7 @@ Gründlich waschen, besonders die Drecknester...
 ![](http://glossbossimages.s3.eu-central-1.amazonaws.com/jones/tests/carpro_essence/07.jpg)   
 
 Sämtliche Fugen bitte immer gezielt ausspülen. Waschanlagen oder gar eine dieser trendigen und ach so guten "Trockenwäschen" kommen hier absolut nicht ran. Kennt ihr die kleinen Biotope und Moos an den Leuchten, zwischen Bauteilen und in Dichtungen - wollen wir Glossbosse sowas?   
-Echte Enthusiasten waschen vernüntig, mit gutem Autoshampoo und vor allem ausreichend vom besten Reiniger der Natur: Wasser!   
+Echte Enthusiasten waschen vernünftig, mit gutem Autoshampoo und vor allem ausreichend vom besten Reiniger der Natur: Wasser!   
 ![](http://glossbossimages.s3.eu-central-1.amazonaws.com/jones/tests/carpro_essence/08.jpg)   
 
 Auch an Stellen an denen selten die Sonne scheint.   
@@ -147,7 +147,7 @@ Perfektes Opfer. Kratzer von der Wäsche / Waschanlagen und vom Kneten (Magic Cl
 
 ![](http://glossbossimages.s3.eu-central-1.amazonaws.com/jones/tests/carpro_essence/13.jpg)   
 
-An der **tatsächlichen "Defektkorrektur"** des CarPro Essence **"zweifel"** ich etwas - es ist und bleibt eine füllende Schleifpolitur. Ich hätte nun mit IPA, Silikonentferner, Acrysol & Co auf den Lack losgehen können um zu sehen wie gut die Defektkorrerktur / Polierwirkung ist - aber wozu, bringt doch nichts verlässliches und ist auch nicht Sinn der Sache. Für meinen Geschmack sollte der Lack besser schon vor dem Essence in gutem Zustand sein! Eine eigenständige Anti-Hologramm-Politur kann das Essence sicherlich ersetzen *(CarPro Reflect ist ja Anteilig enthalten)* - ich persönlich werde bei Bedarf vorab weiterhin eine Anti-Hologramm-Politur verarbeiten, auch wenn es nur für das Gewissen ist.   
+An der **tatsächlichen "Defektkorrektur"** des CarPro Essence **"zweifel"** ich etwas - es ist und bleibt eine **füllende** Schleifpolitur. Ich hätte nun mit IPA, Silikonentferner, Acrysol & Co auf den Lack losgehen können um zu sehen wie gut die Defektkorrerktur / Polierwirkung ist - aber wozu, bringt doch nichts verlässliches und ist auch nicht Sinn der Sache. **Für meinen Geschmack sollte der Lack besser schon vor dem Essence in gutem Zustand sein!** Eine eigenständige Anti-Hologramm-Politur könnte das Essence sicherlich ersetzen *(CarPro Reflect ist ja Anteilig enthalten)* - ich persönlich werde bei Bedarf vorab weiterhin eine Anti-Hologramm-Politur verarbeiten, auch wenn es nur für das Gewissen ist.   
 
 
 Hier mal ein mit Essence polierter Bereich. Rupes Duetto, gelbes Pad und Stufe 5.   
@@ -201,7 +201,7 @@ Die Kofferraumhaube vorn hatte ich nach dem Essence mit Gyeon Prep gereinigt, al
 
 ![](http://glossbossimages.s3.eu-central-1.amazonaws.com/jones/tests/carpro_essence/27.jpg)   
 
-Die **Steinschlagschutzfolie** vorn am hinteren Kotflügel und den Türkantenschutz rechts neben dem Türgriff hatte ich ebenfalls mit dem Essence und Prime behandelt, bislang hat es offensichtlichen nicht geschadet.
+Die **Steinschlagschutzfolie** vorn am hinteren Kotflügel und den kleinen Türkantenschutz rechts vom Türgriff hatte ich ebenfalls mit dem Essence und Prime behandelt, bislang hat es offensichtlichen nicht geschadet.
 
 ![](http://glossbossimages.s3.eu-central-1.amazonaws.com/jones/tests/carpro_essence/28.jpg)   
 
@@ -240,6 +240,7 @@ Schleift und poliert den Lack wie gewohnt bis zum Lackfinish ab dem ihr versiege
 Eine eventuell nachfolgende Versiegelungen lässt sich vielleicht auch bei euch etwas einfacher verarbeiten - wie es hier bislang der Fall war. Angenommen ihr habt einen ultra empfindlichen Lack, hier wird es mit dem Essence sicher nervenschonender.   
 
 Die **Standzeit-** und **Verträglichkeitsfrage** kann ich euch leider noch nicht beantworten, Updates folgen von Zeit zu Zeit.   
+Ich weiss ja nicht wie es denen ergeht die es bereits verarbeitet haben, aber habt ihr auch den Eindruck das die **Orangenhaut** des Lackes nun richig hervortritt? :D   
 
 *Lohnt sich die Anschaffung und ist sie es wert?*   
 - Das muss jeder selbst für sich wissen. Runter gerechnet sind es wenige Euro, und eure Zeit.   

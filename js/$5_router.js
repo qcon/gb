@@ -48,12 +48,23 @@
 					postDB.push(post[i].card);
 				}
 			}
+
+
+
+			// LOOP THROUGH ALL POST
 			$('#indexContainer li').each(function(post) {
 				var postPublished = getCurDate - post.getAttribute("data-published");
 				if(postPublished <= 85) {
 					post.innerHTML = '<span class="post--new">NEU</span>' + post.innerHTML;
 				}
 			});
+
+
+
+
+
+
+
 			postContainer.removeClass("opacity-0");
 			pageHeading.removeClass("opacity-0");
 			loader(0);
