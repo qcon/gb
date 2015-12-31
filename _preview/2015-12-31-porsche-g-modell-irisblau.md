@@ -69,6 +69,9 @@ head__img--fullurl: https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/porsche_gmodell_1/DSC00417.jpg)
 
 
+![](https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/porsche_gmodell_1/lackmessung.jpg)
+
+
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/porsche_gmodell_2/DSC_0110.jpg)
 
 
