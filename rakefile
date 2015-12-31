@@ -186,7 +186,7 @@ task :newpost do
 		post.puts "title: \"#{title.gsub(/-/,' ')}\""
 		post.puts "author: \"#{author}\""
 		post.puts "wps_subtitle: #{subtitle}"
-		post.puts "head__img--fullurl: https://glossbossimages.s3.eu-central-1.amazonaws.com/"
+		post.puts "head__img--fullurl: IMGURL"
 		post.puts '---'
 	end
 	#execute("sublime #{filename}")
