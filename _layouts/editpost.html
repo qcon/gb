@@ -1,0 +1,55 @@
+---
+layout: default
+---
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/3.2.1/css/font-awesome.css">
+
+<!-- <link rel="stylesheet" href="http://hallojs.org/css/jquery-ui-bootstrap/jquery-ui-1.8.16.custom.css"> -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.2/jquery-ui.min.js"></script>
+<link rel="stylesheet" href="https://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/rangy/1.3.0/rangy-core.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<script src="../dist/hallo.js"></script>
+<style media="screen">
+  #source {
+    width: 100%;
+    min-height: 300px;
+    background: #CFCFD8;
+  }
+</style>
+<div class="width--wrapper" id="post--list__container">
+	<article class="post--content">
+		{{ content }}
+	</article>
+
+  <textarea id="source">
+</textarea>
+	<div class="post--sharing">
+		<h4 id="sharecounter"></h4>
+		<a href="https://facebook.com/sharer/sharer.php?u={{ page.url | prepend: site.url}}" target="_blank" class="share--facebook">Facebook</a>
+		<a href="https://twitter.com/home?status={{ page.url | prepend: site.url}}" target="_blank" class="share--twitter">Twitter</a>
+		<a href="https://plus.google.com/share?url={{ page.url | prepend: site.url}}" target="_blank" class="share--gplus">Google+</a>
+		<a href="" class="share--whatsapp">WhatsApp</a>
+	</div>
+	<div class="post--prev-next">
+		<h4>Könnte dich auch interessieren:</h4>
+		<ul>
+			{% if page.previous.url %}
+			<li>
+				<a href="{{page.previous.url}}" alt="Vorheriger Artikel: {{page.previous.title}}">{{page.previous.title}}</a> - {{page.previous.wps_subtitle}}
+			</li>
+			{% endif %}
+			{% if page.next.url %}
+			<li>
+				<a href="{{page.next.url}}" alt="Nächster Artikel: {{page.next.title}}">{{page.next.title}}</a> - {{page.next.wps_subtitle}}
+			</li>
+			{% endif %}
+		</ul>
+	</div>
+	{% if page.comments_block %}
+
+	{% else %}
+		{% include comment.html %}
+	{% endif %}
+</div>
