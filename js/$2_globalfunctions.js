@@ -43,7 +43,7 @@
 			$('#search-input')[0].value = '';
 			$('#results-container').html(" ");
 		});
-		
+
 		$('#searchWrapper').style("display", "block");
 		SimpleJekyllSearch.init({
 			searchInput: document.getElementById('search-input'),
@@ -104,9 +104,9 @@
 	})();
 	var d = new Date();
 	var curr_date = ("0" + d.getDate()).slice(-2);
-	var curr_month = d.getMonth() + 1;
+	var curr_month = ( "0" + (d.getMonth() + 1)).slice(-2);
 	var curr_year = d.getFullYear();
-	var getCurDate = curr_year + "" + curr_month + "" + curr_date;
+	var getCurDate = [curr_year, curr_month, curr_date];
 
 	// assign Functions to window
 	w.ajax = ajax;

@@ -54,7 +54,8 @@
 			// LOOP THROUGH ALL POST
 			$('#indexContainer li').each(function(post) {
 				var postPublished = getCurDate - post.getAttribute("data-published");
-				if(postPublished <= 85) {
+				postDate = post.getAttribute('data-published').split('-');
+				if((getCurDate[0] === postDate[0]) && (getCurDate[1] === postDate[1])) {
 					post.innerHTML = '<span class="post--new">NEU</span>' + post.innerHTML;
 				}
 			});
