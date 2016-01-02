@@ -12,4 +12,8 @@ Um die laufenden Kosten zu decken sind wir für jede Spende dankbar - denn allei
 
 Deswegen bedanke ich mich Voraus bei jeden der den Blog unterstützt!
 
+[Kaufe mir was von meiner Amazon Wunschliste](http://www.amazon.de/registry/wishlist/1PHYOHZNRTBF3)
+
+oder
+
 <div class="donationBox"><a class="donationButton" href="http://paypal.me/marvinmieth/5" alt="Spenden mit Paypal" target="_blank">Spenden (PayPal)</a></div>

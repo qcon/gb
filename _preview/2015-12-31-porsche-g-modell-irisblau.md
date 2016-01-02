@@ -5,7 +5,7 @@ author: "Marvin"
 wps_subtitle: Irisblaues Cabrio
 head__img--fullurl: https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/porsche_gmodell_1/DSC00559.jpg
 ---
-## Porsche 991 (G-Model) in Irisblau
+## Porsche 911 (G-Modell) in Irisblau
 
 Politurrückstände vom vorherigen Aufbereiter
 
@@ -77,9 +77,19 @@ Der Lack war an manchen Bauteilen nicht mehr im Originalzustand und wurde teilwe
 
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/porsche_gmodell_1/lackmessung.jpg)
 
+Auf der Haube wurde mit 3 unterschiedlichen Testspots (alle mit der Rotationsmaschine und orangenem Pad) gestartet:&nbsp;
+
+1\. Chris Politur - auf mittlerer Stufe einfahren, dann mit hoher Drehzahl und viel Druck durcharbeiten
+
+2\. Menzerna 250\. - auf mittlerer Stufe und etwas Druck durcharbeiten
+
+3\. Autobrillant Mittel - auf mittlerer Stufe und etwas Druck durcharbeiten
+
+Alle 3 Testspots waren ähnlich von der Defektkorrektur. Stellenweise waren aber bis zu 4 Durchgänge nötig um das gewünschte Ergebnis zu erzielen.
+
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/porsche_gmodell_2/DSC_0110.jpg)
 
-![](https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/porsche_gmodell_1/DSC00422.jpg)
+Kratzer und leichter Farbunterschied vorher
 
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/porsche_gmodell_1/DSC00423.jpg)
 
@@ -87,11 +97,15 @@ Der Lack war an manchen Bauteilen nicht mehr im Originalzustand und wurde teilwe
 
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/porsche_gmodell_1/DSC00425.jpg)
 
+Fertig poliert nach 3 Durchgängen
+
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/porsche_gmodell_1/DSC00427.jpg)
 
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/porsche_gmodell_1/DSC00428.jpg)
 
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/porsche_gmodell_1/DSC00431.jpg)
+
+Links Poliert, rechts noch die Kratzer vom Nummernschild zu sehen
 
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/porsche_gmodell_1/DSC00433.jpg)
 
@@ -101,6 +115,8 @@ Der Lack war an manchen Bauteilen nicht mehr im Originalzustand und wurde teilwe
 
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/porsche_gmodell_1/DSC00437.jpg)
 
+Kotflügel vorne rechts mit tiefen Kratzern
+
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/porsche_gmodell_2/IMG_2423.JPG)
 
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/porsche_gmodell_2/IMG_2424.JPG)
@@ -108,6 +124,8 @@ Der Lack war an manchen Bauteilen nicht mehr im Originalzustand und wurde teilwe
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/porsche_gmodell_2/IMG_2425.JPG)
 
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/porsche_gmodell_2/IMG_2426.JPG)
+
+Die Kratzer wurden in mehreren Durchgängen mit den Kovax Trockenschleifsystem angeschliffen und anschließend mit einem Spotpad auspoliert
 
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/porsche_gmodell_2/IMG_2427.JPG)
 
@@ -121,6 +139,8 @@ Der Lack war an manchen Bauteilen nicht mehr im Originalzustand und wurde teilwe
 
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/porsche_gmodell_2/IMG_2432.JPG)
 
+Rückleuchten Polieren
+
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/porsche_gmodell_1/DSC00439.jpg)
 
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/porsche_gmodell_1/DSC00441.jpg)
@@ -133,23 +153,31 @@ Der Lack war an manchen Bauteilen nicht mehr im Originalzustand und wurde teilwe
 
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/porsche_gmodell_1/DSC00452.jpg)
 
-![](https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/porsche_gmodell_1/DSC00454.jpg)
+Das Finish wurde mit Rupes, einem gelben Pad und der 3\. Anti-Hologramm gefahren. Dabei sollte man sich schön Zeit lassen und die Politur ordentlich durcharbeiten. Belohnt wird man mit einen absolut klaren Spiegelglanz!
 
-![](https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/porsche_gmodell_2/IMG_2420.JPG)
+![](https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/porsche_gmodell_1/DSC00454.jpg)
 
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/porsche_gmodell_1/DSC00455.jpg)
 
+Vor dem Wax bzw. dem Versiegelungsauftrag absolut Pflicht: den Lack von Polierölen befreien. Das Mittel erster Wahl: der Petzoldts Kontrollreiniger
+
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/porsche_gmodell_1/DSC00460.jpg)
+
+Danach noch die Restarbeiten erledigen, wie z.B. Auspuff wieder glänzen bringen
 
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/porsche_gmodell_2/DSC_0121.jpg)
 
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/porsche_gmodell_2/DSC_0124.jpg)
+
+Alle Schriftzüge, Ecken, Kanten und Sicken mit einem Wattestäbchen reinigen
 
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/porsche_gmodell_2/DSC_0063.jpg)
 
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/porsche_gmodell_1/DSC00471.jpg)
 
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/porsche_gmodell_1/DSC00473.jpg)
+
+Und der Wagen ist bereit für das Wax. Wir entschieden uns für das waxaddict quartz. Dieses Wax hat eine längere Standzeit aufgrund der Siliziumanteile und glänzt trotzdem so wie ein herkömmliches Carnaubawachs
 
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/porsche_gmodell_1/DSC00472.jpg)
 
@@ -159,11 +187,11 @@ Der Lack war an manchen Bauteilen nicht mehr im Originalzustand und wurde teilwe
 
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/porsche_gmodell_1/DSC00478.jpg)
 
+Danach wurden alle Kunststoffe mit BlackWOW gepflegt
+
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/porsche_gmodell_1/DSC00485.jpg)
 
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/porsche_gmodell_1/DSC00487.jpg)
-
-![](https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/porsche_gmodell_1/DSC00488.jpg)
 
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/porsche_gmodell_1/DSC00489.jpg)
 
@@ -179,9 +207,15 @@ Der Lack war an manchen Bauteilen nicht mehr im Originalzustand und wurde teilwe
 
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/porsche_gmodell_1/DSC00499.jpg)
 
+Am nächsten Tag war der Innenraum dran. Zunächst alles mit einer Bürste bzw. einem Pinsel entstauben und den Teppich absaugen
+
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/porsche_gmodell_1/DSC00501.jpg)
 
+Danach mit Finish Kare #12\. alle Kunststoff und Lederteile im Innenraum gereinigt
+
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/porsche_gmodell_1/DSC00502.jpg)
+
+Im Anschluß wurden die Kunststoffe mit Dash Away gepflegt
 
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/porsche_gmodell_1/DSC00503.jpg)
 
@@ -197,13 +231,19 @@ Der Lack war an manchen Bauteilen nicht mehr im Originalzustand und wurde teilwe
 
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/porsche_gmodell_1/DSC00518.jpg)
 
+Sitzwange links gereinigt, rechts noch speckig glänzend
+
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/porsche_gmodell_1/DSC00519.jpg)
+
+Sitzfläche komplett gereinigt
 
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/porsche_gmodell_1/DSC00524.jpg)
 
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/porsche_gmodell_1/DSC00525.jpg)
 
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/porsche_gmodell_1/DSC00526.jpg)
+
+Und nun zurücklehnen und genießen... Es folgen die **Finishbilder**
 
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/porsche_gmodell_1/DSC00528.jpg)
 

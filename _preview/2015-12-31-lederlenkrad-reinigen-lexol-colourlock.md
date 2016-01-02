@@ -2,7 +2,7 @@
 layout: post
 title: "Lederlenkrad reinigen"
 author: "Ronny"
-wps_subtitle: Mit Lexol & Colourlock
+wps_subtitle: Mit Colourlock
 head__img--fullurl: https://glossbossimages.s3.eu-central-1.amazonaws.com/chiller/lederlenkrad/Lederlenkrad10.jpg
 ---
 #Kleiner Autopflege-Quickie für zwischendurch
