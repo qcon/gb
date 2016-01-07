@@ -4,7 +4,7 @@ author: Jones
 head__img--fullurl: https://glossbossimages.s3.eu-central-1.amazonaws.com/headerimg/mattescheinwerfer.jpg
 layout: post
 pdf_version: jap
-wps_subtitle:
+subtitle:
   - So werden blinde Scheinwerfer wieder klar poliert
 categories:
   - Anleitungen

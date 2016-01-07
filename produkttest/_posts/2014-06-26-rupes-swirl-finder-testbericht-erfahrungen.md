@@ -3,7 +3,7 @@ title: Rupes LL150 Swirlfinder
 author: Marvin
 layout: post
 head__img--fullurl: https://glossbossimages.s3.eu-central-1.amazonaws.com/headerimg/rupesswirlfinder.jpg
-wps_subtitle:
+subtitle:
   - Erfahre hier ob sie wirklich so gut ist!
 dsq_thread_id:
   - 2840164499

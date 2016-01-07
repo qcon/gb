@@ -2,7 +2,7 @@
 layout: post
 title: "Nanolex Si3D"
 author: "Alexander"
-wps_subtitle: Laserblue erstrahlt in neuem Glanz
+subtitle: Laserblue erstrahlt in neuem Glanz
 categories: Produkttest
 head__img--fullurl: https://glossbossimages.s3.eu-central-1.amazonaws.com/alex/nanolexsi3d/7.JPG
 ---

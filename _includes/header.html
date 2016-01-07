@@ -4,7 +4,7 @@
 		{% if page.title == nil %}
 		  <a href="http://glossboss.de" alt="Glossboss.de - Startseite"><h1> Glossboss.de - <small>dein Autopflege Blog</small></h1></a>
 		{% else %}
-		  <a href="{{ page.url | replace:'index.html','' | prepend: site.url }}"><h1>{{ page.title }} <small>{{ page.wps_subtitle }}</small></h1></a>
+		  <a href="{{ page.url | replace:'index.html','' | prepend: site.url }}"><h1>{{ page.title }} <small>{{ page.subtitle }}</small></h1></a>
 		  {% if page.date %}
 			<h4>
 			  {% assign m = page.date | date: "%-m" %}

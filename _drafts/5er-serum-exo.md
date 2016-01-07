@@ -2,7 +2,7 @@
 layout: post
 title: "5er Serum + Exo"
 author: "Marvin"
-wps_subtitle: 
+subtitle: 
 categories: Pflegeberichte
 head__img--fullurl: https://glossbossimages.s3.eu-central-1.amazonaws.com/
 markasnew: true

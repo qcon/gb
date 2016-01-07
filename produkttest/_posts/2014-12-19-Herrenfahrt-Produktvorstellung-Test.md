@@ -2,7 +2,7 @@
 title: Produktvorstellung Herrenfahrt
 author: Marvin
 layout: post
-wps_subtitle: Kompositionen in Holz
+subtitle: Kompositionen in Holz
 permalink: produkttest/Herrenfahrt-Produktvorstellung-Test/
 categories: Produkttest
 head__img--fullurl: https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/herrenfahrttest/P1020201.JPG

@@ -46,14 +46,24 @@ gulp.task("js", function() {
 	.pipe(uglify())
 	.pipe(gulp.dest("./dist/"))
 });
-gulp.task("watch-jekyll", ["jekyll"], browserSync.reload);
+gulp.task("jsdev", function() {
+	return gulp.src(["js/$1_selector.js", "js/$2_globalfunctions.js", "js/$2_mischungsrechner.js", "js/$3_search.js", "js/$4_main.js", "js/$5_router.js", "js/$6_kontakt.js", ])
+	.pipe(concat("./global.js"))
+	.pipe(gulp.dest("./dist/"))
+});
+gulp.task("watch-jekyll", ["jekylldev"], browserSync.reload);
 
+gulp.task('jekylldev', ["jsdev", "sass"], function (done) {
+	browserSync.notify(msg.jekyllBuild);
+	return cp.spawn("jekyll", ['build'], {stdio: 'inherit'})
+	.on("close", done);
+});
 gulp.task('jekyll', ["js", "sass"], function (done) {
 	browserSync.notify(msg.jekyllBuild);
 	return cp.spawn("jekyll", ['build'], {stdio: 'inherit'})
 	.on("close", done);
 });
-gulp.task("watch", ["jekyll"], function() {
+gulp.task("watch", ["jekylldev"], function() {
 	gulp.watch(['allgemein/index.html','index.html', '_layouts/*.html', '_includes/*.html', '_posts/*/**', "js/*.js", "_sass/*.scss", "_preview/*.md", "authoren/*.md", "_data/*", '_config.yml'], ['watch-jekyll']);
 });
 gulp.task("default", ['browser-sync', "watch"]);

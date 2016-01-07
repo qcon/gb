@@ -3,7 +3,7 @@ title: Anleitung Felgenversiegelung (Teil 1)
 author: Ronny
 layout: post
 head__img--fullurl: https://glossbossimages.s3.eu-central-1.amazonaws.com/chiller/Felgenversiegelung%20Supernatural%20Wheel%20Sealant/30.jpg
-wps_subtitle:
+subtitle:
   - 'Dodo Juice Supernatural Wheel Sealant'
 categories:
   - Anleitungen

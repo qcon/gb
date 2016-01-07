@@ -3,7 +3,7 @@ title: Smart Fortwo Coupé mhd Passion
 author: Benni
 layout: post
 head__img--fullurl: https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/sonstige/smartfortwobenni.jpg
-wps_subtitle:
+subtitle:
   - 'Uni-Schwarzer Glanzzwerg'
 categories:
   - Pflegeberichte

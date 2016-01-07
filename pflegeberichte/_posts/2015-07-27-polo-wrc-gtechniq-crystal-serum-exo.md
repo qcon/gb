@@ -2,7 +2,7 @@
 layout: post
 title: "Mini-Pflegebericht: Polo WRC"
 author: "Marvin"
-wps_subtitle: Endergebnis mit Gtechniq Crystal Serum + Exo
+subtitle: Endergebnis mit Gtechniq Crystal Serum + Exo
 categories: Pflegebrichte
 head__img--fullurl: https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/polowrc/P1020939.JPG
 ---

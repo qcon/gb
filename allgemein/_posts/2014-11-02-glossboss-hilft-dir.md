@@ -5,7 +5,7 @@ layout: post
 pdf_version: jap
 ftf_open_type:
   - 
-wps_subtitle:
+subtitle:
   - Jetzt bewerben!
 categories:
   - Allgemein

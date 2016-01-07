@@ -2,7 +2,7 @@
 layout: post
 title: "Audi A3 Sportback"
 author: "René"
-wps_subtitle: TIEFENSEEBLAU PERLMUTT-EFFEKT. - // Illusion!
+subtitle: TIEFENSEEBLAU PERLMUTT-EFFEKT. - // Illusion!
 categories: Pflegeberichte
 head__img--fullurl: https://glossbossimages.s3.eu-central-1.amazonaws.com/RBdetailing/AudiA3SportbackIllusion/DSC_9692.jpg
 ---

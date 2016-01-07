@@ -2,7 +2,7 @@
 layout: post
 title: "Misanoroter Quattro"
 author: "Ralf"
-wps_subtitle: Audi TT mit Gtechniq Serum + Exo versiegelt
+subtitle: Audi TT mit Gtechniq Serum + Exo versiegelt
 head__img--fullurl: https://glossbossimages.s3.eu-central-1.amazonaws.com/ralf/audi_tt_misanorot/DSC_0361.JPG
 ---
 

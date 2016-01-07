@@ -2,7 +2,7 @@
 layout: post
 title: "Autopflege so günstig wie möglich"
 author: "Marvin"
-wps_subtitle: Perfekt gepflegt für unter 50 Euro
+subtitle: Perfekt gepflegt für unter 50 Euro
 head__img--fullurl: https://glossbossimages.s3.eu-central-1.amazonaws.com/
 ---
 

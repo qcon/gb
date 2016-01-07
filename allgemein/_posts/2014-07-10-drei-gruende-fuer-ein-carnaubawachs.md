@@ -4,7 +4,7 @@ author: Marvin
 layout: post
 pdf_version: jap
 head__img--fullurl: https://glossbossimages.s3.eu-central-1.amazonaws.com/headerimg/3carnauba.jpg
-wps_subtitle:
+subtitle:
   - Emotion besiegt Vernunft
 categories:
   - Allgemein

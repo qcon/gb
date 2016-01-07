@@ -2,7 +2,7 @@
 layout: post
 title: "Grundlagen: Lack richtig abkleben"
 author: "Marvin"
-wps_subtitle: So gibts nach dem Polieren keine bösen Überraschungen
+subtitle: So gibts nach dem Polieren keine bösen Überraschungen
 categories: Anleitungen
 head__img--fullurl: https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/richtigabkleben/P1020907.JPG
 ---

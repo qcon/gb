@@ -3,7 +3,7 @@ title: Chrom Polieren
 author: Marvin
 layout: post
 head__img--fullurl: https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/chrompolieren/P1020893.JPG
-wps_subtitle:
+subtitle:
   - '3 Schritte damit wieder glänzt, was glänzen muss'
 categories:
   - Anleitungen

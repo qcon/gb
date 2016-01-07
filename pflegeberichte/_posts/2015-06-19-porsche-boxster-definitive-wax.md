@@ -2,7 +2,7 @@
 layout: post
 title: "Porsche Boxster"
 author: "Dirk"
-wps_subtitle: Definitive Club Wax
+subtitle: Definitive Club Wax
 categories: Pflegeberichte
 head__img--fullurl: https://glossbossimages.s3.eu-central-1.amazonaws.com/dirk/boxster/DSC_0030.JPG
 ---

@@ -4,7 +4,7 @@ author: Ronny
 pdf_version: jap
 head__img--fullurl: https://glossbossimages.s3.eu-central-1.amazonaws.com/headerimg/eosschwarz.jpg
 layout: post
-wps_subtitle:
+subtitle:
   - Versiegelt mit Dodo Juice Supernatural Infinity
 categories:
   - Pflegeberichte

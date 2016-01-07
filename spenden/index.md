@@ -2,7 +2,7 @@
 layout: page
 randomHeader: true
 title: Spenden
-wps_subtitle: Wir brauchen deine Hilfe!
+subtitle: Wir brauchen deine Hilfe!
 ---
 Glossbosse,
 

@@ -2,7 +2,7 @@
 layout: post
 title: "Polierpads reinigen"
 author: "Ronny"
-wps_subtitle: Diese einfache Methode wird dein Polierergebnis verbessern
+subtitle: Diese einfache Methode wird dein Polierergebnis verbessern
 categories: Anleitungen
 head__img--fullurl: https://glossbossimages.s3.eu-central-1.amazonaws.com/chiller/Padreinigung/Padreinigung01.jpg
 ---

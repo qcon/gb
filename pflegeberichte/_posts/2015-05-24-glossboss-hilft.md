@@ -2,7 +2,7 @@
 layout: post
 title: "Glossboss hilft - VW Golf 3 GTI"
 author: "Ronny"
-wps_subtitle: Der Bericht zur Hilfsaktion
+subtitle: Der Bericht zur Hilfsaktion
 categories: Pflegeberichte
 head__img--fullurl: https://glossbossimages.s3.eu-central-1.amazonaws.com/chiller/Glossboss_hilft_Bericht/Golf3GTI24.jpg
 ---

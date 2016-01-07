@@ -4,7 +4,7 @@ author: Jones
 layout: post
 pdf_version: jap
 head__img--fullurl: https://glossbossimages.s3.eu-central-1.amazonaws.com/headerimg/cayenne1.jpg
-wps_subtitle:
+subtitle:
   - 'Metrograu - Versiegelt'
 dsq_thread_id:
   - 2841636355

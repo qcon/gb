@@ -3,7 +3,7 @@ title: Lotus Elise
 author: Marvin
 layout: post
 head__img--fullurl: https://glossbossimages.s3.eu-central-1.amazonaws.com/headerimg/lotuselise.jpg
-wps_subtitle:
+subtitle:
   - Kann dieser Lack noch mehr glänzen?
 categories:
   - Pflegeberichte

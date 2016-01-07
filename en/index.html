@@ -11,7 +11,7 @@ head__img--fullurl: https://glossbossimages.s3.eu-central-1.amazonaws.com/header
       <div class="post--img" style="background:url('{% if post.head__img %} {{ post.head__img }} {% else %} {{ post.head__img--fullurl }} {% endif %}') 50% 50% no-repeat;background-size:cover;"></div>
       
       <span class="post--datum">{{ post.date | date: "%-d %b, %Y" }} </span>
-      <span class="post--title__a">{{ post.title }} <small>{{ post.wps_subtitle }}</small> <h6> {{ post.categories }}</h6></span>
+      <span class="post--title__a">{{ post.title }} <small>{{ post.subtitle }}</small> <h6> {{ post.categories }}</h6></span>
       </a>
     </li>
     {% endfor %}

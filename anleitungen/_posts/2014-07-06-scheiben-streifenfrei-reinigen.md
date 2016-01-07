@@ -4,7 +4,7 @@ author: Marvin
 layout: post
 pdf_version: jap
 head__img--fullurl: https://glossbossimages.s3.eu-central-1.amazonaws.com/headerimg/streifenfrei.jpg
-wps_subtitle: 'Das Tuch macht den Unterschied. '
+subtitle: 'Das Tuch macht den Unterschied. '
 categories: Anleitungen
 ---
 Ja richtig. Das Tuch ist mit das wichtigste bei der Scheibenreinigung.

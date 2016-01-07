@@ -4,7 +4,7 @@ author: Alex
 pdf_version: jap
 layout: post
 head__img--fullurl: https://glossbossimages.s3.eu-central-1.amazonaws.com/alex/audisq5/audi.jpg
-wps_subtitle:
+subtitle:
   - 'Und weitere Infos zum Thema Langzeitversiegelungen'
 categories:
   - Allgemein

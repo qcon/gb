@@ -6,7 +6,7 @@ pdf_version: jap
 head__img--fullurl: https://glossbossimages.s3.eu-central-1.amazonaws.com/headerimg/grundausstattungwaschen.jpg
 ftf_open_type:
   - 
-wps_subtitle:
+subtitle:
   - 5 Produkte, die du unbedingt brauchst
 categories:
   - Allgemein

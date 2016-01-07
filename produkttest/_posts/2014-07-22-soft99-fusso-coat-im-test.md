@@ -4,7 +4,7 @@ author: Marvin
 layout: post
 pdf_version: jap
 head__img--fullurl: https://glossbossimages.s3.eu-central-1.amazonaws.com/headerimg/fussocoat.jpg
-wps_subtitle:
+subtitle:
   - Was kann das Low Budget Wachs mit PTFE?
 categories:
   - Produkttest

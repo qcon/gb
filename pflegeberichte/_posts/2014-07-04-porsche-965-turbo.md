@@ -3,7 +3,7 @@ title: Porsche 965 Turbo
 author: Mark
 head__img--fullurl: https://glossbossimages.s3.eu-central-1.amazonaws.com/headerimg/965turbo.jpg
 layout: post
-wps_subtitle:
+subtitle:
   - 'Schwarz Metallic - Zymöl Glasur'
 dsq_thread_id:
   - 2840410785

@@ -2,7 +2,7 @@
 layout: page
 randomHeader: true
 title: Übersicht aller Glossbosse
-wps_subtitle: und deren Beiträge
+subtitle: und deren Beiträge
 ---
 {% for a in site.data.glossbosse %}<span data-authorToggle="{{a.name}}" class="secondary_btn">{{a.name}}</span>
 {% endfor %}

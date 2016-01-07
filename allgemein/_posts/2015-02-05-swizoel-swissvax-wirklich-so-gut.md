@@ -4,7 +4,7 @@ title: Ist Swizöl / Swissvax wirklich so gut?
 author: Marvin
 layout: post
 head__img--fullurl: https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/swissvax/DSC_0383.jpg
-wps_subtitle:
+subtitle:
   - 'Wachspreise jenseits der 1000€'
 categories:
   - Allgemein

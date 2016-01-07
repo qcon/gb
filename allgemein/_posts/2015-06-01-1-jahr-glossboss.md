@@ -2,7 +2,7 @@
 layout: post
 title: "1 Jahr Glossboss"
 author: "Marvin"
-wps_subtitle: Statistiken, Meinungen und ein riesen Dankeschön an alle Besucher
+subtitle: Statistiken, Meinungen und ein riesen Dankeschön an alle Besucher
 head__img--fullurl: https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/sonstige/glossboss1jahrxcjzz.jpg
 ---
 

@@ -6,7 +6,7 @@ pdf_version: jap
 head__img--fullurl: https://glossbossimages.s3.eu-central-1.amazonaws.com/headerimg/merca200.jpg
 ftf_open_type:
   - 
-wps_subtitle:
+subtitle:
   - Versiegelt mit OptiCoat 2.0
 categories:
   - Pflegeberichte

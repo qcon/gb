@@ -2,7 +2,7 @@
 layout: post
 title: "Winterfit in wenigen Schritten"
 author: "Sven"
-wps_subtitle: So kommst du Problemlos durch die dunkle Jahreszeit
+subtitle: So kommst du Problemlos durch die dunkle Jahreszeit
 categories: Anleitungen
 head__img--fullurl: https://glossbossimages.s3.eu-central-1.amazonaws.com/sven/winterfit/DSC_0123.jpg
 ---

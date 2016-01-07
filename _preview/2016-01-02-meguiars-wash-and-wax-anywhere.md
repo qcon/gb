@@ -2,7 +2,7 @@
 layout: post
 title: "Meguiars Wash and Wax Anywhere"
 author: "Marvin"
-wps_subtitle: Produktvorstellung und Test
+subtitle: Produktvorstellung und Test
 head__img--fullurl: https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/meguiars_wash_wax_anywhere/DSC00343.jpg
 ---
 # Meguiars Ultimate Wash & Wax Anywhere

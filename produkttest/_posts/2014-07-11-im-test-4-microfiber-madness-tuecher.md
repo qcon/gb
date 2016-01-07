@@ -6,7 +6,7 @@ layout: post
 head__img--fullurl: https://glossbossimages.s3.eu-central-1.amazonaws.com/headerimg/mmtest.jpg
 ftf_open_type:
   - 
-wps_subtitle:
+subtitle:
   - Ist der Preis gerechtfertigt?
 dsq_thread_id:
   - 2840143530

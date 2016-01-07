@@ -8,21 +8,14 @@ max_index_posts: 15
 exclude:
 - ".htaccess"
 - _sass
-- config.codekit
 - node_modules
 - Gruntfile.js
 - package.json
 - js
 - css
-- apache_htaccess.txt
-- pdf
-- 2015-mm-dd-POST.md
-- config
-- description
-- HEAD
 - Gulpfile.js
 - rakefile
-- sftp-config.json
+- postDB
 include:
 - dist
 - images
@@ -30,7 +23,7 @@ include:
 markdown: kramdown
 permalink: "/:categories/:title/"
 version: 151
-postversion: 28
+postversion: 29
 headimggradient: linear-gradient(HSLA(197, 100%, 49%,.6),HSLA(197, 100%, 49%,1))
 collections:
   preview:

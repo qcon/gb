@@ -3,7 +3,7 @@ title: Arbeitsschutz bei der Autopflege
 author: Chris
 layout: post
 head__img--fullurl: https://glossbossimages.s3.eu-central-1.amazonaws.com/criz/arbeitsschutz/atemschutz.jpg
-wps_subtitle: 'Atemschutzmaske, Handschuhe, Schutzbrille etc'
+subtitle: 'Atemschutzmaske, Handschuhe, Schutzbrille etc'
 ---
 
 # Arbeitsschutz 

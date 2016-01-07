@@ -2,7 +2,7 @@
 layout: post
 title: "Der optimale Ablauf einer Aufbereitung"
 author: "Marvin"
-wps_subtitle: Schritt für Schritt zum glänzenden Auto
+subtitle: Schritt für Schritt zum glänzenden Auto
 categories: Anleitungen
 head__img--fullurl: https://glossbossimages.s3.eu-central-1.amazonaws.com/
 markasnew: true

@@ -4,7 +4,7 @@ author: Marvin
 layout: post
 pdf_version: jap
 head__img--fullurl: https://glossbossimages.s3.eu-central-1.amazonaws.com/headerimg/waschanlage.jpg
-wps_subtitle:
+subtitle:
   - 'oder doch nicht?'
 categories:
   - Allgemein

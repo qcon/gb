@@ -1,6 +1,6 @@
 ---
 title: Impressum
-wps_subtitle: und Datenschutzhinweise
+subtitle: und Datenschutzhinweise
 author: Marvin
 layout: page
 head__img--fullurl: https://glossbossimages.s3.eu-central-1.amazonaws.com/headerimg/DSC_0003.jpg

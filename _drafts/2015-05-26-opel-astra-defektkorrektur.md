@@ -2,7 +2,7 @@
 layout: post
 title: "Opel Astra Defektkorrektur"
 author: "Marvin"
-wps_subtitle: Teamwork mit Novma
+subtitle: Teamwork mit Novma
 categories: Pflegeberichte
 head__img--fullurl: https://glossbossimages.s3.eu-central-1.amazonaws.com/
 markasnew: true

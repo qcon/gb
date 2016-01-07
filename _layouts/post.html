@@ -18,12 +18,12 @@ layout: default
 		<ul>
 			{% if page.previous.url %}
 			<li>
-				<a href="{{page.previous.url}}" alt="Vorheriger Artikel: {{page.previous.title}}">{{page.previous.title}}</a> - {{page.previous.wps_subtitle}}
+				<a href="{{page.previous.url}}" alt="Vorheriger Artikel: {{page.previous.title}}">{{page.previous.title}}</a> - {{page.previous.subtitle}}
 			</li>
 			{% endif %}
 			{% if page.next.url %}
 			<li>
-				<a href="{{page.next.url}}" alt="Nächster Artikel: {{page.next.title}}">{{page.next.title}}</a> - {{page.next.wps_subtitle}}
+				<a href="{{page.next.url}}" alt="Nächster Artikel: {{page.next.title}}">{{page.next.title}}</a> - {{page.next.subtitle}}
 			</li>
 			{% endif %}
 		</ul>

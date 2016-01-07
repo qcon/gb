@@ -4,7 +4,7 @@ author: Marvin
 pdf_version: jap
 head__img--fullurl: https://glossbossimages.s3.eu-central-1.amazonaws.com/headerimg/auspuffpolieren.jpg
 layout: post
-wps_subtitle:
+subtitle:
   - Oben hui unten pfui?
 categories:
   - Anleitungen

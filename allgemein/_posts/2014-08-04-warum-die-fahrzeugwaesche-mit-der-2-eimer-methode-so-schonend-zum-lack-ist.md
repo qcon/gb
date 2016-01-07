@@ -4,7 +4,7 @@ author: Ronny
 layout: post
 pdf_version: jap
 head__img--fullurl: https://glossbossimages.s3.eu-central-1.amazonaws.com/headerimg/schonendewaesche.jpg
-wps_subtitle:
+subtitle:
   - und wie man sie richtig anwendet.
 categories:
   - Allgemein

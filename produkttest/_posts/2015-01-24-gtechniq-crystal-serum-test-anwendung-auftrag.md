@@ -4,7 +4,7 @@ title: So zerstört man innerhalb kürzester Zeit den Lack
 author: Marvin
 layout: post
 head__img--fullurl: https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/serumschleifen/P1020282.JPG
-wps_subtitle:
+subtitle:
   - 'Crystal Serum eingebrannt'
 categories:
   - Produkttest
@@ -63,7 +63,7 @@ Unterteilt in 3 Bereiche haben wir es jeweils ca. 8, 12 und 15 Minuten "einwirke
 
 ##Test 1: GTechniq Panel Wipe
 
-Die mildeste Methode - das GTechniq Panel Wipe. Damit haben wir natürlich angefangen. 
+Die mildeste Methode - das GTechniq Panel Wipe. Damit haben wir natürlich angefangen.
 ![Gtechniq Crystal Serum test](https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/serumschleifen/P1020290.JPG)
 
 
@@ -134,7 +134,7 @@ Die Hartnäckigen überreste vom Serum
 Ohne Druck in graden Bewegungen den Schleifblock über den Lack gleiten lassen. Ganz wichtig: zwischendurch an der Jeanshose ausklopfen um so den abgetragenen Klarlack aus der Schleifblüte zu entfernen!
 ![Gtechniq Crystal Serum test](https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/serumschleifen/P1020314.JPG)
 
-Auch hier zeigte sich nach kurzer Zeit: das reicht nicht. Man hat die Oberfläche zwar genug geschliffen, die kleinen Pünktchen blieben dennoch unberührt. 
+Auch hier zeigte sich nach kurzer Zeit: das reicht nicht. Man hat die Oberfläche zwar genug geschliffen, die kleinen Pünktchen blieben dennoch unberührt.
 ![Gtechniq Crystal Serum test](https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/serumschleifen/P1020315.JPG)
 
 Hier schön zu sehen: die reste vom Serum. Man hätte noch mit den 3000er Schleifblock weitermachen können, was aber zu lange dauern würde.
@@ -148,7 +148,7 @@ Damit sollte nun endgültig klar sein: das Zeug wird zurecht nur an Profis verka
 
 ![Gtechniq Crystal Serum test](https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/serumschleifen/P1020319.JPG)
 
-Die Schleifspuren wurden anschließend mit der Kombination aus Test 6 entfernt. 
+Die Schleifspuren wurden anschließend mit der Kombination aus Test 6 entfernt.
 ![Gtechniq Crystal Serum test](https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/serumschleifen/P1020321.JPG)
 
 Abschließend kann man sagen, dass solch eine Versiegelung neben den enormen Standzeiten auch risiken birgt. Dieses Risiko einen Anfänger zumuten wäre fahrlässig.

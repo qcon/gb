@@ -2,7 +2,7 @@
 layout: post
 title: "Parkrempler beseitigen"
 author: "Chris"
-wps_subtitle: Auch ohne Profiausrüstung möglich
+subtitle: Auch ohne Profiausrüstung möglich
 head__img--fullurl: https://glossbossimages.s3.eu-central-1.amazonaws.com/criz/kratzer_handpolitur/1.jpg
 ---
 # Parkrempler beseitigen - Was ist ohne Profiausrüstung möglich?

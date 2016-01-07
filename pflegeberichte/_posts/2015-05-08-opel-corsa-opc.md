@@ -2,7 +2,7 @@
 layout: post
 title: "Opel Corsa OPC"
 author: "René"
-wps_subtitle: Nürburgring Edition - Casablanca Weiss Uni
+subtitle: Nürburgring Edition - Casablanca Weiss Uni
 categories: Pflegeberichte
 head__img--fullurl: https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/sonstige/dsc_9476vhuij.jpg
 ---

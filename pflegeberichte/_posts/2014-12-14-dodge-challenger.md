@@ -3,7 +3,7 @@ title: Dodge Challenger.
 author: Ronny
 pdf_version: jap
 layout: post
-wps_subtitle:
+subtitle:
   - Mehr Glanz ist nicht genug!
 categories:
   - Pflegeberichte

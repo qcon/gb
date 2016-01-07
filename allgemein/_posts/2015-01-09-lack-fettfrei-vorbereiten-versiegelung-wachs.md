@@ -4,7 +4,7 @@ author: Marvin
 layout: post
 pdf_version: jap
 head__img--fullurl: https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/997carrerasgrau/P1010750.JPG
-wps_subtitle:
+subtitle:
   - 'Wichtige Infos zu IPA und co'
 categories:
   - Allgemein

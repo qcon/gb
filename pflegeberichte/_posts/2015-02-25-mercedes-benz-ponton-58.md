@@ -3,7 +3,7 @@ title: Mercedes Benz Ponton '58
 author: Jones
 layout: post
 head__img--fullurl: https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/sonstige/55.jpg
-wps_subtitle:
+subtitle:
   - 'Ein glänzender Meilenstein'
 categories:
   - Pflegeberichte

@@ -4,7 +4,7 @@ author: Marvin
 pdf_version: jap
 layout: post
 head__img--fullurl: https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/997carrerasgrau/P1010883.JPG
-wps_subtitle:
+subtitle:
   - 'Mein persönlicher Jahresrückblick'
 categories:
   - Allgemein

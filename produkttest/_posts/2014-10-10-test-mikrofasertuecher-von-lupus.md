@@ -6,7 +6,7 @@ head__img--fullurl: https://glossbossimages.s3.eu-central-1.amazonaws.com/header
 layout: post
 ftf_open_type:
   - 
-wps_subtitle:
+subtitle:
   - Tücher für alle Zwecke
 categories:
   - Produkttest

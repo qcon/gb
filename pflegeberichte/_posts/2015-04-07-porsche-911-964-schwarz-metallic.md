@@ -3,7 +3,7 @@ title: Porsche 964 Schwarz Metallic
 author: Marvin
 layout: post
 head__img--fullurl: https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/964schwarzmetfussocoat/P1020515.JPG
-wps_subtitle:
+subtitle:
   - 'Teamwork mit Mark'
 categories:
   - Pflegeberichte

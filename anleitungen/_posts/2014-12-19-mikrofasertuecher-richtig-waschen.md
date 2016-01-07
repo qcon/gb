@@ -4,7 +4,7 @@ author: Chris
 layout: post
 permalink: /allgemein/tipps-tricks/mikrofasertuecher-richtig-waschen/
 head__img--fullurl: https://glossbossimages.s3.eu-central-1.amazonaws.com/criz/mft-waschen/DSC_0001-2.jpg
-wps_subtitle:
+subtitle:
   - So werden sie wieder flauschig
 categories: Anleitungen
 ---

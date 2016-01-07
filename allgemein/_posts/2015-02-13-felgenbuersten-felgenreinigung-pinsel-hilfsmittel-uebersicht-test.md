@@ -3,7 +3,7 @@ title: Übersicht Felgenbürsten und Pinsel
 author: Jones
 layout: post
 head__img--fullurl: https://glossbossimages.s3.eu-central-1.amazonaws.com/headerimg/felgen_01.jpg
-wps_subtitle: 'Qual der Wahl'
+subtitle: 'Qual der Wahl'
 ---
 
 

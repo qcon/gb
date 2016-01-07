@@ -2,7 +2,7 @@
 layout: post
 title: "Mercedes Benz A45 AMG"
 author: "René"
-wps_subtitle: "Kosmosschwarz Met. - A wie Anabolika!"
+subtitle: "Kosmosschwarz Met. - A wie Anabolika!"
 categories: Pflegeberichte
 head__img--fullurl: https://glossbossimages.s3.eu-central-1.amazonaws.com/RBdetailing/mba45amg/DSC_1200.jpg
 ---

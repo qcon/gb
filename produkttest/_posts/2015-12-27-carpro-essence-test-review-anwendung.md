@@ -2,7 +2,7 @@
 layout: post
 title: "CarPro Essence"
 author: "Jones"
-wps_subtitle: Des Detailers eierlegende Wollmilchsau?
+subtitle: Des Detailers eierlegende Wollmilchsau?
 head__img--fullurl: https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/tests/carpro_essence/17.jpg
 ---
 

@@ -4,7 +4,7 @@ author: Marvin
 pdf_version: jap
 layout: post
 head__img--fullurl: https://glossbossimages.s3.eu-central-1.amazonaws.com/headerimg/3schrittefelgenversiegelung.jpg
-wps_subtitle:
+subtitle:
   - Und ein Fehler, den du unbedingt vermeiden solltest
 categories:
   - Anleitungen

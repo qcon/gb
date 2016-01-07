@@ -3,7 +3,7 @@ title: Porsche 991 Turbo S
 author: Mark
 layout: post
 head__img--fullurl: https://glossbossimages.s3.eu-central-1.amazonaws.com/headerimg/991turbos.jpg
-wps_subtitle:
+subtitle:
   - 'Unischwarz - OptiCoat 2.0'
 dsq_thread_id:
   - 2840290039

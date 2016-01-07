@@ -185,7 +185,7 @@ task :newpost do
 		post.puts "layout: post"
 		post.puts "title: \"#{title.gsub(/-/,' ')}\""
 		post.puts "author: \"#{author}\""
-		post.puts "wps_subtitle: #{subtitle}"
+		post.puts "subtitle: #{subtitle}"
 		post.puts "head__img--fullurl: IMGURL"
 		post.puts '---'
 	end

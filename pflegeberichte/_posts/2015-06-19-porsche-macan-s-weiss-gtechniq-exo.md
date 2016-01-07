@@ -3,7 +3,7 @@ title: Porsche Macan S Weiss Uni
 author: Jones   
 layout: post   
 head__img--fullurl: https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/porsche_macan/A097.jpg
-wps_subtitle:
+subtitle:
   - "Black'n White - Gtechniq Exo v2"
 categories:
   - Pflegeberichte

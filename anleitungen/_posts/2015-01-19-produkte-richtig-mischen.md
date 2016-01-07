@@ -4,7 +4,7 @@ title: Produkte richtig mischen
 author: Chris
 layout: post
 head__img--fullurl: https://glossbossimages.s3.eu-central-1.amazonaws.com/criz/produkte-mischen/bild.jpg
-wps_subtitle:
+subtitle:
   - 'Wichtige Infos zu IPA und co'
 categories: Anleitungen
 ---
