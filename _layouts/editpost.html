@@ -25,6 +25,8 @@ layout: default
 
   <textarea id="source">
 </textarea>
+<input type="button" class="button" onclick="location.href=&quot;mailto:mmieth+glossboss@gmail.com?body=&quot;+encodeURIComponent(document.getElementById(&quot;source&quot;).value);" value="Quellcode Senden">
+
 	<div class="post--sharing">
 		<h4 id="sharecounter"></h4>
 		<a href="https://facebook.com/sharer/sharer.php?u={{ page.url | prepend: site.url}}" target="_blank" class="share--facebook">Facebook</a>

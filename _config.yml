@@ -15,7 +15,7 @@ exclude:
 - css
 - Gulpfile.js
 - rakefile
-- postDB
+#- postDB
 include:
 - dist
 - images

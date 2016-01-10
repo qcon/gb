@@ -7,6 +7,7 @@ var jekyll = require("gulp-jekyll");
 var cp = require("child_process");
 var browserSync = require("browser-sync");
 var notify = require("gulp-notify");
+
 var rename = require("gulp-rename");
 var critical = require('critical');
 
@@ -55,7 +56,7 @@ gulp.task("watch-jekyll", ["jekylldev"], browserSync.reload);
 
 gulp.task('jekylldev', ["jsdev", "sass"], function (done) {
 	browserSync.notify(msg.jekyllBuild);
-	return cp.spawn("jekyll", ['build'], {stdio: 'inherit'})
+	return cp.spawn("jekyll", ['build', '--incremental'], {stdio: 'inherit'})
 	.on("close", done);
 });
 gulp.task('jekyll', ["js", "sass"], function (done) {

@@ -1,105 +1,58 @@
-// $.noConflict();
-//   jQuery(document).ready(function($) {
-//     jx = $('#jqajaxhere');
-//     more = $('#loadmoreScript');
-//     var posts = [];
-//
-//     $.getJSON('pflegeberichte.json', function(data) {
-//       console.log('postjsin');
-//       $.each(data, function(key, val) {
-//         posts.push(val);
-//       });
-//       loadMorePosts(0, 5);
-//     });
-//
-//
-//     loadMorePosts = function (start, end) {
-//         var inc = 0;
-//         $.each(posts, function(key, val) {
-//           if(key >= start && inc < end) {
-//             jx.append($(val.card).fadeIn('slow'))
-//             inc++;
-//           }
-//         });
-//     }
-//     more.on('click', function() {
-//       loadMorePosts(jx.find('li').length, 5);
-//     });
-//
-//
-//
-//   });
-
-
-
-
-
-
-
-
-// $.noConflict();
-//
-//
-// jQuery(document).ready ($) ->
-//   jx = $('#jqajaxhere')
-//   more = $('#loadmoreScript')
-//   posts = []
-//   postDBFile = 'pflegeberichte.json'
-//
-//   loadMorePosts = (start, end) ->
-//     inc = 0
-//     $.each posts, (key, val) ->
-//       if key >= start and inc < end
-//         jx.append $(val.card).fadeIn 'slow'
-//         inc++
-//         return
-//     return
-//
-//    $.getJSON postDBFile, (data) ->
-//       $.each data, (key, val) ->
-//         posts.push val
-//       loadMorePosts 0, 5
-//       more.on 'click', ->
-//         loadMorePosts jx.find('li').length, 5
-//         return
-//       return
-//   return
-
-
-
-
-
-
-
-
-
 $.noConflict();
 
 jQuery(document).ready(function($) {
-  var jx, loadMorePosts, more, postDBFile, posts;
+  var actualCategory, allgemeinPOST, anleitungPOST, jx, loadMorePosts, markAsActiveCategory, more, pflegeberichtPOST, postDBFile, posts, produkttestPOST;
   jx = $('#jqajaxhere');
   more = $('#loadmoreScript');
-  posts = [];
-  postDBFile = 'pflegeberichte.json';
-  loadMorePosts = function(start, end) {
-    var inc;
+  allgemeinPOST = $('#allgemeinPOST');
+  produkttestPOST = $('#produkttestPOST');
+  pflegeberichtPOST = $('#pflegeberichtPOST');
+  anleitungPOST = $('#anleitungPOST');
+  actualCategory = null;
+  posts = null;
+  postDBFile = 'test.json';
+  markAsActiveCategory = function(category) {
+    return $.each($('#catSwitch span'), function() {
+      if ($(this).data('category') === category) {
+        $(this).addClass('activeCat');
+      } else {
+        $(this).removeClass('activeCat');
+      }
+    });
+  };
+  loadMorePosts = function(category, end) {
+    var inc, start;
+    if (end == null) {
+      end = 5;
+    }
+    start = jx.find('li').length;
+    markAsActiveCategory(category);
+    if (actualCategory !== category) {
+      actualCategory = category;
+      start = 0;
+      jx.html(' ');
+    }
     inc = 0;
-    $.each(posts, function(key, val) {
+    return $.each(posts[category], function(key, val) {
       if (key >= start && inc < end) {
-        setTimeout(function () {
-          jx.append($(val.card).delay('50').addClass('fullScale'))
-        }, inc*200);
+        jx.append($(val.card).fadeIn('slow'));
         inc++;
       }
     });
   };
   $.getJSON(postDBFile, function(data) {
-    $.each(data, function(key, val) {
-      return posts.push(val);
+    posts = data;
+    allgemeinPOST.on('click', function() {
+      return loadMorePosts('allgemein');
     });
-    loadMorePosts(0, 5);
-    more.on('click', function() {
-      loadMorePosts(jx.find('li').length, 5);
+    anleitungPOST.on('click', function() {
+      return loadMorePosts('anleitungen');
+    });
+    pflegeberichtPOST.on('click', function() {
+      return loadMorePosts('pflegeberichte');
+    });
+    produkttestPOST.on('click', function() {
+      return loadMorePosts('produkttest');
     });
   });
 });

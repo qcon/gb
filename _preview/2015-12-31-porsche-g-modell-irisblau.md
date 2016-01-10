@@ -7,6 +7,16 @@ head__img--fullurl: https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin
 ---
 ## Porsche 911 (G-Modell) in Irisblau
 
+Hallo zusammen,
+
+heute dürfen wir euch ein 911 in seiner letzten „echten“ Ausbaustufe – dem sogenannten G-Modell – präsentieren.
+
+Das Fahrzeug erblickte ca. 1986 das Licht der Welt und dürfte somit ab diesem Jahr dem alten Gusseisen angehören. Alt? Ok, nach dem Garagenbrand im Januar 2015 wäre es beinahe um ihn geschehen. Auch wenn das Fahrzeug im Folgemonat bei einem Fahrzeugwäscher war, so gab es doch Einiges zutun.
+
+Das 911 G-­Modell im wunderschönen Irisblau sollte im Jubiläumsjahr schließlich im neuen Glanz sein H­-Kennzeichen abholen dürfen – findet Ihr nicht auch?
+
+Dann kommen wir einmal zur Ausgangslage...
+
 Politurrückstände vom vorherigen Aufbereiter
 
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/porsche_gmodell_1/DSC00393.jpg)
@@ -181,8 +191,6 @@ Und der Wagen ist bereit für das Wax. Wir entschieden uns für das waxaddict qu
 
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/porsche_gmodell_1/DSC00472.jpg)
 
-![](https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/porsche_gmodell_1/DSC00475.jpg)
-
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/porsche_gmodell_1/DSC00477.jpg)
 
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/porsche_gmodell_1/DSC00478.jpg)
@@ -211,7 +219,7 @@ Am nächsten Tag war der Innenraum dran. Zunächst alles mit einer Bürste bzw. 
 
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/porsche_gmodell_1/DSC00501.jpg)
 
-Danach mit Finish Kare #12\. alle Kunststoff und Lederteile im Innenraum gereinigt
+Danach mit Finish Kare #121 alle Kunststoff und Lederteile im Innenraum gereinigt
 
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/porsche_gmodell_1/DSC00502.jpg)
 
