@@ -2,7 +2,7 @@
 
 # Constants
 S3_BUCKET='s3://glossboss.de'
-SITE_DIR='/site'
+SITE_DIR='/_site'
 
 # Colors
 NORMAL=$(tput sgr0)
