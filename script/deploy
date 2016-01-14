@@ -1,9 +1,48 @@
 #!/bin/sh
 
+# Constants
+S3_BUCKET='s3://glossboss.de'
+SITE_DIR='/site'
+
+# Colors
+NORMAL=$(tput sgr0)
+RED=$(tput setaf 1)
+GREEN=$(tput setaf 2; tput bold)
+YELLOW=$(tput setaf 3)
+function red() {
+    echo "$RED$*$NORMAL"
+}
+function green() {
+    echo "$GREEN$*$NORMAL"
+}
+function yellow() {
+    echo "$YELLOW$*$NORMAL"
+}
+
 # Commit and add git changes
-echo "Enter commit message: "
+red "Enter commit message: "
 read commit_msg
 git add .
 git commit -am ":sparkles: $commit_msg"
 git push
 echo "GIT Done"
+
+# Build
+red '--> Build Jekyll'
+gulp jekyll
+
+# GZIP
+red '--> GZIP'
+find _site/ -iname '*.html' -exec gzip -9 -n {} \; -exec mv {}.gz {} \;
+find _site/ -iname '*.json' -exec gzip -9 -n {} \; -exec mv {}.gz {} \;
+find _site/ -iname '*.js' -exec gzip -9 -n {} \; -exec mv {}.gz {} \;
+find _site/ -iname '*.css' -exec gzip -9 -n {} \; -exec mv {}.gz {} \;
+
+# Push to S3
+red '--> Push to S3'
+s3cmd sync -M --acl-public --exclude '*.*' --include '*.js' --include '*.css' --add-header='Cache-Control:max-age=604800' --add-header='Content-Encoding:gzip' $SITE_DIR $S3_BUCKET
+s3cmd sync -M --acl-public --exclude '*.*' --include '*.json' --add-header='Cache-Control:max-age=518400' --add-header='Content-Encoding:gzip' $SITE_DIR $S3_BUCKET
+s3cmd sync -M --acl-public --exclude '*.*' --include '*.html' --add-header='Cache-Control:max-age=1200, must-revalidate' --add-header='Content-Encoding:gzip' $SITE_DIR $S3_BUCKET
+s3cmd sync --acl-public --delete-removed --cf-invalidate-default-index $SITE_DIR $S3_BUCKET
+
+green '--> Done <--'
