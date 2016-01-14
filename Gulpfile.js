@@ -56,7 +56,7 @@ gulp.task("watch-jekyll", ["jekylldev"], browserSync.reload);
 
 gulp.task('jekylldev', ["jsdev", "sass"], function (done) {
 	browserSync.notify(msg.jekyllBuild);
-	return cp.spawn("jekyll", ['build', '--incremental'], {stdio: 'inherit'})
+	return cp.spawn("jekyll", ['build'], {stdio: 'inherit'})
 	.on("close", done);
 });
 gulp.task('jekyll', ["js", "sass"], function (done) {

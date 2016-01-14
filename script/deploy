@@ -1,0 +1,9 @@
+#!/bin/sh
+
+# Commit and add git changes
+echo "Enter commit message: "
+read commit_msg
+git add .
+git commit -am ":sparkles: $commit_msg"
+git push
+echo "GIT Done"

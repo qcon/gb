@@ -87,13 +87,13 @@ Der Lack war an manchen Bauteilen nicht mehr im Originalzustand und wurde teilwe
 
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/porsche_gmodell_1/lackmessung.jpg)
 
-Auf der Haube wurde mit 3 unterschiedlichen Testspots (alle mit der Rotationsmaschine und orangenem Pad) gestartet:&nbsp;
+Auf der Haube wurde mit 3 unterschiedlichen Testspots (alle mit der Rotationsmaschine und orangenem Pad) gestartet:
 
-1\. Chris Politur - auf mittlerer Stufe einfahren, dann mit hoher Drehzahl und viel Druck durcharbeiten
+1. Christ Politur - auf mittlerer Stufe einfahren, dann mit hoher Drehzahl und viel Druck durcharbeiten
 
-2\. Menzerna 250\. - auf mittlerer Stufe und etwas Druck durcharbeiten
+2. Menzerna 2500 - auf mittlerer Stufe und etwas Druck durcharbeiten
 
-3\. Autobrillant Mittel - auf mittlerer Stufe und etwas Druck durcharbeiten
+3. Autobrilliant Mittel - auf mittlerer Stufe und etwas Druck durcharbeiten
 
 Alle 3 Testspots waren ähnlich von der Defektkorrektur. Stellenweise waren aber bis zu 4 Durchgänge nötig um das gewünschte Ergebnis zu erzielen.
 
