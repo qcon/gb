@@ -2,7 +2,7 @@
 title: Verdeckversiegelung mit 303 High Tech Fabric Guard
 author: Alex
 layout: post
-head__img--fullurl: https://glossbossimages.s3.eu-central-1.amazonaws.com/headerimg/verdeckversiegelung.jpg
+header_image: https://glossbossimages.s3.eu-central-1.amazonaws.com/headerimg/verdeckversiegelung.jpg
 subtitle:
   - Wie du dein Stoffdach richtig imprägnierst
 categories:

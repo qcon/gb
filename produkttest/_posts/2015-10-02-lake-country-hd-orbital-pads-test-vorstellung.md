@@ -3,7 +3,7 @@ layout: post
 title: "Kurzvorstellung: Lake Country HD Orbital Pads"
 author: "Marvin"
 subtitle: Alternative zu Rupes Pads?
-head__img--fullurl: https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/lakecountryorbitalpad/P1020990.JPG
+header_image: https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/lakecountryorbitalpad/P1020990.JPG
 ---
 
 Für mich waren in den letzten Monaten die Rupes Pads stets ein treuer Begleiter. Angenehme Stauchhärte, sehr gutes Durchhaltevermögen und auch nach weit über 20 Wäschen noch voll intakt und ohne rausgerissene Ecken. Ich nutzte fast ausschließlich das gelbe Pad in Kombination mit Feinschleif und Hochglanzpasten, jedoch fehlte mir manchmal noch ein bisschen Cut. Aber nicht soviel das es sich lohnen würde auf das deutlich agressivere grüne Rupes Pad zu wechseln.

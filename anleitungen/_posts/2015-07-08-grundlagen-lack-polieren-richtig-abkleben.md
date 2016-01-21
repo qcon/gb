@@ -4,7 +4,7 @@ title: "Grundlagen: Lack richtig abkleben"
 author: "Marvin"
 subtitle: So gibts nach dem Polieren keine bösen Überraschungen
 categories: Anleitungen
-head__img--fullurl: https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/richtigabkleben/P1020907.JPG
+header_image: https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/richtigabkleben/P1020907.JPG
 ---
 Ein Glossboss-Leser hat uns eine Mail mit Fragen zum Thema Abkleben geschrieben, da er sich nicht sicher ist wie man richtig abklebt, bzw. wie die optimale Vorgehensweise ist. Die Fragen haben wir nicht beantwortet, sondern einen ganzen bebilderten Bericht erstellt - guter Deal oder? ;)
 

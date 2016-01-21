@@ -2,7 +2,7 @@
 title: Alfa Romeo GTV
 author: Marvin
 layout: post
-head__img--fullurl: https://glossbossimages.s3.eu-central-1.amazonaws.com/headerimg/alfagtv.jpg
+header_image: https://glossbossimages.s3.eu-central-1.amazonaws.com/headerimg/alfagtv.jpg
 subtitle:
   - Ob der noch zu retten ist?
 categories:

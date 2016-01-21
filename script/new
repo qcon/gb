@@ -1,0 +1,15 @@
+#!/bin/sh
+
+echo "Titel:"
+read new_title
+echo "Subtitle:"
+read new_subtitle
+echo "Author:"
+read new_author
+echo "Category (anleitungen pflegeberichte produkttest allgemein)"
+read new_category
+
+echo "Title: $new_title"
+echo "Subtitle: $new_subtitle"
+echo "Author: $new_author"
+echo "Category: $new_category"

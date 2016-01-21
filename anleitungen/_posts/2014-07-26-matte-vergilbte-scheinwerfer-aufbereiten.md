@@ -1,7 +1,7 @@
 ---
 title: Matte/vergilbte Scheinwerfer aufbereiten
 author: Jones
-head__img--fullurl: https://glossbossimages.s3.eu-central-1.amazonaws.com/headerimg/mattescheinwerfer.jpg
+header_image: https://glossbossimages.s3.eu-central-1.amazonaws.com/headerimg/mattescheinwerfer.jpg
 layout: post
 pdf_version: jap
 subtitle:

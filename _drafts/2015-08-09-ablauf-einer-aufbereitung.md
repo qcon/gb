@@ -4,7 +4,7 @@ title: "Der optimale Ablauf einer Aufbereitung"
 author: "Marvin"
 subtitle: Schritt für Schritt zum glänzenden Auto
 categories: Anleitungen
-head__img--fullurl: https://glossbossimages.s3.eu-central-1.amazonaws.com/
+header_image: https://glossbossimages.s3.eu-central-1.amazonaws.com/
 markasnew: true
 preview: true
 ---

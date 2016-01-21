@@ -4,7 +4,7 @@ title: "Mitsubishi Lancer Evolution 9"
 author: "René"
 subtitle: Frost White Solid - JDM Style!
 categories: Pflegeberichte
-head__img--fullurl: https://glossbossimages.s3.eu-central-1.amazonaws.com/RBdetailing/evo/DSC_0696.jpg
+header_image: https://glossbossimages.s3.eu-central-1.amazonaws.com/RBdetailing/evo/DSC_0696.jpg
 ---
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/RBdetailing/evo/Unbenannt-1.jpg)
 

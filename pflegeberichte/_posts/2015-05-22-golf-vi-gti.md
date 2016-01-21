@@ -4,7 +4,7 @@ title: "Golf VI GTI"
 author: "Ronny"
 subtitle: Carbon Grey Steel Metalic
 categories: Pflegeberichte
-head__img--fullurl: https://glossbossimages.s3.eu-central-1.amazonaws.com/chiller/GolfVIGTI/GolfVIGTI68.jpg
+header_image: https://glossbossimages.s3.eu-central-1.amazonaws.com/chiller/GolfVIGTI/GolfVIGTI68.jpg
 
 ---
 Carbon Grey Steel Metalic farbener GTI mit CquartzUK zum glänzen gebracht

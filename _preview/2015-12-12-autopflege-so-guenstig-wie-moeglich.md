@@ -3,7 +3,7 @@ layout: post
 title: "Autopflege so günstig wie möglich"
 author: "Marvin"
 subtitle: Perfekt gepflegt für unter 50 Euro
-head__img--fullurl: https://glossbossimages.s3.eu-central-1.amazonaws.com/
+header_image: https://glossbossimages.s3.eu-central-1.amazonaws.com/
 ---
 
 Nicht jeder Glossboss Besucher ist ein Pflegeenthusiast. Viele wollen einfach nur ihren Wagen ordentlich schützen und pflegen und dabei nicht soviel Geld ausgeben. Und schon garnicht viel Zeit investieren.

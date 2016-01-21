@@ -4,7 +4,7 @@ title: "BMW X3 Sparkling Brown Met."
 author: "René"
 subtitle: New Colour!
 categories: Pflegeberichte
-head__img--fullurl: https://glossbossimages.s3.eu-central-1.amazonaws.com/RBdetailing/bmwx3/DSC_0359.jpg
+header_image: https://glossbossimages.s3.eu-central-1.amazonaws.com/RBdetailing/bmwx3/DSC_0359.jpg
 ---
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/RBdetailing/bmwx3/HEADER.jpg)
 

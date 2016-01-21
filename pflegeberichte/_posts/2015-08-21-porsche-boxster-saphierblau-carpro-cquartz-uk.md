@@ -4,7 +4,7 @@ title: "Porsche Boxster 981"
 author: "Alex"
 subtitle: Saphierblau meets Carpro Cquartz UK
 categories: Pflegeberichte
-head__img--fullurl: https://glossbossimages.s3.eu-central-1.amazonaws.com/alex/boxster_cquartz/boxster_016.JPG
+header_image: https://glossbossimages.s3.eu-central-1.amazonaws.com/alex/boxster_cquartz/boxster_016.JPG
 ---
 # Porsche Boxster 981 Saphierblau meets Carpro Cquartz UK
 

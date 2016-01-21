@@ -3,7 +3,7 @@ title: Waschanlage vermeiden
 author: Marvin
 layout: post
 pdf_version: jap
-head__img--fullurl: https://glossbossimages.s3.eu-central-1.amazonaws.com/headerimg/waschanlage.jpg
+header_image: https://glossbossimages.s3.eu-central-1.amazonaws.com/headerimg/waschanlage.jpg
 subtitle:
   - 'oder doch nicht?'
 categories:

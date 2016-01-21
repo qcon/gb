@@ -2,7 +2,7 @@
 title: Dodge Durango
 author: Marvin
 layout: post
-head__img--fullurl: https://glossbossimages.s3.eu-central-1.amazonaws.com/headerimg/durango.jpg
+header_image: https://glossbossimages.s3.eu-central-1.amazonaws.com/headerimg/durango.jpg
 subtitle:
   - In über 45 Stunden zum Erfolg
 categories:

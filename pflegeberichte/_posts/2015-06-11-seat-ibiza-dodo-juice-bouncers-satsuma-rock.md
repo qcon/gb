@@ -2,7 +2,7 @@
 title: Seat Ibiza mit Dodo Juice Bouncers Satsuma Rock
 author: Jones
 layout: post
-head__img--fullurl: https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/seat_ibiza/53.jpg
+header_image: https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/seat_ibiza/53.jpg
 subtitle:
   - 'Blauer Spanierer vs. Team Altes Ehepaar'
 categories:

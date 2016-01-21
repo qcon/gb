@@ -2,7 +2,7 @@
 title: Porsche 991 Uni-Grau
 author: Marvin
 layout: post
-head__img--fullurl: https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/porsche991/P1020259.jpg
+header_image: https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/porsche991/P1020259.jpg
 subtitle:
   - '50 Jahre Jubiläums Edition'
 categories:

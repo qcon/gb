@@ -4,7 +4,7 @@ title: "Mini-Pflegebericht: Polo WRC"
 author: "Marvin"
 subtitle: Endergebnis mit Gtechniq Crystal Serum + Exo
 categories: Pflegebrichte
-head__img--fullurl: https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/polowrc/P1020939.JPG
+header_image: https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/polowrc/P1020939.JPG
 ---
 Mark und ich haben diesen Polo zuerst mit Hilfe von der Meguiars #205 von Defekten befreit und anschließend mit Gtechniq Crystal Serum versiegelt. Als Sahnehäubchen kam nach rund 3 Stunden Trocknungszeit noch das Gtechniq Exo drauf - der Glanz ist selbst auf Weiß absolut fantastisch!
 

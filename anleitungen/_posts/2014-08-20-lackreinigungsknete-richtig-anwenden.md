@@ -1,7 +1,7 @@
 ---
 title: Lackreinigungsknete richtig anwenden
 author: Chris
-head__img--fullurl: https://glossbossimages.s3.eu-central-1.amazonaws.com/headerimg/knete.jpg
+header_image: https://glossbossimages.s3.eu-central-1.amazonaws.com/headerimg/knete.jpg
 layout: post
 subtitle: 'So entfernst du Teer- und Harzrückstände + Insektenleichen'
 categories:

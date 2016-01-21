@@ -3,7 +3,7 @@ title: Wie du Scheiben streifenfrei reinigst
 author: Marvin
 layout: post
 pdf_version: jap
-head__img--fullurl: https://glossbossimages.s3.eu-central-1.amazonaws.com/headerimg/streifenfrei.jpg
+header_image: https://glossbossimages.s3.eu-central-1.amazonaws.com/headerimg/streifenfrei.jpg
 subtitle: 'Das Tuch macht den Unterschied. '
 categories: Anleitungen
 ---

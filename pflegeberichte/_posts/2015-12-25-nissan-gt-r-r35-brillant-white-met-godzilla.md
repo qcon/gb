@@ -3,7 +3,7 @@ layout: post
 title: "Nissan GT-R R35"
 author: "René"
 subtitle: QAB – Brilliant White Mét. - // Godzilla!
-head__img--fullurl: https://glossbossimages.s3.eu-central-1.amazonaws.com/RBdetailing/gtr/DSC_1588.jpg
+header_image: https://glossbossimages.s3.eu-central-1.amazonaws.com/RBdetailing/gtr/DSC_1588.jpg
 ---
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/RBdetailing/gtr/Header.jpg)
 

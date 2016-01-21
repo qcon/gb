@@ -3,7 +3,7 @@ layout: post
 title: "Produktvorstellung: Günstige LED Taschenlampe"
 author: "Norman"
 subtitle: Was kann die 2€ Lampe?
-head__img--fullurl: IMGURL
+header_image: IMGURL
 ---
 Nach nunmehr als 4 Wochen ist “mein persönliches Testobjekt” endlich angekommen.
 Es handelt sich um eine [7 W 300LM Led Taschenlampe](http://amzn.to/1OdoxdH). Diese war seinerzeit für 1,71€ bei Amazon zu beziehen.

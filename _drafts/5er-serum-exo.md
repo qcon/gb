@@ -4,7 +4,7 @@ title: "5er Serum + Exo"
 author: "Marvin"
 subtitle: 
 categories: Pflegeberichte
-head__img--fullurl: https://glossbossimages.s3.eu-central-1.amazonaws.com/
+header_image: https://glossbossimages.s3.eu-central-1.amazonaws.com/
 markasnew: true
 ---
 

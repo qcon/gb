@@ -3,7 +3,7 @@ pdf_version: jap
 title: Produkte richtig mischen
 author: Chris
 layout: post
-head__img--fullurl: https://glossbossimages.s3.eu-central-1.amazonaws.com/criz/produkte-mischen/bild.jpg
+header_image: https://glossbossimages.s3.eu-central-1.amazonaws.com/criz/produkte-mischen/bild.jpg
 subtitle:
   - 'Wichtige Infos zu IPA und co'
 categories: Anleitungen

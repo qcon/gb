@@ -7,7 +7,7 @@ subtitle:
   - Mehr Glanz ist nicht genug!
 categories:
   - Pflegeberichte
-head__img--fullurl: https://glossbossimages.s3.eu-central-1.amazonaws.com/chiller/Challenger/Chelly50.jpg
+header_image: https://glossbossimages.s3.eu-central-1.amazonaws.com/chiller/Challenger/Chelly50.jpg
 ---
 Eines Tages fragte mich Jones, ob ich Bock hätte einen Dodge Challenger aufzubereiten. Da kann man eigentlich nur mit "wann und wo" antworten und meine Antwort lautete dann auch in etwa so. Ein Termin mit seinem Dortmunder Technikerkollegen wurde schnell gefunden. Als letzte Aufbereitung des Jahres nimmt man solche Aufträge sehr gerne an. Man könnte es auch als das Grande Finale bezeichnen, denn die Chally, wie sein Besitzer sie liebevoll nennt, hat riesige Lackflächen aufzuweisen und das Auto an sich ist ein richtig feines Gerät. 
 

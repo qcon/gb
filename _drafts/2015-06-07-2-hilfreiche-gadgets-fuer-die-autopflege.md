@@ -4,7 +4,7 @@ title: "6 Gadgets für die Autopflege"
 author: "Marvin"
 subtitle: Das braucht jeder!
 categories: tipps-tricks
-head__img--fullurl: https://glossbossimages.s3.eu-central-1.amazonaws.com/
+header_image: https://glossbossimages.s3.eu-central-1.amazonaws.com/
 markasnew: true
 ---
 

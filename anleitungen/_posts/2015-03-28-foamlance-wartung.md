@@ -2,7 +2,7 @@
 title: Wartung einer Foam Lance / Schaumkanone
 author: Sven
 layout: post
-head__img--fullurl: https://glossbossimages.s3.eu-central-1.amazonaws.com/sven/wartung/foamlance/Foamlance01.JPG
+header_image: https://glossbossimages.s3.eu-central-1.amazonaws.com/sven/wartung/foamlance/Foamlance01.JPG
 subtitle:
   - 'Damit es wieder schön schaumig wird'   
 categories: Anleitungen

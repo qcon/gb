@@ -3,7 +3,7 @@ layout: post
 title: "Abgenutztes Lederlenkrad reinigen"
 author: "Ronny"
 subtitle: Mit Colourlock in nur wenigen Minuten
-head__img--fullurl: https://glossbossimages.s3.eu-central-1.amazonaws.com/chiller/lederlenkrad/Lederlenkrad10.jpg
+header_image: https://glossbossimages.s3.eu-central-1.amazonaws.com/chiller/lederlenkrad/Lederlenkrad10.jpg
 ---
 #Kleiner Autopflege-Quickie für zwischendurch
 

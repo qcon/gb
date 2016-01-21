@@ -9,7 +9,7 @@ subtitle:
   - Jetzt bewerben!
 categories:
   - Allgemein
-head__img--fullurl: https://glossbossimages.s3.eu-central-1.amazonaws.com/headerimg/golf7gtd.jpg
+header_image: https://glossbossimages.s3.eu-central-1.amazonaws.com/headerimg/golf7gtd.jpg
 ---
 Das Glossboss Team ist ein ganz besonderer Haufen pflegeverrückter Autoliebhaber. Wir haben es uns zum Ziel gesetzt, den tiefsten Glanz aus dem Lack zu holen sowie einen perfekten Pflegezustand zurück zu bringen um die Besitzer der Autos damit glücklich zu machen.
 

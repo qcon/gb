@@ -14,13 +14,13 @@
     <link rel="stylesheet" href="/dist/layout.css?v={{site.version}}">
     <style id="header-style">
     header {
-			background: {{site.headimggradient}}, url('{% if page.head__img %}{{ site.url }}{{ page.head__img }}{% else %}{{ page.head__img--fullurl }}{% endif %}') center 50%;
+			background: {{site.headimggradient}}, url('{% if page.head__img %}{{ site.url }}{{ page.head__img }}{% else %}{{ page.header_image }}{% endif %}') center 50%;
 			background-size:cover;
 		}
 	</style>
   <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
   <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.url }}">
-  <meta property="og:image" content="{% if page.head__img %}{{ site.url }}{{ page.head__img }}{% else %}{{ page.head__img--fullurl }}{% endif %}">
+  <meta property="og:image" content="{% if page.head__img %}{{ site.url }}{{ page.head__img }}{% else %}{{ page.header_image }}{% endif %}">
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>

@@ -2,7 +2,7 @@
 title: VW EOS in schwarz
 author: Ronny
 pdf_version: jap
-head__img--fullurl: https://glossbossimages.s3.eu-central-1.amazonaws.com/headerimg/eosschwarz.jpg
+header_image: https://glossbossimages.s3.eu-central-1.amazonaws.com/headerimg/eosschwarz.jpg
 layout: post
 subtitle:
   - Versiegelt mit Dodo Juice Supernatural Infinity

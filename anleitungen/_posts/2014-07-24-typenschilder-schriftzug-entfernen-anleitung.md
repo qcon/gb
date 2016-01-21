@@ -3,7 +3,7 @@ title: Typenschilder entfernen
 author: Dirk
 layout: post
 pdf_version: jap
-head__img--fullurl: https://glossbossimages.s3.eu-central-1.amazonaws.com/headerimg/schriftzugentfernen.jpg
+header_image: https://glossbossimages.s3.eu-central-1.amazonaws.com/headerimg/schriftzugentfernen.jpg
 subtitle: Garantiert schonend und ohne Kratzer
 categories: Anleitungen
 ---

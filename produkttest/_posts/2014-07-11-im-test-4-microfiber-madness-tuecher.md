@@ -3,15 +3,10 @@ title: 'Im Test: 4 Microfiber Madness Tücher'
 author: Marvin
 pdf_version: jap
 layout: post
-head__img--fullurl: https://glossbossimages.s3.eu-central-1.amazonaws.com/headerimg/mmtest.jpg
-ftf_open_type:
-  - 
-subtitle:
-  - Ist der Preis gerechtfertigt?
-dsq_thread_id:
-  - 2840143530
-categories:
-  - Produkttest
+header_image: https://glossbossimages.s3.eu-central-1.amazonaws.com/headerimg/mmtest.jpg
+subtitle: Ist der Preis gerechtfertigt?
+dsq_thread_id: 2840143530
+categories: Produkttest
 ---
 Wie heißt es so schön: Wer billig kauft, kauft zwei mal. Aber verbirgt sich hinter großen Preis auch große Qualität?
 

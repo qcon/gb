@@ -3,7 +3,7 @@ title: Impressum
 subtitle: und Datenschutzhinweise
 author: Marvin
 layout: page
-head__img--fullurl: https://glossbossimages.s3.eu-central-1.amazonaws.com/headerimg/DSC_0003.jpg
+header_image: https://glossbossimages.s3.eu-central-1.amazonaws.com/headerimg/DSC_0003.jpg
 ---
 <div class="impressum">
   <p>
