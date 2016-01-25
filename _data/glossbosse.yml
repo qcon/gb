@@ -1,11 +1,31 @@
 - name: Marvin
+  bio: 'Marvin Mieth betreibt die Fahrzeugpflege seit 2008 und bietet professionelle Aufbereitungen seit 2010 in 46284 Dorsten gewerblich an. Als Gründer von glossboss.de gibt er Anfängern sowie Fortgeschrittenen und Profis Tipps und Tricks und bloggt über Allgemeine Themen der Autopflege. Als einer der wenigen in Deutschland, ist er Autorisiert die Versiegelung Crystal Serum von GTechniq zu verarbeiten.'
+  mail: 'mmieth+glossboss@gmail.com'
+  website: 'http://autopflege-mieth.de/'
+  img: 'https://lh3.googleusercontent.com/-kTpN_-KwwDY/U9GNEOwfaNI/AAAAAAAAApc/4xgw9nKOPMM/w140-h140-p/2012-256b.jpg'
+
 - name: Jones
+  mail: 'jones@jonny-clean.de'
+  bio: 'Die erste Poliermaschine hielt Johannes (Münster) im Jahr 2007 in seinen Händen, die enthusiastische Autopflege ist Hobby und unverzichtbarer Teil sein Lebens geworden.
+In jungen Jahren wurde Samstags Bundesliga im Radio gehört und nebenbei der 123er Mercedes „gewaschen". Die Liebe zur perfekten Oberfläche begann mit einer Tischler-Lehre, während seiner späteren Ausbildung zum Kfz-Mechatroniker fand er eine kleine Metabo-Poliermaschine im Lager und ab da war es um ihn geschehen, kaum etwas vor ihm sicher. Vieles selbst erlernt, reichlich Erfahrungen gesammelt, stets Arbeiten & Abläufe verbessert. Vertieft wurde das Ganze durch Internet und dort angetroffenen „Lackfetischisten“, hier entwickelten sich auch Freundschaften und gemeinsame Projekte - das Ergebnis ist dieser Blog.'
+
 - name: René
+  mail: 'rene.b@vtxmail.ch'
+
 - name: Ronny
+  mail: 'detailograph@yahoo.de'
+
+- name: Ralf
+  mail: 'wickedstylz@me.com'
+
+- name: Alex
+  mail: 'albarth4@gmx.de'
+
+
+
 - name: Chris
 - name: Dirk
 - name: Benni
-- name: Alex
 - name: Mark
 - name: André
 - name: Sven

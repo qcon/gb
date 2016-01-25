@@ -6,6 +6,7 @@ layout: default
 	<article class="post--content">
 		{{ content }}
 	</article>
+  {% include autor.html autor=page.author %}
 	<div class="post--sharing">
 		<h4 id="sharecounter"></h4>
 		<a href="https://facebook.com/sharer/sharer.php?u={{ page.url | prepend: site.url}}" target="_blank" class="share--facebook">Facebook</a>
@@ -29,7 +30,7 @@ layout: default
 		</ul>
 	</div>
 	{% if page.comments_block %}
-	
+
 	{% else %}
 		{% include comment.html %}
 	{% endif %}

@@ -1,0 +1,29 @@
+{% assign get_autor = include.autor %}
+{% for authors in site.data.glossbosse %}
+  {% if authors.name == get_autor %}
+    {% assign autor = authors %}
+  {% endif %}
+{% endfor %}
+
+{% if autor.bio %}
+  <div class="autor-box">
+  {% if autor.img %}
+    <img src="{{autor.img}}" alt="{{autor.name}}" class="autor-box-img"/>
+  {% else %}
+    <img src="https://glossbossimages.s3.eu-central-1.amazonaws.com/default_avatar.png" alt="" class="autor-box-img" />
+  {% endif %}
+    <h3 class="autor-box-title">Über den Autor: {{ autor.name }}</h3>
+    <div class="autor-box-bio">
+      <p>{{autor.bio}}</p>
+      <hr />
+      <p>
+        {% if autor.mail %}
+          Kontakt: <a href="mailto:{{autor.mail}}">{{autor.mail}}</a>
+        {% endif %}
+        {% if autor.website %}
+          - <a href="{{autor.website}}">{{autor.website}}</a>
+        {% endif %}
+      </p>
+    </div>
+  </div>
+{% endif %}

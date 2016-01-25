@@ -1,3 +1,31 @@
+.autor-box {
+  background-color: $gray;
+  padding: 20px;
+  &-img {
+    float:left;
+    max-width: 75px;
+    max-height: 75px;
+    margin: 0px 15px 5px 0px;
+  }
+  &-bio {
+    line-height:25px;
+    strong {
+      font-size: 18px;
+    }
+    a {
+      @extend %simpleLink;
+    }
+  }
+  &-title {
+    margin-bottom: 10px;
+  }
+  hr {
+    margin: 13px 0;
+    height: 2px;
+    border: 0;
+    border-top: 1px solid rgba(0,0,0,.05);
+  }
+}
 table {
 	margin: 0 auto;
 	width: 75%;

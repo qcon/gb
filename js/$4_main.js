@@ -20,6 +20,7 @@
 	var postContentLinksBlank = (function() {
 		//open all links in article in a new window by default
 		$('.post--content a')._forEach(function(link) {link.setAttribute('target', '_blank')});
+    $('.autor-box a')._forEach(function(link) {link.setAttribute('target', '_blank')});
 	})();
 	var renderAuthoren = (function() {
 		function resetAuthoren() {
