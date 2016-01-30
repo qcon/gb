@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Serum Light"
+title: "Gtechniq Crystal Serum Light"
 author: "Jones"
-subtitle: Nix
+subtitle: Ausprobiert auf VW Scirocco
 header_image: IMGURL
 ---
 ## Gtechniq Crystal Serum Light - Vorgestellung und Kurztest.
