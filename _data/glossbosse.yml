@@ -2,7 +2,7 @@
   bio: 'Marvin Mieth betreibt die Fahrzeugpflege seit 2008 und bietet professionelle Aufbereitungen seit 2010 in 46284 Dorsten gewerblich an. Als Gründer von glossboss.de gibt er Anfängern sowie Fortgeschrittenen und Profis Tipps und Tricks und bloggt über Allgemeine Themen der Autopflege. Als einer der wenigen in Deutschland, ist er Autorisiert die Versiegelung Crystal Serum von GTechniq zu verarbeiten.'
   mail: 'mmieth+glossboss@gmail.com'
   website: 'http://autopflege-mieth.de/'
-  img: 'https://lh3.googleusercontent.com/-kTpN_-KwwDY/U9GNEOwfaNI/AAAAAAAAApc/4xgw9nKOPMM/w140-h140-p/2012-256b.jpg'
+  img: 'https://glossbossimages.s3.eu-central-1.amazonaws.com/am_logo.jpg'
 
 - name: Jones
   mail: 'jones@jonny-clean.de'
@@ -20,6 +20,7 @@ In jungen Jahren wurde Samstags Bundesliga im Radio gehört und nebenbei der 123
 
 - name: Alex
   mail: 'albarth4@gmx.de'
+  bio: 'Alexander betreibt die Fahrzeugpflege seit 2007 als ambitioniertes Hobby. Sein Lieblingsbereich bei der Fahrzeugpflege sind die harten Versiegelungen, auch Coatings genannt. Los ging es 2011 mit dem CarPro Cquartz und seitdem heißt es, stetig am Ball zu bleiben, möglichst viel zu testen und sich eine eigene Meinung zu bilden.'
 
 
 

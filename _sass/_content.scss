@@ -1,11 +1,18 @@
 .autor-box {
   background-color: $gray;
   padding: 20px;
+  &-moreposts {
+    list-style: none;
+    li {
+      margin:10px 0;
+    }
+  }
   &-img {
     float:left;
     max-width: 75px;
     max-height: 75px;
     margin: 0px 15px 5px 0px;
+    border-radius: 3px;
   }
   &-bio {
     line-height:25px;

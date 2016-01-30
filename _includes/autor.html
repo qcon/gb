@@ -16,6 +16,21 @@
     <div class="autor-box-bio">
       <p>{{autor.bio}}</p>
       <hr />
+      <ul class="autor-box-moreposts">
+        <p><h4>Mehr Beiträge von {{autor.name}}</h4></p>
+        {% assign post_loop = '' %}
+        {% for posts in site.posts %}
+          {% if posts.author == get_autor and post_loop.size < 5 %}
+            {% capture post_loop %}{{post_loop}}*{% endcapture %}
+            <li>
+              {% unless posts.title == page.title %}
+                <a href="{{posts.url}}">{{posts.title}}</a>
+              {% endunless %}
+            </li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+      <hr />
       <p>
         {% if autor.mail %}
           Kontakt: <a href="mailto:{{autor.mail}}">{{autor.mail}}</a>
@@ -23,7 +38,11 @@
         {% if autor.website %}
           - <a href="{{autor.website}}">{{autor.website}}</a>
         {% endif %}
+        {% if autor.facebook %}
+          - <a href="{{autor.facebook}}">Facebook Seite</a>
+        {% endif %}
       </p>
     </div>
+
   </div>
 {% endif %}
