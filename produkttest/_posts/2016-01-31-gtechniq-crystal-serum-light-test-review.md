@@ -8,7 +8,7 @@ header_image: https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/tests/
 ## Gtechniq Crystal Serum Light - Vorgestellung und Kurztest.
 
 Am Sonntag dem 24. Januar 2016 veröffentlichte **Gtechniq** deren neue Premium Versiegelung / Coating **Crystal Serum Light**, eine *anwenderfreundlichere* Version des sagenumwobenen Crystal Serum.   
-Das schwarz verpackte Serum ist nur **professionellen Detailern** mit einer **Gtechniq-Akkreditierung** vorbehalten, denn es sollte wirklich nur von Leuten verarbeitet werden die ihr Handwerk verstehen, gewissenhaft arbeiten und über das nötige Know-How, wie auch Equipment verfügen. Marvin zeigt [hier](https://glossboss.de/produkttest/gtechniq-crystal-serum-test-anwendung-auftrag/) eindrucksvoll warum das Serum so kritisch ist. Über die [Suchfunktion](https://glossboss.de/#suche) und dem Stichwort "Serum" gelangt ihr fix zu weiteren Beiträgen.   
+Das schwarz verpackte Serum ist nur **professionellen Detailern** mit einer **Gtechniq-Akkreditierung** vorbehalten, denn es sollte wirklich nur von Leuten verarbeitet werden die ihr Handwerk verstehen, gewissenhaft arbeiten und über das nötige Know-How, wie auch Equipment verfügen. Marvin [zeigt eindrucksvoll warum das Serum so kritisch ist](https://glossboss.de/produkttest/gtechniq-crystal-serum-test-anwendung-auftrag/). Über die [Suchfunktion](https://glossboss.de/#suche) und dem Stichwort "Serum" gelangt ihr fix zu weiteren Beiträgen.   
 
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/tests/serum_light/0001.jpg)   
 
@@ -68,7 +68,7 @@ Im Grunde ähnlich anderer Coatings. **Allerdings** reagiert das Serum Light abs
 - Lackflächen kontrollieren,   
 - 4-5 Tropfen ins Pad geben, Flasche beseite stellen,   
 - CSL auf einer kleineren Fläche von **max. 50x50cm** im Kreuzstrich verteilen,   
-- - direkt danach mit 1-2 MFT ohne Druck abwischen! Kreuzstrich und flächenübergreifend!   
+- direkt danach mit 1-2 MFT ohne Druck abwischen! Kreuzstrich und flächenübergreifend!   
 - mit einer diffusen (*gedämpften*) Lichtquelle den Lack auf Überreste kontrollieren.   
 - Fehlerhafte Stellen können auspoliert werden, anschließend reinigen und erneut versiegeln.   
 - Bauteilweise arbeiten, direkt neben dem vorherigen Bereich weiterversiegeln.   
@@ -100,7 +100,7 @@ Wenn es um Coatings geht achte ich inzwischen gerne mal aufs kommende Wetter.
 2-3 Tage sollte man für eine Versiegelung mit solchen SiO2 Versiegelungen einplanen, ich persönlich versiegel am liebsten bei **geringerer Luftfeuchtigkeit**. Urlaub eingereicht, Mittwochs waschen, kneten und polieren, *Donnerstag versiegeln*, bis Freitag in der Garage ruhen lassen.   
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/tests/serum_light/0004.jpg)
 
-Zum Anlösen von Schhmutz und sonstigem Umrat gab es eine Runde ValetPro Advanced SnowFoam *(wohl ne Mischung aus Citrus PreWash und  phNeutral Snow Foam)*. Ja, US-Spaltmaß der Scirocco-Heckklappe. :D  
+Zum Anlösen von Schmutz und sonstigem Unrat gab es eine Runde ValetPro Advanced SnowFoam *(wohl ne Mischung aus Citrus PreWash und  phNeutral Snow Foam)*. Ja, US-Spaltmaß der Scirocco-Heckklappe. :D  
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/tests/serum_light/0005.jpg)
 
 Im Gegensatz zur gehassten Trockenwäsche fließt der SnowFoam auch dort hin wo der Dreck vom Regen hingespült wird und kann diesen dort anlösen bzw. wegspülen. Felgen, Reifen und Radhäuser reinigen, alles gründlich abspülen und den Wagen mit ValetPro Concentrate CarShampoo waschen. Anschließend wurden Lack und Verglasung noch geknetet.   

@@ -23,8 +23,8 @@ include:
 - was-wird-gespeichert
 markdown: kramdown
 permalink: "/:categories/:title/"
-version: 153
-postversion: 32
+version: 154
+postversion: 33
 headimggradient: linear-gradient(HSLA(197, 100%, 49%,.6),HSLA(197, 100%, 49%,1))
 collections:
   preview:
