@@ -39,7 +39,7 @@
           - <a href="{{autor.website}}">{{autor.website}}</a>
         {% endif %}
         {% if autor.facebook %}
-          - <a href="{{autor.facebook}}">{{autor.name}} auf Facebook</a>
+          - <a href="{{autor.facebook}}">{% if autor.facebook_display_name %}{{autor.facebook_display_name}}{% else %}{{autor.name}}{% endif %} auf Facebook</a>
         {% endif %}
       </p>
     </div>

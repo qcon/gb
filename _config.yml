@@ -16,7 +16,7 @@ exclude:
 - Gulpfile.js
 - rakefile
 - script
-#- postDB
+- postDB
 include:
 - dist
 - images
@@ -24,7 +24,7 @@ include:
 markdown: kramdown
 permalink: "/:categories/:title/"
 version: 154
-postversion: 33
+postversion: 34
 headimggradient: linear-gradient(HSLA(197, 100%, 49%,.6),HSLA(197, 100%, 49%,1))
 collections:
   preview:
