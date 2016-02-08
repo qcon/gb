@@ -228,7 +228,7 @@ Das Durabead (rechts) hat schöne, gleichmäßig feine Perlen.
 
 Um euch das ganze noch in bewegten Bildern näher zu bringen, hier ein Video auf YouTube:
 
-{% include video.html videoURL="https://www.youtube.com/watch?v=SZRderWOe7w" %}
+{% include video.html videoURL="https://www.youtube.com/embed/SZRderWOe7w" %}
 
 Die Motorhaube wurde jeweils mit drei Spritzern dest. Wasser besprüht, um ein gleichwertiges Ergebnis zeigen zu können.
 
