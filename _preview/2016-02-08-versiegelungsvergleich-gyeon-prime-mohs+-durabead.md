@@ -59,6 +59,7 @@ Bestehend aus:
 Fangen wir zunächst einmal an die Motorhaube zu reinigen, dafür verwende ich:
 
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/boerge/coating_test/DSC01289.jpg)
+
 Surf City Garage Rinse Free Wash &amp; Wax in einer 1:10 Mischung mit destilliertem Wasser in einer ausgedienten Gyeon Prep Flasche.
 
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/boerge/coating_test/DSC01166.jpg)
@@ -67,7 +68,7 @@ Satt auf die zu reinigende Fläche aufsprühen.
 
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/boerge/coating_test/DSC01168.jpg)
 
-Wenn das Rinse Free Wash &amp; Wax anfängt abzulaufen, kann es abgewischt werden.&nbsp;
+Wenn das Rinse Free Wash &amp; Wax anfängt abzulaufen, kann es abgewischt werden.
 
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/boerge/coating_test/DSC01169.jpg)
 
@@ -77,7 +78,7 @@ Mein Mittel der Wahl, Gyeon ClayLube 1:10 in einem Kwazwar Pumpspender mit dem G
 
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/boerge/coating_test/DSC01291.jpg)
 
-Motorhaube satt mit dem Gyeon ClayLube einsprühen.&nbsp;
+Motorhaube satt mit dem Gyeon ClayLube einsprühen.
 
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/boerge/coating_test/DSC01172.jpg)
 
@@ -139,7 +140,7 @@ Die Defektkorrektur und der Glanz passt, also die andere Hälfte polieren, dann 
 
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/boerge/coating_test/DSC01205.jpg)
 
-Defektfrei und Glanz!&nbsp;
+Defektfrei und Glanz!
 
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/boerge/coating_test/DSC01214.jpg)
 
@@ -219,7 +220,7 @@ In der Mitte seht ihr das Mohs+. Die Perlen sind schon feiner und gleichmäßige
 
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/boerge/coating_test/DSC01267.jpg)
 
-Das Durabead (rechts) hat schöne, gleichmäßig feine Perlen.&nbsp;
+Das Durabead (rechts) hat schöne, gleichmäßig feine Perlen.
 
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/boerge/coating_test/DSC01269.jpg)
 
@@ -227,7 +228,7 @@ Das Durabead (rechts) hat schöne, gleichmäßig feine Perlen.&nbsp;
 
 Um euch das ganze noch in bewegten Bildern näher zu bringen, hier ein Video auf YouTube:
 
-https://www.youtube.com/watch?v=SZRderWOe7w
+{% include video.html videoURL="https://www.youtube.com/watch?v=SZRderWOe7w" %}
 
 Die Motorhaube wurde jeweils mit drei Spritzern dest. Wasser besprüht, um ein gleichwertiges Ergebnis zeigen zu können.
 
