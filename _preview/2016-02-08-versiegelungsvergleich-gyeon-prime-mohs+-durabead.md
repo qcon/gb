@@ -5,7 +5,7 @@ author: "Börge"
 subtitle: "Prime, Mohs+ und Durabead im Test"
 header_image: https://glossbossimages.s3.eu-central-1.amazonaws.com/boerge/coating_test/DSC01286.jpg
 ---
-Hallo Freunde der Versiegelung,
+**Hallo Freunde der Versiegelung,**
 
 für Euch werde ich in einem Langzeittest die Gyeon Versiegelungsreihe, bestehend aus dem Gyeon Prime, dem Gyeon Mohs+ und dem Gyeon Durabead testen.&nbsp;
 
@@ -44,6 +44,7 @@ Bestehend aus:
 
 Gyeon Durabead (50ml):
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/boerge/coating_test/DSC01286.jpg)
+
 Bestehend aus:
 
 *   50ml Mohs
@@ -53,10 +54,11 @@ Bestehend aus:
 *   2x Pipette
 *   Gyeon Aufkleber
 *   Gyeon Atemmaske
-*   Gyeon 2 Jahres Garantie
-  **Das Gyeon Mohs+ und das Gyeon Durabead kann nur von zertifizierten Detailern erworben werden.**
+*   Gyeon 2 Jahres Garantie*
+**Das Gyeon Mohs+ und das Gyeon Durabead kann nur von zertifizierten Detailern erworben werden.**
 
 Fangen wir zunächst einmal an die Motorhaube zu reinigen, dafür verwende ich:
+
 
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/boerge/coating_test/DSC01289.jpg)
 
@@ -68,21 +70,21 @@ Satt auf die zu reinigende Fläche aufsprühen.
 
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/boerge/coating_test/DSC01168.jpg)
 
-Wenn das Rinse Free Wash &amp; Wax anfängt abzulaufen, kann es abgewischt werden.
+Wenn das Rinse Free Wash &amp; Wax anfängt abzulaufen, kann es abgewischt werden.&nbsp;
 
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/boerge/coating_test/DSC01169.jpg)
 
 Nachdem die Motorhaube gereinigt ist, muss geknetet werden!
 
-Mein Mittel der Wahl, Gyeon ClayLube 1:10 in einem Kwazwar Pumpspender mit dem Gyeon Clay:
+Mein Mittel der Wahl, Gyeon ClayLube 1:10 in einem Kwazar Pumpspender mit der Gyeon Clay:
 
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/boerge/coating_test/DSC01291.jpg)
 
-Motorhaube satt mit dem Gyeon ClayLube einsprühen.
+Motorhaube satt mit dem Gyeon ClayLube einsprühen.&nbsp;
 
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/boerge/coating_test/DSC01172.jpg)
 
-Mit dem zuvor in warmem Wasser eingeweichten Gyeon Clay die Motorhaube sanft im Kreuzstrich abfahren, so dass alle Unreinheiten entfernt werden.
+Mit der zuvor in warmem Wasser eingeweichten Gyeon Clay die Motorhaube sanft im Kreuzstrich abfahren, so dass alle Unreinheiten entfernt werden.
 
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/boerge/coating_test/DSC01176.jpg)
 
@@ -96,7 +98,7 @@ Schauen wir uns nun die Defekte der Motorhaube an:
 
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/boerge/coating_test/DSC01181.jpg)
 
-#### Abkleben ist auch hier ein absolutes Muss!
+Abkleben ist auch hier ein absolutes Muss!
 
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/boerge/coating_test/DSC01182.jpg)
 
@@ -126,7 +128,7 @@ Politur gründlich abwischen.
 
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/boerge/coating_test/DSC01198.jpg)
 
-Gerne auch mit dem Kontrollspray, mein Mittel der Wahl, Gyeon Prep nachhelfen.
+Gerne auch mit dem Kontrollspray, mein Mittel der Wahl, Gyeon Prep.
 
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/boerge/coating_test/DSC01200.jpg)
 
@@ -148,13 +150,13 @@ Die drei Kandidaten. Die einzelnen Testspots wurden abgeklebt und noch einmal mi
 
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/boerge/coating_test/DSC01218.jpg)
 
-Das Gyeon Prime ordentlich schütteln und auf das Auftragstuch geben. Satt verteilen...
+Das Gyeon Prime ordentlich schütteln und auf das Auftragstuch geben. Satt im Kreuzstich verteilen...
 
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/boerge/coating_test/DSC01221.jpg)
 
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/boerge/coating_test/DSC01225.jpg)
 
-Wenn der Benzinschleier nach dem Auftragen kommt, kann das Prime abgenommen werden.
+Wenn der Benzinschleier nach dem Auftragen erscheint ist das Prime abgelüftet und kann abgenommen werden.
 
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/boerge/coating_test/DSC01228.jpg)
 
@@ -170,7 +172,7 @@ Satt auf das Auftragstuch tröpfeln...
 
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/boerge/coating_test/DSC01237.jpg)
 
-und im Kreuzstrich verteilen.
+und im Kreuzstich verteilen.
 
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/boerge/coating_test/DSC01238.jpg)
 
@@ -178,7 +180,7 @@ und im Kreuzstrich verteilen.
 
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/boerge/coating_test/DSC01240.jpg)
 
-Wenn der Benzinschleier kommt, darf das Mohs, wie beim Prime mit zwei Tüchern abgenommen werden.
+Wenn der Benzinschleier kommt, muss das Mohs+, wie beim Prime mit zwei Tüchern abgenommen werden.
 
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/boerge/coating_test/DSC01241.jpg)
 
@@ -194,7 +196,7 @@ Auch wieder ordentlich mit zwei Tüchern abnehmen.
 
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/boerge/coating_test/DSC01251.jpg)
 
-Bei dem Mohs+ und dem Durabead wurden jeweils 2 dicke Schichten Mohs aufgetragen, bevor diese mit dem Phobic (Mohs+) und dem Bead (Durabead) getoppt wurden.
+Bei dem Mohs+ und dem Durabead wurden jeweils 2 dicke Schichten Mohs (pro Schicht eine Stunde warten) aufgetragen, bevor diese mit dem Phobic (kann frühestens nach 4 Stunden aufgetragen werden) und dem Bead (kann frühestens nach 4 Stunden aufgetragen werden) getoppt wurden.
 
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/boerge/coating_test/DSC01254.jpg)
 
@@ -220,7 +222,7 @@ In der Mitte seht ihr das Mohs+. Die Perlen sind schon feiner und gleichmäßige
 
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/boerge/coating_test/DSC01267.jpg)
 
-Das Durabead (rechts) hat schöne, gleichmäßig feine Perlen.
+Das Durabead (rechts) hat schöne, gleichmäßige feine Perlen.
 
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/boerge/coating_test/DSC01269.jpg)
 
@@ -234,32 +236,12 @@ Die Motorhaube wurde jeweils mit drei Spritzern dest. Wasser besprüht, um ein g
 
 Warten wir mal ab, wie die Versiegelung nach der ersten Wäsche in der Waschanlage aussieht, Perlenbildung, Sheeting und natürlich wie sie gegenüber mechanischen Einwirkungen reagiert (kratzresistent).
 
-Das sagt uns Gyeon über das Durabead, Mohs+ und dem Prime:
+[Das sagt uns Gyeon über das Durabead, Mohs+ und dem Prime](http://www.gyeonquartz.de/uploads/product/6b9b197503a325b91cf447b073035d6f322e10b7.pdf)
 
-![](https://glossbossimages.s3.eu-central-1.amazonaws.com/boerge/coating_test/Durabead.jpg)
-
-![](https://glossbossimages.s3.eu-central-1.amazonaws.com/boerge/coating_test/Mohsplus.jpg)
-
-![](https://glossbossimages.s3.eu-central-1.amazonaws.com/boerge/coating_test/Prime.jpg)
-
-Die verschiedenen Eigenschaften der drei Versiegelungen:
-
-![](https://glossbossimages.s3.eu-central-1.amazonaws.com/boerge/coating_test/Spezifikationen.jpg)
-
-Ich hoffe euch gefällt der Test und ihr bleibt Monat für Monat am Ball, sodass wir bestimmt den einen oder anderen Unterschied zur frisch aufgetragenen Versiegelung feststellen können.
+**Ich hoffe euch gefällt der Test und ihr bleibt Monat für Monat am Ball, sodass wir bestimmt den einen oder anderen Unterschied zur frisch aufgetragenen Versiegelung feststellen können.**
 
 Abschließend bleibt zu sagen, seid auf das Ergebnis gespannt. Ich bin es auch!
 
 Glänzende Grüße,
 
-Börge von BB-Lackveredelung
-
-Vielen Dank und mit freundlichen Grüßen
-
-BB-Lackveredelung<br />
-Börge Brauer<br />
-46348 Raesfeld
-
-[www.bb-lackveredelung.de](www.bb-lackveredelung.de)
-
-[https://www.facebook.com/BBLackveredelung](https://www.facebook.com/BBLackveredelung)
+**Börge** von [BB-Lackveredelung](www.bb-lackveredelung.de)
