@@ -22,14 +22,14 @@ function yellow() {
 # Commit and add git changes
 red "Enter commit message: "
 read commit_msg
+
+
+# Build and push to git
+red '--> Build Jekyll'
+gulp jekyll
 git add .
 git commit -am ":sparkles: $commit_msg"
 git push
-echo "GIT Done"
-
-# Build
-red '--> Build Jekyll'
-gulp jekyll
 
 # GZIP
 red '--> GZIP'
