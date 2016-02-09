@@ -28,7 +28,9 @@ So sind die beiden Softboxen positioniert. Eine ganz links im Bild auf dem Schra
 
 Mitgeliefert werden für jede Softbox jeweils 4 Leuchtmittel á 80 Watt. Das ist mir vom Stromverbrauch aber etwas zu viel. Für die kWh zahle ich in der Halle ca. 33 Cent.
 
-Wenn also 640 Watt 8 Stunden leuchten, kostet das ca. 1,70€. Klingt erstmal nicht viel, aber auf die Dauer schon ein großer Posten auf der Rechnung. Ich habe dann zum testen 2 LED Leuchtmittel bestellt. Mit 13 Watt sollen diese ca. 100 Watt Glühlampe ersetzen. Da diese aber ca. 12€ kosten, habe ich mich für die 50:50 Methode entschieden: pro Softbox jeweils 2x80 Watt und 2x13 Watt, macht beim Stromverbrauch ca. 0,98€ für beide Softboxen und 8 Stunden. Viel wichtiger dabei aber: ist die Leuchtkraft wirklich ausreichend? **JA!** ich würde sogar sagen: noch besser als die originalen Leuchtmittel, die übrigens nach ziemlich kurzer Zeit auch sehr heiß werden.
+Wenn also 640 Watt 8 Stunden leuchten, kostet das ca. 1,70€. Klingt erstmal nicht viel, aber auf die Dauer schon ein großer Posten auf der Rechnung. Ich habe dann zum testen 2 LED Leuchtmittel bestellt. Mit 13 Watt sollen diese ca. 100 Watt Glühlampe ersetzen. Da diese aber ca. 12€ kosten, habe ich mich für die 50:50 Methode entschieden: pro Softbox jeweils 2x80 Watt und 2x13 Watt, macht beim Stromverbrauch ca. 0,98€ für beide Softboxen und 8 Stunden.
+
+Viel wichtiger dabei aber: ist die Leuchtkraft wirklich ausreichend? **JA!** ich würde sogar sagen: noch besser als die originalen Leuchtmittel, die übrigens nach ziemlich kurzer Zeit auch sehr heiß werden.
 
 Die Farbtemperatur der LED beträgt 5200 Kelvin - perfektes neutrales, weißes Licht und mit rund 1300 Lumen auch ordentlich hell!
 
