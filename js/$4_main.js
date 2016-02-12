@@ -72,7 +72,8 @@
 		}
 	})();
 
-	var getShareCounter = (function() {
+	function getShareCounter() {
+    console.log('Get Shares');
 		var shareUrl = "https://graph.facebook.com/" + w.location.href; // URL with slash
 		var shareUrlSliced = shareUrl.slice(0, shareUrl.length - 1); // URL without slash
 		var counterWithSlash = 0, counterWithoutSlash = 0,
@@ -116,7 +117,8 @@
 				shareCounter.text(outputText);
 			}
 		}
-	})();
+	}
+  if(!ItseMeIndex) getShareCounter();
 
 	var addEvents = function() {
 		// Scotty, beam me up
