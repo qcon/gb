@@ -5,9 +5,9 @@ author: "Marvin"
 subtitle: Perfekte Grundbeleuchtung in der Halle/Garage dank Fotografenzubehör
 header_image: https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/beleuchtung2.0/DSC00643.jpg
 ---
-Ende 2015 habe ich einen Beitrag zum Thema "[Die ideale Beleuchtung](https://glossboss.de/allgemein/die-ideale-beleuchtung/)" veröffentlich. Einige Wochen später bin ich in eine neue Halle umgezogen und wollte eine alternative zu den vielen Leuchtstoffröhren ausprobieren.
+Ende 2015 habe ich einen Beitrag zum Thema "[Die ideale Beleuchtung](https://glossboss.de/allgemein/die-ideale-beleuchtung/)" veröffentlich. Einige Wochen später bin ich in eine neue Halle umgezogen und wollte eine Alternative zu den vielen Leuchtstoffröhren ausprobieren.
 
-Viele alternativen gibt es leider nicht. Zuerst dachte ich, trotzder der vielen Nachteile, an LED Strahler (30 Watt). Nach ein paar Tests war aber schnell klar: ungeeignet! Das Licht ist viel zu gebündelt und blendet stark.
+Aber viele Alternativen gibt es leider nicht. Zuerst dachte ich, trotz der der vielen Nachteile, an LED Strahler (30 Watt). Nach ein paar Tests war aber schnell klar: ungeeignet! Das Licht ist viel zu gebündelt und blendet stark.
 
 Beim stöbern auf Amazon bin ich dann auf eine [Softbox / Studioleuchte](http://amzn.to/20bRCd8) gestoßen. Die Eckdaten waren Vielversprechend - für knapp 100€ wurde folgendes geliefert:
 

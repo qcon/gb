@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Gyeon Langzeittest und Erfahrungen"
+title: "Gyeon Prime, Mohs+ und Durabead im Test"
 author: "Börge"
-subtitle: "Prime, Mohs+ und Durabead im Test"
+subtitle: "Langzeittest und Erfahrungen"
 header_image: https://glossbossimages.s3.eu-central-1.amazonaws.com/boerge/coating_test/DSC01286.jpg
 ---
 **Hallo Freunde der Versiegelung,**

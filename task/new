@@ -1,0 +1,23 @@
+#!/bin/sh
+
+NEWFILE_PATH='./_preview/'
+MDEXTENSION='.md'
+DATE=`date +%Y-%m-%d`
+
+
+echo "Titel:"
+read new_title
+echo "Subtitle:"
+read new_subtitle
+echo "Author:"
+read new_author
+NEWFILE_SLUG=$(echo "$NEWFILE_PATH$DATE-$new_title$MDEXTENSION" | tr ' ' - | tr '[:upper:]' '[:lower:]')
+
+touch $NEWFILE_SLUG
+echo "---
+layout: post
+title: $new_title
+subtitle: $new_subtitle
+author: $new_author
+heder_image: URL
+---" >> $NEWFILE_SLUG
