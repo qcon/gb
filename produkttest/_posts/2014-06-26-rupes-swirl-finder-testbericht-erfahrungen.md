@@ -3,12 +3,8 @@ title: Rupes LL150 Swirlfinder
 author: Marvin
 layout: post
 header_image: https://glossbossimages.s3.eu-central-1.amazonaws.com/headerimg/rupesswirlfinder.jpg
-subtitle:
-  - Erfahre hier ob sie wirklich so gut ist!
-dsq_thread_id:
-  - 2840164499
-categories:
-  - Produkttest
+subtitle: Erfahre hier ob sie wirklich so gut ist!
+categories: Produkttest
 ---
 Der **Rupes Swirlfinder** ist eine handliche LED Lampe um Imperfektionen in der Lackoberfläche ausfindig zu machen.
 

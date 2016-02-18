@@ -244,4 +244,4 @@ Abschließend bleibt zu sagen, seid auf das Ergebnis gespannt. Ich bin es auch!
 
 Glänzende Grüße,
 
-**Börge** von [BB-Lackveredelung](www.bb-lackveredelung.de)
+**Börge** von [BB-Lackveredelung](http://www.bb-lackveredelung.de)
