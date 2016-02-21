@@ -1,20 +1,45 @@
 (function main(w, d) {
-	var linklist = $("#linklist")
-	, toggleMenu = $("#toggleMenu")
-	, breadTop = $(".hamburger li:nth-child(1)")
-	, beef = $(".hamburger li:nth-child(2)")
-	, breadBottom = $(".hamburger li:nth-child(3)")
-	, shareCounter = $("#sharecounter")
-	, easterEggNavbar = $("#eastereggNavbar")
+	var shareCounter = $("#sharecounter")
 	, searchReset = $("#search_reset")
 	, postSharing = $(".post--sharing")
 	, scrollTop = $(".scroll-top")
 	, showComments = $(".showCommentsContainer")
 	, pageHeading = $(".page-heading")
 	, headerStyle = $("#header-style")
-	, linklistMaxHeight = "230px"
 	, cookiesAlert = $(".cookies-hinweis")
-	, cookiesAcc = $("#cookies_acc");
+	, cookiesAcc = $("#cookies_acc")
+  , slideMenuToggle = $("#slidemenutoggle")
+  , fullPage = $("#fullpage")
+  , hashHrefs = $(".menucontent a.closeSlideMenuOnClick")
+  , slideMenu = $(".slidemenu")
+  , slideMenuContent = $(".menucontent");
+
+  function closeSlideMenu() {
+    slideMenu.removeClass("menuOut");
+    fullPage.off("click", closeSlideMenuFullPage);
+    hashHrefs.off("click", closeSlideMenu);
+    fullPage.removeClass("opacity03");
+  }
+  function closeSlideMenuFullPage(e) {
+    e.preventDefault();
+    closeSlideMenu();
+  }
+  closeSlideMenu();
+  slideMenuToggle.on("click", function() {
+    if(slideMenu[0].classList.contains("menuOut")) {
+      fullPage.on("click", closeSlideMenuFullPage);
+      hashHrefs.on("click", closeSlideMenu);
+    } else {
+      fullPage.addClass("opacity03");
+      slideMenu.addClass("menuOut");
+      setTimeout(function() {
+        fullPage.on("click", closeSlideMenuFullPage);
+        hashHrefs.on("click", closeSlideMenu);
+      }, 50);
+    }
+  });
+
+
 	var postContentLinksBlank = (function() {
 		//open all links in article in a new window by default
 		$('.post--content a')._forEach(function(link) {link.setAttribute('target', '_blank')});
@@ -116,12 +141,17 @@
 			}
 		}
 	}
-  if(!ItseMeIndex) getShareCounter();
+  var forbiddenShareCounterLocations = ["/spenden/", "/mischungsrechner/", "/impressum/", "/", "/blog-abonnieren/", "/kontakt/", "/preview/"];
+  var allowShareCounter = true;
+  forbiddenShareCounterLocations.map(function(badpath) {
+    if(location.pathname === badpath) allowShareCounter = false;
+  });
+  if(allowShareCounter) getShareCounter();
 
 	var addEvents = function() {
 		// Scotty, beam me up
 		scrollTop.on("click", function() {
-			linklist.scrollTo();
+			slideMenuToggle.scrollTo();
 		});
 
 		// just load Disqus Comments, when the user wants to
@@ -135,47 +165,7 @@
 			})();
 			showComments.style("display", "none");
 		});
-
-		var selectCatChange = (function() {
-			var select = $("select[name=kategorie]");
-			var select0 = select[0];
-			select.on("change", function() {
-				location.href = "/" + select0.options[select0.selectedIndex].value;
-			});
-		})();
-
-		// Events for the Navbar
-		//toggleMenu.on("change", updateMenu);
-		// linklist.on("click", function() {
-		// 	$("#toggleMenu")[0].checked = false;
-		// 	updateMenu();
-		// });
-		//w.addEventListener("resize", updateMenu);
 	};
 
-	// Private Functions
-
-	function updateMenu() {
-		var docHeight = w.innerHeight;
-		var docWidth = w.innerWidth;
-
-		(docWidth >= 750) ? linklist.style("maxHeight", linklistMaxHeight) : hamburgerToggle();
-	};
-	//updateMenu();
-	function hamburgerToggle(tgl) {
-		var expand = function() {
-			linklist.style("maxHeight", linklistMaxHeight);
-			breadBottom.addClass("hidden");
-			breadTop.addClass("rot45deg");
-			beef.addClass("rot-45deg");
-		};
-		var close = function() {
-			linklist.style("maxHeight", "0");
-			breadBottom.removeClass("hidden");
-			breadTop.removeClass("rot45deg");
-			beef.removeClass("rot-45deg");
-		};
-		(toggleMenu[0].checked) ? expand() : close();
-	}
 	addEvents();
 })(window, document);

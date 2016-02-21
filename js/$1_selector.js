@@ -7,7 +7,7 @@
 	var selectElement = function(selector) {
 		var i = 0;
 		var els = d.querySelectorAll(selector);
-		
+
 		// return ghost Element if Node is not in the DOM
 		// prevent parsing error, when a function is called on this[0]
 		if(els.length === 0) {
@@ -16,7 +16,7 @@
 			return this;
 		}
 
-		
+
 		this.length = els.length;
 		for(i; i<this.length;i++) {
 			this[i] = els[i];
@@ -77,7 +77,13 @@
 				});
 			}
 		},
-
+    off: function(event, cb) {
+			if(document.addEventListener) {
+				return this.each(function(el) {
+					el.removeEventListener(event, cb, false);
+				});
+			}
+		},
 		// CSS manipulation
 		addClass: function(classes) {
 			return this.each(function(el) {
@@ -89,6 +95,12 @@
 				el.classList.remove(classes)
 			});
 		},
+    containsClass: function(cssclass) {
+      return this.each(function(el) {
+        console.log(el.classList.contains(cssclass))
+        return el.classList.contains(cssclass);
+      });
+    },
 		css: function(css) {
 			return this.each(function(el) {
 				var getStyle = el.getAttribute("style");
@@ -125,9 +137,9 @@
 				window.scrollTo(0,getOffset.top + scrolltopfix - 10);
 			});
 		}
-	} 
+	}
 	if(!w.$) {
 	w.$ = $;
 	}
-	
+
 })(window, document);

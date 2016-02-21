@@ -28,7 +28,7 @@ read commit_msg
 green '--> Build Jekyll and push to git'
 gulp jekyll
 git add .
-git commit -am ":sparkles: $commit_msg"
+git commit -am ":boom: $commit_msg"
 git push
 red '<-- done'
 

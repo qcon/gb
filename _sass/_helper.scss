@@ -121,7 +121,7 @@
   // display:none;
   // @include font(light);
   // font-size:1.5em;
-  
+
   display: none;
   text-align: center;
   font-family: 'Roboto', sans-serif;
@@ -141,14 +141,14 @@
   text-align:center;
   width: 45px;
   height: 45px;
-  
+
   border-top: 2px solid $blau;
   border-bottom: 2px solid $blau;
   border-right:2px solid rgba(255,255,255,0);
   border-left:2px solid rgba(255,255,255,0);
-  
+
   border-radius:50%;
-  
+
   animation: loadspin 1.7s infinite;
 }
 @keyframes loadspin {
@@ -208,4 +208,7 @@
 }
 .cursor-not-allowed {
 	cursor: not-allowed;
+}
+.opacity03 {
+  opacity: .3;
 }

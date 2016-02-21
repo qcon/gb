@@ -1,4 +1,4 @@
-  <header class="header__main">
+<header class="header__main">
 	<div class="width--wrapper">
 	  <div class="post--title" id="post--title">
 		{% if page.title == nil %}
@@ -34,7 +34,8 @@
 	</div>
   </header>
   <div class="header__extend" id="mainnav">
-		{% include menu_render.html %}
+		<!-- {% include menu_render.html %} -->
+    {% include svg/menutoggle.svg %}
 	</div>
 	<div style="display: none" class="cookies-hinweis">Glossboss.de verwendet Cookies. Mit der weiteren Nutzung dieser Website stimmst du der Verwendung von Cookies zu. <p>Erfahre mehr in den <a href="/impressum">Datenschutzhinweisen</a> <span class="secondary_btn" id="cookies_acc">&#10006;</span></p></div>
   <!-- <div style="display: none" class="donation-hinweis">Der Blog soll weiterhin Werbefrei und die Berichte unabhängig bleiben? Dann besuche unsere <a class="primary_btn" href="/spenden">Spendenseite!</a> <span class="secondary_btn" id="donation_acc">&#10006;</span></div> -->
