@@ -2,43 +2,53 @@
   width: 32px;
   height: 32px;
   cursor: pointer;
+
   path {
     transition: fill 120ms ease-out;
   }
+
   &:hover {
-    animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+    animation: shake .82s cubic-bezier(.36,.07,.19,.97) both;
     transform: translate3d(0, 0, 0);
     backface-visibility: hidden;
     perspective: 1000px;
+    
     path {
       fill: $blau;
     }
   }
 }
+
 @keyframes shake {
-  10%, 90% {
+  10%,
+  90% {
     transform: translate3d(-1px, 0, 0);
   }
 
-  20%, 80% {
+  20%,
+  80% {
     transform: translate3d(2px, 0, 0);
   }
 
-  30%, 50%, 70% {
+  30%,
+  50%,
+  70% {
     transform: translate3d(-4px, 0, 0);
   }
 
-  40%, 60% {
+  40%,
+  60% {
     transform: translate3d(4px, 0, 0);
   }
 }
+
 .slidemenu {
   display: block;
   width: 235px;
   height: 100%;
   position: fixed;
-  top:0;
-  left:0;
+  top: 0;
+  left: 0;
   z-index: 3;
   background: $gray;
   transform: translateX(-235px);
@@ -46,92 +56,113 @@
   box-shadow: 0 1px 6px 1px rgba(black, .3);
   padding: 15px;
   overflow-y: scroll;
+
   &::-webkit-scrollbar {
     display: none;
   }
+
   .menucontent {
     h1 {
       color: $text-disabled;
       margin: 5px;
       font-size: 17px;
     }
+
     hr {
       border: 0;
       border-bottom: 1px solid #44bcff;
       margin: 13px 0;
       height: 1px;
     }
+
     a {
       display: block;
       margin: 15px 5px;
       color: $text;
       text-decoration: none;
       transition: 100ms ease-in;
+
       &:hover {
         color: $blau;
       }
     }
   }
 }
+
 #fullpage {
   transition: opacity 100ms ease-in;
 }
+
 .menuOut {
   transform: translateX(0px);
   overflow-y: scroll;
 }
+
 header {
-	color:white;
-	height:auto;
-	@include font(light);
-	font-size:1.9em;
-	padding:3em 0;
-  box-shadow: 1px 0px 6px 1px rgba(black, .4);
-	@media #{$sm} {
-		padding: 0.8em 0;
-		font-size:1.2em;
-	}
-	@media #{$xs} {
-		font-size:.8em;
-		font-size:4.7vmin;
-	}
+  color: white;
+  height: auto;
+  @include font(light);
+  font-size: 1.9em;
+  padding: 3em 0;
+  box-shadow: 1px 0 6px 1px rgba(black, .4);
+
+  @media #{$sm} {
+    padding: .8em 0;
+    font-size: 1.2em;
+  }
+
+  @media #{$xs} {
+    font-size: .8em;
+    font-size: 4.7vmin;
+  }
 }
+
 .header--logo {
-	text-align:center;
-	margin: 3em auto;
-	transition:.15s cubic-bezier(.55,0,.1,1);
-	svg:hover {
-		transform:scale(1.1);
-	}
-	img, svg {
-		transition:.15s cubic-bezier(.55,0,.1,1);
-		width: 360px;
-		max-width:95%;
-	}
-	a {
-		text-decoration: none;
-	}
+  text-align: center;
+  margin: 3em auto;
+  transition: .15s cubic-bezier(.55,0,.1,1);
+
+  svg:hover {
+    transform: scale(1.1);
+  }
+
+  img,
+  svg {
+    transition: .15s cubic-bezier(.55,0,.1,1);
+    width: 360px;
+    max-width: 95%;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
   @media #{$sm} {
     margin: 20px auto;
   }
 }
+
 .post--title {
-	max-width:100%;
-	h4 {
-		font-size:.6em;
-		font-weight:100;
-		margin-bottom:1em;
-	}
-	small {
-		font-size:.7em;
-		@include font(light);
-	}
-	a {
-		color:white;
-		text-decoration:none;
-		text-shadow:1px 1px 7px rgba(black,.3);
-		&:hover {
-			color:mix(white,black,95);
-		}
-	}
+  max-width: 100%;
+
+  h4 {
+    font-size: .6em;
+    font-weight: 100;
+    margin-bottom: 1em;
+  }
+
+  small {
+    font-size: .7em;
+    @include font(light);
+  }
+
+  a {
+    color: white;
+    text-decoration: none;
+    text-shadow: 1px 1px 7px rgba(black,.3);
+
+    &:hover {
+      color: mix(white,black,95);
+    }
+  }
 }

@@ -1,52 +1,53 @@
 <header class="header__main">
-	<div class="width--wrapper">
-	  <div class="post--title" id="post--title">
-		{% if page.title == nil %}
-		  <a href="http://glossboss.de" alt="Glossboss.de - Startseite"><h1> Glossboss.de - <small>dein Autopflege Blog</small></h1></a>
-		{% else %}
-		  <a href="{{ page.url | replace:'index.html','' | prepend: site.url }}"><h1>{{ page.title }} <small>{{ page.subtitle }}</small></h1></a>
-		  {% if page.date %}
-			<h4>
-			  {% assign m = page.date | date: "%-m" %}
-{{ page.date | date: "%-d" }}
-{% case m %}
-  {% when '1' %}Januar
-  {% when '2' %}Februar
-  {% when '3' %}M&auml;rz
-  {% when '4' %}April
-  {% when '5' %}Mai
-  {% when '6' %}Juni
-  {% when '7' %}Juli
-  {% when '8' %}August
-  {% when '9' %}September
-  {% when '10' %}Oktober
-  {% when '11' %}November
-  {% when '12' %}Dezember
-{% endcase %}
-{{ page.date | date: "%Y" }}
+  <div class="width--wrapper">
+    <div class="post--title" id="post--title">
+      {% if page.title == nil %}
+      <a href="http://glossboss.de" alt="Glossboss.de - Startseite"><h1> Glossboss.de - <small>dein Autopflege Blog</small></h1></a>
+      {% else %}
+      <a href="{{ page.url | replace:'index.html','' | prepend: site.url }}"><h1>{{ page.title }} <small>{{ page.subtitle }}</small></h1></a>
+      {% if page.date %}
+      <h4>
+        {% assign m = page.date | date: "%-m" %}
+        {{ page.date | date: "%-d" }}
+        {% case m %}
+        {% when '1' %}Januar
+        {% when '2' %}Februar
+        {% when '3' %}M&auml;rz
+        {% when '4' %}April
+        {% when '5' %}Mai
+        {% when '6' %}Juni
+        {% when '7' %}Juli
+        {% when '8' %}August
+        {% when '9' %}September
+        {% when '10' %}Oktober
+        {% when '11' %}November
+        {% when '12' %}Dezember
+        {% endcase %}
+        {{ page.date | date: "%Y" }}
 
 
-			  {% if page.author %} von {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}
-			</h4>
-		  {% endif %}
-		{% endif %}
-	  </div>
-	</div>
-  </header>
-  <div class="header__extend" id="mainnav">
-		<!-- {% include menu_render.html %} -->
-    {% include svg/menutoggle.svg %}
-	</div>
-	<div style="display: none" class="cookies-hinweis">Glossboss.de verwendet Cookies. Mit der weiteren Nutzung dieser Website stimmst du der Verwendung von Cookies zu. <p>Erfahre mehr in den <a href="/impressum">Datenschutzhinweisen</a> <span class="secondary_btn" id="cookies_acc">&#10006;</span></p></div>
-  <!-- <div style="display: none" class="donation-hinweis">Der Blog soll weiterhin Werbefrei und die Berichte unabhängig bleiben? Dann besuche unsere <a class="primary_btn" href="/spenden">Spendenseite!</a> <span class="secondary_btn" id="donation_acc">&#10006;</span></div> -->
-  <div class="header--logo">
-	<a href="https://glossboss.de/">
-    {% include svg/logo.svg %}
-	</a>
+        {% if page.author %} von {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}
+      </h4>
+      {% endif %}
+      {% endif %}
+    </div>
   </div>
- <div id="loading">
-   <div class="spinner"></div>
-   wird geladen ...
-   <div class="progressBar--wrapper"><div class="progressBar" id="progressBar"></div></div>
+</header>
+<div class="header__extend" id="mainnav">
+  <!-- {% include menu_render.html %} -->
+  {% include svg/menutoggle.svg %}
 </div>
-  <div class="overlay"></div>
+<div style="display: none" class="cookies-hinweis">
+  Glossboss.de verwendet Cookies. Mit der weiteren Nutzung dieser Website stimmst du der Verwendung von Cookies zu. <p>Erfahre mehr in den <a href="/impressum">Datenschutzhinweisen</a> <span class="secondary_btn" id="cookies_acc">&#10006;</span></p>
+</div>
+<div class="header--logo">
+  <a href="https://glossboss.de/">
+    {% include svg/logo.svg %}
+  </a>
+</div>
+<div id="loading">
+  <div class="spinner"></div>
+  wird geladen ...
+  <div class="progressBar--wrapper"><div class="progressBar" id="progressBar"></div></div>
+</div>
+<div class="overlay"></div>

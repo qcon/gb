@@ -1,127 +1,146 @@
 .wrap-modal {
-	position: fixed;
-	top: 0;
-	left: 0;
-	width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
 }
+
 .modal-show {
-	transition: 150ms;
-	transform: translate(0, 0) !important;
+  transition: 150ms;
+  transform: translate(0, 0) !important;
 }
+
 .modal {
-	@include font(light);
-	font-size: 1.1em;
-	//border-radius: 15px;
-	padding: 1em;
-	margin: 1em auto;
-	text-align: center;
-	//background: mix(white, $blau, 7);
-	color: white;
-	width: 60%;
-	transition: 200ms;
-	transform: translate(0, -350px);
-	&-success {
-		background: #00B16A;
-	}
-	&-error {
-		background: #CF000F;
-	}
+  @include font(light);
+  font-size: 1.1em;
+  //border-radius: 15px;
+  padding: 1em;
+  margin: 1em auto;
+  text-align: center;
+  //background: mix(white, $blau, 7);
+  color: white;
+  width: 60%;
+  transition: 200ms;
+  transform: translate(0, -350px);
+
+  &-success {
+    background: #00B16A;
+  }
+
+  &-error {
+    background: #CF000F;
+  }
 }
+
 #showComments {
-	width: 60px;
-	cursor: pointer;
-	fill: $text;
-	&:hover {
-		fill: mix(white, $text, 15);
-	}
+  width: 60px;
+  cursor: pointer;
+  fill: $text;
+
+  &:hover {
+    fill: mix(white, $text, 15);
+  }
 }
+
 .showCommentsContainer {
-	text-align: center;
-	h3 {
-		@include font(special);
-		cursor: pointer;
-		&:hover {
-			color: mix(white, $text, 15);
-		}
-	}
-}
-.post--prev-next {
-	@include font(light);
-	margin-bottom: 4em;
-	ul {
-		list-style: none;
-	}
-	ul li {
-		padding: 8px 0;
-		&:before {
-			content: "\00BB \0020";
-		}
-	}
-	a {
-		color:$blau;
-		text-decoration: underline;
-		width:100%;
-		&:hover {
-		text-decoration:none;
-		color:$text;
+  text-align: center;
+
+  h3 {
+    @include font(special);
+    cursor: pointer;
+
+    &:hover {
+      color: mix(white, $text, 15);
     }
-	}
-    // width:100%;
-    // overflow: visible;
-    // margin-bottom:5em;
-    // float:left;
-    // .next {
-    //     text-align: right;
-    //     @extend %prevnext;
-    //     .post--next {
-    //         float:right;
-    //         @extend %prevnextlink;
-    //     }
-
-    // }
-    // .prev {
-    //     @extend %prevnext;
-    //     .post--prev {
-    //         float:left;
-    //         @extend %prevnextlink;
-
-    //     }
-    // }
+  }
 }
+
+.post--prev-next {
+  @include font(light);
+  margin-bottom: 4em;
+
+  ul {
+    list-style: none;
+  }
+
+  ul li {
+    padding: 8px 0;
+
+    &:before {
+      content: "\00BB \0020";
+    }
+  }
+
+  a {
+    color: $blau;
+    text-decoration: underline;
+    width: 100%;
+
+    &:hover {
+      text-decoration: none;
+      color: $text;
+    }
+  }
+  // width:100%;
+  // overflow: visible;
+  // margin-bottom:5em;
+  // float:left;
+  // .next {
+  //     text-align: right;
+  //     @extend %prevnext;
+  //     .post--next {
+  //         float:right;
+  //         @extend %prevnextlink;
+  //     }
+  // }
+  // .prev {
+  //     @extend %prevnext;
+  //     .post--prev {
+  //         float:left;
+  //         @extend %prevnextlink;
+  //     }
+  // }
+}
+
 .capitalize {
-    text-transform: capitalize;
+  text-transform: capitalize;
 }
+
 #eastereggNavbar {
-	cursor: wait;
-	content: '';
-	width: 1px;
+  cursor: wait;
+  content: '';
+  width: 1px;
 }
+
 .eastereggNavbar {
-	transform: rotate(180deg);
+  transform: rotate(180deg);
 }
+
 .hidden {
-  opacity:0;
+  opacity: 0;
 }
+
 .progressBar--wrapper {
   width: 90%;
   margin: 0 auto;
 }
+
 #progressBar {
-  width:5%;
-  height:5px;
-  margin-top:10px;
-  background:$blau;
+  width: 5%;
+  height: 5px;
+  margin-top: 10px;
+  background: $blau;
   display: none;
   transition: 100ms;
   @include materialShadow(1);
 }
+
 #loading {
   //  margin:2em auto;
   // text-align:center;
   // display:none;
   // @include font(light);
   // font-size:1.5em;
-
   display: none;
   text-align: center;
   font-family: 'Roboto', sans-serif;
@@ -136,79 +155,97 @@
   z-index: 9999;
   background-color: rgba(255,255,255,.85);
 }
+
 .spinner {
- margin:2em auto;
-  text-align:center;
+  margin: 2em auto;
+  text-align: center;
   width: 45px;
   height: 45px;
-
   border-top: 2px solid $blau;
   border-bottom: 2px solid $blau;
-  border-right:2px solid rgba(255,255,255,0);
-  border-left:2px solid rgba(255,255,255,0);
-
-  border-radius:50%;
-
+  border-right: 2px solid rgba(255,255,255,0);
+  border-left: 2px solid rgba(255,255,255,0);
+  border-radius: 50%;
   animation: loadspin 1.7s infinite;
 }
+
 @keyframes loadspin {
   50% {
     border-top: 2px solid #fff;
     border-bottom: 2px solid #fff;
-    border-right:2px solid $blau;
-    border-left:2px solid $blau;
-    transform:rotate(360deg) scale(.8);
+    border-right: 2px solid $blau;
+    border-left: 2px solid $blau;
+    transform: rotate(360deg) scale(.8);
   }
 }
-.rot45deg {
-  transform:rotate(45deg);
-  background:red !important;
-  top:10px !important;
-}
-.rot-45deg {
-  transform:rotate(-45deg);
-  background:red !important;
-}
-.maxheight {
-  max-height:100%;
-}
-.scaleIn {
-    transition:.15s;
-  transform:scale(1) !important;
-}
-.scaleOut {
-    transition:.15s;
-  transform:scale(0) !important;
-}
-.opacity-0 {
-    opacity:0;
-    transition:.25s;
-}
-.is-viewed {
-    opacity:.85;
-    &:hover {
-    	opacity:1;
-    }
-}
-.mischungsDelay {
-    transition:450ms cubic-bezier(.55,0,.1,1);
-}
-#loadmoreajax {
-    display:none;
-}
-.displayNone {
-    position: absolute; visibility: hidden;
-    opacity: 0;
-    transform:scale(.9) translate(0, 250px) rotate(7deg);
-    //transform:scale(.5) rotate(10deg);
 
+.rot45deg {
+  transform: rotate(45deg);
+  background: red !important;
+  top: 10px !important;
 }
+
+.rot-45deg {
+  transform: rotate(-45deg);
+  background: red !important;
+}
+
+.maxheight {
+  max-height: 100%;
+}
+
+.scaleIn {
+  transition: .15s;
+  transform: scale(1) !important;
+}
+
+.scaleOut {
+  transition: .15s;
+  transform: scale(0) !important;
+}
+
+.opacity-0 {
+  opacity: 0;
+  transition: .25s;
+}
+
+.is-viewed {
+  opacity: .85;
+
+  &:hover {
+    opacity: 1;
+  }
+}
+
+.mischungsDelay {
+  transition: 450ms cubic-bezier(.55,0,.1,1);
+}
+
+#loadmoreajax {
+  display: none;
+}
+
+.displayNone {
+  position: absolute;
+  visibility: hidden;
+  opacity: 0;
+  transform: scale(.9) translate(0, 250px) rotate(7deg);
+  //transform:scale(.5) rotate(10deg);
+}
+
 .no-margin {
   margin: 0;
 }
+
 .cursor-not-allowed {
-	cursor: not-allowed;
+  cursor: not-allowed;
 }
+
 .opacity03 {
   opacity: .3;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  overflow: hidden;
 }
