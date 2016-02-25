@@ -19,5 +19,5 @@ layout: post
 title: $new_title
 subtitle: $new_subtitle
 author: $new_author
-heder_image: URL
+header_image: URL
 ---" >> $NEWFILE_SLUG

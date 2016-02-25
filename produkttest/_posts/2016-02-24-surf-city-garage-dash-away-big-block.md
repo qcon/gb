@@ -3,7 +3,7 @@ layout: post
 title: Surf City Garage Dash Away + Big Block
 subtitle: Das perfekte Innenraumduo?
 author: Chris
-heder_image: https://glossbossimages.s3.eu-central-1.amazonaws.com/criz/dashaway_bigblock/teil2/IMG_4636.jpg
+header_image: https://glossbossimages.s3.eu-central-1.amazonaws.com/criz/dashaway_bigblock/teil2/IMG_4636.jpg
 ---
 # Surf City Garage Dash Away + Big Block - das Innenraumduo?
 
@@ -152,6 +152,3 @@ auch hier ein schönes mattes und natürliches Finish. Das Leder fühlt sich hin
 &nbsp;Nachdem das Big Block vorgestellt wurde, wollte ich es sofort testen, da es laut Hersteller perfekt zum Dash Away passt und ich schon länger auf der Suche nach einer Innenraumpflege war die ein mattes Finish hinterlässt. Dass sich das Big Block nicht nur für Kunststoffe sondern auch viele andere Oberflächen eignet macht es nur noch interessanter, weil ich inzwischen eben nur noch das Dash Away und das Big Block für die regelmäßige Pflege des Innenraums benötige und eben keinen APC, Teppich/Polsterreiniger, Lederreiniger, ... dazu dann noch Lederpflege, Kunststoffpflege, ...
 
 Klar für professionelle Aufbereiter wird dieser Punkte her unwichtig sein, aber alle Hobbypfleger dürften mit den beiden Produkten super auskommen und müssen beim Ergebnis trotzdem keine Abstriche machen.
-bericht.txt
-Öffnen mit
-bericht.txt wird angezeigt.
