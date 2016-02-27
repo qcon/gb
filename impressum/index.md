@@ -15,11 +15,11 @@ header_image: https://glossbossimages.s3.eu-central-1.amazonaws.com/headerimg/DS
   </p>
 
   <p>
-    Friedhofstr. 7
+    Clemens-August-Str. 87
   </p>
 
   <p>
-    46284 Dorsten
+    46282 Dorsten
   </p>
 
   <p>
@@ -35,11 +35,11 @@ header_image: https://glossbossimages.s3.eu-central-1.amazonaws.com/headerimg/DS
   </p>
 
   <p>
-    Friedhofstr. 7
+    Clemens-August-Str. 87
   </p>
 
   <p>
-    46284 Dorsten
+    46282 Dorsten
   </p>
   <br />Für Artikel und Beiträge die nicht vom Website-Betreiber stammen ist der jeweiliger Author verantwortlich
 
