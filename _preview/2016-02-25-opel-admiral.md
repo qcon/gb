@@ -3,7 +3,7 @@ layout: post
 title: Opel Admiral
 subtitle: UniSchwarz in Glossboss Teamarbeit
 author: Marvin
-header_image: URL
+header_image: https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/opel_admiral/DSC00858.jpg
 ---
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/opel_admiral/DSC00695.jpg)
 
