@@ -7,11 +7,9 @@ header_image: https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/opel_
 ---
 # Opel Admiral - Glossboss Teamwork
 
-Dieser Opel Admiral wurde von 4 Glossbossen wieder im Rahmen des möglichen zum Glänzen gebracht. Ziel war keine 100% Defektkorrektur - der Lack sollte dennoch schön glänzen.
+Dieser Opel Admiral wurde von 4 Glossbossen (Matheus, Johannes, Mark & Marvin) wieder im Rahmen des möglichen zum Glänzen gebracht. Ziel war keine 100% Defektkorrektur - der Lack sollte dennoch schön glänzen.
 
 Der Besitzer hat den Wagen gewaschen angeliefert. Leider hats an diesen Tag durchgehend geregnet.
-
-![](https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/opel_admiral/DSC00695.jpg)
 
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/opel_admiral/DSC00696.jpg)
 
@@ -142,7 +140,8 @@ Die Felgen wurden übrigens auch mit Handpolierschwamm und Ultimate Compound wie
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/opel_admiral/DSC00825.jpg)
 
 # Fertig!
-<div>Noch ein paar Restarbeiten erledigen (Scheiben mit den Tugalin Scheibenreiniger, Ecken und Kanten mit Wattestäbchen usw) und der Admiral ist bereit für die Finishbilder.</div>
+
+Noch ein paar Restarbeiten erledigen (Scheiben mit den Tugalin Scheibenreiniger, Ecken und Kanten mit Wattestäbchen usw) und der Admiral ist bereit für die Finishbilder.
 
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/opel_admiral/DSC00828.jpg)
 

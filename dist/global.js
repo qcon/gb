@@ -366,6 +366,7 @@
 
   closeSlideMenu();
   slideMenuToggle.on("click", function() {
+    ga("send", "event", "Navigation", "click", "Burger Menu")
     if (slideMenu[0].classList.contains("menuOut")) {
       fullPage.on("click", closeSlideMenuFullPage);
       hashHrefs.on("click", closeSlideMenu);
