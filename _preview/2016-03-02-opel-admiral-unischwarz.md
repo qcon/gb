@@ -5,11 +5,13 @@ subtitle: UniSchwarz in Glossboss Teamarbeit
 author: Marvin
 header_image: https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/opel_admiral/DSC00858.jpg
 ---
-# Opel Admiral - Glossboss Teamwork
+# Opel Admiral B - Glossboss Teamwork am Rüsselsheimer Flaggschiff&nbsp;
 
-Dieser Opel Admiral wurde von 4 Glossbossen (Matheus, Johannes, Mark & Marvin) wieder im Rahmen des möglichen zum Glänzen gebracht. Ziel war keine 100% Defektkorrektur - der Lack sollte dennoch schön glänzen.
+Im Team macht doch alles doppelt so viel Spaß. Findet Ihr das nicht auch? Wir zumindest schon!
 
-Der Besitzer hat den Wagen gewaschen angeliefert. Leider hats an diesen Tag durchgehend geregnet.
+Daher hatten wir beschlossen, den Opel Admiral gemeinsam wieder zum glänzen zu bringen. Wer sind "wir"? In diesem Fall Johannes, Marvin, Mark und Matheus. Ziel war keine 100% Defektkorrektur des in die Jahre gekommenen Unischwarzen Lackes - der Admiral sollte einfach wieder standesgemäß glänzen.
+
+Der Besitzer hat den Wagen am Vortag gewaschen und voller Freude am frühen Morgen angeliefert. Leider hatte es an diesen Tag durchgehend geregnet. Dann schauen wir uns das ehemalige Opel "Flaggschiff" der 70er Jahre einmal an. Ausgangszustand:
 
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/opel_admiral/DSC00696.jpg)
 
@@ -23,19 +25,23 @@ Wir ahnten schon was auf uns zu kommt...
 
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/opel_admiral/DSC00706.jpg)
 
+Wie sieht es denn unter der Lampe genauer aus?&nbsp;
+
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/opel_admiral/DSC00708.jpg)
+
+Nicht besser mit viel Licht.
 
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/opel_admiral/DSC00711.jpg)
 
-Angefangen haben wir mit den Vinyldach. Das wurde nicht gewaschen, sondern mit Finish Kare #121 und einer Colourlock Bürste gereinigt. Das reicht vollkommen um den schönen natürlichen Glanz vom Vinyl wiederherzustellen.&nbsp;
+Angefangen haben wir mit den Vinyldach. Das bereits gewaschene Vinyldach wurde nun mit Finish Kare #121 und einer Colourlock Bürste gereinigt. Das reicht vollkommen um den schönen natürlichen Glanz vom Vinyl wiederherzustellen.&nbsp;
 
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/opel_admiral/DSC00713.jpg)
 
-Anschließend wurde noch als kleiner _booster_&nbsp;das Koch Chemie Quick and Shine aufgesprüht.
+Anschließend wurde als kleiner *"Booster"* noch von Koch Chemie das Quick and Shine aufgesprüht um ein seidenmattes Finish zu gewähren.
 
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/opel_admiral/DSC00718.jpg)
 
-So sieht der Lack also gewaschen und getrocknet aus.&nbsp;
+Auch wenn der Admiral wie Eingangs erwähnt bereits gewaschen war, bekam er natürlich noch eine obligatorische Trockenwäsche mit Optimum no rinse. So sah dann der Lack also gewaschen und getrocknet aus.&nbsp;
 
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/opel_admiral/DSC00716.jpg)
 
@@ -43,17 +49,17 @@ Eine menge Kratzer!
 
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/opel_admiral/DSC00717.jpg)
 
-Teilweise auch sehr tiefe...
+Teilweise auch sehr tief...tiefer..geht immer
 
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/opel_admiral/DSC00720.jpg)
 
-Also erstmal Kneten. Erfahrungsgemäß sieht man danach nochmal mehr Kratzer, da alle Verunreinigungen aus allen "Poren" rausgeholt wurden.&nbsp;
+Dennoch galt es nun also erst einmal zu kneten. Erfahrungsgemäß sieht man danach nochmal mehr Kratzer, da alle Verunreinigungen aus allen "Poren" rausgeholt wurden.&nbsp;
 
-Also direkt ein Testfeld auf der Motorhaube geknetet - da kam natürlich schon einiges an Schmutz runter. Deswegen haben wir zusätzlich den Gesamten Wagen vorher nochmal mit Valet Pro Tar&amp;Glue Remover behandelt.
+Also direkt ein Testfeld auf der Motorhaube geknetet. Da kam natürlich schon einiges an Schmutz runter. Deswegen haben wir zusätzlich den Gesamten Wagen vorher nochmal mit Valet Pro Tar&amp;Glue Remover behandelt. Kurz einwirken lassen, dann nach wenigen Minuten mit einem Tuch abnehmen. Optimum no rinse vor dem kneten hinterher - fertig.
 
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/opel_admiral/DSC00722.jpg)
 
-Ran ans Polieren. Das erste Testfeld wurde mit folgender Kombination poliert:
+Ran ans Polieren, denn wirklich etwas abzukleben gab es bei dem Capit...ähm - Admiral natürlich nicht. Das erste Testfeld wurde mit folgender Kombination poliert:
 
 Rupes Duetto (12er) + Meguiars Mikrofaserpad (Cutting) und Meguiars Ultimate Compound.
 
@@ -69,17 +75,17 @@ Das Ergebnis war gut, aber bei weitem nicht zufriedenstellend - da geht definiti
 
 Im Bild unten siehts schon deutlich besser aus. Folge Kombination war perfekt:
 
-Flex Rotatiosmaschine + orangenes Lake Country Pad + Christ Schleifpolitur.
+Flex Rotatiosmaschine + orangenes Lake Country Pad + Christ Schleifpolitur im ersten Schritt.
 
 Das funktionierte aber nur, wenn man sich an eine bestimmte Vorgehensweise hält: erst die Politur einfahren mit ca. 1200 u/min, danach 2-3 Kreuzstriche mit kräftig Druck bei ca. 1800 u/min und zum Schluss noch ein Kreuzstrich zum ausfahren bei 1200 u/min.&nbsp;
 
-Danach waren im Schnitt 95% der Kratzer korrigiert. An machen Bauteilen waren aber auch 2 Durchgänge mit oben genannten Kombination nötig.
+Danach waren im Schnitt 95% der Kratzer korrigiert und es blieb überraschenderweise größtenteils ein hologrammfreies Finish zurück. An machen Bauteilen waren aber auch zwei Durchgänge mit oben genannten Kombination nötig. Dies war aber zum Glück mehr die Ausnahme als die Regel.
 
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/opel_admiral/DSC00738.jpg)
 
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/opel_admiral/DSC00742.jpg)
 
-Hier war noch ein 2. Gang mit der Rotationsmaschine nötig!
+Hier war noch ein 2. Gang mit der Rotationsmaschine nötig. Aber selbst der erste Gang war schon beeindruckend!
 
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/opel_admiral/DSC00746.jpg)
 
@@ -95,11 +101,17 @@ So soll es aussehen.
 
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/opel_admiral/DSC00767.jpg)
 
-Um Hologramme zu entfernen und den Lack noch glänzender zu machen, wurde der Gesamte Wagen mit der 3M Antihologramm abgezogen. Auf Unischwarz ein unglaublich geiler Glanz!
+Um etwaige Hologramme zu entfernen und den Lack noch mehr auf Glanz zu bringen, wurde als zweiter Schritt der gesamte Wagen mit der 3M Antihologramm bearbeitet.
+
+Vorgehensweise: 1 Kreuzstrich verteilt auf Stufe 1 mit einer DAS6 Excenter. Dann auf Stufe 5 mit einem weißen Lake Country Pad 4 Kreuzstriche langsam durchgefahren. Die Belohnung:
+
+Auf Unischwarz ein unglaublich geiler Glanz! Bitte entschuldigt die klaren Worte, aber live waren wir alle sehr begeistert wozu dieser alte Lack im Stande war.&nbsp;
 
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/opel_admiral/DSC00769.jpg)
 
-Parallel wurde immernoch mit der Schleifpaste gearbeitet.
+Parallel wurde immer noch mit der Schleifpaste gearbeitet. Aufteilung:
+
+3x Mann mit der Rotationsmaschine / 1x Mann für das Finish - passte wunderbar
 
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/opel_admiral/DSC00771.jpg)
 
@@ -111,7 +123,7 @@ Parallel wurde immernoch mit der Schleifpaste gearbeitet.
 
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/opel_admiral/DSC00793.jpg)
 
-Überbleibsel vom Lackierer, der den Lack geschliffen hat. Die Spuren waren auch nach der 3. Runde nicht verschwunden.
+Überbleibsel vom Lackierer, der den Lack geschliffen hat. Die Spuren waren auch nach der 3. Runde nicht verschwunden. Auch so was sollte gezeigt werden fanden wir. An so einem stark durchgespachtelten und nachlackiertem Auto kann man viel bewegen, aber nun einmal keine Wunder vollbringen. Das muss jedem bewusst werden.&nbsp;
 
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/opel_admiral/DSC00800.jpg)
 
@@ -119,15 +131,17 @@ Mit einen zerschnittenen Polierpad + Meguiars Ultimate Compound wurde die ganzen
 
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/opel_admiral/DSC00801.jpg)
 
-Grüne Borsten vom letzten Waschanlagenbesuch? ;)
+Grüne Borsten von früheren Waschanlagenbesuch? Ach ne - war bestimmt vom Vorbesitzer ;-)
 
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/opel_admiral/DSC00804.jpg)
 
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/opel_admiral/DSC00805.jpg)
 
+Zur Erinnerung - auch hier wurde vorher bereits gewaschen und geknetet.&nbsp;
+
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/opel_admiral/DSC00806.jpg)
 
-Als soweit alles fertig poliert war haben wir diskutiert welches Wachs auf den Lack soll. Das Zymöl Concours hat letzendlich wegen den richtig schönen Perlen und den tollen Glanz gewonnen!
+Als soweit alles fertig poliert war haben wir diskutiert welches Wachs auf den Lack soll. Das Zymöl Concours hat letztendlich wegen den richtig schönen Perlen und den tollen Glanz gewonnen! Das Auto ist zwar kein reines Schönwetter Fahrzeug, aber als Dailydriver dient es auch nicht. Dafür hat der Eigentümer noch ein schönes C-Kadett Coupe. Und da ab nun mit der richtigen Waschausrüstung richtig von Hand gewaschen wird - war das Concours genau richtig für den nun wieder unischwarz glänzenden Admiral.
 
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/opel_admiral/DSC00815.jpg)
 
@@ -141,7 +155,7 @@ Die Felgen wurden übrigens auch mit Handpolierschwamm und Ultimate Compound wie
 
 # Fertig!
 
-Noch ein paar Restarbeiten erledigen (Scheiben mit den Tugalin Scheibenreiniger, Ecken und Kanten mit Wattestäbchen usw) und der Admiral ist bereit für die Finishbilder.
+Noch ein paar Restarbeiten erledigen (Scheiben mit den Tugalin Scheibenreiniger behandelt, mit gtechniq G4 Scheibenpolitur vorbereitet und versiegelt mit G5, die Ecken und Kanten mit Wattestäbchen nachbearbeitet, usw.) und der Admiral ist bereit für die Finishbilder.
 
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/opel_admiral/DSC00828.jpg)
 
@@ -176,15 +190,3 @@ Noch ein paar Restarbeiten erledigen (Scheiben mit den Tugalin Scheibenreiniger,
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/opel_admiral/DSC00866.jpg)
 
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/opel_admiral/DSC00868.jpg)
-
-![](https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/opel_admiral/DSC00870.jpg)
-
-![](https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/opel_admiral/DSC00871.jpg)
-
-![](https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/opel_admiral/DSC00872.jpg)
-
-![](https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/opel_admiral/DSC00873.jpg)
-
-![](https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/opel_admiral/DSC00875.jpg)
-
-![](https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/opel_admiral/DSC00878.jpg)
