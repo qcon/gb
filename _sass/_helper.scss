@@ -1,3 +1,30 @@
+.cat-filter-wrap {
+  text-align: center;
+}
+.cat-filter-ul {
+  list-style: none;
+  margin: 5px 0 25px 0;
+  li {
+    display: inline-block;
+    margin: 10px;
+    @media #{$sm} {
+      margin: 18px;
+    }
+    .active {
+      color: $blau;
+    }
+    a {
+      // border-radius: 10px;
+      background: $gray;
+      padding: 10px 20px;
+      color: $text-disabled;
+      text-decoration: none;
+      &:hover {
+        background: $gray_hover;
+      }
+    }
+  }
+}
 .wrap-modal {
   position: fixed;
   top: 0;

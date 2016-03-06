@@ -1,4 +1,13 @@
 (function routerEngine(w, d) {
+  function addActiveCatFilter(hash) {
+    $(".cat-filter-a").each(function(a) {
+      a.classList.remove("active");
+      if(a.href.indexOf(hash) > 1) {
+        a.classList.add("active");
+      }
+    });
+  }
+
   var postList = $(".post--list")
   , postContainer = $("#post--list__container")
   , pageHeading = $("#page-heading")
@@ -16,6 +25,7 @@
       return this;
     },
     checkRoute: function(hash) {
+      addActiveCatFilter(hash);
       for(var i in this.routes) {
         var match = hash.match(this.routes[i].re);
         if(match) {
