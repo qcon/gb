@@ -26,18 +26,6 @@
 		var me = $("#loading");
 		(toggle) ? me.style("opacity", "1").style("display", "block") : me.style("opacity", "0").style("display", "none");
 	};
-	var markActiveLinkNavbar = function(hash) {
-		// $(".linklistloop a")._forEach(function(_self) {
-		// 	if(_self.getAttribute("data-kat") === hash ) {
-		// 		_self.classList.add("cat--active");
-		// 		setTimeout(function() {
-		// 			$(".linklist").scrollTo();
-		// 		}, 50);
-		// 	} else {
-		// 		_self.classList.remove("cat--active");
-		// 	}
-		// });
-	};
 	var searchRender = function() {
 		$("#search_reset").on('click', function() {
 			$('#search-input')[0].value = '';
@@ -111,7 +99,6 @@
 	// assign Functions to window
 	w.ajax = ajax;
 	w.searchRender = searchRender;
-	w.markActiveLinkNavbar = markActiveLinkNavbar;
 	w.loader = loader;
 	w.appendModal = appendModal;
 	w.DIV = DIV;

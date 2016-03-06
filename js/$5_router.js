@@ -70,23 +70,6 @@
       //   }
       // }
 
-
-
-      // LOOP THROUGH ALL POST
-      $('#indexContainer li').each(function(post) {
-        var postPublished = getCurDate - post.getAttribute("data-published");
-        postDate = post.getAttribute('data-published').split('-');
-        if((getCurDate[0] === postDate[0]) && (getCurDate[1] === postDate[1])) {
-          post.innerHTML = '<span class="post--new">NEU</span>' + post.innerHTML;
-        }
-      });
-
-
-
-
-
-
-
       postContainer.removeClass("opacity-0");
       pageHeading.removeClass("opacity-0");
       loader(0);
@@ -128,25 +111,21 @@
     parser: function(hash, title, isIndex) {
       $("#toggleMenu")[0].checked = false;
       $("#searchWrapper").style("display", "none");
-      markActiveLinkNavbar(hash);
       var _hash = hash.charAt(0).toUpperCase() + hash.slice(1, hash.length);
       title = title || _hash;
       // RESET
-
       loader(1);
-
       loadmoreButton.style("display", "none");
-      pageHeading.addClass("opacity-0");
-      pageHeading.text(title);
-
       postList.html(" ");
       postContainer.addClass("opacity-0");
       if(hash === "suche") {
         postContainer.removeClass("opacity-0");
         searchRender();
         loader(0);
+        $(".cat-filter-wrap").addClass("displayNone")
         return;
       }
+      $(".cat-filter-wrap").removeClass("displayNone")
 
       ajax({
         method: "GET",
