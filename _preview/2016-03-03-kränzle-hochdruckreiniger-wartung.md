@@ -5,24 +5,22 @@ subtitle: Öl wechseln, Dichtungen erneuern, ...
 author: Jones
 header_image: https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/anleitungen/kraenzle_wartung/0022.jpg
 ---
+
 ## Wartung eines Kränzle Hochdruckreinigers
 
 Diesmal haben wir einen etwas anderen Bericht für euch, denn nicht nur das automobile Lustobjekt möchte gepflegt werden, nein auch die **Hilfsmittel** - dieses mal ein Hochdruckreiniger!   
 
->Hinweis: Bitte beachtet die **Garantiebedingungen**, wir übernehmen keine Haftung für entstandene Schäden. Bei Arbeiten an elektrischen Werkzeugen immer den Netzstecker ziehen, kribbelt weniger. ;)   
+>Hinweis: Bitte beachtet die **Garantiebedingungen**, wir haften nicht für Schäden den ihr verbockt. Bei Arbeiten an elektrischen Werkzeugen bitte immer den Netzstecker ziehen, kribbelt weniger ;)   
 
+Der **Kränzle 1151** fand im Sommer 2008 den Weg zu mir, seither leistet er kraftvoll und zuverlässig seinen Dienst, ich möchte den 25kg Brocken keinesfalls mehr missen.
+Das Teil ist super robust, richtig massiv und wertig verarbeitet, obendrein servicefreundlich und natürlich kraftvoll! Vermutlich wird der Kränzle noch Generation*en* weitergereicht werden. Wassermenge und -druck sind auf die Düse(n) abgestimmt und erzielen so ein **obtimales Reinigungsergebnis**. Mit dem min. 10m flexiblem Stahlgewebe-Hochdruckschlauch könnte man Autos abschleppen.   
 
-Der **Kränzle 1151** fand im Sommer 2008 den Weg zu mir, seither leistet er kraftvoll und zuverlässig seinen Dienst, ich möchte den 25kg Brocken keinesfalls mehr missen!   
-Im "*Geiz ist geil*"-Preisvergleich gewinnt nätürlich die Plastikpumpen-Fraktion der Discounter oder auch Einstiegsmodelle anderer Hersteller. Ein Satz Dichtungen für den Kränzle kostet teils mehr als besagt "*Wasserspritzen*", warum also über 300-400 €uro für einen Hochdruckreiniger ausgeben, der obendrein größer & schwerer ist, zudem auch noch gewartet werden will?   
-Ganz einfach: **Weil GEIL** :D   
-Das Teil ist super robust, massiv, wertig verarbeitet, servicefreundlich und natürlich kraftvoll! Vermutlich wird der Kränzle noch Generation*en* weitergereicht werden. Wassermenge und -druck sind auf die Düse(n) abgestimmt und erzielen so ein **obtimales Reinigungsergebnis**. Mit dem Hochdruckschlauch könnte man Autos abschleppen, mit 10m Sicherheitsabstand. Die Standartschlauchlänge beträgt 10m, 15m wenn man einen HDR mit Schlauchtrommel nimmt - definitiv nett, aber nicht erforderlich.
-Billige Geräte bringen weniger Druck, fördern soviel Wasser wie ein Handsprüher und haben teils nur 3-5m HARTplastikschauch - viel Spass bei der Autowäsche :D   
-Obendrein "schummeln" manche Hersteller bei den Druckangaben, 120 Bar - aber nicht beim nutzbaren Arbeitsdruck. Bei denen bezieht sich die Angabe auf den kurzzeitig anliegenden Höchstdruck im Pumpengehäuse,
+Ich habe mich für einen Kränzle entschieden, da man ich mich auf das Teil stets verlassen kann und bei Bedarf selbst Hand anlegen könnte.
+Klar ein Billig-HDR ist günstiger, bringt aber zum einen nicht die Leistung und im Schadensfall kostet die Reperatur des Gerätes teils mehr als ein neues. Andere Hersteller bieten eine Reperaturpauschale von über 100€ an, die man auch zahlt wenn es nur eine Dichtung ist. Darauf hab ich keine Bock, auch nicht auf Wegwerfgesellschaft.   
+Vom Hersteller gibt es gute Bedienungsanleitungen mit Tipps zur Problemlösung *(bebildert)*, Explosionszeichenungen, Ersatzteillisten und auch Schaltplänen.   
+Für *"Hater"* mag das alles wie "Werbung" klingen, für mich war es damals schlicht der Kaufgrund.   
 
-Bei jenen Billig-HDR kostet die Reperatur des Gerätes mehr als ein neues, andere bieten eine Reperaturpauschale über 100€ an und bei euerm Gerät war evtl. nur eine Dichtung verschlissen. Teils sind wichtige Bauteile in Kunststoff ausgeführt, welcher gerne mal bricht. Ich möchte mich auf mein Werkzeug verlassen können, und bei Bedarf selbst Hand anlegen.   
-**Vorteil Kränzle:** Super (bebilderte) Bedienungsanleitung mit Tipps zur Problemlösung, Explosionszeichenungen, Ersatzteillisten und Schaltplänen. Wegwerfgesellschaft, nein danke.   
-
-Weitere Infos findet ihr beim Hersteller: [www.kraenzle.com](http://www.kraenzle.com/index.php?id=11)   
+Weitere Infos beim Hersteller: [www.kraenzle.com](http://www.kraenzle.com/index.php?id=11)   
 Betriebsanleitungen im entsprechenden [Download](http://www.kraenzle.com/index.php?id=79)-Bereich   
 Häufig gestellte Fragen: [FAQ](http://www.kraenzle.com/index.php?id=121)
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/anleitungen/kraenzle_wartung/0047.jpg)
@@ -34,11 +32,9 @@ Kränzle 1151, 10m Hochdruckschlauch *(nicht im Bild)*, Griffstück, Lanze mit M
 
 *Eigentlich* bin mit dem Hochdruckreiniger ausstattungsmäßig bestens zufrieden, wenn mich *Muskelkatermann* da nicht in Versuchung gebracht hätte...   
 Kränzle bietet seit einiger Zeit ein Steckkupplungssystem an, um Zubehör schnell und einfach zu tauschen.   
-[![Kränzle Schnellkupplung](http://img.youtube.com/vi/P8h3ah5B7WM/0.jpg)](https://www.youtube.com/watch?v=P8h3ah5B7WM)   
+<iframe width="800" height="530" src="https://www.youtube.com/watch?v=P8h3ah5B7WM" frameborder="0" allowfullscreen></iframe>   
 
-
-So wurd es dann eine neuer (kurzer) Pistolengriff, mit passender Verlängerung (unten).
-Die einst gerade Flachstrahllanze hatte ich damals kurzerhand im Schraubstock gebogen um Radhäuser, Räder und Schweller angenehmer von Unten reinigen zu können.   
+So habe ich mir einen neuen *(kurzen)* Pistolengriff, mit passender Verlängerung gegönnt. Die einst gerade Flachstrahllanze hatte ich damals kurzerhand im Schraubstock gebogen um Radhäuser, Räder und Schweller angenehmer von Unten reinigen zu können, klare Empfehlung.   
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/anleitungen/kraenzle_wartung/0002.jpg)
 
 Für die Foam-Lance gab es die Steckkupplung.
@@ -49,11 +45,12 @@ Einfach nur fest aufschrauben, zusätzlich dichtendes Hanfgarn oder Teflonband s
 
 Netter Nebeneffekt: Nun fällt sie im Wascheimer auch nicht mehr um, in dem sie zusammen mit dem warmen Waschwascher transportiert wird. An der Mischbatterieschraube nagte der Zahn der Zeit, somit fehlt oben die Einstellschraube ;)   
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/anleitungen/kraenzle_wartung/0005.jpg)    
+Genug geschwatzt...   
 
 
 
 
-#Kommen wir endlich zu den Wartungsarbeiten ...  
+#Kommen wir zu den Wartungsarbeiten  
 
 1. Allgemeiner Ölwechsel   
 2. Ventile reinigen   
@@ -66,8 +63,8 @@ Während des Produktionsprozesses kann es zu mikroskopisch kleinen Gratbildungen
 *Während der ersten Betriebsstunden der Hochdruckpumpe reiben sich diese mikroskopisch kleinen Teile ab und sammeln sich im Ölbad*. Es ist daher ratsam, nach den **ersten 50 Betriebsstunden einen Ölwechsel** vorzunehmen. Füllmenge und Ölsorte stehen in der Bedienungsanleitung, in meinem Fall 250ml 15W/40.  
 Sollte das Öl im Laufe der Zeit seine goldbraune Farbe verändern und „**milchig**“ oder „**schwarz**“ werden, so ist **umgehend** ein zusätzlicher Ölwechsel erforderlich.   
 
-In meinem Fall war es eine **Milchige Suppe** - ein Zeichen für **verwässertes** Öl.   
-Es kann durch den normalen Gebrauch geschehen (Temperaturschwankungen, Kondenswasser), aber durch verschlissende Dichtungen / Manschetten.   
+In meinem Fall war es eine **milchige Suppe** - ein Zeichen für **verwässertes** Öl.   
+Es kann durch den normalen Gebrauch geschehen (Temperaturschwankungen, Kondenswasser), aber durch verschlissende Dichtungen / Manschetten - nach *7-8 Jahren "Rein-Raus"* kann auch mal was ausleihern.   
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/anleitungen/kraenzle_wartung/0006.jpg)
 
 Der **710-Deckel** verrät uns:   
@@ -104,9 +101,9 @@ In Arbeitslage (liegend) sollte der Ölstand stets **oberhalb der Schauglas-*Mit
 
 
 
-##Ventile prüfen   
+##Ventile / Pumpenkopf prüfen   
 Es kann vorkommen das sich trotz vorgebauter Filter Dreck oder Ablagerungen in den Ventilen festsetzt oder diese verklebt, macht sich bemerkbar durch zu einen zu **geringen Arbeitsdruck** oder einen **unregelmäßigen Strahl**.   
-Ich schau bei jedem Ölwechsel einmal kurz rein, ist fix gemacht und kein großer Aufwand...   
+Das war bei mir nicht der Fall, aber grundsätzlich schau bei jedem Ölwechsel einmal kurz rein, ist fix gemacht und kein großer Aufwand.   
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/anleitungen/kraenzle_wartung/0012.jpg)
 
 2x 3 Ventile sind verbaut, hier die ersten drei ...   
@@ -138,20 +135,20 @@ Taschenlampe an und die unteren sechs Dichtungen prüfen.
 Wie gesagt, entkalten und so...   
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/anleitungen/kraenzle_wartung/0019.jpg)
 
-Im 15 Minuten-Zitronensäurebad löst sich vieles wie von selbst, auch die Ablagerungen.   
+Im Zitronensäurebad (etwa 15 Minuten)löst sich vieles wie von selbst, auch die Ablagerungen. So sah es vorher aus.   
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/anleitungen/kraenzle_wartung/0020.jpg)
 
-Wer hat und mag kann den Ventilkopf noch mit Druckluft durchpusten.   
+Wer hat kann den Ventilkopf noch mit Druckluft durchpusten, oder mit fließend Wasser durchspülen.  
 
-Kümmern wir uns um die Ventile, Schraubendreher, Nagel oder Büroklammer nehmen und die Ventile prüfen.   
-Öffnet es sich leichtgängig und federt ebenso zurück? Gut.  
+Kümmern wir uns um die **Ventile**.   
+Schraubendreher, Nagel oder Büroklammer nehmen und in die Ventile stecken, öffnet es sich leichtgängig und federt ebenso zurück? Gut.  
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/anleitungen/kraenzle_wartung/0040.jpg)
 
-Füllt nun etwas Wasser in das geschlossene Ventil.   
+Füllt es nun mit Wasser.   
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/anleitungen/kraenzle_wartung/0041.jpg)
 
-Bleibt es dort, alles tutti.   
-Läuft das Wasser raus ist das Ventil verdreckt oder beschädigt - bitte beheben.   
+Bleibt es dort, alles ok.   
+Läuft das Wasser raus, ist das Ventil verdreckt oder beschädigt - bitte beheben.   
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/anleitungen/kraenzle_wartung/0042.jpg)
 
 Sind alle Ventile ok, hineinstecken und die Ventilstopfen verschrauben ...
@@ -165,8 +162,9 @@ Im Probelauf sollte euch wieder der gewünschte Arbeitsdruck zur Verfügung steh
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/anleitungen/kraenzle_wartung/0045.jpg)
 
 
+
 #Manschetten / Dichtungen erneuern   
-Beim letzten Service hatte ich das Messing-Ventilgehäuse mal demontiert, um den Zustand der Komponenten zu prüfen, dabei vielen mir die Gewebemanschetten aus dem Messinggehäuse und obendrein waren sie knüppelhart. Also nen Satz Dichtungen (je 3x) besorgt, die es heut zu verbauen gilt.
+Beim letzten Service hatte ich das Messing-Ventilgehäuse mal demontiert, um den Zustand der Komponenten zu prüfen, dabei fielen mir die Gewebemanschetten aus dem Messinggehäuse und obendrein waren sie *knüppelhart*. Nach 7-8 Jahren Beanspruchung darf das mal passieren, zumal ich das Wasser oft nur mit dem Hochdruckreiniger aus einem Tank ansauge. Also nen Satz Dichtungen (je 3x) besorgt, die es heut zu verbauen gilt.
 
 Die **4 Imbussschrauben** rausdrehen *(unten kurz, oben lang)* und den Messingblock nach oben abziehen.   
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/anleitungen/kraenzle_wartung/0024.jpg)
@@ -193,21 +191,22 @@ in der Gehäuseplatte sitzen die 3 keramikbeschichteten Plunger, mit ...
 ... je einer Feder und Federdruckscheibe (siehe Daumen). Die Plunger sind nur gesteckt und können einfach herausgezogen werden.   
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/anleitungen/kraenzle_wartung/0031.jpg)   
 
-Die zuvor genannten Manschetten, schmierig und mit Gummiabrieb versehen. Im Gegensatz zu denen im Messingkopf aber noch schön geschmeidig und fest im Sitz. Zum Entfernen einfach einen Schlitzschraubendreher mitten in die Dichtung schlagen um sie anschließend heraus zu biegen / hebeln. Alles säubern und vorsichtig die neuen einschlagen / pressen. Plunger samt Federn einschieben, 1. Baustelle fertig.   
-![](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/anleitungen/kraenzle_wartung/0032.jpg)
+Die zuvor genannten Manschetten, schmierig und mit Gummiabrieb versehen. Aber im Gegensatz zu denen im Messingkopf noch schön geschmeidig und noch fest in ihrem Sitz. Zum Entfernen einfach einen Schlitzschraubendreher mitten in die Dichtung schlagen um sie anschließend heraus zu biegen / hebeln.   
+![](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/anleitungen/kraenzle_wartung/0032.jpg)    
+Alles säubern und vorsichtig die neuen einschlagen / pressen. Plunger samt Federn einschieben, 1. Baustelle fertig.   
 
 Selbiges Spiel beim Messinggehäuse, säubern und neue Manschetten rein.   
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/anleitungen/kraenzle_wartung/0033.jpg)
 
-Locker und plan auflegen, im Knarrenkasten eine Nuss heraussuchen, die etwas kleiner ist als der Außendurchmesser der Manschette. Plan auflegen und mit einem Hammer sanft aber bestimmt hineinschlagen.   
+Locker und plan auflegen, im Knarrenkasten eine Nuss heraussuchen, die etwas kleiner ist als der Außendurchmesser der Manschette. Plan auflegen und mit einem Hammer sanft aber bestimmt hineinschlagen. Rest drückt sich zur Not beim Zusammenbau.   
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/anleitungen/kraenzle_wartung/0034.jpg)
 
 Sollte in etwa so ausschauen.   
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/anleitungen/kraenzle_wartung/0035.jpg)
 
-Nun die Getriebeplatte samt Federn und Plunger aufsetzen *(oben 2 Punger, unten einer / oder Schriftzug beachten)*. Damit die 4 Schrauben ins Gewinde packen müsst ihr die gesamte Platte etwas nach unten drücken *(gegen die Federn)*, alle 4 Schrauben wie beim Lösen gleichmäßig eindrehen und darauf achten das sich die Platte nicht verkantet oder der Dichtring beschädigt wird.   
+Nun die Getriebeplatte samt Federn und Plunger aufsetzen *(oben 2 Punger, unten einer / bzw. Schriftzug beachten)*. Damit die 4 Schrauben ins Gewinde packen müsst ihr die gesamte Platte etwas nach unten drücken *(gegen die Federkraft)*, alle 4 Schrauben wie beim Lösen gleichmäßig eindrehen und darauf achten das sich die Platte *nicht* verkantet und der Dichtring beschädigt wird.   
 
-Alles weitere in zuvor entnommener Reihenfolge einsetzen. *(Im Rep.-Satz müssten die nachfolgenden Teile neu enthalten sein)*.   
+Alles weitere in zuvor entnommener Reihenfolge einsetzen. Ein empfehlenswerter Rep.-Satz *(43.060)* beinhaltet das Rundum-Sorglos Paket mit sämtlichen Dichtungen / Ringen dieses Bereiches, für den ich mich jedoch nicht entschieden hatte.   
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/anleitungen/kraenzle_wartung/0036.jpg)
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/anleitungen/kraenzle_wartung/0037.jpg)
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/anleitungen/kraenzle_wartung/0038.jpg)
@@ -221,9 +220,10 @@ Bestanden? **Fertig, Feierabend oder direkt genüsslich den Wagen waschen**, kom
 
 
 Hier noch abschließendes kurzes Video zum **Funktionsprinzip** eines Hochdruckreinigers *(engl.)*.   
-[![Kränzle HDR Funktion](http://img.youtube.com/vi/keU6i7OmN-w/0.jpg)](https://www.youtube.com/watch?v=keU6i7OmN-w)   
+<iframe width="800" height="530" src="https://www.youtube.com/watch?v=keU6i7OmN-w" frameborder="0" allowfullscreen></iframe>   
 
-Bei Fragen oder andere Seelenleiden einfach einen Kommentar unten im **Disqus-Feld** oder bei **[facebook](https://glossboss.de)** hinterlassen. *Einen 24/7-Support solltet ihr jedoch nicht erwarten :P*
+
+Bei Fragen oder andere Seelenleiden einfach einen Kommentar unten im **Disqus-Feld** oder bei **[facebook](https://glossboss.de)** hinterlassen.   
 
 Glänzende Grüße aus dem Münsterland!   
 Euer Jones

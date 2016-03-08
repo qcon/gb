@@ -34,6 +34,9 @@
 
 		$('#searchWrapper').style("display", "block");
 		SimpleJekyllSearch.init({
+			templateMiddleware: function(prop, value, template) {
+				return template.classList.remove("displayNone")
+			},
 			searchInput: document.getElementById('search-input'),
 			resultsContainer: document.getElementById('results-container'),
 			dataSource: postJSONCache,
