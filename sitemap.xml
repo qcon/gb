@@ -20,7 +20,7 @@
       <priority>0.5</priority>
     </url>
   {% endfor %}
-  {% for page in site.pages %}{% if page.layout != nil and page.preview == nil and page.url != "/preview/" %}
+  {% for page in site.pages %}{% if page.layout != nil and page.url != "/editpost/" and page.preview == nil and page.url != "/preview/" %}
   <url>
     <loc>{{ site.url }}{{ page.url | replace: 'index.html','' }}</loc>
     {% if page.sitemap.lastmod %}
