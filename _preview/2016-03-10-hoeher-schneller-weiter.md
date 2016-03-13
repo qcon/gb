@@ -25,3 +25,8 @@ Wir schon. Wir haben alles an Produkten da um den Lack schonend zu Waschen. Höc
 ## Und nun?
 
 Mein Lieblingswachs ist das Zymöl Concours. Überschaubare Standzeit von ca. 2 Monaten, dafür aber absolut geiler Glanz, wahnsinns Glätte und nicht zu vergessen: das Gefühl beim Auftragen. Der Duft und die einfachheit - egal ob es 4 oder 6 Minuten auf den Kotflügel trocknet, es geht nichts kaputt. Herrlich. Kein hetzen beim auftragen der Versiegelung... den Lack nicht 45 Minuten nach dem Auftrag verkrampft mit der LED-Taschenlampe auf überbleibsel absuchen... kein **stress**. Einfach nur genießen.
+Das hat uns also damals angetrieben, unser Fahrzeug aus Leidenschaft zu pflegen. Heutzutage zählt nurnoch: so lange wie möglich nichts am Lack machen.
+
+Es muss auch nicht unbedingt ein Showcar-Wachs wie das Zymöl Concours sein. Meguiars #16 (knapp 30€!) bietet selbst im Vergleich mit heutigen Wachsen/Versiegelungen eine sehr gute Performance. Ein Wachs von Dodo Juice - der Klassiker - duftet nicht nur herrlich, es erzeugt auch einen richtig satten Nassglanz.
+
+Es ist fast Frühling - die Sonne zeigt sich öfter und es herschen angenehmere Temperaturen. Viele von euch werden in den nächsten Wochen ihr Fahrzeug für den Sommer vorbereiten. Was kommt bei dir als Lackschutz drauf?

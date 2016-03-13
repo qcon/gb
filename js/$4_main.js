@@ -15,8 +15,6 @@
     slideMenuContent = $(".menucontent");
 
 
-
-
   function closeSlideMenu() {
     slideMenu.removeClass("menuOut");
     fullPage.off("click", closeSlideMenuFullPage);
