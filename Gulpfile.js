@@ -24,7 +24,7 @@ gulp.task('critical', function(cb) {
     extract: false
   });
 });
-gulp.task('browser-sync', function() {
+gulp.task('browser-sync', ['jekylldev'], function() {
   browserSync.init({
     server: {
       baseDir: "./_site/"
@@ -69,7 +69,7 @@ gulp.task('jekyll', ["js", "sass"], function(done) {
     })
     .on("close", done);
 });
-gulp.task("watch", ["jekylldev"], function() {
+gulp.task("watch", function() {
   gulp.watch(['allgemein/index.html', 'index.html', '_layouts/*.html', '_includes/*.html', '_posts/*/**', "js/*.js", "_sass/*.scss", "_preview/*.md", "authoren/*.md", "_data/*", '_config.yml'], ['watch-jekyll']);
 });
 gulp.task("default", ['browser-sync', "watch"]);
