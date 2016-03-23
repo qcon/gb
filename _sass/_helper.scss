@@ -8,13 +8,13 @@
     display: inline-block;
     margin: 10px;
     @media #{$sm} {
-      margin: 18px;
+      margin: 12px;
+      font-size: 12px;
     }
     .active {
       color: $blau;
     }
     a {
-      // border-radius: 10px;
       background: $gray;
       padding: 10px 20px;
       color: $text-disabled;
