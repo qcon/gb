@@ -345,7 +345,8 @@ Valet Pro Carpet Cleaner aufsprühen..
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/frederic/bmwz3/zzz91.JPG)
 
 Einbürsten..
-[](https://glossbossimages.s3.eu-central-1.amazonaws.com/frederic/bmwz3/zzz92.JPG)
+
+![](https://glossbossimages.s3.eu-central-1.amazonaws.com/frederic/bmwz3/zzz92.JPG)
 
 Einwirken lassen und abspülen.
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/frederic/bmwz3/zzz93.JPG)

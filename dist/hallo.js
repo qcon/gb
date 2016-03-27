@@ -3589,14 +3589,25 @@ if (typeof exports === 'object') {
     }
     var html = htmlize(content);
     jQuery('.post--content').html(html);
+    console.log("saved.");
+    localStorage.setItem("gb_editpost_content", html)
   };
 
   // Update Markdown every time content is modified
   jQuery('.post--content').bind('hallomodified', function(event, data) {
     showSource(data.content);
+    console.log("saved.");
+    localStorage.setItem("gb_editpost_content", data.content)
   });
   jQuery('#source').bind('keyup', function() {
     updateHtml(this.value);
+
   });
-  showSource(jQuery('.post--content').html());
+  if(localStorage.getItem("gb_editpost_content")) {
+    showSource(localStorage.getItem("gb_editpost_content"))
+    updateHtml(localStorage.getItem("gb_editpost_content"))
+  } else {
+    showSource(jQuery('.post--content').html());
+
+  }
 });
