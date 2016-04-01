@@ -7,7 +7,22 @@ header_image: https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/jeep_
 ---
 # Jeep Gran Cherokee
 
-Dieser knapp 500 PS starke Jeep wurde in Glossboss-Teamarbeit aufbereitet. Insgesammt waren ca. 35 Mannstunden nötig um ihn wieder auf Vordermann zu bringen.
+Dieser knapp 500 PS starke Jeep wurde in Glossboss-Teamarbeit aufbereitet. Insgesammt waren ca. 36-40 Mannstunden nötig um ihn wieder auf Vordermann zu bringen. Der Innenraum hat bei diesen Fahrzeug einen viel größeren Zeitanteil eingenommen als sonst üblich, da ein Hund häufiger Beifahrer ist.
+
+Die Vorgehensweise in Kurzform:
+
+* Felgen säubern - mit Hochdruck abspritzen, danach Felgenreiniger aufsprühen und mit diversen Pinseln und Bürsten den Reiniger einarbeiten, danach abspritzen
+* Komplettes Fahrzeug mit Snow Foam einschäumen um den Dreck anzulösen
+* Fahrzeug mit hochdruck abspritzen und anschließend Waschen
+* Lack Kneten und danach trocknen
+* Zierleisten, Dichtungen usw. abkleben
+* den Innenraum grob säubern
+* Testen der Politur/Pad Kombination für bestmögliches Ergebnis bei geringstmöglichen Lackabtrag
+* Nun den gesamten Lack polieren und tiefere Kratzer isolieren und gezielt schärfer bearbeiten
+* Lack entfetten um Polieröle und Rückstände zu entfernen
+* Versiegelung auftragen und den Arbeitstag beenden. So hat diese genug Zeit zum aushärten
+* den Innenraum weiter bearbeiten - u.a. Sitze shampoonieren, alle Kunststoffe reinigen und pflegen etc
+* Restarbeiten wie z.B. alle Ecken und Kanten mit einen Wattestäbchen säubern, Scheiben reinigen, Chrom polieren usw.
 
 ## Ausgangszustand:
 
