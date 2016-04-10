@@ -3581,6 +3581,19 @@ if (typeof exports === 'object') {
     }
     jQuery('#source').get(0).value = markdown;
   };
+  var isTyping = false;
+  var setLSContent = function(content) {
+    console.log("saved!")
+    localStorage.setItem("gb_editpost_content", content)
+  }
+  var delayFunc = function(time, cb) {
+    if(isTyping) return;
+    isTyping = true
+    setTimeout(function() {
+      cb()
+      isTyping = false
+    }, time)
+  }
 
 
   var updateHtml = function(content) {
@@ -3589,15 +3602,19 @@ if (typeof exports === 'object') {
     }
     var html = htmlize(content);
     jQuery('.post--content').html(html);
-    console.log("saved.");
-    localStorage.setItem("gb_editpost_content", html)
+    delayFunc(500, function() {
+      setLSContent(html)
+    })
+    // localStorage.setItem("gb_editpost_content", html)
   };
 
   // Update Markdown every time content is modified
   jQuery('.post--content').bind('hallomodified', function(event, data) {
     showSource(data.content);
-    console.log("saved.");
-    localStorage.setItem("gb_editpost_content", data.content)
+    delayFunc(500, function() {
+      setLSContent(data.content)
+    })
+    // localStorage.setItem("gb_editpost_content", data.content)
   });
   jQuery('#source').bind('keyup', function() {
     updateHtml(this.value);
@@ -3610,4 +3627,5 @@ if (typeof exports === 'object') {
     showSource(jQuery('.post--content').html());
 
   }
+
 });

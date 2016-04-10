@@ -6,9 +6,9 @@
   z-index: 3;
   text-align: center;
   width: 100px;
-  margin: 40px auto 15px;
+  margin: 40px auto 75px;
 
   @media #{$sm} {
-    margin-top: 20px;
+    margin: 20px auto 35px;
   }
 }

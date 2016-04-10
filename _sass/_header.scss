@@ -1,3 +1,18 @@
+#logo-G {
+  display: block;
+  width: 128px;
+  height: 128px;
+  margin:0 auto;
+  transform: translate(0, 50%);
+  transition: .15s cubic-bezier(.55,0,.1,1);
+  &:hover {
+    transform: translate(0, 50%) scale(1.1);
+  }
+  @media #{$sm} {
+    width: 96px;
+    height: 96px;
+  }
+}
 #slidemenutoggle {
   width: 32px;
   height: 32px;
@@ -99,16 +114,18 @@
 }
 
 header {
+  margin-bottom: 100px;
   color: white;
   height: auto;
   @include font(light);
   font-size: 1.9em;
-  padding: 3em 0;
+  padding: 3em 0 0;
   box-shadow: 1px 0 6px 1px rgba(black, .4);
 
   @media #{$sm} {
-    padding: 1.8em 0;
+    padding: 1.8em 0 0;
     font-size: 1.2em;
+    margin-bottom: 75px;
   }
 
   @media #{$xs} {
@@ -117,30 +134,30 @@ header {
   }
 }
 
-.header--logo {
-  text-align: center;
-  margin: 3em auto;
-  transition: .15s cubic-bezier(.55,0,.1,1);
-
-  svg:hover {
-    transform: scale(1.1);
-  }
-
-  img,
-  svg {
-    transition: .15s cubic-bezier(.55,0,.1,1);
-    width: 360px;
-    max-width: 95%;
-  }
-
-  a {
-    text-decoration: none;
-  }
-
-  @media #{$sm} {
-    margin: 20px auto;
-  }
-}
+// .header--logo {
+//   text-align: center;
+//   margin: 3em auto;
+//   transition: .15s cubic-bezier(.55,0,.1,1);
+//
+//   svg:hover {
+//     transform: scale(1.1);
+//   }
+//
+//   img,
+//   svg {
+//     transition: .15s cubic-bezier(.55,0,.1,1);
+//     width: 360px;
+//     max-width: 95%;
+//   }
+//
+//   a {
+//     text-decoration: none;
+//   }
+//
+//   @media #{$sm} {
+//     margin: 20px auto;
+//   }
+// }
 
 .post--title {
   max-width: 100%;
