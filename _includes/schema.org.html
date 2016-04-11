@@ -7,24 +7,53 @@
   "headline": "{{postTitle}}",
   "name": "{{postTitle}}",
   "creator": "{{  page.author }}",
-  "image": [
-    "{{ page.header_image }}"
-  ],
+  "image": {
+    "@type": "ImageObject",
+    "url": "{{ page.header_image }}",
+    "width": "800",
+    "height": "600"
+  },
   "datePublished": "{{ page.date }}",
-  "keywords": "{{ breadcrumb | capitalize }}"
+  "dateModified": "{{ page.date }}",
+  "keywords": "{{ breadcrumb | capitalize }}",
+  "author": {
+    "@type": "Person",
+    "name": "{{ page.author }}"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Glossboss",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://glossbossimages.s3.eu-central-1.amazonaws.com/AMP_Logo_Glossboss.jpg",
+      "width": "600",
+      "height": "60"
+    }
+  },
+  "mainEntityOfPage":{
+      "@type":"WebPage",
+      "@id":"{{ page.url | prepend: 'https://glossboss.de'}}"
+  }
 }
 </script>
 <script type="application/ld+json">
 {
   "@context": "http://schema.org",
   "@type": "BreadcrumbList",
-  "itemListElement": {
+  "itemListElement": [{
     "@type": "ListItem",
     "position": 1,
     "item": {
       "@id": "https://glossboss.de/{{ breadcrumb | prepend: '#' }}",
       "name": "{{ breadcrumb | capitalize }}"
     }
-  }
+  }, {
+    "@type": "ListItem",
+    "position": 2,
+    "item": {
+      "@id": "{{ page.url | prepend: 'https://glossboss.de'}}",
+      "name": "{{page.title}}"
+    }
+  }]
 }
 </script>

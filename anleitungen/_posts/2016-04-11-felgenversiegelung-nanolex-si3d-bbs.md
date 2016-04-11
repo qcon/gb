@@ -3,7 +3,7 @@ layout: post
 title: BBS Felgen versiegeln
 subtitle: Mit Nanolex Si3D
 author: Alex
-header_image: URL
+header_image: https://glossbossimages.s3.eu-central-1.amazonaws.com/alex/bbs-felgen-versiegeln/IMG_0391.JPG
 ---
 ### Hallo zusammen**,**
 
