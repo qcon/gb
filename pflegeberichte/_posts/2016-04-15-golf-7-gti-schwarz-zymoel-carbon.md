@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Golf 7 GTI Schwarz
-subtitle: Schlimmer Zustand dank falscher Handwäsche
+subtitle: Was falsche Handwäsche für Schäden anrichten kann...
 author: Marvin
 header_image: https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/golf7-gti-schwarz/DSC01227.jpg
 ---
