@@ -3,13 +3,13 @@ layout: post
 title: AMG GTS Grau
 subtitle: Crystal Serum und Exo
 author: Marvin
-header_image: URL
+header_image: https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/amg-gts-grau/DSC01439.jpg
 ---
 ### AMG GT s in Grau - Neuwagenversiegelung mit Gtechniq Crystal Serum + Exo
 
 <div>Glossbosse,</div>
 
-der Besitzer von diesen schönen AMG hatte nur einen Wunsch für seinen Neuwagen - **das beste was es gibt!** Das können Mark und ich. Gtechniq Crystal Serum für die Standzeit und eine Schicht Gtechniq Exo für schönere Wasserperlen und besseres Ablaufverhalten. Mehr geht momentan nicht.&nbsp;
+der Besitzer von diesen schönen AMG hatte nur einen Wunsch für seinen Neuwagen - **das Beste was es gibt!** Das können Mark und ich. Gtechniq Crystal Serum für die Standzeit und eine Schicht Gtechniq Exo für schönere Wasserperlen und besseres Ablaufverhalten. Mehr geht momentan nicht.&nbsp;
 
 <span style="line-height: 1.8em;">So nahmen wir den grade einmal 3 Tage alten AMG GT s in Empfang:</span>
 
@@ -21,7 +21,7 @@ der Besitzer von diesen schönen AMG hatte nur einen Wunsch für seinen Neuwagen
 
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/amg-gts-grau/DSC01339.jpg)
 
-Nichts wildes - der AMG hat auch schließlich erst knapp 1000km gelaufen. Umso wichtiger ist nun das richtige Waschen - natürlich mit 2 Eimern, 2 Gritguards und viel Wasser.
+Nichts Wildes - der AMG hat auch schließlich erst knapp 1000km gelaufen. Umso wichtiger ist nun das richtige Waschen - natürlich mit 2 Eimern, 2 Gritguards und viel Wasser.
 
 ## Waschen
 
@@ -41,7 +41,7 @@ Den Schaumteppich noch eine kurze Einwirkzeit von rund 5-6 Minuten gegeben und d
 
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/amg-gts-grau/DSC01349.jpg)
 
-Dank optionaler Keramikbremsanlage nur Straßenstaub auf den Felgen. Da reicht Shampoowasser und ein alter Zymöl Schwamm
+Dank optionaler Keramikbremsanlage nur Straßenstaub auf den Felgen. Da reicht Shampoowasser und der gute, alte Zymöl Schwamm
 
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/amg-gts-grau/DSC01351.jpg)
 
@@ -61,7 +61,7 @@ Wir sind ständig auf der Suche nach neuen Techniken und besseren Materialien un
 
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/amg-gts-grau/DSC01363.jpg)
 
-Der Finishbereich von AMG haben sehr gute Arbeit geleistet. Der Lack war zu 99% Swirlfrei. Das reichte uns natürlich nicht - der Besitzer wollte schließlich **nur das beste!**_ _Lediglich an der Heckschürze (Beifahrerseite) konnten wir Hologramme finden. Leichte Swirls hatte die Heckstoßstange an der Fahrerseite.
+Der Finishbereich von AMG haben sehr gute Arbeit geleistet. Der Lack war zu 99% Swirlfrei. Das reichte uns natürlich nicht - der Besitzer wollte schließlich **nur das Beste!** Lediglich an der Heckschürze (Beifahrerseite) konnten wir Hologramme finden. Leichte Swirls hatte die Heckstoßstange an der Fahrerseite.
 
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/amg-gts-grau/DSC01364.jpg)
 
@@ -75,15 +75,15 @@ Swirls an der Heckstoßstange:
 
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/amg-gts-grau/DSC01368.jpg)
 
-Ein weiterer Test um ein noch besseres Ergebnis abliefern zu können: eine Mini-Akkupoliermaschine. Den Originalen Stützteller haben wir auf 50mm reduziert (vorher 100mm) und die Pads auch dementsprechend verkleinert.&nbsp;
+Ein weiterer Test um ein noch besseres Ergebnis abliefern zu können: eine Mini-Akkupoliermaschine. Den Originalen Stützteller haben wir auf 50mm reduziert (vorher 80mm) und die Pads auch dementsprechend verkleinert.&nbsp;
 
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/amg-gts-grau/DSC01371.jpg)
 
-Zwischenfazit: sehr toller und nützlicher Begleiter. Der Einsatz an der Frontstoßstange wird sicher nicht der letzte bleiben!
+Zwischenfazit: sehr toller und nützlicher Begleiter. Der Einsatz an der Frontstoßstange wird sicher nicht der Letzte bleiben!
 
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/amg-gts-grau/DSC01375.jpg)
 
-Um dem Serum eine perfekte Grundlage zu bieten wurde der Lack einmal komplett mit der Meguiars #205 abgezogen. Das allein sorgte schon für mehr Glanz und Brillanz.
+Um dem Serum eine perfekte Grundlage zu bieten wurde der Lack einmal komplett mit der Meguiars #205 auf maximalen Hochglanz gebracht. Das allein sorgte schon für mehr Brillanz.
 
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/amg-gts-grau/DSC01377.jpg)
 
@@ -135,7 +135,7 @@ Das 4-Augen-Prinzip ist besonders Hilfreich beim Crystal Serum. Was passiert wen
 
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/amg-gts-grau/DSC01413.jpg)
 
-Das auftragen vom Serum hat 55 Minuten gedauert. Währenddessen haben wir ständig alle Bauteile auf Überreste kontrolliert um 100%ig auszuschließen, dass irgendwo noch Überreste nicht auspoliert sind. Direkt im Anschluß wurde das Exo aufgetragen. Das geht deutlich entspannter. Man kann einen größeren Teilbereich bearbeiten und sich auch mal 10-20 Sekunden Zeit nehmen ;)
+Das auftragen vom Serum hat ziemlich genau 55 Minuten gedauert. Währenddessen haben wir ständig alle Bauteile auf Überreste kontrolliert um 100%ig auszuschließen, dass irgendwo noch Überreste nicht auspoliert sind. Direkt im Anschluß wurde das Exo aufgetragen. Das geht deutlich entspannter. Man kann einen größeren Teilbereich bearbeiten und sich auch mal 10-20 Sekunden Zeit nehmen ;)
 
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/amg-gts-grau/DSC01414.jpg)
 
@@ -205,4 +205,4 @@ Alle Glasflächen im Außenbereich mit Gtechniq G4 reinigen und mit G5 versiegel
 
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/amg-gts-grau/DSC01448.jpg)
 
-![](https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/amg-gts-grau/DSC01449.jpg) 
+![](https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/amg-gts-grau/DSC01449.jpg)
