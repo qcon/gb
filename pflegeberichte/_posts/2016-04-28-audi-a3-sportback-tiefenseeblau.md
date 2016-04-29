@@ -65,7 +65,7 @@ header_image: https://glossbossimages.s3.eu-central-1.amazonaws.com/RBdetailing/
 
 **Einleitung:**
 
-Manche mögen diesen Wagen vielleicht noch aus dem letzten, oder gar vorletzten Jahr kennen, für andere wird er neu sein. Dieses Objekt wurde bereits 2x aufbereitet. Vor 3 Jahren, als der Wagen als Neuwagen zu mir kam, gab es eine kurze Neuwagenaufbereitung und letztes Jahr wurde er komplett mit allem drum aufbereitet. Wer sich den Pflegebericht aus dem letzten Jahr anschauen möchte, der darf bitte folgenden Link drücken: https://glossboss.de/pflegeberichte/audi-a3-sportback/ ( Kilometerangabe falsch, sollte 37‘000 KM stehen )
+Manche mögen diesen Wagen vielleicht noch aus dem letzten, oder gar vorletzten Jahr kennen, für andere wird er neu sein. Dieses Objekt wurde bereits 2x aufbereitet. Vor 3 Jahren, als der Wagen als Neuwagen zu mir kam, gab es eine kurze Neuwagenaufbereitung und letztes Jahr wurde er komplett mit allem drum aufbereitet. Wer sich den Pflegebericht aus dem letzten Jahr anschauen möchte, der darf bitte folgenden Link drücken: [https://glossboss.de/pflegeberichte/audi-a3-sportback/](https://glossboss.de/pflegeberichte/audi-a3-sportback/) ( Kilometerangabe falsch, sollte 37‘000 KM stehen )
 
 Und nun steht wer wieder da. Dreckig, versaut, erschöpft und müde. Dieses Mal sollte der Wagen eine gründliche Fahrzeugwäsche erhalten. Eine Lackreinigung inklusiver Lackkonservierung folgte zugleich. Ein **„Schnellverfahren“**, meiner Meinung nach.
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/RBdetailing/a3/DSC_1654.jpg)
@@ -179,6 +179,6 @@ Nach nur etwas mehr als 10 Stunden war Schluss. Bewusst wurde bei dieser Arbeit/
 
 Bis demnächst. Bleibt sauber!
 Beste Grüsse, René /
-R.B. Detailing https://www.facebook.com/Detailing.R.B/?ref=hl
+[R.B. Detailing](https://www.facebook.com/Detailing.R.B/?ref=hl)
 
 
