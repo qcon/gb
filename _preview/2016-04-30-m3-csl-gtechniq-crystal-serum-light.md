@@ -228,7 +228,8 @@ Umparken und das letzte Tageslicht auf den Sensor der Nikon Knipse fallen lassen
 
 
 Chris war so nett und schoß nach Gtechniq CSL + EXO noch ein paar Fotos an der Sonne.   
-Gefällt mir richtig gut, könnte man direkt abholen - wenn man dürfte...   
+Gefällt mir richtig gut, könnte man direkt abholen - wenn man dürfte...
+
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/m3_csl_erdi/0072.jpg)
 
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/m3_csl_erdi/0073.jpg)

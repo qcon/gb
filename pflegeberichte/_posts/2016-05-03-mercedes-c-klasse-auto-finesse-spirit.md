@@ -1,9 +1,9 @@
 ---
 layout: post
 title: Mercedes C-Klasse
-subtitle: Altes Ehepaar
+subtitle: Gewachst mit Auto Finesse Spirit
 author: Matheus
-header_image: URL
+header_image: https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/mercedes_c220_s204/0099.jpg
 ---
 Hallo Glossbosse,
 
@@ -37,11 +37,11 @@ Zu guter Letzt kam der Nassauger zum Einsatz und durfte den ganzen „Rotz“ ra
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/mercedes_c220_s204/0003.jpg)
 
 Die ganze Prozedur wurde im kompletten Innenraum durchgeführt (Sitze, Teppiche, Kofferraum).
-Am Ende sah der Inhalt des Nasssaugers so aus …
+Am Ende sah der Inhalt des Nasssaugers so aus...
 
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/mercedes_c220_s204/0004.jpg)
 
-Lecker sieht anders aus! Der Innenraum dafür war sauber und rein 
+Lecker sieht anders aus! Der Innenraum dafür war sauber und rein
 
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/mercedes_c220_s204/0008.jpg)
 
@@ -67,7 +67,7 @@ Zur Reinigung vom Lenkrad waren die Mittel der Wahl:
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/mercedes_c220_s204/0007.jpg)
 
 
-Nach der Reinigung fühlte sich das Lenkrad wesentlich besser an 
+Nach der Reinigung fühlte sich das Lenkrad wesentlich besser an
 
 Tag 2
 
@@ -85,13 +85,11 @@ Verwendete Mittel zur „Grundreinigung“ waren:
 -	ValetPRO Dragon Breath
 -	ValetPRO Bilberry Wheel Cleaner
 
-Ich lasse mal Bilder sprechen 
+Ich lasse mal Bilder sprechen
 
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/mercedes_c220_s204/0010.jpg)
 
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/mercedes_c220_s204/0009.jpg)
-
-![](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/mercedes_c220_s204/0010.jpg)
 
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/mercedes_c220_s204/0011.jpg)
 
@@ -199,37 +197,6 @@ Viel geholfen hat es letztlich jedoch nicht. Eine Neu-Lackierung der Heck sowie 
 
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/mercedes_c220_s204/0054.jpg)
 
-CUT
-
-Der Tag war schon sehr besonders für mich. Nicht nur, dass Johannes wieder einmal vorbeischaute. Nein, er hatte auf dem Weg nach Hamm einen Autopflege-Händler getroffen, der Ihm groß von einer neuen Erfindung in Sachen Poliermaschinen erzählt hat. Diese musste an diesem Tag natürlich ausgiebig getestet werden!
-
-Darf ich vorstellen:
-
-![](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/mercedes_c220_s204/0051.jpg)
-
-Pupes Bigtoot Prototipo!
-
-Deren Einsatzgebiet war, nach langer Überlegung, nicht die riesen Lackflächen eines Autos – nein, eher die kleinen „Feinheiten“, welche die meisten Aufbereiter gerne ignorieren!
-
-Türschlösser, in denen sich gerne widerspenstiger Dreck einnistet, können mit ein wenig Politur zum „Like-New“-Look gebürstet versetzt werden!
-
-![](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/mercedes_c220_s204/0051.jpg)
-
-![](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/mercedes_c220_s204/0052.jpg)
-
-Auch für die Typen-Bezeichnung an der Heckklappe weist meistens „dunkle Ränder“ auf.
-Zur Beseitigung dieser eignet sich die neue Prototipo natürlich ebenso hervorragend!
-
-![](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/mercedes_c220_s204/0055.jpg)
-
-![](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/mercedes_c220_s204/0056.jpg)
-
-![](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/mercedes_c220_s204/0057.jpg)
-
-Nach anfänglicher Skepsis, war ich jedoch am Ende des Einsatzes vom Prototipo überzeugt.
-Johannes musste das gute Ding leider mitnehmen. Auch über Preise und Verfügbarkeit hat er mir keine Info da gelassen. Schade.
-
-CUT ENDE ;-)
 
 Als der Lack das gröbste hinter sich hatte kam es endlich zum Finish.
 

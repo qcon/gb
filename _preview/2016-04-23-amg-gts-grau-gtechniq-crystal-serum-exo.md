@@ -129,7 +129,7 @@ Das Crystal Serum wartete schon auf seinen Einsatz.&nbsp;
 
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/amg-gts-grau/DSC01410.jpg)
 
-Das 4-Augen-Prinzip ist besonders Hilfreich beim Crystal Serum. Was passiert wenn man es falsch anwendet könnt hier nochmal nachlesen:&nbsp;https://glossboss.de/produkttest/gtechniq-crystal-serum-test-anwendung-auftrag/
+Das 4-Augen-Prinzip ist besonders Hilfreich beim Crystal Serum. [Was passiert wenn man es falsch anwendet könnt hier nochmal nachlesen](https://glossboss.de/produkttest/gtechniq-crystal-serum-test-anwendung-auftrag/)
 
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/amg-gts-grau/DSC01411.jpg)
 
