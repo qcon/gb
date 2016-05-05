@@ -16,8 +16,8 @@ NEWFILE_SLUG=$(echo "$NEWFILE_PATH$DATE-$new_title$MDEXTENSION" | tr ' ' - | tr 
 touch $NEWFILE_SLUG
 echo "---
 layout: post
-title: $new_title
-subtitle: $new_subtitle
-author: $new_author
+title: '$new_title'
+subtitle: '$new_subtitle'
+author: '$new_author'
 header_image: URL
 ---" >> $NEWFILE_SLUG
