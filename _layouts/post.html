@@ -3,6 +3,7 @@ layout: default
 ---
 {% include schema.org.html %}
 <div class="width--wrapper" id="post--list__container">
+  <div class="breadcrumb"><a href="/" class="mr-5px">glossboss.de</a> <span class="mr-5px">›</span> <a href="/{{page.categories[0]}}" class="mr-5px">{{page.categories[0] | capitalize}}</a> <span class="mr-5px">›</span> <a href="{{post.url}}">{{page.title}}</a></div>
 	<article class="post--content">
 		{{ content }}
 	</article>

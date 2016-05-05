@@ -1,3 +1,10 @@
+.breadcrumb {
+  font-size: 13px;
+  margin-bottom: 40px;
+  a {
+    @extend %simpleLink;
+  }
+}
 .app-banner {
   margin: 20px 0;
 

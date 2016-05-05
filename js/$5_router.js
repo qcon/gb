@@ -141,10 +141,13 @@
 
 
 
-
-  router.add('allgemein', function() {
-    router.parser("allgemein", 'Allgemein');
-  });
+  if(w.location.pathname === '/allgemein/') router.parser("allgemein", 'Allgemein');
+  if(w.location.pathname === '/pflegeberichte/') router.parser("pflegeberichte", 'Pflegeberichte');
+  if(w.location.pathname === '/anleitungen/') router.parser("anleitungen", 'Anleitungen');
+  if(w.location.pathname === '/produkttest/') router.parser("produkttest", 'Produkttests');
+  // router.add('allgemein', function() {
+  //   router.parser("allgemein", 'Allgemein');
+  // });
 
   router.add('anleitung', function() {
     router.parser("anleitungen", "Anleitungen");
@@ -177,6 +180,8 @@
       $("#loadmoreajax")[0].click();
     },50);
   });
+
+  w.router = router;
 
   window.addEventListener("hashchange", function() {
     router.checkRoute(location.hash);
