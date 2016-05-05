@@ -6,6 +6,9 @@ $gray: HSL(300,5%,95%);
 $gray_hover: HSL(300,5%,93%);
 $transition_bounce: cubic-bezier(.15,2.04,.85,.61);
 
+$transition_sidebar: 250ms ease-in;
+$sidebarMenuWidth: 235px;
+
 @mixin font($f) {
   @if $f == normal {
     // font-family: 'Roboto', sans-serif;

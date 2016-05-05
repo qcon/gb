@@ -21,10 +21,11 @@ Doch bevor es an den Lack ging, musste der Hobel von Innen gereinigt werden.
 Da einige Flecken an den Sitzen zu sehen waren war für mich klar, dass es hier zu einer ordentlichen Nassauger-Reinigung kommen wird. Für den Nassauger von Kärcher wurde eine passende Nassauer-Düse bestellt.
 
 Verwendete Mittel hierzu:
--	Wasser
--	ValetPRO Classic Carpet Cleaner
--	Colorlock Bürste
--	Nasssauger mit passender Düse
+
+- Wasser
+- ValetPRO Classic Carpet Cleaner
+- Colorlock Bürste
+- Nasssauger mit passender Düse
 
 Zunächst wurden die Sitze ordentlich mit normalem Wasser gut befeuchtet. Danach kam der Valet Pro Classic Carpet Cleaner zum Einsatz. Auch hier habe ich beim versprühen des Reinigers nicht sonderlich „gespart“. Dem Reiniger gab ich dann ein wenig Zeit in die Fasern einzuziehen (2-3min).
 Anschließend bürstete ich die Sitze mit der Bürste was das Zeug hält … (nicht falsch verstehen  )
@@ -49,12 +50,14 @@ Nach diesem Teil der Arbeit ging es immer noch im Innenraum weiter.
 Die Türen sowie alle anderen Kunststoffe wurden gereinigt.
 
 Verwendete Mittel waren:
--	ValetPRO Classic All Purpose Cleaner
--	Koch Chemie Refresh Cockpit Care
+
+- ValetPRO Classic All Purpose Cleaner
+- Koch Chemie Refresh Cockpit Care
 
 Eines fiel besonders auf, wenn man sich als Fahrer in den Wagen gesetzt hat … und es fiel negativ auf … das speckige Lenkrad! Der Vorbesitzer war weiblich und hatte wohl immer gut was an Creme an den Händen drauf …
 
 Zur Reinigung vom Lenkrad waren die Mittel der Wahl:
+
 -	Colorlock Lederreiniger stark
 -	Colorlock Bürste
 -	Petzoldts Lederpflege Seidenmatt
@@ -76,14 +79,14 @@ Das Waschzeug wurde eingepackt und es ging los in die SB-Waschbox.
 
 Verwendete Mittel zur „Grundreinigung“ waren:
 
--	ValetPRO Concentrated Car Shampoo
--	Diverse Waschhandschuhe
--	ValetPRO Citrus Pre Wash
--	Diverse Pinsel von ValetPRO
--	Dodo Juice Low on Eau Rinseless Wash (zum kneten)
--	ValetPRO Yellow Medium bar
--	ValetPRO Dragon Breath
--	ValetPRO Bilberry Wheel Cleaner
+- ValetPRO Concentrated Car Shampoo
+- Diverse Waschhandschuhe
+- ValetPRO Citrus Pre Wash
+- Diverse Pinsel von ValetPRO
+- Dodo Juice Low on Eau Rinseless Wash (zum kneten)
+- ValetPRO Yellow Medium bar
+- ValetPRO Dragon Breath
+- ValetPRO Bilberry Wheel Cleaner
 
 Ich lasse mal Bilder sprechen
 

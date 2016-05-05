@@ -1,7 +1,7 @@
 ---
 layout: post
-title: AMG GTS Grau
-subtitle: Crystal Serum und Exo
+title: AMG GTS Grau Neuwagen
+subtitle: 'Das beste was es gibt: Crystal Serum und Exo'
 author: Marvin
 header_image: https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/amg-gts-grau/DSC01439.jpg
 ---
@@ -37,7 +37,6 @@ Den Schaumteppich noch eine kurze Einwirkzeit von rund 5-6 Minuten gegeben und d
 
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/amg-gts-grau/DSC01341.jpg)
 
-![](https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/amg-gts-grau/DSC01348.jpg)
 
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/amg-gts-grau/DSC01349.jpg)
 

@@ -61,13 +61,13 @@
   display: block;
   width: 235px;
   height: 100%;
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
   z-index: 3;
   background: $gray;
-  transform: translateX(-235px);
-  transition: 250ms ease;
+  transform: translateX(-100%);
+  transition: $transition_sidebar;
   box-shadow: 0 1px 6px 1px rgba(black, .3);
   padding: 15px;
   overflow-y: scroll;
@@ -105,7 +105,7 @@
 }
 
 #fullpage {
-  transition: opacity 100ms ease-in;
+  transition: opacity 250ms ease-in, transform $transition_sidebar;
 }
 
 .menuOut {

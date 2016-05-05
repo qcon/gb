@@ -188,21 +188,6 @@ table {
   justify-content: space-between;
   transform: translate3d(0,0,0);
 
-  .post--new {
-    position: absolute;
-    width: 40px;
-    height: 40px;
-    line-height: 40px;
-    transform: translate(5px, 5px) rotate(-45deg);
-    background: red;
-    float: right;
-    text-align: center;
-    color: white;
-    z-index: 1;
-    border-radius: 50%;
-    @include materialShadow(1);
-  }
-
   li {
     margin: 1em;
     align-self: center;
@@ -314,9 +299,9 @@ background: #c7c7c7;
     // 	}
     // }
     &:hover > .post--img {
-      transition: .15s;
+      transition: .75s;
       //opacity:.90;
-      transform: scale(1.2);
+      transform: scale(1.07);
       //height:15em;
     }
 
