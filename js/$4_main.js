@@ -10,7 +10,6 @@
     cookiesAcc = $("#cookies_acc"),
     slideMenuToggle = $("#slidemenutoggle"),
     fullPage = $("#fullpage"),
-    hashHrefs = $(".menucontent a.closeSlideMenuOnClick"),
     slideMenu = $(".slidemenu"),
     slideMenuContent = $(".menucontent");
 
@@ -18,7 +17,6 @@
   function closeSlideMenu() {
     slideMenu.removeClass("menuOut");
     fullPage.off("click", closeSlideMenuFullPage);
-    hashHrefs.off("click", closeSlideMenu);
     fullPage.removeClass("opacity03");
   }
 
@@ -32,13 +30,11 @@
     ga("send", "event", "Navigation", "click", "Burger Menu")
     if (slideMenu[0].classList.contains("menuOut")) {
       fullPage.on("click", closeSlideMenuFullPage);
-      hashHrefs.on("click", closeSlideMenu);
     } else {
       fullPage.addClass("opacity03");
       slideMenu.addClass("menuOut");
       setTimeout(function() {
         fullPage.on("click", closeSlideMenuFullPage);
-        hashHrefs.on("click", closeSlideMenu);
       }, 50);
     }
   });
@@ -150,7 +146,7 @@
       }
     }
   }
-  var forbiddenShareCounterLocations = ["/spenden/", "/mischungsrechner/", "/impressum/", "/", "/blog-abonnieren/", "/kontakt/", "/preview/"];
+  var forbiddenShareCounterLocations = ["/spenden/", "/mischungsrechner/", "/impressum/", "/", "/blog-abonnieren/", "/kontakt/", "/preview/", "/allgemein/", "/pflegeberichte/", "/anleitungen/", "/produkttest/"];
   var allowShareCounter = true;
   forbiddenShareCounterLocations.map(function(badpath) {
     if (location.pathname === badpath) allowShareCounter = false;

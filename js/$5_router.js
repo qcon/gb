@@ -1,12 +1,4 @@
 (function routerEngine(w, d) {
-  function addActiveCatFilter(hash) {
-    $(".cat-filter-a").each(function(a) {
-      a.classList.remove("active");
-      if(a.href.indexOf(hash) > 1) {
-        a.classList.add("active");
-      }
-    });
-  }
   function showDelay(p, t) {
     setTimeout(function() {
       $(".post--list li")[p].classList.remove("displayNone");
@@ -30,7 +22,6 @@
       return this;
     },
     checkRoute: function(hash) {
-      addActiveCatFilter(hash);
       for(var i in this.routes) {
         var match = hash.match(this.routes[i].re);
         if(match) {
@@ -111,10 +102,8 @@
         postContainer.removeClass("opacity-0");
         searchRender();
         loader(0);
-        $(".cat-filter-wrap").addClass("displayNone")
         return;
       }
-      $(".cat-filter-wrap").removeClass("displayNone")
 
       if(globalPostDB.length <= 1) {
         ajax({

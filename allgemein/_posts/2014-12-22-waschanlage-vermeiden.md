@@ -22,8 +22,8 @@ Der Vielwäscher fährt am liebsten jeden Freitag nach Feierabend in die Waschan
 Von diesen drei Beispielen ist der, der jede Woche durch die Waschanlage fährt am schlimmsten?! __NEIN!__
 
 
-Sicherlich bist du nun erstmal verwundert. Du denkst die Waschanlage ist doch das schlimmste was man einen Lack antun kann. Die dreckigen, harten Borsten machen doch Kratzer im Lack. Swirls sind nahezu unvermeidbar. 
-Das stimmt so teilweise. 
+Sicherlich bist du nun erstmal verwundert. Du denkst die Waschanlage ist doch das schlimmste was man einen Lack antun kann. Die dreckigen, harten Borsten machen doch Kratzer im Lack. Swirls sind nahezu unvermeidbar.
+Das stimmt so teilweise.
 
 
 Noch schlimmer ist der Profi-Handwäscher, der seit 30 Jahren (oder länger) so wäscht und er deswegen als Waschgott gilt.
@@ -41,14 +41,14 @@ Der Lack sieht auf den ersten blick absolut katastrophal aus. Swirls wo das Auge
 Das _gute_ an der Sache ist, die Swirls sind alle relativ gleich stark und nicht besonders tief im Lack. Nur durch die Menge an feinen Kratzern kriegen wir das grauen. Diese zu entfernen ist allerdings fast immer ein Kinderspiel, da man den Lack großflächig mit milden Mitteln bearbeiten kann und nicht besonders viel Klarlack abtragen muss (davon haben wir nämlich nicht unendlich viel)
 
 
-Habe ich allerdings ein Fahrzeug zum Polieren da, welches seit Monaten/Jahren falsch mit der Hand gewaschen wurde, hält sich die freude in grenzen. Der Lack ist hier und da mit richtig tiefen Kratzern übersäht. Und das macht das Polieren nicht grade einfach. 
+Habe ich allerdings ein Fahrzeug zum Polieren da, welches seit Monaten/Jahren falsch mit der Hand gewaschen wurde, hält sich die freude in grenzen. Der Lack ist hier und da mit richtig tiefen Kratzern übersäht. Und das macht das Polieren nicht grade einfach.
 Jeden Kratzer einzeln zu isolieren und zu polieren macht natürlich keinen sinn. Also muss eine große Fläche mit sehr starken Poliermitteln bearbeitet werden. Natürlich geht dann auch hier Schichtdicke flöten, wo es garnicht sein müsste. Hier wird also immer _zuviel_ Klarlack abgetragen.
 
 
 ![Tiefe Kratzer durch falsche Handwäsche](https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/lotus_elise_orange/IMG_4674.jpg)
 
 
-Also ganz klar, wir Hobbypfleger betreiben weiterhin unsere [Handwäsche](//glossboss.de/tipps-tricks/die-7-grundregeln-fuer-die-optimale-fahrzeugwaesche/) mit [2 Eimer](//glossboss.de/allgemein/die-grundausstattung-fuer-die-optimale-fahrzeugwaesche/), ein ordentliches Shampoo und ein weiches Mikrofasertrockentuch.
+Also ganz klar, wir Hobbypfleger betreiben weiterhin unsere [Handwäsche](https://glossboss.de/anleitungen/die-7-grundregeln-fuer-die-optimale-fahrzeugwaesche/) mit [2 Eimer](//glossboss.de/allgemein/die-grundausstattung-fuer-die-optimale-fahrzeugwaesche/), ein ordentliches Shampoo und ein weiches Mikrofasertrockentuch.
 Unseren Freunden und Bekannten werden wir nicht ein Waschsystem aufzwingen, welches sie nach einer Wäsche sowieso nicht mehr anwenden, sondern wieder zu den alten Gewohnheiten zurückkehren, da es ihnen zu aufwendig ist etc. Denen sagen wir: fahr ruhig durch die Waschanlage...
 
 

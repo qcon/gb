@@ -105,4 +105,4 @@ Durch den ultraschallgeschnittenen Rand gibt es 2 Vorteile: erstmal natürlich k
 
 Welche Mikrofasertücher kannst du empfehlen? Und&#8230; wie findest du die Tücher von Microfiber Madness?
 
- [1]: https://glossboss.de/tipps-tricks/scheiben-streifenfrei-reinigen/ "Wie du Scheiben streifenfrei reinigst"
+ [1]: https://glossboss.de/anleitungen/scheiben-streifenfrei-reinigen/ "Wie du Scheiben streifenfrei reinigst"

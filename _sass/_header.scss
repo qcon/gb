@@ -69,14 +69,17 @@
   transform: translateX(-250px);
   transition: $transition_sidebar;
   box-shadow: 0 1px 6px 1px rgba(black, .3);
-  padding: 15px;
-  overflow-y: scroll;
+  overflow: hidden;
 
   &::-webkit-scrollbar {
     display: none;
   }
 
   .menucontent {
+    width: 100%;
+    height: 100%;
+    padding: 15px;
+    overflow: auto;
     h1 {
       color: $text-disabled;
       margin: 5px;
