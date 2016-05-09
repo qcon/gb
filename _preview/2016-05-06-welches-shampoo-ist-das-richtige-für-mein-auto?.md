@@ -13,19 +13,19 @@ Autoshampoos gibt es wie Sand am Meer. Einen kompletten überblick über den Mar
 
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/criz/shampoo/DSC_0003.jpg)
 
-Um den ‹berblick zu behalten unterteile ich das Angebot in 3 Gruppen: Wachshaltige Shampoo, neutrale und welche mit Versiegelungsanteilen.
+Um den überblick zu behalten unterteile ich das Angebot in 3 Gruppen: Wachshaltige Shampoo, neutrale und welche mit Versiegelungsanteilen.
 
 ### wachshaltige Shampoos
 
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/criz/shampoo/DSC_0004.jpg)
 
-Wachshaltige Shampoos sind vor allem geeignet, wenn ein Wachs als Lackschutz eingesetzt wird. Diese Shampoos enthalten Carbaubaanteile und frischen das Wachs etwas auf. Auch der Glanz wird dadurch noch etwas verst‰rkt. Wer jetzt allerdings glaubt nur mit diesem Shampoo waschen zu kˆnnen und am Ende einen richtigen Lackschutz zu erhalten liegt leider falsch. Wenn das Wachs am Ende ist wird auch dieses Shampoo keinen dauerhaften Schutz bieten kˆnnen. Einen leichten Auffrischungseffekt bietet es dennoch.
+Wachshaltige Shampoos sind vor allem geeignet, wenn ein Wachs als Lackschutz eingesetzt wird. Diese Shampoos enthalten Carbaubaanteile und frischen das Wachs etwas auf. Auch der Glanz wird dadurch noch etwas verstärkt. Wer jetzt allerdings glaubt nur mit diesem Shampoo waschen zu können und am Ende einen richtigen Lackschutz zu erhalten liegt leider falsch. Wenn das Wachs am Ende ist wird auch dieses Shampoo keinen dauerhaften Schutz bieten können. Einen leichten Auffrischungseffekt bietet es dennoch.
 
 ### neutrale Shampoos
 
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/criz/shampoo/DSC_0006.jpg)
 
-Neutrale Shampoos eignen sich immer. Egal ob ungesch¸tzter Lack vor der Aufbereitung, Versiegelung oder Wachs als Lackschutz. Weder Wachs- noch Versiegelungsanteile verf‰lschen das Beading und Sheeting des Lackschutzes, deshalb eignen sich neutrale Shampoos besonders, wenn Versiegelungen oder Coatings als Lackschutz zum Einsatz kommen. Diese brauchen meistens keine Auffrischung und bieten auch ohne entsprechendes Shampoo eine lange Standzeit.
+Neutrale Shampoos eignen sich immer. Egal ob ungeschützter Lack vor der Aufbereitung, Versiegelung oder Wachs als Lackschutz. Weder Wachs- noch Versiegelungsanteile verfälschen das Beading und Sheeting des Lackschutzes, deshalb eignen sich neutrale Shampoos besonders, wenn Versiegelungen oder Coatings als Lackschutz zum Einsatz kommen. Diese brauchen meistens keine Auffrischung und bieten auch ohne entsprechendes Shampoo eine lange Standzeit.
 
 ### versiegelungshaltige Shampoos
 
