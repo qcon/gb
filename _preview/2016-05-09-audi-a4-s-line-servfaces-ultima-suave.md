@@ -7,7 +7,7 @@ header_image: https://glossbossimages.s3.eu-central-1.amazonaws.com/boerge/A4Glo
 ---
 ### Hallo Glosbosse,
 
-vor einiger Zeit durfte ich schon einen Golf 7 R (evtl. Facebook Link zum Album: https://www.facebook.com/media/set/?set=a.950449311737782.1073741847.821151808000867&amp;type=1&amp;l=9f99ee0354) mit der keramischen Versiegelung von **ServFaces - Ceramic Ultima &amp; Suave** veredeln. Da kam es mir gerade recht, dass nun ein Audi A4 zum kompletten Aufbereitungsvorgang auf dem Hof stand. Der Besitzer wünschte natürlich nur das Beste, mit der höchst möglichen Standzeit, enormen Glanz und Farbtiefe.&nbsp;
+vor einiger Zeit durfte ich schon einen [Golf 7 R](https://www.facebook.com/media/set/?set=a.950449311737782.1073741847.821151808000867&amp;type=1&amp;l=9f99ee0354) mit der keramischen Versiegelung von **ServFaces - Ceramic Ultima &amp; Suave** veredeln. Da kam es mir gerade recht, dass nun ein Audi A4 zum kompletten Aufbereitungsvorgang auf dem Hof stand. Der Besitzer wünschte natürlich nur das Beste, mit der höchst möglichen Standzeit, enormen Glanz und Farbtiefe.&nbsp;
 
 Begonnen wurde natürlich wie immer mit der Wäsche:&nbsp;
 
@@ -141,8 +141,7 @@ Bevor es zu den Finish Bildern geht, wurde noch das Interieur mit dem Petzolds I
 Zu guter letzt wurden die Felgen mit dem Quick n Shine gepflegt, Reifenflanken mit dem Gyeon Tire eingelassen, Kunstoff wieder mit Plast Star in Farbe gesetzt und die Endrohre sowie die Dachreling mit der Menzerna Polish Creme poliert.
 
 # Finish:
-
-[https://youtu.be/UTPnUISokaw](https://youtu.be/UTPnUISokaw)
+{% include video.html videoURL="https://www.youtube.com/embed/UTPnUISokaw" %}
 
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/boerge/A4Glossboss/0061.jpg)
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/boerge/A4Glossboss/0062.jpg)
@@ -163,4 +162,4 @@ Zu guter letzt wurden die Felgen mit dem Quick n Shine gepflegt, Reifenflanken m
 
 Abschließend bleibt zusagen, dass der Audi A4 ein schönes und durch teilweise sehr tiefe Kratzer im Lack ein durchaus anspruchsvolles Projekt war. Durch die Rundumpflege und der Versiegelung mit ServFaces Ultima &amp; Suave ist der Lack wieder in einem top Zustand und der Besitzer hat lange Freude daran. Bei Fragen und Anregungen könnt Ihr gerne in die Kommentare posten.
 
-Viele Grüße, Börge -&nbsp;https://www.facebook.com/BBLackveredelung/
+Viele Grüße, Börge -&nbsp;[https://www.facebook.com/BBLackveredelung/](https://www.facebook.com/BBLackveredelung/)
