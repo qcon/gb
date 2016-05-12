@@ -27,7 +27,7 @@ header_image: https://glossbossimages.s3.eu-central-1.amazonaws.com/headerimg/DS
   </p>
 
   <p>
-    <strong>Kontakt:</strong><br /> Telefon: 0170-3262412<br /> E-Mail: <a href="mailto:mmieth+glossboss@gmail.com">mmieth + glossboss @ gmail.com</a>
+    <strong>Kontakt:</strong><br /> Telefon: 0170-3262412 <strong>KEIN Telefonsupport!</strong><br /> E-Mail: <a href="mailto:mmieth+glossboss@gmail.com">mmieth + glossboss @ gmail.com</a>
   </p>
 
   <p>

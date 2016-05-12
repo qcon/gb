@@ -16,5 +16,16 @@ Passend dazu empfehle ich euch eine [Diskussion auf Facebook durchzulesen](www.f
 
 Durch die ständig steigenden Zugriffszahlen, steigen natürlich auch die Kosten für Server und Traffic. Um diese Kosten ohne Mehraufwand für unsere Nutzer zu decken, nutzte ich Amazon-Partner-Links. Das funktionierte zwar, war aber bei vielen Nutzern nicht gern gesehen. Die daraus entstandene Alternative war natürlich viel besser. Ab einer Spende von 15€ haben wir ein Mikrofasertuch verschenkt, welches zuvor mit den *G* von Glossboss beflockt und veredelt wurde. Diese Aktion war ein voller Eroflg. Die Tücher sind fast alle weg und die Kosten für die nächsten Monate gedeckt.
 
+Die interessantesten Zahlen im Überblick:
+
+- Zugriffe/Monat: **21.500**
+- Traffic/Monat: **60 GB**
+- User: **8.000**
+- Anzahl aller Bilder: **7900**
+
+Der mit Abstand erfolgreichste Beitrag war [Höher, schneller, weiter - Aber wo bleiben die Emotionen](https://glossboss.de/allgemein/coatings-und-versiegelung-gegen-wachs/). Allein in der ersten Woche nach Veröffentlichung, wurde dieser über 2300 mal angeklickt. Mittlerweile nähert er sich der 10.000er marke. Das war ein Thema, was mich schon länger beschäftigte. Und wie sich nach der Veröffentlichung zeigte, beschäftigte es auch unzählige andere Autopfleger, die sich telefonisch, via eMail & Facebook und persönlich für den Beitrag "bedankten" und ihr Fahrzeug zur nächsten Saison wieder mit einem Wachs schützen wollen. Eine tolle Bestätigung für eine funktionierende Community!
+
+Wir waren aber auch hinter den Kulissen tätig. Bewusst so, dass es niemand mitkriegt - hauptsächlich damit es nicht nach Sponsoring aussieht. Wir haben einen neuen Hersteller intensiv bei der Entwicklung neuer Mikrofasertücher unterstützt. Viel getestet und viel Feedback gegeben, welches auch **Umgesetzt wurde** (Tipp für ein Start-Up aus Mannheim: so geht man mit profesionellen Meinungen um). Das fertige Produkt wurde dann käuflich erworben - auch bei solchen Situationen bleiben wir uns treu.
+
 
 Wir errinern uns. Der erste Bericht am 23.06.2014
