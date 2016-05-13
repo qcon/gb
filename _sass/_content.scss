@@ -4,6 +4,10 @@
   a {
     @extend %simpleLink;
   }
+  .breadcrumb-final {
+    color: black;
+    text-decoration: none;
+  }
 }
 .app-banner {
   margin: 20px 0;
