@@ -81,7 +81,7 @@
 		}
 	};
 	w.WebFontConfig = {
-		google: { families: [ 'Roboto::latin' ] }
+		google: { families: [ 'Lato::latin' ] }
 	};
 	(function() {
 	  var wf = document.createElement('script');
