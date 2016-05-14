@@ -129,9 +129,12 @@ table {
 
 .content--video {
   margin: 5em 0;
-  width: 800px;
+  width: 1000px;
   height: 600px;
   max-width: 100%;
+  @media #{$sm} {
+    height: 300px;
+  }
 }
 // .wichtige-info {
 // 	background: HSL(300,5%,95%);
