@@ -1,0 +1,10 @@
+box: ruby
+build:
+    steps:
+        - bundle-install
+        - script:
+            name: Run Jekyll Doc
+            code: bundle exec jekyll doctor
+        - script:
+            name: Build jekyll
+            code: bundle exec jekyll build --trace --incremental

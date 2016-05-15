@@ -6,6 +6,8 @@ author: 'Marvin'
 header_image: https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/guide_mf_pads/DSC01924.jpg
 ---
 
+>Unten im Beitrag findest du ein Video, indem ich die optimale Fahrgeschwindigkeit demonstriere
+
 Schon seit ein paar Jahren arbeite ich mit Mikrofaserpads auf einer Exzentermaschine. In meinen Fall eine Rupes Duetto 12 mit 12mm Hub. Die Vorteile sind enorm:
 
 - oftmals höhere Abtragsleistung als eine Rotationsmaschine mit Fell und Schleifpaste
@@ -26,10 +28,11 @@ Das ist der erste und wichtigste Schritt. Das Mikrofaserpad muss vollständig mi
 
 ... die dann mit den Finger einmassiert werden.
 
-
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/guide_mf_pads/DSC01918.jpg)
 
-Es eignet sich nicht jede Politur fürs Mikrofaserpad. Die besten Erfahrungen habe ich mit der Meguiars D300, auch bekannt als Microfiber Cutting Compound gemacht. Alternativ geht auch die Meguiars Ultimate Compound sehr gut.
+Jede Faser ist nun mit Politur bedeckt - nur so funktioniert das Mikrofaserpad richtig.
+
+Es eignet sich aber nicht jede Politur. Die besten Erfahrungen habe ich mit der Meguiars D300, auch bekannt als Microfiber Cutting Compound gemacht. Alternativ geht auch die Meguiars Ultimate Compound sehr gut.
 
 # #2 - Politur auftragen / Politurmenge
 
@@ -41,6 +44,7 @@ Grundsätzlich wird auch hier mehr Politur benutzt als sonst üblich. Anstatt de
 # #3 - Polieren
 
 Auch hier gibt es wieder massive unterschiede zum klassischen Schaumstoffpad. In der Regel nimmt man etwas Geschwindigkeit raus. Verfahrgeschwindigkeit sowie Maschinendrehzahl. Für mich hat sich die Drehzahleinstellung auf der 12er Rupes auf Stufe 5-5,5 eingependelt. Zudem ist es wichtig, dass man das Polierfeld sehr langsam abfährt.
+Sieh dir dazu am besten das Video an, welches du unten im Bericht findest.
 
 Druck wird überhaupt nicht ausgeübt! Höchstens 1-2 KG zur Stabilisierung der Maschine. Das habe ich zu genüge getestet - wird mehr gedrückt wird die Lackoberfläche zu heiß - mehr Abtragsleistung gibt es nicht.
 
@@ -53,7 +57,7 @@ Das Pad muss nach **jeden** Poliervorgang gereinigt werden. Hört sich im ersten
 
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/guide_mf_pads/DSC01920.jpg)
 
-Die Reinigung geht am besten mit einer Bürste. Ich lasse dafür die Maschine für ca. 4-5 Sekunden laufen und ziehe die Bürste von Innen nach Außen. Das genügt um die Fasern wieder aufzustellen und den abgetragenen Klarlack zu entfernen.
+Die Reinigung geht am besten mit einer Bürste. Ich lasse dafür die Maschine für ca. 4-5 Sekunden laufen und ziehe die Bürste von Innen nach Außen. Das genügt um die Fasern wieder aufzustellen und den abgetragenen Klarlack zu entfernen. Es muss nicht unbedingt eine Bürste aus dem Autopflegezubehör sein - eine normale Nagelbürste reicht auch aus.
 
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/guide_mf_pads/DSC01921.jpg)
 
@@ -61,9 +65,9 @@ Hast du auch diesen Schritt erledigt, fängt alles wieder bei Schritt #2 an.
 
 ### So geht es weiter
 
-Für ein ganzes Fahrzeug brauchst du 3-5 Mikrofaserpads. Anders als bei Schaumstoffpads verlieren die Mikrofaserpads nicht ihre Abtragsleistung je mehr man damit poliert. Jedoch neigen diese ab einer gewissen Zeit zum Stauben. Sollte das passieren, muss das Pad gewechselt werden und du fängst wieder bei Schritt #1 an. Es ist aber auch Problemlos möglich ein ganzes Fahrzeug mit nur einem Mikrofaserpad zu polieren.
+Für ein ganzes Fahrzeug brauchst du 3-5 Mikrofaserpads. Anders als bei Schaumstoffpads verlieren die Mikrofaserpads nicht ihre Abtragsleistung je mehr man damit poliert. Jedoch neigen diese ab einer gewissen Zeit zum Stauben. Sollte das passieren, muss das Pad gewechselt werden und du fängst wieder bei Schritt #1 an. Es ist aber auch Problemlos möglich ein ganzes Fahrzeug mit nur einem Mikrofaserpad zu polieren - Voraussetzung dafür ist, dass das Pad nicht staubt.
 
-Bist du fertig mit einem Pad muss es gereinigt werden. Das beste Reinigungsergebnis wird von Hand erzielt - Mikrofaserpads sind in der Regeln nicht geeignet für die Waschmaschine. Die [Ronny-Methode](https://glossboss.de/anleitungen/polierpads-reinigen/) eignet sich hervorragend zum reinigen der Pads.
+Bist du fertig mit einem Pad muss es gereinigt werden. Das beste Reinigungsergebnis wird von Hand erzielt - Mikrofaserpads sind in der Regel nicht geeignet für die Waschmaschine. Die [Ronny-Methode](https://glossboss.de/anleitungen/polierpads-reinigen/) eignet sich hervorragend zum reinigen der Pads.
 
 ### Finish?
 
@@ -71,8 +75,13 @@ Mir persönlich gefällt das Finish von Mikrofaserpads nicht. Bei den Cutting-Pa
 
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/audi-a1-schwarz/DSC01303.jpg)
 
-Deswegen meine Empfehlung: Hoher Cut: Mikrofaserpad, schönes Finish: Schaumstoffpad mit Hochglanzpolitur!
+Deswegen meine Empfehlung:
+
+- hoher Cut: Mikrofaserpad
+- schönes Finish: Schaumstoffpad mit Hochglanzpolitur
 
 Alternativ zur bebilderten Anleitung, habe ich ein Video erstellt:
 
 {% include video.html videoURL="https://www.youtube.com/embed/wRwGRgLqQxU" %}
+
+Benutzt du auch schon Mikrofaserpads, oder gehts du immernoch den altmodischen weg - Rotationsmaschine, Fell und Schleifpaste?

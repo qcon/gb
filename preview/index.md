@@ -5,6 +5,11 @@ randomHeader: true
 
 # Hier gibt es nichts zu sehen
 
+<ul>
+
 {% for preview in site.preview %}
-####[{{preview.title}}]({{preview.url}})
+<!-- <li>[{{preview.title}}]({{preview.url}})</li> -->
+<li><a href="{{preview.url}}">{{preview.title}}</a></li>
 {% endfor %}
+
+</ul>
