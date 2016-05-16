@@ -80,6 +80,9 @@
     height: 100%;
     padding: 15px;
     overflow: auto;
+    ul {
+      list-style: none;
+    }
     h1 {
       color: $text-disabled;
       margin: 5px;

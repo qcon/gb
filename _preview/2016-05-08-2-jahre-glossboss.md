@@ -23,7 +23,7 @@ Die interessantesten Zahlen im Überblick:
 
 Der mit Abstand erfolgreichste Beitrag war [Höher, schneller, weiter - Aber wo bleiben die Emotionen](https://glossboss.de/allgemein/coatings-und-versiegelung-gegen-wachs/). Allein in der ersten Woche nach Veröffentlichung, wurde dieser über 2300 mal angeklickt. Mittlerweile nähert er sich der 10.000er marke. Das war ein Thema, was mich schon länger beschäftigte. Und wie sich nach der Veröffentlichung zeigte, beschäftigte es auch unzählige andere Autopfleger, die sich telefonisch, via eMail & Facebook und persönlich für den Beitrag "bedankten" und ihr Fahrzeug zur nächsten Saison wieder mit einem Wachs schützen wollen. Eine tolle Bestätigung für eine funktionierende Community!
 
-Stolz können wir auch auf unsere App sein - das hat sonst niemand. Der Mischungsrechner ist im App Store, Google PlayStore und über die Website verfügbar.
+Stolz können wir auch auf unsere App sein - das hat sonst niemand. Der Mischungsrechner ist im App Store, Google PlayStore und über die Website verfügbar und hilft dir dabei das korrekte Mischungsverhältnis für deine Autopflegeprodukte einzuhalten. Wer kann schon das Verhältnis 1:12 für eine 473ml Flasche im Kopf rechnen?
 
 2 Glossbosse feierten dieses Jahr Debüt und veröffentlichten ihren ersten Beitrag - vielen Dank an Frederic und Börge!
 
