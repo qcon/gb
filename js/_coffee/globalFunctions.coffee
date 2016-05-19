@@ -19,3 +19,8 @@ loader = (toggle) ->
     me.fadeIn 250
   else
     me.fadeOut 250
+
+searchRender = () ->
+  $('#search_reset').on "click", ->
+    $("#search-input").html ''
+    $("#results-container").html ''

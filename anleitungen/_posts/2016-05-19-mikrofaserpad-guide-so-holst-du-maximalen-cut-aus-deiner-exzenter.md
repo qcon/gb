@@ -1,7 +1,7 @@
 ---
 layout: post
-title: 'Guide zum Polieren mit Mikrofaserpads'
-subtitle: 'So holst du das maximale als deiner Exzentermaschine raus'
+title: 'Polieren mit Mikrofaserpads in 4 Schritten'
+subtitle: 'So holst du das maximale aus deiner Exzentermaschine raus'
 author: 'Marvin'
 header_image: https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/guide_mf_pads/DSC01924.jpg
 ---
@@ -12,7 +12,7 @@ Schon seit ein paar Jahren arbeite ich mit Mikrofaserpads auf einer Exzentermasc
 
 - oftmals höhere Abtragsleistung als eine Rotationsmaschine mit Fell und Schleifpaste
 - das Risiko des durchpolieren der Ecken und Kanten ist wesentlich geringer als bei einer Rotationsmaschine
-- es staubt nicht, bzw. nur in seltenen fällen
+- es staubt nicht, bzw. nur in seltenen Fällen
 - auch für Anfänger bestens geeignet
 
 Jedoch ist der Umgang mit Mikrofaserpads nicht ganz einfach. Es gibt ein paar Grundregeln die man unbedingt beachten sollte. Schritt 1 wiederholt sich nur, wenn du ein neues Mikrofaserpad nimmst bzw. es wechselst. Schritt 2-4 wiederholt sich ständig.
@@ -26,7 +26,7 @@ Das ist der erste und wichtigste Schritt. Das Mikrofaserpad muss vollständig mi
 
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/guide_mf_pads/DSC01917.jpg)
 
-... die dann mit den Finger einmassiert werden.
+... die dann mit den Finger einmassiert werden. Ob du dabei ein Handschuh trägst, bleibt dir überlassen. Im [Sicherheitsdatenblatt (MSDS)](http://www.finishmaster.com/prod/assets/xfw41bwdgroykk4hnrd6.pdf) zur Meguiars D300 steht *"Mild Skin Irritation: Signs/symptoms may include localized redness, swelling, and itching."*. Als Hautschutz wird lediglich erwähnt, dass man längeren und anhaltenden Kontakt mit der Haut vermeiden soll: *"8.2.2 Skin Protection - Avoid prolonged or repeated skin contact"*
 
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/guide_mf_pads/DSC01918.jpg)
 
@@ -53,7 +53,7 @@ Da man so langsam fährt, reichen 2-3 Kreuzstriche. Das ist jedoch von der Polit
 
 # #4 - Pad reinigen
 
-Das Pad muss nach **jeden** Poliervorgang gereinigt werden. Hört sich im ersten Moment nach sehr viel Aufwand an, ist aber nach ein paar Polierfeldern absolute routine und geht sehr schnell. Man entfernt so den abgetragenen Klarlack aus den Fasern und stellt diese Gleichzeit wieder auf. Das ist besonders wichtig, da die Mikrofasern nicht arbeiten, wenn diese Plattgedrückt sind wie im nächsten Bild zu sehen:
+Das Pad muss nach **jeden** Poliervorgang gereinigt werden. Hört sich im ersten Moment nach sehr viel Aufwand an, ist aber nach ein paar Polierfeldern absolute Routine und geht sehr schnell. Man entfernt so den abgetragenen Klarlack aus den Fasern und stellt diese Gleichzeit wieder auf. Das ist besonders wichtig, da die Mikrofasern nicht arbeiten, wenn diese platt gedrückt sind wie im nächsten Bild zu sehen:
 
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/guide_mf_pads/DSC01920.jpg)
 
@@ -71,7 +71,7 @@ Bist du fertig mit einem Pad muss es gereinigt werden. Das beste Reinigungsergeb
 
 ### Finish?
 
-Mir persönlich gefällt das Finish von Mikrofaserpads nicht. Bei den Cutting-Pads erwarte ich hohe Abtragsleistung und gehe davon aus, dass ich noch mit einer Hochglabzpolitur den Mikrofaserpad-typischen Grauschleier runterpolieren muss. Hier ein Beispiel für den Grauschleier (auf der linken Seite wurde dieser schon mit Schaumstoffpad + Hochglabzpolitur entfernt):
+Mir persönlich gefällt das Finish von Mikrofaserpads nicht. Bei den Cutting-Pads erwarte ich hohe Abtragsleistung und gehe davon aus, dass ich noch mit einer Hochglanzpolitur den Mikrofaserpad-typischen Grauschleier runterpolieren muss. Hier ein Beispiel für den Grauschleier (auf der linken Seite wurde dieser schon mit Schaumstoffpad + Hochglabzpolitur entfernt):
 
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/audi-a1-schwarz/DSC01303.jpg)
 

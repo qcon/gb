@@ -16,7 +16,7 @@ Durch die ständig steigenden Zugriffszahlen, steigen natürlich auch die Kosten
 
 Die interessantesten Zahlen im Überblick:
 
-- Zugriffe/Monat: **21.500**
+- Zugriffe/Monat: **22.500**
 - Traffic/Monat: **60 GB**
 - User: **8.000**
 - Anzahl aller Bilder: **7900**
