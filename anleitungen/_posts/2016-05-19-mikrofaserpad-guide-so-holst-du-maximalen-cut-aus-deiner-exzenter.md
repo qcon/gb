@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Polieren mit Mikrofaserpads in 4 Schritten'
-subtitle: 'So holst du das maximale aus deiner Exzentermaschine raus'
+subtitle: 'So holst du das Maximale aus deiner Exzentermaschine raus'
 author: 'Marvin'
 header_image: https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/guide_mf_pads/DSC01924.jpg
 ---
