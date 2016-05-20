@@ -201,7 +201,7 @@ table {
   flex-wrap: wrap;
   justify-content: space-between;
   transform: translate3d(0,0,0);
-
+  @include font(light);
   li {
     margin: 1em;
     align-self: center;
@@ -235,23 +235,23 @@ table {
     color: $blau;
     text-decoration: none;
 
-    .post--datum {
+    .post--datum, .post--category {
       color: $text-disabled;
       display: block;
-      @include font(light);
 
       @media #{$sm} {
         float: none;
       }
-width: auto;
+      width: auto;
       line-height: 2.5em;
-      margin-right: .8em;
+      //margin-right: .8em;
       transition: 120ms;
     }
-
+    .post--category {
+      float: right;
+    }
     .post--meta {
       color: $text;
-      @include font(light);
       padding: 0;
       margin-bottom: -1em;
       display: block;
@@ -324,7 +324,9 @@ background: #c7c7c7;
     }
   }
 }
-
+.page-description {
+  margin: 50px 0;
+}
 .post--content {
   @include font(normal);
   line-height: 1.8em;
