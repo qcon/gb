@@ -37,6 +37,7 @@ green '--> GZIP all html, json, js and css files'
 find _site/ -iname '*.html' -exec gzip -9 -n {} \; -exec mv {}.gz {} \;
 find _site/ -iname '*.json' -exec gzip -9 -n {} \; -exec mv {}.gz {} \;
 find _site/ -iname '*.js' -exec gzip -9 -n {} \; -exec mv {}.gz {} \;
+find _site/ -iname '*.js_' -exec gzip -9 -n {} \; -exec mv {}.gz {} \;
 find _site/ -iname '*.css' -exec gzip -9 -n {} \; -exec mv {}.gz {} \;
 red '<-- done'
 
