@@ -128,39 +128,59 @@
 
 
 
+  try {
+    var kategorieSeite = document.getElementById("kategorieSeite").getAttribute("data-cat");
+    switch (kategorieSeite) {
+      case 'allgemein':
+        router.parser("allgemein", 'Allgemein');
+        break;
+      case 'pflegeberichte':
+        router.parser("pflegeberichte", 'Pflegeberichte');
+        break;
+      case 'anleitungen':
+        router.parser("anleitungen", 'Anleitungen');
+        break;
+      case 'produkttests':
+        router.parser("produkttest", 'Produkttests');
+        break;
+      default:
+        break;
+    }
+  } catch (e) {
+    console.log(e);
+  }
 
-
-  if(w.location.pathname === '/allgemein/') router.parser("allgemein", 'Allgemein');
-  if(w.location.pathname === '/pflegeberichte/') router.parser("pflegeberichte", 'Pflegeberichte');
-  if(w.location.pathname === '/anleitungen/') router.parser("anleitungen", 'Anleitungen');
-  if(w.location.pathname === '/produkttest/') router.parser("produkttest", 'Produkttests');
+  // if(w.location.pathname === '/allgemein/') router.parser("allgemein", 'Allgemein');
+  // if(w.location.pathname === '/pflegeberichte/') router.parser("pflegeberichte", 'Pflegeberichte');
+  // if(w.location.pathname === '/anleitungen/') router.parser("anleitungen", 'Anleitungen');
+  // if(w.location.pathname === '/produkttest/') router.parser("produkttest", 'Produkttests');
   // router.add('allgemein', function() {
   //   router.parser("allgemein", 'Allgemein');
   // });
 
-  router.add('anleitung', function() {
-    router.parser("anleitungen", "Anleitungen");
-  });
-
-  router.add('pflegeberichte', function() {
-    router.parser("pflegeberichte", "Pflegeberichte");
-  });
+  // router.add('anleitung', function() {
+  //   router.parser("anleitungen", "Anleitungen");
+  // });
+  //
+  // router.add('pflegeberichte', function() {
+  //   router.parser("pflegeberichte", "Pflegeberichte");
+  // });
 
   // router.add('tipps-tricks', function() {
   //   router.parser("tipps-tricks", 'Tipps & Tricks');
   // });
 
-  router.add('produkttest', function() {
-    router.parser("produkttest", "Produkttests");
-  });
+  // router.add('produkttest', function() {
+  //   router.parser("produkttest", "Produkttests");
+  // });
 
   router.add('suche', function() {
     router.parser("suche");
   });
 
-  router.add('test', function() {
-    router.parser("test", "TESTSEITE!");
-  });
+  // router.add('test', function() {
+  //   router.parser("test", "TESTSEITE!");
+  // });
 
   router.add('alle', function() {
     router.parser("alle", 'Alle Beiträge');
