@@ -8,10 +8,11 @@
     headerStyle = $("#header-style"),
     cookiesAlert = $(".cookies-hinweis"),
     cookiesAcc = $("#cookies_acc"),
-    slideMenuToggle = $("#slidemenutoggle"),
+    mainNav = $("#mainnav"),
     hashHrefs = $(".menucontent a.closeSlideMenuOnClick"),
     fullPage = $("#fullpage"),
     slideMenu = $(".slidemenu"),
+    slideMenuToggle = $("#slidemenutoggle"),
     slideMenuContent = $(".menucontent");
 
 
@@ -26,10 +27,15 @@
     e.preventDefault();
     closeSlideMenu();
   }
+  var ABMenu = Math.round(Math.random(1));
+  if(ABMenu === 1) {
+    slideMenuToggle.addClass("shake-anim")
+    console.log('A/B-Test Group 1 (Menu with shake-anim)')
+  }
 
   closeSlideMenu();
-  slideMenuToggle.on("click", function() {
-    ga("send", "event", "Navigation", "click", "Burger Menu")
+  mainNav.on("click", function() {
+    ga("send", "event", "Navigation", "click", "Burger Menu-" + ABMenu)
     if (slideMenu[0].classList.contains("menuOut")) {
       fullPage.on("click", closeSlideMenuFullPage);
       hashHrefs.on("click", closeSlideMenu);
@@ -160,8 +166,22 @@
   var addEvents = function() {
     // Scotty, beam me up
     scrollTop.on("click", function() {
-      slideMenuToggle.scrollTo();
+      mainNav.scrollTo();
     });
+
+    // APP CACHE
+    function onAppUpdate() {
+      console.log("New App Version Found!")
+    }
+    try {
+      w.applicationCache.addEventListener('updateready', onAppUpdate)
+      if(w.applicationCache.status === window.applicationCache.UPDATEReADY) {
+        onAppUpdate()
+      }
+    } catch (e) {
+      console.log(e)
+    }
+
 
     // just load Disqus Comments, when the user wants to
     // PEEERRRFFRFRF

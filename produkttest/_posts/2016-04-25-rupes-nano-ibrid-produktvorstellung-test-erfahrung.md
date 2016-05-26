@@ -8,7 +8,7 @@ header_image: https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/tests/
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/tests/rupes_nano/0001.jpg)
 
 
-#Rupes BigFoot Nano iBrid
+# Rupes BigFoot Nano iBrid
 
 Auf der wohl größten US-Messe für Automobilzubehör, der **SEMA**, präsentierte RUPES im November 2015 die **RUPES BigFoot Nano mit iBrid Technologie**. Auf dem Messestand und im aktuellen Marketing ist die Rede von einer **weiteren REVOLUTION der Detailing-Branche** nach der vor 4 Jahren vorgestellten und laut Rupes revolutionären Rupes BigFoot-Serie (LHR15 & LHR21).   
 Superlativen, Lobpreisungen, Weltneuheiten und haste nicht gesehen, da haut wer ziemlich auf die Kacke - und das bei einer elektrischen Zahnbürste für Elefanten? Zu recht?   
@@ -44,7 +44,8 @@ Leider fehlen dem aktuellen Set ein paar Bürsten mit denen die **Nano** eigentl
 
 
 
-###Ausgepackt, oder neu-deutsch: "**Unboxing**"   
+### Ausgepackt, oder neu-deutsch: "**Unboxing**"
+
 Dank **Björn** von [LUPUS Autopflege](https://www.lupus-autopflege.de) konnte ich meine Vorbestellung bereits in Empfang nehmen, mit Seriennummer im unteren 20iger Bereich - wow, ein Beta-Tester quasi. Eigentlich war der Verkaufsbeginn zum Jahresanfang geplant, Pläne und die Realität...   
 Wie man unschwer erkennen kann fiel meine Wahl auf die kurze Version der Nano, auch "**Shortneck**" genannt. Die "**Longneck**" ist zwischen Getriebekopf und dem schwarzen Rumpf um **5cm** verlängert, um Kundenvorlieben gerecht zu werden.
 
@@ -120,7 +121,7 @@ Und ein gedämpfter 30mm Teller für die klebbaren Schleifblüten mit 35mm Durch
 Garantiebedingungen und 3 Bedienungsanleitungen mit Pflegehinweisen und Co.   
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/tests/rupes_nano/0017.jpg)
 
-###Genug zum Inhalt, kommen wir zur BigFoot Nano.   
+### Genug zum Inhalt, kommen wir zur BigFoot Nano.   
 Das stufenlose Drehzahlwählrad ist gleichzeitig der Hauptschalter (OFF). Drehzahltechnisch bringt die Maschine 2000-5000 U/min, Geschwindigkeit statt Drehmoment.   
 Der an die Druckluftwerkzeuge erinnernde Bügel kann nur digital, es ist keine Drehzahlregulierung möglich.   
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/tests/rupes_nano/0018.jpg)
@@ -144,7 +145,7 @@ Der Getriebekopf ist um 97 Grad abgewinkelt, also 7 Grad mehr als die Lotrechte,
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/tests/rupes_nano/0024.jpg)
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/tests/rupes_nano/0025.jpg)
 
-##Aufbaumöglichkeiten   
+## Aufbaumöglichkeiten   
 Sämtliche Anbauteile lassen sich **nur mittels Adapter** an die Nano schrauben, so kommen wir bei den Bürsten auf etwa 10cm Höhe bis zum Getriebekopf.   
 Die Schutzabdeckung nutze ich eigentlich nur im Exzenter-Modus und wenn es eng wird, ist beim Umrüsten einfacher.   
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/tests/rupes_nano/0026.jpg)
@@ -201,7 +202,7 @@ Im Akkubetrieb kann man sie aufrecht hinstellen, je nach Untergrund kippelts ...
 
 
 
-##Größenvergleich
+## Größenvergleich
 Größe ist nicht alles, oder etwa doch?   
 Die mitgelieferten Pads sind klasse, insbesondere die kleinen 40mm Pads.   
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/tests/rupes_nano/0050.jpg)
@@ -217,8 +218,8 @@ Rechts die niedrigbauende **Flex 14-2 150** mit 75mm und 120mm Stützteller, sam
 
 
 Zierlich oder? Und ideal für enge Stellen...
-   
-##Anwendungsbeispiele   
+
+## Anwendungsbeispiele   
 
 Türrahmen   
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/tests/rupes_nano/0055.jpg)
@@ -272,7 +273,7 @@ Eine Mattlack-Politur ists folglich nicht...
 
 
 
-##Kritikpunkte
+## Kritikpunkte
 Ich hab leider noch nicht sonderlich viel mit der Nano gearbeitet, aber ein paar Dinge empfinde ich als weniger gut gelungen.   
 
 - Durchmesser der Verschraubung, es ist nicht möglich Pads und Bürsten direkt an die Maschine zu schrauben.   
@@ -302,9 +303,9 @@ Desweiteren sind aktuell keine Pads und weiteres Zubehör in den Shops erhältli
 
 
 
-##Finaler Abschnitt: Produktverbesserungen
+## Finaler Abschnitt: Produktverbesserungen
 
-###Der glossboss-Mod
+### Der glossboss-Mod
 
 Bei Felgen und engeren Stellen ist es immer möglich *versehentlich* mit dem Getriebekopf anzuecken, um dies zu umgehen habe ich mir vorsorglich einfach etwas **selbstklebenden Filz** *(zB für Folien-Rakel)* besorgt und angebracht.   
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/tests/rupes_nano/0071.jpg)
