@@ -15,7 +15,7 @@
 }
 
 #fullpage {
-  transition: opacity 250ms ease-in, transform $transition_sidebar;
+  transition: opacity 0.3s cubic-bezier(0,0,0.3,1), $transition_sidebar;
 }
 
 

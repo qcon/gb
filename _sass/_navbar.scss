@@ -58,14 +58,15 @@
 }
 .slidemenu {
   display: block;
-  width: 235px;
+  width: 80%;
+  max-width: 320px;
   height: 100%;
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   z-index: 3;
   background: $gray;
-  transform: translateX(-250px);
+  transform: translateX(-102%);
   transition: $transition_sidebar;
   box-shadow: 0 1px 6px 1px rgba(black, .3);
   overflow: hidden;
