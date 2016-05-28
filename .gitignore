@@ -12,3 +12,4 @@ info/
 branches/
 config
 .htaccess
+.DS_Store

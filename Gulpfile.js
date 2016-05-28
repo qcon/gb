@@ -5,6 +5,7 @@ var uglify = require('gulp-uglify');
 var concat = require("gulp-concat");
 var jekyll = require("gulp-jekyll");
 var cp = require("child_process");
+var exec = require("child_process").exec;
 var browserSync = require("browser-sync");
 var notify = require("gulp-notify");
 var rename = require("gulp-rename");
@@ -12,6 +13,7 @@ var critical = require('critical');
 var coffee = require('gulp-coffee');
 var include = require('gulp-include');
 var gutil = require('gulp-util')
+var mqpacker = require("css-mqpacker")
 
 
 var msg = {
@@ -39,10 +41,10 @@ gulp.task('sass', function() {
     .pipe(sass({
       outputStyle: 'compressed'
     }).on('error', sass.logError))
-    .pipe(gulp.dest('./dist/'))
     .pipe(autoprefixer())
+    .pipe(gulp.dest('./dist/'))
     .pipe(rename("layout.css"))
-    .pipe(gulp.dest("./dist/"));
+    .pipe(gulp.dest("./dist/"))
 });
 gulp.task('coffee', ['compile_coffee'], function() {
   return gulp.src(['./dist/global.js', './dist/search.js'])
