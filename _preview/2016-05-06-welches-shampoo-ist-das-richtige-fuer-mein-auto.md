@@ -5,7 +5,7 @@ subtitle: 'Wachshaltig vs. Versiegelungsanteilig vs. Neutral'
 author: 'Chris'
 header_image: https://glossbossimages.s3.eu-central-1.amazonaws.com/criz/shampoo/DSC_0003.jpg
 ---
-#Welches Shampoo ist das richtige für mein Auto?
+# Welches Shampoo ist das richtige für mein Auto?
 
 ## wachshaltig vs. versiegelungsanteilig vs. neutral
 

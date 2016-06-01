@@ -3,7 +3,8 @@ layout: post
 title: '2 Jahre Glossboss'
 subtitle: 'Es wird!'
 author: 'Marvin'
-header_image: URL
+#header_image: URL
+randomHeader: true
 ---
 Glossbosse,
 
@@ -57,6 +58,4 @@ Viele von euch sind mittlerweile zu Stammbesuchern geworden. Wir werden weiterhi
 - Mark N.
 - Johannes L.
 
-
-
-Wir errinern uns. Der erste Bericht am 23.06.2014
+# DANKE!

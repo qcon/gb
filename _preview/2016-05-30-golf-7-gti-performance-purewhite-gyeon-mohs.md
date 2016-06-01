@@ -15,7 +15,12 @@ Die Motorhaube, Spiegel und das Dach war foliert, das steht dem GTI mal so gar n
 
 Viel Spaß beim lesen!
 
-So wurde das Fahrzeug übergeben:![](https://glossbossimages.s3.eu-central-1.amazonaws.com/boerge/g7gti/0001.jpg)![](https://glossbossimages.s3.eu-central-1.amazonaws.com/boerge/g7gti/0002.jpg)![](https://glossbossimages.s3.eu-central-1.amazonaws.com/boerge/g7gti/0003.jpg)![](https://glossbossimages.s3.eu-central-1.amazonaws.com/boerge/g7gti/0004.jpg)![](https://glossbossimages.s3.eu-central-1.amazonaws.com/boerge/g7gti/0005.jpg)
+So wurde das Fahrzeug übergeben:
+![](https://glossbossimages.s3.eu-central-1.amazonaws.com/boerge/g7gti/0001.jpg)
+![](https://glossbossimages.s3.eu-central-1.amazonaws.com/boerge/g7gti/0002.jpg)
+![](https://glossbossimages.s3.eu-central-1.amazonaws.com/boerge/g7gti/0003.jpg)
+![](https://glossbossimages.s3.eu-central-1.amazonaws.com/boerge/g7gti/0004.jpg)
+![](https://glossbossimages.s3.eu-central-1.amazonaws.com/boerge/g7gti/0005.jpg)
 
 Leichter Straßendreck am unteren Teil des Fahrzeuges, Fliegenreste an der Front und etwas Bremsstaub an den Felgen, gepaart mit leichten Dreckspritzern in den Einstiegen- das werden wir nun ändern!
 
@@ -25,7 +30,7 @@ Wie immer werden als Erstes die Felgen behandelt. Schön satt mit dem Felgenrein
 
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/boerge/g7gti/0007.jpg)
 
-Die EZ Felgenbürste hilft uns dabei auch das Felgenbett zu reinigen und hinter die zahlreichen Speichen zu kommen.
+Die EZ Felgenbürste hilft dabei auch das Felgenbett zu reinigen und hinter die zahlreichen Speichen zu kommen.
 
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/boerge/g7gti/0008.jpg)
 
@@ -34,15 +39,13 @@ Mit dem Auto Finesse Hog Hair Pinsel (kennzeichnet bitte Eure Pinsel/Bürsten, w
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/boerge/g7gti/0009.jpg)
 
 All Purpose Cleaner in einer stärkeren Mischung kann mit einer Bürste aufgeschäumt werden und ideal zur Säuberung der Reifenflanke benutzt werden.
+
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/boerge/g7gti/0011.jpg)
 
 Die Reiniger können auf der kalten Felge/Reifenflanke noch etwas einwirken. In der Zwischenzeit wird das Radhaus mit dem Gyeon Snow Foam eingeschäumt.
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/boerge/g7gti/0012.jpg)
-
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/boerge/g7gti/0001_1.jpg)
-
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/boerge/g7gti/0013.jpg)
-
 
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/boerge/g7gti/0010.jpg)
 
@@ -106,7 +109,7 @@ Dreckränder unter der Folie..
 
 Nachdem die Folie abgezogen, der Dreck an den Spiegeln mit Q-Tip und Kontrollreiniger entfernt wurde, habe ich den Lack geknetet und den Lack gemessen. Rundrum war die Lackstärke von ca. **135 müh ein top Wert!**
 
-**Ordentliches abkleben ist das A und O um Verunreinigungen oder Defekte an Kunstoffen und Gummis zu vermeiden!**
+**Ordentliches Abkleben ist das A und O um Verunreinigungen oder Defekte an Kunstoffen und Gummis zu vermeiden!**
 
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/boerge/g7gti/0031.jpg)
 
@@ -120,7 +123,7 @@ Bevor die Polierarbeiten starten konnten, hier einmal die Lackdefekte. Nicht seh
 
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/boerge/g7gti/0041.jpg)
 
-An der Fahrerseite, sowie am Heck gab es tiefe Lackabplatzer bis auf die Grundierung, da hilft normalerweise nur der Lackierer, **_normalerweise!&nbsp;_**
+An der Fahrerseite, sowie am Heck gab es tiefe Lackabplatzer bis auf die Grundierung, da hilft normalerweise nur der Lackierer, **_normalerweise!_**
 
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/boerge/g7gti/0042.jpg)
 
@@ -144,7 +147,7 @@ Steigen wir direkt mit ein paar 50/50 von der Polierrarbeit ein. Auf Weiß eigen
 
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/boerge/g7gti/0038.jpg)![](https://glossbossimages.s3.eu-central-1.amazonaws.com/boerge/g7gti/0049.jpg)
 
-Auf der Motorhaube, welche durch die zuvor entfernte Folie geschützt wurde und an den Klavierlackleisten reichte noch eine milde Politur.
+Auf der Motorhaube, welche durch die zuvor entfernte Folie geschützt wurde, dem Dach und an den Klavierlackleisten reichte noch eine milde Politur.
 
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/boerge/g7gti/0043.jpg)
 
@@ -158,15 +161,17 @@ Auf der Motorhaube, welche durch die zuvor entfernte Folie geschützt wurde und 
 
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/boerge/g7gti/0053.jpg)
 
-Am restlichen Fahrzeug wurde dann mit Mikrofaserpads ( [wie Poliere ich mit Mikrofaserpads](https://glossboss.de/anleitungen/mikrofaserpad-guide-so-holst-du-maximalen-cut-aus-deiner-exzenter/) ) und zum Finish mit der #205er gearbeitet. Defektkorrektur und Glanz passen!&nbsp;
+Am restlichen Fahrzeug wurde dann mit Mikrofaserpads ([wie Poliere ich mit Mikrofaserpads](https://glossboss.de/anleitungen/mikrofaserpad-guide-so-holst-du-maximalen-cut-aus-deiner-exzenter/)) und zum Finish mit der #205er gearbeitet. Defektkorrektur und Glanz passen!&nbsp;
 
-![](https://glossbossimages.s3.eu-central-1.amazonaws.com/boerge/g7gti/0047.jpg)Das folierte Dach erfreute sich über eine nicht zu verachtende Farbauffrischung.
+![](https://glossbossimages.s3.eu-central-1.amazonaws.com/boerge/g7gti/0047.jpg)
+
+Das folierte Dach erfreute sich über eine nicht zu verachtende Farbauffrischung.
 
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/boerge/g7gti/0046.jpg)
 
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/boerge/g7gti/0048.jpg)
 
-Die Polierpads wurden natürlich nach der [Ronny Methode](https://glossboss.de/anleitungen/polierpads-reinigen/)&nbsp;ausgewaschen und zum trocknen gelegt.
+Die Polierpads wurden natürlich nach der [Ronny Methode](https://glossboss.de/anleitungen/polierpads-reinigen/) ausgewaschen und zum Trocknen gelegt.
 
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/boerge/g7gti/0056.jpg)
 
@@ -186,11 +191,11 @@ Der Lack sollte für 2 Jahre durch das Gyeon MOHS+ geschützt werden. Im Abstand
 
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/boerge/g7gti/0061.jpg)
 
-Die Felgen sollten ebenfalls versiegelt werden, daher wurden diese auch noch einmal mit dem Gyeon Prep entfettet.
+**Die Felgen sollten ebenfalls versiegelt werden, daher wurden diese auch noch einmal mit dem Gyeon Prep entfettet.**
 
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/boerge/g7gti/0062.jpg)
 
-Auftrag des Gyeon Rim mit Hilfe von Kosmetikpads.
+Auftrag des **Gyeon Rim** mit Hilfe von Kosmetikpads.
 
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/boerge/g7gti/0063.jpg)
 
@@ -200,15 +205,13 @@ Auftrag des Gyeon Rim mit Hilfe von Kosmetikpads.
 
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/boerge/g7gti/0066.jpg)
 
-**_Der Lack muss nun mindestens 12 stunden aushärten._**&nbsp;
-
-In der Zwischenzeit wurden die Kunststoffe mit dem Plaststar eingelassen, die Endrohre mit der Menzerna Polish Creme gereinigt, die Reifen mit dem Gyeon Tire gepflegt und der gesamte Innenraum mit Dash Away gereinigt.
+**_Der Lack muss nun mindestens 12 Stunden aushärten._** In der Zwischenzeit wurden die Kunststoffe mit dem Plaststar eingelassen, die Endrohre mit der Menzerna Polish Creme gereinigt, die Reifen mit dem Gyeon Tire gepflegt und der gesamte Innenraum mit Dash Away gereinigt.
 
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/boerge/g7gti/0067.jpg)
 
-Das Gyeon Cure schützt den frisch versiegelten Lack für die nächsten Tage, bis die Versiegelung zu 100% ausgehärtet ist.
+**Das Gyeon Cure schützt den frisch versiegelten Lack für die nächsten Tage, bis die Versiegelung zu 100% ausgehärtet ist.**
 
-### **Finish:**
+### Finish:
 
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/boerge/g7gti/0086.jpg)
 
@@ -247,6 +250,7 @@ Das Gyeon Cure schützt den frisch versiegelten Lack für die nächsten Tage, bi
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/boerge/g7gti/0084.jpg)
 
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/boerge/g7gti/0085.jpg)
+
 
 {% include video.html videoURL="https://www.youtube.com/embed/Lx_Hq1jv1ps" %}
 
