@@ -50,7 +50,7 @@ Anschließend folgte das Thema Kneten. Das Thema war für einige Neuland und noc
 
 Nach dem Kneten folgte eine kurze Einweisung in das Abkleben der Kunstsoffteile und dann ging auch schon der theoretische Teil zum Thema Polieren los. Am heutigen Tag lag das Augenmerk auf der Exzentermaschine, da viele noch keine Erfahrung mit der Poliermaschine hatten. Es wurden am Beispiel der guten alten DAS6 verschiedene Pad und Politurkombinationen erläutert. Testspot, wann welches Pad mit welcher Politur, wie lange muss man die Politur fahren, wie schnell, ….. Fragen über Fragen. Neben den Schaumstoffpads kamen auch die Meguiars Microfaserpads mit der entsprechenden D300 Politur zum Einsatz. Gerade mit dem Hinblick auf die harten VAG Lacke sicherlich eine gute Kombination für Starter. Eine ausführlichen Bericht zu dem Thema hat Marvin hier geschrieben:
 
-**https://glossboss.de/anleitungen/mikrofaserpad-guide-so-holst-du-maximalen-cut-aus-deiner-exzenter/**
+[https://glossboss.de/anleitungen/mikrofaserpad-guide-so-holst-du-maximalen-cut-aus-deiner-exzenter/](https://glossboss.de/anleitungen/mikrofaserpad-guide-so-holst-du-maximalen-cut-aus-deiner-exzenter/)
 
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/alex/RuhrgebieTTWorkshop/WorkshopRuhrgebieTT11.jpg)
 
