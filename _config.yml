@@ -23,7 +23,7 @@ include:
 - dist
 - images
 - was-wird-gespeichert
-markdown: kramdown
+markdown: redcarpet
 permalink: "/:categories/:title/"
 version: 18
 postversion: 59
