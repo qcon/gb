@@ -147,35 +147,6 @@ table {
 // 	@extend .wichtige-info;
 // 	border-left: $blau 2px solid;
 // }
-.loadmore {
-  display: block;
-  //border-radius: 5px;
-  transition: .15s cubic-bezier(.55,0,.1,1);
-  //width:100%;
-  cursor: pointer;
-  background: HSL(300,5%,95%);
-  text-align: center;
-  padding: 1em;
-  margin: 3em 1em;
-  color: $text;
-  @include font(light);
-
-  &:hover {
-    background: HSL(300,5%,93%);
-  }
-
-  svg {
-    margin: 0 auto;
-    display: block;
-    fill: $text;
-    width: 46px;
-    height: 46px;
-  }
-
-  @media #{$sm} {
-    margin: 0;
-  }
-}
 
 #post--list__container {
   transition: .15s;
@@ -350,7 +321,7 @@ background: #c7c7c7;
   h5,
   h6 {
     padding: 1em 0 .5em;
-
+    letter-spacing: 2px;
     small {
       @include font(light);
     }

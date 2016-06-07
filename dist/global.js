@@ -146,6 +146,16 @@
 (function globalFunctions(w,d) {
 	"use strict";
 	var DIV = d.createElement("div");
+  var isScrolling = false;
+  var delayFunction = function (time, cb) {
+    if(isScrolling) return;
+    isScrolling = true;
+    setTimeout(function() {
+      cb();
+      isScrolling = false;
+    }, time);
+
+  }
 	var appendModal = function(text, time, type) {
 		type = type || "success";
 		var modalWrap = $('.wrap-modal')[0];
@@ -251,6 +261,7 @@
 	w.appendModal = appendModal;
 	w.DIV = DIV;
 	w.getCurDate = getCurDate;
+	w.delayFunction = delayFunction;
 })(window, document);
 (function mischungsrechner(w, d) {
 	var part1 = $("#mischungInput1")[0]
@@ -560,22 +571,13 @@
           return this;
         }
       }
-      try {
-        if($("#indexContainer") && !hash && ItseMeIndex) {
-          this.parser("index", "Die neuesten Beiträge", true);
-        }
-      } catch(up) {
-        console.log("i dont care: " + up);
-      }
-
     },
     getPosts: function(data, hash, isIndex) {
-      // var post = data;
       var showDelayTime = 0;
       numCat = 0;
       postDB = [];
       data.filter(function(post) {
-        return (post.category.toLowerCase() === hash || isIndex || hash === "alle");
+        return (post.category.toLowerCase() === hash || hash === "alle");
       }).map(function(post) {
         if(numCat < maxIndex) {
           var cacheHTML = $(".post--list").html();
@@ -590,35 +592,38 @@
       postContainer.removeClass("opacity-0");
 
       loader(0);
-      ($(".post--list li").length < maxIndex || postDB.length <= maxIndex)
-        ?
+      var allowFetch = false;
+      if ($(".post--list li").length < maxIndex || postDB.length <= maxIndex) {
         loadmoreButton.style("display", "none")
-        :
+        allowFetch = false;
+      } else {
         loadmoreButton.style("display", "block");
-
-      loadmoreButton[0].onclick = function(e) {
+        allowFetch = true;
+      }
+      loadmoreButton[0].addEventListener('click', function() {
+        if(allowFetch) loadMorePosts()
+      })
+      function loadMorePosts() {
         postListLI = $(".post--list li");
         if(isIndex && location.hash != "alle") {
           location.hash = "alle";
         }
         var showDelayTime = 0;
-
-
         for (var i = 0; i < maxReload; i++) {
           $(".post--list")[0].innerHTML += postDB[numCat];
-          //$(".post--list li")[numCat].classList.add('displayNone');
           showDelayTime += 100;
           showDelay(numCat, showDelayTime);
           numCat++;
-
+          var remainingPosts = postDB.length - $(".post--list li").length;
+          $(".remaining-posts").text(remainingPosts)
           if(!postDB[numCat]) {
             loadmoreButton.style("display", "none");
+            allowFetch = false;
             return;
           }
         }
         return;
       }
-
     },
     parser: function(hash, title, isIndex) {
       $("#toggleMenu")[0].checked = false;
@@ -652,15 +657,12 @@
     }
   };
 
-
-
-
-
-
-
   try {
     var kategorieSeite = document.getElementById("kategorieSeite").getAttribute("data-cat");
     switch (kategorieSeite) {
+      case 'alle':
+        router.parser('alle', 'Alle Beuträge');
+        break;
       case 'allgemein':
         router.parser("allgemein", 'Allgemein');
         break;
@@ -677,48 +679,17 @@
         break;
     }
   } catch (e) {
-    console.log(e);
+
+  }
+  try {
+    var searchWrapper = document.getElementById('searchWrapper')
+    if(searchWrapper) {
+      return router.parser('suche')
+    }
+  } catch(e) {
+    return
   }
 
-  // if(w.location.pathname === '/allgemein/') router.parser("allgemein", 'Allgemein');
-  // if(w.location.pathname === '/pflegeberichte/') router.parser("pflegeberichte", 'Pflegeberichte');
-  // if(w.location.pathname === '/anleitungen/') router.parser("anleitungen", 'Anleitungen');
-  // if(w.location.pathname === '/produkttest/') router.parser("produkttest", 'Produkttests');
-  // router.add('allgemein', function() {
-  //   router.parser("allgemein", 'Allgemein');
-  // });
-
-  // router.add('anleitung', function() {
-  //   router.parser("anleitungen", "Anleitungen");
-  // });
-  //
-  // router.add('pflegeberichte', function() {
-  //   router.parser("pflegeberichte", "Pflegeberichte");
-  // });
-
-  // router.add('tipps-tricks', function() {
-  //   router.parser("tipps-tricks", 'Tipps & Tricks');
-  // });
-
-  // router.add('produkttest', function() {
-  //   router.parser("produkttest", "Produkttests");
-  // });
-
-  router.add('suche', function() {
-    router.parser("suche");
-  });
-
-  // router.add('test', function() {
-  //   router.parser("test", "TESTSEITE!");
-  // });
-
-  router.add('alle', function() {
-    router.parser("alle", 'Alle Beiträge');
-    setTimeout(function() {
-      $("#loadmoreajax").scrollTo();
-      $("#loadmoreajax")[0].click();
-    },50);
-  });
 
   w.router = router;
 
@@ -732,114 +703,3 @@
 
 
 })(window, document);
-
-// (function kontaktForm(w, d) {
-// 	var send = $("#SENDEN")
-// 	, kontaktMessage = $("#form_msg")
-// 	, kName = $("#name")
-// 	, kMail = $("#xyz")
-// 	, kMessage = $("#msg")
-// 	, selectBoss = $(".selectGlossboss input[name=glossboss]")
-// 	, selectedBoss = {}
-// 	, kInputs = $("#kontakt_inputs")
-// 	, api = "R61bXP70NEnJXC2c__cvgg";
-//
-//
-// 	// Private Function
-// 	function kValidate (el, mail) {
-// 		if(el.value() === "") {
-// 			send.style("visibility", "");
-// 			el.addClass("form__error");
-// 			loader(0);
-// 			appendModal("Unvollständige Angabe: " + el[0].placeholder, 3000, "error");
-// 			return false;
-// 		} else {
-// 			if(mail) {
-// 				var mailtest = /\S+@\S+\.\S+/
-// 				if(!mailtest.test(el.value())) {
-// 					kMail.addClass("form__error");
-// 					appendModal("eMail Adresse ungültig!", 2000, "error");
-// 					send.style("visibility", "");
-// 					loader(0);
-// 					return false;
-// 				}
-// 			}
-// 			return true;
-// 		}
-// 	}
-// 	function kReset() {
-// 		kName.removeClass("form__error");
-// 		kMail.removeClass("form__error");
-// 		kMessage.removeClass("form__error");
-// 		send.style("visibility", "hidden");
-// 		loader(1);
-// 	}
-// 	function kSelectBoss() {
-// 		// allow input
-// 		kInputs.style("opacity", "1");
-// 		send.enable();
-// 		send.removeClass("cursor-not-allowed");
-//
-// 		selectedBoss.Mail = $(".selectGlossboss input[name=glossboss]:checked").value();
-// 		selectedBoss.Name = $(".selectGlossboss input[name=glossboss]:checked")[0].getAttribute("data-boss");
-// 	}
-// 	function kInit() {
-// 		kInputs.style("opacity", ".3");
-// 		send.disable();
-// 		send.addClass("cursor-not-allowed");
-// 		addEvents();
-// 	}
-// 	function kSubmit() {
-// 		kReset();
-// 		var valName = kValidate(kName)
-// 		, valMail = kValidate(kMail, true)
-// 		, valMessage = kValidate(kMessage);
-// 		if(valName && valMail && valMessage) {
-// 			var mailData = {
-// 				"key": api,
-// 				"message": {
-// 					"text": kMessage.value(),
-// 					"subject": "GLOSSBOSS Kontaktanfrage",
-// 					"from_email": kMail.value(),
-// 					"from_name": kName.value(),
-// 					"to": [
-// 					{
-// 						"email": selectedBoss.Mail,
-// 						"name": selectedBoss.Name,
-// 						"type": "to"
-// 					}
-// 					],
-// 					"bcc_address": "ntwcklng@gmail.com",
-// 					"headers": {
-// 						"Reply-To": kMail.value()
-// 					}
-// 				},
-// 				"async": false,
-// 				"ip_pool": "Main Pool"
-// 			};
-// 			ajax({
-// 				method: "POST",
-// 				url: "https://mandrillapp.com/api/1.0/messages/send.json",
-// 				data: mailData,
-// 				useJSON: true,
-// 				success: function(d) {
-// 					loader(1);
-// 					if(d[0].status === "sent") {
-// 						send.style("visibility", "hidden");
-// 						loader(0);
-// 						appendModal("Danke für deine eMail! Wir werden so schnell wie möglich darauf antworten.", 4500);
-// 					}
-// 				}
-// 			});
-// 		}
-// 	}
-// 	function addEvents() {
-// 		send.on("click", function(e){
-// 			e.preventDefault();
-// 			kSubmit();
-// 		}, false);
-// 		selectBoss.on("change", kSelectBoss);
-// 	}
-//
-// 	kInit();
-// })(window, document);

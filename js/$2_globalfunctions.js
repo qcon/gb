@@ -1,6 +1,16 @@
 (function globalFunctions(w,d) {
 	"use strict";
 	var DIV = d.createElement("div");
+  var isScrolling = false;
+  var delayFunction = function (time, cb) {
+    if(isScrolling) return;
+    isScrolling = true;
+    setTimeout(function() {
+      cb();
+      isScrolling = false;
+    }, time);
+
+  }
 	var appendModal = function(text, time, type) {
 		type = type || "success";
 		var modalWrap = $('.wrap-modal')[0];
@@ -106,4 +116,5 @@
 	w.appendModal = appendModal;
 	w.DIV = DIV;
 	w.getCurDate = getCurDate;
+	w.delayFunction = delayFunction;
 })(window, document);

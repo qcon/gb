@@ -7,9 +7,13 @@ url: https://glossboss.de
 max_index_posts: 15
 exclude:
 - ".htaccess"
+- Gemfile
+- Gemfile.lock
 - _sass
 - node_modules
 - Gruntfile.js
+- gulpfile.babel.js
+- .babel.rc
 - package.json
 - js
 - css
@@ -25,7 +29,7 @@ include:
 - was-wird-gespeichert
 markdown: redcarpet
 permalink: "/:categories/:title/"
-version: 18
+version: 20
 postversion: 59
 headimggradient: linear-gradient(HSLA(197, 100%, 49%,.6),HSLA(197, 100%, 49%,1))
 collections:

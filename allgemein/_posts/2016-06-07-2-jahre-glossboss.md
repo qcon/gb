@@ -1,9 +1,8 @@
 ---
 layout: post
 title: '2 Jahre Glossboss'
-subtitle: 'Es wird!'
+subtitle: 'Was bisher geschah...'
 author: 'Marvin'
-#header_image: URL
 randomHeader: true
 ---
 Glossbosse,
@@ -22,13 +21,15 @@ Die interessantesten Zahlen im Überblick:
 - User: **8.000**
 - Anzahl aller Bilder: **7900**
 
+Passend zum 2-Jährigen Jubiläum erreichte unsere Facebookseite **1000** Likes!
+
 Der mit Abstand erfolgreichste Beitrag war [Höher, schneller, weiter - Aber wo bleiben die Emotionen](https://glossboss.de/allgemein/coatings-und-versiegelung-gegen-wachs/). Allein in der ersten Woche nach Veröffentlichung, wurde dieser über 2300 mal angeklickt. Mittlerweile nähert er sich der 10.000er marke. Das war ein Thema, was mich schon länger beschäftigte. Und wie sich nach der Veröffentlichung zeigte, beschäftigte es auch unzählige andere Autopfleger, die sich telefonisch, via eMail & Facebook und persönlich für den Beitrag "bedankten" und ihr Fahrzeug zur nächsten Saison wieder mit einem Wachs schützen wollen. Eine tolle Bestätigung für eine funktionierende Community!
 
 Stolz können wir auch auf unsere App sein - das hat sonst niemand. Der Mischungsrechner ist im App Store, Google PlayStore und über die Website verfügbar und hilft dir dabei das korrekte Mischungsverhältnis für deine Autopflegeprodukte einzuhalten. Wer kann schon das Verhältnis 1:12 für eine 473ml Flasche im Kopf rechnen?
 
 2 Glossbosse feierten dieses Jahr Debüt und veröffentlichten ihren ersten Beitrag - vielen Dank an Frederic und Börge!
 
-Wir waren aber auch hinter den Kulissen tätig. Bewusst so, dass es niemand mitkriegt - hauptsächlich damit es nicht nach Sponsoring aussieht. Wir haben einen neuen Hersteller intensiv bei der Entwicklung neuer Mikrofasertücher unterstützt. Viel getestet und viel Feedback gegeben, welches auch **Umgesetzt wurde** (Tipp für ein Start-Up aus Mannheim: so geht man mit profesionellen Meinungen um). Das fertige Produkt wurde dann käuflich erworben - auch bei solchen Situationen bleiben wir uns treu.
+Wir waren aber auch hinter den Kulissen tätig. Bewusst so, dass es niemand mitkriegt und die Neid-User uns wieder Sponsoring vorwerfen... Wir haben einen neuen Hersteller intensiv bei der Entwicklung neuer Mikrofasertücher unterstützt. Viel getestet und viel Feedback gegeben, welches auch **Umgesetzt wurde** (Tipp für ein Start-Up aus Mannheim: so geht man mit profesionellen Meinungen um). Das fertige Produkt wurde dann käuflich von uns erworben - auch bei solchen Situationen bleiben wir uns treu.
 
 
 # Dankeschön

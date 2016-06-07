@@ -1,0 +1,88 @@
+html {
+  box-sizing: border-box;
+  color: $text;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  overflow-x: hidden;
+  width: 100%;
+  max-width: 100%;
+  font-family: "Lato", sans-serif;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+@media print {
+  .header__extend,
+  .overlay,
+  .post--sharing,
+   {
+    display: none;
+  }
+
+  .post--prev-next,
+  #disqus_thread,
+  footer {
+    display: none;
+  }
+
+  .post--title {
+    a,
+    h1 {
+      color: black;
+      color: $text;
+      text-shadow: 0;
+      text-shadow: none;
+    }
+  }
+}
+#loading {
+  //  margin:2em auto;
+  // text-align:center;
+  // display:none;
+  // @include font(light);
+  // font-size:1.5em;
+  display: none;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 1.5em;
+  position: fixed;
+  top: 0;
+  padding: 50vh 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  background-color: rgba(255,255,255,.85);
+}
+
+.spinner {
+  margin: 2em auto;
+  text-align: center;
+  width: 45px;
+  height: 45px;
+  border-top: 2px solid $blau;
+  border-bottom: 2px solid $blau;
+  border-right: 2px solid rgba(255,255,255,0);
+  border-left: 2px solid rgba(255,255,255,0);
+  border-radius: 50%;
+  animation: loadspin 1.7s infinite;
+}
+
+@keyframes loadspin {
+  50% {
+    border-top: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    border-right: 2px solid $blau;
+    border-left: 2px solid $blau;
+    transform: rotate(360deg) scale(.8);
+  }
+}

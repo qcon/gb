@@ -64,7 +64,7 @@ a.primary_btn {
   margin-bottom: 1.5em;
 }
 
-.kontakt__form {
+.mc-field-group {
   input {
     padding: .3em;
     border-width: 0;
@@ -92,27 +92,27 @@ a.primary_btn {
     max-width: 100%;
     font-size: 1.1em;
   }
-@extend .radio--labels--btn;
+  @extend .radio--labels--btn;
 }
-
-.kontakt__success {
-  color: $dunkelblau;
-  font-size: 2em;
-  @include font(special);
-}
-
-.kontakt__error {
-  @extend .kontakt__success;
-  color: red;
-}
-
-.formtrick {
-  display: none !important;
-}
-
-.form__error {
-  border: 3px solid red !important;
-}
+//
+// .kontakt__success {
+//   color: $dunkelblau;
+//   font-size: 2em;
+//   @include font(special);
+// }
+//
+// .kontakt__error {
+//   @extend .kontakt__success;
+//   color: red;
+// }
+//
+// .formtrick {
+//   display: none !important;
+// }
+//
+// .form__error {
+//   border: 3px solid red !important;
+// }
 
 #mischungsrechner {
   margin-bottom: 6em;
@@ -175,10 +175,6 @@ a.primary_btn {
   @extend .button;
   width: 350px;
   max-width: 100%;
-}
-
-.mc-field-group {
-  @extend .kontakt__form;
 }
 
 input:focus {

@@ -123,3 +123,27 @@ footer {
     }
   }
 }
+.loadmore {
+  display: none;
+  text-align: center;
+  padding: 1em;
+  margin: 3em 1em;
+  cursor: pointer;
+  background: HSL(300,5%,95%);
+  transition: .15s cubic-bezier(.55,0,.1,1);
+  color: $text;
+  @include font(light);
+  svg {
+    margin: 0 auto;
+    display: block;
+    fill: $blau;
+    width: 46px;
+    height: 46px;
+  }
+  &:hover {
+    background: HSL(300,5%,93%);
+  }
+  @media #{$sm} {
+    margin: 0;
+  }
+}
