@@ -3,7 +3,7 @@ layout: post
 title: 'Ford Focus RS 500'
 subtitle: 'Schwarzmatt Folie - Limitiert!'
 author: 'René'
-header_image: https://glossbossimages.s3.eu-central-1.amazonaws.com/RBdetailing/focus-rs-500-matt/RS500-39.jpg
+header_image: https://glossbossimages.s3.eu-central-1.amazonaws.com/RBdetailing/focus-rs-500-matt/RS500-34.jpg
 ---
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/RBdetailing/focus-rs-500-matt/titelbild.jpg)
 
