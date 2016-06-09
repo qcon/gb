@@ -6,12 +6,10 @@ baseurl: ''
 url: https://glossboss.de
 max_index_posts: 15
 exclude:
-- ".htaccess"
 - Gemfile
 - Gemfile.lock
 - _sass
 - node_modules
-- Gruntfile.js
 - gulpfile.babel.js
 - .babel.rc
 - package.json
@@ -25,12 +23,10 @@ exclude:
 - kontakt
 include:
 - dist
-- images
-- was-wird-gespeichert
 markdown: redcarpet
 permalink: "/:categories/:title/"
-version: 20
-postversion: 59
+version: 21
+postversion: 60
 headimggradient: linear-gradient(HSLA(197, 100%, 49%,.6),HSLA(197, 100%, 49%,1))
 collections:
   preview:
