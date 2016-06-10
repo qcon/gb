@@ -65,7 +65,7 @@ gulp.task('jsprod', ['js'], () => {
 
 gulp.task('watch-jekyll', ['jekylldev'], browserSync.reload)
 
-gulp.task('jekylldev', ['js', 'sass'], (done) => {
+gulp.task('jekylldev', ['babel:dev', 'sass'], (done) => {
   browserSync.notify(MESSAGES.jekyllBuild)
   return cp.spawn('jekyll', ['build'], {
     stdio: 'inherit'
@@ -82,7 +82,7 @@ gulp.task('jekyll', ['jsprod', 'sass'], (done) => {
 })
 
 gulp.task('watch', function() {
-  gulp.watch(['allgemein/index.html', 'index.html', '_layouts/*.html', '_includes/*.html', '_posts/*/**', "js/*.js", "_sass/*.scss", "_preview/*.md", "authoren/*.md", "_data/*", '_config.yml'], ['watch-jekyll']);
+  gulp.watch(['allgemein/index.html', 'index.html', '_layouts/*.html', '_includes/*.html', '_posts/*/**', "js/*/**", "_sass/*.scss", "_preview/*.md", "authoren/*.md", "_data/*", '_config.yml'], ['watch-jekyll']);
 });
 gulp.task('default', ['browser-sync', 'watch']);
 

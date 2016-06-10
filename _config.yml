@@ -6,6 +6,7 @@ baseurl: ''
 url: https://glossboss.de
 max_index_posts: 15
 exclude:
+- glossbosse
 - Gemfile
 - Gemfile.lock
 - _sass

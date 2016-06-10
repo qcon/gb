@@ -29,7 +29,6 @@ function loadPosts() {
       showDelay += 100
       index++
       setTimeout(() => {
-        console.log(index, i, currentPosts);
         $('.post--list li').eq(postsLoaded).removeClass('displayNone')
         postsLoaded++
       }, showDelay)
