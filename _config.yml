@@ -21,11 +21,12 @@ exclude:
 - postDB
 - task
 - kontakt
+- spenden
 include:
 - dist
 markdown: redcarpet
 permalink: "/:categories/:title/"
-version: 21
+version: 22
 postversion: 61
 headimggradient: linear-gradient(HSLA(197, 100%, 49%,.6),HSLA(197, 100%, 49%,1))
 collections:
