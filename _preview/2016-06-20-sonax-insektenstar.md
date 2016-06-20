@@ -3,7 +3,7 @@ layout: post
 title: 'Sonax InsektenStar'
 subtitle: 'Test'
 author: 'Chris'
-header_image: URL
+header_image: https://glossbossimages.s3.eu-central-1.amazonaws.com/criz/sonax-insektenstar/DSC_0017.jpg
 ---
 # Sonax InsektenStar
 
