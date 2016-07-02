@@ -5,6 +5,19 @@ subtitle: 'Porsche 997 kommt zur kontrolle'
 author: 'Marvin'
 header_image: https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/997-grau-serum-2/DSC02006.jpg
 ---
+
+Über 2 Jahre ist es nun her als ich diesen Porsche 997 mit einen Prototypen vom Crystal Serum versiegelt habe. Seitdem war er ca. 10-12 mal pro Jahr in der Waschanlage und wurde über 20.000km bewegt. Der Besitzer wünschte eine Hochglanzpolitur mit an schließender neuer Schicht Crystal Serum - quasi zum auffrischen der alten.
+
+Als wir den Wagen dann Waschen wollten bekamen wir das Grinse nicht mehr aus unseren Gesichtern. Trotzdem der Lack ca. 4800km nicht gewaschen wurde, perlte es nämlich noch sehr Ordentlich. Das Schaffen manche Versiegelung nicht mal nach 6 Monaten. Davon haben wir ein kurzes Video erstellt:
+
+{% include video.html videoURL="https://www.youtube.com/embed/XqV8lrWPfeA" %}
+
+Klar, im unteren Fahrzeugbereich war der Lack so verschmutzt, dass dort nichts mehr perlen konnte. Nach 4800km aber auch normal. Frisch gewaschen sah das ganze dann wieder anders aus. Tadelloser Lack, super Ablaufverhalten vom Wasser und immer noch richtig schöne Wasserperlen. Dabei Schnitt der untere Fahrzeugbereich nur unwesentlich schlechter ab als der obere.
+
+Als nächstes wurde der Lack mit dem Rupes Lightpen begutachtet. Viele neue Kratzer gab es nicht, die Hochglanzpolitur war völlig ausreichend! Trotzdem will ich nun nicht damit werben, dass ein Coating vor Kratzern schützt. Kratzer kommen immer rein, sie unterscheiden sich dann nur in der tiefe und bis zu welcher Schicht sie durchdringen.
+
+
+
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/997-grau-serum-2/DSC01950.jpg)
 
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/997-grau-serum-2/DSC01951.jpg)
