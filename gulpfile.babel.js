@@ -73,7 +73,7 @@ gulp.task('jekylldev', ['babel:prod', 'sass'], (done) => {
   .on('close', done)
 })
 
-gulp.task('jekyll', ['babel:dev', 'sass'], (done) => {
+gulp.task('jekyll', ['babel:prod', 'sass'], (done) => {
   browserSync.notify(MESSAGES.jekyllBuild)
   return cp.spawn('jekyll', ['build'], {
     stdio: 'inherit'
