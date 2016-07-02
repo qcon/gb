@@ -64,12 +64,6 @@ const prepareSearch = (() => {
   }
 })()
 
-const postContentLinks = (() => {
- $('.post--content a').each((i,item) => {
-   $(item).attr('target', '_blank')
- })
-})()
-
 const acceptCookies = (() => {
   if(!localStorage.getItem('GLOSSBOSS_COOKIES_ACCEPTED')) {
     $cookieAlert.show()
@@ -90,16 +84,16 @@ const randomHeader = (() => {
   }
 })()
 
-const loadFont = (() => {
-  window.WebFontConfig = {google:{ families: ['Lato::latin']}}
-  let wf = document.createElement('script')
-  wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
-  '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
-  wf.type = 'text/javascript';
-  wf.async = 'true';
-  var s = document.getElementsByTagName('script')[0];
-  s.parentNode.insertBefore(wf, s);
-})()
+// const loadFont = (() => {
+//   window.WebFontConfig = {google:{ families: ['Lato::latin']}}
+//   let wf = document.createElement('script')
+//   wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+//   '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+//   wf.type = 'text/javascript';
+//   wf.async = 'true';
+//   var s = document.getElementsByTagName('script')[0];
+//   s.parentNode.insertBefore(wf, s);
+// })()
 
 const addWhatsAppShareButton = (() => {
   if($('.post--sharing') && navigator.userAgent.match(/(iPhone)/g)) {

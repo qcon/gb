@@ -24,7 +24,7 @@ function loadPosts() {
   let showDelay = 100
   postDB.map((post, i) => {
     $currentPosts = $('.post--list li').length
-    if(($currentPosts < MAXINDEX && index < MAXINDEX) || (i > $currentPosts && index < MAXRELOAD)) {
+    if(($currentPosts < MAXINDEX && index < MAXINDEX) || (i >= $currentPosts && index < MAXRELOAD)) {
       $(post.card).appendTo($POSTLIST)
       showDelay += 100
       index++
