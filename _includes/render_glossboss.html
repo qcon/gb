@@ -1,0 +1,11 @@
+{% assign glossboss = include.glossboss %}
+
+<div id="post--list__container">
+  <ul class="post--list">
+    {% for post in site.posts %}
+      {% if post.author == glossboss %}
+        {% include postDB_RAW.html %}
+      {% endif %}
+    {% endfor %}
+</ul>
+</div>

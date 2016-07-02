@@ -4,10 +4,14 @@ randomHeader: true
 title: Übersicht aller Glossbosse
 subtitle: und deren Beiträge
 ---
-{% for a in site.data.glossbosse %}<span data-authorToggle="{{a.name}}" class="secondary_btn">{{a.name}}</span>
-{% endfor %}
 <ul>
-{% for post in site.posts %}
-  <li data-author="{{post.author}}"><a href="{{post.url}}">{{post.title}}</a></li>
-{% endfor %}
+<li><a href="/glossbosse/marvin">Marvin</a></li>
+<li><a href="/glossbosse/jones">Jones</a></li>
+<li><a href="/glossbosse/ronny">Ronny</a></li>
+<li><a href="/glossbosse/chris">Chris</a></li>
+<li><a href="/glossbosse/rene">René</a></li>
+<li><a href="/glossbosse/alex">Alex</a></li>
+<li><a href="/glossbosse/boerge">Börge</a></li>
+<li><a href="/glossbosse/sven">Sven</a></li>
+<li><a href="/glossbosse/ralf">Ralf</a></li>
 </ul>

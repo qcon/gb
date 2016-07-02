@@ -4,6 +4,7 @@ title: 'Welches Shampoo ist das richtige für mein Auto?'
 subtitle: 'Wachshaltig vs. Versiegelungsanteilig vs. Neutral'
 author: 'Chris'
 header_image: https://glossbossimages.s3.eu-central-1.amazonaws.com/criz/shampoo/DSC_0003.jpg
+header_image_base64: 'data:image/gif;base64,/9j/4AAQSkZJRgABAQEASABIAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCAAHAAoDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAQG/8QAIRAAAQMDBAMAAAAAAAAAAAAAAQIDBAASEwUGEUEhUXH/xAAVAQEBAAAAAAAAAAAAAAAAAAADBP/EABsRAQACAgMAAAAAAAAAAAAAAAEAAhHBUWGx/9oADAMBAAIRAxEAPwCrdc7WmtUdajOLYwgJjBCgL7gLrvPr5WwbkRsachOTgXcDvulKnbLSue/WMgCnOh3P/9k='
 ---
 # Welches Shampoo ist das richtige für mein Auto?
 

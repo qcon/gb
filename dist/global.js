@@ -235,6 +235,22 @@
 			console.error("AJAX Error: " + err);
 		}
 	};
+<<<<<<< HEAD
+	w.WebFontConfig = {
+		google: { families: [ 'Lato::latin' ] }
+	};
+	(function() {
+	  var wf = document.createElement('script');
+	  wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+		'://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+	  wf.type = 'text/javascript';
+	  wf.async = 'true';
+	  var s = document.getElementsByTagName('script')[0];
+	  s.parentNode.insertBefore(wf, s);
+
+	})();
+=======
+>>>>>>> 228a547a66fee111fe4e8d463b360e884c522d5c
 	var d = new Date();
 	var curr_date = ("0" + d.getDate()).slice(-2);
 	var curr_month = ( "0" + (d.getMonth() + 1)).slice(-2);
