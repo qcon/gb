@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Audi A5 Sepangblau
-subtitle: Zymöl Ital
+title: Audi A5 in Sepangblau
+subtitle: Gewachst mit Zymöl Ital
 author: Alex
 header_image: https://glossbossimages.s3.eu-central-1.amazonaws.com/alex/audi-a5-ital/A5_ital_037.JPG
 ---
@@ -10,8 +10,9 @@ header_image: https://glossbossimages.s3.eu-central-1.amazonaws.com/alex/audi-a5
 Hallo Glossboss-Gemeinde,
 
 heute schreib ich euch mal wieder ein paar Zeilen zum Thema Autopflege!
-<span style="color: inherit; font-family: inherit; line-height: 1.1;">Angefixt hat mich eigentlich der Marvin, der diesen Bericht hier geschrieben hat: [Höher, schneller, weiter Aber wo bleiben die Emotionen?](https://glossboss.de/allgemein/coatings-und-versiegelung-gegen-wachs/)
-</span>Eigentlich bin ich ja der Absolute Versiegelungsfan, aber irgendwie war mir dann doch mal wieder nach einem Wachs. Der Kandidat dafür stand auch schon auf der Einfahrt, mein Sepangblauer A5 Sportback, der Mitte April in Ingolstadt abgeholt wurde und noch ohne Lackschutz den harten Alltag bestreiten musste.
+
+Angefixt hat mich eigentlich der Marvin, der diesen Bericht hier geschrieben hat: [Höher, schneller, weiter Aber wo bleiben die Emotionen?](https://glossboss.de/allgemein/coatings-und-versiegelung-gegen-wachs/)
+Eigentlich bin ich ja der Absolute Versiegelungsfan, aber irgendwie war mir dann doch mal wieder nach einem Wachs. Der Kandidat dafür stand auch schon auf der Einfahrt, mein Sepangblauer A5 Sportback, der Mitte April in Ingolstadt abgeholt wurde und noch ohne Lackschutz den harten Alltag bestreiten musste.
 Bis dato wurde der A5 lediglich 1x bei mir von Hand gewaschen und hatte in den letzten Wochen wieder einige an Blütenstaub und Straßendreck abbekommen. Hier mal die Ausgangslage:
 
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/alex/audi-a5-ital/A5_ital_001.JPG)

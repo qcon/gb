@@ -9,6 +9,7 @@
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.url }}">
     <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
     <link rel="stylesheet" href="/dist/layout.css?v={{site.version}}">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
     <style id="header-style">
     header {
 			background: {{site.headimggradient}}, url('{% if page.head__img %}{{ site.url }}{{ page.head__img }}{% else %}{{ page.header_image }}{% endif %}') center 50%;

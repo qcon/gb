@@ -176,6 +176,16 @@ table {
   justify-content: space-between;
   transform: translate3d(0,0,0);
   @include font(light);
+  .video-btn {
+    fill: $gray;
+    display: block;
+    opacity: .3;
+    transition: 300ms ease-in-out;
+    top: 50%;
+    transform: translateY(-50%);
+    margin: 0 auto;
+    position: relative;
+  }
   li {
     margin: 1em;
     align-self: center;
@@ -287,6 +297,10 @@ background: #c7c7c7;
     // 	}
     // }
     &:hover > .post--img {
+      .video-btn {
+        opacity: .7;
+        fill: $blau;
+      }
       transition: .75s;
       //opacity:.90;
       transform: scale(1.07);

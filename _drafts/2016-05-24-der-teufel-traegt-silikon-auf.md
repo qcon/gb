@@ -17,5 +17,5 @@ Man muss sich folgendes Vorstellen: hätte es diese Personen damals nicht gegebe
 
 ## Gut, was ist dann nun mit der Lackierbarkeit?
 
-Jeden Lackierer den ich kenne reagiert äußerst gelassen auf den Hinweis man habe Silikonhaltige Produkte auf dem Lack angewendet. Sprühflasche mit Silikonentferner raus, 4 Spritzer auf die Motorhaube und das "Problem" ist erledigt. Fertig. Keine Zauberei. Pfuscht der lackierer allerdings wird er Probleme bekommen. Ganz klar. 
+Jeden Lackierer den ich kenne reagiert äußerst gelassen auf den Hinweis man habe Silikonhaltige Produkte auf dem Lack angewendet. Sprühflasche mit Silikonentferner raus, 4 Spritzer auf die Motorhaube und das "Problem" ist erledigt. Fertig. Keine Zauberei. Pfuscht der Lackierer allerdings wird er Probleme bekommen. Ganz klar. Das Vorreinigen mit Silikonentferner ist heutzutage allerdings für jeden guten Lackierer so essentiel wie für uns die Lackreinigung mit Knete. Es gehört einfach dazu. 
 
