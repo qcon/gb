@@ -24,7 +24,7 @@ Beim Polisher gibt es 2 verschiedene Seiten - lange und kurze Fasern. Ich benutz
 
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/microfiberbulls/DSC02043.jpg)
 
-Alle Tücher sind Edgeless (Randlos). Das war uns persönlich von Anfang an wichtig. Um ein Ausfransen zu verhindern wurde der Rand vernäht.
+Alle Tücher sind Edgeless (Randlos). Das war uns persönlich von Anfang an wichtig. Auch nach mittlerweile ca. 15 Wäschen franzt dort nichts aus!
 
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/microfiberbulls/DSC02044.jpg)
 
@@ -36,6 +36,6 @@ Alle Tücher werden im Plastikbeutel mit Beipackzettel geliefert, wo eine kurze 
 
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/microfiberbulls/DSC02047.jpg)
 
-Unser Fazit fällt kurz aus. Die Tücher sind absolute Oberklasse. Und das sagen wir nicht nur weil wir daran Beteiligt waren. Ausnahmslos alle die ich Gebeten habe das Tuch auszuprobieren haben mich sofort mit großen Augen angeguckt und gesagt: wo kann ich das bestellen? Vor allem beim Politurabtrag spürt man wie Saugfähig die Faser ist. Keine Frage mit anderen Tüchern ging es bisher auch, aber hiermit gehts ein ticken besser, leichter und schneller. Und ihr kennt uns mittlerweile - wir würden sowas nicht Vorstellen und schreiben wenn wir nicht zu 100% dahinterstehen. 
+Unser Fazit fällt kurz aus. Die Tücher sind absolute Oberklasse. Und das sagen wir nicht nur weil wir daran Beteiligt waren. Ausnahmslos alle die ich Gebeten habe das Tuch auszuprobieren haben mich sofort mit großen Augen angeguckt und gesagt: wo kann ich das bestellen? Vor allem beim Politurabtrag spürt man wie Saugfähig die Faser ist. Keine Frage mit anderen Tüchern ging es bisher auch, aber hiermit gehts ein ticken besser, leichter und schneller. Und ihr kennt uns mittlerweile - wir würden sowas nicht Vorstellen und schreiben wenn wir nicht zu 100% dahinterstehen. Und wenn du bisher mit deinen Microfiber Madness, Cobra, Lupus oder Meguiars Tüchern zufrieden warst, dann bleib dabei. Hauptsache ist doch, dass das Auto hinterher glänzt!
 
 Mein persönliches Lieblingstuch ist das Interceptor. Für ca. 3,20€ erhältst du ein Tuch welches Perfekt für den Politur- und Wachsabtrag funktioniert. Ein super Allrounder!
