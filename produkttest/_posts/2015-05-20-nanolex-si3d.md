@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Nanolex Si3D"
-author: "Alexander"
+author: "Alex"
 subtitle: Laserblue erstrahlt in neuem Glanz
 categories: Produkttest
 header_image: https://glossbossimages.s3.eu-central-1.amazonaws.com/alex/nanolexsi3d/7.JPG
@@ -11,7 +11,7 @@ header_image: https://glossbossimages.s3.eu-central-1.amazonaws.com/alex/nanolex
 Hallo zusammen,
 
 heute gibt es mal wie was von mir zu meinem Lieblingsthema: Langzeitversiegelung
- 
+
 Der ein oder andere wird sich vielleicht noch an den Bericht zum Audi SQ5 mit Gyeon Mohs erinnern. Da gerade der Markt mit den „harten Versiegelungen“ explodiert, war es mal wieder an der Zeit was Neues auszuprobieren.
 
 [Langzeitversiegelung Anwendung (Gyeon Mohs)](https://glossboss.de/allgemein/langzeitversiegelung-anwendung-gyeon-mohs)
@@ -28,7 +28,7 @@ Schlicht und einfach gehalten reiht sich die SI3D Versiegelung in das typische D
 
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/alex/nanolexsi3d/2a.jpg)
 
-Nun genug zur Versiegelung, kommen wir zum Anwendungsobjekt. Als Opferauto hielt diesmal ein gepflegter Golf V in der Farbe Laserblue her. Zur Vorarbeit zählt wie immer eine ausgiebige 2-Eimer-Wäsche. Zuvor wird das Auto idealerweise mit dem Hochdruckreiniger abgedampft, um den groben Dreck zu entfernen. 
+Nun genug zur Versiegelung, kommen wir zum Anwendungsobjekt. Als Opferauto hielt diesmal ein gepflegter Golf V in der Farbe Laserblue her. Zur Vorarbeit zählt wie immer eine ausgiebige 2-Eimer-Wäsche. Zuvor wird das Auto idealerweise mit dem Hochdruckreiniger abgedampft, um den groben Dreck zu entfernen.
 
 Anschließend folgten dann das obligatorische Kneten und danach natürlich die Politur. Da der Wagen ausschließlich von Hand gewaschen wird, reichte eine Runde mit einer Finishpolitur aus. In diesem Fall wurde mittels der Exzentermaschine, der Meguiars Ultimate Finish und einem orangen Lake Country Pad der Lack auf Hochglanz gebracht. Diese Schritte wurden jetzt nicht extra dokumentiert.
 
@@ -41,16 +41,16 @@ Nach dem polieren wird der Lack anschließend nochmal gereinigt, um etwaige Poli
 Den Lack ruhig satt einsprühen! Das Gyeon Prep lüftet super ab und lässt sich Kinderleicht verarbeiten.
 
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/alex/nanolexsi3d/5.JPG)
- 
+
 Kommen wir endlich zum Titelthema, der Lackversiegelung mit Nanolex SI3D. Die Herstellinfos dazu findet ihr ja schon oben. Mit einer Temperatur von etwa 20 °C und eine Luftfeuchtigkeit von ca. 55 % waren die Bedingungen ideal um in Ruhe den Golf zu versiegeln.
 
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/alex/nanolexsi3d/6.JPG)
 
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/alex/nanolexsi3d/7.JPG)
- 
+
 Vor dem Auftrag bitte Nitril Handschuhe anziehen, eure Hände werden es euch danken. Zusätzlich haben wir noch für etwas Belüftung in der Garage gesorgt, indem wir die hintere Tür sowie das Tor vorne einen Spalt geöffnet haben.
- 
-Für den Auftrag eignen sich die sogenannte Suede Tücher sehr gut. Bei vielen Versiegelungen, wie z. B. dem Cquartz UK oder dem Gyeon Mohs liegen diese schon dabei. Man wickelt dieses Tuch um den Applicator und lässt darauf dann die Versiegelung tropfen. Zusätzlich fixiere ich das Tuch immer noch mit etwas Klebeband, damit es ordentlich auf dem Applikator hält. 
+
+Für den Auftrag eignen sich die sogenannte Suede Tücher sehr gut. Bei vielen Versiegelungen, wie z. B. dem Cquartz UK oder dem Gyeon Mohs liegen diese schon dabei. Man wickelt dieses Tuch um den Applicator und lässt darauf dann die Versiegelung tropfen. Zusätzlich fixiere ich das Tuch immer noch mit etwas Klebeband, damit es ordentlich auf dem Applikator hält.
 
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/alex/nanolexsi3d/8.jpg)
 
@@ -84,7 +84,7 @@ Wenn ihr die Möglichkeit habt, dann arbeitet zu zweit, denn dann kann der eine 
 
 Der Verbrauch hält sich bei einer Schicht wirklich in Grenzen. Trotz sattem Auftrag sollte man locker zwei Autos der Kompaktklasse mit einer Flasche versiegeln können.
 Ich habe jetzt zwei Golf V mit einer Flasche und jeweils einer Schicht versiegelt und es sind locker noch 8-10 ml in der Flasche drin.
- 
+
 Nach dem ihr dann das Auto fertig versiegelt habt, solltet ihr es 12 Stunden in der trockenen Garage stehen bleiben. Ich persönlich empfehle da immer lieber etwas mehr Zeit ins Land ziehen zu lassen, Schaden kann das sicherlich nicht.
 
 Abschließend könnt ihr euch dann an einem strahlenden und geschützten Lack erfreuen. Hier mal ein paar Finishfotos. Aufgrund der starken Sonne habe ich teilweise ein par HDR Bilder gemacht, damit man etwas mehr Kontrast hat.
@@ -113,12 +113,12 @@ Abschließend könnt ihr euch dann an einem strahlenden und geschützten Lack er
 
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/alex/nanolexsi3d/28.JPG)
 
-Abschließend noch ein kleines Video vom Auftragstuch 24 Stunden nach der Versiegelung. 
+Abschließend noch ein kleines Video vom Auftragstuch 24 Stunden nach der Versiegelung.
 
 {% include video.html videoURL="//www.youtube.com/embed/HttPltpJjio" %}
 
 
-Zwecks Beadingbilder und Erfahrungen zur Standzeit versuche ich euch auf dem Laufenden zu halten. 
+Zwecks Beadingbilder und Erfahrungen zur Standzeit versuche ich euch auf dem Laufenden zu halten.
 
 Gruß, Alex.
 
