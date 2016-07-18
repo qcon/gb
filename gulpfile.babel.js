@@ -21,7 +21,7 @@ const MESSAGES = {
 }
 
 gulp.task('babel:dev', () => {
-  return gulp.src('./js/es2015/main.js')
+  return gulp.src('./js/main.js')
   .pipe(include())
   .pipe(babel())
   .pipe(gulp.dest('./dist/'))
