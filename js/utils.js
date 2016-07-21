@@ -1,78 +1,79 @@
-const $sideMenu = $('#sidemenu')
-const $fullPage = $('#fullpage')
-const $toggleNav = $('#mainnav')
-const $body = $('body')
+/* global headerGradient, loadingScreen, SimpleJekyllSearch, postJSONCache */
+const $sideMenu = $('#sidemenu');
+const $fullPage = $('#fullpage');
+const $toggleNav = $('#mainnav');
+const $body = $('body');
+const $cookieAlert = $('.cookies-hinweis');
+const $cookieAccept = $('#cookies_acc');
 
-const loadingScreen = (toggle) => {
-  const loadingElement = $('#loading')
-  if(toggle) {
-    loadingElement.show()
+function loadingScreen(toggle) {
+  const loadingElement = $('#loading');
+  if (toggle) {
+    loadingElement.show();
   } else {
-    loadingElement.hide()
+    loadingElement.hide();
   }
 }
 
-const SideMenu = {}
+const SideMenu = {};
 SideMenu.close = () => {
-  $sideMenu.removeClass('menuOut')
-  $fullPage.off('click', SideMenu.closeFullpage)
-  $body.off('keydown', SideMenu.closeOnEscape)
-  $fullPage.removeClass('opacity03')
+  $sideMenu.removeClass('menuOut');
+  $fullPage.off('click', SideMenu.closeFullpage);
+  $body.off('keydown', SideMenu.closeOnEscape);
+  $fullPage.removeClass('opacity03');
   // ARIA
-  $toggleNav.attr('aria-expanded', 'false')
-  $toggleNav.attr('aria-label', 'Menü')
-  $toggleNav.attr('aria-controls', 'sidemenu')
+  $toggleNav.attr('aria-expanded', 'false');
+  $toggleNav.attr('aria-label', 'Menü');
+  $toggleNav.attr('aria-controls', 'sidemenu');
 
-  $sideMenu.attr('aria-hidden', 'true')
-  $sideMenu.attr('aria-labelledby', 'mainnav')
-
-}
+  $sideMenu.attr('aria-hidden', 'true');
+  $sideMenu.attr('aria-labelledby', 'mainnav');
+};
 SideMenu.open = (event) => {
-  event.stopPropagation()
-  event.preventDefault()
-  if(!$sideMenu.hasClass('menuOut')) {
-    $fullPage.addClass('opacity03')
-    $sideMenu.addClass('menuOut')
+  event.stopPropagation();
+  event.preventDefault();
+  if (!$sideMenu.hasClass('menuOut')) {
+    $fullPage.addClass('opacity03');
+    $sideMenu.addClass('menuOut');
   }
   setTimeout(() => {
-    $toggleNav.attr('aria-expanded', 'true')
-    $sideMenu.attr('aria-hidden', 'false')
-    $fullPage.on('click', SideMenu.closeFullpage)
-    $body.on('keydown', SideMenu.closeOnEscape)
-    $('#sidemenu a:first').focus()
-  }, 100)
-}
+    $toggleNav.attr('aria-expanded', 'true');
+    $sideMenu.attr('aria-hidden', 'false');
+    $fullPage.on('click', SideMenu.closeFullpage);
+    $body.on('keydown', SideMenu.closeOnEscape);
+    $('#sidemenu a:first').focus();
+  }, 100);
+};
 SideMenu.closeFullpage = (event) => {
-  event.preventDefault()
-  SideMenu.close()
-}
+  event.preventDefault();
+  SideMenu.close();
+};
 SideMenu.closeOnEscape = (event) => {
-  if(event.which === 27) {
-    event.stopPropagation()
-    event.preventDefault()
+  if (event.which === 27) {
+    event.stopPropagation();
+    event.preventDefault();
 
-    SideMenu.close()
+    SideMenu.close();
   }
-}
+};
 SideMenu.initialize = () => {
-  SideMenu.close()
-  $toggleNav.on('click', SideMenu.open)
-}
-SideMenu.initialize()
+  SideMenu.close();
+  $toggleNav.on('click', SideMenu.open);
+};
+SideMenu.initialize();
 
-const prepareSearch = (() => {
-  const searchWrapper = $('#searchWrapper')
+const prepareSearch = () => {
+  const searchWrapper = $('#searchWrapper');
   try {
-    if(searchWrapper.length > 0) {
+    if (searchWrapper.length > 0) {
       $('#search_reset').on('click', () => {
-        $('#search-input').val('')
-        $('#results-container').html('')
-      })
-      searchWrapper.show()
+        $('#search-input').val('');
+        $('#results-container').html('');
+      });
+      searchWrapper.show();
       SimpleJekyllSearch.init({
-        templateMiddleware: function(prop, value, template) {
-          console.log(template);
-          return template.classList.remove('displayNone')
+        templateMiddleware(prop, value, template) {
+          return template.classList.remove('displayNone');
         },
         searchInput: document.getElementById('search-input'),
         resultsContainer: document.getElementById('results-container'),
@@ -84,29 +85,38 @@ const prepareSearch = (() => {
       });
     }
   } catch (e) {
-    console.log(e);
+    throw new Error(e);
   }
-})()
+};
+prepareSearch();
 
-const acceptCookies = (() => {
-  if(!localStorage.getItem('GLOSSBOSS_COOKIES_ACCEPTED')) {
-    $cookieAlert.show()
+const acceptCookies = () => {
+  if (!localStorage.getItem('GLOSSBOSS_COOKIES_ACCEPTED')) {
+    $cookieAlert.show();
     $cookieAccept.on('click', () => {
-      $cookieAlert.hide()
-      localStorage.setItem('GLOSSBOSS_COOKIES_ACCEPTED', '1')
-    })
+      $cookieAlert.hide();
+      localStorage.setItem('GLOSSBOSS_COOKIES_ACCEPTED', '1');
+    });
   }
-})()
+};
+acceptCookies();
 
 const randomHeader = (() => {
-  const headerImages = ['merc-8.jpg', '1mcoupe.jpg', '530dteamwork.jpg', 'DSC00627.jpg', 'DSC00624.jpg', '965turbo.jpg', '9914s1.jpg', '997cabrio.jpg', '991turbos.jpg', '997grau.jpg', '997rot.jpg', 'alfagtv.jpg', 'audir8.jpg', 'audis5.jpg', 'bmw2002.jpg', 'eosschwarz.jpg', 'golf7gtd.jpg', 'lotuselise.jpg', 'm3csl.jpg', 'shelby.jpg', 'mclaren.jpg']
-  if(randomHeader) {
-    const $headerStyle = $('#header-style')
-    let rnd = Math.floor(Math.random() * (headerImages.length - 1))
-    const headerImagesUrl = 'https://glossbossimages.s3.eu-central-1.amazonaws.com/headerimg/' + headerImages[rnd]
-    $headerStyle.html('header {background: ' + headerGradient + ', url(' + headerImagesUrl + ') center 50%; background-size:cover}')
+  const headerImages = ['merc-8.jpg', '1mcoupe.jpg', '530dteamwork.jpg', 'DSC00627.jpg',
+  'DSC00624.jpg', '965turbo.jpg',
+  '9914s1.jpg', '997cabrio.jpg', '991turbos.jpg', '997grau.jpg', '997rot.jpg', 'alfagtv.jpg',
+  'audir8.jpg', 'audis5.jpg', 'bmw2002.jpg', 'eosschwarz.jpg', 'golf7gtd.jpg', 'lotuselise.jpg',
+  'm3csl.jpg', 'shelby.jpg', 'mclaren.jpg'];
+  if (randomHeader) {
+    const $headerStyle = $('#header-style');
+    const rnd = Math.floor(Math.random() * (headerImages.length - 1));
+    const headerImagesUrl = `https://glossbossimages.s3.eu-central-1.amazonaws.com/headerimg/${headerImages[rnd]}`;
+    $headerStyle.html(`
+      header {background: ${headerGradient},
+      url(${headerImagesUrl}) center 50%; background-size:cover}
+    `);
   }
-})()
+})();
 
 // const loadFont = (() => {
 //   window.WebFontConfig = {google:{ families: ['Lato::latin']}}
@@ -119,30 +129,33 @@ const randomHeader = (() => {
 //   s.parentNode.insertBefore(wf, s);
 // })()
 
-const addWhatsAppShareButton = (() => {
-  if($('.post--sharing') && navigator.userAgent.match(/(iPhone)/g)) {
-    let whatsAppBtn = $('.share--whatsapp')
-    whatsAppBtn.css('display', 'inline-block')
-    whatsAppBtn.attr('href', `WhatsApp://send?text=${document.title}: ${location.href}`)
+const addWhatsAppShareButton = () => {
+  if ($('.post--sharing') && navigator.userAgent.match(/(iPhone)/g)) {
+    const whatsAppBtn = $('.share--whatsapp');
+    whatsAppBtn.css('display', 'inline-block');
+    whatsAppBtn.attr('href', `WhatsApp://send?text=${document.title}: ${location.href}`);
   }
-})()
+};
+addWhatsAppShareButton();
 
 const addEvents = (() => {
-  //Scotty, beam me up
+  // Scotty, beam me up
   $('.scroll-top').on('click', () => {
     $('body').animate({
-      scrollTop: 0
-    }, 500)
-  })
+      scrollTop: 0,
+    }, 500);
+  });
 
   // Show Disqus Comments
-  $('.showCommentsContainer').on("click", function() {
-    var disqus_shortname = 'glossboss'
-    var dsq = document.createElement('script')
-    dsq.type = 'text/javascript'
-    dsq.async = true
-    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq)
-    $('.showCommentsContainer').fadeOut('fast')
-  })
-})()
+  $('.showCommentsContainer').on('click', () => {
+    const disqusShortname = 'glossboss';
+    const dsq = document.createElement('script');
+    dsq.type = 'text/javascript';
+    dsq.async = true;
+    dsq.src = `//${disqusShortname}.disqus.com/embed.js`;
+    (document.getElementsByTagName('head')[0] ||
+    document.getElementsByTagName('body')[0]).appendChild(dsq);
+    $('.showCommentsContainer').fadeOut('fast');
+  });
+});
+addEvents();
