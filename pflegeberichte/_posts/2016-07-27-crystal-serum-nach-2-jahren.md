@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Crystal Serum nach 2 Jahren'
-subtitle: 'Porsche 997 kommt zur kontrolle'
+subtitle: 'Porsche 997 kommt zur Kontrolle'
 author: 'Marvin'
 header_image: https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/997-grau-serum-2/DSC02006.jpg
 ---
