@@ -6,7 +6,8 @@ const $body = $('body');
 const $cookieAlert = $('.cookies-hinweis');
 const $cookieAccept = $('#cookies_acc');
 
-function loadingScreen(toggle) {
+
+function loadingScreen(toggle) { // eslint-disable-line
   const loadingElement = $('#loading');
   if (toggle) {
     loadingElement.show();
@@ -41,7 +42,6 @@ SideMenu.open = (event) => {
     $sideMenu.attr('aria-hidden', 'false');
     $fullPage.on('click', SideMenu.closeFullpage);
     $body.on('keydown', SideMenu.closeOnEscape);
-    $('#sidemenu a:first').focus();
   }, 100);
 };
 SideMenu.closeFullpage = (event) => {
@@ -79,7 +79,7 @@ const prepareSearch = () => {
         resultsContainer: document.getElementById('results-container'),
         dataSource: postJSONCache,
         searchResultTemplate: '{card}',
-        noResultsText: '<li>Nichts passendes dabei. Hast du eine Idee für einen Artikel? <a style="text-align:center" href="mailto:mail@glossboss.de">Kontaktiere uns!</a></li>',
+        noResultsText: '<li>Nichts passendes dabei. Hast du eine Idee für einen Artikel? <a style="text-align:center" href="mailto:mail@glossboss.de">Kontaktiere uns!</a></li>', // eslint-disable-line
         limit: 25,
         fuzzy: false,
       });
@@ -141,7 +141,7 @@ addWhatsAppShareButton();
 const addEvents = (() => {
   // Scotty, beam me up
   $('.scroll-top').on('click', () => {
-    $('body').animate({
+    $('body,html').animate({
       scrollTop: 0,
     }, 500);
   });

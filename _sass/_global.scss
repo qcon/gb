@@ -3,6 +3,10 @@ html {
   color: $text;
   -webkit-font-smoothing: antialiased;
 }
+::selection {
+  color: $blau;
+  background-color: $gray;
+}
 
 body {
   overflow-x: hidden;
