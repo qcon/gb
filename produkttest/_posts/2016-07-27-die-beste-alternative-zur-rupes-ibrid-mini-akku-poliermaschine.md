@@ -84,7 +84,7 @@ Die 30/40mm sind es hier.
 Passt perfekt, oder?
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/chiller/Westfalia/Westfalia18.jpg)
 
-Als günstigere Alternative bieten sich [diese Polierpads von Craft Equip](http://www.ebay.de/itm/Craft-Equip-50mm-Polierschwamm-orange-mittelfest-Polierpad-Polierteller-1019-/361462355017?hash=item5428d5d449:g:eeEAAOSw5dNWi9Y5) an. Kosten pro Stück: 1-1,50€. Die Staubhärte ist zwar ein wenig weicher als bei den Rupes Pads, aber damit kann man dennoch wunderbare Ergebnisse erzielen.
+Als günstigere Alternative bieten sich [diese Polierpads von Craft Equip](http://www.ebay.de/itm/Craft-Equip-50mm-Polierschwamm-orange-mittelfest-Polierpad-Polierteller-1019-/361462355017?hash=item5428d5d449:g:eeEAAOSw5dNWi9Y5) an. Kosten pro Stück: 1-1,50€. Die Stauchhärte ist zwar ein wenig weicher als bei den Rupes Pads, aber damit kann man dennoch wunderbare Ergebnisse erzielen.
 
 Hier die günstigeren Polierpads in aktion:
 
