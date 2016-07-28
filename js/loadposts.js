@@ -8,19 +8,14 @@ const $POSTLIST = $('.post--list');
 const $LOADMOREBTN = $('#loadmoreajax');
 
 function getPosts(cat) {
-  const getVersion = $.getJSON('/version.json', (data) => {
-    return data;
-  }).then((version) => {
-    return $.getJSON(`/posts.json?v=${version.posts}`, (data) => {
-      postDB = data.filter((item) => {
-        if (cat === 'alle') {
-          return item.category.toLowerCase() === item.category.toLowerCase();
-        }
-        return item.category.toLowerCase() === cat;
-      });
+  return $.getJSON(postJSONCache, (data) => {
+    postDB = data.filter((item) => {
+      if (cat === 'alle') {
+        return item.category.toLowerCase() === item.category.toLowerCase();
+      }
+      return item.category.toLowerCase() === cat;
     });
   });
-  return getVersion;
 }
 
 function loadPosts() {
