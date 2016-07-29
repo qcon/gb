@@ -36,5 +36,7 @@
   })(window,document,'script','//www.google-analytics.com/analytics.js','ga');ga('create', 'UA-52307693-1', 'auto');ga('send', 'pageview');
   var ItseMeIndex;
 </script>
+{% if page.url != '/editpost/' %}
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+{% endif %}
 <script src="/dist/main.js?v={{site.version}}" charset="utf-8"></script>
