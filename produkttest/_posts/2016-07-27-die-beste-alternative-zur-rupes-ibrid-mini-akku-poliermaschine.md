@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Die beste Alternative zur Rupes iBrid'
-subtitle: 'Mini Akku-Poliermaschine für unter 100€!'
+subtitle: 'Mini Akku-Poliermaschine für unter 100€'
 author: 'Ronny'
 header_image: https://glossbossimages.s3.eu-central-1.amazonaws.com/chiller/Westfalia/Westfalia04.jpg
 ---

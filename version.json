@@ -1,6 +1,0 @@
----
----
-{
-  "posts": {{site.postversion}},
-  "assets": {{site.version}}
-}
