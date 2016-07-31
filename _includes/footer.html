@@ -28,7 +28,7 @@
   </div>
 </footer>
 <script>
-  var postJSONCache = '/posts.json';
+  var postJSONCache = '/posts.json?v={{site.postversion}}';
   var randomHeader = {%  if page.randomHeader %}true{% else %}false{% endif %},headerGradient = '{{site.headimggradient}}';
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),

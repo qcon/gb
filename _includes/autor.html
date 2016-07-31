@@ -16,9 +16,9 @@
     <div class="autor-box-bio">
       <p>{{autor.bio}}</p>
       <hr />
-      <ul class="autor-box-moreposts">
+      <ul class="autor-box-moreposts" data-author="{{ autor.name }}">
         <p><h4>Mehr Beiträge von {{autor.name}}</h4></p>
-        {% assign post_loop = '' %}
+        <!-- {% assign post_loop = '' %}
         {% for posts in site.posts %}
           {% if posts.author == get_autor and post_loop.size < 5 %}
             {% capture post_loop %}{{post_loop}}*{% endcapture %}
@@ -28,7 +28,7 @@
               {% endunless %}
             </li>
           {% endif %}
-        {% endfor %}
+        {% endfor %} -->
       </ul>
       <hr />
       <p>

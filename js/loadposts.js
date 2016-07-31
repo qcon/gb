@@ -8,7 +8,7 @@ const $POSTLIST = $('.post--list');
 const $LOADMOREBTN = $('#loadmoreajax');
 
 function getPosts(cat) {
-  return $.getJSON(postJSONCache, (data) => {
+  return getPostDB().then((data) => {
     postDB = data.filter((item) => {
       if (cat === 'alle') {
         return item.category.toLowerCase() === item.category.toLowerCase();

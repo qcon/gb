@@ -5,7 +5,26 @@ const $toggleNav = $('#mainnav');
 const $body = $('body');
 const $cookieAlert = $('.cookies-hinweis');
 const $cookieAccept = $('#cookies_acc');
+const $autorBox = $('.autor-box-moreposts')
 
+function getPostDB() {
+  return $.getJSON(postJSONCache);
+}
+
+function appendLatestPosts(author) {
+  let loadedPosts = getPostDB();
+  loadedPosts.then((data) => {
+    data.filter((a) => {
+      return a.author == author
+    }).map((posts, i) => {
+      if (i >= 5) return
+      $autorBox.append($(`<li><a href="${posts.url}">${posts.title}</a></li>`))
+    });
+  });
+}
+if($autorBox.length > 0) {
+  appendLatestPosts($autorBox.attr('data-author'));
+}
 
 function loadingScreen(toggle) { // eslint-disable-line
   const loadingElement = $('#loading');

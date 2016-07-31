@@ -43,8 +43,8 @@ red '<-- done'
 # Push to S3
 green '--> Push to S3'
 s3cmd sync -M --acl-public --exclude '*.*' --include '*.js' --include '*.css' --add-header='Cache-Control:max-age=1728000' --add-header='Content-Encoding:gzip' $SITE_DIR $S3_BUCKET
-s3cmd sync -M --acl-public --exclude '*.*' --include '*.json' --add-header='Cache-Control:max-age=1728000' --add-header='Content-Encoding:gzip' --cf-invalidate $SITE_DIR $S3_BUCKET
+s3cmd sync -M --acl-public --exclude '*.*' --include '*.json' --add-header='Cache-Control:max-age=1728000' --add-header='Content-Encoding:gzip' $SITE_DIR $S3_BUCKET
 s3cmd sync -M --acl-public --exclude '*.*' --include '*.html' --add-header='Cache-Control:max-age=0, must-revalidate' --add-header='Content-Encoding:gzip' $SITE_DIR $S3_BUCKET
-s3cmd sync --acl-public --delete-removed --cf-invalidate-default-index $SITE_DIR $S3_BUCKET
+s3cmd sync --acl-public --delete-removed $SITE_DIR $S3_BUCKET
 red '<-- done'
 say -v Whisper "Successfully Deployed"
