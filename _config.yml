@@ -27,8 +27,8 @@ include:
 - dist
 markdown: redcarpet
 permalink: "/:categories/:title/"
-version: 33
-postversion: 75
+version: 36
+postversion: 77
 headimggradient: linear-gradient(HSLA(197, 100%, 49%,.6),HSLA(197, 100%, 49%,1))
 collections:
   preview:

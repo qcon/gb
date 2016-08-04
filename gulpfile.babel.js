@@ -42,7 +42,7 @@ gulp.task('sass', ['sass-layout']);
 gulp.task('sass-layout', () => {
   return gulp.src('./_sass/inline_layout.scss')
   .pipe(sass({
-    outputStyle: 'expanded',
+    outputStyle: 'compressed',
   }).on('errror', sass.logError))
   .pipe(autoprefixer({
     browsers: ['last 3 version', '> 1%'],
