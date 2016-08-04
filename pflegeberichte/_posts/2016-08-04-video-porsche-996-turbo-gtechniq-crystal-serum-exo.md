@@ -30,4 +30,4 @@ Ihr seht - es hat sich gelohnt! Mehr im entsprechenden Video unten im Beitrag.
 
 ## Video
 
-{% include video.html videoURL="https://www.youtube.com/embed/50z4VnJrCm8" %}
+{% include video.html videoURL="https://www.youtube.com/embed/CEw-WCS-qKQ" %}
