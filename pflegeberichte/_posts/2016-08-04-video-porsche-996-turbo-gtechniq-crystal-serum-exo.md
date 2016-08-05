@@ -9,7 +9,7 @@ video: true
 
 Glossbosse,
 
-was mit dem Mercedes SL 55 AMG (https://glossboss.de/pflegeberichte/sl-55-amg-video-gyeon-prime/) begann, setzen wir heute nun mit einem speedgelben Porsche 996 Turbo fort!
+was mit dem [Mercedes SL 55 AMG](https://glossboss.de/pflegeberichte/sl-55-amg-video-gyeon-prime/) begann, setzen wir heute nun mit einem speedgelben Porsche 996 Turbo fort!
 
 Der Porsche war Jahre lang mit einer transparenten Folie geschützt. Der neue Besitzer konnte jedoch nach entfernen dieser feststellen, dass auch eine Folie letztendlich bei dicken Steinen die Segel streichen muss.
 Die Haube und Kotflügel wurden neu lackiert. Doch nun sollte statt einer erneuten Folie die Referenz in Sachen Versiegelungen aufgelegt werden: gtechniq Crystal Serum & Exo V2.
