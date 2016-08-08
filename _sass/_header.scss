@@ -4,9 +4,17 @@
   height: 128px;
   margin:0 auto;
   transform: translate(0, 50%);
-  transition: .15s cubic-bezier(.55,0,.1,1);
+  transition: .18s cubic-bezier(.55,0,.1,1);
+  circle {
+    transition: .18s cubic-bezier(.55,0,.1,1);
+    stroke-width: 2px;
+  }
   &:hover {
-    transform: translate(0, 50%) scale(1.1);
+    transform: translate(0, 50%) scale(1.05);
+  }
+  &:hover circle {
+    stroke-width: 25px;
+    stroke: $blau;
   }
   @media #{$sm} {
     width: 96px;
