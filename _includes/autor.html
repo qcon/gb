@@ -18,17 +18,6 @@
       <hr />
       <ul class="autor-box-moreposts" data-author="{{ autor.name }}">
         <p><h4>Mehr Beiträge von {{autor.name}}</h4></p>
-        <!-- {% assign post_loop = '' %}
-        {% for posts in site.posts %}
-          {% if posts.author == get_autor and post_loop.size < 5 %}
-            {% capture post_loop %}{{post_loop}}*{% endcapture %}
-            <li>
-              {% unless posts.title == page.title %}
-                <a href="{{posts.url}}">{{posts.title}}</a>
-              {% endunless %}
-            </li>
-          {% endif %}
-        {% endfor %} -->
       </ul>
       <hr />
       <p>
