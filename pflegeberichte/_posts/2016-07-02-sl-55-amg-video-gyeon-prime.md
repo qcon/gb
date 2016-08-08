@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Video: SL 55 AMG'
+title: 'Pflegevideo: SL 55 AMG'
 subtitle: 'Versiegelt mit Gyeon Prime'
 author: 'Marvin'
 header_image: https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/sonstige/sl55amg.jpg
