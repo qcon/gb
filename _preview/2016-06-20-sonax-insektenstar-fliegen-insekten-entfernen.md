@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Sonax InsektenStar'
-subtitle: 'Test'
+subtitle: 'Hilft er wirklich beim entfernen von Insekten auf der Fahrzeugfront?'
 author: 'Chris'
 header_image: https://glossbossimages.s3.eu-central-1.amazonaws.com/criz/sonax-insektenstar/DSC_0017.jpg
 ---
@@ -106,4 +106,4 @@ Für eine einmalige Anwendung auf jeden Fall zu viel und ich habe nur die Front 
 
 Das [Sonax Polymer Netshield](https://glossboss.de/produkttest/sonax-polymer-netshield-protect-and-shine/) wird wohl erstmal mein einziges Sonaxprodukt bleiben, da der InsektenStar nicht überzeugen konnte. Zur Insektenentfernung bleibe ich in Zukunft lieber beim Auto Finesse Citrus Power oder dem ValetPro Advanced Snow Foam.
 
-Welche Produkte benutzt ihr im Sommer zum Insektenentfernen? Wir würden uns freuen, wenn ihr eure Erfahrungen mit uns teilt. Entweder bei Facebook in den Kommentaren oder einfach per Mail! 
+Welche Produkte benutzt ihr im Sommer zum Insektenentfernen? Wir würden uns freuen, wenn ihr eure Erfahrungen mit uns teilt. Entweder bei Facebook in den Kommentaren oder einfach per Mail!
