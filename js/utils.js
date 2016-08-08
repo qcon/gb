@@ -14,9 +14,9 @@ function getPostDB() {
   let postVersion;
   return getVersion().then((data) => {
     const parsedXML = data;
-    const XMLPostVersion = $(parsedXML).find("checkVersion").text();
-    console.log(XMLPostVersion);
-    return $.getJSON(postJSONCache);
+    const XMLPostVersion = $(parsedXML).find("posts").text();
+    console.log(`/posts.json?v=${XMLPostVersion}`);
+    return $.getJSON(`/posts.json?v=${XMLPostVersion}`);
   });
 
 }
