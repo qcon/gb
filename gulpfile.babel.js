@@ -72,7 +72,7 @@ gulp.task('jekyll', ['babel:prod', 'sass'], (done) => {
 
 gulp.task('watch', () => {
   gulp.watch(['allgemein/index.html', 'index.html', '_layouts/*.html',
-  '_includes/*.html', '_posts/*/**', 'js/*/**', '_sass/*.scss', '_preview/*.md',
+  '_includes/*.html', '_posts/*/**', 'js/*', '_sass/*.scss', '_preview/*.md',
   'authoren/*.md', '_data/*', '_config.yml'], ['watch-jekyll']);
 });
 gulp.task('default', ['browser-sync', 'watch']);

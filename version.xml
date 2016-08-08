@@ -1,0 +1,7 @@
+---
+---
+<version>
+  <checkVersion>{{site.xmlversion}}</checkVersion>
+  <posts>{{site.postversion}}</posts>
+  <assets>{{site.version}}</assets>
+</version>

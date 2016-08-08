@@ -6,9 +6,19 @@ const $body = $('body');
 const $cookieAlert = $('.cookies-hinweis');
 const $cookieAccept = $('#cookies_acc');
 const $autorBox = $('.autor-box-moreposts')
+function getVersion() {
+  return $.get('/version.xml');
+}
 
 function getPostDB() {
-  return $.getJSON(postJSONCache);
+  let postVersion;
+  return getVersion().then((data) => {
+    const parsedXML = data;
+    const XMLPostVersion = $(parsedXML).find("checkVersion").text();
+    console.log(XMLPostVersion);
+    return $.getJSON(postJSONCache);
+  })
+
 }
 
 function appendLatestPosts(author) {
