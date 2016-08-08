@@ -7,18 +7,16 @@ const $cookieAlert = $('.cookies-hinweis');
 const $cookieAccept = $('#cookies_acc');
 const $autorBox = $('.autor-box-moreposts')
 function getVersion() {
-  return $.get('/versionn.xml').fail((err) => {
-    console.log(err);
-  });
+  return $.get('/version.xml');
 }
 
 function getPostDB() {
-  // let postVersion;
-  // return getVersion().always((data) => {
-  //   const parsedXML = data;
-  //   const XMLPostVersion = $(parsedXML).find("checkVersion").text();
-  //   console.log(XMLPostVersion);
-  // })
+  let postVersion;
+  return getVersion().always((data) => {
+    const parsedXML = data;
+    const XMLPostVersion = $(parsedXML).find("checkVersion").text();
+    console.log(XMLPostVersion);
+  })
   return $.getJSON(postJSONCache);
 
 }
