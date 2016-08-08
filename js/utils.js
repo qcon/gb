@@ -7,17 +7,17 @@ const $cookieAlert = $('.cookies-hinweis');
 const $cookieAccept = $('#cookies_acc');
 const $autorBox = $('.autor-box-moreposts')
 function getVersion() {
-  return $.get('/version.xml');
+  return $.get('/version.html');
 }
 
 function getPostDB() {
   let postVersion;
-  return getVersion().always((data) => {
+  return getVersion().then((data) => {
     const parsedXML = data;
     const XMLPostVersion = $(parsedXML).find("checkVersion").text();
     console.log(XMLPostVersion);
-  })
-  return $.getJSON(postJSONCache);
+    return $.getJSON(postJSONCache);
+  });
 
 }
 
