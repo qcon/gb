@@ -15,7 +15,6 @@ function getPostDB() {
   return getVersion().then((data) => {
     const parsedXML = data;
     const XMLPostVersion = $(parsedXML).find("posts").text();
-    console.log(`/posts.json?v=${XMLPostVersion}`);
     return $.getJSON(`/posts.json?v=${XMLPostVersion}`);
   });
 
@@ -95,6 +94,7 @@ const prepareSearch = () => {
   const searchWrapper = $('#searchWrapper');
   try {
     if (searchWrapper.length > 0) {
+      $('#search-input').focus();
       $('#search_reset').on('click', () => {
         $('#search-input').val('');
         $('#results-container').html('');
@@ -174,6 +174,7 @@ const addEvents = (() => {
       scrollTop: 0,
     }, 500);
   });
+
 
   // Show Disqus Comments
   $('.showCommentsContainer').on('click', () => {

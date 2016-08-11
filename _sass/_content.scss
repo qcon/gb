@@ -1,3 +1,83 @@
+.slider {
+	width: 100%;
+	padding: 20px 60px;
+	background: $gray;
+	margin: 0 auto 150px;
+  position: relative;
+  @media #{$sm} {
+    padding: 20px;
+    margin-bottom: 50px;
+  }
+  &:hover .slider-btns {
+    opacity: .4;
+  }
+  &:hover {
+    background: $gray_hover;
+  }
+  &-position-marks {
+    text-align: center;
+    span {
+      display: inline-block;
+      margin: 20px 10px 0px;
+      width: 7px;
+      height: 7px;
+      border-radius: 7px;
+      background: #585858;
+      transition: 250ms;
+      &.active {
+        background: $blau;
+      }
+    }
+  }
+  &-btns {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    height: 50px;
+    width: 60px;
+    background: black;
+    opacity: 0;
+    transition: 250ms;
+    transform: translate(60px, -50%);
+    @media #{$sm} {
+      transform: translate(10px, -50%);
+
+    }
+    &.next {
+      transform: translate(-60px, -50%);
+      left: auto;
+      right: 0;
+      @media #{$sm} {
+        transform: translate(-10px, -50%);
+      }
+    }
+    svg {
+      width: 60px;
+      height: 35px;
+      margin-top: 7px;
+    }
+    polyline {
+      stroke: white;
+      stroke-width: 4;
+      transition: 250ms;
+    }
+    &:hover {
+      opacity: .7;
+      polyline {
+        stroke-width:8;
+        stroke: $blau;
+      }
+    }
+  }
+	&-item {
+		max-width: 100%;
+		img {
+			display: block;
+			max-width: 100%;
+      margin: 0 auto;
+		}
+	}
+}
 
 .breadcrumb {
   font-size: 13px;
@@ -144,7 +224,7 @@ table {
 }
 
 .post--list__content {
-  padding: 15px 30px 40px;
+  padding: 15px;
 }
 
 .post--list,
@@ -179,6 +259,20 @@ table {
     position: relative;
   }
   li {
+    &:hover .post--datum {
+      color: $text;
+    }
+    &:hover .post--title__a .post--subtitle {
+      color: $text;
+    }
+    &:hover .post--img {
+      .video-btn {
+        opacity: .7;
+        fill: $blau;
+      }
+      transition: .75s;
+      transform: scale(1.07);
+    }
     background: $gray;
     // margin: 1em;
     padding: 1.5em;
@@ -252,25 +346,7 @@ table {
       transition: 120ms;
     }
 
-    &:hover > .post--datum {
-      color: $text;
-    }
-
-    &:hover > .post--title__a .post--subtitle {
-      color: $text;
-    }
-    &:hover > .post--img {
-      .video-btn {
-        opacity: .7;
-        fill: $blau;
-      }
-      transition: .75s;
-      transform: scale(1.07);
-    }
-
-    &:hover > .post--meta {
-      opacity: 1;
-    }
+  //ALT
   }
 }
 .page-description {

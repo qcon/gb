@@ -6,8 +6,8 @@ randomHeader: true
 </script>
 <div class="width--wrapper" id="post--list__container">
 	<div id="searchWrapper">
-		<div class="sucheInput">
-			<input type="text" id="search-input" placeholder="Suchbegriff...">
+		<form class="sucheInput">
+			<input type="text" id="search-input" placeholder="Suchbegriff..." autofocus>
 
       <svg id="search_reset" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15 15">
       <g>
@@ -21,16 +21,9 @@ randomHeader: true
       </g>
       </svg>
 
-		</div>
+		</form>
 		<ul id="results-container"></ul>
 	</div>
-
-  <!-- <h1 class="page-heading" id="page-heading"></h1> -->
   <ul class="post--list" id="indexContainer"></ul>
-  <noscript>
- Um den vollen Funktionsumfang dieser Webseite zu erfahren, benötigen Sie JavaScript.
- Eine Anleitung wie Sie JavaScript in Ihrem Browser einschalten, befindet sich
- <a href="http://www.enable-javascript.com/de/" target="_blank">hier</a>.
-</noscript>
   {% include loadmore.html %}
 </div>
