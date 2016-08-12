@@ -7,10 +7,11 @@
   text-align: center;
   width: 100px;
   margin: 40px auto 75px;
-  display:block;
+  display:none;
   cursor: pointer;
 
-  @media #{$sm} {
+  @media #{$md} {
+    display: block;
     margin: 20px auto 35px;
   }
 }
