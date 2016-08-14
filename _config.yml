@@ -28,7 +28,7 @@ include:
 - version.html
 markdown: redcarpet
 permalink: "/:categories/:title/"
-version: 43
+version: 44
 postversion: 77
 xmlversion: 101
 headimggradient: linear-gradient(HSLA(197, 100%, 49%,.6),HSLA(197, 100%, 49%,1))

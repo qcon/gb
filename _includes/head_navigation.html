@@ -1,25 +1,26 @@
-	<div class="header-menu">
+{% include svg/arrow-down.svg %}
+  <div class="header-menu">
 		<div class="width--wrapper">
-	<ul>
+	<ul role="navigation" itemscope itemtype="http://schema.org/SiteNavigationElement">
 		<li><a href="/">Startseite</a></li>
-		<li><a href="#">Kategorien {% include svg/arrow-down.svg %}</a>
+		<li><a href="#">Kategorien <svg><use xlink:href="#arrow-down"></use></svg></a>
 			<ul>
-				<li><a href="/allgemein">Allgemein</a></li>
-				<li><a href="/pflegeberichte">Pflegeberichte</a></li>
-				<li><a href="/produkttest">Produkttest</a></li>
-				<li><a href="/anleitungen">Anleitungen</a></li>
+				<li itemprop="name"><a itemprop="url" href="/allgemein">Allgemein</a></li>
+				<li itemprop="name"><a itemprop="url" href="/pflegeberichte">Pflegeberichte</a></li>
+				<li itemprop="name"><a itemprop="url" href="/produkttest">Produkttest</a></li>
+				<li itemprop="name"><a itemprop="url" href="/anleitungen">Anleitungen</a></li>
 			</ul>
 		</li>
-		<li><a href="/suche">Suche</a></li>
-		<li><a href="#">Sonstiges {% include svg/arrow-down.svg %}</a>
+		<li itemprop="name"><a href="/suche">Suche</a></li>
+		<li><a href="#">Sonstiges <svg><use xlink:href="#arrow-down"></use></svg></a>
 			<ul>
-				<li><a href="/mischungsrechner">Mischungsrechner</a></li>
-				<li><a href="/blog-abonnieren">Blog Abonnieren</a></li>
-				<li><a href="/ueber-uns">Über uns</a></li>
-				<li><a href="/impressum">Impressum</a></li>
+				<li itemprop="name"><a itemprop="url" href="/mischungsrechner">Mischungsrechner</a></li>
+				<li itemprop="name"><a itemprop="url" href="/blog-abonnieren">Blog Abonnieren</a></li>
+				<li itemprop="name"><a itemprop="url" href="/ueber-uns">Über uns</a></li>
+				<li itemprop="name"><a itemprop="url" href="/impressum">Impressum</a></li>
 			</ul>
 		</li>
-		<li><a href="#">Glossbosse {% include svg/arrow-down.svg %}</a>
+		<li><a href="#">Glossbosse <svg><use xlink:href="#arrow-down"></use></svg></a>
 			<ul>
 				<li><a href="/glossbosse/marvin">Marvin</a></li>
 	      <li><a href="/glossbosse/jones">Jones</a></li>

@@ -5,7 +5,34 @@ const $toggleNav = $('#mainnav');
 const $body = $('body');
 const $cookieAlert = $('.cookies-hinweis');
 const $cookieAccept = $('#cookies_acc');
-const $autorBox = $('.autor-box-moreposts')
+const $autorBox = $('.autor-box-moreposts');
+const $headerMenu = $('.header-menu');
+const shouldStickPos = $headerMenu.offset().top;
+
+let isScrolling = false;
+
+function scrollDelay(time, fn) {
+  if(isScrolling) return;
+  isScrolling = true;
+  setTimeout(() => {
+    fn();
+    isScrolling = false;
+  }, time);
+}
+$(window).on('scroll', () => {
+  scrollDelay(100, logSomething);
+});
+
+const logSomething = () => {
+  if($(window).scrollTop() >= shouldStickPos) {
+    console.log('stick');
+    $headerMenu.addClass('sticky');
+  } else {
+    console.log('dont stivk');
+    $headerMenu.removeClass('sticky');
+  }
+}
+
 function getVersion() {
   return $.get('/version.html');
 }
