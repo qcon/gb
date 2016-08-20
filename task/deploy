@@ -1,50 +1,58 @@
 #!/bin/sh
 
-# Constants
-S3_BUCKET='s3://glossboss.de'
-SITE_DIR='_site/'
 
-# Colors
-NORMAL=$(tput sgr0)
-RED=$(tput setaf 1)
-GREEN=$(tput setaf 2; tput bold)
-YELLOW=$(tput setaf 3)
-function red() {
-    echo "$RED$*$NORMAL"
-}
-function green() {
-    echo "$GREEN$*$NORMAL"
-}
-function yellow() {
-    echo "$YELLOW$*$NORMAL"
-}
+# Deploy on Netlify
 
-# Commit and add git changes
-red "Enter commit message: "
-read commit_msg
-
-
-# Build and push to git
-green '--> Build Jekyll and push to git'
-gulp jekyll
-git add .
-git commit -am ":boom: $commit_msg"
-git push
-red '<-- done'
-
-# GZIP
-green '--> GZIP all html, json, js and css files'
-find _site/ -iname '*.html' -exec gzip -9 -n {} \; -exec mv {}.gz {} \;
-find _site/ -iname '*.json' -exec gzip -9 -n {} \; -exec mv {}.gz {} \;
-find _site/ -iname '*.js' -exec gzip -9 -n {} \; -exec mv {}.gz {} \;
-find _site/ -iname '*.css' -exec gzip -9 -n {} \; -exec mv {}.gz {} \;
-red '<-- done'
-
-# Push to S3
-green '--> Push to S3'
-s3cmd sync -M --acl-public --exclude '*.*' --include '*.js' --include '*.css' --add-header='Cache-Control:max-age=1728000' --add-header='Content-Encoding:gzip' $SITE_DIR $S3_BUCKET
-s3cmd sync -M --acl-public --exclude '*.*' --include '*.json' --add-header='Cache-Control:max-age=1728000' --add-header='Content-Encoding:gzip' $SITE_DIR $S3_BUCKET
-s3cmd sync -M --acl-public --exclude '*.*' --include '*.html' --add-header='Cache-Control:max-age=0, must-revalidate' --add-header='Content-Encoding:gzip' $SITE_DIR $S3_BUCKET
-s3cmd sync --acl-public --delete-removed $SITE_DIR $S3_BUCKET
-red '<-- done'
+gulp build
+netlify deploy
 say -v Whisper "Successfully Deployed"
+
+#
+# # Constants
+# S3_BUCKET='s3://glossboss.de'
+# SITE_DIR='_site/'
+#
+# # Colors
+# NORMAL=$(tput sgr0)
+# RED=$(tput setaf 1)
+# GREEN=$(tput setaf 2; tput bold)
+# YELLOW=$(tput setaf 3)
+# function red() {
+#     echo "$RED$*$NORMAL"
+# }
+# function green() {
+#     echo "$GREEN$*$NORMAL"
+# }
+# function yellow() {
+#     echo "$YELLOW$*$NORMAL"
+# }
+#
+# # Commit and add git changes
+# red "Enter commit message: "
+# read commit_msg
+#
+#
+# # Build and push to git
+# green '--> Build Jekyll and push to git'
+# gulp jekyll
+# git add .
+# git commit -am ":boom: $commit_msg"
+# git push
+# red '<-- done'
+#
+# # GZIP
+# green '--> GZIP all html, json, js and css files'
+# find _site/ -iname '*.html' -exec gzip -9 -n {} \; -exec mv {}.gz {} \;
+# find _site/ -iname '*.json' -exec gzip -9 -n {} \; -exec mv {}.gz {} \;
+# find _site/ -iname '*.js' -exec gzip -9 -n {} \; -exec mv {}.gz {} \;
+# find _site/ -iname '*.css' -exec gzip -9 -n {} \; -exec mv {}.gz {} \;
+# red '<-- done'
+#
+# # Push to S3
+# green '--> Push to S3'
+# s3cmd sync -M --acl-public --exclude '*.*' --include '*.js' --include '*.css' --add-header='Cache-Control:max-age=1728000' --add-header='Content-Encoding:gzip' $SITE_DIR $S3_BUCKET
+# s3cmd sync -M --acl-public --exclude '*.*' --include '*.json' --add-header='Cache-Control:max-age=1728000' --add-header='Content-Encoding:gzip' $SITE_DIR $S3_BUCKET
+# s3cmd sync -M --acl-public --exclude '*.*' --include '*.html' --add-header='Cache-Control:max-age=0, must-revalidate' --add-header='Content-Encoding:gzip' $SITE_DIR $S3_BUCKET
+# s3cmd sync --acl-public --delete-removed $SITE_DIR $S3_BUCKET
+# red '<-- done'
+# say -v Whisper "Successfully Deployed"

@@ -62,6 +62,8 @@ gulp.task('jekylldev', ['babel:prod', 'sass'], (done) => {
   .on('close', done);
 });
 
+gulp.task('build', ['jekylldev']);
+
 gulp.task('jekyll', ['babel:prod', 'sass'], (done) => {
   browserSync.notify(MESSAGES.jekyllBuild);
   return cp.spawn('jekyll', ['build'], {
