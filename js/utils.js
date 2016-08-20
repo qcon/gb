@@ -19,32 +19,20 @@ function scrollDelay(time, fn) {
     isScrolling = false;
   }, time);
 }
-$(window).on('scroll', () => {
-  scrollDelay(100, logSomething);
-});
-
-const logSomething = () => {
-  if($(window).scrollTop() >= shouldStickPos) {
-    console.log('stick');
+const stickyNav = () => {
+  if ($(window).scrollTop() >= shouldStickPos) {
     $headerMenu.addClass('sticky');
   } else {
-    console.log('dont stivk');
     $headerMenu.removeClass('sticky');
   }
-}
+};
 
-function getVersion() {
-  return $.get('/version.html');
-}
+$(window).on('scroll', () => {
+  scrollDelay(100, stickyNav);
+});
 
 function getPostDB() {
-  let postVersion;
-  return getVersion().then((data) => {
-    const parsedXML = data;
-    const XMLPostVersion = $(parsedXML).find("posts").text();
-    return $.getJSON(`/posts.json?v=${XMLPostVersion}`);
-  });
-
+  return $.getJSON(`/posts.json`);
 }
 
 function appendLatestPosts(author) {
