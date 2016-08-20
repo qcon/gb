@@ -12,7 +12,7 @@ const shouldStickPos = $headerMenu.offset().top;
 let isScrolling = false;
 
 function scrollDelay(time, fn) {
-  if(isScrolling) return;
+  if (isScrolling) return;
   isScrolling = true;
   setTimeout(() => {
     fn();
@@ -32,21 +32,21 @@ $(window).on('scroll', () => {
 });
 
 function getPostDB() {
-  return $.getJSON(`/posts.json`);
+  return $.getJSON('/posts.json');
 }
 
 function appendLatestPosts(author) {
-  let loadedPosts = getPostDB();
+  const loadedPosts = getPostDB();
   loadedPosts.then((data) => {
     data.filter((a) => {
-      return a.author == author
-    }).map((posts, i) => {
-      if (i >= 5) return
-      $autorBox.append($(`<li><a href="${posts.url}">${posts.title}</a></li>`))
+      return a.author === author;
+    }).map((posts, i) => { // eslint-disable-line
+      if (i >= 5) return; // eslint-disable-line
+      $autorBox.append($(`<li><a href="${posts.url}">${posts.title}</a></li>`));
     });
   });
 }
-if($autorBox.length > 0) {
+if ($autorBox.length > 0) {
   appendLatestPosts($autorBox.attr('data-author'));
 }
 

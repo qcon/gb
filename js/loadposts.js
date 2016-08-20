@@ -1,4 +1,4 @@
-/* global postJSONCache loadingScreen */
+/* global postJSONCache loadingScreen getPostDB */
 let category = null;
 let postDB = [];
 let postsLoaded = 0;
