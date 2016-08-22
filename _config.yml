@@ -3,7 +3,7 @@ title: glossboss.de - Der Autopflege Blog für echte Enthusiasten
 email: mail@glossboss.de
 description: Ein Autopflegeblog von und für absolute Enthusiasten
 baseurl: ''
-url: https://glossboss.de
+url: https://www.glossboss.de
 max_index_posts: 15
 exclude:
 #- glossbosse
