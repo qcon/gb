@@ -8,6 +8,7 @@ const $cookieAccept = $('#cookies_acc');
 const $autorBox = $('.autor-box-moreposts');
 const $headerMenu = $('.header-menu');
 const shouldStickPos = $headerMenu.offset().top;
+const $searchForm = $('#search_form');
 
 let isScrolling = false;
 
@@ -127,6 +128,14 @@ const prepareSearch = () => {
         limit: 25,
         fuzzy: false,
       });
+      if (location.search.length > 3) {
+        $('#search-input').val(location.search.substr(3, location.search.length));
+        setTimeout(() => {
+          const eventKeyup = document.createEvent('HTMLEvents');
+          eventKeyup.initEvent('keyup', false, true);
+          document.querySelector('#search-input').dispatchEvent(eventKeyup);
+        }, 50);
+      }
     }
   } catch (e) {
     throw new Error(e);
@@ -188,6 +197,12 @@ const addEvents = (() => {
     $('body,html').animate({
       scrollTop: 0,
     }, 500);
+  });
+
+  $searchForm.on('submit', (evt) => {
+    evt.preventDefault();
+    const searchIn = $('#search_input_nav').val();
+    location.href = `/suche/?q=${searchIn}`;
   });
 
 

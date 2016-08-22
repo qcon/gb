@@ -6,9 +6,7 @@
     width: 100%;
     border-bottom: 2px solid $blau;
     background: $gray;
-
   }
-
   a {
     color: $text;
     text-decoration: none;
@@ -51,6 +49,11 @@
   		height: 10px;
   		margin-left: 10px;
   	}
+    input {
+      padding:6px 7px;
+      margin: 10px;
+      font-size: 13px;
+    }
   }
   ul li:hover {
     background: $gray_hover;
