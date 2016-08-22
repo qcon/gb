@@ -130,13 +130,13 @@ const prepareSearch = () => {
       });
       if (location.search.length > 3) {
         loadingScreen(1);
-        $('#search-input').val(location.search.substr(3, location.search.length));
-        setTimeout(() => {
+        $.getJSON('/posts.json').then(() => {
+          $('#search-input').val(location.search.substr(3, location.search.length));
           const eventKeyup = document.createEvent('HTMLEvents');
           eventKeyup.initEvent('keyup', false, true);
           document.querySelector('#search-input').dispatchEvent(eventKeyup);
           loadingScreen(0);
-        }, 500);
+        });
       }
     }
   } catch (e) {
