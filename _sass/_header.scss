@@ -50,10 +50,13 @@
   		margin-left: 10px;
   	}
     input {
-      padding:6px 7px;
-      margin: 10px;
-      font-size: 13px;
+      padding:7px 12px;
+      margin: 8px;
+      font-size: 14px;
       width: 80%;
+      border-width: 0;
+      border: none;
+      border: 1px solid $gray_hover;
     }
   }
   ul li:hover {

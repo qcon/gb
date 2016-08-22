@@ -125,42 +125,23 @@ a.primary_btn {
     text-align: center;
   }
 @extend .radio--labels--btn;
-  // input[type="radio"] {
-  // 	display:none;
-  // 	margin:.6em;
-  // }
-  // input[type=radio] + label {
-  // 	@extend .secondary_btn;
-  // 	margin:0 .5em .5em 0;
-  // }
-  // input[type=radio]:checked + label {
-  // 	background-image: none;
-  // 	background-color:$blau;
-  // 	color:white;
-  // 	@include materialShadow(1);
-  // }
   h1 {
     @include font(special);
   }
-
   .mischung--radio {
     margin: 3em 0;
   }
-
   .mischung--heading {
     @extend .heading;
   }
-
   .mischung--heading__subtitle {
     @include font(light);
     font-size: 1.2em;
     margin: .5em 0;
   }
-
   .mischung--highlight {
     color: $blau;
   }
-
   #mischungResult {
     margin-top: .5em;
     display: none;
@@ -183,7 +164,7 @@ input:focus {
 
 .sucheInput {
   text-align: center;
-
+  margin-bottom: 50px;
   svg {
     width: 18px;
     fill: mix($text, white, 45);
