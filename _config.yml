@@ -26,6 +26,7 @@ exclude:
 include:
 - dist
 - version.html
+- super-duper-secret.html
 markdown: redcarpet
 permalink: "/:categories/:title/"
 version: 44

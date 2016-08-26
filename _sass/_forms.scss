@@ -1,3 +1,97 @@
+.askGlossbossToggle {
+//   display: none;
+  z-index: 3;
+  cursor: pointer;
+  text-indent: 90000px;
+  width: 65px;
+  height: 65px;
+  border-radius: 100%;
+  background: $blau;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  color: white;
+  transition: all 250ms ease-out;
+  // box-shadow: 1px 3px 2px rgba(0,0,0,.1);
+  @include materialShadow(1);
+  background: url(data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHZlcnNpb249IjEuMSIgdmlld0JveD0iMCAwIDI2IDI2IiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCAyNiAyNiIgd2lkdGg9IjY0cHgiIGhlaWdodD0iNjRweCI+CiAgPGc+CiAgICA8cGF0aCBkPSJtMTQsMjJoLTJjLTAuNiwwLTEsMC40LTEsMXYyYzAsMC42IDAuNCwxIDEsMWgyYzAuNiwwIDEtMC40IDEtMXYtMmMwLTAuNi0wLjQtMS0xLTF6IiBmaWxsPSIjRkZGRkZGIi8+CiAgICA8cGF0aCBkPSJNMTMsMEM4LDAsNCw0LDQsOWMwLDAuNSwwLDEsMC4xLDEuNWMwLjEsMC42LDAuNywwLjksMS4zLDAuOGwxLjktMC42YzAuNS0wLjEsMC44LTAuNiwwLjctMS4xQzgsOS40LDgsOS4yLDgsOSAgIGMwLTIuOCwyLjItNSw1LTVzNSwyLjIsNSw1YzAsMS43LTEsMi41LTIuOCw0Yy0xLjcsMS40LTMuNywzLTQuMiw1LjljLTAuMSwwLjYsMC40LDEuMSwxLDEuMWgyYzAuNSwwLDAuOS0wLjMsMS0wLjggICBjMC4zLTEuMiwxLjItMiwyLjctMy4xQzE5LjYsMTQuNiwyMiwxMi43LDIyLDlDMjIsNCwxOCwwLDEzLDB6IiBmaWxsPSIjRkZGRkZGIi8+CiAgPC9nPgo8L3N2Zz4K) center center no-repeat $blau;
+  background-size: 30px;
+  &:hover {
+    @include materialShadow(2);
+  }
+  @media #{$sm} {
+    width: 50px;
+    height: 50px;
+    background-size: 23px;
+  }
+  &.open {
+    border-radius: 0 100% 100%;
+    background: $gray;
+    color: $text;
+    transform: rotate(45deg);
+    background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADgAAAA4CAYAAACohjseAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAANBJREFUeNrs2zEKwkAQheHsFmltBO+W2tZL6Fls1INJtBCxS3B9IVNI+p3A8A882K2GL7sQmJBUSmkca6Mk5eXVMDvi9spDeSoHr6bJ8QTvys7WbzvNUMBloxTtiq5SAAECBAgQIECAAAECBAgQIECAAAFWAbbKWRmbebRXK8uq2Ws0UzvNRTvbRKwuB7+mecJdlKsyBIINZroxuuc1ARAgQIAAAQIECBAgQIAAAQIECBDgisD+b/2JCDw28zeDr3LyapqcfyvY2kPtvRr+BBgAr3dW/fZtoWAAAAAASUVORK5CYII=) center center no-repeat mix($blau, white, 30);
+    background-size: 30px;
+  }
+}
+.askGlossboss {
+  z-index: 3;
+  display: none;
+  position: fixed;
+  bottom: 120px;
+  right: 20px;
+  width: 90%;
+  max-width: 500px;
+  max-height: 90%;
+  background: white;
+  box-shadow: 0 0 1px rgba(76,86,103,.25),0 2px 18px rgba(31,37,50,.32);
+  @media #{$sm} {
+    bottom: 95px;
+    right: 0;
+    width: 100%;
+  }
+  &-inner {
+    margin: 0 auto;
+    padding: 15px 20px;
+  }
+  input:nth-child(1) {
+    margin-top: 15px;
+  }
+  input, textarea {
+    &.formerror {
+      border-color: red;
+    }
+    background: 0 0;
+    border: 1px solid #d9d9d9;
+    border-radius: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    color: #333;
+    display: block;
+    font-size: 12px;
+    font-weight: 400;
+    height: 36px;
+    line-height: 16px;
+    padding: 4px 12px;
+    width: 100%;
+    margin-bottom: 12px;
+    &:focus {
+      border-color: $blau;
+    }
+  }
+  textarea {
+    height: 116px;
+    line-height: 22px;
+    padding: 8px 12px;
+    resize: none;
+  }
+  &-message {
+    display: none !important;
+    opacity: 0;
+    visibility: hidden;
+  }
+
+}
 .radio--labels--btn {
   input[type="radio"] {
     display: none;
@@ -47,8 +141,6 @@ a.primary_btn {
   background-color: $blau;
   color: white;
   text-decoration: none;
-  margin-left: 10px;
-
   &:hover {
     background: darken($blau,10%);
   }

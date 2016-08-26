@@ -30,7 +30,7 @@ gulp.task('babel:prod', ['babel:dev'], () => {
   .pipe(gulp.dest('./dist/'));
 });
 
-gulp.task('browser-sync', ['jekylldev'], () => {
+gulp.task('browser-sync', ['jekyll:dev'], () => {
   browserSync.init({
     server: {
       baseDir: './_site',
@@ -52,9 +52,17 @@ gulp.task('sass-layout', () => {
   .pipe(gulp.dest('./dist/'));
 });
 
-gulp.task('watch-jekyll', ['jekylldev'], browserSync.reload);
+gulp.task('watch-jekyll', ['jekyll:dev'], browserSync.reload);
 
-gulp.task('jekylldev', ['babel:prod', 'sass'], (done) => {
+gulp.task('jekyll:dev', ['babel:prod', 'sass'], (done) => {
+  browserSync.notify(MESSAGES.jekyllBuild);
+  return cp.spawn('jekyll', ['build', '--limit_posts', '10'], {
+    stdio: 'inherit',
+  })
+  .on('close', done);
+});
+
+gulp.task('jekyll:prod', ['babel:prod', 'sass'], (done) => {
   browserSync.notify(MESSAGES.jekyllBuild);
   return cp.spawn('jekyll', ['build'], {
     stdio: 'inherit',
@@ -62,15 +70,7 @@ gulp.task('jekylldev', ['babel:prod', 'sass'], (done) => {
   .on('close', done);
 });
 
-gulp.task('build', ['jekylldev']);
-
-gulp.task('jekyll', ['babel:prod', 'sass'], (done) => {
-  browserSync.notify(MESSAGES.jekyllBuild);
-  return cp.spawn('jekyll', ['build'], {
-    stdio: 'inherit',
-  })
-  .on('close', done);
-});
+gulp.task('build', ['jekyll:prod']);
 
 gulp.task('watch', () => {
   gulp.watch(['allgemein/index.html', 'index.html', '_layouts/*.html',

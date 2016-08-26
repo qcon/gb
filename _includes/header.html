@@ -12,11 +12,11 @@
       {% endif %}
     </div>
   </div>
-  <a href="https://glossboss.de/">
+  <a href="{{site.url}}" aria-label="Glossboss.de Startseite">
     {% include svg/G.svg %}
   </a>
 </header>
-<a href="#" role="button" tabindex="0" class="header__extend" id="mainnav">
+<a href="#" role="button" tabindex="0" class="header__extend" id="mainnav" aria-label="Menü">
   {% include svg/menutoggle.svg %}
 </a>
 {% include head_navigation.html %}

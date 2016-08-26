@@ -203,6 +203,7 @@ const addEvents = (() => {
 
   $searchForm.on('submit', (evt) => {
     evt.preventDefault();
+    $searchForm.serialize();
     const searchIn = $('#search_input_nav').val();
     location.href = `/suche/?q=${searchIn}`;
   });

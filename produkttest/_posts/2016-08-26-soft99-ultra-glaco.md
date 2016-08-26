@@ -45,3 +45,5 @@ Für wieviele Scheiben die 70ml ausreichen kann ich aktuell leider noch nicht sa
 Der Hersteller gibt ein Ablaufen des Wassers bereits ab 45km/h an. Diesen Wert kann ich im Praxiseinsatz nicht bestätigen, jedoch läuft das Wasser ab 60m/h ausreichend gut ab, um den Scheibenwischer nicht benutzen zu müssen. Die Geschwindigkeit hängt jedoch sicher auch vom jeweiligen Fahrzeugmodell und der Scheibenneigung ab.
 
 Da sich das Ablaufverhalten schlecht auf Bildern festhalten lässt, gibt es zum Schluss noch ein kurzes Video!
+
+{% include video.html videoURL="https://www.youtube.com/embed/U5C9SSFHuIw" %}
