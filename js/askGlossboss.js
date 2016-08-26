@@ -40,7 +40,7 @@ askGlossbossSubmit.on('click', (e) => {
   resetInputs();
 
   if (checkInputs()) {
-    // $form.submit();
+    $form.submit();
   }
 });
 $form.submit((e) => {
