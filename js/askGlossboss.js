@@ -38,15 +38,18 @@ askGlossbossToggleBtn.on('click', () => {
 askGlossbossSubmit.on('click', (e) => {
   e.preventDefault();
   resetInputs();
+
   if (checkInputs()) {
-    $form.submit();
+    // $form.submit();
   }
 });
 $form.submit((e) => {
   e.preventDefault();
   $.post($form.attr('action'), $form.serialize()).then(() => {
-    alert("Danke für deine Nachricht, wir werden bald antworten."); //eslint-disable-line
-    askGlossbossToggleBtn.hide('fast');
-    askGlossbossContainer.hide('fast');
+    askGlossbossContainer.find('.askGlossboss-inner').html('<h1>Danke für deine Nachricht, wir werden bald antworten.</h1>'); //eslint-disable-line
+    setTimeout(() => {
+      askGlossbossToggleBtn.hide('fast');
+      askGlossbossContainer.hide('fast');
+    }, 2000);
   });
 });
