@@ -1,8 +1,4 @@
-/* global headerGradient, loadingScreen, SimpleJekyllSearch, postJSONCache */
-const $sideMenu = $('#sidemenu');
-const $fullPage = $('#fullpage');
-const $toggleNav = $('#mainnav');
-const $body = $('body');
+/* global headerGradient, loadingScreen, postJSONCache */
 const $cookieAlert = $('.cookies-hinweis');
 const $cookieAccept = $('#cookies_acc');
 const $autorBox = $('.autor-box-moreposts');
@@ -59,91 +55,6 @@ function loadingScreen(toggle) { // eslint-disable-line
     loadingElement.hide();
   }
 }
-
-const SideMenu = {};
-SideMenu.close = () => {
-  $sideMenu.removeClass('menuOut');
-  $fullPage.off('click', SideMenu.closeFullpage);
-  $body.off('keydown', SideMenu.closeOnEscape);
-  $fullPage.removeClass('opacity03');
-  // ARIA
-  $toggleNav.attr('aria-expanded', 'false');
-  $toggleNav.attr('aria-label', 'Menü');
-  $toggleNav.attr('aria-controls', 'sidemenu');
-
-  $sideMenu.attr('aria-hidden', 'true');
-  $sideMenu.attr('aria-labelledby', 'mainnav');
-};
-SideMenu.open = (event) => {
-  event.stopPropagation();
-  event.preventDefault();
-  if (!$sideMenu.hasClass('menuOut')) {
-    $fullPage.addClass('opacity03');
-    $sideMenu.addClass('menuOut');
-  }
-  setTimeout(() => {
-    $toggleNav.attr('aria-expanded', 'true');
-    $sideMenu.attr('aria-hidden', 'false');
-    $fullPage.on('click', SideMenu.closeFullpage);
-    $body.on('keydown', SideMenu.closeOnEscape);
-  }, 100);
-};
-SideMenu.closeFullpage = (event) => {
-  event.preventDefault();
-  SideMenu.close();
-};
-SideMenu.closeOnEscape = (event) => {
-  if (event.which === 27) {
-    event.stopPropagation();
-    event.preventDefault();
-
-    SideMenu.close();
-  }
-};
-SideMenu.initialize = () => {
-  SideMenu.close();
-  $toggleNav.on('click', SideMenu.open);
-};
-SideMenu.initialize();
-
-const prepareSearch = () => {
-  const searchWrapper = $('#searchWrapper');
-  try {
-    if (searchWrapper.length > 0) {
-      $('#search-input').focus();
-      $('#search_reset').on('click', () => {
-        $('#search-input').val('');
-        $('#results-container').html('');
-      });
-      searchWrapper.show();
-      SimpleJekyllSearch.init({
-        templateMiddleware(prop, value, template) {
-          return template.classList.remove('displayNone');
-        },
-        searchInput: document.getElementById('search-input'),
-        resultsContainer: document.getElementById('results-container'),
-        dataSource: postJSONCache,
-        searchResultTemplate: '{card}',
-        noResultsText: '<li>Nichts passendes dabei. Hast du eine Idee für einen Artikel? <a style="text-align:center" href="mailto:mail@glossboss.de">Kontaktiere uns!</a></li>', // eslint-disable-line
-        limit: 25,
-        fuzzy: false,
-      });
-      if (location.search.length > 3) {
-        loadingScreen(1);
-        $('#search-input').val(location.search.substr(3, location.search.length));
-        $.getJSON('/posts.json').then(() => {
-          setTimeout(() => {
-            SimpleJekyllSearch.renderExternal();
-            loadingScreen(0);
-          }, 200);
-        });
-      }
-    }
-  } catch (e) {
-    throw new Error(e);
-  }
-};
-prepareSearch();
 
 const acceptCookies = () => {
   if (!localStorage.getItem('GLOSSBOSS_COOKIES_ACCEPTED')) {
