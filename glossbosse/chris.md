@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 randomHeader: true
 title: Beiträge von Chris
 ---
