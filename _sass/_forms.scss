@@ -1,5 +1,4 @@
 .askGlossbossToggle {
-//   display: none;
   z-index: 3;
   cursor: pointer;
   text-indent: 90000px;
@@ -12,7 +11,6 @@
   right: 20px;
   color: white;
   transition: all 250ms ease-out;
-  // box-shadow: 1px 3px 2px rgba(0,0,0,.1);
   @include materialShadow(1);
   background: url(data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHZlcnNpb249IjEuMSIgdmlld0JveD0iMCAwIDI2IDI2IiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCAyNiAyNiIgd2lkdGg9IjY0cHgiIGhlaWdodD0iNjRweCI+CiAgPGc+CiAgICA8cGF0aCBkPSJtMTQsMjJoLTJjLTAuNiwwLTEsMC40LTEsMXYyYzAsMC42IDAuNCwxIDEsMWgyYzAuNiwwIDEtMC40IDEtMXYtMmMwLTAuNi0wLjQtMS0xLTF6IiBmaWxsPSIjRkZGRkZGIi8+CiAgICA8cGF0aCBkPSJNMTMsMEM4LDAsNCw0LDQsOWMwLDAuNSwwLDEsMC4xLDEuNWMwLjEsMC42LDAuNywwLjksMS4zLDAuOGwxLjktMC42YzAuNS0wLjEsMC44LTAuNiwwLjctMS4xQzgsOS40LDgsOS4yLDgsOSAgIGMwLTIuOCwyLjItNSw1LTVzNSwyLjIsNSw1YzAsMS43LTEsMi41LTIuOCw0Yy0xLjcsMS40LTMuNywzLTQuMiw1LjljLTAuMSwwLjYsMC40LDEuMSwxLDEuMWgyYzAuNSwwLDAuOS0wLjMsMS0wLjggICBjMC4zLTEuMiwxLjItMiwyLjctMy4xQzE5LjYsMTQuNiwyMiwxMi43LDIyLDlDMjIsNCwxOCwwLDEzLDB6IiBmaWxsPSIjRkZGRkZGIi8+CiAgPC9nPgo8L3N2Zz4K) center center no-repeat $blau;
   background-size: 30px;
@@ -48,6 +46,7 @@
     bottom: 95px;
     right: 0;
     width: 100%;
+    font-size: 13px;
   }
   &-inner {
     margin: 0 auto;
@@ -84,6 +83,9 @@
     line-height: 22px;
     padding: 8px 12px;
     resize: none;
+    @media #{$sm} {
+      height: 80px;
+    }
   }
   &-message {
     display: none !important;
