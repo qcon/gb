@@ -25,8 +25,6 @@ exclude:
 - spenden
 include:
 - dist
-- version.html
-- super-duper-secret.html
 markdown: redcarpet
 permalink: "/:categories/:title/"
 # headimggradient: linear-gradient(HSLA(197, 100%, 49%,.6),HSLA(197, 100%, 49%,1))
