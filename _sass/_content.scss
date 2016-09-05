@@ -177,13 +177,12 @@ table {
   width: 100%;
   text-align: center;
   font-size: 15px;
-  // margin: 20px auto;
   display: none;
   z-index: 2;
   background-color: $gray;
   position: fixed;
-  bottom: 0;
-  padding-top: 10px;
+  top: 0;
+  padding: 15px;
 
   a {
     @extend %simpleLink;
