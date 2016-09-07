@@ -56,7 +56,7 @@ gulp.task('watch-jekyll', ['jekyll:dev'], browserSync.reload);
 
 gulp.task('jekyll:dev', ['babel:prod', 'sass'], (done) => {
   browserSync.notify(MESSAGES.jekyllBuild);
-  return cp.spawn('jekyll', ['build', '--limit_posts', '10'], {
+  return cp.spawn('jekyll', ['build', '--limit_posts', '200'], {
     stdio: 'inherit',
   })
   .on('close', done);
