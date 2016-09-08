@@ -1,7 +1,7 @@
 ---
 layout: post
-title: 'Porsche 964'
-subtitle: 'Zymöl Destiny'
+title: 'Porsche 964 schwarz Metallic'
+subtitle: 'Gewachst mit Zymöl Destiny'
 author: 'Marvin'
 header_image: https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/sonstige/Porsche964.jpg
 video: true
