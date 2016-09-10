@@ -1,14 +1,13 @@
 footer {
-  background-color: $blau;
+  // background-color: $blau;
+  background: $green-blue-gradient;
   @include font(light);
   text-align: center;
-  color: mix(black,$blau,20%);
-
+  text-shadow: 1px 1px 3px rgba(black,.2);
   a {
-    color: mix(white,$blau,60%);
+    color: white;
     text-decoration: none;
   }
-
   h5 {
     margin: 1em 0 2em;
   }

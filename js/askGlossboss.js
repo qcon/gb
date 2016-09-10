@@ -14,6 +14,11 @@ function resetInputs() {
   askGlossbossName.removeClass('formerror');
   askGlossbossFrage.removeClass('formerror');
 }
+function askGlossbossToggleContainer() {
+  askGlossbossContainer.toggle('fast');
+  askGlossbossToggleBtn.toggleClass('open');
+  $('#askGlossboss-Name').focus();
+}
 function checkInputs() {
   let err = 0;
   if (askGlossbossName.val().length <= 2) {
@@ -31,9 +36,7 @@ function checkInputs() {
   return err === 0;
 }
 askGlossbossToggleBtn.on('click', () => {
-  askGlossbossContainer.toggle('fast');
-  askGlossbossToggleBtn.toggleClass('open');
-  $('#askGlossboss-Name').focus();
+  askGlossbossToggleContainer();
 });
 askGlossbossSubmit.on('click', (e) => {
   e.preventDefault();

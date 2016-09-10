@@ -5,6 +5,7 @@ $text-disabled: #8e8e8e;
 $gray: HSL(300,5%,96%);
 $gray_hover: HSL(300,5%,93%);
 $transition_bounce: cubic-bezier(.15,2.04,.85,.61);
+$green-blue-gradient: linear-gradient(to top left, rgba(68, 188, 255, 0.97), rgba(68, 255, 160, 0.55));
 
 // $transition_sidebar: 250ms ease-in;
 $transition_sidebar: transform 0.33s cubic-bezier(0,0,0.3,1);
