@@ -15,7 +15,7 @@ const prepareSearch = () => {
         },
         searchInput: document.getElementById('search-input'),
         resultsContainer: document.getElementById('results-container'),
-        dataSource: postJSONCache,
+        dataSource: '/posts.json',
         searchResultTemplate: '{card}',
         noResultsText: '<li>Nichts passendes dabei. Hast du eine Idee für einen Artikel? <a style="text-align:center" href="mailto:mail@glossboss.de">Kontaktiere uns!</a></li>', // eslint-disable-line
         limit: 25,
