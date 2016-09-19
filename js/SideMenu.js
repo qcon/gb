@@ -1,6 +1,7 @@
 const $sideMenu = $('#sidemenu');
 const $fullPage = $('#fullpage');
 const $toggleNav = $('#mainnav');
+const $closeSideMenu = $('.js-close-sidemenu');
 const $body = $('body');
 const SideMenu = {};
 SideMenu.close = () => {
@@ -28,6 +29,7 @@ SideMenu.open = (event) => {
     $sideMenu.attr('aria-hidden', 'false');
     $fullPage.on('click', SideMenu.closeFullpage);
     $body.on('keydown', SideMenu.closeOnEscape);
+    $closeSideMenu.on('click', SideMenu.close);
   }, 100);
 };
 SideMenu.closeFullpage = (event) => {
