@@ -4,6 +4,7 @@ title: Microfiber Madness Incredipad
 subtitle: Kurzvorstellung im Video
 author: Marvin
 header_image: https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/sonstige/microfiber_madness_incredipad.jpg
+video: true
 ---
 # Microfiber Madness Incredipad
 

@@ -5,7 +5,7 @@ subtitle: "Kohlebürsten, Getriebefett, Kabelbruch, ... "
 author: 'Jones'
 header_image: https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/flex_wartung/0043.jpg
 ---
-Hallo ihr Poliermaschien-Quäler,   
+Hallo ihr Poliermaschinen-Quäler,   
 auch das Arbeitszeug will zwischendurch gepflegt und gewartet werden, *exzessives & leidenschaftliches Detailing* macht sich nicht nur bei einem selbst bemerkbar.   
 
 Meine geliebte **Flex 14-2 150** hat schon fleißig Betriebsstunden gesammelt, jedoch unterliegt auch gutes Werkzeug einem gewissen Verschleiß. Vor kurzem kam es zu einem Kabelbruch, die Maschine setzte zeitweise aus sobald man das Kabel bewegte. Klarer Fall, ist jedoch fix, einfach und ohne zu bestellende Teile zu beheben.   
@@ -14,7 +14,7 @@ Beim Zerlegen von Maschinen sollte stets ein prüfender Blick auf die weiteren B
 Nachfolgend findet ihr hoffentlich hilfreiches zur **Flex 14er Serie**, **DAS6 Exzenter** wie die Lupus 6100, Dodo Buff Daddy usw. und zur **Makita 9227 CB**.   
 
 >**Anmerkung**: Bei allen Arbeiten an der Maschine stets den **Netzstecker ziehen**! Kribbelt  weniger und das Licht bleibt an ;)   
-Es kann die möglicherweise noch existierende Garantie erlischen falls ihr selbst an der Maschine werkelt, wir haften nicht für den Mist den ihr verzapft :P und geben auch keine Garantie auf Richtigkeit der nachfolgenden Hilfestellung. ;)   
+Es kann die möglicherweise noch existierende Garantie erlöschen falls ihr selbst an der Maschine werkelt, wir haften nicht für den Mist den ihr verzapft :P und geben auch keine Garantie auf Richtigkeit der nachfolgenden Hilfestellung. ;)   
 
 
 #Flex 14-2 150       

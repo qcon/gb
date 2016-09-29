@@ -9,6 +9,15 @@ function validateEmail(email) {
   const re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/; // eslint-disable-line
   return re.test(email);
 }
+function checkQuestion(q) {
+  let nooope = 0;
+  q.split('').map((char) => {
+    if (char === '>' || char === '<') {
+      nooope++;
+    }
+  });
+  return (nooope >= 2);
+}
 function resetInputs() {
   askGlossbossEmail.removeClass('formerror');
   askGlossbossName.removeClass('formerror');
@@ -21,6 +30,9 @@ function askGlossbossToggleContainer() {
 }
 function checkInputs() {
   let err = 0;
+  if (checkQuestion(askGlossbossFrage.val())) {
+    err++;
+  }
   if (askGlossbossName.val().length <= 2) {
     askGlossbossName.addClass('formerror');
     err++;
