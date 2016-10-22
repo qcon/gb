@@ -203,6 +203,7 @@ Das hier ist übrigens Jens aus HH-Eppendorf, der auch in den Bericht wollte :-)
 
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/chiller/CLS350CDI/CLS_350_CDI98.jpg)
 
+{% include video.html videoURL="https://www.youtube.com/embed/vlGHKbgaies" %}
 
 
 Die vielen Bilder haben euch hoffentlich nicht erschlagen. Wir haben irgendwie das Zeitgefühl verloren, denn mit jedem Wechsel des Tageslichts hat die Matt-Folie immer wieder andere Grautöne gezeigt, die wir für diesen Bericht unbedingt einfangen wollten.

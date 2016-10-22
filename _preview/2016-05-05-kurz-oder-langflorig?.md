@@ -19,10 +19,12 @@ Ich unterteile deswegen in 3 Klassen bei Mikrofasertüchern:
 Diese 3 Klassen haben alle unterschiedliche Einsatzzwecke und sind für manche Arbeiten absolut ungeeignet.
 
 # 100-300 GSM
-Die sehr leichten und kurzflorigen Mikrofasertücher haben den Eindruck, dass sie *billig* wirken. Andere Tücher haben schließlich viel mehr Fasern und sind Dicker. Aber diese leichten Tücher sind ideal zur Scheibenreinigung (aber unbedingt mit Waffelstruktur), schmutzige Arbeiten wie Auspuff oder Felgenbetten von Innen und vieles mehr.
+Die sehr leichten und kurzflorigen Mikrofasertücher haben den Eindruck, dass sie *billig* wirken. Andere Tücher haben schließlich viel mehr Fasern und sind dicker. Aber diese leichten Tücher sind ideal zur Scheibenreinigung (aber unbedingt mit Waffelstruktur), schmutzige Arbeiten wie Auspuff oder Felgenbetten von Innen und vieles mehr.
+
+Ich nutze dieser Tücher gerne zum abtragen einer Keramik/Siliziumversiegelung. Meistens härtet das Produkt im Tuch so stark aus, dass man diese anschließend entsorgen muss. Ist bei einem 1-3€ Tuch nicht so schlimm ;)
 
 # 300-400 GSM
 Manchmal kurze und manchmal lange Fasern. Oft auch beides.
 
 # ab 400 GSM
-Die *"Köningsklasse"*
+Die *"Köningsklasse"*. Meistens haben die Tücher lange Fasern und sind stets sehr voluminös und flauschig.
