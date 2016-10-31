@@ -1,0 +1,5 @@
+{% for boss in site.data.glossbosse %}
+  {% if boss.active == true %}
+    <li><a href="/glossbosse/{{boss.raw_name}}">{{boss.name}}</a> {% if include.location == true and boss.location %}({{ boss.location }}){% endif %}</li>
+  {% endif %}
+{% endfor %}
