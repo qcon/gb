@@ -62,3 +62,9 @@
   mail: info@bb-lackveredelung.de
   location: 'Raesfeld'
   active: false
+
+- name: Alex Brose
+  raw_name: alexbrose
+  mail: ABrose@hotmail.de
+  location: 'Kassel'
+  active: false
