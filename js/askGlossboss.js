@@ -45,6 +45,9 @@ function checkInputs() {
     askGlossbossEmail.addClass('formerror');
     err++;
   }
+  if ($('#askGlossboss-message').val().length > 1) {
+    err++;
+  }
   return err === 0;
 }
 askGlossbossToggleBtn.on('click', () => {

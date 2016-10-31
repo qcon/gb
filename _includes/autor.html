@@ -5,7 +5,7 @@
   {% endif %}
 {% endfor %}
 
-{% if autor.bio %}
+{% if autor.bio and autor.active == true %}
   <div class="autor-box">
   {% if autor.img %}
     <img src="{{autor.img}}" alt="{{autor.name}}" class="autor-box-img"/>
