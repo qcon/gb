@@ -6,7 +6,7 @@ author: 'Marvin'
 header_image: URL
 ---
 
-Mehr ist mehr. Ungefähr so deute ich den Trend den die Mikrofasertuchhersteller in den letzten Jahren vorgegeben haben. 900 GSM, ultra lange Fasern, ultra Saugfähig. Ultimativ für alles zu benutzen. Wer dann mal versucht hat mit so einem langflorigen Tuch Politur abzutragen ist schnell enttäuscht. Das funktioniert nämlich alles andere als Gut.
+Mehr ist mehr. Ungefähr so deute ich den Trend den die Mikrofasertuchhersteller in den letzten Jahren vorgegeben haben. 900 GSM, ultra lange Fasern, ultra Saugfähig. Ultimativ für alles zu benutzen. Wer dann mal versucht hat mit so einem langflorigen Tuch Politur abzutragen ist schnell enttäuscht. Das funktioniert nämlich alles andere als Gut!
 
 > **GSM** beschreibt die dichte der Fasern auf einen Quadratmeter/Quadratcentimeter. **G**ramm **P**er **S**quaremeter
 
