@@ -17,4 +17,4 @@ Zum Schluss kommt stets der Standardsatz: *so hätte ich kein Kundenauto rausges
 
 Ich verfolge diese Diskussionen nur ungern. Wie bei jeden Hobby gibt es bei der Fahrzeugpflege sehr viel Leidenschaft und auch sehr viele unsinnige Sachen die man aus Leidenschaft macht. Eine davon ist für mich z.B. das penible säubern der Radkästen. Noch schlimmer: danach noch eine Kunststoffpflege auftragen damit der Dreck so richtig schön anhaften kann... Spätestens nach 100m sieht der Radkasten genauso aus wie vorher. Mehrwert für den Kunden: ???
 
-Es gibt aber auch Situationen da macht die Radkasten-Säuberungs-Aktion sehr viel Sinn. Ein Show-Car welches auf einer Messe ausgestellt wird und wohlmöglich noch mit einem Hänger transportiert wird. Keine Frage, da wird 
+Es gibt aber auch Situationen da macht die Radkasten-Säuberungs-Aktion sehr viel Sinn. Ein Show-Car welches auf einer Messe ausgestellt wird und wohlmöglich noch mit einem Hänger transportiert wird. Keine Frage, da wird der Radkasten blitzeblank gesäubert. 
