@@ -1,4 +1,4 @@
-/* global headerGradient, loadingScreen, postJSONCache */
+/* global headerGradient, $, localStorage, location */
 const $cookieAlert = $('.cookies-hinweis');
 const $cookieAccept = $('#cookies_acc');
 const $autorBox = $('.autor-box-moreposts');
@@ -8,7 +8,7 @@ const $searchForm = $('#search_form');
 
 let isScrolling = false;
 
-function scrollDelay(time, fn) {
+function scrollDelay (time, fn) {
   if (isScrolling) return;
   isScrolling = true;
   setTimeout(() => {
@@ -28,11 +28,11 @@ $(window).on('scroll', () => {
   scrollDelay(100, stickyNav);
 });
 
-function getPostDB() {
+function getPostDB () {
   return $.getJSON('/posts.json');
 }
 
-function appendLatestPosts(author) {
+function appendLatestPosts (author) {
   const loadedPosts = getPostDB();
   loadedPosts.then((data) => {
     data.filter((a) => {
@@ -47,7 +47,7 @@ if ($autorBox.length > 0) {
   appendLatestPosts($autorBox.attr('data-author'));
 }
 
-function loadingScreen(toggle) { // eslint-disable-line
+function loadingScreen (toggle) { // eslint-disable-line
   const loadingElement = $('#loading');
   if (toggle) {
     loadingElement.show();
@@ -69,10 +69,10 @@ acceptCookies();
 
 const randomHeader = (() => {
   const headerImages = ['merc-8.jpg', '1mcoupe.jpg', '530dteamwork.jpg', 'DSC00627.jpg',
-  'DSC00624.jpg', '965turbo.jpg',
-  '9914s1.jpg', '997cabrio.jpg', '991turbos.jpg', '997grau.jpg', '997rot.jpg', 'alfagtv.jpg',
-  'audir8.jpg', 'audis5.jpg', 'bmw2002.jpg', 'eosschwarz.jpg', 'golf7gtd.jpg', 'lotuselise.jpg',
-  'm3csl.jpg', 'shelby.jpg', 'mclaren.jpg'];
+    'DSC00624.jpg', '965turbo.jpg',
+    '9914s1.jpg', '997cabrio.jpg', '991turbos.jpg', '997grau.jpg', '997rot.jpg', 'alfagtv.jpg',
+    'audir8.jpg', 'audis5.jpg', 'bmw2002.jpg', 'eosschwarz.jpg', 'golf7gtd.jpg', 'lotuselise.jpg',
+    'm3csl.jpg', 'shelby.jpg', 'mclaren.jpg'];
   if (randomHeader) {
     const $headerStyle = $('#header-style');
     const rnd = Math.floor(Math.random() * (headerImages.length - 1));
@@ -88,11 +88,11 @@ const randomHeader = (() => {
 //   window.WebFontConfig = {google:{ families: ['Lato::latin']}}
 //   let wf = document.createElement('script')
 //   wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
-//   '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
-//   wf.type = 'text/javascript';
-//   wf.async = 'true';
-//   var s = document.getElementsByTagName('script')[0];
-//   s.parentNode.insertBefore(wf, s);
+//   '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js'
+//   wf.type = 'text/javascript'
+//   wf.async = 'true'
+//   var s = document.getElementsByTagName('script')[0]
+//   s.parentNode.insertBefore(wf, s)
 // })()
 
 const addWhatsAppShareButton = () => {
@@ -104,11 +104,11 @@ const addWhatsAppShareButton = () => {
 };
 addWhatsAppShareButton();
 
-const addEvents = (() => {
+const addEvents = () => {
   // Scotty, beam me up
   $('.scroll-top').on('click', () => {
     $('body,html').animate({
-      scrollTop: 0,
+      scrollTop: 0
     }, 500);
   });
 
@@ -118,7 +118,6 @@ const addEvents = (() => {
     const searchIn = $('#search_input_nav').val();
     location.href = `/suche/?q=${searchIn}`;
   });
-
 
   // Show Disqus Comments
   $('.showCommentsContainer').on('click', () => {
@@ -131,5 +130,5 @@ const addEvents = (() => {
     document.getElementsByTagName('body')[0]).appendChild(dsq);
     $('.showCommentsContainer').fadeOut('fast');
   });
-});
+};
 addEvents();

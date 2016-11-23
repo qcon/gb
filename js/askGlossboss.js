@@ -1,3 +1,5 @@
+/* global $ */
+
 const askGlossbossToggleBtn = $('.askGlossbossToggle');
 const askGlossbossContainer = $('.askGlossboss');
 const askGlossbossSubmit = $('#askGlossboss-Submit');
@@ -5,11 +7,11 @@ const $form = $('#askGlossboss-Form');
 const askGlossbossEmail = $('input[name=Email]');
 const askGlossbossName = $('input[name=Name]');
 const askGlossbossFrage = $('textarea[name=Frage]');
-function validateEmail(email) {
+function validateEmail (email) {
   const re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/; // eslint-disable-line
   return re.test(email);
 }
-function checkQuestion(q) {
+function checkQuestion (q) {
   let nooope = 0;
   q.split('').map((char) => {
     if (char === '>' || char === '<') {
@@ -18,17 +20,17 @@ function checkQuestion(q) {
   });
   return (nooope >= 2);
 }
-function resetInputs() {
+function resetInputs () {
   askGlossbossEmail.removeClass('formerror');
   askGlossbossName.removeClass('formerror');
   askGlossbossFrage.removeClass('formerror');
 }
-function askGlossbossToggleContainer() {
+function askGlossbossToggleContainer () {
   askGlossbossContainer.toggle('fast');
   askGlossbossToggleBtn.toggleClass('open');
   $('#askGlossboss-Name').focus();
 }
-function checkInputs() {
+function checkInputs () {
   let err = 0;
   if (checkQuestion(askGlossbossFrage.val())) {
     err++;
@@ -64,7 +66,7 @@ askGlossbossSubmit.on('click', (e) => {
 $form.submit((e) => {
   e.preventDefault();
   $.post($form.attr('action'), $form.serialize()).then(() => {
-    askGlossbossContainer.find('.askGlossboss-inner').html('<h1>Danke für deine Nachricht, wir werden bald antworten.</h1>'); //eslint-disable-line
+    askGlossbossContainer.find('.askGlossboss-inner').html('<h1>Danke für deine Nachricht, wir werden bald antworten.</h1>'); // eslint-disable-line
     setTimeout(() => {
       askGlossbossToggleBtn.hide('fast');
       askGlossbossContainer.hide('fast');

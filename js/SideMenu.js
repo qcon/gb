@@ -1,3 +1,4 @@
+/* global $ */
 const $sideMenu = $('#sidemenu');
 const $fullPage = $('#fullpage');
 const $toggleNav = $('#mainnav');

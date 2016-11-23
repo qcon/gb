@@ -1,4 +1,4 @@
-/* global postJSONCache loadingScreen getPostDB */
+/* global loadingScreen getPostDB $ */
 let category = null;
 let postDB = [];
 let postsLoaded = 0;
@@ -7,7 +7,7 @@ const MAXINDEX = 15;
 const $POSTLIST = $('.post--list');
 const $LOADMOREBTN = $('#loadmoreajax');
 
-function getPosts(cat) {
+function getPosts (cat) {
   return getPostDB().then((data) => {
     postDB = data.filter((item) => {
       if (cat === 'alle') {
@@ -18,14 +18,14 @@ function getPosts(cat) {
   });
 }
 
-function loadPosts() {
+function loadPosts () {
   let $currentPosts = 0;
   let index = 0;
   let showDelay = 100;
   postDB.map((post, i) => {
     $currentPosts = $('.post--list li').length;
-    if (($currentPosts < MAXINDEX && index < MAXINDEX)
-      || (i >= $currentPosts && index < MAXRELOAD)) {
+    if (($currentPosts < MAXINDEX && index < MAXINDEX) ||
+      (i >= $currentPosts && index < MAXRELOAD)) {
       $(post.card).appendTo($POSTLIST);
       showDelay += 100;
       index++;
@@ -39,7 +39,7 @@ function loadPosts() {
   });
 }
 
-function initPostLoader() {
+function initPostLoader () {
   const $categoryElement = $('#kategorieSeite');
   if ($categoryElement.length > 0) {
     loadingScreen(true);
@@ -55,4 +55,3 @@ function initPostLoader() {
 $(() => {
   initPostLoader();
 });
-

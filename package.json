@@ -21,7 +21,9 @@
     "gulp-util": "^3.0.7",
     "prompt": "^1.0.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "semistandard": "^9.1.0"
+  },
   "scripts": {
     "deploy": "npm run build && netlify deploy",
     "build": "gulp build",

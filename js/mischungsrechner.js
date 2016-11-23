@@ -1,3 +1,4 @@
+/* global $ */
 const part1 = $('#mischungInput1');
 const part2 = $('#mischungInput2');
 const result = $('#mischungResult');
@@ -9,11 +10,11 @@ let predefinedValues = {};
 const Mischungsrechner = {};
 
 Mischungsrechner.initialize = () => {
-  predefinedDil.on('click', function x() {
+  predefinedDil.on('click', function x () {
     const content = $(this).html().split(':');
     predefinedValues = {
       part1: content[0],
-      part2: content[1],
+      part2: content[1]
     };
     // set the 2 input values to the predefined ones
     part1.val(predefinedValues.part1);
@@ -63,7 +64,6 @@ Mischungsrechner.updateEvent = () => {
     Mischungsrechner.updateOutput(Mischungsrechner.calculateDil());
   }
 };
-
 
 $(() => {
   Mischungsrechner.initialize();
