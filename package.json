@@ -24,12 +24,19 @@
   "devDependencies": {
     "semistandard": "^9.1.0"
   },
+  "semistandard": {
+    "ignore": [
+      "/js/main.js",
+      "/dist/*"
+    ]
+  },
   "scripts": {
     "deploy": "npm run build && netlify deploy",
     "build": "gulp build",
     "dev": "gulp",
     "preinstall": "bundle install",
-    "new": "node task/new.js"
+    "new": "node task/new.js",
+    "test": "semistandard"
   },
   "repository": {
     "type": "git",

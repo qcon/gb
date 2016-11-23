@@ -14,7 +14,7 @@ import sass from 'gulp-sass';
 import autoprefixer from 'gulp-autoprefixer';
 
 const MESSAGES = {
-  jekyllBuild: '<span style="color: gray">Running:</span> $ jekyll build',
+  jekyllBuild: '<span style="color: gray">Running:</span> $ jekyll build'
 };
 
 gulp.task('babel:dev', () => {
@@ -33,8 +33,8 @@ gulp.task('babel:prod', ['babel:dev'], () => {
 gulp.task('browser-sync', ['jekyll:dev'], () => {
   browserSync.init({
     server: {
-      baseDir: './_site',
-    },
+      baseDir: './_site'
+    }
   });
 });
 gulp.task('sass', ['sass-layout']);
@@ -42,10 +42,10 @@ gulp.task('sass', ['sass-layout']);
 gulp.task('sass-layout', () => {
   return gulp.src('./_sass/inline_layout.scss')
   .pipe(sass({
-    outputStyle: 'compressed',
+    outputStyle: 'compressed'
   }).on('errror', sass.logError))
   .pipe(autoprefixer({
-    browsers: ['last 3 version', '> 1%'],
+    browsers: ['last 3 version', '> 1%']
   }))
   .pipe(gulp.dest('./dist/'))
   .pipe(rename('layout.css'))
@@ -57,7 +57,7 @@ gulp.task('watch-jekyll', ['jekyll:dev'], browserSync.reload);
 gulp.task('jekyll:dev', ['babel:prod', 'sass'], (done) => {
   browserSync.notify(MESSAGES.jekyllBuild);
   return cp.spawn('jekyll', ['build', '--limit_posts', '200'], {
-    stdio: 'inherit',
+    stdio: 'inherit'
   })
   .on('close', done);
 });
@@ -65,7 +65,7 @@ gulp.task('jekyll:dev', ['babel:prod', 'sass'], (done) => {
 gulp.task('jekyll:prod', ['babel:prod', 'sass'], (done) => {
   browserSync.notify(MESSAGES.jekyllBuild);
   return cp.spawn('jekyll', ['build'], {
-    stdio: 'inherit',
+    stdio: 'inherit'
   })
   .on('close', done);
 });

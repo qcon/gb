@@ -7,7 +7,7 @@ const chalk = require('chalk');
 const now = new Date();
 const datePrefix = dateFormat(now, 'yyyy-mm-dd');
 
-function writeFile(res) {
+function writeFile (res) {
   const { title, subtitle, author } = res;
   const fileNameSlug = `${res.title.replace(/\s/g, '-').toLocaleLowerCase()}.md`;
   const currentPath = path.resolve('./');
@@ -27,6 +27,7 @@ function writeFile(res) {
 }
 prompt.start();
 prompt.get(['title', 'subtitle', 'author'], (err, res) => {
+  if (err) throw err;
   writeFile(res);
 });
 
