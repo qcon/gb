@@ -18,7 +18,7 @@ Aber bereits mit wenigen Handgriffen ist diese Problematik behoben und eure Wass
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/sven/winterfit/DSC_0120.jpg)
 
 Widmen wir uns dem nächsten Punkt unserer kleinen Winterfit-Liste, dem Scheibenwischwasser. Vielleicht gehört Ihr auch zu denen, die in den warmen Monaten Scheibenreiniger ohne Frostschutz nutzen. Dieses muss nun langsam dem Wischwasser mit Frostschutz weichen. Falls Ihr euren Tank extra für diesen Schritt leer sprüht beachtet bitte, dass Ihr die Pumpe nicht trocken laufen lassen solltet um Schäden zu vermeiden.
-Ob Ihr euch für ein Markenprodukt oder ein No-Name Produkt entschieden habt, liegt bei jedem selbst. Ich habe mich in diesem Fall für ein gebrauchsfertiges Markenprodukt entschieden, welches einen Frostschutz bis -20°C bietet. Alternativ gibt es dieses Produkt auch [Konzentriert](http://amzn.to/1Qu0rNK){:target="_blank"} was die Sache deutlich günstiger macht.
+Ob Ihr euch für ein Markenprodukt oder ein No-Name Produkt entschieden habt, liegt bei jedem selbst. Ich habe mich in diesem Fall für ein gebrauchsfertiges Markenprodukt entschieden, welches einen Frostschutz bis -20°C bietet. Alternativ gibt es dieses Produkt auch [Konzentriert](http://amzn.to/1Qu0rNK) was die Sache deutlich günstiger macht.
 
 Wenn wir schon beim Thema der Scheibenreinigung sind. Werft bitte einen Blick auf eure Wischerblätter. Es gibt wohl nichts unannehmbares als eine verschmierte Scheibe in Kombination mit Licht aus dem Gegenverkehr oder der tiefstehenden Sonne.
 

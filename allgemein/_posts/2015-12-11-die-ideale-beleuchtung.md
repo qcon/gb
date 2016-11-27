@@ -23,7 +23,7 @@ Die Halogenlampe hat noch ein weiteres Manko: die Farbtemperatur ist nicht hoch 
 
 Als Grundbeleuchtung eignen sich LED Strahler **nicht**. Das Licht ist viel zu konzentriert und sorgt für riesige Schatten. Wenn man allerdings 10 Stück an der Decke montiert kann man diesen Problem vielleicht entgegen wirken - dann ist es aber sicherlich zu hell und man wird ständig geblendet wenn man *in* den Lack gucken möchte um Kratzer zu finden.
 
-Perfekt sind Leuchtstoffröhren mit einer hohen Farbtemperatur. Die [Osram Daylight](http://amzn.to/1lGdr72){:target='_blank'} (36 Watt Leuchtstoffröhre) sind sehr zuverlässig und beliebt. Eine Tageslichtähnliche Farbtemperatur, sehr angenehme Helligkeit und lange Haltbarkeit.
+Perfekt sind Leuchtstoffröhren mit einer hohen Farbtemperatur. Die [Osram Daylight](http://amzn.to/1lGdr72) (36 Watt Leuchtstoffröhre) sind sehr zuverlässig und beliebt. Eine Tageslichtähnliche Farbtemperatur, sehr angenehme Helligkeit und lange Haltbarkeit.
 
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/beleuchtung/DSC_0592-3.jpg)
 
@@ -44,4 +44,4 @@ Das ist für mich ganz Eindeutig: die LED Taschenlampe. In den letzten Monaten h
 
 Mit dieser Kombination wird *jeder* Kratzer aufgedeckt. Die Leuchtstoffröhren zeigen gnadenlos jeden tiefen Kratzer und der Rupes Light Pen die ganzen Swirls und Hologramme.
 
-Natürlich muss es nicht unbedingt ein 70€ teurer Rupes Light Pen sein. Für knapp 30€ gibt es die [Lenser L7](http://amzn.to/1NDe9Na){:target='_blank'} oder den großen Bruder: [Lenser P7.2](http://amzn.to/1NDehMM){:target='_blank'}. Für Sparfüchse und experimentierer: besorgt euch die [1,99€ "teure" LED Taschenlampe](http://amzn.to/1OdoxdH) und schreibt eure Meinung dazu auf Facebook oder hinterlasst hier ein Kommentar - wir waren sehr überrascht!
+Natürlich muss es nicht unbedingt ein 70€ teurer Rupes Light Pen sein. Für knapp 30€ gibt es die [Lenser L7](http://amzn.to/1NDe9Na) oder den großen Bruder: [Lenser P7.2](http://amzn.to/1NDehMM). Für Sparfüchse und experimentierer: besorgt euch die [1,99€ "teure" LED Taschenlampe](http://amzn.to/1OdoxdH) und schreibt eure Meinung dazu auf Facebook oder hinterlasst hier ein Kommentar - wir waren sehr überrascht!

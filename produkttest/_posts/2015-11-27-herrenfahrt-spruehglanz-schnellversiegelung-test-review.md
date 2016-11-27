@@ -5,7 +5,7 @@ author: "Marvin"
 subtitle: Teuer = gut?
 header_image: https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/herrenfahrt_spruehglanz_schnellversiegelung/DSC_0093.JPG
 ---
-2 Produkte von Herrenfahrt haben eine neue Rezeptur - es wurde also was verbessert. [Sprühglanz](http://amzn.to/1MK5LGT){:target="_blank"} und [Schnellversiegelung](http://amzn.to/1QtZZ24){:target="_blank"} heißen unsere beiden Kandidaten für diesen Produkttest.
+2 Produkte von Herrenfahrt haben eine neue Rezeptur - es wurde also was verbessert. [Sprühglanz](http://amzn.to/1MK5LGT) und [Schnellversiegelung](http://amzn.to/1QtZZ24) heißen unsere beiden Kandidaten für diesen Produkttest.
 
 Wer den Blog schon länger besucht weiß, dass ich absoluter Fan von schöner Verpackung bin. Das gehört für mich einfach dazu. Herrenfahrt-typisch mache ich also das Paket auf und ich sehe keine langweiligen Luftpolster oder weiße Schaumstoffchips, sondern edel aussehende schwarze Verpackungschips aus dickem Papier, die einen Beutel mit 2 Flaschen vor Erschütterung schützen.
 
@@ -68,7 +68,7 @@ Aber leider müssen wir unmittelbar danach einen Punkt wieder abziehen. Die Perl
 Perlen der Schnellversiegelung:
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/herrenfahrt_spruehglanz_schnellversiegelung/DSC_0124.JPG)
 
-Der Sprühglanz hingegen macht recht ordentliche Perlen, wenn auch nicht Perfekt. Zum Vergleich wurde auf einen Teilbereich auf dem Dach das [Koch Chemie Quick and Shine](http://amzn.to/1Yg3743){:target="_blank"} aufgetragen - mit recht ähnlichem Perlenbild.
+Der Sprühglanz hingegen macht recht ordentliche Perlen, wenn auch nicht Perfekt. Zum Vergleich wurde auf einen Teilbereich auf dem Dach das [Koch Chemie Quick and Shine](http://amzn.to/1Yg3743) aufgetragen - mit recht ähnlichem Perlenbild.
 
 Perlen Sprühglanz:
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/herrenfahrt_spruehglanz_schnellversiegelung/DSC_0125.JPG)
