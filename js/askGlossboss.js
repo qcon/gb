@@ -7,6 +7,7 @@ const $form = $('#askGlossboss-Form')
 const askGlossbossEmail = $('input[name=Email]')
 const askGlossbossName = $('input[name=Name]')
 const askGlossbossFrage = $('textarea[name=Frage]')
+const kontaktSuccessMessage = $('#kontakt_success')
 function validateEmail (email) {
   const re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/; // eslint-disable-line
   return re.test(email)
@@ -66,10 +67,8 @@ askGlossbossSubmit.on('click', (e) => {
 $form.submit((e) => {
   e.preventDefault()
   $.post($form.attr('action'), $form.serialize()).then(() => {
-    askGlossbossContainer.find('.askGlossboss-inner').html('<h1>Danke für deine Nachricht, wir werden bald antworten.</h1>'); // eslint-disable-line
-    setTimeout(() => {
-      askGlossbossToggleBtn.hide('fast')
-      askGlossbossContainer.hide('fast')
-    }, 2000)
+    kontaktSuccessMessage.show()
+    askGlossbossSubmit.addClass('btn-disabled')
   })
 })
+kontaktSuccessMessage.hide()

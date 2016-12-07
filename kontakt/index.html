@@ -5,33 +5,7 @@ subtitle: Wir beißen nicht, versprochen
 header_image: https://glossbossimages.s3.eu-central-1.amazonaws.com/headerimg/DSC_0003.jpg
 ---
 <div class="width--wrapper">
-	<div class="post--content"><p>Du hast eine Frage, möchtest einen Gastbeitrag veröffentlichen oder einfach mal Hallo sagen?</p> <p></p> <p>Kein Problem.</p> <p></p> <p>Fülle einfach das untere Kontaktformular komplett aus. Wir antworten auf jede Mail. Versprochen.</p> </div>
-	<span id="form_msg_error"></span>
-	<span id="form_msg"></span>
-	<form class="kontakt__form">
-		<div class="selectGlossboss">
-		 <h3 class="heading">Wähle zunächst einen Glossboss aus, den du Kontaktieren möchtest:</h3>
-			<input type="radio" value="mmieth+glossboss@gmail.com" data-boss="Marvin" id="glossboss1" name="glossboss">
-				<label for="glossboss1">Marvin</label>
-			<input type="radio" value="jones@jonny-clean.de" data-boss="Jones" id="glossboss2" name="glossboss">
-				<label for="glossboss2">Jones</label>
-			<input type="radio" value="albarth4@gmx.de" data-boss="Alexander" id="glossboss3" name="glossboss">
-				<label for="glossboss3">Alexander</label>
-			<input type="radio" value="detailograph@yahoo.de" data-boss="Ronny" id="glossboss4" name="glossboss">
-				<label for="glossboss4">Ronny</label>
-			<input type="radio" value="rene.b@vtxmail.ch" data-boss="René" id="glossboss5" name="glossboss">
-				<label for="glossboss5">René</label>
-			<input type="radio" value="agentnappi007@aol.com" data-boss="Dirk" id="glossboss6" name="glossboss">
-				<label for="glossboss6">Dirk</label>
-			<input type="radio" value="wickedstylz@me.com" data-boss="Ralf" id="glossboss7" name="glossboss">
-				<label for="glossboss7">Ralf</label>
-		</div>
-		<div id="kontakt_inputs">
-			<input type="text" id="name" name="name" placeholder="Name">
-			<input type="text" id="xyz" name="xyz" placeholder="Email">
-			<input type="text" id="email" name="email" placeholder="email" class="formtrick">
-			<textarea type="text" id="msg" name="msg" placeholder="Deine Nachricht"></textarea>
-			<button id="SENDEN" class="button">Senden</button>
-		</div>
-	</form>
+	<div class="post--content">
+    {% include ask.html %}
+  </div>
 </div>

@@ -32,29 +32,38 @@
   }
 }
 .askGlossboss {
-  z-index: 3;
-  display: none;
-  position: fixed;
-  bottom: 120px;
-  right: 20px;
-  width: 90%;
-  max-width: 500px;
-  max-height: 90%;
-  background: white;
-  box-shadow: 0 0 1px rgba(76,86,103,.25),0 2px 18px rgba(31,37,50,.32);
-  @media #{$sm} {
-    bottom: 95px;
-    right: 0;
-    width: 100%;
-    font-size: 13px;
-  }
-  &-inner {
-    margin: 0 auto;
-    padding: 15px 20px;
-  }
-  input:nth-child(1) {
-    margin-top: 15px;
-  }
+  // z-index: 3;
+  // display: none;
+  // position: fixed;
+  // bottom: 120px;
+  // right: 20px;
+  // width: 90%;
+  // max-width: 500px;
+  // max-height: 90%;
+  // background: white;
+  // box-shadow: 0 0 1px rgba(76,86,103,.25),0 2px 18px rgba(31,37,50,.32);
+  // @media #{$sm} {
+  //   bottom: 95px;
+  //   right: 0;
+  //   width: 100%;
+  //   font-size: 13px;
+  // }
+  // &-inner {
+  //   margin: 0 auto;
+  //   padding: 15px 20px;
+  // }
+  // input:nth-child(1) {
+  //   margin-top: 15px;
+  // }
+  .btn-disabled {
+    cursor: default;
+    background-image: none;
+    opacity: 0.65;
+    box-shadow: none;
+    color: #333;
+    background-color: #E6E6E6;
+    pointer-events: none;
+}
   input, textarea {
     &.formerror {
       border-color: red;
