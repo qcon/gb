@@ -1,7 +1,7 @@
 /* global $ */
 
-const askGlossbossToggleBtn = $('.askGlossbossToggle')
-const askGlossbossContainer = $('.askGlossboss')
+// const askGlossbossToggleBtn = $('.askGlossbossToggle')
+// const askGlossbossContainer = $('.askGlossboss')
 const askGlossbossSubmit = $('#askGlossboss-Submit')
 const $form = $('#askGlossboss-Form')
 const askGlossbossEmail = $('input[name=Email]')
@@ -26,11 +26,11 @@ function resetInputs () {
   askGlossbossName.removeClass('formerror')
   askGlossbossFrage.removeClass('formerror')
 }
-function askGlossbossToggleContainer () {
-  askGlossbossContainer.toggle('fast')
-  askGlossbossToggleBtn.toggleClass('open')
-  $('#askGlossboss-Name').focus()
-}
+// function askGlossbossToggleContainer () {
+//   askGlossbossContainer.toggle('fast')
+//   askGlossbossToggleBtn.toggleClass('open')
+//   $('#askGlossboss-Name').focus()
+// }
 function checkInputs () {
   let err = 0
   if (checkQuestion(askGlossbossFrage.val())) {
@@ -53,9 +53,7 @@ function checkInputs () {
   }
   return err === 0
 }
-askGlossbossToggleBtn.on('click', () => {
-  askGlossbossToggleContainer()
-})
+
 askGlossbossSubmit.on('click', (e) => {
   e.preventDefault()
   resetInputs()
