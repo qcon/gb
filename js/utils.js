@@ -3,6 +3,7 @@ const $cookieAlert = $('.cookies-hinweis')
 const $cookieAccept = $('#cookies_acc')
 const $autorBox = $('.autor-box-moreposts')
 const $headerMenu = $('.header-menu')
+const $headerMenuPlaceholder = $('.header-menu-placeholder')
 const shouldStickPos = $headerMenu.offset().top
 const $searchForm = $('#search_form')
 
@@ -16,11 +17,17 @@ function scrollDelay (time, fn) {
     isScrolling = false
   }, time)
 }
+const totalHeight = parseInt($headerMenu.css('margin-bottom'), 10) + $headerMenu.outerHeight()
+$headerMenuPlaceholder.css({
+  height: totalHeight
+})
 const stickyNav = () => {
   if ($(window).scrollTop() >= shouldStickPos) {
     $headerMenu.addClass('sticky')
+    $headerMenuPlaceholder.addClass('sticky-placeholder')
   } else {
     $headerMenu.removeClass('sticky')
+    $headerMenuPlaceholder.removeClass('sticky-placeholder')
   }
 }
 

@@ -1,3 +1,9 @@
+.header-menu-placeholder {
+  display: none;
+  &.sticky-placeholder {
+    display: block;
+  }
+}
 .header-menu {
   &.sticky {
     position: fixed;
