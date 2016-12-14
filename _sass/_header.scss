@@ -1,7 +1,9 @@
 .header-menu-placeholder {
   display: none;
   &.sticky-placeholder {
-    display: block;
+    @media #{$md-min} {
+      display: block;
+    }
   }
 }
 .header-menu {
