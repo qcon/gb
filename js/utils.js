@@ -1,4 +1,4 @@
-/* global headerGradient, $, localStorage, location */
+/* global headerGradient, $, localStorage, location, headerImages */
 const $cookieAlert = $('.cookies-hinweis')
 const $cookieAccept = $('#cookies_acc')
 const $autorBox = $('.autor-box-moreposts')
@@ -17,7 +17,7 @@ function scrollDelay (time, fn) {
     isScrolling = false
   }, time)
 }
-const totalHeight = parseInt($headerMenu.css('margin-bottom'), 10) + $headerMenu.outerHeight()
+const totalHeight = parseInt(100 + $headerMenu.outerHeight())
 $headerMenuPlaceholder.css({
   height: totalHeight
 })
@@ -75,18 +75,13 @@ const acceptCookies = () => {
 acceptCookies()
 
 const randomHeader = (() => {
-  const headerImages = ['merc-8.jpg', '1mcoupe.jpg', '530dteamwork.jpg', 'DSC00627.jpg',
-    'DSC00624.jpg', '965turbo.jpg',
-    '9914s1.jpg', '997cabrio.jpg', '991turbos.jpg', '997grau.jpg', '997rot.jpg', 'alfagtv.jpg',
-    'audir8.jpg', 'audis5.jpg', 'bmw2002.jpg', 'eosschwarz.jpg', 'golf7gtd.jpg', 'lotuselise.jpg',
-    'm3csl.jpg', 'shelby.jpg', 'mclaren.jpg']
   if (randomHeader) {
     const $headerStyle = $('#header-style')
     const rnd = Math.floor(Math.random() * (headerImages.length - 1))
-    const headerImagesUrl = `https://glossbossimages.s3.eu-central-1.amazonaws.com/headerimg/${headerImages[rnd]}`
+    const headerImagesUrl = headerImages[rnd]
     $headerStyle.html(`
       header {background: ${headerGradient},
-      url(${headerImagesUrl}) center 50%; background-size:cover}
+      url(${headerImagesUrl}) center 50% no-repeat; background-size:cover;}
     `)
   }
 })()

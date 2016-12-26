@@ -1,4 +1,4 @@
-/* global loadingScreen getPostDB $ */
+/* global loadingScreen getPostDB headerGradient headerImages $ */
 let category = null
 let postDB = []
 let postsLoaded = 0
@@ -17,11 +17,18 @@ function getPosts (cat) {
     })
   })
 }
+function appendRandomImage () {
+  const randomDiv = $('<div class="randomHeroImg displayNone">GLOSSBOSS</div>')
+  const rnd = Math.floor(Math.random() * (headerImages.length - 1))
+  const headerImagesUrl = headerImages[rnd]
+  randomDiv.attr('style', `background: ${headerGradient}, url(${headerImagesUrl}) bottom left no-repeat`)
+  return randomDiv
+}
 
 function loadPosts () {
   let $currentPosts = 0
   let index = 0
-  let showDelay = 100
+  let showDelay = 50
   postDB.map((post, i) => {
     $currentPosts = $('.post--list li').length
     if (($currentPosts < MAXINDEX && index < MAXINDEX) ||
@@ -29,8 +36,12 @@ function loadPosts () {
       $(post.card).appendTo($POSTLIST)
       showDelay += 100
       index++
+      if ($currentPosts >= 6 && $currentPosts % 6 === 0) {
+        $(appendRandomImage()).appendTo($POSTLIST)
+      }
       setTimeout(() => {
         $('.post--list li').eq(postsLoaded).removeClass('displayNone')
+        $('.randomHeroImg').removeClass('displayNone')
         postsLoaded++
       }, showDelay)
       if (i === postDB.length - 1) $LOADMOREBTN.slideUp('fast')
