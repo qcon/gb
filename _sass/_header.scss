@@ -136,8 +136,8 @@
 .randomHeroImg {
   width: 100%;
   margin: 1em 0;
-  background-size:cover;
-  background-attachment: fixed;
+  background-size:cover !important;
+  background-attachment: fixed !important;
   color: rgba(255,255,255,.6);
   font-size: 76px;
   font-weight: bold;
@@ -150,9 +150,7 @@
     line-height: 350px;
   }
   @media #{$md} {
-    height: 220px;
-    line-height: 220px;
-    font-size: 40px;
+    display: none;
   }
 }
 header {

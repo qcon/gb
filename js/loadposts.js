@@ -21,8 +21,8 @@ function appendRandomImage () {
   const randomDiv = $('<div class="randomHeroImg displayNone">GLOSSBOSS</div>')
   const rnd = Math.floor(Math.random() * (headerImages.length - 1))
   const headerImagesUrl = headerImages[rnd]
-  randomDiv.prop('style', `background: ${headerGradient}, url(${headerImagesUrl}) bottom left no-repeat; background-size: cover; background-attachment: fixed;`)
-  return $(randomDiv)
+  randomDiv.attr('style', `background: ${headerGradient}, url(${headerImagesUrl}) bottom left no-repeat`)
+  return randomDiv
 }
 
 function loadPosts () {

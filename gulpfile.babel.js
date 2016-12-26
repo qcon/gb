@@ -45,7 +45,7 @@ gulp.task('sass-layout', () => {
     outputStyle: 'compressed'
   }).on('errror', sass.logError))
   .pipe(autoprefixer({
-    browsers: ['last 3 version', '> 1%']
+    browsers: ['last 4 version', '> 1%']
   }))
   .pipe(gulp.dest('./dist/'))
   .pipe(rename('layout.css'))
