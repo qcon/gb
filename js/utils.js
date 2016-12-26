@@ -75,12 +75,6 @@ const acceptCookies = () => {
 acceptCookies()
 
 const randomHeader = (() => {
-  // const headerImages = ['merc-8.jpg', '1mcoupe.jpg', '530dteamwork.jpg', 'DSC00627.jpg',
-  //   'DSC00624.jpg', '965turbo.jpg',
-  //   '9914s1.jpg', '997cabrio.jpg', '991turbos.jpg', '997grau.jpg', '997rot.jpg', 'alfagtv.jpg',
-  //   'audir8.jpg', 'audis5.jpg', 'bmw2002.jpg', 'eosschwarz.jpg', 'golf7gtd.jpg', 'lotuselise.jpg',
-  //   'm3csl.jpg', 'shelby.jpg', 'mclaren.jpg']
-  // window.headerImages = headerImages
   if (randomHeader) {
     const $headerStyle = $('#header-style')
     const rnd = Math.floor(Math.random() * (headerImages.length - 1))
