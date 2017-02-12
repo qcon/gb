@@ -243,3 +243,19 @@
   height: 100%;
   z-index: 1;
 }
+.modal {
+  display: none;
+    width: 300px;
+    height: 100px;
+    line-height: 100px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -100px;
+    margin-left: -150px;
+    background-color: $gray;
+    border-radius: 5px;
+    text-align: center;
+    outline: 9999px solid rgba(0,0,0,0.5);
+    z-index: 5;
+}

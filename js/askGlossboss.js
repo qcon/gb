@@ -7,7 +7,7 @@ const $form = $('#askGlossboss-Form')
 const askGlossbossEmail = $('input[name=Email]')
 const askGlossbossName = $('input[name=Name]')
 const askGlossbossFrage = $('textarea[name=Frage]')
-const kontaktSuccessMessage = $('#kontakt_success')
+const $kontaktModal = $('.js-modal-kontakt')
 function validateEmail (email) {
   const re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/; // eslint-disable-line
   return re.test(email)
@@ -59,14 +59,21 @@ askGlossbossSubmit.on('click', (e) => {
   resetInputs()
 
   if (checkInputs()) {
-    $form.submit()
+    // $form.submit()
+    $kontaktModal.fadeIn()
+    askGlossbossSubmit.addClass('btn-disabled')
+    setTimeout(() => {
+      $kontaktModal.fadeOut()
+    }, 3000)
   }
 })
 $form.submit((e) => {
   e.preventDefault()
   $.post($form.attr('action'), $form.serialize()).then(() => {
-    kontaktSuccessMessage.show()
     askGlossbossSubmit.addClass('btn-disabled')
+    setTimeout(() => {
+      $kontaktModal.fadeOut()
+    }, 3000)
   })
 })
-kontaktSuccessMessage.hide()
+$kontaktModal.hide()
