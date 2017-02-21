@@ -59,17 +59,13 @@ askGlossbossSubmit.on('click', (e) => {
   resetInputs()
 
   if (checkInputs()) {
-    // $form.submit()
-    $kontaktModal.fadeIn()
-    askGlossbossSubmit.addClass('btn-disabled')
-    setTimeout(() => {
-      $kontaktModal.fadeOut()
-    }, 3000)
+    $form.submit()
   }
 })
 $form.submit((e) => {
   e.preventDefault()
   $.post($form.attr('action'), $form.serialize()).then(() => {
+    $kontaktModal.fadeIn()
     askGlossbossSubmit.addClass('btn-disabled')
     setTimeout(() => {
       $kontaktModal.fadeOut()
