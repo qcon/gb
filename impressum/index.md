@@ -36,7 +36,7 @@ header_image: https://glossbossimages.s3.eu-central-1.amazonaws.com/headerimg/DS
   </p>
 
   <p>
-    Clemens-August-Str. 87
+    Bussardstr. 22
   </p>
 
   <p>
