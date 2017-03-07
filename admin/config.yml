@@ -1,0 +1,20 @@
+backend:
+  name: githubn
+  repo: ntwcklng/gb
+  branch: cms
+publish_mode: editorial_workflow
+media_folder: "static/images/uploads"
+public_folder: "/images/uploads"
+collections:
+  - name: "allgemein"
+    label: "Allgemein"
+    folder: "allgemein/_posts"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - {label: "Layout", name: 'layout', widget: "string", default: 'post'}
+      - {label: "Title", name: 'title', widget: "string"}
+      - {label: "SubTitle", name: 'subtitle', widget: "string"}
+      - {label: "author", name: 'Author', widget: "string"}
+      - {label: "Header Image", name: 'header_image', widget: "image"}
+      - {label: "Content", name: 'body', widget: "markdown"}
