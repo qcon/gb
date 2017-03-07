@@ -1,5 +1,5 @@
 backend:
-  name: githubn
+  name: github
   repo: ntwcklng/gb
   branch: cms
 publish_mode: editorial_workflow
