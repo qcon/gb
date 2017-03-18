@@ -14,6 +14,6 @@ collections:
       - {label: "Layout", name: 'layout', widget: "string", default: 'post'}
       - {label: "Title", name: 'title', widget: "string"}
       - {label: "SubTitle", name: 'subtitle', widget: "string"}
-      - {label: "author", name: 'Author', widget: "string"}
+      - {label: "Author", name: 'author', widget: "string"}
       - {label: "Header Image", name: 'header_image', widget: "image"}
       - {label: "Content", name: 'body', widget: "markdown"}
