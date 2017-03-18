@@ -3,6 +3,7 @@ backend:
   repo: ntwcklng/gb
   branch: cms
 public_folder: "images/uploads"
+media_folder: "images/uploads"
 collections:
   - name: "allgemein"
     label: "Allgemein"
