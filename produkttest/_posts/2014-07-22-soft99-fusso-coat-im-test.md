@@ -2,12 +2,8 @@
 title: Soft99 Fusso Coat im Test
 author: Marvin
 layout: post
-pdf_version: jap
 header_image: https://glossbossimages.s3.eu-central-1.amazonaws.com/headerimg/fussocoat.jpg
-subtitle:
-  - Was kann das Low Budget Wachs mit PTFE?
-categories:
-  - Produkttest
+subtitle: Was kann das Low Budget Wachs mit PTFE?
 ---
 Günstiges Wachs mit einer Standzeit von bis zu 12 Monaten?
 
@@ -71,7 +67,7 @@ Links unbehandelt / Rechts mit Soft 99 Fusso Coat.
 
 
 Wie ich finde eine Beachtliche Leistung für so ein Low Budget Wachs.
- 
+
 
 # Glanz und Abperlverhalten
 

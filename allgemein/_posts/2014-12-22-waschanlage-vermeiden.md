@@ -2,12 +2,8 @@
 title: Waschanlage vermeiden
 author: Marvin
 layout: post
-pdf_version: jap
 header_image: https://glossbossimages.s3.eu-central-1.amazonaws.com/headerimg/waschanlage.jpg
-subtitle:
-  - 'oder doch nicht?'
-categories:
-  - Allgemein
+subtitle: 'oder doch nicht?'
 ---
 
 Was soll denn jetzt dieses __oder doch nicht?__ Waschanlagen sind doch Grundsätzlich tabu, oder?

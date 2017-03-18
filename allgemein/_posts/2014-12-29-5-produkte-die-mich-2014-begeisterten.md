@@ -1,13 +1,9 @@
 ---
 title: 5 Produkte die mich 2014 begeisterten
 author: Marvin
-pdf_version: jap
 layout: post
 header_image: https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/997carrerasgrau/P1010883.JPG
-subtitle:
-  - 'Mein persönlicher Jahresrückblick'
-categories:
-  - Allgemein
+subtitle: 'Mein persönlicher Jahresrückblick'
 ---
 
 
@@ -25,7 +21,7 @@ Hier ein Pflegebericht bei dem das Crystal Serum verwendet wurde:
 
 #2. Rupes
 
-Die Poliermaschinen, die das Arbeiten viel entspannter machen. Die Rede ist von den Rupes-Maschinen LHR 15, 21, 12, & die kleine 75er. Diese Exzentermaschinen haben eine deutlich größeren Hub, als wir es von den bisherigen Maschinen gewöhnt sind. Die Vorteile liegen klar auf der Hand: hohe Abtragsleistung = mehr Defektkorrektur, bei gleichzeitig der hohen Sicherheit einer Exzentermaschine gegen das durchpolieren. 
+Die Poliermaschinen, die das Arbeiten viel entspannter machen. Die Rede ist von den Rupes-Maschinen LHR 15, 21, 12, & die kleine 75er. Diese Exzentermaschinen haben eine deutlich größeren Hub, als wir es von den bisherigen Maschinen gewöhnt sind. Die Vorteile liegen klar auf der Hand: hohe Abtragsleistung = mehr Defektkorrektur, bei gleichzeitig der hohen Sicherheit einer Exzentermaschine gegen das durchpolieren.
 
 Meine Lieblinge sind die 12er Duetto + die kleine 75er. Aber nicht nur die Maschinen sind klasse - auch die Rupes-Polierpads sind unglaublich gut! Auch nach einen halben Fahrzeug haben die Pads noch eine angenehm harte Stauchhärte - andere Polierpads sind schon längst in die Knie gegangen und mussten ausgewechselt werden.
 

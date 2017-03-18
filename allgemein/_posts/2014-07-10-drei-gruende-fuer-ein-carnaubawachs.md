@@ -2,12 +2,8 @@
 title: Drei Gründe für ein Carnaubawachs
 author: Marvin
 layout: post
-pdf_version: jap
 header_image: https://glossbossimages.s3.eu-central-1.amazonaws.com/headerimg/3carnauba.jpg
-subtitle:
-  - Emotion besiegt Vernunft
-categories:
-  - Allgemein
+subtitle: Emotion besiegt Vernunft
 ---
 Man muss auch mal &#8220;egal&#8221; sagen können.
 

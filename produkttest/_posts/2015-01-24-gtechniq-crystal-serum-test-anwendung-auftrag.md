@@ -4,7 +4,6 @@ author: Marvin
 layout: post
 header_image: https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/serumschleifen/P1020282.JPG
 subtitle: 'Crystal Serum eingebrannt'
-categories: Produkttest
 ---
 <span class="wichtige-info-blau"><a href="/en/gtechniq-crystal-serum-test-application/">This article is also available in english!</a></span>
 

@@ -4,7 +4,6 @@ author: Marvin
 layout: post
 subtitle: Kompositionen in Holz
 permalink: produkttest/Herrenfahrt-Produktvorstellung-Test/
-categories: Produkttest
 header_image: https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/herrenfahrttest/P1020201.JPG
 ---
 >Als „Herrenfahrer“ bezeichnete man bis in die Mitte des 20. Jahrhunderts Autobesitzer, die ihre Wagen selbst warteten und steuerten, sowie Rennfahrer, die bei den Wettbewerben mit ihren eigenen Wagen als Amateure antraten – im Gegensatz zu den bei den Automobilunternehmen angestellten „Werksfahrern“.
@@ -19,10 +18,10 @@ Man bekommt für rund [340 Euro](https://herrenfahrt.com/de_de/arrangements/sort
 * 100gr Knete
 * 250ml Gleitmittel für die Knete (inkl. Sprühkopf)
 * 250ml Politur
-* 2 Tücher 
+* 2 Tücher
 * 2 Applikatoren
 
-Schon der erste Besuch auf der Website löste bei mir ein enormes __muss-das-haben__ Gefühl aus. Eine Produktlinie die viel Wert auf Hochwertige Materialien legt - das kennen wir bereits zu genüge. 
+Schon der erste Besuch auf der Website löste bei mir ein enormes __muss-das-haben__ Gefühl aus. Eine Produktlinie die viel Wert auf Hochwertige Materialien legt - das kennen wir bereits zu genüge.
 
 Für mich ist das Wachs der erste Indikator. Obwohl der Carnaubaanteil nur bedingt Aussagekräftig ist, ist er dennoch ein Benchmark. Im Wachs von Herrenfahrt sind lediglich 35% enthalten. Preiskonkurrenten (die aber ca. 226gr anstatt 160gr liefern) haben meist um die 45-50%.
 Dafür sind im Herrenfahrt Wachs noch weitere, vorallem Standzeitverlängernde, Bestandteile vorhaden:
@@ -40,7 +39,7 @@ Hier erwarte ich eine Standzeit von rund 6-8 Monaten. Der Hersteller selbst gibt
 ![Herrenfahrt Wachs Test](https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/herrenfahrttest/P1020199.JPG)
 
 
-Die Holzdose ist absolut Top verarbeitet. Ein echter Hingucker! 
+Die Holzdose ist absolut Top verarbeitet. Ein echter Hingucker!
 
 ![Herrenfahrt Wachs Test](https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/herrenfahrttest/P1020201.JPG)
 
@@ -49,7 +48,7 @@ Sorry; ich kann nicht anders - selbst wenn man die Holzkiste aufmacht wird man v
 
 ![Herrenfahrt Wachs Test](https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/herrenfahrttest/P1020203.JPG)
 
-Genau das wünscht sich der Hobby-Autopfleger! Klar ist der Mythos von Swizöl und Zymöl reizend. Auch die Wachse beider Hersteller sind hervorragend. Aber die Verpackungsmaterialien sind bei beiden unterste Schublade. Billige Plastikdosen für ein Wachs was mehrere 100(0)€ kostet, ist das euer ernst? 
+Genau das wünscht sich der Hobby-Autopfleger! Klar ist der Mythos von Swizöl und Zymöl reizend. Auch die Wachse beider Hersteller sind hervorragend. Aber die Verpackungsmaterialien sind bei beiden unterste Schublade. Billige Plastikdosen für ein Wachs was mehrere 100(0)€ kostet, ist das euer ernst?
 Swizöl & Zymöl aufpassen: von der Firma Herrenfahrt könnt ihr einiges lernen. Zumindest was die Auswahl der Materialien für die Verpackung angeht!
 
 
@@ -63,7 +62,7 @@ Durch die synthetischen Anteile riecht das Wachs leider etwas nach Chemie. Ein a
 
 
 
-Im Beiliegenden Handbuch findet man Anleitungen und einen Pflegeplan, wo man notieren kann wann welche Arbeit ausgeführt wurde. 
+Im Beiliegenden Handbuch findet man Anleitungen und einen Pflegeplan, wo man notieren kann wann welche Arbeit ausgeführt wurde.
 
 ![Herrenfahrt Wachs Test](https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/herrenfahrttest/P1020206.JPG)
 
@@ -102,8 +101,8 @@ Großartige Defektkorrektur habe ich nicht erwartet. Die Politur sollte ehr als 
 
 ![Herrenfahrt Wachs Test](https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/herrenfahrtteil2/P1020219.JPG)
 
-Der Glanz passt also, fehlt nurnoch das Wachs. 
-Der beiliegende Wachspuck ist angenehm weich aber viel zu groß. 
+Der Glanz passt also, fehlt nurnoch das Wachs.
+Der beiliegende Wachspuck ist angenehm weich aber viel zu groß.
 
 
 ![Herrenfahrt Wachs Test](https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/herrenfahrtteil2/P1020220.JPG)
@@ -168,7 +167,7 @@ Hier bestätigte sich, dass das Herrenfahrt Wachs das besten Ablaufverhalten hat
 
 ####Fazit
 
-Durch die tolle Aufmachung der Produkte macht es nicht nur Spaß diese zu Verarbeiten, man stellt die edle Holzkiste auch gern an einen gut sichtbaren Platz, wo auch andere sie begutachten können. An den Produkten gibt es Grundsätzlich nicht viel auszusetzen, außer folgende Punkte: 
+Durch die tolle Aufmachung der Produkte macht es nicht nur Spaß diese zu Verarbeiten, man stellt die edle Holzkiste auch gern an einen gut sichtbaren Platz, wo auch andere sie begutachten können. An den Produkten gibt es Grundsätzlich nicht viel auszusetzen, außer folgende Punkte:
 
 * die Knete finde ich zu Hart
 * der Sprühkopf vom Reinigungsextrakt sprüht zu wenig Produkt

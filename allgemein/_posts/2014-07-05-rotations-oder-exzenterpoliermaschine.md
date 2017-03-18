@@ -2,12 +2,8 @@
 title: Welche Poliermaschine für das beste Ergebnis?
 author: Marvin
 layout: post
-pdf_version: jap
 header_image: https://glossbossimages.s3.eu-central-1.amazonaws.com/headerimg/bestemaschine.jpg
-subtitle:
-  - Möchtest du Profi oder Anfänger sein?
-categories:
-  - Allgemein
+subtitle: Möchtest du Profi oder Anfänger sein?
 ---
 Die Wahl der richtigen Poliermaschine fällt schwer. Unzählige Hersteller, Drehzahlbereiche und Bauformen gibt es.
 

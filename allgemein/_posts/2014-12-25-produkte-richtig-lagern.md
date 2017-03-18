@@ -2,28 +2,24 @@
 title: Produkte richtig lagern
 author: Chris
 layout: post
-pdf_version: jap
 header_image: https://glossbossimages.s3.eu-central-1.amazonaws.com/criz/produkte-lagern/DSC_0014.jpg
-subtitle:
-  - 'Nicht nur im Winter wichtig'
-categories:
-  - Allgemein
+subtitle: 'Nicht nur im Winter wichtig'
 ---
 
 
 
-Heute soll es um die Lagerung deiner Pflegeprodukte gehen. Jeder Hobbypfleger steht irgendwann an dem Punkt, dass sich einige Autopflegeprodukte ansammeln, die einen durchaus beachtenswerten Gegenwert darstellen. 
+Heute soll es um die Lagerung deiner Pflegeprodukte gehen. Jeder Hobbypfleger steht irgendwann an dem Punkt, dass sich einige Autopflegeprodukte ansammeln, die einen durchaus beachtenswerten Gegenwert darstellen.
 Spätestens bei hochwertigen Wachsen und Versiegelungen sollte man sich etwas mehr Gedanken um die Lagerung machen, als bei einem Shampoo.
 
 ![Sprühflaschen](https://glossbossimages.s3.eu-central-1.amazonaws.com/criz/produkte-lagern/DSC_0003.jpg)
 
 Falsche Lagerung kann dazu führen, dass sich die Eigenschaften ändern und die Produkte unbenutzbar werden.
 
-Allgemein gilt für alle Produkte, dass du deine Pflegemittel trocken, kühl und dunkel lagern solltest, der beste Platz dafür wird in den meisten Fällen dein Keller oder deine Garage sein, dort ist es in der Regel trocken und dunkel. 
-Auf die Temperatur solltest du vor allem im Sommer und Winter achten. 
+Allgemein gilt für alle Produkte, dass du deine Pflegemittel trocken, kühl und dunkel lagern solltest, der beste Platz dafür wird in den meisten Fällen dein Keller oder deine Garage sein, dort ist es in der Regel trocken und dunkel.
+Auf die Temperatur solltest du vor allem im Sommer und Winter achten.
 Je gleichmäßiger die Temperatur über das ganze Jahr ist umso besser. Dies wird in den meisten Fällen sicher kaum möglich sein, jedoch sollten manche Grenzen nicht unter- bzw. überschritten werden.
-Deine Produkte sollten auf keinen Fall Frost und genausowenig direkter Sonnenstrahlung oder anderen direkten Wärmequellen ausgesetzt sein. 
-Am besten sind Temperaturen zwischen 10°C-20°C. 
+Deine Produkte sollten auf keinen Fall Frost und genausowenig direkter Sonnenstrahlung oder anderen direkten Wärmequellen ausgesetzt sein.
+Am besten sind Temperaturen zwischen 10°C-20°C.
 
 Für hochwertige Wachse und Versiegelungen besteht die Möglichkeit, diese im Kühlschrank zu lagern um so eine sehr gleichbleibende Temperatur zu gewährleisten.
 
@@ -35,7 +31,7 @@ Als Hobbypfleger kann es durchaus vorkommen, dass du einige Produkte für länge
 In diesen Fällen empfiehlt es sich, dass du diese Produkte in regelmäßigen Abständen kräftig durchschüttelst um zu vermeiden, dass sich die Produkte trennen und sich Teile des Produkts absetzen.
 Auch wenn sich eine längere Lagerung manchmal nicht vermeiden lässt, da man nur geringe Mengen der Produkte für eine Anwendung benötigt, solltest du darauf achten die Produkte in einem absehbaren Zeitraum zu verbrauchen.
 
-Neben den drei angesprochenen Punkten, trocken, kühl und dunkel ist es außerdem wichtig, dass du alle Produkte gut verschließt. Hört sich erstmal blöd an, kann aber sehr wichtig sein, denn wenn die Produkte nicht richtig verschlossen sind, kann es sein, dass sie mit der Luft reagieren oder austrocknen und so unbrauchbar werden. Das beste Beispiel dafür ist ein Coating, das aushärtet und entsorgt werden müsste, wenn es nicht richtig verschlossen wird. Aber auch bei jeder Politur und vielen anderen Mitteln kann es sein, dass diese ganz einfach austrocknen. 
+Neben den drei angesprochenen Punkten, trocken, kühl und dunkel ist es außerdem wichtig, dass du alle Produkte gut verschließt. Hört sich erstmal blöd an, kann aber sehr wichtig sein, denn wenn die Produkte nicht richtig verschlossen sind, kann es sein, dass sie mit der Luft reagieren oder austrocknen und so unbrauchbar werden. Das beste Beispiel dafür ist ein Coating, das aushärtet und entsorgt werden müsste, wenn es nicht richtig verschlossen wird. Aber auch bei jeder Politur und vielen anderen Mitteln kann es sein, dass diese ganz einfach austrocknen.
 
 ###MFT's, Pads, Poliermaschinen und weiteres Zubehör
 
