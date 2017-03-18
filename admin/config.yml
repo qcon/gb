@@ -5,9 +5,9 @@ backend:
 public_folder: "images/uploads"
 media_folder: "images/uploads"
 collections:
-  - name: "allgemein"
-    label: "Allgemein"
-    folder: "allgemein/_posts"
+  - name: "produkttest"
+    label: "Produkttest"
+    folder: "produkttest/_posts"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
