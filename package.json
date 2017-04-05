@@ -32,8 +32,8 @@
     ]
   },
   "scripts": {
-    "deploy": "npm run build && netlify deploy",
-    "deploy:now": "npm run build && now deploy _site",
+    "deploy:netlify": "npm run build && netlify deploy",
+    "deploy": "npm run build && now deploy _site",
     "build": "gulp build",
     "dev": "gulp",
     "preinstall": "bundle install",

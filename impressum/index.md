@@ -27,8 +27,7 @@ header_image: https://glossbossimages.s3.eu-central-1.amazonaws.com/headerimg/DS
   </p>
 
   <p>
-    <strong>Kontakt:</strong><br /> Telefon: 0170-3262412 <strong>KEIN Telefonsupport!</strong><br /> E-Mail: <a href="mailto:mmieth+glossboss@gmail.com">mmieth + glossboss @ gmail.com</a> <br />
-    <strong>Wenn du Autopflegespezifische Fragen hast, benutze unser Hilfe-Formular. Klicke dazu auf das Fragezeichen unten rechts oder <a href="/kontakt">klicke hier</a>.</strong>
+    <strong>Kontakt:</strong><br /> Telefon: 0170-3262412 <strong>KEIN Telefonsupport!</strong><br /> E-Mail: <a href="mailto:mmieth+glossboss@gmail.com">mmieth + glossboss @ gmail.com</a>
   </p>
 
   <p>

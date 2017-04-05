@@ -21,7 +21,7 @@ exclude:
 - script
 - postDB
 - task
-#- kontakt
+- kontakt
 - spenden
 include:
 - dist
