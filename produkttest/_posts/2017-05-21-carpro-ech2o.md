@@ -78,7 +78,7 @@ Endkontrolle - bereit für die Alpen & Dolomiten
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/mark/Ech2o/40.JPG) 
 Mein Fazit:
 
-Das Ech2o von carpro eignet sich nicht nur für einen "no-rinse" Einsatz, sondern auch Ideal für eine "Waterless" Wäsche. Viele Produkte konnten mich auf Dauer (z.B. von Cairbon das CB66) überzeugen. Aber nun scheint sich ein Kandidat gefunden zu haben, der mehr als Positiv überrascht.
+Das Ech2o von carpro eignet sich nicht nur für einen "no-rinse" Einsatz, sondern auch Ideal für eine "Waterless" Wäsche. Viele Produkte konnten mich auf Dauer (z.B. von Cairbon das CB66) nicht überzeugen. Aber nun scheint sich ein Kandidat gefunden zu haben, der mehr als Positiv überrascht.
 
 Die wichtigsten Punkte zusammengefasst:
 
