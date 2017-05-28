@@ -1,7 +1,7 @@
   // =include headerImages.js
-  // =include Loadposts.js
-  // =include Utils.js
-  // =include Mischungsrechner.js
-  // =include Slider.js
-  // =include Search.js
-  // =include SideMenu.js
+  // =include loadposts.js
+  // =include utils.js
+  // =include mischungsrechner.js
+  // =include slider.js
+  // =include search.js
+  // =include sideMenu.js
