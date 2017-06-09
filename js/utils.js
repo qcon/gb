@@ -36,8 +36,9 @@ $(window).on('scroll', () => {
 })
 
 function getPostDB () {
-  return $.getJSON('/posts.json')
+    return $.getJSON('/posts.json', {_: new Date().getTime()})
 }
+
 
 function appendLatestPosts (author) {
   const loadedPosts = getPostDB()

@@ -5,9 +5,10 @@ import * as cp from 'child_process';
 import browserSync from 'browser-sync';
 import include from 'gulp-include';
 
-// JavaScript
+// JavaScript / JSON
 import uglify from 'gulp-uglify';
 import babel from 'gulp-babel';
+import jsonMinify from 'gulp-jsonminify';
 
 // CSS / SCSS
 import sass from 'gulp-sass';
@@ -29,6 +30,12 @@ gulp.task('babel:prod', ['babel:dev'], () => {
   .pipe(uglify())
   .pipe(gulp.dest('./dist/'));
 });
+
+gulp.task('minifyjson', ['jekyll:prod'], () => {
+  return gulp.src('./_site/posts.json')
+  .pipe(jsonMinify())
+  .pipe(gulp.dest('./_site/'));
+})
 
 gulp.task('browser-sync', ['jekyll:dev'], () => {
   browserSync.init({
@@ -70,7 +77,7 @@ gulp.task('jekyll:prod', ['babel:prod', 'sass'], (done) => {
   .on('close', done);
 });
 
-gulp.task('build', ['jekyll:prod']);
+gulp.task('build', ['minifyjson']);
 
 gulp.task('watch', () => {
   gulp.watch(['allgemein/index.html', 'index.html', '_layouts/*.html',
