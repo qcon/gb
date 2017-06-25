@@ -114,7 +114,7 @@ Auch an dem Haubenwappen war Einiges zu finden. Aber das war kurze Zeit später 
  
  
 
-Der gereinigte Motor gefiel aus dann noch besser!
+Der gereinigte Motor gefiel uns dann auch besser!
  
 
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/mark/Ferrari458/023.JPG) 
