@@ -1,8 +1,8 @@
 ---
-title: Übersicht Felgenbürsten und Pinsel
-author: Jones
+title: 'Übersicht Felgenbürsten und Pinsel'
+author: 'Jones'
 layout: post
-header_image: https://glossbossimages.s3.eu-central-1.amazonaws.com/headerimg/felgen_01.jpg
+header_image: 'https://glossbossimages.s3.eu-central-1.amazonaws.com/headerimg/felgen_01.jpg'
 subtitle: 'Qual der Wahl'
 ---
 

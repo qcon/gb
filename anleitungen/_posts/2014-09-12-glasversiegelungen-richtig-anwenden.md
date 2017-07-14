@@ -1,12 +1,9 @@
 ---
-title: Glasversiegelungen richtig anwenden
-author: Chris
+title: 'Glasversiegelungen richtig anwenden'
+author: 'Chris'
 layout: post
-header_image: https://glossbossimages.s3.eu-central-1.amazonaws.com/headerimg/glasversiegelung.jpg
-subtitle:
-  - 'Monatelanger abperleffekt auf deinen Scheiben'
-categories:
-  - Anleitungen
+header_image: 'https://glossbossimages.s3.eu-central-1.amazonaws.com/headerimg/glasversiegelung.jpg'
+subtitle: 'Monatelanger abperleffekt auf deinen Scheiben'
 ---
 Eine Scheibenversiegelung hat in etwa den gleichen Effekt wie eine Lackversiegelung, ok der Schutz der Scheibe ist zu vernachlässigen, da das Glas so hart ist, dass eine Versiegelung kaum zusätzlichen Schutz bieten kann, jedoch perlt das Wasser während der Fahrt ab und verbessert so die Sicht, außerdem lassen sich Schmutz und Insektenreste wesentlich leichter entfernen.
 

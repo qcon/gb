@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Die ideale Beleuchtung"
-author: "Marvin"
-subtitle: von 500 Watt Baustrahlern zu 9 Watt LED Taschenlampen
-header_image: https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/beleuchtung/DSC_0573-1.jpg
+title: 'Die ideale Beleuchtung'
+author: 'Marvin'
+subtitle: 'von 500 Watt Baustrahlern zu 9 Watt LED Taschenlampen'
+header_image: 'https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/beleuchtung/DSC_0573-1.jpg'
 ---
 Zum Thema Beleuchtung gibt es viele verschiedene Meinungen. Eine davon hat sich jedoch im laufe der letzten Jahre durchgesetzt: die LED Lampe. Egal ob als Taschenlampe oder als 50 Watt Arbeitsleuchte auf einem Stativ montiert, sie darf bei keiner Aufbereitung fehlen.
 

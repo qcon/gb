@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Alternativen zur idealen Beleuchtung"
-author: "Marvin"
-subtitle: Perfekte Grundbeleuchtung in der Halle/Garage dank Fotografenzubehör
-header_image: https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/beleuchtung2.0/DSC00643.jpg
+title: 'Alternativen zur idealen Beleuchtung'
+author: 'Marvin'
+subtitle: 'Perfekte Grundbeleuchtung in der Halle/Garage dank Fotografenzubehör'
+header_image: 'https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/beleuchtung2.0/DSC00643.jpg'
 ---
 Ende 2015 habe ich einen Beitrag zum Thema "[Die ideale Beleuchtung](https://glossboss.de/allgemein/die-ideale-beleuchtung/)" veröffentlich. Einige Wochen später bin ich in eine neue Halle umgezogen und wollte eine Alternative zu den vielen Leuchtstoffröhren ausprobieren.
 

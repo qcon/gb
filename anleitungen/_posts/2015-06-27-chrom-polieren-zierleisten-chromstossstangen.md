@@ -1,12 +1,9 @@
 ---
-title: Chrom Polieren
-author: Marvin
+title: 'Chrom Polieren'
+author: 'Marvin'
 layout: post
-header_image: https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/chrompolieren/P1020893.JPG
-subtitle:
-  - '3 Schritte damit wieder glänzt, was glänzen muss'
-categories:
-  - Anleitungen
+header_image: 'https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/chrompolieren/P1020893.JPG'
+subtitle: '3 Schritte damit wieder glänzt, was glänzen muss'
 ---
 Egal ob hochglanzpoliert, galvanisch verchromt oder Kunststoffteile mit einer Chromoptik (Lackiert oder bedampft) - es muss glänzen!
 Mit diesen einfachen Mitteln bekommst du Chrom auf absoluten Hochglanz. 

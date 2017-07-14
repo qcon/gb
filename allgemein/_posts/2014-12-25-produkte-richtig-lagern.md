@@ -1,13 +1,9 @@
 ---
-title: Produkte richtig lagern
-author: Chris
+title: 'Produkte richtig lagern'
+author: 'Chris'
 layout: post
-pdf_version: jap
-header_image: https://glossbossimages.s3.eu-central-1.amazonaws.com/criz/produkte-lagern/DSC_0014.jpg
-subtitle:
-  - 'Nicht nur im Winter wichtig'
-categories:
-  - Allgemein
+header_image: 'https://glossbossimages.s3.eu-central-1.amazonaws.com/criz/produkte-lagern/DSC_0014.jpg'
+subtitle: 'Nicht nur im Winter wichtig'
 ---
 
 

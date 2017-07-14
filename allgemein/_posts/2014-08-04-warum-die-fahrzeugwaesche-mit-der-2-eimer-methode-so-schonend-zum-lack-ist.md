@@ -1,13 +1,9 @@
 ---
-title: Warum die Fahrzeugwäsche mit der 2 Eimer Methode so schonend zum Lack ist
-author: Ronny
+title: 'Warum die Fahrzeugwäsche mit der 2 Eimer Methode so schonend zum Lack ist'
+author: 'Ronny'
 layout: post
-pdf_version: jap
-header_image: https://glossbossimages.s3.eu-central-1.amazonaws.com/headerimg/schonendewaesche.jpg
-subtitle:
-  - und wie man sie richtig anwendet.
-categories:
-  - Allgemein
+header_image: 'https://glossbossimages.s3.eu-central-1.amazonaws.com/headerimg/schonendewaesche.jpg'
+subtitle: 'und wie man sie richtig anwendet.'
 ---
 Handwäsche ist nicht gleich Handwäsche. Viele Autobesitzer fahren bewusst nicht in die „böse Waschanlage“, da diese ja den so empfindlichen Lack beschädigt. Stattdessen fahren sie in die Waschbox und zerkratzen (unbewusst) ihrer Lack weitaus schlimmer mit der bösen Bürste.** **
 

@@ -3,8 +3,7 @@ layout: post
 title: 'Pflegeworkshop mit dem Stammtisch RuhrgebieTT'
 subtitle: 'Waschen, polieren und Wachsen unter Audi TT Verrückten'
 author: 'Alex'
-header_image: https://glossbossimages.s3.eu-central-1.amazonaws.com/alex/RuhrgebieTTWorkshop/WorkshopRuhrgebieTT44.jpg
-header_image_base64: 'data:image/gif;base64,/9j/4AAQSkZJRgABAQEASABIAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCAAGAAoDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAUG/8QAIBAAAQQCAQUAAAAAAAAAAAAAAQACAxEFIQQSJFGUwv/EABUBAQEAAAAAAAAAAAAAAAAAAAME/8QAFxEBAQEBAAAAAAAAAAAAAAAAAQIAIf/aAAwDAQACEQMRAD8AxuRl5UedONga2GNh6HkSkl91ZOvO6VYRx0OwZ7bx8oinqlDMSd3/2Q=='
+header_image: 'https://glossbossimages.s3.eu-central-1.amazonaws.com/alex/RuhrgebieTTWorkshop/WorkshopRuhrgebieTT44.jpg'
 ---
 ## Pflegeworkshop mit dem Stammtisch RuhrgebieTT
 

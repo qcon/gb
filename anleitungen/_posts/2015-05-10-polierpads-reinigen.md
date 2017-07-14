@@ -1,10 +1,9 @@
 ---
 layout: post
-title: "Polierpads reinigen"
-author: "Ronny"
-subtitle: Diese einfache Methode wird dein Polierergebnis verbessern
-categories: Anleitungen
-header_image: https://glossbossimages.s3.eu-central-1.amazonaws.com/chiller/Padreinigung/Padreinigung01.jpg
+title: 'Polierpads reinigen'
+author: 'Ronny'
+subtitle: 'Diese einfache Methode wird dein Polierergebnis verbessern'
+header_image: 'https://glossbossimages.s3.eu-central-1.amazonaws.com/chiller/Padreinigung/Padreinigung01.jpg'
 ---
 Ihr kennt das doch sicherlich auch; das Auto ist fertig aufbereitet, man freut sich über den Glanz und so richtig Lust auf das Reinigen der Utensilien fehlt gänzlich. Am nächsten Tag will die besser Hälfte mit Euch Zeit verbringen und die Polierpaste trocknet schön in den Pads ein. Der Einfachheit halber schmeißt ihr die Pads nur in die Waschmaschine und raus kommt... richtig; ein immer noch zugesetztes Pad. 
 

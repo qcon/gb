@@ -1,11 +1,9 @@
 ---
-title: In 3 Schritten tiefe Kratzer entfernen
-author: Marvin
+title: 'In 3 Schritten tiefe Kratzer entfernen'
+author: 'Marvin'
 layout: post
-header_image: https://glossbossimages.s3.eu-central-1.amazonaws.com/headerimg/3schrittetiefekratzer.jpg
-subtitle: Schlüsselkratzer, Parkschramme und andere Ärgernisse
-categories:
-  - Anleitungen
+header_image: 'https://glossbossimages.s3.eu-central-1.amazonaws.com/headerimg/3schrittetiefekratzer.jpg'
+subtitle: 'Schlüsselkratzer, Parkschramme und andere Ärgernisse'
 ---
 Wer kennts&#8217; nicht &#8211; man parkt sein perfekt gepflegtes Auto das eine mal ausnahmsweise nicht in der Garage, sondern davor.
 

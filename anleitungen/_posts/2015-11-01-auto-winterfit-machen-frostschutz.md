@@ -1,10 +1,9 @@
 ---
 layout: post
-title: "Winterfit in wenigen Schritten"
-author: "Sven"
-subtitle: So kommst du Problemlos durch die dunkle Jahreszeit
-categories: Anleitungen
-header_image: https://glossbossimages.s3.eu-central-1.amazonaws.com/sven/winterfit/DSC_0123.jpg
+title: 'Winterfit in wenigen Schritten'
+author: 'Sven'
+subtitle: 'So kommst du Problemlos durch die dunkle Jahreszeit'
+header_image: 'https://glossbossimages.s3.eu-central-1.amazonaws.com/sven/winterfit/DSC_0123.jpg'
 ---
 Die schönen Tage neigen sich langsam dem Ende und die kalte und düstere Jahreszeit steht vor der Tür. In jener Zeit, wo man sich selbst mit Handschuhen und Mützen gegen die Kälte wappnet, sollte man nicht sein geliebtes Fahrzeug außer Acht lassen.
 Mit wenigen Handgriffen kann man sein Auto so präparieren, dass man wohlbehütet durch den Winter kommt.

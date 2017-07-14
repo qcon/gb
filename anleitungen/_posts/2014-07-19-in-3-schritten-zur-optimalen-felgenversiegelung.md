@@ -1,13 +1,9 @@
 ---
-title: In 3 Schritten zur optimalen Felgenversiegelung
-author: Marvin
-pdf_version: jap
+title: 'In 3 Schritten zur optimalen Felgenversiegelung'
+author: 'Marvin'
 layout: post
-header_image: https://glossbossimages.s3.eu-central-1.amazonaws.com/headerimg/3schrittefelgenversiegelung.jpg
-subtitle:
-  - Und ein Fehler, den du unbedingt vermeiden solltest
-categories:
-  - Anleitungen
+header_image: 'https://glossbossimages.s3.eu-central-1.amazonaws.com/headerimg/3schrittefelgenversiegelung.jpg'
+subtitle: 'Und ein Fehler, den du unbedingt vermeiden solltest'
 ---
 Du hast es auch satt manchmal stundenlang deine Felgen zu reinigen?
 

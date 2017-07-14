@@ -1,8 +1,8 @@
 ---
-title: Arbeitsschutz bei der Autopflege
-author: Chris
+title: 'Arbeitsschutz bei der Autopflege'
+author: 'Chris'
 layout: post
-header_image: https://glossbossimages.s3.eu-central-1.amazonaws.com/criz/arbeitsschutz/atemschutz.jpg
+header_image: 'https://glossbossimages.s3.eu-central-1.amazonaws.com/criz/arbeitsschutz/atemschutz.jpg'
 subtitle: 'Atemschutzmaske, Handschuhe, Schutzbrille etc'
 ---
 

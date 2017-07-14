@@ -3,7 +3,7 @@ layout: post
 title: 'Die 5 besten Tipps zur Oldtimerpflege'
 subtitle: 'veranschaulicht an einem Mercedes Benz 300SL  (R107)'
 author: 'Ronny'
-header_image: https://glossbossimages.s3.eu-central-1.amazonaws.com/chiller/W107/W107Benz002.jpg
+header_image: 'https://glossbossimages.s3.eu-central-1.amazonaws.com/chiller/W107/W107Benz002.jpg'
 ---
 #Die 5 besten Tipps zur Oldtimerpflege veranschaulicht an einem Mercedes Benz 300SL  (R107)
 

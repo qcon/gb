@@ -1,13 +1,9 @@
 ---
-title: Matte/vergilbte Scheinwerfer aufbereiten
-author: Jones
-header_image: https://glossbossimages.s3.eu-central-1.amazonaws.com/headerimg/mattescheinwerfer.jpg
+title: 'Matte/vergilbte Scheinwerfer aufbereiten'
+author: 'Jones'
+header_image: 'https://glossbossimages.s3.eu-central-1.amazonaws.com/headerimg/mattescheinwerfer.jpg'
 layout: post
-pdf_version: jap
-subtitle:
-  - So werden blinde Scheinwerfer wieder klar poliert
-categories:
-  - Anleitungen
+subtitle: 'So werden blinde Scheinwerfer wieder klar poliert'
 ---
 Viele Leser kennen es sicher: Starkes Sonnenlicht (UV-Strahlen), Steinchen und andere Einflüsse trüben und zersetzen mit der Zeit die eigentlich glasklaren Polycarbonat (PC) Scheinwerfer.
 

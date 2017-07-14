@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Glossboss testet: Kratzfestigkeit von Quarz basierten Versiegelungen"
-author: "Ronny"
-subtitle: was steckt hinter den versprechen der Hersteller? (UPDATE nach 9 Tagen!)
-header_image: https://glossbossimages.s3.eu-central-1.amazonaws.com/chiller/kratzertest/Kratzertest47.jpg
+title: 'Glossboss testet: Kratzfestigkeit von Quarz basierten Versiegelungen'
+author: 'Ronny'
+subtitle: 'was steckt hinter den versprechen der Hersteller? (UPDATE nach 9 Tagen!)'
+header_image: 'https://glossbossimages.s3.eu-central-1.amazonaws.com/chiller/kratzertest/Kratzertest47.jpg'
 ---
 #Glossboss testet: Kratzfestigkeit von Quarz basierten Versiegelungen
 

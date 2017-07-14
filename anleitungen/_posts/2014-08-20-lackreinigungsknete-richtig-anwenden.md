@@ -1,11 +1,9 @@
 ---
-title: Lackreinigungsknete richtig anwenden
-author: Chris
-header_image: https://glossbossimages.s3.eu-central-1.amazonaws.com/headerimg/knete.jpg
+title: 'Lackreinigungsknete richtig anwenden'
+author: 'Chris'
+header_image: 'https://glossbossimages.s3.eu-central-1.amazonaws.com/headerimg/knete.jpg'
 layout: post
 subtitle: 'So entfernst du Teer- und Harzrückstände + Insektenleichen'
-categories:
-  - Anleitungen
 ---
 Ist dir nach der Fahrzeugwäsche schon mal aufgefallen, dass sich der Lack rau anfühlt, sind kleine schwarze Teerflecken auf dem Lack oder hat sich über den Winter Flugrost festgesetzt der trotz Wäsche einfach nicht verschwinden will, dann erfährst du heute, wie du gegen diese Probleme vorgehen kannst.
 

@@ -1,14 +1,10 @@
 ---
-title: Es gibt 3 Arten von Kratzern
-author: Marvin
+title: 'Es gibt 3 Arten von Kratzern'
+author: 'Marvin'
 layout: post
-header_image: https://glossbossimages.s3.eu-central-1.amazonaws.com/headerimg/3kratzer.jpg
-subtitle:
-  - Kennst du sie alle?
-dsq_thread_id:
-  - 2842994977
-categories:
-  - Allgemein
+header_image: 'https://glossbossimages.s3.eu-central-1.amazonaws.com/headerimg/3kratzer.jpg'
+subtitle: 'Kennst du sie alle?'
+categories: 'Allgemein'
 ---
 Niemand mag Kratzer im Lack &#8211; soviel steht schon mal fest. Aber weißt du auch welche Arten von Kratzern es gibt? Für welche Art ist die Waschanlage verantwortlich?
 

@@ -1,11 +1,9 @@
 ---
-title: Wie du Scheiben streifenfrei reinigst
-author: Marvin
+title: 'Wie du Scheiben streifenfrei reinigst'
+author: 'Marvin'
 layout: post
-pdf_version: jap
-header_image: https://glossbossimages.s3.eu-central-1.amazonaws.com/headerimg/streifenfrei.jpg
-subtitle: 'Das Tuch macht den Unterschied. '
-categories: Anleitungen
+header_image: 'https://glossbossimages.s3.eu-central-1.amazonaws.com/headerimg/streifenfrei.jpg'
+subtitle: 'Das Tuch macht den Unterschied.'
 ---
 Ja richtig. Das Tuch ist mit das wichtigste bei der Scheibenreinigung.
 

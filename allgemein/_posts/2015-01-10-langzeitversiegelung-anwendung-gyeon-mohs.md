@@ -1,13 +1,9 @@
 ---
-title: Gyeon Mohs Anwendungsbericht
-author: Alex
-pdf_version: jap
+title: 'Gyeon Mohs Anwendungsbericht'
+author: 'Alex'
 layout: post
-header_image: https://glossbossimages.s3.eu-central-1.amazonaws.com/alex/audisq5/audi.jpg
-subtitle:
-  - 'Und weitere Infos zum Thema Langzeitversiegelungen'
-categories:
-  - Allgemein
+header_image: 'https://glossbossimages.s3.eu-central-1.amazonaws.com/alex/audisq5/audi.jpg'
+subtitle: 'Und weitere Infos zum Thema Langzeitversiegelungen'
 ---
 #Lackschutz mittels Langzeitversiegelung (Carpro Cquartz, Gtechniq C1 und ExoV2 oder Gyeon Mohs)
 

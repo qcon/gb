@@ -3,7 +3,7 @@ layout: post
 title: 'Beading Battle #3'
 subtitle: 'Menzerna Power Lock vs. Sonax Protect and Shine (Netshield)'
 author: 'Marvin'
-header_image: https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/sonstige/beading_battle.jpg
+header_image: 'https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/sonstige/beading_battle.jpg'
 video: true
 ---
 

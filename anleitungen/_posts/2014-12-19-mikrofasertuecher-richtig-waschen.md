@@ -1,12 +1,10 @@
 ---
-title: Mikrofasertücher richtig waschen
-author: Chris
+title: 'Mikrofasertücher richtig waschen'
+author: 'Chris'
 layout: post
-permalink: /allgemein/tipps-tricks/mikrofasertuecher-richtig-waschen/
-header_image: https://glossbossimages.s3.eu-central-1.amazonaws.com/criz/mft-waschen/DSC_0001-2.jpg
-subtitle:
-  - So werden sie wieder flauschig
-categories: Anleitungen
+permalink: '/allgemein/tipps-tricks/mikrofasertuecher-richtig-waschen/'
+header_image: 'https://glossbossimages.s3.eu-central-1.amazonaws.com/criz/mft-waschen/DSC_0001-2.jpg'
+subtitle: 'So werden sie wieder flauschig'
 ---
 
 # Mikrofasertücher richtig waschen

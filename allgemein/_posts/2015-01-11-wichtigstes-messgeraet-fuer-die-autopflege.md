@@ -1,13 +1,9 @@
 ---
-title: Das wichtigste Messgerät der Autopflege
-author: Marvin
+title: 'Das wichtigste Messgerät der Autopflege'
+author: 'Marvin'
 layout: post
-pdf_version: jap
-header_image: https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/bmw2002gelb/P1010270.JPG
-subtitle:
-  - 'Immer auf der sicheren seite'
-categories:
-  - Allgemein
+header_image: 'https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/bmw2002gelb/P1010270.JPG'
+subtitle: 'Immer auf der sicheren seite'
 ---
 Messgeräte erleichtern nicht nur die Arbeit, sondern machen sie meistens auch sicherer. Das Hilfsmittel um das es sich hier dreht ist ein **Lackschichtendickemessgerät**. 
 

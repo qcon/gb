@@ -3,7 +3,7 @@ layout: post
 title: 'Beading Battle #4'
 subtitle: 'Soft99 Fusso Coat vs. Finish Kare 1000p'
 author: 'Marvin'
-header_image: https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/sonstige/beading_battle.jpg
+header_image: 'https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/sonstige/beading_battle.jpg'
 video: true
 ---
 

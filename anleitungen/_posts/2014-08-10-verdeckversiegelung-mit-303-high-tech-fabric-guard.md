@@ -1,16 +1,12 @@
 ---
-title: Verdeckversiegelung mit 303 High Tech Fabric Guard
-author: Alex
+title: 'Verdeckversiegelung mit 303 High Tech Fabric Guard'
+author: 'Alex'
 layout: post
-header_image: https://glossbossimages.s3.eu-central-1.amazonaws.com/headerimg/verdeckversiegelung.jpg
-subtitle:
-  - Wie du dein Stoffdach richtig imprägnierst
-categories:
-  - Anleitungen
+header_image: 'https://glossbossimages.s3.eu-central-1.amazonaws.com/headerimg/verdeckversiegelung.jpg'
+subtitle: 'Wie du dein Stoffdach richtig imprägnierst'
 ---
 Mein TT 8N Roadster ist von 2004 und hat aktuell (überwiegend als Saisonfahrzeug) 64tkm gelaufen. Auch wenn er bei mir ebenfalls nur von März bis Oktober angemeldet ist und vorwiegend bei schönem Wetter genutzt wird, darf eine Verdeckimprägnierung nicht fehlen.
 
-<!--more-->
 
 Ich denke jeder weiß wie teuer ein neues Verdeck ist und strebt danach, den guten Zustand möglichst lange zu erhalten.
 

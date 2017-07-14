@@ -1,13 +1,9 @@
 ---
-title: Auspuffendrohre Polieren
-author: Marvin
-pdf_version: jap
-header_image: https://glossbossimages.s3.eu-central-1.amazonaws.com/headerimg/auspuffpolieren.jpg
+title: 'Auspuffendrohre Polieren'
+author: 'Marvin'
+header_image: 'https://glossbossimages.s3.eu-central-1.amazonaws.com/headerimg/auspuffpolieren.jpg'
 layout: post
-subtitle:
-  - Oben hui unten pfui?
-categories:
-  - Anleitungen
+subtitle: 'Oben hui unten pfui?'
 ---
 Der Lack blitzeblank aber der Auspuff ist voll mit Ruß und Flugrost. Kein schöner Anblick!
 

@@ -1,19 +1,14 @@
 ---
-title: Typenschilder entfernen
-author: Dirk
+title: 'Typenschilder entfernen'
+author: 'Dirk'
 layout: post
-pdf_version: jap
-header_image: https://glossbossimages.s3.eu-central-1.amazonaws.com/headerimg/schriftzugentfernen.jpg
-subtitle: Garantiert schonend und ohne Kratzer
-categories: Anleitungen
+header_image: 'https://glossbossimages.s3.eu-central-1.amazonaws.com/headerimg/schriftzugentfernen.jpg'
+subtitle: 'Garantiert schonend und ohne Kratzer'
 ---
 Du hast dich schon immer gefragt wie du den Schriftzug vom Heck deines Fahrzeuges abbekommst, ohne das der Lack dabei Schaden nimmt?
 
 Heute zeigen wir dir wie das geht. **Schonend, zuverlässig und ohne Kratzer.**
 
-<!--more-->
-
-&nbsp;
 
 Folgende Utensilien sollt man dafür parat haben:
 
@@ -29,7 +24,6 @@ Folgende Utensilien sollt man dafür parat haben:
 *   ggf. Hochglanzpoitur
 *   ggf. Föhn
 
-&nbsp;
 
 Vorausgesetzt ist, das der Wagen vorher gewaschen ist, und auch die Schriftzüge ordentlich mit einem Pinsel vorgereinigt wurden. Evtl. noch vorhandene Schmutzpartikel könnten sonst Kratzer verursachen. Und die will natürlich niemand.
 

@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Glossboss Nanopolisher
-subtitle: Mini Akku-Poliermaschine
-author: Ronny
-header_image: https://glossbossimages.s3.eu-central-1.amazonaws.com/chiller/Nanopolisher/Nanopolisher03.jpg
+title: 'Glossboss Nanopolisher'
+subtitle: 'Mini Akku-Poliermaschine'
+author: 'Ronny'
+header_image: 'https://glossbossimages.s3.eu-central-1.amazonaws.com/chiller/Nanopolisher/Nanopolisher03.jpg'
 ---
 Vor kurzem erhielt ich ein Päckchen aus Italien eines namhaften Herstellers von Elektromaschinen. Gewundert habe mich schon, denn bestellt hatte ich nichts und meine Reklamation von vor 6 Monaten wurde auch schon längst bearbeitet. Was war es nur? Das Päckchen schnell geöffnet, den beiliegenden Brief erstmal zur Seite gelegt und die nette kleine Holzkiste betrachtet. Viele Fragezeichnen kreisten über meinem Kopf.
 

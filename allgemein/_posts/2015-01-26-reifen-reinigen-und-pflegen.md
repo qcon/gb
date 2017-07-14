@@ -1,8 +1,8 @@
 ---
-title: Reifen reinigen und pflegen
-author: Chris
+title: 'Reifen reinigen und pflegen'
+author: 'Chris'
 layout: post
-header_image: https://glossbossimages.s3.eu-central-1.amazonaws.com/criz/reifen/DSC_0130.jpg
+header_image: 'https://glossbossimages.s3.eu-central-1.amazonaws.com/criz/reifen/DSC_0130.jpg'
 subtitle: 'Seidenmatter look für die Gummis'
 ---
 

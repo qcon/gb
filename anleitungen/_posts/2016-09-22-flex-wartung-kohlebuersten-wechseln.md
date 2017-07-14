@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Poliermaschinen Wartung"
-subtitle: "Kohlebürsten, Getriebefett, Kabelbruch, ... "
+title: 'Poliermaschinen Wartung'
+subtitle: 'Kohlebürsten, Getriebefett, Kabelbruch, ...'
 author: 'Jones'
-header_image: https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/flex_wartung/0043.jpg
+header_image: 'https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/flex_wartung/0043.jpg'
 ---
 Hallo ihr Poliermaschinen-Quäler,   
 auch das Arbeitszeug will zwischendurch gepflegt und gewartet werden, *exzessives & leidenschaftliches Detailing* macht sich nicht nur bei einem selbst bemerkbar.   

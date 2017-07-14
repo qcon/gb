@@ -1,15 +1,9 @@
 ---
-title: Die Grundausstattung für die optimale Fahrzeugwäsche
-author: Marvin
+title: 'Die Grundausstattung für die optimale Fahrzeugwäsche'
+author: 'Marvin'
 layout: post
-pdf_version: jap
-header_image: https://glossbossimages.s3.eu-central-1.amazonaws.com/headerimg/grundausstattungwaschen.jpg
-ftf_open_type:
-  - 
-subtitle:
-  - 5 Produkte, die du unbedingt brauchst
-categories:
-  - Allgemein
+header_image: 'https://glossbossimages.s3.eu-central-1.amazonaws.com/headerimg/grundausstattungwaschen.jpg'
+subtitle: '5 Produkte, die du unbedingt brauchst'
 ---
 Es gibt soviele verschiedene Hersteller, Produktlinien und Onlineshops &#8211; da ist es als Anfänger schwierig sich die richtigen Produkte auszusuchen.
 

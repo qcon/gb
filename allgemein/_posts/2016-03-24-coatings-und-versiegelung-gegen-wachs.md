@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Höher, schneller, weiter
-subtitle: Aber wo bleiben die Emotionen?
-author: Marvin
-header_image: https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/coating-vs-wachs/DSC01105.jpg
+title: 'Höher, schneller, weiter'
+subtitle: 'Aber wo bleiben die Emotionen?'
+author: 'Marvin'
+header_image: 'https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/coating-vs-wachs/DSC01105.jpg'
 ---
 
 Jeder will das beste haben. Die beste Standzeit, den besten Lackschutz. Jeder will das Maximum. Am besten eine Versiegelung die länger als 10 Jahre hält, obwohl man das Fahrzeug schon nach 3 Jahren wieder verkauft.

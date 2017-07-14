@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Hochdruckreiniger Wartung
-subtitle: Öl wechseln, Dichtungen erneuern, ...
-author: Jones
-header_image: https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/anleitungen/kraenzle_wartung/0022.jpg
+title: 'Hochdruckreiniger Wartung'
+subtitle: 'Öl wechseln, Dichtungen erneuern, ...'
+author: 'Jones'
+header_image: 'https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/anleitungen/kraenzle_wartung/0022.jpg'
 ---
 
 # Wartung eines Kränzle Hochdruckreinigers

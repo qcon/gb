@@ -1,12 +1,9 @@
 ---
-pdf_version: jap
-title: Produkte richtig mischen
-author: Chris
+title: 'Produkte richtig mischen'
+author: 'Chris'
 layout: post
-header_image: https://glossbossimages.s3.eu-central-1.amazonaws.com/criz/produkte-mischen/bild.jpg
-subtitle:
-  - 'Wichtige Infos zu IPA und co'
-categories: Anleitungen
+header_image: 'https://glossbossimages.s3.eu-central-1.amazonaws.com/criz/produkte-mischen/bild.jpg'
+subtitle: 'Wichtige Infos zu IPA und co'
 ---
 
 #Produkte richtig mischen

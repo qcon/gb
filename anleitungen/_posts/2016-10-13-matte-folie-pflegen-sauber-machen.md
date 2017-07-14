@@ -3,7 +3,7 @@ layout: post
 title: 'So wird matte Folie richtig sauber'
 subtitle: 'Beispiel: Mercedes CLS 350 CDI'
 author: 'Ronny'
-header_image: https://glossbossimages.s3.eu-central-1.amazonaws.com/chiller/CLS350CDI/CLS_350_CDI63.jpg
+header_image: 'https://glossbossimages.s3.eu-central-1.amazonaws.com/chiller/CLS350CDI/CLS_350_CDI63.jpg'
 ---
 **So macht man matte Folie richtig sauber**
 -------------------------------------------

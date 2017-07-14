@@ -1,10 +1,9 @@
 ---
-title: 3 Kurztipps zum Thema Polieren
-author: Marvin
+title: '3 Kurztipps zum Thema Polieren'
+author: 'Marvin'
 layout: post
-header_image: https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/3kurztipps-politur/P1020328.JPG
+header_image: 'https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/3kurztipps-politur/P1020328.JPG'
 subtitle: 'Sauberer und effizienter Arbeiten'
-categories: Anleitungen
 ---
 #1. Politurspritzer vermeiden
 

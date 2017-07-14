@@ -1,13 +1,9 @@
 ---
-pdf_version: jap
-title: Ist Swizöl / Swissvax wirklich so gut?
-author: Marvin
+title: 'Ist Swizöl / Swissvax wirklich so gut?'
+author: 'Marvin'
 layout: post
-header_image: https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/swissvax/DSC_0383.jpg
-subtitle:
-  - 'Wachspreise jenseits der 1000€'
-categories:
-  - Allgemein
+header_image: 'https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/swissvax/DSC_0383.jpg'
+subtitle: 'Wachspreise jenseits der 1000€'
 ---
 
 Diese Frage muss man sich stellen. Insbesondere dann, wenn die Produktpreise ein vielfaches höher sind als die der Konkurrenz. Angefangen bei rund *85€* (200ml) für ein Carnaubawachs mit 30% Carnaubaanteil, bis zum *1000€* (200ml) teuren Crystal Rock mit 76% Carnaubaanteil. 
