@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Rupes Nano iBrid Produktvorstellung
-subtitle: Test und erste Erfahrungen von der kleinen Akkupoliermaschine
-author: Jones
-header_image: https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/tests/rupes_nano/0008.jpg
+title: 'Rupes Nano iBrid Produktvorstellung'
+subtitle: 'Test und erste Erfahrungen von der kleinen Akkupoliermaschine'
+author: 'Jones'
+header_image: 'https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/tests/rupes_nano/0008.jpg'
 ---
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/tests/rupes_nano/0001.jpg)
 

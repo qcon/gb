@@ -1,11 +1,10 @@
 ---
-title: Produktvorstellung Herrenfahrt
-author: Marvin
+title: 'Produktvorstellung Herrenfahrt'
+author: 'Marvin'
 layout: post
-subtitle: Kompositionen in Holz
-permalink: produkttest/Herrenfahrt-Produktvorstellung-Test/
-categories: Produkttest
-header_image: https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/herrenfahrttest/P1020201.JPG
+subtitle: 'Kompositionen in Holz'
+permalink: 'produkttest/Herrenfahrt-Produktvorstellung-Test/'
+header_image: 'https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/herrenfahrttest/P1020201.JPG'
 ---
 >Als „Herrenfahrer“ bezeichnete man bis in die Mitte des 20. Jahrhunderts Autobesitzer, die ihre Wagen selbst warteten und steuerten, sowie Rennfahrer, die bei den Wettbewerben mit ihren eigenen Wagen als Amateure antraten – im Gegensatz zu den bei den Automobilunternehmen angestellten „Werksfahrern“.
 

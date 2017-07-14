@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Sonax: Polymer Netshield & Protect and Shine"
-author: "Chris"
-subtitle: Was kann das Mainstream Produkt?
-header_image: https://glossbossimages.s3.eu-central-1.amazonaws.com/criz/sonax-netshield/1.jpg
+title: 'Sonax: Polymer Netshield & Protect and Shine'
+author: 'Chris'
+subtitle: 'Was kann das Mainstream Produkt?'
+header_image: 'https://glossbossimages.s3.eu-central-1.amazonaws.com/criz/sonax-netshield/1.jpg'
 ---
 # Sonax Polymer Netshield - Sonax Protect & Shine
 

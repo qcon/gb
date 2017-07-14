@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "CarPro Essence"
-author: "Jones"
-subtitle: Des Detailers eierlegende Wollmilchsau?
-header_image: https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/tests/carpro_essence/17.jpg
+title: 'CarPro Essence'
+author: 'Jones'
+subtitle: 'Des Detailers eierlegende Wollmilchsau?'
+header_image: 'https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/tests/carpro_essence/17.jpg'
 ---
 
 ##CarPro "Essence" - Hybrid Politur und Primer - bitte was?

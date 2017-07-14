@@ -1,10 +1,9 @@
 ---
 title: 'Test: Mikrofasertücher von Lupus'
-author: Chris
-header_image: https://glossbossimages.s3.eu-central-1.amazonaws.com/headerimg/lupustest.jpg
+author: 'Chris'
+header_image: 'https://glossbossimages.s3.eu-central-1.amazonaws.com/headerimg/lupustest.jpg'
 layout: post
-subtitle: Tücher für alle Zwecke
-categories: Produkttest
+subtitle: 'Tücher für alle Zwecke'
 ---
 Egal was du an deinem Auto pflegen willst, für alles brauchst du das passende Mikrofasertuch. Grund genug neben den [Microfiber Madness Tüchern][1] noch ein paar weitere vorzustellen.
 

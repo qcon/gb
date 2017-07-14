@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Gtechniq Crystal Serum Light"
-author: "Jones"
-subtitle: Ausprobiert auf VW Scirocco
-header_image: https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/tests/serum_light/0001.jpg
+title: 'Gtechniq Crystal Serum Light'
+author: 'Jones'
+subtitle: 'Ausprobiert auf VW Scirocco'
+header_image: 'https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/tests/serum_light/0001.jpg'
 ---
 ## Gtechniq Crystal Serum Light - Vorgestellung und Kurztest.
 

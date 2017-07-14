@@ -3,7 +3,7 @@ layout: post
 title: 'Sonax InsektenStar'
 subtitle: 'Hilft er wirklich beim entfernen von Insekten auf der Fahrzeugfront?'
 author: 'Chris'
-header_image: https://glossbossimages.s3.eu-central-1.amazonaws.com/criz/sonax-insektenstar/DSC_0017.jpg
+header_image: 'https://glossbossimages.s3.eu-central-1.amazonaws.com/criz/sonax-insektenstar/DSC_0017.jpg'
 ---
 # Sonax InsektenStar
 

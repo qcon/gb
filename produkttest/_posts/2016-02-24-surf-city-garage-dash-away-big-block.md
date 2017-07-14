@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Surf City Garage Dash Away + Big Block
-subtitle: Das perfekte Innenraumduo?
-author: Chris
-header_image: https://glossbossimages.s3.eu-central-1.amazonaws.com/criz/dashaway_bigblock/teil2/IMG_4636.jpg
+title: 'Surf City Garage Dash Away + Big Block'
+subtitle: 'Das perfekte Innenraumduo?'
+author: 'Chris'
+header_image: 'https://glossbossimages.s3.eu-central-1.amazonaws.com/criz/dashaway_bigblock/teil2/IMG_4636.jpg'
 ---
 # Surf City Garage Dash Away + Big Block - das Innenraumduo?
 

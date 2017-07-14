@@ -3,7 +3,7 @@ layout: post
 title: 'Soft99 Ultra Glaco'
 subtitle: 'Scheibenversiegelung aus Japan'
 author: 'Chris'
-header_image: https://glossbossimages.s3.eu-central-1.amazonaws.com/criz/glaco/IMG_4722.JPG
+header_image: 'https://glossbossimages.s3.eu-central-1.amazonaws.com/criz/glaco/IMG_4722.JPG'
 ---
 # Soft99 Ultra Glaco - Produkttest
 

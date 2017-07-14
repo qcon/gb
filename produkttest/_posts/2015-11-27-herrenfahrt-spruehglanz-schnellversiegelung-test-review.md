@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Herrenfahrt Sprühglanz & Schnellversiegelung Test"
-author: "Marvin"
-subtitle: Teuer = gut?
-header_image: https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/herrenfahrt_spruehglanz_schnellversiegelung/DSC_0093.JPG
+title: 'Herrenfahrt Sprühglanz & Schnellversiegelung Test'
+author: 'Marvin'
+subtitle: 'Teuer = gut?'
+header_image: 'https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/herrenfahrt_spruehglanz_schnellversiegelung/DSC_0093.JPG'
 ---
 2 Produkte von Herrenfahrt haben eine neue Rezeptur - es wurde also was verbessert. [Sprühglanz](http://amzn.to/1MK5LGT) und [Schnellversiegelung](http://amzn.to/1QtZZ24) heißen unsere beiden Kandidaten für diesen Produkttest.
 

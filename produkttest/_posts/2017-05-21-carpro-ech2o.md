@@ -3,7 +3,7 @@ layout: post
 title: 'CarPro Ech2o'
 subtitle: 'rinsless? waterless? Bitte was???'
 author: 'Mark'
-header_image: https://glossbossimages.s3.eu-central-1.amazonaws.com/mark/Ech2o/0.JPG
+header_image: 'https://glossbossimages.s3.eu-central-1.amazonaws.com/mark/Ech2o/0.JPG'
 ---
 
 ### Hallo liebe Glossbosse,
