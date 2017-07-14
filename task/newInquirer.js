@@ -37,7 +37,7 @@ inquirer.prompt(questions).then((answer) => {
     `title: '${title}'`,
     `subtitle: '${subtitle}'`,
     `author: '${author}'`,
-    'header_image: URL',
+    `header_image: 'URL'`,
     '---'].join('\n')
 
   writeStream.write(fileContent)
