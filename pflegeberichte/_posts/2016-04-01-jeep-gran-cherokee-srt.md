@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Jeep Gran Cherokee SRT
-subtitle: Schwarz Metallic mit Gyeon Prime
-author: Marvin
-header_image: https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/jeep_gc/DSC01076.jpg
+title: 'Jeep Gran Cherokee SRT'
+subtitle: 'Schwarz Metallic mit Gyeon Prime'
+author: 'Marvin'
+header_image: 'https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/jeep_gc/DSC01076.jpg'
 ---
 # Jeep Gran Cherokee
 

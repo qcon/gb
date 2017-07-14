@@ -3,7 +3,7 @@ layout: post
 title: 'Pflegevideo: Porsche 996 Turbo Speedgelb'
 subtitle: 'Versiegelt mit Gtechniq Serum + Exo'
 author: 'Marvin'
-header_image: https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/996turbo-bilder/DSC02067.jpg
+header_image: 'https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/996turbo-bilder/DSC02067.jpg'
 video: true
 ---
 

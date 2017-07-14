@@ -1,14 +1,9 @@
 ---
-title: Porsche 965 Turbo
-author: Mark
-header_image: https://glossbossimages.s3.eu-central-1.amazonaws.com/headerimg/965turbo.jpg
+title: 'Porsche 965 Turbo'
+author: 'Mark'
+header_image: 'https://glossbossimages.s3.eu-central-1.amazonaws.com/headerimg/965turbo.jpg'
 layout: post
-subtitle:
-  - 'Schwarz Metallic - Zymöl Glasur'
-dsq_thread_id:
-  - 2840410785
-categories:
-  - Pflegeberichte
+subtitle: 'Schwarz Metallic - Zymöl Glasur'
 ---
 Porsche Turbo 3.3  
 Farbe: schwarz metallic  

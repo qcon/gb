@@ -1,9 +1,9 @@
 ---
 layout: post
-title: AUDI A3 SPORTBACK
-subtitle: TIEFENSEEBLAU PERLMUTT-EFFEKT - // Schnellverfahren!
-author: René
-header_image: https://glossbossimages.s3.eu-central-1.amazonaws.com/RBdetailing/a3/DSC_1783.jpg
+title: 'AUDI A3 SPORTBACK'
+subtitle: 'TIEFENSEEBLAU PERLMUTT-EFFEKT - // Schnellverfahren!'
+author: 'René'
+header_image: 'https://glossbossimages.s3.eu-central-1.amazonaws.com/RBdetailing/a3/DSC_1783.jpg'
 ---
 # AUDI A3 SPORTBACK - TIEFENSEEBLAU PERLMUTT-EFFEKT - // Schnellverfahren!
 

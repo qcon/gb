@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Porsche 911 G-Modell"
-author: "Marvin"
-subtitle: Irisblaues Cabrio
-header_image: https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/porsche_gmodell_1/DSC00559.jpg
+title: 'Porsche 911 G-Modell'
+author: 'Marvin'
+subtitle: 'Irisblaues Cabrio'
+header_image: 'https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/porsche_gmodell_1/DSC00559.jpg'
 ---
 ## Porsche 911 (G-Modell) in Irisblau
 

@@ -1,15 +1,9 @@
 ---
-title: Porsche Cayenne (Typ 9PA)
-author: Jones
+title: 'Porsche Cayenne (Typ 9PA)'
+author: 'Jones'
 layout: post
-pdf_version: jap
-header_image: https://glossbossimages.s3.eu-central-1.amazonaws.com/headerimg/cayenne1.jpg
-subtitle:
-  - 'Metrograu - Versiegelt'
-dsq_thread_id:
-  - 2841636355
-categories:
-  - Pflegeberichte
+header_image: 'https://glossbossimages.s3.eu-central-1.amazonaws.com/headerimg/cayenne1.jpg'
+subtitle: 'Metrograu - Versiegelt'
 ---
 Moin zusammen,  
 heute steht der metrograue Porsche Cayenne meines Schwagers in Spee auf dem Programm.  

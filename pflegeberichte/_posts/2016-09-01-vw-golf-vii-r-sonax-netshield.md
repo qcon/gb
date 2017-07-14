@@ -3,7 +3,7 @@ layout: post
 title: 'VW Golf VII R'
 subtitle: 'Sowas haben wir noch nie gesehen!'
 author: 'Ralf'
-header_image: https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/sonstige/golfviir.jpg
+header_image: 'https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/sonstige/golfviir.jpg'
 video: true
 ---
 

@@ -3,7 +3,7 @@ layout: post
 title: 'BMW M6 Coupe (F13)'
 subtitle: 'Einmal mit Profis arbeiten'
 author: 'Jones'
-header_image: https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/bmw_m6_coupe/0021.jpg
+header_image: 'https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/bmw_m6_coupe/0021.jpg'
 ---
 Moin Glossbosse!
 

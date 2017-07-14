@@ -1,14 +1,9 @@
 ---
-title: Aston Martin V12 Vantage S
-author: Mark
+title: 'Aston Martin V12 Vantage S'
+author: 'Mark'
 layout: post
-header_image: https://glossbossimages.s3.eu-central-1.amazonaws.com/headerimg/astonv12.jpg
-subtitle:
-  - 'Meteorite Silver - OptiCoat 2.0'
-dsq_thread_id:
-  - 2840208184
-categories:
-  - Pflegeberichte
+header_image: 'https://glossbossimages.s3.eu-central-1.amazonaws.com/headerimg/astonv12.jpg'
+subtitle: 'Meteorite Silver - OptiCoat 2.0'
 ---
 Aston Martin Vantage S V12  
 Farbe: Meteorite Silver  

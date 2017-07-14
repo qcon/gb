@@ -1,10 +1,9 @@
 ---
 layout: post
-title: "Ford Focus RS MK2"
-author: "René"
-subtitle: "Indianapolisblau Mét. - Zuckerguss!"
-categories: Pflegeberichte
-header_image: https://glossbossimages.s3.eu-central-1.amazonaws.com/RBdetailing/focusblau/DSC_1019.jpg
+title: 'Ford Focus RS MK2'
+author: 'René'
+subtitle: 'Indianapolisblau Mét. - Zuckerguss!'
+header_image: 'https://glossbossimages.s3.eu-central-1.amazonaws.com/RBdetailing/focusblau/DSC_1019.jpg'
 ---
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/RBdetailing/focusblau/Header.jpg)
 
@@ -248,7 +247,7 @@ Dieser leicht abrasive Vorreiniger riecht leicht chemisch, was schon das einzigs
 
 Als Zuckerguss bekam der Focus das Ostendo Glaze Wachs von Defintive Wax in zwei Schichten. Nach allen weiteren, kleinen Arbeiten, ging es dann irgendwann mal nach draussen um die Abschlussbilder festzuhalten. 
 
-**„FInito".**
+**„FInito'.**
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/RBdetailing/focusblau/DSC_0970.jpg)
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/RBdetailing/focusblau/DSC_0976.jpg)
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/RBdetailing/focusblau/DSC_0983.jpg)

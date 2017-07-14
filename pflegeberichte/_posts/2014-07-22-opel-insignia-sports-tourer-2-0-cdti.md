@@ -1,13 +1,9 @@
 ---
-title: Opel Insignia Sports Tourer 2.0 CDTi
-author: Dirk
+title: 'Opel Insignia Sports Tourer 2.0 CDTi'
+author: 'Dirk'
 layout: post
-pdf_version: jap
-header_image: https://glossbossimages.s3.eu-central-1.amazonaws.com/headerimg/insigniagyeon.jpg
-subtitle:
-  - 'Graphitschwarz - Gyeon Q2 Mohs - Das kannst du auch'
-categories:
-  - Pflegeberichte
+header_image: 'https://glossbossimages.s3.eu-central-1.amazonaws.com/headerimg/insigniagyeon.jpg'
+subtitle: 'Graphitschwarz - Gyeon Q2 Mohs - Das kannst du auch'
 ---
 Hallo liebe Enthusiasten und Glossboss Leser,
 

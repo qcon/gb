@@ -1,9 +1,9 @@
 ---
 layout: post
-title: BMW M3 CSL
-subtitle: Gtechniq veredelt - CSL hoch 2 + EXO
-author: Jones
-header_image: https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/m3_csl_erdi/0070.jpg
+title: 'BMW M3 CSL'
+subtitle: 'Gtechniq veredelt - CSL hoch 2 + EXO'
+author: 'Jones'
+header_image: 'https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/m3_csl_erdi/0070.jpg'
 ---
 Moin Glossbosse!
 

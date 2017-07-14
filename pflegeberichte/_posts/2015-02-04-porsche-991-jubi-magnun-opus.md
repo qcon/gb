@@ -1,12 +1,9 @@
 ---
-title: Porsche 991 Uni-Grau
-author: Marvin
+title: 'Porsche 991 Uni-Grau'
+author: 'Marvin'
 layout: post
-header_image: https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/porsche991/P1020259.jpg
-subtitle:
-  - '50 Jahre Jubiläums Edition'
-categories:
-  - Pflegeberichte
+header_image: 'https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/porsche991/P1020259.jpg'
+subtitle: '50 Jahre Jubiläums Edition'
 ---
 50 Jahre 911 Jubiläumsmodell in Uni-Grau. Eine Traumhafte Farbe die dank des Definitive Magnun Opus Wachs wieder ordentlich Glänzt.
 

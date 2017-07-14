@@ -1,13 +1,9 @@
 ---
-pdf_version: jap
-title: Ford Escort RS Cosworth Edition
-author: René
+title: 'Ford Escort RS Cosworth Edition'
+author: 'René'
 layout: post
-header_image: https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/sonstige/dsc_89442xrl5.jpg
-subtitle:
-  - 'Bodylicious!'
-categories:
-  - Pflegeberichte
+header_image: 'https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/sonstige/dsc_89442xrl5.jpg'
+subtitle: 'Bodylicious!'
 ---
 
 ![Ford Escort RS Cosworth Edition](http://abload.de/img/headerctya9.jpg)

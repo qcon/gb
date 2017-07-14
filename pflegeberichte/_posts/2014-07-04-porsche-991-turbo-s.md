@@ -1,14 +1,9 @@
 ---
-title: Porsche 991 Turbo S
-author: Mark
+title: 'Porsche 991 Turbo S'
+author: 'Mark'
 layout: post
-header_image: https://glossbossimages.s3.eu-central-1.amazonaws.com/headerimg/991turbos.jpg
-subtitle:
-  - 'Unischwarz - OptiCoat 2.0'
-dsq_thread_id:
-  - 2840290039
-categories:
-  - Pflegeberichte
+header_image: 'https://glossbossimages.s3.eu-central-1.amazonaws.com/headerimg/991turbos.jpg'
+subtitle: 'Unischwarz - OptiCoat 2.0'
 ---
 Hallo zusammen,
 

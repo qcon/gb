@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Mazda 5 Grau Metallic
-subtitle: einmal Komplett bitte
-author: "Börge"
-header_image: https://glossbossimages.s3.eu-central-1.amazonaws.com/boerge/mazda/DSC01752.jpg
+title: 'Mazda 5 Grau Metallic'
+subtitle: 'einmal Komplett bitte'
+author: 'Börge'
+header_image: 'https://glossbossimages.s3.eu-central-1.amazonaws.com/boerge/mazda/DSC01752.jpg'
 ---
 # Mazda 5 in Grau Metallic - einmal Komplett bitte
 

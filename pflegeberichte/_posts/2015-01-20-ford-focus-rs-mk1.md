@@ -1,13 +1,9 @@
 ---
-pdf_version: jap
-title: Ford Focus RS MK1
-author: René
+title: 'Ford Focus RS MK1'
+author: 'René'
 layout: post
-header_image: https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/sonstige/dsc_8643f5i0t.jpg
-subtitle:
-  - 'Glänzender Rallye-Sport'
-categories:
-  - Pflegeberichte
+header_image: 'https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/sonstige/dsc_8643f5i0t.jpg'
+subtitle: 'Glänzender Rallye-Sport'
 ---
 
 ![Ford Focus RS MK1](http://abload.de/img/headermit9hxf3.jpg)

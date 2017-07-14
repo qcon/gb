@@ -1,10 +1,9 @@
 ---
-title: Mercedes AMG GTs Coupé
-author: Jones
+title: 'Mercedes AMG GTs Coupé'
+author: 'Jones'
 layout: post
-header_image: https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/amg_gt_grau/amg_068.jpg
+header_image: 'https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/amg_gt_grau/amg_068.jpg'
 subtitle: 'Selenitgrau Metallic'
-categories: Pflegeberichte
 --- 
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/amg_gt_grau/amg_001.jpg)   
 **Fahrzeug**: Mercedes AMG GTs Coupé   

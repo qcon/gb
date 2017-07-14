@@ -1,14 +1,9 @@
 ---
-title: Porsche 997 (Grau)
-author: Marvin
+title: 'Porsche 997 (Grau)'
+author: 'Marvin'
 layout: post
-header_image: https://glossbossimages.s3.eu-central-1.amazonaws.com/headerimg/997grau.jpg
-subtitle:
-  - High End (Prototyp)Versiegelung von GTechniq
-dsq_thread_id:
-  - 2840832080
-categories:
-  - Pflegeberichte
+header_image: 'https://glossbossimages.s3.eu-central-1.amazonaws.com/headerimg/997grau.jpg'
+subtitle: 'High End (Prototyp)Versiegelung von GTechniq'
 ---
 &nbsp;
 

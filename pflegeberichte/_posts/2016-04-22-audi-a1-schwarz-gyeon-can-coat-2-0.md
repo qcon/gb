@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Audi A1 Uni-Schwarz
-subtitle: Versiegelt mit Gyeon Can Coat
-author: Marvin
-header_image: https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/audi-a1-schwarz/DSC01330.jpg
+title: 'Audi A1 Uni-Schwarz'
+subtitle: 'Versiegelt mit Gyeon Can Coat'
+author: 'Marvin'
+header_image: 'https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/audi-a1-schwarz/DSC01330.jpg'
 ---
 # Audi A1 Uni-Schwarz
 Dieser Uni-Schwarze A1 war bei einer großen Werkstattkette, wo ein Lackschaden (Kratzer in der Tür) beseitig werden sollte. Ergebnis: Tür + Kotflügel hinten voller Hologramme und Schleifspuren und die Kratzer sind immer noch drin... Auf die Nachbesserung verzichtete die Besitzerin - jetzt sollten Profis ran!

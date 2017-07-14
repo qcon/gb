@@ -1,12 +1,9 @@
 ---
-title: FORD FOCUS RS MK2
-author: René
+title: 'FORD FOCUS RS MK2'
+author: 'René'
 layout: post
-header_image: https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/sonstige/focusrsfrozenwhiterene.jpg
-subtitle:
-  - 'FROZEN WHITE UNI. - // Definitive White!'
-categories:
-  - Pflegeberichte
+header_image: 'https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/sonstige/focusrsfrozenwhiterene.jpg'
+subtitle: 'FROZEN WHITE UNI. - // Definitive White!'
 ---
 
 ![](http://abload.de/img/headerdluvl.jpg)

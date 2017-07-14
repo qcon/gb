@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Opel Admiral
-subtitle: UniSchwarz in Glossboss Teamarbeit
-author: Marvin
-header_image: https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/opel_admiral/DSC00858.jpg
+title: 'Opel Admiral'
+subtitle: 'UniSchwarz in Glossboss Teamarbeit'
+author: 'Marvin'
+header_image: 'https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/opel_admiral/DSC00858.jpg'
 ---
 # Opel Admiral B - Glossboss Teamwork am Rüsselsheimer Flaggschiff&nbsp;
 

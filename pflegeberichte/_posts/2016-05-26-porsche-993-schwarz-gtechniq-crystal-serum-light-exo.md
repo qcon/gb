@@ -3,7 +3,7 @@ layout: post
 title: 'Porsche 993 Schwarz'
 subtitle: 'Versiegelt mit Gtechniq Crystal Serum Light + Exo'
 author: 'Marvin'
-header_image: https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/porsche993_schwarz_csl_exo/DSC01893.jpg
+header_image: 'https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/porsche993_schwarz_csl_exo/DSC01893.jpg'
 ---
 # Porsche 993 Schwarz Metallic
 

@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Mercedes C-Klasse
-subtitle: Gewachst mit Auto Finesse Spirit
-author: Matheus
-header_image: https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/mercedes_c220_s204/0099.jpg
+title: 'Mercedes C-Klasse'
+subtitle: 'Gewachst mit Auto Finesse Spirit'
+author: 'Matheus'
+header_image: 'https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/mercedes_c220_s204/0099.jpg'
 ---
 Hallo Glossbosse,
 

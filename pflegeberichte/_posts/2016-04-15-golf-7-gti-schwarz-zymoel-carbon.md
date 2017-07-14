@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Golf 7 GTI Schwarz
-subtitle: Was falsche Handwäsche für Schäden anrichten kann...
-author: Marvin
-header_image: https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/golf7-gti-schwarz/DSC01227.jpg
+title: 'Golf 7 GTI Schwarz'
+subtitle: 'Was falsche Handwäsche für Schäden anrichten kann...'
+author: 'Marvin'
+header_image: 'https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/golf7-gti-schwarz/DSC01227.jpg'
 ---
 Glossbosse, ihr wisst spätestens seit [diesen Post](https://glossboss.de/allgemein/waschanlage-vermeiden/) warum ich immer ein grummeln im Bauch kriege, wenn ich Fahrzeuge polieren soll, die nur von Hand gewaschen wurden. Das hat sich bei diesen schwarzen Golf 7 GTI mal wieder bestätigt. Der Besitzer wäscht ausschließlich von Hand und das recht häufig. Trotz der sehr geringen Laufleistung von 10.000KM, hat der Lack schon einiges an richtig tiefen Kratzern, welche Swirls zum verwechseln ähnlich sehen. Geblendet vom "guten Zustand" haben wir eine Hochglanzpolitur vereinbart.
 

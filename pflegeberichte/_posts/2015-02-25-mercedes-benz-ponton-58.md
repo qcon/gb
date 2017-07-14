@@ -1,13 +1,9 @@
 ---
-title: Mercedes Benz Ponton '58
-author: Jones
+title: "Mercedes Benz Ponton '58"
+author: 'Jones'
 layout: post
-header_image: https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/sonstige/55.jpg
-subtitle:
-  - 'Ein glänzender Meilenstein'
-categories:
-  - Pflegeberichte
-pdf_version: jap
+header_image: 'https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/sonstige/55.jpg'
+subtitle: 'Ein glänzender Meilenstein'
 --- 
 
 **Fahrzeug**: Mercedes Benz W180 220S, sprich [großer Ponton](http://de.wikipedia.org/wiki/Mercedes-Benz_W_180#Mercedes-Benz_220_S_Limousine_.28W_180_II.29)   

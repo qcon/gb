@@ -1,12 +1,9 @@
 ---
-title: Smart Fortwo Coupé mhd Passion 
-author: Benni
+title: 'Smart Fortwo Coupé mhd Passion' 
+author: 'Benni'
 layout: post
-header_image: https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/sonstige/smartfortwobenni.jpg
-subtitle:
-  - 'Uni-Schwarzer Glanzzwerg'
-categories:
-  - Pflegeberichte
+header_image: 'https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/sonstige/smartfortwobenni.jpg'
+subtitle: 'Uni-Schwarzer Glanzzwerg'
 ---
 Es ist wieder soweit, die Saison beginnt und die Temperaturen lassen es endlich wieder zu, Spaß am Hobby zu haben. Zur Aufwärmung dieses Jahr gab es ein kleines Osterei in Form eines Smarts. 
 

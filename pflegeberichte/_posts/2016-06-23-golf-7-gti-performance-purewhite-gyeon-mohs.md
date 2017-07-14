@@ -3,7 +3,7 @@ layout: post
 title: 'Golf 7 GTI Performance'
 subtitle: 'Purewhite versiegelt mit Gyeon MOHS+'
 author: 'Börge'
-header_image: https://glossbossimages.s3.eu-central-1.amazonaws.com/boerge/g7gti/0082.jpg
+header_image: 'https://glossbossimages.s3.eu-central-1.amazonaws.com/boerge/g7gti/0082.jpg'
 ---
 ### VW Golf 7 GTI Performance - _Purewhite_ / Puregloss - Gyeon MOHS+
 

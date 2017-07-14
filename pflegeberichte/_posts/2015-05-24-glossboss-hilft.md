@@ -1,10 +1,9 @@
 ---
 layout: post
-title: "Glossboss hilft - VW Golf 3 GTI"
-author: "Ronny"
-subtitle: Der Bericht zur Hilfsaktion
-categories: Pflegeberichte
-header_image: https://glossbossimages.s3.eu-central-1.amazonaws.com/chiller/Glossboss_hilft_Bericht/Golf3GTI24.jpg
+title: 'Glossboss hilft - VW Golf 3 GTI'
+author: 'Ronny'
+subtitle: 'Der Bericht zur Hilfsaktion'
+header_image: 'https://glossbossimages.s3.eu-central-1.amazonaws.com/chiller/Glossboss_hilft_Bericht/Golf3GTI24.jpg'
 ---
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/chiller/Glossboss_hilft_Bericht/glossbosshilft_banner.png)
 Hier ist er nun, der Bericht zu einer ganz besonderen Aktion, die es so wohl noch nicht gab. Viele haben sich beworben, einige Wenige haben es dann in den Lostopf geschafft und Florian hat mit seinem Golf 3 GTI das große Los für mehr Glanz gezogen. 

@@ -3,7 +3,7 @@ layout: post
 title: 'VW Polo 6N (Finish Kare 1000P)'
 subtitle: 'Alteisen zum Triebe ausleben'
 author: 'Jones'
-header_image: https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/vwpolo6n/0046.jpg
+header_image: 'https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/vwpolo6n/0046.jpg'
 ---
 Nen wunderschönen!
 

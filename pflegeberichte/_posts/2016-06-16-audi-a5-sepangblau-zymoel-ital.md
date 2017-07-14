@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Audi A5 in Sepangblau
-subtitle: Gewachst mit Zymöl Ital
-author: Alex
-header_image: https://glossbossimages.s3.eu-central-1.amazonaws.com/alex/audi-a5-ital/A5_ital_037.JPG
+title: 'Audi A5 in Sepangblau'
+subtitle: 'Gewachst mit Zymöl Ital'
+author: 'Alex'
+header_image: 'https://glossbossimages.s3.eu-central-1.amazonaws.com/alex/audi-a5-ital/A5_ital_037.JPG'
 ---
 ## Audi A5 Sepangblau trifft auf Zymöl Ital
 

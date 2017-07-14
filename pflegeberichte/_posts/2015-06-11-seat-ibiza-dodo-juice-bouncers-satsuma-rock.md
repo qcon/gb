@@ -1,12 +1,9 @@
 ---
-title: Seat Ibiza mit Dodo Juice Bouncers Satsuma Rock
-author: Jones
+title: 'Seat Ibiza mit Dodo Juice Bouncers Satsuma Rock'
+author: 'Jones'
 layout: post
-header_image: https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/seat_ibiza/53.jpg
-subtitle:
-  - 'Blauer Spanierer vs. Team Altes Ehepaar'
-categories:
-  - Pflegeberichte
+header_image: 'https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/seat_ibiza/53.jpg'
+subtitle: 'Blauer Spanierer vs. Team Altes Ehepaar'
 --- 
 
 **Fahrzeug**: Seat Ibiza 6K GP01   

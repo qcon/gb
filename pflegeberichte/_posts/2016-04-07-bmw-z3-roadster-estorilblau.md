@@ -1,9 +1,9 @@
 ---
 layout: post
-title: BMW Z3 Roadster Estorilblau Met.
-subtitle: Zu jung zum sterben!
-author: Frederic
-header_image: https://glossbossimages.s3.eu-central-1.amazonaws.com/frederic/bmwz3/Finish18.JPG
+title: 'BMW Z3 Roadster Estorilblau Met.'
+subtitle: 'Zu jung zum sterben!'
+author: 'Frederic'
+header_image: 'https://glossbossimages.s3.eu-central-1.amazonaws.com/frederic/bmwz3/Finish18.JPG'
 ---
 BMW Z3 Roadster Estorilblau Met. Zu jung zum sterben!
 

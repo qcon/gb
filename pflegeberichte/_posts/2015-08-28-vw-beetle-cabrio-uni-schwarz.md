@@ -1,10 +1,9 @@
 ---
 layout: post
-title: "VW Beetle"
-author: "André"
-subtitle: Kugelblitzblank reanimiert
-categories: Pflegeberichte
-header_image: https://glossbossimages.s3.eu-central-1.amazonaws.com/andre/vw_beetle/06_FinishDSC08187.JPG
+title: 'VW Beetle'
+author: 'André'
+subtitle: 'Kugelblitzblank reanimiert'
+header_image: 'https://glossbossimages.s3.eu-central-1.amazonaws.com/andre/vw_beetle/06_FinishDSC08187.JPG'
 ---
 
 # VW Beetle Cabrio - kugelblitzblank reanimiert

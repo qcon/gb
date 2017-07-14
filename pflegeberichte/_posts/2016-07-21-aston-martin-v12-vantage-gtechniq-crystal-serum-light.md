@@ -3,7 +3,7 @@ layout: post
 title: 'Aston Martin V12 Vantage'
 subtitle: 'Englischer Dampfhammer mit englischer High End Versiegelung'
 author: 'Ronny'
-header_image: https://glossbossimages.s3.eu-central-1.amazonaws.com/chiller/aston-martin/Aston097.jpg
+header_image: 'https://glossbossimages.s3.eu-central-1.amazonaws.com/chiller/aston-martin/Aston097.jpg'
 video: true
 ---
 ![](https://glossbossimages.s3.eu-central-1.amazonaws.com/chiller/aston-martin/Aston_Banner.png)

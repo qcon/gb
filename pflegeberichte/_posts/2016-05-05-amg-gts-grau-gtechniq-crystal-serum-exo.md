@@ -1,9 +1,9 @@
 ---
 layout: post
-title: AMG GTS Grau Neuwagen
+title: 'AMG GTS Grau Neuwagen'
 subtitle: 'Das Beste was es gibt: Crystal Serum und Exo'
-author: Marvin
-header_image: https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/amg-gts-grau/DSC01439.jpg
+author: 'Marvin'
+header_image: 'https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/amg-gts-grau/DSC01439.jpg'
 ---
 ### AMG GT s in Grau - Neuwagenversiegelung mit Gtechniq Crystal Serum + Exo
 

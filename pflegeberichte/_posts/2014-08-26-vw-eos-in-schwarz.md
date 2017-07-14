@@ -1,9 +1,9 @@
 ---
-title: VW EOS in schwarz
-author: Ronny
-header_image: https://glossbossimages.s3.eu-central-1.amazonaws.com/headerimg/eosschwarz.jpg
+title: 'VW EOS in schwarz'
+author: 'Ronny'
+header_image: 'https://glossbossimages.s3.eu-central-1.amazonaws.com/headerimg/eosschwarz.jpg'
 layout: post
-subtitle: Versiegelt mit Dodo Juice Supernatural Infinity
+subtitle: 'Versiegelt mit Dodo Juice Supernatural Infinity'
 ---
 Wenn man einen Pflegeauftrag annimmt, informiert man sich ja vorher schon ein bisschen über die Eigenschaften des Objekts. In meinem Fall hatte ich zwischen Terminabsprache und dem Tag der &#8220;Offenbarung&#8221; zwei Wochen Zeit. Gefühlt fuhren mir bis dahin jeden Tag mehrere Eos über den Weg obwohl mir dieses Auto vorher nie so richtig aufgefallen ist. Im Internet recherchierte ich dann ein bisschen und stieß dabei auf diesen Wikipedia Eintrag:
 
@@ -20,124 +20,45 @@ Wieder was gelernt und nun genug der Vorworte. Mal schauen ob wir die Göttin wi
 
 &nbsp;
 
-<p style="color: #454545;">
-  <span style="font-weight: bold; font-style: inherit;">Verwendete Produkte:</span>
-</p>
+## Verwendete Produkte:
 
-<ul style="color: #454545;">
-  <li style="font-style: inherit;">
-    ValetPRO Advanced Snow Foam
-  </li>
-  <li style="font-style: inherit;">
-    Finish Kare 118 Super Concentrated Shampoo
-  </li>
-  <li style="font-style: inherit;">
-    <span style="font-style: inherit;">Bilberry Blue Gel 1:4 verdünnt </span>
-  </li>
-  <li style="font-style: inherit;">
-    Valet Pro Dragon Breath
-  </li>
-  <li style="font-style: inherit;">
-    Dodo Juice Supernatural Knete und die blaue Magic Clean
-  </li>
-  <li style="font-style: inherit;">
-    ONR Mischung ca. 1:30 als Gleitmittel zum Kneten
-  </li>
-  <li style="font-style: inherit;">
-    Menzerna PF2200
-  </li>
-  <li style="font-style: inherit;">
-    Meguiars Ultimate Compound
-  </li>
-  <li style="font-style: inherit;">
-    Meguiars #34 und IPA Mischung 1:5
-  </li>
-  <li style="font-style: inherit;">
-    Colourlock Leder Reiniger und
-  </li>
-  <li style="font-style: inherit;">
-    Colourlock Leder Protector
-  </li>
-  <li style="font-style: inherit;">
-    Surf City Garage Dash Away
-  </li>
-  <li style="font-style: inherit;">
-    ValetPRO Talos Protectant (neuer Name &#8220;Classic Protectant&#8221;)
-  </li>
-  <li style="font-style: inherit;">
-    Laakmann Autoglasreiniger
-  </li>
-  <li style="font-style: inherit;">
-    Gyeon Tire als Reifenpflege
-  </li>
-  <li style="font-style: inherit;">
-    Gyeon Q2M Prep
-  </li>
-  <li style="font-style: inherit;">
-    Dodo Juice Supernatural Infinity
-  </li>
-</ul>
+- ValetPRO Advanced Snow Foam
+- Finish Kare 118 Super Concentrated Shampoo
+- Bilberry Blue Gel 1:4 verdünnt
+- Valet Pro Dragon Breath
+- Dodo Juice Supernatural Knete und die blaue Magic Clean
+- ONR Mischung ca. 1:30 als Gleitmittel zum Kneten
+- Menzerna PF2200
+- Meguiars Ultimate Compound
+- Meguiars #34 und IPA Mischung 1:5
+- Colourlock Leder Reiniger und
+- Colourlock Leder Protector
+- Surf City Garage Dash Away
+- ValetPRO Talos Protectant (neuer Name &#8220;Classic Protectant&#8221;)
+- Laakmann Autoglasreiniger
+- Gyeon Tire als Reifenpflege
+- Gyeon Q2M Prep
+- Dodo Juice Supernatural Infinity
 
-<p style="color: #454545;">
-  <span style="font-weight: bold; font-style: inherit;">Verwendete Hilfsmittel:</span>
-</p>
+## Verwendete Hilfsmittel:
 
-<ul style="color: #454545;">
-  <li style="font-style: inherit;">
-    Kärcher Hochdruckreiniger
-  </li>
-  <li style="font-style: inherit;">
-    FoamGun
-  </li>
-  <li style="font-style: inherit;">
-    1 Eimer für die Felgenwäsche
-  </li>
-  <li style="font-style: inherit;">
-    2 Eimer mit Grit Guard Einsätzen
-  </li>
-  <li style="font-style: inherit;">
-    Fix40 Waschhandschuh
-  </li>
-  <li style="font-style: inherit;">
-    Daytona und Mothers Felgenbürste
-  </li>
-  <li style="font-style: inherit;">
-    HPX Masking Tape Premium
-  </li>
-  <li style="font-style: inherit;">
-    Rupes LHR 15E Exzenterpolierer
-  </li>
-  <li style="font-style: inherit;">
-    Rupes BigFoot Polierschwamm grün
-  </li>
-  <li style="font-style: inherit;">
-    Flex PE 14-2 150 Rotationspolierer
-  </li>
-  <li style="font-style: inherit;">
-    3M Perfect-it Stützteller 120mm
-  </li>
-  <li style="font-style: inherit;">
-    Dodo Juice Supernatural Stützteller 75mm
-  </li>
-  <li style="font-style: inherit;">
-    Lake Country CCS Pads Orange in 101mm und 139mm
-  </li>
-  <li style="font-style: inherit;">
-    Taschenlampe
-  </li>
-  <li style="font-style: inherit;">
-    Kärcher SE 4002
-  </li>
-  <li style="font-style: inherit;">
-    Diverse Microfasertücher von Lupus
-  </li>
-  <li style="font-style: inherit;">
-    Schwämme, Auftragpads, etc.
-  </li>
-  <li style="font-style: inherit;">
-    &#8230;
-  </li>
-</ul>
+- Kärcher Hochdruckreiniger
+- FoamGun
+- 1 Eimer für die Felgenwäsche
+- 2 Eimer mit Grit Guard Einsätzen
+- Fix40 Waschhandschuh
+- Daytona und Mothers Felgenbürste
+- HPX Masking Tape Premium
+- Rupes LHR 15E Exzenterpolierer
+- Rupes BigFoot Polierschwamm grün
+- Flex PE 14-2 150 Rotationspolierer
+- 3M Perfect-it Stützteller 120mm
+- Dodo Juice Supernatural Stützteller 75mm
+- Lake Country CCS Pads Orange in 101mm und 139mm
+- Taschenlampe
+- Kärcher SE 4002
+- Diverse Microfasertücher von Lupus
+- Schwämme, Auftragpads, etc.
 
 &nbsp;
 

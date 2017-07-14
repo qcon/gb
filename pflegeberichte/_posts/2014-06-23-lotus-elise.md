@@ -1,12 +1,9 @@
 ---
-title: Lotus Elise
-author: Marvin
+title: 'Lotus Elise'
+author: 'Marvin'
 layout: post
-header_image: https://glossbossimages.s3.eu-central-1.amazonaws.com/headerimg/lotuselise.jpg
-subtitle:
-  - Kann dieser Lack noch mehr glänzen?
-categories:
-  - Pflegeberichte
+header_image: 'https://glossbossimages.s3.eu-central-1.amazonaws.com/headerimg/lotuselise.jpg'
+subtitle: 'Kann dieser Lack noch mehr glänzen?'
 ---
 Dieser **Burnt-Orangene** Flitzer verdient eine erstklassige Aufbereitung.
 

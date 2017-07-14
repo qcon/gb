@@ -3,7 +3,7 @@ layout: post
 title: 'Crystal Serum nach 2 Jahren'
 subtitle: 'Porsche 997 kommt zur Kontrolle'
 author: 'Marvin'
-header_image: https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/997-grau-serum-2/DSC02006.jpg
+header_image: 'https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/997-grau-serum-2/DSC02006.jpg'
 ---
 
 Über 2 Jahre ist es nun her als ich diesen [Porsche 997 mit einen Prototypen vom Crystal Serum versiegelt habe](https://glossboss.de/pflegeberichte/porsche-997-grau-crystal-serum-gtechniq/). Seitdem war er ca. 10-12 mal pro Jahr in der Waschanlage und wurde über 20.000km bewegt. Der Besitzer wünschte eine Hochglanzpolitur mit an schließender neuer Schicht Crystal Serum - quasi zum auffrischen der alten.

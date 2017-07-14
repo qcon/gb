@@ -1,20 +1,13 @@
 ---
-title: Mercedes A 200 CDI (AMG LINE)
-author: Benni
+title: 'Mercedes A 200 CDI (AMG LINE)'
+author: 'Benni'
 layout: post
-pdf_version: jap
-header_image: https://glossbossimages.s3.eu-central-1.amazonaws.com/headerimg/merca200.jpg
-ftf_open_type:
-  - 
-subtitle:
-  - Versiegelt mit OptiCoat 2.0
-categories:
-  - Pflegeberichte
+header_image: 'https://glossbossimages.s3.eu-central-1.amazonaws.com/headerimg/merca200.jpg'
+subtitle: 'Versiegelt mit OptiCoat 2.0'
 ---
 Vor kurzem hatte ich das Glück eine wunderschöne A-Klasse AMG Line pflegen zu dürfen.  
 Der Ausgangszustand war typisch für ein noch nie durch Wachs oder Versiegelung geschütztes Auto, welches nachts draußen parken muss.
 
-<!--more-->
 
 Es waren einige festsitzende Kontaminationen auf dem Lack verteilt. Diese waren auch durch eine gründliche Fahrzeugwäsche nicht ganz zu beseitigen. Kneten war hier also besonders wichtig, sollte aber generell vor JEDER Anwendung einer Politur genutzt werden.  
 Alleine das Waschen und Kneten des Lackes nahm dieses mal knapp 3 Stunden in Anspruch.  

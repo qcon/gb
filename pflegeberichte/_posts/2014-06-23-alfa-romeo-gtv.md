@@ -1,12 +1,9 @@
 ---
-title: Alfa Romeo GTV
-author: Marvin
+title: 'Alfa Romeo GTV'
+author: 'Marvin'
 layout: post
-header_image: https://glossbossimages.s3.eu-central-1.amazonaws.com/headerimg/alfagtv.jpg
-subtitle:
-  - Ob der noch zu retten ist?
-categories:
-  - Pflegeberichte
+header_image: 'https://glossbossimages.s3.eu-central-1.amazonaws.com/headerimg/alfagtv.jpg'
+subtitle: 'Ob der noch zu retten ist?'
 ---
 Dieser 6 Zylinder GTV ist ein Liebhaberfahrzeug, was dank der kompletten Aufbereitung mit über 10 Schichten Liquid Glass Legend dem Besitzer noch länger eine Freude bereiten wird.
 

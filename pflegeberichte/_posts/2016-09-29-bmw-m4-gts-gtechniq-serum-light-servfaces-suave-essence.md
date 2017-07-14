@@ -3,7 +3,7 @@ layout: post
 title: 'BMW M4 GTS'
 subtitle: 'Essence, Serum Light und Suave'
 author: 'Jones'
-header_image: https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/m4gts/0079.jpg
+header_image: 'https://glossbossimages.s3.eu-central-1.amazonaws.com/jones/berichte/m4gts/0079.jpg'
 ---
 ///Moin Glossbosse,   
 

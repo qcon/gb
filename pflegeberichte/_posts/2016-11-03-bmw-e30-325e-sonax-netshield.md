@@ -3,7 +3,7 @@ layout: post
 title: 'BMW 325e'
 subtitle: 'E30 versiegelt mit Sonax Netshield'
 author: 'Alex Brose'
-header_image: https://glossbossimages.s3.eu-central-1.amazonaws.com/alexbrose/E30_Pflegebericht/001.jpg
+header_image: 'https://glossbossimages.s3.eu-central-1.amazonaws.com/alexbrose/E30_Pflegebericht/001.jpg'
 ---
 ### Moin!
 

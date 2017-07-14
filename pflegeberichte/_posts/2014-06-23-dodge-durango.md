@@ -1,12 +1,9 @@
 ---
-title: Dodge Durango
-author: Marvin
+title: 'Dodge Durango'
+author: 'Marvin'
 layout: post
-header_image: https://glossbossimages.s3.eu-central-1.amazonaws.com/headerimg/durango.jpg
-subtitle:
-  - In über 45 Stunden zum Erfolg
-categories:
-  - Pflegeberichte
+header_image: 'https://glossbossimages.s3.eu-central-1.amazonaws.com/headerimg/durango.jpg'
+subtitle: 'In über 45 Stunden zum Erfolg'
 ---
 ![Dodge Durango](https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/dodgedurango/P1010418.JPG)
 
