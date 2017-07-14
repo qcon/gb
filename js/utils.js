@@ -36,7 +36,7 @@ $(window).on('scroll', () => {
 })
 
 function getPostDB () {
-    return $.getJSON('/posts.json', {_: new Date().getTime()})
+  return $.getJSON('/posts.json', {_: new Date().getTime()})
 }
 
 
