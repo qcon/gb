@@ -7,6 +7,26 @@ const MAXINDEX = 15
 const $POSTLIST = $('.post--list')
 const $LOADMOREBTN = $('#loadmoreajax')
 
+function generateAndAppendPost(post, container) {
+  const $post = 
+  `<li class="displayNone">
+    <div class="postsListItem">
+      <a tabindex="-1" class="post-link" href="${post.url}">
+        <div tabindex="-1" class="post--img" style="background:url(${post.header_image}) 50% 50% no-repeat;background-size:cover;">
+        </div>
+          <div tabindex="0" class="post--list__content">
+            <span class="post--category">${post.category}</span>
+            <span class="post--datum">${post.date}</span>
+            <span class="post--title__a">${post.title} <small class="post--subtitle">${post.subtitle}</small>
+          </span>
+        </div>
+      </a>
+  </div>
+</li>`
+  
+  return post.title && $($post).appendTo(container)
+}
+
 function getPosts (cat) {
   return getPostDB().then((data) => {
     postDB = data.filter((item) => {
@@ -33,7 +53,8 @@ function loadPosts () {
     $currentPosts = $('.post--list li').length
     if (($currentPosts < MAXINDEX && index < MAXINDEX) ||
       (i >= $currentPosts && index < MAXRELOAD)) {
-      $(post.card).appendTo($POSTLIST)
+      // $(post.card).appendTo($POSTLIST)
+      generateAndAppendPost(post, $POSTLIST)
       showDelay += 100
       index++
       if ($currentPosts >= 6 && $currentPosts % 6 === 0) {
