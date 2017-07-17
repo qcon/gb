@@ -6,8 +6,10 @@ const $headerMenu = $('.header-menu')
 const $headerMenuPlaceholder = $('.header-menu-placeholder')
 const shouldStickPos = $headerMenu.offset().top
 const $searchForm = $('#search_form')
+const $showPhonenumber = $('#showPhonenumber')
 
 let isScrolling = false
+let clicked = 1
 
 function scrollDelay (time, fn) {
   if (isScrolling) return
@@ -120,6 +122,22 @@ const addEvents = () => {
     $searchForm.serialize()
     const searchIn = $('#search_input_nav').val()
     location.href = `/suche/?q=${searchIn}`
+  })
+  
+  $showPhonenumber.on('click', () => {
+    switch (clicked) {
+      case 1:
+        $showPhonenumber.text('Achtung! Kein Telefonsupport zum Thema Autopflege!')
+        break
+      case 2:
+        $showPhonenumber.text('01703262412')
+        $showPhonenumber.off('click')
+        break
+      default:
+        return
+        
+    }
+    clicked++;
   })
 
   // Show Disqus Comments
