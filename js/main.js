@@ -3,5 +3,5 @@
   // =include utils.js
   // =include mischungsrechner.js
   // =include slider.js
-  // =include search.js
+  //include search.js
   // =include sideMenu.js

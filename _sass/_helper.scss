@@ -141,34 +141,34 @@
   text-transform: capitalize;
 }
 
-#eastereggNavbar {
-  cursor: wait;
-  content: '';
-  width: 1px;
-}
-
-.eastereggNavbar {
-  transform: rotate(180deg);
-}
+// #eastereggNavbar {
+//   cursor: wait;
+//   content: '';
+//   width: 1px;
+// }
+// 
+// .eastereggNavbar {
+//   transform: rotate(180deg);
+// }
 
 .hidden {
   opacity: 0;
 }
 
-.progressBar--wrapper {
-  width: 90%;
-  margin: 0 auto;
-}
-
-#progressBar {
-  width: 5%;
-  height: 5px;
-  margin-top: 10px;
-  background: $blau;
-  display: none;
-  transition: 100ms;
-  @include materialShadow(1);
-}
+// .progressBar--wrapper {
+//   width: 90%;
+//   margin: 0 auto;
+// }
+// 
+// #progressBar {
+//   width: 5%;
+//   height: 5px;
+//   margin-top: 10px;
+//   background: $blau;
+//   display: none;
+//   transition: 100ms;
+//   @include materialShadow(1);
+// }
 
 
 
@@ -222,7 +222,7 @@
   position: absolute;
   visibility: hidden;
   opacity: 0;
-  transform: scale(.9) translate(0, 250px) rotate(17deg);
+  //transform: scale(.9) translate(0, 250px) rotate(17deg);
   //transform:scale(.5) rotate(10deg);
 }
 
