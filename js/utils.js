@@ -1,4 +1,4 @@
-/* global headerGradient, $, localStorage, location, headerImages */
+/* global headerGradient, $, localStorage, location, headerImages, postsVersion */
 const $cookieAlert = $('.cookies-hinweis')
 const $cookieAccept = $('#cookies_acc')
 const $autorBox = $('.autor-box-moreposts')
@@ -38,7 +38,7 @@ $(window).on('scroll', () => {
 })
 
 function getPostDB () {
-  return $.getJSON('/posts.json', {_: new Date().getTime()})
+  return $.getJSON(postsVersion)
 }
 
 
