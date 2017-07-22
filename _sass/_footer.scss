@@ -1,6 +1,6 @@
 footer {
   // background-color: $blau;
-  background: $green-blue-gradient;
+  background: $green-blue-gradient-tl;
   @include font(light);
   text-align: center;
   text-shadow: 1px 1px 3px rgba(black,.2);
@@ -128,7 +128,7 @@ footer {
   padding: 1em;
   // margin: 3em 1em;
   cursor: pointer;
-  background: HSL(300,5%,95%);
+  background: $gray;
   transition: .15s cubic-bezier(.55,0,.1,1);
   color: $text;
   @include font(light);
@@ -140,7 +140,7 @@ footer {
     height: 46px;
   }
   &:hover {
-    background: HSL(300,5%,93%);
+    background: $gray_hover;
   }
   @media #{$sm} {
     margin: 0;

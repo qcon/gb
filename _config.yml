@@ -22,7 +22,7 @@ exclude:
 - postDB
 - task
 - kontakt
-- spenden
+- suche
 include:
 - dist
 markdown: redcarpet

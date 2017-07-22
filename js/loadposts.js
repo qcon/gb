@@ -8,21 +8,39 @@ const $POSTLIST = $('.post--list')
 const $LOADMOREBTN = $('#loadmoreajax')
 
 function generateAndAppendPost(post, container) {
-  const $post = 
-  `<li class="displayNone">
-    <div class="postsListItem">
-      <a tabindex="-1" class="post-link" href="${post.url}">
-        <div tabindex="-1" class="post--img" style="background:url(${post.header_image}) 50% 50% no-repeat;background-size:cover;">
-        </div>
-          <div tabindex="0" class="post--list__content">
-            <span class="post--category">${post.category}</span>
-            <span class="post--datum">${post.date}</span>
-            <span class="post--title__a">${post.title} <small class="post--subtitle">${post.subtitle}</small>
-          </span>
-        </div>
-      </a>
-  </div>
-</li>`
+  //const $post = 
+//   `<li class="displayNone">
+//     <div class="postsListItem">
+//       <a tabindex="-1" class="post-link" href="${post.url}">
+//         <div tabindex="-1" class="post--img" style="background:url(${post.header_image}) 50% 50% no-repeat;background-size:cover;">
+//         </div>
+//           <div tabindex="0" class="post--list__content">
+//             <span class="post--category">${post.category}</span>
+//             <span class="post--datum">${post.date}</span>
+//             <span class="post--title__a">${post.title} <small class="post--subtitle">${post.subtitle}</small>
+//           </span>
+//         </div>
+//       </a>
+//   </div>
+// </li>`
+const $post = `
+<li class="blogPostCard displayNone">
+  <a href="${post.url}"><div class="blogPostCard--image" style="background:url(${post.header_image}) 50% 50% no-repeat;background-size:cover;"></div></a>
+
+  <a class="blogPostCard--title" href="${post.url}">${post.title}</a>
+  <div class="blogPostCard--titleSeperator"></div>
+
+  <a class="blogPostCard--subTitle" href="${post.url}">${post.subtitle}</a>
+
+  <div class="blogPostCard--readMore">
+    <div class="buttonWrapper">
+      <a href="${post.url}" class="button_readMore">Weiterlesen</a>
+    </div>
+</div>
+</li>
+
+
+`
   
   return post.title && $($post).appendTo(container)
 }

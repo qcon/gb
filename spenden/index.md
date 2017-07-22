@@ -16,4 +16,4 @@ Deswegen bedanke ich mich Voraus bei jeden der den Blog unterstützt!
 
 oder
 
-<div class="donationBox"><a class="donationButton" href="http://paypal.me/marvinmieth/5" alt="Spenden mit Paypal" target="_blank">Spenden (PayPal)</a></div>
+<div class="donationBox"><a class="donationButton" href="http://paypal.me/mmieth/5" alt="Spenden mit Paypal" target="_blank">Spenden (PayPal)</a></div>
