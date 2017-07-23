@@ -1,1 +1,15 @@
-<li><a class="post-link" href="{{ post.url | prepend: site.baseurl }}"><div class="post--img" style="background:url({% if post.head__img %} {{ post.head__img }} {% else %} {{ post.header_image }} {% endif %}) 50% 50% no-repeat;background-size:cover;">{% if post.video %}{% include svg/play-btn-raw.svg %}{% endif %}</div><div class="post--list__content"><span class="post--category">{{ post.categories[0] | capitalize}}</span><span class="post--datum">{{ post.date | date: '%-d.%m.%Y' }}</span><span class="post--title__a">{{ post.title }} <small class="post--subtitle">{{ post.subtitle }}</small></span></a></div></li>
+<li class="blogPostCard">
+  <a href="{{post.url}}"><div class="blogPostCard--image" style="background:url({{post.header_image}}) 50% 50% no-repeat;background-size:cover;"></div></a>
+  
+  <div class="blogPostCard--date">{{post.date}} | {{post.category}}</div>
+  <a class="blogPostCard--title" href="{{post.url}}">{{post.title}}</a>
+  <div class="blogPostCard--titleSeperator"></div>
+
+  <a class="blogPostCard--subTitle" href="{{post.url}}">{{post.subtitle}}</a>
+
+  <div class="blogPostCard--readMore">
+    <div class="buttonWrapper">
+      <a href="{{post.url}}" class="button_readMore">Weiterlesen</a>
+    </div>
+  </div>
+</li>

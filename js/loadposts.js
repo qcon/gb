@@ -24,9 +24,9 @@ function generateAndAppendPost(post, container) {
 //   </div>
 // </li>`
 const $post = `
-<li class="blogPostCard displayNone">
-  <a href="${post.url}"><div class="blogPostCard--image" style="background:url(${post.header_image}) 50% 50% no-repeat;background-size:cover;"></div></a>
-
+<li class="blogPostCard displayNone ${post.highlight && "blogPostCard--highlight"}">
+  <a href="${post.url}"><div class="blogPostCard--image" style="background:url(${post.header_image}) 50% 50% no-repeat;background-size:cover;">${post.gesponsort && '<div class="blogPostCard--gesponsort">gesponsort</div>'}</div></a>
+  <div class="blogPostCard--date">${post.date} | ${post.category}</div>
   <a class="blogPostCard--title" href="${post.url}">${post.title}</a>
   <div class="blogPostCard--titleSeperator"></div>
 
