@@ -1,7 +1,7 @@
 <li class="blogPostCard">
   <a href="{{post.url}}"><div class="blogPostCard--image" style="background:url({{post.header_image}}) 50% 50% no-repeat;background-size:cover;"></div></a>
   
-  <div class="blogPostCard--date">{{post.date}} | {{post.category}}</div>
+  <div class="blogPostCard--date">{{post.date | date: '%-d.%m.%Y'}} | {{post.categories[0] | capitalize}}</div>
   <a class="blogPostCard--title" href="{{post.url}}">{{post.title}}</a>
   <div class="blogPostCard--titleSeperator"></div>
 

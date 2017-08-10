@@ -48,7 +48,7 @@
   mail: 'glossboss.ralf@gmx.de'
   location: 'Rheinland'
   bio: 'Wenn Ralf nicht gerade wieder im Rennkart sitzt und Rundenrekorde bricht oder die Nordschleife mit seinem TT umrundet, poliert und pflegt er am liebsten edle Sportwagen. 2013 hatte er das erste Mal eine Poliermaschine in der Hand und ist seit dem ein detailverliebter Glossboss, der gerne auch im Team mit Mark, Marvin und anderen arbeitet. Gerne versorgt er seine Helfer mit allem was zum BBQ gehört. Ob nun bestes Grillfleisch, geräucherter Schinken, Pulled Pork oder seine legendären BBQ Rubs aus dem Geheimlabor.'
-  active: true
+  active: false
 
 - name: Alex
   raw_name: alex
