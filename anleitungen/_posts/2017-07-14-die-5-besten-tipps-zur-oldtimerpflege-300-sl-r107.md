@@ -1,5 +1,4 @@
 ---
-highlight: true
 layout: post
 title: 'Die 5 besten Tipps zur Oldtimerpflege'
 subtitle: 'veranschaulicht an einem Mercedes Benz 300SL  (R107)'
