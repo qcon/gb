@@ -78,7 +78,16 @@
 // 		}
 // 	}
 // }
-
+.aufbereitung-durch-uns {
+  display: block;
+  background: $gray;
+  padding: 20px;
+  margin-bottom: 25px;
+  text-align: center;
+  a {
+    color: $blau;
+  }
+}
 .breadcrumb {
   font-size: 13px;
   margin-bottom: 40px;
