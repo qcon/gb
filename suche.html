@@ -1,0 +1,32 @@
+---
+layout: default
+randomHeader: true
+---
+<script>
+window.store = {
+  {% for post in site.posts %}
+  "{{ post.url | slugify }}": {
+    "title": "{{ post.title | xml_escape }}",
+    "author": "{{ post.author | xml_escape }}",
+    "header_image": "{{ post.header_image | xml_escape }}",
+    "url": "{{ post.url | xml_escape | prepend: site.baseurl}}",
+    "subtitle": "{{ post.subtitle | xml_escape }}",
+    "date": "{{ post.date | xml_escape | date: '%-d.%m.%Y'}}",
+    "category": "{{ post.categories[0] | capitalize | xml_escape}}"
+  }
+  {% unless forloop.last %},{% endunless %}
+  {% endfor %}
+};
+</script>
+<div class="width--wrapper">
+  <form action="/suche/index.html" method="get">
+    <div class="search-box-wrapper">
+      <label for="search-box">Suche</label>
+      <input type="text" id="search-box" name="q" placeholder="Suchbegriff eingeben">
+      <input type="submit" value="Go">
+      </div>
+  </form>
+<ul id="search-results" class="post--list"></ul>
+<script src="/dist/lunr.js"></script>
+<script src="/dist/search.js" async></script>
+</div>

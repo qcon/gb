@@ -279,7 +279,7 @@ input:focus {
   }
 }
 
-#search-input {
+#search-box {
   padding: .3em;
   border-width: 0;
   border: none;
@@ -288,13 +288,17 @@ input:focus {
   font-size: 1.1em;
   color: $blau;
   display: inline-block;
-  width: 350px;
+  width: 300px;
   max-width: 90%;
   margin: 0 auto;
 
   &:focus {
     outline: none;
   }
+}
+.search-box-wrapper {
+  margin: 50px;
+  text-align: center;
 }
 
 #searchWrapper {

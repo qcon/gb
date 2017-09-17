@@ -22,8 +22,8 @@ exclude:
 - postDB
 - task
 - kontakt
-- suche
 include:
+- suche.html
 - dist
 markdown: redcarpet
 permalink: "/:categories/:title/"
