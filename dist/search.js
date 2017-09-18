@@ -31,6 +31,9 @@ function getQueryVariable(variable) {
 
 var searchTerm = getQueryVariable('q');
 if (searchTerm) {
+  if (searchTerm.toLowerCase() === 'geilster aufbereiter nrw') {
+    return window.location.href = 'https://autopflegemieth.de'
+  }
   document.getElementById('search-box').setAttribute("value", searchTerm);
   var idx = lunr(function () {
     this.field('id');

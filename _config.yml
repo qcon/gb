@@ -34,6 +34,6 @@ collections:
     output: true
     permalink: "/preview/:title/"
 port: 1338
-js_version: 1
+js_version: 2
 css_version: 2
 posts_version: 6
