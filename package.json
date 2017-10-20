@@ -21,20 +21,13 @@
     "inquirer": "^2.0.0",
     "prompt": "^1.0.0"
   },
-  "standard": {
-    "ignore": [
-      "/js/main.js",
-      "/dist/*"
-    ]
-  },
   "scripts": {
-    "deploy:netlify": "npm run build && netlify deploy",
     "deploy": "npm run build && now deploy _site",
+    "alias": "now alias && now rm glossboss.de --safe",
     "build": "gulp build",
     "dev": "gulp",
     "preinstall": "bundle install",
-    "new": "node ./task/newInquirer.js",
-    "test": "semistandard"
+    "new": "node ./task/newInquirer.js"
   },
   "author": "Marvin Mieth",
   "license": "MIT",
