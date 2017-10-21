@@ -35,5 +35,5 @@ collections:
     permalink: "/preview/:title/"
 port: 1338
 js_version: 2
-css_version: 3
+css_version: 4
 posts_version: 8

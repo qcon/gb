@@ -384,6 +384,7 @@ table {
   h6 {
     padding: 1em 0 .5em;
     letter-spacing: 2px;
+    color: #000;
     small {
       @include font(light);
     }
@@ -395,6 +396,7 @@ table {
 
   p {
     margin: 1.5em 0;
+    color: #666;
   }
 }
 
