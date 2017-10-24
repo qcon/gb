@@ -10,17 +10,21 @@ let predefinedValues = {}
 const Mischungsrechner = {}
 
 Mischungsrechner.initialize = () => {
-  predefinedDil.on('click', function x () {
-    const content = $(this).html().split(':')
-    predefinedValues = {
-      part1: content[0],
-      part2: content[1]
-    }
-    // set the 2 input values to the predefined ones
-    part1.val(predefinedValues.part1)
-    part2.val(predefinedValues.part2)
-    Mischungsrechner.updateEvent()
-  }).bind(this)
+  predefinedDil
+    .on('click', function x() {
+      const content = $(this)
+        .html()
+        .split(':')
+      predefinedValues = {
+        part1: content[0],
+        part2: content[1]
+      }
+      // set the 2 input values to the predefined ones
+      part1.val(predefinedValues.part1)
+      part2.val(predefinedValues.part2)
+      Mischungsrechner.updateEvent()
+    })
+    .bind(this)
   mischungInputs.on('change', Mischungsrechner.updateEvent)
   mischungInputs.on('paste', Mischungsrechner.updateEvent)
 }
@@ -40,7 +44,7 @@ Mischungsrechner.calculateDil = () => {
   const res2Finish = res2.slice(0, res2.length - 3)
   return `${res1Finish}ml:${res2Finish}ml`
 }
-Mischungsrechner.updateOutput = (output) => {
+Mischungsrechner.updateOutput = output => {
   result.show()
   resultMl.text(output)
 }

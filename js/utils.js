@@ -11,7 +11,7 @@ const $showPhonenumber = $('#showPhonenumber')
 let isScrolling = false
 let clicked = 1
 
-function scrollDelay (time, fn) {
+function scrollDelay(time, fn) {
   if (isScrolling) return
   isScrolling = true
   setTimeout(() => {
@@ -37,27 +37,32 @@ $(window).on('scroll', () => {
   scrollDelay(100, stickyNav)
 })
 
-function getPostDB () {
+function getPostDB() {
   return $.getJSON(postsVersion)
 }
 
-
-function appendLatestPosts (author) {
+function appendLatestPosts(author) {
   const loadedPosts = getPostDB()
-  loadedPosts.then((data) => {
-    data.filter((a) => {
-      return a.author === author
-    }).map((posts, i) => { // eslint-disable-line
-      if (i >= 5) return; // eslint-disable-line
-      $autorBox.append($(`<li><a href="${posts.url}">${posts.title}</a></li>`))
-    })
+  loadedPosts.then(data => {
+    data
+      .filter(a => {
+        return a.author === author
+      })
+      .map((posts, i) => {
+        // eslint-disable-line
+        if (i >= 5) return // eslint-disable-line
+        $autorBox.append(
+          $(`<li><a href="${posts.url}">${posts.title}</a></li>`)
+        )
+      })
   })
 }
 if ($autorBox.length > 0) {
   appendLatestPosts($autorBox.attr('data-author'))
 }
 
-function loadingScreen (toggle) { // eslint-disable-line
+function loadingScreen(toggle) {
+  // eslint-disable-line
   const loadingElement = $('#loading')
   if (toggle) {
     loadingElement.show()
@@ -104,7 +109,10 @@ const addWhatsAppShareButton = () => {
   if ($('.post--sharing') && navigator.userAgent.match(/(iPhone)/g)) {
     const whatsAppBtn = $('.share--whatsapp')
     whatsAppBtn.css('display', 'inline-block')
-    whatsAppBtn.attr('href', `WhatsApp://send?text=${document.title}: ${location.href}`)
+    whatsAppBtn.attr(
+      'href',
+      `WhatsApp://send?text=${document.title}: ${location.href}`
+    )
   }
 }
 addWhatsAppShareButton()
@@ -112,22 +120,27 @@ addWhatsAppShareButton()
 const addEvents = () => {
   // Scotty, beam me up
   $('.scroll-top').on('click', () => {
-    $('body,html').animate({
-      scrollTop: 0
-    }, 500)
+    $('body,html').animate(
+      {
+        scrollTop: 0
+      },
+      500
+    )
   })
 
-  $searchForm.on('submit', (evt) => {
+  $searchForm.on('submit', evt => {
     evt.preventDefault()
     $searchForm.serialize()
     const searchIn = $('#search_input_nav').val()
     location.href = `/suche/?q=${searchIn}`
   })
-  
+
   $showPhonenumber.on('click', () => {
     switch (clicked) {
       case 1:
-        $showPhonenumber.text('Achtung! Kein Telefonsupport zum Thema Autopflege!')
+        $showPhonenumber.text(
+          'Achtung! Kein Telefonsupport zum Thema Autopflege!'
+        )
         break
       case 2:
         $showPhonenumber.text('01703262412')
@@ -135,9 +148,8 @@ const addEvents = () => {
         break
       default:
         return
-        
     }
-    clicked++;
+    clicked++
   })
 
   // Show Disqus Comments
@@ -146,9 +158,10 @@ const addEvents = () => {
     const dsq = document.createElement('script')
     dsq.type = 'text/javascript'
     dsq.async = true
-    dsq.src = `//${disqusShortname}.disqus.com/embed.js`;
-    (document.getElementsByTagName('head')[0] ||
-    document.getElementsByTagName('body')[0]).appendChild(dsq)
+    dsq.src = `//${disqusShortname}.disqus.com/embed.js`
+    ;(document.getElementsByTagName('head')[0] ||
+      document.getElementsByTagName('body')[0]
+    ).appendChild(dsq)
     $('.showCommentsContainer').fadeOut('fast')
   })
 }

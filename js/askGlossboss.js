@@ -8,20 +8,20 @@ const askGlossbossEmail = $('input[name=Email]')
 const askGlossbossName = $('input[name=Name]')
 const askGlossbossFrage = $('textarea[name=Frage]')
 const $kontaktModal = $('.js-modal-kontakt')
-function validateEmail (email) {
-  const re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/; // eslint-disable-line
+function validateEmail(email) {
+  const re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/ // eslint-disable-line
   return re.test(email)
 }
-function checkQuestion (q) {
+function checkQuestion(q) {
   let nooope = 0
-  q.split('').map((char) => {
+  q.split('').map(char => {
     if (char === '>' || char === '<') {
       nooope++
     }
   })
-  return (nooope >= 2)
+  return nooope >= 2
 }
-function resetInputs () {
+function resetInputs() {
   askGlossbossEmail.removeClass('formerror')
   askGlossbossName.removeClass('formerror')
   askGlossbossFrage.removeClass('formerror')
@@ -31,7 +31,7 @@ function resetInputs () {
 //   askGlossbossToggleBtn.toggleClass('open')
 //   $('#askGlossboss-Name').focus()
 // }
-function checkInputs () {
+function checkInputs() {
   let err = 0
   if (checkQuestion(askGlossbossFrage.val())) {
     err++
@@ -44,7 +44,10 @@ function checkInputs () {
     askGlossbossFrage.addClass('formerror')
     err++
   }
-  if (!validateEmail(askGlossbossEmail.val()) || askGlossbossEmail.val().length <= 2) {
+  if (
+    !validateEmail(askGlossbossEmail.val()) ||
+    askGlossbossEmail.val().length <= 2
+  ) {
     askGlossbossEmail.addClass('formerror')
     err++
   }
@@ -54,7 +57,7 @@ function checkInputs () {
   return err === 0
 }
 
-askGlossbossSubmit.on('click', (e) => {
+askGlossbossSubmit.on('click', e => {
   e.preventDefault()
   resetInputs()
 
@@ -62,7 +65,7 @@ askGlossbossSubmit.on('click', (e) => {
     $form.submit()
   }
 })
-$form.submit((e) => {
+$form.submit(e => {
   e.preventDefault()
   $.post($form.attr('action'), $form.serialize()).then(() => {
     $kontaktModal.fadeIn()

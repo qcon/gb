@@ -18,7 +18,7 @@ SideMenu.close = () => {
   $sideMenu.attr('aria-hidden', 'true')
   $sideMenu.attr('aria-labelledby', 'mainnav')
 }
-SideMenu.open = (event) => {
+SideMenu.open = event => {
   event.stopPropagation()
   event.preventDefault()
   if (!$sideMenu.hasClass('menuOut')) {
@@ -33,11 +33,11 @@ SideMenu.open = (event) => {
     $closeSideMenu.on('click', SideMenu.close)
   }, 100)
 }
-SideMenu.closeFullpage = (event) => {
+SideMenu.closeFullpage = event => {
   event.preventDefault()
   SideMenu.close()
 }
-SideMenu.closeOnEscape = (event) => {
+SideMenu.closeOnEscape = event => {
   if (event.which === 27) {
     event.stopPropagation()
     event.preventDefault()

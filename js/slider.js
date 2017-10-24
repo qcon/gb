@@ -10,14 +10,14 @@ const $sliderContainer = $('.slider')
 const $sliderPosMarks = $('.slider-position-marks')
 const sliderIntTime = 5000
 
-function updateSliderMarkPos () {
+function updateSliderMarkPos() {
   $sliderPosMarks.find('span').each((i, el) => {
     $(el).removeClass('active')
   })
   $(`.slider-position-marks span:nth-child(${slidePos + 1})`).addClass('active')
 }
 
-function swapImage () {
+function swapImage() {
   updateSliderMarkPos()
   $img.fadeOut('fast', () => {
     $img.attr('src', sliderItems[slidePos].img)
@@ -26,20 +26,20 @@ function swapImage () {
   })
 }
 
-function startSliderInterval () {
+function startSliderInterval() {
   clearInterval(sliderInt)
   sliderInt = setInterval(() => {
-    nextImage(); // eslint-disable-line
+    nextImage() // eslint-disable-line
   }, sliderIntTime)
 }
 
-function prevImage () {
+function prevImage() {
   slidePos--
   if (slidePos < 0) slidePos = maxSliderImages - 1
   swapImage()
   startSliderInterval()
 }
-function nextImage () {
+function nextImage() {
   slidePos++
   if (slidePos === maxSliderImages) {
     slidePos = 0
@@ -47,7 +47,7 @@ function nextImage () {
   swapImage()
   startSliderInterval()
 }
-function initSlider () {
+function initSlider() {
   $('.js-slider-images').each((i, el) => {
     sliderItems[i] = {
       img: $(el).attr('src'),
@@ -63,11 +63,11 @@ function initSlider () {
   updateSliderMarkPos()
 }
 
-$('.js-slide-prev').on('click', (e) => {
+$('.js-slide-prev').on('click', e => {
   e.preventDefault()
   prevImage()
 })
-$('.js-slide-next').on('click', (e) => {
+$('.js-slide-next').on('click', e => {
   e.preventDefault()
   nextImage()
 })
