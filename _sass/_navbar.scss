@@ -2,12 +2,12 @@
   background: HSL(300, 5%, 95%);
   padding: 9px;
   height: 50px;
-  box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
   z-index: 2;
   text-align: center;
   width: 100px;
   margin: 40px auto 75px;
-  display:none;
+  display: none;
   cursor: pointer;
 
   @media #{$md} {
@@ -36,18 +36,18 @@
 //   9% {
 //     transform: translate3d(-1px, 0, 0);
 //   }
-// 
+//
 //   2%,
 //   8% {
 //     transform: translate3d(2px, 0, 0);
 //   }
-// 
+//
 //   3%,
 //   5%,
 //   7% {
 //     transform: translate3d(-4px, 0, 0);
 //   }
-// 
+//
 //   4%,
 //   6% {
 //     transform: translate3d(4px, 0, 0);
@@ -72,7 +72,7 @@
   background: $gray;
   transform: translateX(-102%);
   transition: $transition_sidebar;
-  box-shadow: 0 1px 6px 1px rgba(black, .3);
+  box-shadow: 0 1px 6px 1px rgba(black, 0.3);
   // overflow: hidden;
   .js-close-sidemenu {
     width: 30px;
@@ -85,7 +85,7 @@
     line-height: 30px;
     text-align: center;
     font-size: 29px;
-    box-shadow: 0 1px 1px 1px rgba(0,0,0,0.2);
+    box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.2);
   }
   ul {
     width: 100%;

@@ -101,20 +101,20 @@
 //     opacity: 0;
 //     visibility: hidden;
 //   }
-// 
+//
 // }
 .radio--labels--btn {
-  input[type="radio"] {
+  input[type='radio'] {
     display: none;
-    margin: .6em;
+    margin: 0.6em;
   }
 
-  input[type=radio] + label {
+  input[type='radio'] + label {
     @extend .secondary_btn;
-    margin: 0 .5em .5em 0;
+    margin: 0 0.5em 0.5em 0;
   }
 
-  input[type=radio]:checked + label {
+  input[type='radio']:checked + label {
     background-image: none;
     background-color: $blau;
     color: white;
@@ -128,22 +128,22 @@
 
 .secondary_btn {
   display: inline-block;
-  margin: 0 .5em 2.5em 0;
-  padding: .8em 1.3em;
-  background-color: HSL(300,5%,95%);
+  margin: 0 0.5em 2.5em 0;
+  padding: 0.8em 1.3em;
+  background-color: HSL(300, 5%, 95%);
   border-color: #ddd;
   color: $text;
   @include font(special);
-  font-size: .9em;
+  font-size: 0.9em;
 
   &:hover {
     cursor: pointer;
-    background: HSL(300,5%,93%);
+    background: HSL(300, 5%, 93%);
   }
 
   @media #{$sm} {
-    padding: .4em .9em;
-    margin: 0 .2em 1em 0;
+    padding: 0.4em 0.9em;
+    margin: 0 0.2em 1em 0;
   }
 }
 
@@ -153,7 +153,7 @@ a.primary_btn {
   color: white;
   text-decoration: none;
   &:hover {
-    background: darken($blau,10%);
+    background: darken($blau, 10%);
   }
 }
 
@@ -169,11 +169,11 @@ a.primary_btn {
 
 .mc-field-group {
   input {
-    padding: .3em;
+    padding: 0.3em;
     border-width: 0;
     border: none;
     background: white;
-    border-bottom: 3px solid darken($blau,10%);
+    border-bottom: 3px solid darken($blau, 10%);
     font-size: 1.1em;
     color: $blau;
     display: block;
@@ -189,7 +189,7 @@ a.primary_btn {
 
   textarea {
     border: 3px solid $blau;
-    padding: .3em;
+    padding: 0.3em;
     height: 250px;
     width: 350px;
     max-width: 100%;
@@ -220,14 +220,14 @@ a.primary_btn {
 #mischungsrechner {
   margin-bottom: 6em;
 
-  input[type="number"] {
-    padding: .7em;
+  input[type='number'] {
+    padding: 0.7em;
     width: 4em;
     color: $blau;
     font-size: 1.3em;
     text-align: center;
   }
-@extend .radio--labels--btn;
+  @extend .radio--labels--btn;
   h1 {
     @include font(special);
   }
@@ -240,13 +240,13 @@ a.primary_btn {
   .mischung--heading__subtitle {
     @include font(light);
     font-size: 1.2em;
-    margin: .5em 0;
+    margin: 0.5em 0;
   }
   .mischung--highlight {
     color: $blau;
   }
   #mischungResult {
-    margin-top: .5em;
+    margin-top: 0.5em;
     display: none;
   }
 }
@@ -271,7 +271,7 @@ input:focus {
   svg {
     width: 18px;
     fill: mix($text, white, 45);
-    transform: translate(-26px,4px);
+    transform: translate(-26px, 4px);
 
     &:hover {
       fill: mix($text, white, 25);
@@ -280,11 +280,11 @@ input:focus {
 }
 
 #search-box {
-  padding: .3em;
+  padding: 0.3em;
   border-width: 0;
   border: none;
   background: white;
-  border-bottom: 3px solid darken($blau,10%);
+  border-bottom: 3px solid darken($blau, 10%);
   font-size: 1.1em;
   color: $blau;
   display: inline-block;

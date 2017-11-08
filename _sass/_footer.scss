@@ -3,7 +3,7 @@ footer {
   background: $green-blue-gradient-tl;
   @include font(light);
   text-align: center;
-  text-shadow: 1px 1px 3px rgba(black,.2);
+  text-shadow: 1px 1px 3px rgba(black, 0.2);
   a {
     color: white;
     text-decoration: none;
@@ -18,7 +18,7 @@ footer {
   width: 45px;
   height: 35px;
   background: white;
-  transform: translate(0,-5px);
+  transform: translate(0, -5px);
   border-radius: 5px;
   transition: 100ms;
 
@@ -29,7 +29,7 @@ footer {
   }
 
   &:hover {
-    transform: translate(0,-12px);
+    transform: translate(0, -12px);
   }
 }
 
@@ -42,7 +42,7 @@ footer {
   opacity: 1;
   font-size: 1em;
   overflow: hidden;
-  transition: .25s;
+  transition: 0.25s;
   text-align: center;
   @include font(normalOS);
 
@@ -59,7 +59,7 @@ footer {
 
     a {
       text-decoration: none;
-      color: mix(black,white,5);
+      color: mix(black, white, 5);
 
       @media #{$min-sm} {
         &:hover {
@@ -87,7 +87,7 @@ footer {
     margin-right: 1em;
 
     &:hover {
-      transition: .15s cubic-bezier(.55,0,.1,1);
+      transition: 0.15s cubic-bezier(0.55, 0, 0.1, 1);
       transform: scale(1.2);
     }
   }
@@ -129,7 +129,7 @@ footer {
   // margin: 3em 1em;
   cursor: pointer;
   background: $gray;
-  transition: .15s cubic-bezier(.55,0,.1,1);
+  transition: 0.15s cubic-bezier(0.55, 0, 0.1, 1);
   color: $text;
   @include font(light);
   svg {
