@@ -28,7 +28,13 @@ const questions = [
 
 inquirer.prompt(questions).then((answer) => {
   const { title, subtitle, author } = answer
-  const fileNameSlug = `${title.replace(/\s/g, '-').toLocaleLowerCase()}.md`
+  let normalizedTitle = title.toLowerCase()
+  normalizedTitle = normalizedTitle.replace(/ä/g, 'ae')
+  normalizedTitle = normalizedTitle.replace(/ö/g, 'oe')
+  normalizedTitle = normalizedTitle.replace(/ü/g, 'ue')
+  normalizedTitle = normalizedTitle.replace(/ß/g, 'ss')
+  normalizedTitle = normalizedTitle.replace((/\s/g, '-'))
+  const fileNameSlug = `${normalizedTitle}.md`
   const currentPath = path.resolve('./')
   const targetPath = `${currentPath}/_preview/${datePrefix}-${fileNameSlug}`
   const writeStream = fs.createWriteStream(targetPath)
