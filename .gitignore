@@ -1,0 +1,4 @@
+public/
+.cache/
+.env
+*.js.map

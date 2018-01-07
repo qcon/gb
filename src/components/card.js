@@ -1,0 +1,108 @@
+import React from 'react'
+import Link from 'gatsby-link'
+import { withComponent } from 'emotion'
+import styled from 'react-emotion'
+
+import config from '../config'
+
+export const Cards = styled.ul`
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+`
+export const CardItem = styled.li`
+  display: flex;
+  width: 100%;
+  padding: 1rem;
+  margin: ${props => props.isPost && '0 auto'};
+  @media (min-width: 40rem) {
+    width: 50%;
+  }
+  @media (min-width: 66rem) {
+    width: ${props => !props.isPost && '33.3333%'};
+  }
+`
+export const Card = styled.div`
+  background-color: white;
+  border-radius: 0.25rem;
+  border: ${config.cardBorder};
+  border-bottom: ${config.borderBottom};
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  width: 100%;
+  &:hover {
+    a:first-child {
+      filter: contrast(100%);
+    }
+  }
+  a {
+    text-decoration: none;
+  }
+`
+export const CardContent = styled.div`
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+  padding: 1rem;
+`
+export const CardImage = styled(Link)`
+  background-image: url("${props => props.src && props.src}");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+  filter: contrast(70%);
+  overflow: hidden;
+  position: relative;
+  transition: filter 0.5s cubic-bezier(.43,.41,.22,.91);
+  &::before {
+    content: "";
+    display: block;
+    padding-top: ${props => (props.isPost ? '30%' : '56.25%')};
+  }
+  ${
+    '' /* @media(min-width: 40rem) {
+   &::before {
+     padding-top: 66.6%; 
+   }
+  } */
+  }
+`
+export const CardImageExternal = CardImage.withComponent('div')
+
+export const CardTitle = styled(Link)`
+  color: ${config.glossbossBlue};
+  font-size: ${props => (props.isPost ? '20px' : '24px')};
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-decoration: none;
+`
+export const CardTitleExternal = CardTitle.withComponent('div')
+export const CardText = styled.p`
+  flex: ${props => (props.isMeta ? '' : '1 1 0')};
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 1.25rem;
+  color: ${config.darkGray};
+  margin-top: ${props => (props.isMeta ? '0' : '')};
+  border-bottom: ${props => (props.isMeta ? `${config.lightBorder}` : '')};
+`
+export const CardButton = styled(Link)`
+  background-color: white;
+  border-top: ${config.lightBorder};
+  color: ${config.darkGray};
+  padding: 0.5rem;
+  text-transform: uppercase;
+  text-align: center;
+  display: block;
+  width: 100%;
+  margin: ${props => (props.isLoadMore ? '50px 0' : '25px 0 0 0')};
+  &:hover {
+    color: ${config.glossbossBlue};
+  }
+`
+export const CardButtonExternal = CardButton.withComponent('div')
