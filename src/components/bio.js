@@ -2,15 +2,15 @@ import React from 'react'
 import styled from 'react-emotion'
 import Link from 'gatsby-link'
 
-import config from '../config'
 import Logo from './logo'
+import { CardStyle } from './card'
+
+import config from '../config'
 
 const Bio = styled.div`
+  ${CardStyle};
   margin: 50px 0;
   padding: 0 15px;
-  border: ${config.cardBorder};
-  border-bottom: ${config.borderBottom};
-  background: white;
   ul {
     list-style: none;
     li {

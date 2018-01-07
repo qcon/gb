@@ -1,9 +1,16 @@
 import React from 'react'
 import Link from 'gatsby-link'
-import { withComponent } from 'emotion'
+import { withComponent, css } from 'emotion'
 import styled from 'react-emotion'
 
 import config from '../config'
+
+export const CardStyle = css`
+  background-color: white;
+  border-radius: 0.25rem;
+  border: ${config.cardBorder};
+  border-bottom: ${config.borderBottom};
+`
 
 export const Cards = styled.ul`
   display: flex;
@@ -25,10 +32,7 @@ export const CardItem = styled.li`
   }
 `
 export const Card = styled.div`
-  background-color: white;
-  border-radius: 0.25rem;
-  border: ${config.cardBorder};
-  border-bottom: ${config.borderBottom};
+  ${CardStyle};
   display: flex;
   flex-direction: column;
   overflow: hidden;

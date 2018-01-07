@@ -49,15 +49,11 @@ const Title = styled.h1`
     font-size: 24px;
   }
 `
-export default class Item extends React.Component {
-  render() {
-    return (
-      <Hero image={this.props.image}>
-        <Title>
-          {this.props.title || 'GLOSSBOSS'}
-          <small>{this.props.subTitle || ''}</small>
-        </Title>
-      </Hero>
-    )
-  }
-}
+export default ({ image, title, subTitle }) => (
+  <Hero image={image}>
+    <Title>
+      {title || 'GLOSSBOSS'}
+      <small>{subTitle || ''}</small>
+    </Title>
+  </Hero>
+)

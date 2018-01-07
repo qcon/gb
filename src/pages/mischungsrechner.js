@@ -4,6 +4,7 @@ import styled from 'react-emotion'
 import dilution from 'dilution'
 
 import MainLayout from '../layout/main'
+import { CardStyle } from '../components/card'
 
 import config from '../config'
 
@@ -19,16 +20,15 @@ const AppBanner = styled.div`
 `
 
 const PartInput = styled.input`
+  ${CardStyle};
   width: ${props => (props.isBottle ? '150px' : '70px')};
   padding: 5px;
-  border: ${config.lightBorder};
   font-size: 18px;
   text-align: center;
   margin: 5px;
 `
 const Result = styled.div`
-  background: white;
-  border-bottom: ${config.borderBottom};
+  ${CardStyle};
   font-size: 30px;
   font-weight: bold;
   text-align: center;
@@ -40,11 +40,10 @@ const Result = styled.div`
 `
 const Predefined = styled.div``
 const PredefinedItem = styled.span`
+  ${CardStyle};
   padding: 5px 10px;
   margin: 5px;
   color: ${config.glossbossBlue};
-  background: white;
-  border-bottom: ${config.borderBottom};
   cursor: pointer;
 `
 export default class component extends Component {
