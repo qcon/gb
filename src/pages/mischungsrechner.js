@@ -38,7 +38,6 @@ const Result = styled.div`
     color: ${config.glossbossBlue};
   }
 `
-const Predefined = styled.div``
 const PredefinedItem = styled.span`
   ${CardStyle};
   padding: 5px 10px;
@@ -113,7 +112,7 @@ export default class component extends Component {
           type="number"
           min="1"
         />
-        <Predefined>
+        <div>
           <p>Gängige Mischungsverhältnisse</p>
           <PredefinedItem
             onClick={() => {
@@ -156,7 +155,7 @@ export default class component extends Component {
           <PredefinedItem onClick={() => this.handleChangeBottle(1000)}>
             1000ml
           </PredefinedItem>
-        </Predefined>
+        </div>
         <AppBanner>
           <p>
             Den Mischungsrechner findest du auch im Apple iOS AppStore & Google

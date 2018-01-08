@@ -89,6 +89,7 @@ export const CardText = styled.p`
   border-bottom: ${props => (props.isMeta ? `${config.lightBorder}` : '')};
 `
 export const CardButton = styled(Link)`
+  text-decoration: none;
   background-color: white;
   border-top: ${config.lightBorder};
   color: ${config.darkGray};

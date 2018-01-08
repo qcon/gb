@@ -4,6 +4,7 @@ import styled from 'react-emotion'
 
 import MainLayout from '../layout/main'
 import Logo from '../components/logo'
+import { CardStyle, CardButton } from '../components/card'
 
 import config from '../config'
 
@@ -15,12 +16,10 @@ const ListWrapper = styled.ul`
   padding: 0;
 `
 const Item = styled.li`
+  ${CardStyle};
   flex: 1 0 300px;
   margin: 25px;
-  background-color: white;
   padding: 25px;
-  border: ${config.cardBorder};
-  border-bottom: ${config.borderBottom};
   img {
     position: relative;
     left: 50%;
@@ -43,52 +42,36 @@ const Contact = styled.p`
   }
 `
 
-class GlossbossePage extends React.Component {
-  constructor() {
-    super()
-    this.state = {
-      bosse: []
-    }
-  }
-
-  componentWillMount() {
-    let bosse = []
-    config.activeBosse.forEach((value, key) => {
-      const bossUrl = `/glossbosse/${key.toLowerCase()}`
-      bosse.push(
-        <Item key={key}>
-          {value.image ? <img src={value.image} /> : <Logo width={180} />}
-          <h1>{key}</h1>
-          <Contact>
-            {' '}
-            {value.mail && <a href={'mailto:' + value.mail}>eMail</a>}
-            {` `}
-            {value.website && (
-              <a href={value.website} target="_blank">
-                Website
-              </a>
-            )}
-          </Contact>
-          <p>{value.description}</p>
-          <p>
-            <Link to={bossUrl}>Alle Beiträge von {key} ansehen</Link>
-          </p>
-        </Item>
-      )
-    }, config.activeBosse)
-    this.setState(prevState => {
-      return {
-        bosse: bosse
-      }
-    })
-  }
-  render() {
-    return (
-      <MainLayout title="Übersicht aller aktiven Glossbosse">
-        <ListWrapper>{this.state.bosse}</ListWrapper>
-      </MainLayout>
-    )
-  }
-}
-
-export default GlossbossePage
+export default () => (
+  <MainLayout title="Übersicht aller aktiven Glossbosse">
+    <ListWrapper>
+      {Array.from(config.activeBosse).map(boss => {
+        const value = boss[1]
+        const name = boss[0]
+        const bossUrl = `/glossbosse/${name.toLowerCase()}`
+        return (
+          <Item key={name}>
+            {value.image ? <img src={value.image} /> : <Logo width={180} />}
+            <h1>{name}</h1>
+            <Contact>
+              {' '}
+              {value.mail && <a href={'mailto:' + value.mail}>eMail</a>}
+              {` `}
+              {value.website && (
+                <a href={value.website} target="_blank">
+                  Website
+                </a>
+              )}
+            </Contact>
+            <p>{value.description}</p>
+            <p>
+              <CardButton to={bossUrl}>
+                Alle Beiträge von {name} ansehen
+              </CardButton>
+            </p>
+          </Item>
+        )
+      })}
+    </ListWrapper>
+  </MainLayout>
+)
