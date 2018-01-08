@@ -68,13 +68,6 @@ export const CardImage = styled(Link)`
     display: block;
     padding-top: ${props => (props.isPost ? '30%' : '56.25%')};
   }
-  ${
-    '' /* @media(min-width: 40rem) {
-   &::before {
-     padding-top: 66.6%; 
-   }
-  } */
-  }
 `
 export const CardImageExternal = CardImage.withComponent('div')
 
