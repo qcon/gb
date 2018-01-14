@@ -1,7 +1,7 @@
 require('dotenv').config()
 module.exports = {
   siteMetadata: {
-    siteUrl: `https://next.glossboss.de`
+    siteUrl: `https://glossboss.de`
   },
   plugins: [
     'gatsby-plugin-emotion',
