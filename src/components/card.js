@@ -72,8 +72,9 @@ export const CardImage = styled(Link)`
 export const CardImageExternal = CardImage.withComponent('div')
 
 export const CardTitle = styled(Link)`
-  color: ${config.glossbossBlue};
-  font-size: ${props => (props.isPost ? '20px' : '24px')};
+  ${'' /* color: ${config.glossbossBlue}; */} color: ${config.darkerGray};
+  ${'' /* font-size: ${props => (props.isPost ? '20px' : '24px')}; */} font-size: 20px;
+  font-weight: 400;
   letter-spacing: 2px;
   text-transform: uppercase;
   text-decoration: none;
@@ -87,20 +88,23 @@ export const CardText = styled.p`
   color: ${config.darkGray};
   margin-top: ${props => (props.isMeta ? '0' : '')};
   border-bottom: ${props => (props.isMeta ? `${config.lightBorder}` : '')};
+  a {
+    color: ${config.darkerGray};
+    &:hover {
+      color: ${config.glossbossBlue};
+    }
+  }
 `
 export const CardButton = styled(Link)`
   text-decoration: none;
   background-color: white;
   border-top: ${config.lightBorder};
-  color: ${config.darkGray};
+  color: ${config.glossbossBlue};
   padding: 0.5rem;
   text-transform: uppercase;
   text-align: center;
   display: block;
   width: 100%;
   margin: ${props => (props.isLoadMore ? '50px 0' : '25px 0 0 0')};
-  &:hover {
-    color: ${config.glossbossBlue};
-  }
 `
 export const CardButtonExternal = CardButton.withComponent('div')

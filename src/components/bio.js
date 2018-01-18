@@ -23,7 +23,7 @@ const BioMeta = styled.ul`
   list-style: none;
   align-items: center;
   margin: 0;
-  padding: 5px;
+  padding: 15px;
 `
 const ImageItem = styled.li`
   flex: 0 0 120px;
@@ -39,12 +39,13 @@ const TextItem = styled.li`
   line-height: 1.7;
   a {
     text-decoration: none;
+    color: ${config.darkerGray};
   }
   p {
     margin-top: 0px;
   }
   strong {
-    font-size: 28px;
+    font-size: 22px;
   }
 `
 export default ({ author, lastPosts }) => {

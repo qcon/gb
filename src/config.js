@@ -10,6 +10,7 @@ const config = {
   darkGray: '#878787',
   linkColor: '#0088ff',
   textColor: '#666',
+  darkerGray: '#1C202f',
   lightBorder: '1px solid rgba(0, 0, 0, 0.09)',
   reloadPosts: 15,
   heroGradient: 'rgba(80, 168, 219, .7)',
