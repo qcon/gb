@@ -53,7 +53,7 @@ export const CardContent = styled.div`
   padding: 1rem;
 `
 export const CardImage = styled(Link)`
-  background-image: url("${props => props.src && props.src}");
+  background-image: url("${props => props.image && props.image}");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -72,8 +72,8 @@ export const CardImage = styled(Link)`
 export const CardImageExternal = CardImage.withComponent('div')
 
 export const CardTitle = styled(Link)`
-  ${'' /* color: ${config.glossbossBlue}; */} color: ${config.darkerGray};
-  ${'' /* font-size: ${props => (props.isPost ? '20px' : '24px')}; */} font-size: 20px;
+  color: ${config.darkerGray};
+  font-size: 20px;
   font-weight: 400;
   letter-spacing: 2px;
   text-transform: uppercase;

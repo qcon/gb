@@ -91,7 +91,7 @@ class RenderCategory extends React.Component {
               <CardItem key={post.node.fields.fullUrl}>
                 <Card>
                   <CardImage
-                    src={
+                    image={
                       post.node.postImageThumb ||
                       post.node.postImage.replace(
                         'glossbossimages.s3.eu-central-1.amazonaws.com',

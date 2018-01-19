@@ -89,7 +89,7 @@ export default class Werbung extends React.Component {
       <CardItem key="WERBUNG" isPost={this.props.isPost}>
         <Card>
           <a href={link} target="_blank">
-            <CardImageExternal src={image} {...this.props} />
+            <CardImageExternal image={image} {...this.props} />
             <CardContent>
               <CardText isMeta>von Marvin &middot; Werbung</CardText>
               <CardTitleExternal {...this.props}>{title}</CardTitleExternal>

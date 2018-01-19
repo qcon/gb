@@ -23,7 +23,9 @@ const WerbungWrapper = styled.ul`
   margin: 50px 0;
   padding: 0;
   border-top: ${config.lightBorder};
-  border-bottom: ${config.lightBorder};
+  p {
+    text-align: center;
+  }
 `
 
 class PostTemplate extends React.Component {
@@ -71,6 +73,7 @@ class PostTemplate extends React.Component {
           }}
         />
         <WerbungWrapper>
+          <p>Werbung</p>
           <Werbung isPost />
         </WerbungWrapper>
         {config.activeBosse.has(author) ? (
