@@ -73,7 +73,7 @@ export const CardImageExternal = CardImage.withComponent('div')
 
 export const CardTitle = styled(Link)`
   color: ${config.darkerGray};
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 400;
   letter-spacing: 2px;
   text-transform: uppercase;
@@ -82,7 +82,7 @@ export const CardTitle = styled(Link)`
 export const CardTitleExternal = CardTitle.withComponent('div')
 export const CardText = styled.p`
   flex: ${props => (props.isMeta ? '' : '1 1 0')};
-  font-size: 16px;
+  font-size: 13px;
   line-height: 1.5;
   margin-bottom: 1.25rem;
   color: ${config.darkGray};
@@ -95,10 +95,12 @@ export const CardText = styled.p`
     }
   }
 `
+export const CardSubTitle = styled(CardText)`
+  font-size: 16px;
+`
 export const CardButton = styled(Link)`
   text-decoration: none;
-  background-color: white;
-  border-top: ${config.lightBorder};
+  background-color: ${config.lighterGray};
   color: ${config.glossbossBlue};
   padding: 0.5rem;
   text-transform: uppercase;

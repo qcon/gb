@@ -21,7 +21,7 @@ injectGlobal`
     line-height: 1.5;
     margin: 0;
     padding: 0;
-    font-family: 'Source Sans Pro',-apple-system,BlinkMacSystemFont; 
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     text-rendering:optimizeLegibility;
     -webkit-font-smoothing:antialiased;
     color: ${config.textColor};

@@ -5,6 +5,7 @@ import Link from 'gatsby-link'
 const Breadcrumb = styled.ul`
   margin: 15px 0;
   padding: 0;
+  font-size: 14px;
   li + li:before {
     content: '»';
     margin: 0 10px;

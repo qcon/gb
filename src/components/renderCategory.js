@@ -13,6 +13,7 @@ import {
   CardContent,
   CardText,
   CardTitle,
+  CardSubTitle,
   CardButton
 } from './card'
 
@@ -111,7 +112,7 @@ class RenderCategory extends React.Component {
                     <CardTitle to={post.node.fields.fullUrl}>
                       {post.node.title}
                     </CardTitle>
-                    <CardText>{post.node.subTitle}</CardText>
+                    <CardSubTitle>{post.node.subTitle}</CardSubTitle>
                     <CardButton to={post.node.fields.fullUrl}>
                       {post.node.category === 'Videos' ? 'ansehen' : 'lesen'}
                     </CardButton>

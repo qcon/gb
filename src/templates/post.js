@@ -14,6 +14,7 @@ import config from '../config'
 moment.locale('de')
 
 const PostMeta = styled.p`
+  font-size: 14px;
   color: ${config.darkGray};
   margin-top: -5px;
   margin-bottom: 50px;
@@ -23,9 +24,11 @@ const WerbungWrapper = styled.ul`
   margin: 50px 0;
   padding: 0;
   border-top: ${config.lightBorder};
-  p {
-    text-align: center;
-  }
+`
+const WerbungNotification = styled.div`
+  margin-top: 15px;
+  text-align: center;
+  color: ${config.lightGray};
 `
 
 class PostTemplate extends React.Component {
@@ -73,7 +76,7 @@ class PostTemplate extends React.Component {
           }}
         />
         <WerbungWrapper>
-          <p>Werbung</p>
+          <WerbungNotification>Werbung</WerbungNotification>
           <Werbung isPost />
         </WerbungWrapper>
         {config.activeBosse.has(author) ? (

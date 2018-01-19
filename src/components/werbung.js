@@ -9,6 +9,7 @@ import {
   CardImageExternal,
   CardContent,
   CardText,
+  CardSubTitle,
   CardTitleExternal,
   CardButtonExternal
 } from './card'
@@ -93,7 +94,7 @@ export default class Werbung extends React.Component {
             <CardContent>
               <CardText isMeta>von Marvin &middot; Werbung</CardText>
               <CardTitleExternal {...this.props}>{title}</CardTitleExternal>
-              <CardText>{subTitle}</CardText>
+              <CardSubTitle>{subTitle}</CardSubTitle>
               <CardButtonExternal>ansehen</CardButtonExternal>
             </CardContent>
           </a>
