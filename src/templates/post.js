@@ -9,7 +9,6 @@ import Breadcrumb from '../components/breadcrumb'
 import Bio from '../components/bio'
 import Werbung from '../components/werbung'
 import Comments from '../components/comments'
-import { CardStyle } from '../components/card'
 
 import config from '../config'
 
@@ -29,10 +28,6 @@ const WerbungNotification = styled.div`
   margin-top: 15px;
   text-align: center;
   color: ${config.lightGray};
-`
-const PostMetaWrapper = styled.div`
-  ${CardStyle};
-  padding: 15px;
 `
 
 class PostTemplate extends React.Component {
