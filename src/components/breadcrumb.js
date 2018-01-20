@@ -21,7 +21,7 @@ export default ({ category, title }) => {
         <Link to="/">Startseite</Link>
       </Item>
       <Item>
-        <Link to={category.toLowerCase()}>{category}</Link>
+        <Link to={'/' + category.toLowerCase()}>{category}</Link>
       </Item>
       <Item>{title}</Item>
     </Breadcrumb>
