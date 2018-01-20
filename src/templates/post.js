@@ -8,6 +8,8 @@ import MainLayout from '../layout/main'
 import Breadcrumb from '../components/breadcrumb'
 import Bio from '../components/bio'
 import Werbung from '../components/werbung'
+import Comments from '../components/comments'
+import { CardStyle } from '../components/card'
 
 import config from '../config'
 
@@ -17,18 +19,20 @@ const PostMeta = styled.p`
   font-size: 14px;
   color: ${config.darkGray};
   margin-top: -5px;
-  margin-bottom: 50px;
   border-top: 1px solid rgba(0, 0, 0, 0.05);
 `
 const WerbungWrapper = styled.ul`
   margin: 50px 0;
   padding: 0;
-  border-top: ${config.lightBorder};
 `
 const WerbungNotification = styled.div`
   margin-top: 15px;
   text-align: center;
   color: ${config.lightGray};
+`
+const PostMetaWrapper = styled.div`
+  ${CardStyle};
+  padding: 15px;
 `
 
 class PostTemplate extends React.Component {
@@ -48,8 +52,7 @@ class PostTemplate extends React.Component {
       config.siteUrl + fields.fullUrl.slice(1, fields.fullUrl.length)
     return (
       <MainLayout
-        image={postImage}
-        // title={title}
+        image={postImage} // title={title}
         // subTitle={subTitle}
         isPostPage
       >
@@ -69,11 +72,8 @@ class PostTemplate extends React.Component {
         </PostMeta>
         <h1>{title}</h1>
         <h2>{subTitle}</h2>
-
         <div
-          dangerouslySetInnerHTML={{
-            __html: body.childMarkdownRemark.html
-          }}
+          dangerouslySetInnerHTML={{ __html: body.childMarkdownRemark.html }}
         />
         <WerbungWrapper>
           <WerbungNotification>Werbung</WerbungNotification>
@@ -87,6 +87,7 @@ class PostTemplate extends React.Component {
         ) : (
           ''
         )}
+        <Comments />
         <div
           dangerouslySetInnerHTML={{
             __html: `
