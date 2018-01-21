@@ -55,8 +55,7 @@ export default () => (
             <h1>{name}</h1>
             <Contact>
               {' '}
-              {value.mail && <a href={'mailto:' + value.mail}>eMail</a>}
-              {` `}
+              {value.mail && <a href={'mailto:' + value.mail}>eMail</a>}{' '}
               {value.website && (
                 <a href={value.website} target="_blank">
                   Website

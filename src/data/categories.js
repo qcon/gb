@@ -29,7 +29,8 @@ const categories = [
   },
   {
     title: 'Videos',
-    description: 'Videos',
+    description:
+      'Hier findest du Videos von uns - u.a. Vlogs, Produkttest und Anleitungen.',
     subTitle: '',
     url: '/videos'
   }
