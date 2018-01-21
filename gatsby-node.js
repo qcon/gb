@@ -43,12 +43,12 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
       })
 
       // Create Glossboss Pages
-      config.activeBosse.forEach((value, key) => {
+      Array.from(config.activeBosse, boss => {
         createPage({
-          path: generateSlug('glossbosse', key.toLowerCase()),
+          path: generateSlug('glossbosse', boss[0].toLowerCase()),
           component: path.resolve('./src/templates/glossboss.js'),
           context: {
-            author: key
+            author: boss[0]
           }
         })
       })
