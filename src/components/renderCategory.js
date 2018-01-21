@@ -100,6 +100,7 @@ class RenderCategory extends React.Component {
                       )
                     }
                     to={post.node.fields.fullUrl}
+                    title={post.node.title + ' ' + post.node.subTitle}
                   />
                   <CardContent>
                     <CardText isMeta>
@@ -109,11 +110,17 @@ class RenderCategory extends React.Component {
                         {post.node.category}
                       </a>
                     </CardText>
-                    <CardTitle to={post.node.fields.fullUrl}>
+                    <CardTitle
+                      to={post.node.fields.fullUrl}
+                      title={post.node.title + ' ' + post.node.subTitle}
+                    >
                       {post.node.title}
                     </CardTitle>
                     <CardSubTitle>{post.node.subTitle}</CardSubTitle>
-                    <CardButton to={post.node.fields.fullUrl}>
+                    <CardButton
+                      to={post.node.fields.fullUrl}
+                      title={post.node.title + ' ' + post.node.subTitle}
+                    >
                       {post.node.category === 'Videos' ? 'ansehen' : 'lesen'}
                     </CardButton>
                   </CardContent>
@@ -123,7 +130,11 @@ class RenderCategory extends React.Component {
           })}
         </Cards>
         {this.state.posts.length > this.state.postsToShow && (
-          <LoadMore isLoadMore onClick={() => this.loadMorePosts(true)}>
+          <LoadMore
+            isLoadMore
+            onClick={() => this.loadMorePosts(true)}
+            role="button"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="24"

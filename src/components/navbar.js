@@ -115,14 +115,16 @@ export default class NavBar extends React.Component {
         <NavbarList>
           <NavbarListItem isLogo={true}>
             <NavbarListItemLogoWrapper>
-              <Link to="/">
+              <Link to="/" title="GLOSSBOSS.de Startseite">
                 <Logo />
               </Link>
             </NavbarListItemLogoWrapper>
           </NavbarListItem>
           {this.props.links.map(link => (
             <NavbarListItem key={link.href} toggle={this.state.nav}>
-              <Link to={link.href}>{link.title}</Link>
+              <Link to={link.href} title={link.title}>
+                {link.title}
+              </Link>
             </NavbarListItem>
           ))}
           <NavbarListItem toggle={this.state.nav} hasIcons>
