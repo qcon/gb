@@ -2,7 +2,6 @@
   "name": "glossboss.de",
   "version": "1.0.0",
   "private": true,
-  "description": "",
   "main": "",
   "scripts": {
     "dev": "gatsby develop",
@@ -40,5 +39,15 @@
   "prettier": {
     "semi": false,
     "singleQuote": true
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ntwcklng/gb.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ntwcklng/gb/issues"
+  },
+  "homepage": "https://github.com/ntwcklng/gb#readme",
+  "description": ""
 }
