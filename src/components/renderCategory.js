@@ -81,6 +81,13 @@ class RenderCategory extends React.Component {
         <Cards style={this.props.transition && this.props.transition.style}>
           <Werbung />
           {this.state.posts.slice(0, this.state.postsToShow).map((post, i) => {
+            let generatedPostImageThumb = post.node.postImage
+            if (post.node.postImage.indexOf('glossbossuploader') > -1) {
+              generatedPostImageThumb.replace(
+                'glosbossimages',
+                'glosbossuploader'
+              )
+            }
             const linkGlossboss = config.activeBosse.has(post.node.author) ? (
               <a href={`/glossbosse/${post.node.author.toLowerCase()}`}>
                 {post.node.author}
@@ -94,9 +101,9 @@ class RenderCategory extends React.Component {
                   <CardImage
                     image={
                       post.node.postImageThumb ||
-                      post.node.postImage.replace(
-                        'glossbossimages.s3.eu-central-1.amazonaws.com',
-                        'glossbossimages.s3.eu-central-1.amazonaws.com/thumbnails'
+                      generatedPostImageThumb.replace(
+                        'amazonaws.com',
+                        'amazonaws.com/thumbnails'
                       )
                     }
                     to={post.node.fields.fullUrl}
