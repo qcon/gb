@@ -15,7 +15,7 @@
   "license": "MIT",
   "dependencies": {
     "dateformat": "^3.0.2",
-    "dilution": "^0.0.2",
+    "dilution": "^0.0.3",
     "dotenv": "^5.0.0",
     "emotion": "^9.0.0",
     "emotion-server": "^9.0.0",
