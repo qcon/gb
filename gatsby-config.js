@@ -35,14 +35,6 @@ module.exports = {
         anonymize: true
       }
     },
-    // {
-    //   resolve: `gatsby-plugin-google-fonts`,
-    //   options: {
-    //     fonts: [
-    //       `source sans pro\:300,400,700` // you can also specify font weights and styles
-    //     ]
-    //   }
-    // },
     {
       resolve: `gatsby-plugin-sitemap`
     }

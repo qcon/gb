@@ -11,7 +11,6 @@ class IndexPage extends React.Component {
         category={data}
         title="GLOSSBOSS"
         subTitle="Dein Autopflege-Blog"
-        transition={this.props.transition}
       />
     )
   }

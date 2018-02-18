@@ -7,7 +7,6 @@ class CategoryTemplate extends React.Component {
     return (
       <RenderCategory
         category={this.props.data.category.edges}
-        transition={this.props.transition}
         title={this.props.pathContext.title}
         subTitle={this.props.pathContext.subTitle || ''}
         description={this.props.pathContext.description}
