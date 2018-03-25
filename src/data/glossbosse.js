@@ -4,7 +4,7 @@ bosse.set('Marvin', {
     'Marvin Mieth betreibt die Fahrzeugpflege seit 2008 und bietet professionelle Aufbereitungen seit 2010 in 46284 Dorsten gewerblich an. Als Gründer von glossboss.de gibt er Anfängern sowie Fortgeschrittenen und Profis Tipps und Tricks und blogt über allgemeine Themen der Autopflege. Als einer der wenigen in Deutschland, ist er autorisiert die Versiegelung Crystal Serum von GTechniq zu verarbeiten.',
   image:
     'https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/sonstige/marvin.jpg',
-  mail: 'mmieth+glossboss@gmail.com',
+  mail: 'marvin@glossboss.de',
   website: 'https://autopflegemieth.de/'
 })
 bosse.set('Ronny', {

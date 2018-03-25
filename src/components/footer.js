@@ -58,7 +58,7 @@ export default () => (
               </a>
             </li>
             <li>
-              <a href="mailto:mmieth+glossboss@gmail.com" target="_blank">
+              <a href="mailto:mail@glossboss.de" target="_blank">
                 eMail
               </a>
             </li>
@@ -78,6 +78,9 @@ export default () => (
             </li>
             <li>
               <Link to="/glossbosse">Glossbosse</Link>
+            </li>
+            <li>
+              <a href="https://glossboss-shop.de">GLOSSBOSS SHOP</a>
             </li>
           </ul>
         </Item>
