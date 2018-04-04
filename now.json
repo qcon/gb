@@ -1,5 +1,6 @@
 {
   "name": "glossboss.de",
   "type": "static",
-  "alias": "glossboss.de"
+  "alias": "glossboss.de",
+  "regions": "bru"
 }
