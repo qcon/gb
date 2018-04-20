@@ -40,15 +40,12 @@ export default () => (
           <strong>Social Media / Kontakt</strong>
           <ul>
             <li>
-              <a href="https://www.facebook.com/glossbossblog/" target="_blank">
+              <a href="https://www.facebook.com/glossboss.de/" target="_blank">
                 Facebook
               </a>
             </li>
             <li>
-              <a
-                href="https://www.instagram.com/glossbossblog/"
-                target="_blank"
-              >
+              <a href="https://www.instagram.com/glossboss.de/" target="_blank">
                 Instagram
               </a>
             </li>
