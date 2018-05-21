@@ -29,13 +29,6 @@ module.exports = {
       }
     },
     {
-      resolve: `gatsby-plugin-google-analytics`,
-      options: {
-        trackingId: 'UA-52307693-1',
-        anonymize: true
-      }
-    },
-    {
       resolve: `gatsby-plugin-sitemap`
     }
   ]
