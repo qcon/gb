@@ -82,7 +82,6 @@ class PostTemplate extends React.Component {
         ) : (
           ''
         )}
-        <Comments />
         <div
           dangerouslySetInnerHTML={{
             __html: `
