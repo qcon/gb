@@ -7,7 +7,6 @@ import styled from 'react-emotion'
 import NavBar from '../components/navbar'
 import HeaderImage from '../components/headerImage'
 import ContentWrapper from '../components/contentWrapper'
-import Cookie from '../components/cookie'
 import Footer from '../components/footer'
 
 import config from '../config'
@@ -59,18 +58,6 @@ const Main = styled.div`
 `
 
 class MainLayout extends React.Component {
-  constructor() {
-    super()
-    this.state = {
-      cookie: true
-    }
-  }
-  componentDidMount() {
-    this.setState({
-      cookie:
-        windowGlobal.localStorage.getItem('GLOSSBOSS_COOKIES_ACCEPTED') || false
-    })
-  }
   render() {
     return (
       <React.Fragment>
@@ -80,17 +67,6 @@ class MainLayout extends React.Component {
             {this.props.subTitle || 'Dein Autopflege Blog'}
           </title>
         </Helmet>
-        {!this.state.cookie && (
-          <Cookie
-            handleClick={() => {
-              windowGlobal.localStorage.setItem(
-                'GLOSSBOSS_COOKIES_ACCEPTED',
-                true
-              )
-              this.setState({ cookie: true })
-            }}
-          />
-        )}
         <Main>
           <NavBar links={config.navbarLinks} />
           <HeaderImage {...this.props} />
