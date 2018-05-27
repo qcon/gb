@@ -2,4 +2,4 @@ public/
 .cache/
 .env
 *.js.map
-*/node_modules/
+plugins/gatsby-remark-youtubevideo/node_modules
