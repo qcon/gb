@@ -12,7 +12,7 @@ module.exports = {
       options: {
         plugins: [
           {
-            resolve: 'gatsby-remark-embed-youtube',
+            resolve: 'gatsby-remark-youtubevideo',
             options: {
               width: 600,
               height: 400,
