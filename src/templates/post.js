@@ -2,17 +2,52 @@ import React from 'react'
 import { Helmet } from 'react-helmet'
 import moment from 'moment'
 import 'moment/locale/de'
-import styled from 'react-emotion'
+import styled, { injectGlobal } from 'react-emotion'
 
 import MainLayout from '../layout/main'
 import Breadcrumb from '../components/breadcrumb'
 import Bio from '../components/bio'
 import Werbung from '../components/werbung'
-import Comments from '../components/comments'
 
 import config from '../config'
 
 moment.locale('de')
+
+injectGlobal`
+  .yt-container {
+    max-width: 100%;
+    height: 320px;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    cursor: pointer;
+    display: block;
+  }
+  .yt-wrapper {
+    background: rgba(0, 0, 0, 0.55);
+    width: 50px;
+    height: 29px;
+    border-radius: 5px;
+    padding-top: 7px;
+    position: relative;
+    margin: 0 auto;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+  .yt-container:hover .yt-wrapper {
+    background: #cd201f;
+  }
+  .yt-tri {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 7px 0 7px 14px;
+    border-color: transparent transparent transparent #ffffff;
+    margin: 0 auto;
+  }
+`
 
 const PostMeta = styled.p`
   font-size: 14px;
