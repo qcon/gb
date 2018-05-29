@@ -20,7 +20,7 @@ module.exports = ({ markdownAST }, options = { width: 600, height: 300 }) => {
         node.type = `html`
         if (options.disableEmbed) {
           node.value = `
-          <div><a class="yt-container" style="background: url('http://i.ytimg.com/vi/${videoUrl.split('/')[4]}/sddefault.jpg') no-repeat 50% 50% transparent;" href="https://youtu.be/${videoUrl.split('/')[4]}" target="_blank">
+          <div><a class="yt-container" style="background: url('https://i.ytimg.com/vi/${videoUrl.split('/')[4]}/sddefault.jpg') no-repeat 50% 50% transparent;" href="https://youtu.be/${videoUrl.split('/')[4]}" target="_blank">
           <div class="yt-wrapper">
             <div class="yt-tri"></div>
           </div>

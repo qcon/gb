@@ -8,6 +8,7 @@ import MainLayout from '../layout/main'
 import Breadcrumb from '../components/breadcrumb'
 import Bio from '../components/bio'
 import Werbung from '../components/werbung'
+import Sponsored from '../components/sponsored'
 
 import config from '../config'
 
@@ -76,14 +77,14 @@ class PostTemplate extends React.Component {
       author,
       date,
       fields,
-      body
+      body,
+      gesponsort
     } = postData
     const fullUrl =
       config.siteUrl + fields.fullUrl.slice(1, fields.fullUrl.length)
     return (
       <MainLayout
-        image={postImage} // title={title}
-        // subTitle={subTitle}
+        image={postImage}
         isPostPage
       >
         <Helmet>
@@ -102,6 +103,7 @@ class PostTemplate extends React.Component {
         </PostMeta>
         <h1>{title}</h1>
         <h2>{subTitle}</h2>
+        <Sponsored sponsor={gesponsort}/>
         <div
           dangerouslySetInnerHTML={{ __html: body.childMarkdownRemark.html }}
         />
@@ -210,6 +212,7 @@ export const pageQuery = graphql`
       subTitle
       date
       postImage
+      gesponsort
       fields {
         fullUrl
         prettyDate
