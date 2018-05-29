@@ -77,16 +77,12 @@ class PostTemplate extends React.Component {
       author,
       date,
       fields,
-      body,
-      gesponsort
+      body
     } = postData
     const fullUrl =
       config.siteUrl + fields.fullUrl.slice(1, fields.fullUrl.length)
     return (
-      <MainLayout
-        image={postImage}
-        isPostPage
-      >
+      <MainLayout image={postImage} isPostPage>
         <Helmet>
           <title>
             {category} / {title} - {subTitle}
@@ -103,7 +99,6 @@ class PostTemplate extends React.Component {
         </PostMeta>
         <h1>{title}</h1>
         <h2>{subTitle}</h2>
-        <Sponsored sponsor={gesponsort}/>
         <div
           dangerouslySetInnerHTML={{ __html: body.childMarkdownRemark.html }}
         />
@@ -212,7 +207,6 @@ export const pageQuery = graphql`
       subTitle
       date
       postImage
-      gesponsort
       fields {
         fullUrl
         prettyDate
