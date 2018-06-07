@@ -5,7 +5,8 @@
   "main": "",
   "scripts": {
     "dev": "gatsby develop",
-    "build": "rimraf public && gatsby build",
+    "buildtest": "rimraf public && gatsby build",
+    "build": "gatsby build",
     "start": "gatsby serve",
     "deploy": "npm run build && now deploy public --name glossboss.de",
     "alias": "now alias && now rm glossboss.de --safe"
