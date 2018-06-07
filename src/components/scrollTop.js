@@ -1,3 +1,4 @@
+/*eslint-disable*/
 import React from 'react'
 import styled from 'react-emotion'
 
@@ -34,7 +35,7 @@ export default class ScrollTop extends React.Component {
 
   scrollStep() {
     if (window.pageYOffset === 0) {
-      this.setState(prevState => {
+      this.setState(() => {
         steps: 0
       })
       clearInterval(this.state.intervalId)

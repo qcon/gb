@@ -6,8 +6,8 @@ const generateDate = date => dateFormat(date, 'dd.mm.yyyy')
 
 const generateSlug = (category, slug) => `/${category.toLowerCase()}/${slug}/`
 
-exports.createPages = ({ graphql, boundActionCreators }) => {
-  const { createPage } = boundActionCreators
+exports.createPages = ({ graphql, actions }) => {
+  const { createPage } = actions
   return new Promise((resolve, reject) => {
     graphql(
       `
@@ -80,8 +80,8 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
     })
   })
 }
-exports.onCreateNode = ({ node, boundActionCreators, getNode }) => {
-  const { createNodeField } = boundActionCreators
+exports.onCreateNode = ({ node, actions, getNode }) => {
+  const { createNodeField } = actions
   if (node.internal.type === 'ContentfulPost') {
     createNodeField({
       node,

@@ -1,8 +1,7 @@
 import React from 'react'
-import Link from 'gatsby-link'
 import styled from 'react-emotion'
 
-import MainLayout from '../layout/main'
+import MainLayout from '../components/layout'
 import CategoryHeading from './categoryHeading'
 import Werbung from './werbung'
 import {

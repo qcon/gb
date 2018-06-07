@@ -1,9 +1,9 @@
+/*eslint-disable*/
 import React, { Component } from 'react'
-import Link from 'gatsby-link'
 import styled from 'react-emotion'
 import dilution from 'dilution'
 
-import MainLayout from '../layout/main'
+import MainLayout from '../components/layout'
 import { CardStyle } from '../components/card'
 
 import config from '../config'
@@ -164,6 +164,7 @@ export default class component extends Component {
           <a
             href="https://play.google.com/store/apps/details?id=com.glossboss.mischungsrechner&utm_source=global_co&utm_medium=prtnr&utm_content=Mar2515&utm_campaign=PartBadge&pcampaignid=MKT-AC-global-none-all-co-pr-py-PartBadges-Oct1515-1"
             target="_blank"
+            rel="noopener noreferrer"
           >
             <img
               alt="Get it on Google Play"
@@ -173,6 +174,7 @@ export default class component extends Component {
           <a
             href="https://itunes.apple.com/de/app/mischungsrechner-berechne/id1047583962"
             target="_blank"
+            rel="noopener noreferrer"
           >
             <svg
               version="1.1"
@@ -189,8 +191,10 @@ export default class component extends Component {
                   d="M130.197,40H4.729C2.122,40,0,37.872,0,35.267V4.726C0,2.12,2.122,0,4.729,0h125.468
           C132.803,0,135,2.12,135,4.726v30.541C135,37.872,132.803,40,130.197,40L130.197,40z"
                 />
-                <path d="M134.032,35.268c0,2.116-1.714,3.83-3.834,3.83H4.729c-2.119,0-3.839-1.714-3.839-3.83V4.725
-          c0-2.115,1.72-3.835,3.839-3.835h125.468c2.121,0,3.834,1.72,3.834,3.835L134.032,35.268L134.032,35.268z" />
+                <path
+                  d="M134.032,35.268c0,2.116-1.714,3.83-3.834,3.83H4.729c-2.119,0-3.839-1.714-3.839-3.83V4.725
+          c0-2.115,1.72-3.835,3.839-3.835h125.468c2.121,0,3.834,1.72,3.834,3.835L134.032,35.268L134.032,35.268z"
+                />
                 <g>
                   <g>
                     <path
