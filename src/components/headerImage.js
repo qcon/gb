@@ -31,29 +31,7 @@ const GLOSSBOSSsvg = styled.svg`
   position: relative;
   top: 25%;
 `
-const Title = styled.h1`
-  align-self: center;
-  margin: 0 auto;
-  text-align: center;
-  color: white;
-  font-size: 46px;
-  mix-blend-mode: lighten;
-  text-shadow: 1px 1px 4px rgb(150, 150, 150);
-  letter-spacing: 0.2em;
-  small {
-    display: block;
-    color: rgba(255, 255, 255, 0.7);
-    font-weight: 500;
-    font-size: 24px;
-    @media (max-width: ${config.mobileMQ}) {
-      font-size: 20px;
-    }
-  }
-  @media (max-width: ${config.mobileMQ}) {
-    top: 30%;
-    font-size: 24px;
-  }
-`
+
 export default ({ image, title, subTitle }) => (
   <Hero image={image}>
     <GLOSSBOSSsvg

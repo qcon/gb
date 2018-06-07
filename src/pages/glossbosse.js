@@ -1,8 +1,7 @@
 import React from 'react'
-import Link from 'gatsby-link'
 import styled from 'react-emotion'
 
-import MainLayout from '../layout/main'
+import MainLayout from '../components/layout'
 import Logo from '../components/logo'
 import { CardStyle, CardButton } from '../components/card'
 
@@ -51,13 +50,21 @@ export default () => (
         const bossUrl = `/glossbosse/${name.toLowerCase()}`
         return (
           <Item key={name}>
-            {value.image ? <img src={value.image} /> : <Logo width={180} />}
+            {value.image ? (
+              <img src={value.image} alt={name} />
+            ) : (
+              <Logo width={180} />
+            )}
             <h1>{name}</h1>
             <Contact>
               {' '}
               {value.mail && <a href={'mailto:' + value.mail}>eMail</a>}{' '}
               {value.website && (
-                <a href={value.website} target="_blank">
+                <a
+                  href={value.website}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   Website
                 </a>
               )}

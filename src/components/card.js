@@ -1,6 +1,6 @@
-import React from 'react'
+// import React from 'react'
 import Link from 'gatsby-link'
-import { withComponent, css } from 'emotion'
+import { css } from 'emotion'
 import styled from 'react-emotion'
 
 import config from '../config'

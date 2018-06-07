@@ -4,11 +4,11 @@ import moment from 'moment'
 import 'moment/locale/de'
 import styled, { injectGlobal } from 'react-emotion'
 
-import MainLayout from '../layout/main'
+import MainLayout from '../components/layout'
 import Breadcrumb from '../components/breadcrumb'
 import Bio from '../components/bio'
 import Werbung from '../components/werbung'
-import Sponsored from '../components/sponsored'
+// import Sponsored from '../components/sponsored'
 
 import config from '../config'
 

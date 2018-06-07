@@ -55,7 +55,11 @@ export default ({ author, lastPosts }) => {
       <BioMeta>
         <ImageItem>
           <Link to={`/glossbosse/${author.toLowerCase()}`}>
-            {boss.image ? <img src={boss.image} /> : <Logo width={180} />}
+            {boss.image ? (
+              <img src={boss.image} alt={author} />
+            ) : (
+              <Logo width={180} />
+            )}
           </Link>
         </ImageItem>
         <TextItem>

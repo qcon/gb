@@ -1,6 +1,5 @@
 import React from 'react'
 import { Helmet } from 'react-helmet'
-import Link from 'gatsby-link'
 import { injectGlobal } from 'emotion'
 import styled from 'react-emotion'
 
@@ -10,8 +9,6 @@ import ContentWrapper from '../components/contentWrapper'
 import Footer from '../components/footer'
 
 import config from '../config'
-
-const windowGlobal = typeof window !== 'undefined' && window
 
 injectGlobal`
   body {

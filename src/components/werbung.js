@@ -1,9 +1,6 @@
 import React from 'react'
-import styled from 'react-emotion'
 
-import MainLayout from '../layout/main'
 import {
-  Cards,
   CardItem,
   Card,
   CardImageExternal,
@@ -89,7 +86,7 @@ export default class Werbung extends React.Component {
     return (
       <CardItem key="WERBUNG" isPost={this.props.isPost}>
         <Card>
-          <a href={link} target="_blank">
+          <a href={link} target="_blank" rel="noopener noreferrer">
             <CardImageExternal image={image} {...this.props} />
             <CardContent>
               <CardText isMeta>von Marvin &middot; Werbung</CardText>

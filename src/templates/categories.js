@@ -1,5 +1,4 @@
 import React from 'react'
-import Link from 'gatsby-link'
 import RenderCategory from '../components/renderCategory'
 
 class CategoryTemplate extends React.Component {
@@ -7,9 +6,9 @@ class CategoryTemplate extends React.Component {
     return (
       <RenderCategory
         category={this.props.data.category.edges}
-        title={this.props.pathContext.title}
-        subTitle={this.props.pathContext.subTitle || ''}
-        description={this.props.pathContext.description}
+        title={this.props.pageContext.title}
+        subTitle={this.props.pageContext.subTitle || ''}
+        description={this.props.pageContext.description}
       />
     )
   }

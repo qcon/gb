@@ -6,8 +6,6 @@ import ContentWrapper from './contentWrapper'
 import ScrollTop from './scrollTop'
 import { CardStyle } from '../components/card'
 
-import config from '../config'
-
 const Container = styled.div`
   ${CardStyle};
   width: 100%;
@@ -40,22 +38,38 @@ export default () => (
           <strong>Social Media / Kontakt</strong>
           <ul>
             <li>
-              <a href="https://www.facebook.com/glossboss.de/" target="_blank">
+              <a
+                href="https://www.facebook.com/glossboss.de/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 Facebook
               </a>
             </li>
             <li>
-              <a href="https://www.instagram.com/glossboss.de/" target="_blank">
+              <a
+                href="https://www.instagram.com/glossboss.de/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 Instagram
               </a>
             </li>
             <li>
-              <a href="https://youtube.com/glossbossblog" target="_blank">
+              <a
+                href="https://youtube.com/glossbossblog"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 Youtube
               </a>
             </li>
             <li>
-              <a href="mailto:mail@glossboss.de" target="_blank">
+              <a
+                href="mailto:mail@glossboss.de"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 eMail
               </a>
             </li>

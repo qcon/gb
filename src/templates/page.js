@@ -1,14 +1,14 @@
 import React from 'react'
 import { Helmet } from 'react-helmet'
 
-import MainLayout from '../layout/main'
+import MainLayout from '../components/layout'
 
 import config from '../config'
 
 class PageTemplate extends React.Component {
   render() {
     const postData = this.props.data.contentfulPost
-    const { title, author, slug, body } = postData
+    const { title, slug, body } = postData
     return (
       <MainLayout title={title}>
         <Helmet>

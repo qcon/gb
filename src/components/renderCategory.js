@@ -1,8 +1,7 @@
 import React from 'react'
-import Link from 'gatsby-link'
 import styled from 'react-emotion'
 
-import MainLayout from '../layout/main'
+import MainLayout from '../components/layout'
 import CategoryHeading from './categoryHeading'
 import Werbung from './werbung'
 import {
@@ -52,23 +51,16 @@ class RenderCategory extends React.Component {
       postsToShow: config.reloadPosts - 7
     }
   }
-  loadMorePosts(userAction) {
+  loadMorePosts() {
     this.setState((prevState, props) => {
       return {
         postsToShow: prevState.postsToShow + config.reloadPosts
       }
     })
-    if (userAction) {
-      const windowGlobal = typeof window !== 'undefined' && window
-      if (typeof windowGlobal.ga === 'function') {
-        windowGlobal.ga(
-          'send',
-          'event',
-          'Click',
-          'LoadMore',
-          windowGlobal.location.pathname
-        )
-      }
+  }
+  static getDerivedStateFromProps(props, state) {
+    return {
+      posts: props.category
     }
   }
   render() {
@@ -78,7 +70,7 @@ class RenderCategory extends React.Component {
           <CategoryHeading category={this.props.title} />
         )}
         <p>{this.props.description}</p>
-        <Cards style={this.props.transition && this.props.transition.style}>
+        <Cards>
           <Werbung />
           {this.state.posts.slice(0, this.state.postsToShow).map((post, i) => {
             let generatedPostImageThumb = post.node.postImage
