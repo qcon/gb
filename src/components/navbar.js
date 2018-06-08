@@ -93,10 +93,6 @@ export default class NavBar extends React.Component {
     }
   }
   toggleNav() {
-    const windowGlobal = typeof window !== 'undefined' && window
-    if (typeof windowGlobal.ga === 'function') {
-      windowGlobal.ga('send', 'event', 'Click', 'ToggleNav')
-    }
     this.setState((prevState, props) => {
       return {
         nav: !prevState.nav

@@ -56,10 +56,6 @@ export default class ScrollTop extends React.Component {
       this.props.delayInMs
     )
     this.setState({ intervalId: intervalId })
-    const windowGlobal = typeof window !== 'undefined' && window
-    if (typeof windowGlobal.ga === 'function') {
-      windowGlobal.ga('send', 'event', 'Click', 'ScrollTop')
-    }
   }
 
   render() {
