@@ -1,4 +1,5 @@
 import React from 'react'
+import { graphql } from 'gatsby'
 import RenderCategory from '../components/renderCategory'
 
 class CategoryTemplate extends React.Component {
