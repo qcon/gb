@@ -39,6 +39,15 @@ export default () => (
           <ul>
             <li>
               <a
+                href="https://www.facebook.com/groups/glossboss.de/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                GLOSSBOSS Community auf Facebook
+              </a>
+            </li>
+            <li>
+              <a
                 href="https://www.facebook.com/glossboss.de/"
                 target="_blank"
                 rel="noopener noreferrer"
