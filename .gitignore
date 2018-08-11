@@ -3,3 +3,4 @@ public/
 .env
 *.js.map
 plugins/gatsby-remark-youtubevideo/node_modules
+node_modules/
