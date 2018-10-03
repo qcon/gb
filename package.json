@@ -18,8 +18,8 @@
     "dateformat": "^3.0.3",
     "dilution": "^0.0.3",
     "dotenv": "^6.0.0",
-    "emotion": "^9.2.10",
-    "emotion-server": "^9.2.10",
+    "emotion": "^9.2.12",
+    "emotion-server": "^9.2.12",
     "gatsby": "next",
     "gatsby-link": "next",
     "gatsby-plugin-emotion": "next",
@@ -31,9 +31,9 @@
     "moment": "^2.22.2",
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
-    "react-emotion": "^9.2.10",
+    "react-emotion": "^9.2.12",
     "react-helmet": "^5.2.0",
-    "react-transition-group": "^2.4.0",
+    "react-transition-group": "^2.5.0",
     "rimraf": "^2.6.2"
   },
   "prettier": {
