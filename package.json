@@ -8,7 +8,8 @@
     "buildtest": "rimraf public && gatsby build",
     "build": "gatsby build",
     "start": "gatsby serve",
-    "deploy": "npm run build && now deploy public --name glossboss.de --regions bru -V 1",
+    "deploy:old": "npm run build && now deploy public --name glossboss.de --regions bru -V 1",
+    "deploy": "now",
     "alias": "now alias && now rm glossboss.de --safe",
     "now-build": "npm run build"
   },
