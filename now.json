@@ -1,7 +1,23 @@
 {
   "name": "glossboss.de",
+  "env": {
+"SPACEID_CONTENTFUL": "@secret-space-id",
+"ACCESSTOKEN_CONTENTFUL":"@secret-accesstoken"
+  },
   "type": "static",
   "alias": "glossboss.de",
-  "regions": "bru",
-  "version": 1
+  "regions": ["bru"],
+  "version": 2,
+      "builds": [
+        {
+          "src": "/public/**",
+          "use": "@now/static"
+        }
+      ],
+      "routes": [
+        {
+          "src": "/(.*)",
+          "dest": "/public/$1"
+        }
+      ]
 }

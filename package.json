@@ -9,7 +9,8 @@
     "build": "gatsby build",
     "start": "gatsby serve",
     "deploy": "npm run build && now deploy public --name glossboss.de --regions bru -V 1",
-    "alias": "now alias && now rm glossboss.de --safe"
+    "alias": "now alias && now rm glossboss.de --safe",
+    "now-build": "npm run build"
   },
   "keywords": [],
   "author": "Marvin Mieth <ntwcklng@gmail.com>",
@@ -17,19 +18,18 @@
   "dependencies": {
     "dateformat": "^3.0.3",
     "dilution": "^0.0.3",
-    "dotenv": "^6.1.0",
     "emotion": "^9.2.12",
     "emotion-server": "^9.2.12",
-    "gatsby": "^2.0.31",
-    "gatsby-link": "^2.0.5",
-    "gatsby-plugin-emotion": "^2.0.5",
-    "gatsby-plugin-react-helmet": "^3.0.0",
-    "gatsby-plugin-sitemap": "^2.0.1",
-    "gatsby-source-contentful": "^2.0.6",
-    "gatsby-transformer-remark": "^2.1.9",
+    "gatsby": "^2.0.55",
+    "gatsby-link": "^2.0.6",
+    "gatsby-plugin-emotion": "^2.0.6",
+    "gatsby-plugin-react-helmet": "^3.0.2",
+    "gatsby-plugin-sitemap": "^2.0.2",
+    "gatsby-source-contentful": "^2.0.15",
+    "gatsby-transformer-remark": "^2.1.12",
     "moment": "^2.22.2",
-    "react": "^16.6.0",
-    "react-dom": "^16.6.0",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
     "react-emotion": "^9.2.12",
     "react-helmet": "^5.2.0",
     "react-transition-group": "^2.5.0",
@@ -39,7 +39,9 @@
     "semi": false,
     "singleQuote": true
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "now-env": "*"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ntwcklng/gb.git"

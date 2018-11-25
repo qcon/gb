@@ -1,4 +1,4 @@
-require('dotenv').config()
+require('now-env')
 module.exports = {
   siteMetadata: {
     siteUrl: `https://glossboss.de`
