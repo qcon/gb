@@ -17,7 +17,7 @@ bosse.set('Ronny', {
 bosse.set('Jones', {
   description:
     'Die erste Poliermaschine hielt Johannes (Münster) im Jahr 2007 in seinen Händen, die enthusiastische Autopflege ist Hobby und unverzichtbarer Teil sein Lebens geworden.\nIn jungen Jahren wurde Samstags Bundesliga im Radio gehört und nebenbei der 123er Mercedes „gewaschen". Die Liebe zur perfekten Oberfläche begann mit einer Tischler-Lehre, während seiner späteren Ausbildung zum Kfz-Mechatroniker fand er eine kleine Metabo-Poliermaschine im Lager und ab da war es um ihn geschehen, kaum etwas vor ihm sicher. Vieles selbst erlernt, reichlich Erfahrungen gesammelt, stets Arbeiten & Abläufe verbessert. Vertieft wurde das Ganze durch Internet und dort angetroffenen „Lackfetischisten“, hier entwickelten sich auch Freundschaften und gemeinsame Projekte - das Ergebnis ist dieser Blog.',
-  mail: 'jones.glossboss@gmail.com'
+  mail: 'jones@vadrup.com'
 })
 bosse.set('Chris', {
   description:
