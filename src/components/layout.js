@@ -1,7 +1,7 @@
 import React from 'react'
 import { Helmet } from 'react-helmet'
 import { injectGlobal } from 'emotion'
-import styled from 'react-emotion'
+import styled from '@emotion/styled'
 
 import NavBar from '../components/navbar'
 import HeaderImage from '../components/headerImage'

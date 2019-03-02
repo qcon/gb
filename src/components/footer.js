@@ -1,6 +1,6 @@
 import React from 'react'
 import Link from 'gatsby-link'
-import styled from 'react-emotion'
+import styled from '@emotion/styled'
 
 import ContentWrapper from './contentWrapper'
 import ScrollTop from './scrollTop'
