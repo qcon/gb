@@ -110,3 +110,7 @@ export const CardButton = styled(Link)`
   margin: ${props => (props.isLoadMore ? '50px 0' : '25px 0 0 0')};
 `
 export const CardButtonExternal = CardButton.withComponent('div')
+
+export const CardLinkAd = styled.a`
+  display: contents;
+`

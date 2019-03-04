@@ -8,7 +8,8 @@ import {
   CardText,
   CardSubTitle,
   CardTitleExternal,
-  CardButtonExternal
+  CardButtonExternal,
+  CardLinkAd
 } from './card'
 
 const ads = [
@@ -86,7 +87,7 @@ export default class Werbung extends React.Component {
     return (
       <CardItem key="WERBUNG" isPost={this.props.isPost}>
         <Card>
-          <a href={link} target="_blank" rel="noopener noreferrer">
+          <CardLinkAd href={link} target="_blank" rel="noopener noreferrer">
             <CardImageExternal image={image} {...this.props} />
             <CardContent>
               <CardText isMeta>von Marvin &middot; Werbung</CardText>
@@ -94,7 +95,7 @@ export default class Werbung extends React.Component {
               <CardSubTitle>{subTitle}</CardSubTitle>
               <CardButtonExternal>ansehen</CardButtonExternal>
             </CardContent>
-          </a>
+          </CardLinkAd>
         </Card>
       </CardItem>
     )
