@@ -9,7 +9,7 @@
     "build": "gatsby build",
     "start": "gatsby serve",
     "deploy:old": "npm run build && now deploy public --name glossboss.de --regions bru -V 1",
-    "deploy": "npm run build && now",
+    "deploy": "npm run build && now --target production",
     "alias": "now alias && now rm glossboss.de --safe",
     "now-build": "npm run build"
   },
