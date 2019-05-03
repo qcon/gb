@@ -5,7 +5,7 @@ bosse.set('Marvin', {
   image:
     'https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/sonstige/marvin.jpg',
   mail: 'marvin@glossboss.de',
-  website: 'https://autopflegemieth.de/'
+  website: 'https://detailing.glossboss.de/'
 })
 bosse.set('Ronny', {
   description:
@@ -24,8 +24,9 @@ bosse.set('Chris', {
     'Chris beschäftigt sich seit Ende 2012 mit hochwertiger Autopflege. Zu seinem neuen Hobby kam er damals durch sein neues Auto, das anständig gepflegt werden sollte. Schnell fand er Gefallen an der Autopflege und probiert seitdem gerne neue Produkte aus, trifft sich mit Gleichgesinnten und gibt sein Wissen an andere weiter. Durch Treffen, die unter anderem von den Glossbossen Ronny und Jones veranstaltet wurden, lernte Chris das Glossbossteam kennen. Seit dem Start des Blogs im Jahr 2014 beteiligt sich Chris an Glossboss.',
   mail: 'chris.glossboss@gmail.com'
 })
-// bosse.set('FALSE_Börge', {
-//   description: 'BÖRGE BESCHREIBUNG'
-// })
+bosse.set('Börge', {
+  description: 'BÖRGE BESCHREIBUNG',
+  mail: 'börge@glossboss.de'
+})
 
 module.exports = bosse
