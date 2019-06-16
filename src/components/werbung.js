@@ -68,6 +68,13 @@ const ads = [
     title: 'Garantiert Kratzfrei Waschen',
     subTitle: 'Dazu brauchst du nur dieses Hilfsmittel',
     link: 'http://amzn.to/2CkMiTJ'
+  },
+  {
+    image:
+      'https://glossbossuploader.s3.eu-central-1.amazonaws.com/thumbnails/Bu0ACzB6aeqL_xIl4hqwZ-pinsel/pinsel.jpg',
+    title: 'Die schonenste Reinigung für den Innenraum',
+    subTitle: 'Super-Soft Pinsel für Klavierlack und co',
+    link: 'https://glossboss-shop.de/produkt/super-soft-pinsel-set/'
   }
 ]
 export default class Werbung extends React.Component {
