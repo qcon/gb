@@ -29,8 +29,7 @@ const config = {
   activeBosse: require('./data/glossbosse'),
   navbarLinks: [
     { href: '/mischungsrechner', title: 'Mischungsrechner' },
-    { href: '/glossbosse', title: 'Glossbosse' },
-    { href: '/impressum', title: 'Impressum' }
+    { href: '/glossbosse', title: 'Glossbosse' }
   ],
   siteUrl: 'https://glossboss.de/'
 }

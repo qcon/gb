@@ -128,6 +128,14 @@ export default class NavBar extends React.Component {
               Shop
             </a>
           </NavbarListItem>
+          <NavbarListItem toggle={this.state.nav}>
+            <a
+              title="GLOSSBOSS Detailing"
+              href="https://detailing.glossboss.de"
+            >
+              Detailing
+            </a>
+          </NavbarListItem>
         </NavbarList>
       </Navbar>
     )
