@@ -7,6 +7,7 @@ import NavBar from '../components/navbar'
 import HeaderImage from '../components/headerImage'
 import ContentWrapper from '../components/contentWrapper'
 import Footer from '../components/footer'
+import Detailingcon from '../components/detailingcon'
 
 import config from '../config'
 
@@ -67,6 +68,7 @@ class MainLayout extends React.Component {
         <Main>
           <NavBar links={config.navbarLinks} />
           <HeaderImage {...this.props} />
+          <Detailingcon />
           <ContentWrapper>{this.props.children}</ContentWrapper>
           <Footer />
         </Main>
