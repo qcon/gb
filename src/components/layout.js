@@ -68,7 +68,6 @@ class MainLayout extends React.Component {
         <Main>
           <NavBar links={config.navbarLinks} />
           <HeaderImage {...this.props} />
-          <Detailingcon />
           <ContentWrapper>{this.props.children}</ContentWrapper>
           <Footer />
         </Main>
