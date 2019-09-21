@@ -7,7 +7,6 @@ import NavBar from '../components/navbar'
 import HeaderImage from '../components/headerImage'
 import ContentWrapper from '../components/contentWrapper'
 import Footer from '../components/footer'
-import Detailingcon from '../components/detailingcon'
 
 import config from '../config'
 
