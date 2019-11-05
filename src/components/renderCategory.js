@@ -4,6 +4,7 @@ import styled from '@emotion/styled'
 import MainLayout from '../components/layout'
 import CategoryHeading from './categoryHeading'
 import Werbung from './werbung'
+import GlossbossDetailingAd from './glossbossDetailingAd'
 import {
   Cards,
   CardItem,
@@ -69,7 +70,7 @@ class RenderCategory extends React.Component {
         {!this.props.hideCategoryHeading && (
           <CategoryHeading category={this.props.title} />
         )}
-        <p>{this.props.description}</p>
+        <GlossbossDetailingAd />
         <Cards>
           <Werbung />
           {this.state.posts.slice(0, this.state.postsToShow).map((post, i) => {
