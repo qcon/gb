@@ -36,6 +36,8 @@ const NavbarListItem = styled.li`
   transform: ${props => (props.isLogo ? '' : 'translateY(-25px)')};
   text-transform: uppercase;
   letter-spacing: 0.15em;
+  position: relative;
+  top: ${props => (props.isLogo ? '0' : '10%')};
   a {
     color: ${props => (props.active ? 'black !important' : config.textColor)};
     text-decoration: none;

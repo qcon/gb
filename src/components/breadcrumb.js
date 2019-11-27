@@ -2,6 +2,8 @@ import React from 'react'
 import styled from '@emotion/styled'
 import Link from 'gatsby-link'
 
+import GlossbossDetailingAd from './glossbossDetailingAd'
+
 const Breadcrumb = styled.ul`
   margin: 15px 0;
   padding: 0;
@@ -16,14 +18,17 @@ const Item = styled.li`
 `
 export default ({ category, title }) => {
   return (
-    <Breadcrumb>
-      <Item>
-        <Link to="/">Startseite</Link>
-      </Item>
-      <Item>
-        <Link to={'/' + category.toLowerCase()}>{category}</Link>
-      </Item>
-      <Item>{title}</Item>
-    </Breadcrumb>
+    <>
+      <GlossbossDetailingAd />
+      <Breadcrumb>
+        <Item>
+          <Link to="/">Startseite</Link>
+        </Item>
+        <Item>
+          <Link to={'/' + category.toLowerCase()}>{category}</Link>
+        </Item>
+        <Item>{title}</Item>
+      </Breadcrumb>
+    </>
   )
 }

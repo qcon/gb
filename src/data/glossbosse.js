@@ -1,7 +1,7 @@
 const bosse = new Map()
 bosse.set('Marvin', {
   description:
-    'Marvin Mieth betreibt die Fahrzeugpflege seit 2008 und bietet professionelle Aufbereitungen seit 2010 in 46284 Dorsten gewerblich an. Als Gründer von glossboss.de gibt er Anfängern sowie Fortgeschrittenen und Profis Tipps und Tricks und blogt über allgemeine Themen der Autopflege. Als einer der wenigen in Deutschland, ist er autorisiert die Versiegelung Crystal Serum von GTechniq zu verarbeiten.',
+    'Marvin Mieth betreibt die Fahrzeugpflege seit 2008 und bietet professionelle Aufbereitungen seit 2010 in 46284 Dorsten gewerblich an. Als Gründer von glossboss.de gibt er Anfängern sowie Fortgeschrittenen und Profis Tipps und Tricks und blogt über allgemeine Themen der Autopflege. Momentan legt Marvin den Fokus auf Videoproduktionen auf dem YouTube Kanal von GLOSSBOSS',
   image:
     'https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/sonstige/marvin.jpg',
   mail: 'marvin@glossboss.de',
@@ -14,19 +14,23 @@ bosse.set('Ronny', {
     'https://glossbossimages.s3.eu-central-1.amazonaws.com/chiller/portrait_ronny.jpg',
   mail: 'detailograph@yahoo.de'
 })
+bosse.set('Börge', {
+  description:
+    'Auf der Suche nach noch mehr Glanz am eigenen Fahrzeug hat Börge vor mehr als 5 Jahren einige Workshops besucht. Kurz darauf wurde die heimische Garage in ein Detailingparadies umgebaut. Die Garage wurde mit Teppich ausgelegt, die Wände und Decken mit LED Strahlern bestückt und die Nachbarn wurden mit dem herrlichen Geräusch von einer Poliermaschine beirrst. Durch die Sozialen Medien hat Er dann auf den Glossboss Marvin Mieth getroffen. Seitdem entwickelte sich eine Freundschaft... Die Folge davon seht Ihr nun fast wöchentlich auf YouTube',
+  mail: 'börge@glossboss.de',
+  image:
+    'https://glossbossimages.s3.eu-central-1.amazonaws.com/boerge/boerge.jpg',
+  website: 'htpps://detailing.glossboss.de'
+})
 bosse.set('Jones', {
   description:
     'Die erste Poliermaschine hielt Johannes (Münster) im Jahr 2007 in seinen Händen, die enthusiastische Autopflege ist Hobby und unverzichtbarer Teil sein Lebens geworden.\nIn jungen Jahren wurde Samstags Bundesliga im Radio gehört und nebenbei der 123er Mercedes „gewaschen". Die Liebe zur perfekten Oberfläche begann mit einer Tischler-Lehre, während seiner späteren Ausbildung zum Kfz-Mechatroniker fand er eine kleine Metabo-Poliermaschine im Lager und ab da war es um ihn geschehen, kaum etwas vor ihm sicher. Vieles selbst erlernt, reichlich Erfahrungen gesammelt, stets Arbeiten & Abläufe verbessert. Vertieft wurde das Ganze durch Internet und dort angetroffenen „Lackfetischisten“, hier entwickelten sich auch Freundschaften und gemeinsame Projekte - das Ergebnis ist dieser Blog.',
   mail: 'jones@vadrup.com'
 })
-bosse.set('Chris', {
-  description:
-    'Chris beschäftigt sich seit Ende 2012 mit hochwertiger Autopflege. Zu seinem neuen Hobby kam er damals durch sein neues Auto, das anständig gepflegt werden sollte. Schnell fand er Gefallen an der Autopflege und probiert seitdem gerne neue Produkte aus, trifft sich mit Gleichgesinnten und gibt sein Wissen an andere weiter. Durch Treffen, die unter anderem von den Glossbossen Ronny und Jones veranstaltet wurden, lernte Chris das Glossbossteam kennen. Seit dem Start des Blogs im Jahr 2014 beteiligt sich Chris an Glossboss.',
-  mail: 'chris.glossboss@gmail.com'
-})
-// bosse.set('Börge', {
-//   description: 'BÖRGE BESCHREIBUNG',
-//   mail: 'börge@glossboss.de'
+// bosse.set('Chris', {
+//   description:
+//     'Chris beschäftigt sich seit Ende 2012 mit hochwertiger Autopflege. Zu seinem neuen Hobby kam er damals durch sein neues Auto, das anständig gepflegt werden sollte. Schnell fand er Gefallen an der Autopflege und probiert seitdem gerne neue Produkte aus, trifft sich mit Gleichgesinnten und gibt sein Wissen an andere weiter. Durch Treffen, die unter anderem von den Glossbossen Ronny und Jones veranstaltet wurden, lernte Chris das Glossbossteam kennen. Seit dem Start des Blogs im Jahr 2014 beteiligt sich Chris an Glossboss.',
+//   mail: 'chris.glossboss@gmail.com'
 // })
 
 module.exports = bosse
