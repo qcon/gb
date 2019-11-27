@@ -17,10 +17,28 @@ const Card = styled.div`
   font-weight: 400;
 `
 export default () => (
+  // <Card>
+  //   Du möchtest dein Auto von uns mit einer Keramikversiegelung veredeln lassen?{' '}
+  //   <a href="https://detailing.glossboss.de">
+  //     Besuche unsere Detailing Website!
+  //   </a>
+  // </Card>
   <Card>
-    Du möchtest dein Auto von uns mit einer Keramikversiegelung veredeln lassen?{' '}
-    <a href="https://detailing.glossboss.de">
-      Besuche unsere Detailing Website!
-    </a>
+    <span role="img" aria-label="hey!">
+      🙋🏻‍♂️
+    </span>{' '}
+    Unterstütze uns, indem du uns etwas von unserem{' '}
+    <a
+      target="_blank"
+      href="https://ad.glossboss.de/#wunschzettel"
+      rel="noopener noreferrer"
+    >
+      Amazon Wunschzettel
+    </a>{' '}
+    kaufst. Damit hilfst du uns weiterhin regelmäßig Videos zu veröffentlichen,
+    vielen lieben Dank{' '}
+    <span role="img" aria-label="Herz">
+      ❤️
+    </span>
   </Card>
 )
