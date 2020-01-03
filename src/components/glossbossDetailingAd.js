@@ -27,16 +27,15 @@ export default () => (
     <span role="img" aria-label="hey!">
       🙋🏻‍♂️
     </span>{' '}
-    Unterstütze uns, indem du uns etwas von unserem{' '}
+    pssss hey! Wusstest du schon? Mit dem Code <strong>glossboss</strong>{' '}
+    bekommst du als Endkunde 10% Rabatt auf{' '}
     <a
       target="_blank"
-      href="https://ad.glossboss.de/#wunschzettel"
+      href="https://waschhelden.de/?jsta=gb"
       rel="noopener noreferrer"
     >
-      Amazon Wunschzettel
+      Waschhelden.de
     </a>{' '}
-    kaufst. Damit hilfst du uns weiterhin regelmäßig Videos zu veröffentlichen,
-    vielen lieben Dank{' '}
     <span role="img" aria-label="Herz">
       ❤️
     </span>
