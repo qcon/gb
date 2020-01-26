@@ -28,7 +28,8 @@ export default () => (
       🙋🏻‍♂️
     </span>{' '}
     pssss hey! Wusstest du schon? Mit dem Code <strong>glossboss</strong>{' '}
-    bekommst du als Endkunde 10% Rabatt auf{' '}
+    bekommst du als Endkunde ab einen Warenwert von 50€{' '}
+    <strong>10% Rabatt</strong> auf{' '}
     <a
       target="_blank"
       href="https://waschhelden.de/?jsta=gb"

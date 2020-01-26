@@ -14,13 +14,6 @@ import {
 
 const ads = [
   {
-    title: 'Der beste Innenraumreiniger',
-    subTitle: 'Egal ob Leder, Kunststoff oder Textilien',
-    image:
-      'https://glossbossimages.s3.eu-central-1.amazonaws.com/thumbnails/marvin/jeep_gc/DSC01026.jpg',
-    link: 'http://amzn.to/2oJuM67'
-  },
-  {
     title: 'Bei jeder Aufbereitung mit dabei',
     subTitle: 'ein Staubwedel um den Polierstaub zu entfernen',
     image:
@@ -28,32 +21,11 @@ const ads = [
     link: 'http://amzn.to/2yJpdba'
   },
   {
-    title: 'Ideal für Detailverliebte',
-    subTitle: 'Mini Akku Poliermaschine für schwer erreichbare Stellen',
-    image:
-      'https://glossbossimages.s3.eu-central-1.amazonaws.com/thumbnails/chiller/993-112017/993_037.jpg',
-    link: 'http://amzn.to/2z2RbP1'
-  },
-  {
     title: 'Maximale Abtragsleistung mit der Exzentermaschine',
     subTitle: 'Diese Politur macht eine Rotationsmaschine überflüssig',
     image:
       'https://glossbossimages.s3.eu-central-1.amazonaws.com/thumbnails/marvin/guide_mf_pads/DSC01919.jpg',
     link: 'http://amzn.to/2kHKkSx'
-  },
-  {
-    title: 'Achtung, Nur für Perfektionisten!',
-    subTitle: 'Die beste Lampe zur Lackbegutachtung',
-    image:
-      'https://glossbossimages.s3.eu-central-1.amazonaws.com/thumbnails/marvin/porsche993_schwarz_csl_exo/DSC01757.jpg',
-    link: 'http://amzn.to/2ArV8el'
-  },
-  {
-    image:
-      'https://glossbossimages.s3.eu-central-1.amazonaws.com/thumbnails/mark/Ferrari458/036.JPG',
-    title: 'Sprühflasche mit einzigartiger Funktion',
-    subTitle: 'Jeder Profi schwört darauf',
-    link: 'http://amzn.to/2BMd8Rb'
   },
   {
     image:
@@ -75,6 +47,14 @@ const ads = [
     title: 'Die schonenste Reinigung für den Innenraum',
     subTitle: 'Super-Soft Pinsel für Klavierlack und co',
     link: 'https://glossboss-shop.de/produkt/super-soft-pinsel-set/'
+  },
+  {
+    image:
+      'https://glossbossuploader.s3.eu-central-1.amazonaws.com/thumbnails/SQ3ddjOC6dJ4dc65T0V8S-rag/IMG_0878.jpg',
+    title: 'NEUENTWICKLUNG: Trockentuch von The Rag Company',
+    subTitle: 'Mit einzigartiger funktion (The Gauntlet)',
+    link:
+      'https://glossboss-shop.de/produkt/the-rag-company-the-gauntlet-trockentuch/'
   }
 ]
 export default class Werbung extends React.Component {
