@@ -1,9 +1,24 @@
 // import React from 'react'
 import Link from 'gatsby-link'
-import { css } from '@emotion/core'
+import { css, keyframes } from '@emotion/core'
 import styled from '@emotion/styled'
 
 import config from '../config'
+
+const showCard = keyframes`
+0% {
+  transform: scale(.95);
+  opacity: 0;
+  top: 70px;
+    position: relative;
+}
+100% {
+  transform: scale(1);
+  opacity: 1;
+  top: 0px;
+  position: relative;
+}
+`
 
 export const CardStyle = css`
   background-color: white;
@@ -30,6 +45,7 @@ export const CardItem = styled.li`
   @media (min-width: 66rem) {
     width: ${props => !props.isPost && '33.3333%'};
   }
+  animation: ${showCard} 700ms ease-in-out 1;
 `
 export const Card = styled.div`
   ${CardStyle};
