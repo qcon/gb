@@ -6,3 +6,4 @@ plugins/gatsby-remark-youtubevideo/node_modules
 node_modules/
 .DS_Store
 now-secrets.json
+.now
