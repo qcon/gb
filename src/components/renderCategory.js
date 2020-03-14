@@ -73,7 +73,6 @@ class RenderCategory extends React.Component {
         <GlossbossDetailingAd />
         <Cards>
           <Werbung />
-          {console.log('test')}
           {this.state.posts.slice(0, this.state.postsToShow).map((post, i) => {
             let generatedPostImageThumb = post.node.postImage
             if (post.node.postImage.indexOf('glossbossuploader') > -1) {
