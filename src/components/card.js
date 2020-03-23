@@ -21,11 +21,14 @@ const showCard = keyframes`
 `
 
 export const CardStyle = css`
-  background-color: white;
-  border-radius: 0.25rem;
-  border: ${config.cardBorder};
-  border-bottom: ${config.borderBottom};
-`
+         /* background-color: white;
+         border-radius: 0.25rem;
+         border: ${config.cardBorder};
+         border-bottom: ${config.borderBottom}; */
+         border-radius: 10px;
+         background: #ffffff;
+         box-shadow: 10px 10px 29px #d4d4d4, -10px -10px 29px #ffffff;
+       `
 
 export const Cards = styled.ul`
   display: flex;
@@ -79,6 +82,7 @@ export const CardImage = styled(Link)`
   overflow: hidden;
   position: relative;
   transition: filter 0.5s cubic-bezier(.43,.41,.22,.91);
+  box-shadow: 1px 2px 5px #dddddd;
   &::before {
     content: "";
     display: block;
@@ -123,7 +127,13 @@ export const CardButton = styled(Link)`
   text-align: center;
   display: block;
   width: 100%;
-  margin: ${props => (props.isLoadMore ? '50px 0' : '25px 0 0 0')};
+  margin: ${props => (props.isLoadMore ? '50px 0' : '25px 0 15px 0')};
+  border-radius: 7px;
+  background: #f6f6f6;
+  box-shadow: 5px 5px 10px #dddddd, -5px -5px 10px #ffffff;
+  &:hover {
+    background: linear-gradient(145deg, #ffffff, #dddddd);
+  }
 `
 export const CardButtonExternal = CardButton.withComponent('div')
 

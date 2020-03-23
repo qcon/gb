@@ -10,7 +10,7 @@ import config from '../config'
 const Bio = styled.div`
   ${CardStyle};
   margin: 50px 0;
-  padding: 0 15px;
+  padding: 15px;
   ul {
     list-style: none;
     li {
