@@ -39,12 +39,16 @@ const NavbarListItem = styled.li`
   position: relative;
   top: ${props => (props.isLogo ? '0' : '10%')};
   a {
-    color: ${props => (props.active ? 'black !important' : config.textColor)};
+    color: ${props =>
+      props.active ? `${config.glossbossBlue} !important` : config.textColor};
+    color: ${config.textColor};
+    font-weight: 600;
     text-decoration: none;
+    font-size: 1rem;
     margin: ${props => (props.hasIcons ? '0 10px' : '0')};
   }
   a:hover {
-    color: black;
+    color: ${config.glossbossBlueLighter};
   }
   .feather {
     transform: translate(0, 6px);

@@ -10,16 +10,21 @@ const gradient = `linear-gradient(
 const Hero = styled.div`
   height: 300px;
   display: flex;
+  background: ${props =>
+    props.image
+      ? `${gradient},url("${props.image}") center 50% no-repeat`
+      : '#130027'};
   margin: 10px 0;
   transition: 200ms;
-  filter: sepia(20%) brightness(80%);
-  background: ${gradient}, url("${props =>
+  /* filter: sepia(20%) brightness(80%); */
+  /* background: ${gradient}, url("${props =>
   props.image
     ? props.image
-    : 'https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/amg-gts-grau/DSC01437.jpg'}") center 50% no-repeat;
+    : 'https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/amg-gts-grau/DSC01437.jpg'}") center 50% no-repeat; */
   background-size: cover;
   padding: 10px;
-  box-shadow: 0px 4px 6px -3px rgba(0, 0, 0, 0.3);
+  box-shadow: -1px 10px 10px -8px rgba(0,0,0,0.6);
+
 
   @media (max-width: ${config.mobileMQ}) {
     margin: 0;
@@ -29,20 +34,20 @@ const Hero = styled.div`
 const GLOSSBOSSsvg = styled.img`
   margin: 0 auto;
   position: relative;
-  max-width: 400px;
   max-width: 90%;
-  height: 100%;
-  opacity: 0.7;
+  max-height: 100px;
+  top: 30%;
 `
-const GLOSSBOSSsvgWrapper = styled.div`
+const GLOSSBOSSsvgWrapper = styled.a`
+  display: block;
   width: 100%;
   height: 100%;
 `
 
 export default ({ image, title, subTitle }) => (
   <Hero image={image}>
-    <GLOSSBOSSsvgWrapper>
-      <GLOSSBOSSsvg src="/glossbossv3.svg" alt="GLOSSBOSS Logo" />
+    <GLOSSBOSSsvgWrapper href="/">
+      <GLOSSBOSSsvg src="/GLOSSBOSS-gradient.svg" alt="GLOSSBOSS Logo" />
     </GLOSSBOSSsvgWrapper>
   </Hero>
 )

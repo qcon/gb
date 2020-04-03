@@ -33,6 +33,12 @@ const categories = [
       'Hier findest du Videos von uns - u.a. Vlogs, Produkttest und Anleitungen.',
     subTitle: '',
     url: '/videos'
+  },
+  {
+    title: 'Podcast',
+    description: 'Hier findest du unsere Podcasts',
+    subTitle: '',
+    url: '/podcast'
   }
 ]
 

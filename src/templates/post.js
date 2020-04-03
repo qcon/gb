@@ -59,7 +59,7 @@ const PostMeta = styled.p`
   border-top: 1px solid rgba(0, 0, 0, 0.05);
 `
 const WerbungWrapper = styled.ul`
-  margin: 50px 0;
+  margin: 150px 0;
   padding: 0;
 `
 const WerbungNotification = styled.div`

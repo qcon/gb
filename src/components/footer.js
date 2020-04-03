@@ -22,10 +22,21 @@ const Item = styled.div`
   list-style: none;
   flex: 1 0 250px;
   margin: 25px 0;
+  strong {
+    opacity: 0.8;
+    font-weight: 500;
+  }
   ul {
     list-style: none;
     padding: 0;
-    margin: 0;
+    margin-top: 15px;
+    li {
+      margin-top: 5px;
+    }
+    a {
+      font-weight: 700;
+      text-decoration: none;
+    }
   }
 `
 

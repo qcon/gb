@@ -20,7 +20,6 @@ const AppBanner = styled.div`
 `
 
 const PartInput = styled.input`
-  ${CardStyle};
   width: ${props => (props.isBottle ? '150px' : '70px')};
   padding: 5px;
   font-size: 18px;
@@ -97,7 +96,8 @@ export default class component extends Component {
           onChange={e => this.handleChangeIn1(e.target.value)}
           type="number"
           min="1"
-        />:
+        />
+        :
         <PartInput
           value={in2}
           onChange={e => this.handleChangeIn2(e.target.value)}

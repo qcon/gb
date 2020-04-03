@@ -15,6 +15,7 @@ const Card = styled.div`
   color: #d6f0ff;
   letter-spacing: 1.2px;
   font-weight: 400;
+  display: none;
 `
 export default () => (
   // <Card>

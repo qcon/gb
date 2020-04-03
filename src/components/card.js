@@ -25,9 +25,13 @@ export const CardStyle = css`
          border-radius: 0.25rem;
          border: ${config.cardBorder};
          border-bottom: ${config.borderBottom}; */
-         border-radius: 10px;
+         transition: 100ms ease-in-out;
+         &:hover {
+           background: #f8fcff;
+         }
+         border-radius: 5px;
          background: #ffffff;
-         box-shadow: 10px 10px 29px #d4d4d4, -10px -10px 29px #ffffff;
+         box-shadow: 2px 2px 12px #d4d4d4, -5px -5px 15px #ffffff;
        `
 
 export const Cards = styled.ul`
@@ -42,7 +46,7 @@ export const CardItem = styled.li`
   width: 100%;
   padding: 1rem;
   margin: ${props => props.isPost && '0 auto'};
-  @media (min-width: 40rem) {
+  @media (min-width: 45rem) {
     width: 50%;
   }
   @media (min-width: 66rem) {
@@ -56,11 +60,6 @@ export const Card = styled.div`
   flex-direction: column;
   overflow: hidden;
   width: 100%;
-  &:hover {
-    a:first-child {
-      filter: contrast(100%);
-    }
-  }
   a {
     text-decoration: none;
   }
@@ -78,7 +77,7 @@ export const CardImage = styled(Link)`
   background-size: cover;
   border-top-left-radius: 0.25rem;
   border-top-right-radius: 0.25rem;
-  filter: contrast(70%);
+  /* filter: contrast(70%); */
   overflow: hidden;
   position: relative;
   transition: filter 0.5s cubic-bezier(.43,.41,.22,.91);
@@ -92,17 +91,18 @@ export const CardImage = styled(Link)`
 export const CardImageExternal = CardImage.withComponent('div')
 
 export const CardTitle = styled(Link)`
-  color: ${config.darkerGray};
-  font-size: 18px;
-  font-weight: 400;
+  /* color: ${config.darkerGray}; */
+  color: ${config.linkColor};
+  font-size: 22px;
+  font-weight: 600;
   letter-spacing: 2px;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   text-decoration: none;
 `
 export const CardTitleExternal = CardTitle.withComponent('div')
 export const CardText = styled.p`
   flex: ${props => (props.isMeta ? '' : '1 1 0')};
-  font-size: 13px;
+  font-size: 15px;
   line-height: 1.5;
   margin-bottom: 1.25rem;
   color: ${config.darkGray};
@@ -130,9 +130,10 @@ export const CardButton = styled(Link)`
   margin: ${props => (props.isLoadMore ? '50px 0' : '25px 0 15px 0')};
   border-radius: 7px;
   background: #f6f6f6;
-  box-shadow: 5px 5px 10px #dddddd, -5px -5px 10px #ffffff;
+  box-shadow: 1px 1px 5px #dddddd, -1px -1px 5px #ffffff;
+  transition: 200ms;
   &:hover {
-    background: linear-gradient(145deg, #ffffff, #dddddd);
+    box-shadow: 5px 5px 5px #dddddd, -5px -5px 5px #ffffff;
   }
 `
 export const CardButtonExternal = CardButton.withComponent('div')

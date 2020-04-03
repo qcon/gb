@@ -18,7 +18,14 @@ import {
 } from './card'
 
 import config from '../config'
-
+const generateDefaultThumb = cat => {
+  switch (cat) {
+    case 'Podcast':
+      return 'https://glossbossuploader.s3.eu-central-1.amazonaws.com/thumbnails/pUHUJ_GqKuuq52AUzxTyd-podcast/defauktpodcast.jpg'
+    default:
+      break
+  }
+}
 const LoadMore = styled.div`
   color: ${config.darkGray};
   padding: 0.5rem;
@@ -75,7 +82,10 @@ class RenderCategory extends React.Component {
           <Werbung />
           {this.state.posts.slice(0, this.state.postsToShow).map((post, i) => {
             let generatedPostImageThumb = post.node.postImage
-            if (post.node.postImage.indexOf('glossbossuploader') > -1) {
+            if (
+              post.node.postImage &&
+              post.node.postImage.indexOf('glossbossuploader') > -1
+            ) {
               generatedPostImageThumb.replace(
                 'glosbossimages',
                 'glosbossuploader'
@@ -93,11 +103,13 @@ class RenderCategory extends React.Component {
                 <Card>
                   <CardImage
                     image={
-                      post.node.postImageThumb ||
-                      generatedPostImageThumb.replace(
-                        'amazonaws.com',
-                        'amazonaws.com/thumbnails'
-                      )
+                      post.node.postImage
+                        ? post.node.postImageThumb ||
+                          generatedPostImageThumb.replace(
+                            'amazonaws.com',
+                            'amazonaws.com/thumbnails'
+                          )
+                        : generateDefaultThumb(post.node.category)
                     }
                     to={post.node.fields.fullUrl}
                     title={post.node.title + ' ' + post.node.subTitle}
@@ -107,7 +119,7 @@ class RenderCategory extends React.Component {
                       von {linkGlossboss} &middot; {post.node.fields.prettyDate}{' '}
                       &middot;{' '}
                       <a href={`/${post.node.category.toLowerCase()}`}>
-                        {post.node.category}
+                        {config.addEmoji(post.node.category)}
                       </a>
                     </CardText>
                     <CardTitle
@@ -121,7 +133,11 @@ class RenderCategory extends React.Component {
                       to={post.node.fields.fullUrl}
                       title={post.node.title + ' ' + post.node.subTitle}
                     >
-                      {post.node.category === 'Videos' ? 'ansehen' : 'lesen'}
+                      {post.node.category === 'Videos'
+                        ? 'ansehen'
+                        : post.node.category === 'Podcast'
+                        ? 'anhören'
+                        : 'lesen'}
                     </CardButton>
                   </CardContent>
                 </Card>

@@ -18,7 +18,7 @@ const ads = [
     subTitle: 'ein Staubwedel um den Polierstaub zu entfernen',
     image:
       'https://glossbossimages.s3.eu-central-1.amazonaws.com/thumbnails/marvin/964schwarzmetfussocoat/P1020431.JPG',
-    link: 'http://amzn.to/2yJpdba'
+    link: 'https://glossboss-shop.de/produkt/staubwedel/'
   },
   {
     title: 'Maximale Abtragsleistung mit der Exzentermaschine',
