@@ -6,6 +6,8 @@ import ContentWrapper from './contentWrapper'
 import ScrollTop from './scrollTop'
 import { CardStyle } from '../components/card'
 
+import config from '../config'
+
 const Container = styled.div`
   ${CardStyle};
   width: 100%;
@@ -36,6 +38,9 @@ const Item = styled.div`
     a {
       font-weight: 700;
       text-decoration: none;
+    }
+    img {
+      margin: 0;
     }
   }
 `
@@ -93,6 +98,18 @@ export default () => (
                 eMail
               </a>
             </li>
+            <li>
+              <a
+                href="https://open.spotify.com/show/2oBmEugxOA7YS9fFa3EJjX"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src="/spotify-podcast-badge-blk-grn-165x40.png"
+                  alt="GLOSSBOSS Podcast auf Spotify"
+                />
+              </a>
+            </li>
           </ul>
         </Item>
         <Item>
@@ -118,21 +135,16 @@ export default () => (
         <Item>
           <strong>Kategorien</strong>
           <ul>
-            <li>
-              <Link to="/allgemein">Allgemein</Link>
-            </li>
-            <li>
-              <Link to="/pflegeberichte">Pflegeberichte</Link>
-            </li>
-            <li>
-              <Link to="/anleitungen">Anleitungen</Link>
-            </li>
-            <li>
-              <Link to="/videos">Videos</Link>
-            </li>
-            <li>
-              <Link to="/produkttest">Produkttest</Link>
-            </li>
+            {config.categories.map(cat => {
+              if (cat === 'Index') return null
+              return (
+                <li key={cat}>
+                  <Link to={`/${cat.toLowerCase()}`}>
+                    {config.addEmoji(cat)}
+                  </Link>
+                </li>
+              )
+            })}
           </ul>
         </Item>
       </InnerWrapper>

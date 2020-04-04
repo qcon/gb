@@ -16,15 +16,9 @@ const Hero = styled.div`
       : '#130027'};
   margin: 10px 0;
   transition: 200ms;
-  /* filter: sepia(20%) brightness(80%); */
-  /* background: ${gradient}, url("${props =>
-  props.image
-    ? props.image
-    : 'https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/amg-gts-grau/DSC01437.jpg'}") center 50% no-repeat; */
   background-size: cover;
   padding: 10px;
-  box-shadow: -1px 10px 10px -8px rgba(0,0,0,0.6);
-
+  box-shadow: -1px 10px 10px -8px rgba(0, 0, 0, 0.6);
 
   @media (max-width: ${config.mobileMQ}) {
     margin: 0;

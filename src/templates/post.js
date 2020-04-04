@@ -10,7 +10,6 @@ import MainLayout from '../components/layout'
 import Breadcrumb from '../components/breadcrumb'
 import Bio from '../components/bio'
 import Werbung from '../components/werbung'
-// import Sponsored from '../components/sponsored'
 
 import config from '../config'
 

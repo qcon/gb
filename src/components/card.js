@@ -1,4 +1,3 @@
-// import React from 'react'
 import Link from 'gatsby-link'
 import { css, keyframes } from '@emotion/core'
 import styled from '@emotion/styled'
@@ -21,18 +20,14 @@ const showCard = keyframes`
 `
 
 export const CardStyle = css`
-         /* background-color: white;
-         border-radius: 0.25rem;
-         border: ${config.cardBorder};
-         border-bottom: ${config.borderBottom}; */
-         transition: 100ms ease-in-out;
-         &:hover {
-           background: #f8fcff;
-         }
-         border-radius: 5px;
-         background: #ffffff;
-         box-shadow: 2px 2px 12px #d4d4d4, -5px -5px 15px #ffffff;
-       `
+  transition: 100ms ease-in-out;
+  &:hover {
+    background: #f8fcff;
+  }
+  border-radius: 5px;
+  background: #ffffff;
+  box-shadow: 2px 2px 12px #d4d4d4, -5px -5px 15px #ffffff;
+`
 
 export const Cards = styled.ul`
   display: flex;
@@ -77,7 +72,6 @@ export const CardImage = styled(Link)`
   background-size: cover;
   border-top-left-radius: 0.25rem;
   border-top-right-radius: 0.25rem;
-  /* filter: contrast(70%); */
   overflow: hidden;
   position: relative;
   transition: filter 0.5s cubic-bezier(.43,.41,.22,.91);
@@ -91,12 +85,10 @@ export const CardImage = styled(Link)`
 export const CardImageExternal = CardImage.withComponent('div')
 
 export const CardTitle = styled(Link)`
-  /* color: ${config.darkerGray}; */
   color: ${config.linkColor};
   font-size: 22px;
   font-weight: 600;
   letter-spacing: 2px;
-  /* text-transform: uppercase; */
   text-decoration: none;
 `
 export const CardTitleExternal = CardTitle.withComponent('div')

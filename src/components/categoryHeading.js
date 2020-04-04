@@ -15,7 +15,6 @@ const Wrapper = styled.ul`
 
 const Item = styled.li`
   display: inline-block;
-  /* text-transform: uppercase; */
   margin: 12px;
 
   a {
