@@ -14,6 +14,7 @@ const Container = styled.div`
   padding: 50px 0;
   margin-top: 100px;
 `
+
 const InnerWrapper = styled.div`
   display: flex;
   justify-content: space-between;

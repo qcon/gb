@@ -16,7 +16,6 @@ const Wrapper = styled.ul`
 const Item = styled.li`
   display: inline-block;
   margin: 12px;
-
   a {
     border: ${props =>
       props.active ? `2px solid ${config.glossbossBlue}` : ''};
