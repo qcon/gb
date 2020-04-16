@@ -30,7 +30,8 @@ const Item = styled.li`
   }
 
   @media (max-width: ${config.mobileMQ}) {
-    margin: 15px;
+    margin: 8px;
+    font-size: 14px;
   }
 `
 export default ({ category }) => {
