@@ -4,14 +4,14 @@ import styled from '@emotion/styled'
 const Logo = styled.div`
   text-align: center;
   svg {
-    max-width: ${props => (props.maxWidth ? `${props.maxWidth}px` : '50px')};
-    width: ${props => (props.maxWidth ? `${props.maxWidth}px` : '50px')};
-    height: ${props => (props.maxWidth ? `${props.maxWidth}px` : '50px')};
+    max-width: ${props => (props.maxWidth ? `${props.maxWidth}px` : '30px')};
+    width: ${props => (props.maxWidth ? `${props.maxWidth}px` : '30px')};
+    height: ${props => (props.maxWidth ? `${props.maxWidth}px` : '30px')};
   }
   img {
-    max-width: ${props => (props.maxWidth ? `${props.maxWidth}px` : '50px')};
-    width: ${props => (props.maxWidth ? `${props.maxWidth}px` : '50px')};
-    height: ${props => (props.maxWidth ? `${props.maxWidth}px` : '50px')};
+    max-width: ${props => (props.maxWidth ? `${props.maxWidth}px` : '30px')};
+    width: ${props => (props.maxWidth ? `${props.maxWidth}px` : '30px')};
+    height: ${props => (props.maxWidth ? `${props.maxWidth}px` : '30px')};
   }
 `
 

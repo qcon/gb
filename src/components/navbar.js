@@ -12,7 +12,8 @@ const Navbar = styled.div`
   top: 0;
   left: 0;
   width: 100%;
-  background: white;
+  background: hsla(0, 0%, 100%, 0.8);
+  backdrop-filter: saturate(180%) blur(5px);
   padding: 15px;
   font-size: 15px;
   z-index: 3;
@@ -23,7 +24,7 @@ const NavbarList = styled.ul`
   list-style: none;
   margin: 0;
   padding: 0;
-  height: 50px;
+  height: 30px;
   @media (max-width: ${config.mobileMQ}) {
     height: 100%;
   }
@@ -37,7 +38,7 @@ const NavbarListItem = styled.li`
   text-transform: uppercase;
   letter-spacing: 0.15em;
   position: relative;
-  top: ${props => (props.isLogo ? '0' : '10%')};
+  top: ${props => (props.isLogo ? '0' : '50%')};
   a {
     color: ${props =>
       props.active ? `${config.glossbossBlue} !important` : config.textColor};
@@ -60,7 +61,7 @@ const NavbarListItem = styled.li`
     margin: ${props => (props.isLogo ? '0' : '10px auto')};
     transform: ${props => (props.isLogo ? '' : 'translateY(30px)')};
     text-align: center;
-    height: 50px;
+    height: 30px;
     width: 100%;
   }
 `
@@ -82,7 +83,7 @@ const NavbarListItemToggle = styled.div`
     justify-content: center;
     align-items: center;
     position: absolute;
-    top: 30px;
+    top: 19px;
     right: 25px;
   }
 `

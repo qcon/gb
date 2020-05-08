@@ -51,7 +51,7 @@ const Main = styled.div`
   margin: 0 auto;
   width: 100%;
   height: 100%;
-  margin-top: 80px;
+  margin-top: 60px;
 `
 
 class MainLayout extends React.Component {
