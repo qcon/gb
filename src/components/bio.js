@@ -21,13 +21,13 @@ const BioMeta = styled.ul`
   display: flex;
   flex-wrap: wrap;
   list-style: none;
-  align-items: center;
+  align-items: flex-start;
   margin: 0;
   padding: 15px;
 `
 const ImageItem = styled.li`
   flex: 0 0 120px;
-  margin: 0 auto;
+  margin: 9px;
   img {
     border-radius: 50%;
     margin: 0;
@@ -43,9 +43,6 @@ const TextItem = styled.li`
   }
   p {
     margin-top: 0px;
-  }
-  strong {
-    font-size: 22px;
   }
 `
 export default ({ author, lastPosts }) => {
@@ -71,16 +68,6 @@ export default ({ author, lastPosts }) => {
           <p>{boss.description}</p>
         </TextItem>
       </BioMeta>
-      <strong>
-        {lastPosts.length} weitere Beiträge von {author}
-      </strong>
-      <ul>
-        {lastPosts.map(post => (
-          <li key={post.node.title}>
-            <Link to={post.node.fields.fullUrl}>{post.node.title}</Link>
-          </li>
-        ))}
-      </ul>
     </Bio>
   )
 }

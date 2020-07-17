@@ -24,6 +24,11 @@ class Html extends React.Component {
             name="viewport"
             content="width=device-width, initial-scale=1.0"
           />
+          <script
+            data-ad-client="ca-pub-1061755440554644"
+            async
+            src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+          ></script>
         </head>
         <body>
           <div
