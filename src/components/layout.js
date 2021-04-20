@@ -9,6 +9,7 @@ import ContentWrapper from '../components/contentWrapper'
 import Footer from '../components/footer'
 
 import config from '../config'
+import ShopAd from '../components/shopAd'
 
 injectGlobal`
   body {
@@ -67,6 +68,7 @@ class MainLayout extends React.Component {
         <Main>
           <NavBar links={config.navbarLinks} />
           <HeaderImage {...this.props} />
+          <ShopAd />
           <ContentWrapper>{this.props.children}</ContentWrapper>
           <Footer />
         </Main>

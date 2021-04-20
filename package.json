@@ -44,6 +44,7 @@
     "singleQuote": true
   },
   "devDependencies": {
+    "prettier": "^2.2.0",
     "now-env": "*"
   },
   "repository": {
