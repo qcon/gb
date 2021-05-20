@@ -7,3 +7,4 @@ node_modules/
 .DS_Store
 now-secrets.json
 .now
+.vercel

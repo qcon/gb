@@ -21,7 +21,7 @@ export default () => (
     <ContentWrapper>
     <Container>
       <InnerWrapper>
-<span role="img" aria-label="Schwamm">🧽</span> Besuche unseren Detailing Shop auf <a href="https://glossboss-shop.de" title="GLOSSBOSS Detailing Shop">https://glossboss-shop.de</a> <span role="img" aria-label="Schwamm">🧼</span>
+<span role="img" aria-label="Schwamm">🧽</span> Besuche unseren Detailing Shop auf <a href="https://glossboss-shop.de?ref=gb.de" title="GLOSSBOSS Detailing Shop">https://glossboss-shop.de</a> <span role="img" aria-label="Schwamm">🧼</span>
 
         </InnerWrapper>
         </Container>
