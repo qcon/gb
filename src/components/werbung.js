@@ -18,7 +18,7 @@ const ads = [
     subTitle: 'ein Staubwedel um den Polierstaub zu entfernen',
     image:
       'https://glossbossimages.s3.eu-central-1.amazonaws.com/thumbnails/marvin/964schwarzmetfussocoat/P1020431.JPG',
-    link: 'https://glossboss-shop.de/produkt/staubwedel/'
+    link: 'https://glossboss-shop.de/Staubwedel?ref=gb.de'
   },
   {
     title: 'Maximale Abtragsleistung mit der Exzentermaschine',
@@ -46,7 +46,7 @@ const ads = [
       'https://glossbossuploader.s3.eu-central-1.amazonaws.com/thumbnails/Bu0ACzB6aeqL_xIl4hqwZ-pinsel/pinsel.jpg',
     title: 'Die schonenste Reinigung für den Innenraum',
     subTitle: 'Super-Soft Pinsel für Klavierlack und co',
-    link: 'https://glossboss-shop.de/produkt/super-soft-pinsel-set/'
+    link: 'https://glossboss-shop.de/Super-Soft-Pinsel-SET?ref=gb.de'
   },
   {
     image:
@@ -54,7 +54,7 @@ const ads = [
     title: 'NEUENTWICKLUNG: Trockentuch von The Rag Company',
     subTitle: 'Mit einzigartiger funktion (The Gauntlet)',
     link:
-      'https://glossboss-shop.de/produkt/the-rag-company-the-gauntlet-trockentuch/'
+      'https://glossboss-shop.de/The-Rag-Company-The-GAUNTLET-Trockentuch-50x75cm?ref=gb.de'
   }
 ]
 export default class Werbung extends React.Component {
