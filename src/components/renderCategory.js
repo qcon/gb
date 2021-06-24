@@ -77,7 +77,6 @@ class RenderCategory extends React.Component {
         {!this.props.hideCategoryHeading && (
           <CategoryHeading category={this.props.title} />
         )}
-        <GlossbossDetailingAd />
         <Cards>
           <Werbung />
           {this.state.posts.slice(0, this.state.postsToShow).map((post, i) => {
