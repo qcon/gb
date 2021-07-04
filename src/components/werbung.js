@@ -25,21 +25,21 @@ const ads = [
     subTitle: 'Diese Politur macht eine Rotationsmaschine überflüssig',
     image:
       'https://glossbossimages.s3.eu-central-1.amazonaws.com/thumbnails/marvin/guide_mf_pads/DSC01919.jpg',
-    link: 'http://amzn.to/2kHKkSx'
+    link: 'https://glossboss-shop.de/Nanolex-Heavy-Cut-Polish-Schleifpolitur-250ml-750ml?ref=gb'
   },
   {
     image:
       'https://glossbossimages.s3.eu-central-1.amazonaws.com/thumbnails/alexbrose/E30_Pflegebericht/001.jpg',
     title: 'Die ultimative Allzweckwaffe für eingebrannten Dreck',
     subTitle: 'Hoch konzentrierter und günstiger Allzweckreiniger',
-    link: 'http://amzn.to/2CeOhc0'
+    link: 'https://glossboss-shop.de/Koch-Chemie-Gs-Green-Star-Allzweckreiniger-APC-1-Liter?ref=gb'
   },
   {
     image:
       'https://glossbossimages.s3.eu-central-1.amazonaws.com/thumbnails/jones/berichte/bmw_m6_coupe/0020.jpg',
     title: 'Garantiert Kratzfrei Waschen',
     subTitle: 'Dazu brauchst du nur dieses Hilfsmittel',
-    link: 'http://amzn.to/2CkMiTJ'
+    link: 'https://glossboss-shop.de/solo-Cleanline-301-FB-Schaumsprueher-Foamer-125L-pH-Bereich-7-14?ref=gb'
   },
   {
     image:
