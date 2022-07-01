@@ -2,7 +2,7 @@ import React from 'react'
 import styled from '@emotion/styled'
 import Link from 'gatsby-link'
 
-import GlossbossDetailingAd from './glossbossDetailingAd'
+// import GlossbossDetailingAd from './glossbossDetailingAd'
 
 const Breadcrumb = styled.ul`
   margin: 15px 0;

@@ -41,10 +41,10 @@ const Contact = styled.p`
   }
 `
 
-export default () => (
+const Glossbosse = () => (
   <MainLayout title="Übersicht aller aktiven Glossbosse">
     <ListWrapper>
-      {Array.from(config.activeBosse).map(boss => {
+      {Array.from(config.activeBosse).map((boss) => {
         const value = boss[1]
         const name = boss[0]
         const bossUrl = `/glossbosse/${name.toLowerCase()}`
@@ -81,3 +81,4 @@ export default () => (
     </ListWrapper>
   </MainLayout>
 )
+export default Glossbosse

@@ -44,8 +44,8 @@
     "singleQuote": true
   },
   "devDependencies": {
-    "prettier": "^2.2.0",
-    "now-env": "*"
+    "now-env": "*",
+    "prettier": "^2.2.0"
   },
   "repository": {
     "type": "git",
