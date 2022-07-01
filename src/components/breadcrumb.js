@@ -19,7 +19,6 @@ const Item = styled.li`
 export default ({ category, title }) => {
   return (
     <>
-      <GlossbossDetailingAd />
       <Breadcrumb>
         <Item>
           <Link to="/">Startseite</Link>

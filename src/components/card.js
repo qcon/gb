@@ -26,8 +26,8 @@ export const CardStyle = css`
   }
   border-radius: 5px;
   background: #ffffff;
-  box-shadow: 2px 2px 12px #d4d4d4, -5px -5px 15px #ffffff;
 `
+/*box-shadow: 2px 2px 12px #d4d4d4, -5px -5px 15px #ffffff;*/
 
 export const Cards = styled.ul`
   display: flex;
@@ -40,12 +40,12 @@ export const CardItem = styled.li`
   display: flex;
   width: 100%;
   padding: 1rem;
-  margin: ${props => props.isPost && '0 auto'};
+  margin: ${(props) => props.isPost && '0 auto'};
   @media (min-width: 45rem) {
     width: 50%;
   }
   @media (min-width: 66rem) {
-    width: ${props => !props.isPost && '33.3333%'};
+    width: ${(props) => !props.isPost && '33.3333%'};
   }
   animation: ${showCard} 700ms ease-in-out 1;
 `
@@ -66,7 +66,7 @@ export const CardContent = styled.div`
   padding: 1rem;
 `
 export const CardImage = styled(Link)`
-  background-image: url("${props => props.image && props.image}");
+  background-image: url('${(props) => props.image && props.image}');
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -74,12 +74,12 @@ export const CardImage = styled(Link)`
   border-top-right-radius: 0.25rem;
   overflow: hidden;
   position: relative;
-  transition: filter 0.5s cubic-bezier(.43,.41,.22,.91);
+  transition: filter 0.5s cubic-bezier(0.43, 0.41, 0.22, 0.91);
   box-shadow: 1px 2px 5px #dddddd;
   &::before {
-    content: "";
+    content: '';
     display: block;
-    padding-top: ${props => (props.isPost ? '30%' : '56.25%')};
+    padding-top: ${(props) => (props.isPost ? '30%' : '56.25%')};
   }
 `
 export const CardImageExternal = CardImage.withComponent('div')
@@ -93,13 +93,13 @@ export const CardTitle = styled(Link)`
 `
 export const CardTitleExternal = CardTitle.withComponent('div')
 export const CardText = styled.p`
-  flex: ${props => (props.isMeta ? '' : '1 1 0')};
+  flex: ${(props) => (props.isMeta ? '' : '1 1 0')};
   font-size: 15px;
   line-height: 1.5;
   margin-bottom: 1.25rem;
   color: ${config.darkGray};
-  margin-top: ${props => (props.isMeta ? '0' : '')};
-  border-bottom: ${props => (props.isMeta ? `${config.lightBorder}` : '')};
+  margin-top: ${(props) => (props.isMeta ? '0' : '')};
+  border-bottom: ${(props) => (props.isMeta ? `${config.lightBorder}` : '')};
   a {
     color: ${config.darkerGray};
     &:hover {
@@ -119,7 +119,7 @@ export const CardButton = styled(Link)`
   text-align: center;
   display: block;
   width: 100%;
-  margin: ${props => (props.isLoadMore ? '50px 0' : '25px 0 15px 0')};
+  margin: ${(props) => (props.isLoadMore ? '50px 0' : '25px 0 15px 0')};
   border-radius: 7px;
   background: #f6f6f6;
   box-shadow: 1px 1px 5px #dddddd, -1px -1px 5px #ffffff;

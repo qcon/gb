@@ -4,7 +4,6 @@ import styled from '@emotion/styled'
 import MainLayout from '../components/layout'
 import CategoryHeading from './categoryHeading'
 import Werbung from './werbung'
-import GlossbossDetailingAd from './glossbossDetailingAd'
 import {
   Cards,
   CardItem,
@@ -14,11 +13,11 @@ import {
   CardText,
   CardTitle,
   CardSubTitle,
-  CardButton
+  CardButton,
 } from './card'
 
 import config from '../config'
-const generateDefaultThumb = cat => {
+const generateDefaultThumb = (cat) => {
   switch (cat) {
     case 'Podcast':
       return 'https://glossbossuploader.s3.eu-central-1.amazonaws.com/thumbnails/pUHUJ_GqKuuq52AUzxTyd-podcast/defauktpodcast.jpg'
@@ -35,7 +34,7 @@ const LoadMore = styled.div`
   width: 100%;
   font-size: 18px;
   cursor: pointer;
-  margin: ${props => (props.isLoadMore ? '50px 0' : '25px 0 0 0')};
+  margin: ${(props) => (props.isLoadMore ? '50px 0' : '25px 0 0 0')};
   margin-bottom: 200px;
   svg {
     color: ${config.glossbossBlue};
@@ -56,19 +55,19 @@ class RenderCategory extends React.Component {
     super(props)
     this.state = {
       posts: this.props.category,
-      postsToShow: config.reloadPosts - 7
+      postsToShow: config.reloadPosts - 7,
     }
   }
   loadMorePosts() {
     this.setState((prevState, props) => {
       return {
-        postsToShow: prevState.postsToShow + config.reloadPosts
+        postsToShow: prevState.postsToShow + config.reloadPosts,
       }
     })
   }
   static getDerivedStateFromProps(props, state) {
     return {
-      posts: props.category
+      posts: props.category,
     }
   }
   render() {

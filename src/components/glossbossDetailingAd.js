@@ -15,7 +15,6 @@ const Card = styled.div`
   color: #d6f0ff;
   letter-spacing: 1.2px;
   font-weight: 400;
-  display: none;
 `
 export default () => (
   // <Card>
@@ -33,10 +32,10 @@ export default () => (
     <strong>10% Rabatt</strong> auf{' '}
     <a
       target="_blank"
-      href="https://waschhelden.de/?jsta=gb"
+      href="https://glossboss-shop.de/?ref=papa"
       rel="noopener noreferrer"
     >
-      Waschhelden.de
+      glossboss-shop.de
     </a>{' '}
     <span role="img" aria-label="Herz">
       ❤️
