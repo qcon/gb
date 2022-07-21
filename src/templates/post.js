@@ -17,6 +17,10 @@ import config from '../config'
 moment.locale('de')
 
 injectGlobal`
+h1,h2,h3,h4,h5,h6 {
+  color: ${config.glossbossBlue};
+  font-weight: 900;
+}
   .yt-container {
     max-width: 100%;
     height: 320px;
@@ -51,12 +55,32 @@ injectGlobal`
     margin: 0 auto;
   }
 `
-
+const PostWrapper = styled.div`
+  background: ${config.lighterGray};
+  margin: 16px;
+  padding: 2rem;
+  padding-top: 1rem;
+  border-radius: ${config.borderRadius};
+  @media (max-width: 66rem) {
+    margin: 0;
+    padding: 1rem;
+    padding-top: 0.5rem;
+  }
+`
+const MetaWrapper = styled.div`
+  // background: ${config.lighterGray};
+  margin: 16px;
+  padding-top: 1rem;
+  border-radius: ${config.borderRadius};
+  @media (max-width: 66rem) {
+    margin: 0;
+  }
+`
 const PostMeta = styled.p`
   font-size: 14px;
   color: ${config.darkGray};
-  margin-top: -5px;
-  border-top: 1px solid rgba(0, 0, 0, 0.05);
+  margin-top: -3px;
+  border-top: 1px solid rgba(0, 0, 0, 0.09);
 `
 const WerbungWrapper = styled.ul`
   margin: 150px 0;
@@ -87,16 +111,21 @@ class PostTemplate extends React.Component {
           <meta property="og:url" content={fullUrl} />
           <meta property="og:image" content={postImage} />
         </Helmet>
-        <Breadcrumb title={title} category={category} />
-        <PostMeta>
-          von {author} {moment(date).fromNow()} am{' '}
-          {dateFormat(fields.prettyDate, 'dd.mm.yyyy')}
-        </PostMeta>
-        <h1>{title}</h1>
-        <h2>{subTitle}</h2>
-        <div
-          dangerouslySetInnerHTML={{ __html: body.childMarkdownRemark.html }}
-        />
+        <MetaWrapper>
+          <Breadcrumb title={title} category={category} />
+          <PostMeta>
+            von {author} {moment(date).fromNow()} am{' '}
+            {dateFormat(fields.prettyDate, 'dd.mm.yyyy')}
+          </PostMeta>
+        </MetaWrapper>
+
+        <PostWrapper>
+          <h1>{title}</h1>
+          <h2>{subTitle}</h2>
+          <div
+            dangerouslySetInnerHTML={{ __html: body.childMarkdownRemark.html }}
+          />
+        </PostWrapper>
         <WerbungWrapper>
           <WerbungNotification>Werbung</WerbungNotification>
           <Werbung isPost />

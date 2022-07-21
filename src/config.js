@@ -17,6 +17,7 @@ const config = {
   mobileMQ: '811px',
   borderBottom: '3px solid #dce6f4',
   cardBorder: '1px solid #dce6f4',
+  borderRadius: '0.35rem',
   categoryPages: require('./data/categories'),
   categories: [
     'Index',

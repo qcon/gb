@@ -41,7 +41,7 @@ const NavbarListItem = styled.li`
   position: relative;
   top: ${(props) => (props.isLogo ? '0' : '10px')};
   float: ${(props) => (props.isLogo ? 'left' : 'right')};
-  margin-left: ${(props) => (props.isLogo ? '19px' : '0')};
+  margin-left: ${(props) => (props.isLogo ? '10px' : '0')};
   a {
     color: ${(props) =>
       props.active ? `${config.glossbossBlue} !important` : config.textColor};
