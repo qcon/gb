@@ -8,9 +8,10 @@ const gradient = `linear-gradient(
   )`
 
 const Hero = styled.div`
-  height: 300px;
+  display: none !important;
+  height: 200px;
   display: flex;
-  background: ${props =>
+  background: ${(props) =>
     props.image
       ? `${gradient},url("${props.image}") center 50% no-repeat`
       : '#130027'};

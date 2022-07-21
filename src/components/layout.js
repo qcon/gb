@@ -13,7 +13,7 @@ import ShopAd from '../components/shopAd'
 
 injectGlobal`
   body {
-    background-color: #f3f6fb;
+    background-color: #ffffff;
     font-size: 16px;
     line-height: 1.5;
     margin: 0;
@@ -52,7 +52,7 @@ const Main = styled.div`
   margin: 0 auto;
   width: 100%;
   height: 100%;
-  margin-top: 60px;
+  margin-top: 120px;
 `
 
 class MainLayout extends React.Component {

@@ -4,7 +4,7 @@ import config from '../config'
 
 const ContentWrapper = styled.div`
   margin: 0 auto;
-  max-width: 1200px;
+  max-width: 1400px;
   width: 90%;
   img {
     margin: 50px 0;

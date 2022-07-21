@@ -6,10 +6,8 @@ import ContentWrapper from './contentWrapper'
 
 const Container = styled.div`
   ${CardStyle};
-  width: 100%;
-  padding: 10px 20px;
-  margin-top: 30px;
-  margin-bottom: 50px;
+  margin: 50px 16px 90px 16px;
+  padding: 25px 20px;
 `
 
 const InnerWrapper = styled.div`
@@ -18,12 +16,23 @@ const InnerWrapper = styled.div`
 `
 
 export default () => (
-    <ContentWrapper>
+  <ContentWrapper>
     <Container>
       <InnerWrapper>
-<span role="img" aria-label="Schwamm">🧽</span> Besuche unseren Detailing Shop auf <a href="https://glossboss-shop.de?ref=gb.de" title="GLOSSBOSS Detailing Shop">https://glossboss-shop.de</a> <span role="img" aria-label="Schwamm">🧼</span>
-
-        </InnerWrapper>
-        </Container>
-        </ContentWrapper>
+        <span role="img" aria-label="Schwamm">
+          🧽
+        </span>{' '}
+        Besuche unseren Detailing Shop auf{' '}
+        <a
+          href="https://glossboss-shop.de?ref=gb.de"
+          title="GLOSSBOSS Detailing Shop"
+        >
+          https://glossboss-shop.de
+        </a>{' '}
+        <span role="img" aria-label="Schwamm">
+          🧼
+        </span>
+      </InnerWrapper>
+    </Container>
+  </ContentWrapper>
 )

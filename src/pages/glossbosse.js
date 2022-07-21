@@ -16,7 +16,7 @@ const ListWrapper = styled.ul`
 `
 const Item = styled.li`
   ${CardStyle};
-  flex: 1 0 300px;
+  flex: 1 0 500px;
   margin: 25px;
   padding: 25px;
   img {

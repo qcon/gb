@@ -1,15 +1,15 @@
 const config = {
-  glossbossBlue: '#5200d5',
-  glossbossBlueLighter: '#6d18f3',
-  glossbossBlueDarker: '#4300ae',
+  glossbossBlue: '#5a1aed',
+  glossbossBlueLighter: '#7236ff',
+  glossbossBlueDarker: '#5620d5',
   imgHoverFilter: 'sepia(30%) brightness(70%)',
   black: '#130027',
   lightGray: '#c3c3c3',
   lighterGray: 'rgba(0,0,0,.04)',
   lighterLightGray: '#f9f9fa',
-  darkGray: '#878787',
-  linkColor: '#5200d5',
-  textColor: '#555',
+  darkGray: '#262626',
+  linkColor: '#5a1aed',
+  textColor: '#262626',
   darkerGray: '#1C202f',
   lightBorder: '1px solid rgba(0, 0, 0, 0.09)',
   reloadPosts: 15,
@@ -25,15 +25,15 @@ const config = {
     'Allgemein',
     'Anleitungen',
     'Pflegeberichte',
-    'Produkttest'
+    'Produkttest',
   ],
   activeBosse: require('./data/glossbosse'),
   navbarLinks: [
     { href: '/mischungsrechner', title: 'Mischungsrechner' },
-    { href: '/glossbosse', title: 'Glossbosse' }
+    { href: '/glossbosse', title: 'Glossbosse' },
   ],
   siteUrl: 'https://glossboss.de/',
-  addEmoji: require('./components/addEmoji')
+  addEmoji: require('./components/addEmoji'),
 }
 
 module.exports = config

@@ -23,12 +23,13 @@ const showCard = keyframes`
 export const CardStyle = css`
   transition: 100ms ease-in-out;
   &:hover {
-    background: #f8fcff;
+    background: #fafbfc;
   }
-  border-radius: 5px;
-  background: #ffffff;
+  border-radius: 10px;
+  background: #f9fafb;
+  box-shadow: 5px 5px 35px #d4d4d420;
 `
-/*box-shadow: 2px 2px 12px #d4d4d4, -5px -5px 15px #ffffff;*/
+// box-shadow: 2px 2px 12px #d4d4d4, -5px -5px 15px #ffffff;
 
 export const Cards = styled.ul`
   display: flex;
@@ -40,7 +41,7 @@ export const Cards = styled.ul`
 export const CardItem = styled.li`
   display: flex;
   width: 100%;
-  padding: 1rem;
+  padding: 1.5rem;
   margin: ${(props) => props.isPost && '0 auto'};
   @media (min-width: 45rem) {
     width: 50%;
@@ -64,7 +65,7 @@ export const CardContent = styled.div`
   display: flex;
   flex: 1 1 auto;
   flex-direction: column;
-  padding: 1rem;
+  padding: 1.2rem;
 `
 export const CardImage = styled(Link)`
   background-image: url('${(props) => props.image && props.image}');
@@ -87,8 +88,8 @@ export const CardImageExternal = CardImage.withComponent('div')
 
 export const CardTitle = styled(Link)`
   color: ${config.linkColor};
-  font-size: 22px;
-  font-weight: 600;
+  font-size: 1.65rem;
+  font-weight: 800;
   letter-spacing: 2px;
   text-decoration: none;
 `
@@ -113,21 +114,26 @@ export const CardSubTitle = styled(CardText)`
 `
 export const CardButton = styled(Link)`
   text-decoration: none;
-  background-color: ${config.lighterGray};
-  color: ${config.glossbossBlue};
-  padding: 0.5rem;
+  background-color: ${config.glossbossBlue};
+  color: #fff;
+  padding: 0.75rem 1.5rem;
   text-transform: uppercase;
   text-align: center;
   display: block;
   width: 100%;
+  font-weight: 900;
+  max-width: 150px;
   margin: ${(props) => (props.isLoadMore ? '50px 0' : '25px 0 15px 0')};
   border-radius: 7px;
-  background: #f6f6f6;
-  box-shadow: 1px 1px 5px #dddddd, -1px -1px 5px #ffffff;
-  transition: 200ms;
   &:hover {
-    box-shadow: 5px 5px 5px #dddddd, -5px -5px 5px #ffffff;
+    color: ${config.lightGray};
   }
+  // background: #f6f6f6;
+  // box-shadow: 1px 1px 5px #dddddd90;
+  // transition: 200ms;
+  // &:hover {
+  //   box-shadow: 5px 5px 5px #dddddd, -5px -5px 5px #ffffff;
+  // }
 `
 export const CardButtonExternal = CardButton.withComponent('div')
 
