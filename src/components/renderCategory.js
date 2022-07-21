@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from '@emotion/styled'
+import dateFormat from 'dateformat'
 
 import MainLayout from '../components/layout'
 import CategoryHeading from './categoryHeading'
@@ -114,7 +115,8 @@ class RenderCategory extends React.Component {
                   />
                   <CardContent>
                     <CardText isMeta>
-                      von {linkGlossboss} &middot; {post.node.fields.prettyDate}{' '}
+                      von {linkGlossboss} &middot;{' '}
+                      {dateFormat(post.node.fields.prettyDate, 'dd.mm.yyyy')}{' '}
                       &middot;{' '}
                       <a href={`/${post.node.category.toLowerCase()}`}>
                         {config.addEmoji(post.node.category)}

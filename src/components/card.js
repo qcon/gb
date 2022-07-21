@@ -1,5 +1,6 @@
 import Link from 'gatsby-link'
-import { css, keyframes } from '@emotion/core'
+import { css } from '@emotion/react'
+import { keyframes } from '@emotion/react'
 import styled from '@emotion/styled'
 
 import config from '../config'

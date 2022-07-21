@@ -4,7 +4,8 @@ import { Helmet } from 'react-helmet'
 import moment from 'moment'
 import 'moment/locale/de'
 import styled from '@emotion/styled'
-import { injectGlobal } from 'emotion'
+import { injectGlobal } from '@emotion/css'
+import dateFormat from 'dateformat'
 
 import MainLayout from '../components/layout'
 import Breadcrumb from '../components/breadcrumb'
@@ -70,16 +71,8 @@ const WerbungNotification = styled.div`
 class PostTemplate extends React.Component {
   render() {
     const postData = this.props.data.contentfulPost
-    const {
-      postImage,
-      title,
-      category,
-      subTitle,
-      author,
-      date,
-      fields,
-      body
-    } = postData
+    const { postImage, title, category, subTitle, author, date, fields, body } =
+      postData
     const fullUrl =
       config.siteUrl + fields.fullUrl.slice(1, fields.fullUrl.length)
     return (
@@ -96,7 +89,8 @@ class PostTemplate extends React.Component {
         </Helmet>
         <Breadcrumb title={title} category={category} />
         <PostMeta>
-          von {author} {moment(date).fromNow()} am {fields.prettyDate}
+          von {author} {moment(date).fromNow()} am{' '}
+          {dateFormat(fields.prettyDate, 'dd.mm.yyyy')}
         </PostMeta>
         <h1>{title}</h1>
         <h2>{subTitle}</h2>
@@ -175,7 +169,7 @@ class PostTemplate extends React.Component {
             }]
           }
           </script>
-        `
+        `,
           }}
         />
       </MainLayout>

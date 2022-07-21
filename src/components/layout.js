@@ -1,6 +1,6 @@
 import React from 'react'
 import { Helmet } from 'react-helmet'
-import { injectGlobal } from 'emotion'
+import { injectGlobal } from '@emotion/css'
 import styled from '@emotion/styled'
 
 import NavBar from '../components/navbar'
