@@ -27,7 +27,7 @@ const Logo = styled.div`
   //   height: ${(props) => (props.maxWidth ? `${props.maxWidth}px` : '60px')};
   // }
 `
-
+/* eslint import/no-anonymous-default-export: [2, {"allowArrowFunction": true}] */
 export default ({ width }) => (
   <Logo maxWidth={width}>
     <img src="/glossboss-logo.svg" alt="GLOSSBOSS Logo" />

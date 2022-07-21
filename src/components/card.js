@@ -21,12 +21,13 @@ const showCard = keyframes`
 `
 
 export const CardStyle = css`
-  transition: 100ms ease-in-out;
+  transition: 200ms ease-in-out;
   &:hover {
+    transition: 150ms ease-in-out;
     background: #fafbfc;
   }
-  border-radius: 10px;
-  background: #f9fafb;
+  border-radius: 0.35rem;
+  background: ${config.lighterGray};
   box-shadow: 5px 5px 35px #d4d4d420;
 `
 // box-shadow: 2px 2px 12px #d4d4d4, -5px -5px 15px #ffffff;
@@ -65,7 +66,7 @@ export const CardContent = styled.div`
   display: flex;
   flex: 1 1 auto;
   flex-direction: column;
-  padding: 1.2rem;
+  padding: 0.5rem 1.2rem;
 `
 export const CardImage = styled(Link)`
   background-image: url('${(props) => props.image && props.image}');
@@ -77,7 +78,6 @@ export const CardImage = styled(Link)`
   overflow: hidden;
   position: relative;
   transition: filter 0.5s cubic-bezier(0.43, 0.41, 0.22, 0.91);
-  box-shadow: 1px 2px 5px #dddddd;
   &::before {
     content: '';
     display: block;
@@ -89,8 +89,8 @@ export const CardImageExternal = CardImage.withComponent('div')
 export const CardTitle = styled(Link)`
   color: ${config.linkColor};
   font-size: 1.65rem;
-  font-weight: 800;
-  letter-spacing: 2px;
+  font-weight: 900;
+  letter-spacing: 1px;
   text-decoration: none;
 `
 export const CardTitleExternal = CardTitle.withComponent('div')
@@ -98,7 +98,7 @@ export const CardText = styled.p`
   flex: ${(props) => (props.isMeta ? '' : '1 1 0')};
   font-size: 15px;
   line-height: 1.5;
-  margin-bottom: 1.25rem;
+  margin-bottom: 1.15rem;
   color: ${config.darkGray};
   margin-top: ${(props) => (props.isMeta ? '0' : '')};
   border-bottom: ${(props) => (props.isMeta ? `${config.lightBorder}` : '')};

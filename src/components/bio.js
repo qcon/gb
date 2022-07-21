@@ -44,7 +44,7 @@ const TextItem = styled.li`
   p {
     margin-top: 0px;
   }
-`
+` /* eslint import/no-anonymous-default-export: [2, {"allowArrowFunction": true}] */
 export default ({ author, lastPosts }) => {
   const boss = config.activeBosse.get(author)
   return (

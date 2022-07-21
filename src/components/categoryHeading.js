@@ -17,12 +17,12 @@ const Item = styled.li`
   display: inline-block;
   margin: 12px;
   a {
-    border: ${props =>
+    border: ${(props) =>
       props.active ? `2px solid ${config.glossbossBlue}` : ''};
     padding: 0.4rem 1.1rem;
     ${CardStyle}
     text-decoration: none;
-    color: ${props => (props.active ? config.black : config.darkGray)};
+    color: ${(props) => (props.active ? config.black : config.darkGray)};
     &:hover {
       transition: 200ms;
       color: ${config.black};
@@ -33,7 +33,7 @@ const Item = styled.li`
     margin: 8px;
     font-size: 14px;
   }
-`
+` /* eslint import/no-anonymous-default-export: [2, {"allowArrowFunction": true}] */
 export default ({ category }) => {
   return (
     <Wrapper
@@ -42,7 +42,7 @@ export default ({ category }) => {
       itemType="http://schema.org/SiteNavigationElement"
     >
       <Item>Filter: </Item>
-      {config.categories.map(cat => {
+      {config.categories.map((cat) => {
         if (cat === 'Index') {
           return (
             <Item active={category === 'GLOSSBOSS'} key={cat}>

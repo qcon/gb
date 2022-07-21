@@ -1,5 +1,5 @@
 import React from 'react'
-
+/* eslint import/no-anonymous-default-export: [2, {"allowArrowFunction": true}] */
 export default ({ toggle }) => (
   <div>
     <svg enableBackground="new 0 0 50 50" viewBox="0 0 50 50">

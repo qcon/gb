@@ -15,7 +15,7 @@ const Breadcrumb = styled.ul`
 `
 const Item = styled.li`
   display: inline;
-`
+` /* eslint import/no-anonymous-default-export: [2, {"allowArrowFunction": true}] */
 export default ({ category, title }) => {
   return (
     <>

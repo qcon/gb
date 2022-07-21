@@ -38,7 +38,7 @@ const GLOSSBOSSsvgWrapper = styled.a`
   width: 100%;
   height: 100%;
 `
-
+/* eslint import/no-anonymous-default-export: [2, {"allowArrowFunction": true}] */
 export default ({ image, title, subTitle }) => (
   <Hero image={image}>
     <GLOSSBOSSsvgWrapper href="/">

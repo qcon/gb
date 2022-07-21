@@ -45,7 +45,7 @@ const Item = styled.div`
     }
   }
 `
-
+/* eslint import/no-anonymous-default-export: [2, {"allowArrowFunction": true}] */
 export default () => (
   <Container>
     <ScrollTop scrollStepInPx="100" delayInMs="16" />
@@ -136,7 +136,7 @@ export default () => (
         <Item>
           <strong>Kategorien</strong>
           <ul>
-            {config.categories.map(cat => {
+            {config.categories.map((cat) => {
               if (cat === 'Index') return null
               return (
                 <li key={cat}>

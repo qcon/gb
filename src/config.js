@@ -6,11 +6,11 @@ const config = {
   black: '#130027',
   lightGray: '#c3c3c3',
   lighterGray: 'rgba(0,0,0,.04)',
-  lighterLightGray: '#f9f9fa',
+  lighterLightGray: '#efeff2',
   darkGray: '#262626',
   linkColor: '#5a1aed',
   textColor: '#262626',
-  darkerGray: '#1C202f',
+  darkerGray: '#262626',
   lightBorder: '1px solid rgba(0, 0, 0, 0.09)',
   reloadPosts: 15,
   heroGradient: 'rgba(32.2%, 0%, 83.5%, .7)',
@@ -32,7 +32,7 @@ const config = {
     { href: '/mischungsrechner', title: 'Mischungsrechner' },
     { href: '/glossbosse', title: 'Glossbosse' },
   ],
-  siteUrl: 'https://glossboss.de/',
+  siteUrl: 'https://blog,glossboss.de/',
   addEmoji: require('./components/addEmoji'),
 }
 
