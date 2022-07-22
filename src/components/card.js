@@ -28,7 +28,7 @@ export const CardStyle = css`
   }
   border-radius: 0.35rem;
   background: ${config.lighterGray};
-  box-shadow: 5px 5px 35px #d4d4d420;
+  box-shadow: 5px 5px 14px #d4d4d478;
 `
 
 export const Cards = styled.ul`

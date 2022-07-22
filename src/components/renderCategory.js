@@ -78,7 +78,7 @@ class RenderCategory extends React.Component {
           <CategoryHeading category={this.props.title} />
         )}
         <Cards>
-          <Werbung />
+          {/*`<Werbung />`*/}
           {this.state.posts.slice(0, this.state.postsToShow).map((post, i) => {
             let generatedPostImageThumb = post.node.postImage
             if (
@@ -144,6 +144,7 @@ class RenderCategory extends React.Component {
               </CardItem>
             )
           })}
+          <Werbung />
         </Cards>
         {this.state.posts.length > this.state.postsToShow && (
           <LoadMore

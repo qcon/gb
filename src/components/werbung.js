@@ -9,7 +9,7 @@ import {
   CardSubTitle,
   CardTitleExternal,
   CardButtonExternal,
-  CardLinkAd
+  CardLinkAd,
 } from './card'
 
 const ads = [
@@ -18,55 +18,54 @@ const ads = [
     subTitle: 'ein Staubwedel um den Polierstaub zu entfernen',
     image:
       'https://glossbossimages.s3.eu-central-1.amazonaws.com/thumbnails/marvin/964schwarzmetfussocoat/P1020431.JPG',
-    link: 'https://glossboss-shop.de/Staubwedel?ref=gb.de'
+    link: 'https://glossboss-shop.de/Staubwedel?ref=gb.de',
   },
   {
     title: 'Maximale Abtragsleistung mit der Exzentermaschine',
     subTitle: 'Diese Politur macht eine Rotationsmaschine überflüssig',
     image:
       'https://glossbossimages.s3.eu-central-1.amazonaws.com/thumbnails/marvin/guide_mf_pads/DSC01919.jpg',
-    link: 'https://glossboss-shop.de/Nanolex-Heavy-Cut-Polish-Schleifpolitur-250ml-750ml?ref=gb'
+    link: 'https://glossboss-shop.de/Nanolex-Ultra-Cut-Polish-Schleifpolitur-250ml?ref=gb',
   },
   {
     image:
       'https://glossbossimages.s3.eu-central-1.amazonaws.com/thumbnails/alexbrose/E30_Pflegebericht/001.jpg',
     title: 'Die ultimative Allzweckwaffe für eingebrannten Dreck',
     subTitle: 'Hoch konzentrierter und günstiger Allzweckreiniger',
-    link: 'https://glossboss-shop.de/Koch-Chemie-Gs-Green-Star-Allzweckreiniger-APC-1-Liter?ref=gb'
+    link: 'https://glossboss-shop.de/Koch-Chemie-Gs-Green-Star-Allzweckreiniger-APC-1-Liter?ref=gb',
   },
   {
     image:
       'https://glossbossimages.s3.eu-central-1.amazonaws.com/thumbnails/jones/berichte/bmw_m6_coupe/0020.jpg',
     title: 'Garantiert Kratzfrei Waschen',
     subTitle: 'Dazu brauchst du nur dieses Hilfsmittel',
-    link: 'https://glossboss-shop.de/solo-Cleanline-301-FB-Schaumsprueher-Foamer-125L-pH-Bereich-7-14?ref=gb'
+    link: 'https://glossboss-shop.de/IK-Foam-Pro-2-Schaumsprueher?ref=gb',
   },
   {
     image:
       'https://glossbossuploader.s3.eu-central-1.amazonaws.com/thumbnails/Bu0ACzB6aeqL_xIl4hqwZ-pinsel/pinsel.jpg',
     title: 'Die schonenste Reinigung für den Innenraum',
     subTitle: 'Super-Soft Pinsel für Klavierlack und co',
-    link: 'https://glossboss-shop.de/Super-Soft-Pinsel-SET?ref=gb.de'
+    link: 'https://glossboss-shop.de/Super-Soft-Pinsel-SET?ref=gb.de',
   },
   {
     image:
       'https://glossbossuploader.s3.eu-central-1.amazonaws.com/thumbnails/SQ3ddjOC6dJ4dc65T0V8S-rag/IMG_0878.jpg',
     title: 'NEUENTWICKLUNG: Trockentuch von The Rag Company',
     subTitle: 'Mit einzigartiger funktion (The Gauntlet)',
-    link:
-      'https://glossboss-shop.de/The-Rag-Company-The-GAUNTLET-Trockentuch-50x75cm?ref=gb.de'
-  }
+    link: 'https://glossboss-shop.de/The-Rag-Company-The-GAUNTLET-Trockentuch-50x75cm?ref=gb.de',
+  },
 ]
 export default class Werbung extends React.Component {
   constructor() {
     super()
     this.state = {
-      ad: {}
+      ad: {},
     }
   }
   componentDidMount() {
     this.setState({
-      ad: ads[Math.floor(Math.random() * ads.length)]
+      ad: ads[Math.floor(Math.random() * ads.length)],
     })
   }
   render() {

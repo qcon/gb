@@ -62,8 +62,8 @@ const PostWrapper = styled.div`
   padding-top: 1rem;
   border-radius: ${config.borderRadius};
   @media (max-width: 66rem) {
-    margin: 0;
-    padding: 1rem;
+    margin: 16px;
+    padding: 0.75rem;
     padding-top: 0.5rem;
   }
 `
@@ -73,7 +73,7 @@ const MetaWrapper = styled.div`
   padding-top: 1rem;
   border-radius: ${config.borderRadius};
   @media (max-width: 66rem) {
-    margin: 0;
+    margin: 16px;
   }
 `
 const PostMeta = styled.p`
