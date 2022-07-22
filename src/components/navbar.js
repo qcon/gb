@@ -48,7 +48,7 @@ const NavbarListItem = styled.li`
     color: ${(props) =>
       props.active ? `${config.glossbossBlue} !important` : config.textColor};
     color: ${config.glossbossBlue};
-    font-weight: 900;
+    font-weight: 700;
     text-decoration: none;
     font-size: 1rem;
     margin: ${(props) => (props.hasIcons ? '0 10px' : '0')};

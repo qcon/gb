@@ -19,7 +19,7 @@ moment.locale('de')
 injectGlobal`
 h1,h2,h3,h4,h5,h6 {
   color: ${config.glossbossBlue};
-  font-weight: 900;
+  font-weight: 800;
 }
   .yt-container {
     max-width: 100%;

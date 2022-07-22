@@ -30,7 +30,7 @@ export default () => (
           href="https://glossboss-shop.de?ref=gb.de"
           title="GLOSSBOSS Detailing Shop"
         >
-          https://glossboss-shop.de
+          glossboss-shop.de
         </a>{' '}
         <span role="img" aria-label="Schwamm">
           🧼

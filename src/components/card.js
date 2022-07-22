@@ -94,7 +94,7 @@ export const CardImageExternal = CardImage.withComponent('div')
 export const CardTitle = styled(Link)`
   color: ${config.linkColor};
   font-size: 1.65rem;
-  font-weight: 900;
+  font-weight: 800;
   letter-spacing: 1px;
   text-decoration: none;
 `
@@ -126,7 +126,7 @@ export const CardButton = styled(Link)`
   text-align: center;
   display: block;
   width: 100%;
-  font-weight: 900;
+  font-weight: 600;
   max-width: 150px;
   margin: ${(props) => (props.isLoadMore ? '50px 0' : '25px 0 15px 0')};
   border-radius: 7px;

@@ -29,10 +29,7 @@ const config = {
     'Produkttest',
   ],
   activeBosse: require('./data/glossbosse'),
-  navbarLinks: [
-    { href: '/mischungsrechner', title: 'Mischungsrechner' },
-    { href: '/glossbosse', title: 'Glossbosse' },
-  ],
+  navbarLinks: [{ href: '/mischungsrechner', title: 'Mischungsrechner' }],
   siteUrl: 'https://blog,glossboss.de/',
   addEmoji: require('./components/addEmoji'),
 }
