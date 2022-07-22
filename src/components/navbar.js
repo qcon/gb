@@ -18,7 +18,9 @@ const Navbar = styled.div`
   padding: 15px;
   font-size: 1.55em;
   z-index: 3;
-  //box-shadow: 0px 4px 6px -3px rgba(0, 0, 0, 0.3);
+  @media (max-width: ${config.mobileMQ}) {
+    padding: 0;
+  }
 `
 
 const NavbarList = styled.ul`
@@ -83,7 +85,7 @@ const NavbarListItemToggle = styled.div`
     }
   }
   @media (max-width: ${config.mobileMQ}) {
-    top: 30px;
+    top: 17px;
     display: flex;
     justify-content: center;
     align-items: center;

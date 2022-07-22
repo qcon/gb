@@ -7,9 +7,9 @@ import config from '../config'
 
 const showCard = keyframes`
 0% {
-  transform: scale(.95);
+  transform: scale(.99);
   opacity: 0;
-  top: 70px;
+  top: 25px;
     position: relative;
 }
 100% {
@@ -24,13 +24,12 @@ export const CardStyle = css`
   transition: 200ms ease-in-out;
   &:hover {
     transition: 150ms ease-in-out;
-    background: #fafbfc;
+    background: #f0f2f4;
   }
   border-radius: 0.35rem;
   background: ${config.lighterGray};
   box-shadow: 5px 5px 35px #d4d4d420;
 `
-// box-shadow: 2px 2px 12px #d4d4d4, -5px -5px 15px #ffffff;
 
 export const Cards = styled.ul`
   display: flex;
@@ -42,15 +41,18 @@ export const Cards = styled.ul`
 export const CardItem = styled.li`
   display: flex;
   width: 100%;
-  padding: 1.5rem;
+  padding: 1.2rem;
   margin: ${(props) => props.isPost && '0 auto'};
+  @media (max-width: ${config.mobileMQ}) {
+    padding: 1rem;
+  }
   @media (min-width: 45rem) {
     width: 50%;
   }
   @media (min-width: 66rem) {
     width: ${(props) => !props.isPost && '33.3333%'};
   }
-  animation: ${showCard} 700ms ease-in-out 1;
+  animation: ${showCard} 400ms ease-in-out 1;
 `
 export const Card = styled.div`
   ${CardStyle};
@@ -73,11 +75,14 @@ export const CardImage = styled(Link)`
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  border-top-left-radius: 0.25rem;
-  border-top-right-radius: 0.25rem;
+  margin: 1rem;
+  border-radius: 0.45rem;
   overflow: hidden;
   position: relative;
-  transition: filter 0.5s cubic-bezier(0.43, 0.41, 0.22, 0.91);
+  transition: transform 0.2s cubic-bezier(0.43, 0.41, 0.22, 0.91);
+  &:hover {
+    transform: scale(1.05);
+  }
   &::before {
     content: '';
     display: block;
