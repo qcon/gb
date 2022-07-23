@@ -11,10 +11,6 @@ class Html extends React.Component {
           <title>GLOSSBOSS</title>
           <meta name="viewport" content="width=device-width, initial-scale=1" />
           <link rel="icon" href="/favicon.ico" type="image/x-icon" />
-          <link
-            href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap"
-            rel="stylesheet"
-          ></link>
           <meta
             name="description"
             content="Glossboss.de - Produkttests, Anleitungen, Pflegeberichte und viel mehr - Ein Autopflegeblog von und für absolute Enthusiasten"

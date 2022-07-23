@@ -6,12 +6,12 @@
   "scripts": {
     "dev": "gatsby develop",
     "buildtest": "rimraf public && gatsby build",
-    "deploy": "npm run build && vercel --prod",
+    "deploy": "npm run build && vercel ./public --prod",
     "alias": "now alias && now rm glossboss.de --safe",
     "now-build": "npm run build",
     "starts": "NODE_OPTIONS='-r esm' gatsby develop -p 9988 -o",
     "builds": "NODE_OPTIONS='-r esm' gatsby build",
-    "build": "gatsby build",
+    "build": "gatsby clean && gatsby build",
     "serves": "NODE_OPTIONS='-r esm' gatsby serve -p 9500 -o",
     "serve": "gatsby serve -p 9500 -o",
     "clean": "gatsby clean"
