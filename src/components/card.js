@@ -24,11 +24,11 @@ export const CardStyle = css`
   transition: 200ms ease-in-out;
   &:hover {
     transition: 150ms ease-in-out;
-    background: #f0f2f4;
+    background: #fbfbfb;
   }
   border-radius: 0.35rem;
   background: ${config.lighterGray};
-  box-shadow: 5px 5px 14px #d4d4d478;
+  box-shadow: 5px 5px 14px #d4d4d457;
 `
 
 export const Cards = styled.ul`
@@ -81,7 +81,7 @@ export const CardImage = styled(Link)`
   position: relative;
   transition: transform 0.2s cubic-bezier(0.43, 0.41, 0.22, 0.91);
   &:hover {
-    transform: scale(1.05);
+    transform: scale(1.02);
   }
   &::before {
     content: '';
@@ -95,7 +95,7 @@ export const CardTitle = styled(Link)`
   color: ${config.linkColor};
   font-size: 1.65rem;
   font-weight: 800;
-  letter-spacing: 1px;
+  letter-spacing: 0.025rem;
   text-decoration: none;
 `
 export const CardTitleExternal = CardTitle.withComponent('div')

@@ -8,7 +8,6 @@ const Arrow = styled.span`
   color: white;
 `
 const Scroll = styled.button`
-  opacity: 0.3;
   background-color: ${config.glossbossBlue};
   width: 40px;
   height: 40px;
@@ -17,9 +16,9 @@ const Scroll = styled.button`
   right: 10px;
   border-radius: 5px;
   border: none;
-
+  transition: 100ms ease-in-out;
   &:hover {
-    opacity: 1;
+    transform: translateY(-10px);
   }
 `
 
@@ -29,7 +28,7 @@ export default class ScrollTop extends React.Component {
 
     this.state = {
       intervalId: 0,
-      steps: 0
+      steps: 0,
     }
   }
 
@@ -41,7 +40,7 @@ export default class ScrollTop extends React.Component {
       clearInterval(this.state.intervalId)
     }
     //accelerate
-    this.setState(prevState => {
+    this.setState((prevState) => {
       steps: prevState.steps++
     })
     window.scroll(

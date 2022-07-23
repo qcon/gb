@@ -13,7 +13,7 @@ import ShopAd from '../components/shopAd'
 
 injectGlobal`
   body {
-    background-color: #ffffff;
+    background-color: #f2f3f7;
     font-size: 16px;
     line-height: 1.5;
     margin: 0;

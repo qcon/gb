@@ -18,6 +18,7 @@ const Navbar = styled.div`
   padding: 15px;
   font-size: 1.55em;
   z-index: 3;
+  box-shadow: 5px 5px 14px #d4d4d425;
   @media (max-width: ${config.mobileMQ}) {
     padding: 0;
   }

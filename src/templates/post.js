@@ -6,6 +6,7 @@ import 'moment/locale/de'
 import styled from '@emotion/styled'
 import { injectGlobal } from '@emotion/css'
 import dateFormat from 'dateformat'
+import { CardStyle } from '../components/card'
 
 import MainLayout from '../components/layout'
 import Breadcrumb from '../components/breadcrumb'
@@ -61,6 +62,7 @@ const PostWrapper = styled.div`
   padding: 2rem;
   padding-top: 1rem;
   border-radius: ${config.borderRadius};
+  box-shadow: 5px 5px 14px #d4d4d44b;
   @media (max-width: 66rem) {
     margin: 16px;
     padding: 0.75rem;
@@ -92,6 +94,12 @@ const WerbungNotification = styled.div`
   color: ${config.lightGray};
 `
 
+const ShareButton = styled.span`
+  position: relative;
+  top: 0;
+  right: 0;
+`
+
 class PostTemplate extends React.Component {
   render() {
     const postData = this.props.data.contentfulPost
@@ -120,6 +128,7 @@ class PostTemplate extends React.Component {
         </MetaWrapper>
 
         <PostWrapper>
+          <ShareButton></ShareButton>
           <h1>{title}</h1>
           <h2>{subTitle}</h2>
           <div
@@ -131,10 +140,12 @@ class PostTemplate extends React.Component {
           <Werbung isPost />
         </WerbungWrapper>
         {config.activeBosse.has(author) ? (
-          <Bio
-            author={author}
-            lastPosts={this.props.data.morePostsFromAuthor.edges}
-          />
+          <>
+            <Bio
+              author={author}
+              lastPosts={this.props.data.morePostsFromAuthor.edges}
+            />
+          </>
         ) : (
           ''
         )}

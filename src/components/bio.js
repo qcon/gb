@@ -48,26 +48,28 @@ const TextItem = styled.li`
 export default ({ author, lastPosts }) => {
   const boss = config.activeBosse.get(author)
   return (
-    <Bio>
-      <BioMeta>
-        <ImageItem>
-          <Link to={`/glossbosse/${author.toLowerCase()}`}>
-            {boss.image ? (
-              <img src={boss.image} alt={author} />
-            ) : (
-              <Logo width={180} />
-            )}
-          </Link>
-        </ImageItem>
-        <TextItem>
-          <p>
+    <>
+      <Bio>
+        <BioMeta>
+          <ImageItem>
             <Link to={`/glossbosse/${author.toLowerCase()}`}>
-              <strong>{author}</strong>
+              {boss.image ? (
+                <img src={boss.image} alt={author} />
+              ) : (
+                <Logo width={180} />
+              )}
             </Link>
-          </p>
-          <p>{boss.description}</p>
-        </TextItem>
-      </BioMeta>
-    </Bio>
+          </ImageItem>
+          <TextItem>
+            <p>
+              <Link to={`/glossbosse/${author.toLowerCase()}`}>
+                <strong>{author}</strong>
+              </Link>
+            </p>
+            <p>{boss.description}</p>
+          </TextItem>
+        </BioMeta>
+      </Bio>
+    </>
   )
 }
