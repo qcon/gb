@@ -1,18 +1,9 @@
 import React from 'react'
 import styled from '@emotion/styled'
-import Link from 'gatsby-link'
 import { navigate } from 'gatsby'
 
 import config from '../config'
-import { CardStyle } from './card'
 
-const Wrapper = styled.ul`
-  list-style: none;
-  padding: 0;
-  margin-bottom: 20px;
-  text-align: center;
-  letter-spacing: 0.05em;
-`
 const SelectButton = styled.select`
   border-radius: 0.35rem;
   background: ${config.lighterGray};
@@ -25,7 +16,7 @@ const SelectButton = styled.select`
   display: inline-block;
   line-height: 1.5em;
   padding: 0.5em 3.5em 0.5em 1em;
-  margin-left: 19px;
+  margin: 15px 19px;
   box-sizing: border-box;
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -51,28 +42,7 @@ const SelectButton = styled.select`
     outline: 0;
   }
 `
-
-const Item = styled.li`
-  display: inline-block;
-  margin: 12px;
-  a {
-    border: ${(props) =>
-      props.active ? `2px solid ${config.glossbossBlue}` : ''};
-    padding: 0.4rem 1.1rem;
-    ${CardStyle}
-    text-decoration: none;
-    color: ${(props) => (props.active ? config.black : config.darkGray)};
-    &:hover {
-      transition: 200ms;
-      color: ${config.black};
-    }
-  }
-
-  @media (max-width: ${config.mobileMQ}) {
-    margin: 8px;
-    font-size: 14px;
-  }
-` /* eslint import/no-anonymous-default-export: [2, {"allowArrowFunction": true}] */
+/* eslint import/no-anonymous-default-export: [2, {"allowArrowFunction": true}] */
 export default ({ category }) => {
   const handleChange = (e) => {
     const navigateTo =

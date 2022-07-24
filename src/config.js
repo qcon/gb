@@ -1,6 +1,6 @@
 const config = {
   glossbossBlue: '#5a1aed',
-  glossbossBlueLighter: '#7236ff',
+  glossbossBlueLighter: '#966bfa',
   glossbossBlueDarker: '#5620d5',
   imgHoverFilter: 'sepia(30%) brightness(70%)',
   black: '#130027',

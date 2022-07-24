@@ -29,7 +29,7 @@ const ContentWrapper = styled.div`
     display: inline;
   }
   @media (max-width: ${config.mobileMQ}) {
-    padding: 10px;
+    padding: 0;
     width: 100%;
   }
 `

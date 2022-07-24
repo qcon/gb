@@ -44,12 +44,14 @@ export const CardItem = styled.li`
   padding: 1.2rem;
   margin: ${(props) => props.isPost && '0 auto'};
   @media (max-width: ${config.mobileMQ}) {
-    padding: 1rem;
+    padding: 0 1rem;
   }
   @media (min-width: 45rem) {
     width: 50%;
+    padding: 0 1rem;
+    padding-bottom: 2rem;
   }
-  @media (min-width: 66rem) {
+  @media (min-width: 80rem) {
     width: ${(props) => !props.isPost && '33.3333%'};
   }
   animation: ${showCard} 400ms ease-in-out 1;

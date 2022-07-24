@@ -6,9 +6,9 @@ import ContentWrapper from './contentWrapper'
 
 const Container = styled.div`
   ${CardStyle};
-  margin: 50px 16px 90px 16px;
+  margin: 60px 16px 90px 16px;
   @media (max-width: 66rem) {
-    margin: 0 16px 0 16px;
+    margin: 20px 16px 25px 16px;
   }
   padding: 25px 20px;
 `

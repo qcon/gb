@@ -6,7 +6,6 @@ import 'moment/locale/de'
 import styled from '@emotion/styled'
 import { injectGlobal } from '@emotion/css'
 import dateFormat from 'dateformat'
-import { CardStyle } from '../components/card'
 
 import MainLayout from '../components/layout'
 import Breadcrumb from '../components/breadcrumb'
