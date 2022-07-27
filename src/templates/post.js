@@ -194,17 +194,15 @@ class PostTemplate extends React.Component {
             "itemListElement": [{
               "@type": "ListItem",
               "position": 1,
-              "item": {
-                "@id": "${config.siteUrl}${category}",
+                "item": "${config.siteUrl}${category}",
                 "name": "${category}"
-              }
+              
             }, {
               "@type": "ListItem",
               "position": 2,
-              "item": {
-                "@id": "${fullUrl}",
+                "item": "${fullUrl}",
                 "name": "${title}"
-              }
+              
             }]
           }
           </script>
