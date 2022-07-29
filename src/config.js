@@ -22,6 +22,7 @@ const config = {
   categoryPages: require('./data/categories'),
   categories: [
     'Index',
+    'News',
     'Videos',
     'Podcast',
     'Allgemein',

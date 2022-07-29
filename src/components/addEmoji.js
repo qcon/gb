@@ -1,4 +1,4 @@
-const addEmoji = cat => {
+const addEmoji = (cat) => {
   switch (cat) {
     case 'Podcast':
       return 'Podcast 🎙'
@@ -12,6 +12,8 @@ const addEmoji = cat => {
       return 'Pflegeberichte 🚗'
     case 'Allgemein':
       return 'Allgemein 🤷🏻‍♂️'
+    case 'News':
+      return 'News 📣'
     default:
       return cat
   }
