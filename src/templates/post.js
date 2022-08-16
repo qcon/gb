@@ -117,6 +117,10 @@ class PostTemplate extends React.Component {
           <meta property="og:title" content={title} />
           <meta property="og:url" content={fullUrl} />
           <meta property="og:image" content={postImage} />
+          <meta
+            name="description"
+            content={`${category} / ${title} - ${subTitle}`}
+          ></meta>
         </Helmet>
         <MetaWrapper>
           <Breadcrumb title={title} category={category} />
