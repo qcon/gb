@@ -26,7 +26,13 @@ export default ({ category, title }) => {
         <Item>
           <Link to={'/' + category.toLowerCase()}>{category}</Link>
         </Item>
-        <Item>{title}</Item>
+        <Item
+          onClick={() => {
+            navigator.clipboard.writeText(window.location.href)
+          }}
+        >
+          {title}
+        </Item>
       </Breadcrumb>
     </>
   )

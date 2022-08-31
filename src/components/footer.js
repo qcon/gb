@@ -11,7 +11,7 @@ import config from '../config'
 const Container = styled.div`
   ${CardStyle};
   width: 100%;
-  padding: 50px 0;
+  padding: 50px 20px;
   margin-top: 100px;
 `
 

@@ -65,6 +65,9 @@ export const Card = styled.div`
   a {
     text-decoration: none;
   }
+  @media (max-width: ${config.mobileMQ}) {
+    margin-bottom: 1.75rem;
+  }
 `
 export const CardContent = styled.div`
   display: flex;
@@ -105,7 +108,6 @@ export const CardText = styled.p`
   flex: ${(props) => (props.isMeta ? '' : '1 1 0')};
   font-size: 15px;
   line-height: 1.5;
-  margin-bottom: 1.15rem;
   color: ${config.darkGray};
   margin-top: ${(props) => (props.isMeta ? '0' : '')};
   border-bottom: ${(props) => (props.isMeta ? `${config.lightBorder}` : '')};
@@ -118,6 +120,7 @@ export const CardText = styled.p`
 `
 export const CardSubTitle = styled(CardText)`
   font-size: 16px;
+  margin-top: 5px;
 `
 export const CardButton = styled(Link)`
   text-decoration: none;

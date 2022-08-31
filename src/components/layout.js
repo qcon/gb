@@ -52,9 +52,9 @@ const Main = styled.div`
   margin: 0 auto;
   width: 100%;
   height: 100%;
-  margin-top: 120px;
+  margin-top: 97px;
   @media (max-width: ${config.mobileMQ}) {
-    margin-top: 70px;
+    margin-top: 60px;
   }
 `
 

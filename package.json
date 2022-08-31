@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "gatsby develop",
     "buildtest": "rimraf public && gatsby build",
-    "deploy": "npm run build && vercel ./public --prod",
+    "deploys": "npm run build && vercel ./public --prod",
+    "deploy": "vercel --prod",
     "alias": "now alias && now rm glossboss.de --safe",
     "now-build": "npm run build",
     "starts": "NODE_OPTIONS='-r esm' gatsby develop -p 9988 -o",

@@ -3,14 +3,18 @@ import styled from '@emotion/styled'
 
 import { CardStyle } from '../components/card'
 import ContentWrapper from './contentWrapper'
+import config from '../config'
 
 const Container = styled.div`
   ${CardStyle};
-  margin: 60px 16px 90px 16px;
+  margin: 60px 16px 45px 16px;
   @media (max-width: 66rem) {
     margin: 20px 16px 25px 16px;
   }
   padding: 25px 20px;
+  @media (max-width: ${config.mobileMQ}) {
+    font-size: 14px;
+  }
 `
 
 const InnerWrapper = styled.div`

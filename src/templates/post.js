@@ -93,12 +93,6 @@ const WerbungNotification = styled.div`
   color: ${config.lightGray};
 `
 
-const ShareButton = styled.span`
-  position: relative;
-  top: 0;
-  right: 0;
-`
-
 class PostTemplate extends React.Component {
   render() {
     const postData = this.props.data.contentfulPost
@@ -107,7 +101,12 @@ class PostTemplate extends React.Component {
     const fullUrl =
       config.siteUrl + fields.fullUrl.slice(1, fields.fullUrl.length)
     return (
-      <MainLayout image={postImage} isPostPage>
+      <MainLayout
+        image={postImage}
+        title={title}
+        subTitle={subTitle}
+        isPostPage
+      >
         <Helmet>
           <title>
             {category} / {title} - {subTitle}
@@ -129,11 +128,7 @@ class PostTemplate extends React.Component {
             {dateFormat(fields.prettyDate, 'dd.mm.yyyy')}
           </PostMeta>
         </MetaWrapper>
-
         <PostWrapper>
-          <ShareButton></ShareButton>
-          <h1>{title}</h1>
-          <h2>{subTitle}</h2>
           <div
             dangerouslySetInnerHTML={{ __html: body.childMarkdownRemark.html }}
           />
