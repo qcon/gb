@@ -1,7 +1,7 @@
 require('now-env')
 module.exports = {
   siteMetadata: {
-    siteUrl: `https://glossboss.de`,
+    siteUrl: `https://blog.glossboss.de`,
   },
   plugins: [
     'gatsby-plugin-emotion',
