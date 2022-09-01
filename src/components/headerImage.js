@@ -13,7 +13,7 @@ const Hero = styled.div`
   background: ${(props) =>
     props.image
       ? `${gradient},url("${props.image}") center 50% no-repeat`
-      : '#8c73a7'};
+      : `${config.heroGradient}`};
   transition: 200ms;
   // mask-image: linear-gradient(to bottom, black 45%, transparent 95%);
   background-size: cover;

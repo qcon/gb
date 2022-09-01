@@ -108,11 +108,14 @@ export const CardText = styled.p`
   flex: ${(props) => (props.isMeta ? '' : '1 1 0')};
   font-size: 15px;
   line-height: 1.5;
-  color: ${config.darkGray};
+  color: ${(props) =>
+    props.isMeta ? `${config.lightGray}` : `${config.darkGray}`};
   margin-top: ${(props) => (props.isMeta ? '0' : '')};
   border-bottom: ${(props) => (props.isMeta ? `${config.lightBorder}` : '')};
+  font-weight: 500;
   a {
-    color: ${config.darkerGray};
+    color: inherit;
+    // color: ${config.darkerGray};
     &:hover {
       color: ${config.glossbossBlue};
     }
