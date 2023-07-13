@@ -1,7 +1,7 @@
 const bosse = new Map()
 bosse.set('Marvin', {
   description:
-    'Marvin Mieth betreibt die Fahrzeugpflege seit 2008 und bietet professionelle Aufbereitungen seit 2010 in 46284 Dorsten gewerblich an. Als Gründer von glossboss.de gibt er Anfängern sowie Fortgeschrittenen und Profis Tipps und Tricks und blogt über allgemeine Themen der Autopflege. Momentan legt Marvin den Fokus auf Videoproduktionen auf dem YouTube Kanal von GLOSSBOSS und dem Pflegemittelshop GLOSSBOSS-Shop.de',
+    'Marvin Mieth betreibt die Fahrzeugpflege seit 2008 und bietet professionelle Aufbereitungen seit 2010 in 46284 Dorsten gewerblich an. Als Gründer von glossboss.de gibt er Anfängern sowie Fortgeschrittenen und Profis Tipps und Tricks und blogt über allgemeine Themen der Autopflege. Momentan legt Marvin den Fokus auf Videoproduktionen auf dem YouTube Kanal von GLOSSBOSS und dem Pflegemittelshop glossboss.de',
   image:
     'https://glossbossimages.s3.eu-central-1.amazonaws.com/marvin/sonstige/marvin.jpg',
   mail: 'marvin@glossboss.de',

@@ -31,10 +31,10 @@ export default () => (
         </span>{' '}
         Besuche unseren Detailing Shop auf{' '}
         <a
-          href="https://glossboss-shop.de?ref=gb.de"
+          href="https://glossboss.de?ref=gb.de"
           title="GLOSSBOSS Detailing Shop"
         >
-          glossboss-shop.de
+          glossboss.de
         </a>{' '}
         <span role="img" aria-label="Schwamm">
           🧼

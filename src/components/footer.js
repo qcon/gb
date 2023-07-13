@@ -129,7 +129,7 @@ export default () => (
               <Link to="/glossbosse">Glossbosse</Link>
             </li>
             <li>
-              <a href="https://glossboss-shop.de">GLOSSBOSS SHOP</a>
+              <a href="https://glossboss.de">GLOSSBOSS SHOP</a>
             </li>
           </ul>
         </Item>

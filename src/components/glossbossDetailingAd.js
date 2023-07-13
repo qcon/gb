@@ -32,10 +32,10 @@ export default () => (
     <strong>10% Rabatt</strong> auf{' '}
     <a
       target="_blank"
-      href="https://glossboss-shop.de/?ref=papa"
+      href="https://glossboss.de/?ref=papa"
       rel="noopener noreferrer"
     >
-      glossboss-shop.de
+      glossboss.de
     </a>{' '}
     <span role="img" aria-label="Herz">
       ❤️
